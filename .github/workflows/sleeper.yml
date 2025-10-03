@@ -2,7 +2,7 @@ name: Sleeper sync (multi-league)
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 * * * *"   # hourly UTC
   workflow_dispatch: {}
 
 permissions:
@@ -11,36 +11,41 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1                 # <- make matrix jobs run one after another
-      matrix:
-        league: ["1265837618587762688","1181689020258160640"]
-
+    env:
+      LEAGUES: "1265837618587762688 1181689020258160640"  # non-keeper, keeper
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
+      - name: Check out repo
+        uses: actions/checkout@v4
 
-      - name: Export league ${{ matrix.league }}
-        env: { LID: ${{ matrix.league }} }
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Export all leagues
         run: |
           set -euo pipefail
           shopt -s nullglob
           mkdir -p docs
-          python sleeper_sync.py --league "$LID" --out ./docs
-          FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
-          cp "$FILE" "./docs/league_state_${LID}.json"
-          env LID="$LID" python - << 'PY'
-          import os, pathlib, html
-          lid = os.environ["LID"]
-          p = pathlib.Path(f'docs/league_state_{lid}.json')
-          data = p.read_text(encoding='utf-8')
-          html_doc = (
-            '<!doctype html><meta charset="utf-8"><title>league_state</title>'
-            f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
-          )
-          pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
-          PY
+          for LID in $LEAGUES; do
+            echo "==> Exporting $LID"
+            python sleeper_sync.py --league "$LID" --out ./docs
+            FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
+            cp "$FILE" "./docs/league_state_${LID}.json"
+
+            # HTML mirror (for Pages)
+            CUR_LID="$LID" python - << 'PY'
+            import os, pathlib, html
+            lid = os.environ["CUR_LID"]
+            p = pathlib.Path(f'docs/league_state_{lid}.json')
+            data = p.read_text(encoding='utf-8')
+            html_doc = (
+              '<!doctype html><meta charset="utf-8"><title>league_state</title>'
+              f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
+            )
+            pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
+            PY
+          done
 
       - name: Build index.html
         run: |
@@ -66,6 +71,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data" || echo "No changes"
-          git pull --rebase origin main    # <- grab any upstream commit from the other job
+          git commit -m "update league data (both leagues)" || echo "No changes"
           git push
