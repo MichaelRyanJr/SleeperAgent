@@ -21,27 +21,32 @@ jobs:
           python-version: "3.11"
 
       - name: Export league ${{ matrix.league }}
+        env:
+          LID: ${{ matrix.league }}
         run: |
           set -euo pipefail
           shopt -s nullglob
           mkdir -p docs
-          python sleeper_sync.py --league ${{ matrix.league }} --out ./docs
-          files=(./docs/league_${{ matrix.league }}_*/league_state.json)
-          cp "${files[0]}" "./docs/league_state_${{ matrix.league }}.json"
-          # HTML mirror so ChatGPT can fetch it from Pages
+          # Run the exporter (auto-detects season)
+          python sleeper_sync.py --league "$LID" --out ./docs
+          # Copy to a stable per-league filename
+          FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
+          cp "$FILE" "./docs/league_state_${LID}.json"
+          # HTML mirror (handy if a raw link isn't available)
           python - << 'PY'
-          import json, html, pathlib, sys
-          lid = sys.argv[1]
+          import os, pathlib, html
+          lid = os.environ["LID"]
           p = pathlib.Path(f'docs/league_state_{lid}.json')
           data = p.read_text(encoding='utf-8')
           html_doc = (
             '<!doctype html><meta charset="utf-8"><title>league_state</title>'
-            f'<h1>league_state_{lid}.json (mirror)</h1><pre>'
-            + html.escape(data) + '</pre>'
+            f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
           )
           pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
           PY
-          "${{ matrix.league }}"
+
+      - name: Show docs contents
+        run: ls -R docs
 
       - name: Build index.html
         run: |
@@ -57,8 +62,7 @@ jobs:
             rows.append((name,lid,p.name,f'league_state_{lid}.html',ts))
           out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
           for name,lid,json_name,html_name,ts in rows:
-            out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code>'
-                       f' — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
+            out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
           out.append('</ul>')
           docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
