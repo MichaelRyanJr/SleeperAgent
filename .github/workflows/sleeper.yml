@@ -1,16 +1,19 @@
-name: Sleeper sync
+name: Sleeper sync (multi-league)
 
 on:
   schedule:
-    - cron: "0 * * * *"   # hourly, UTC. Adjust below.
-  workflow_dispatch: {}    # lets you run it manually the first time
+    - cron: "0 * * * *"   # hourly in UTC; adjust if you like
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # needed to commit league_state.json back
+  contents: write
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        league: ["1265837618587762688", "1181689020258160640"]  # add/remove IDs here
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -20,18 +23,40 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Export Sleeper league snapshot
+      - name: Sanity check script header
+        run: head -n 5 sleeper_sync.py
+
+      - name: Export league ${{ matrix.league }}
         run: |
           mkdir -p docs
-          python sleeper_sync.py --league 1265837618587762688 --season 2025 --out ./docs
-          cp ./docs/league_1265837618587762688_2025/league_state.json ./docs/league_state.json
-          # tiny index that redirects to the JSON (handy to click)
-          printf '<meta http-equiv="refresh" content="0; url=league_state.json">' > docs/index.html
+          # season omitted -> script auto-detects from league API
+          python sleeper_sync.py --league ${{ matrix.league }} --out ./docs
+          # copy the compact summary to a stable per-league filename
+          cp ./docs/league_${{ matrix.league }}_*/*league_state.json ./docs/league_state_${{ matrix.league }}.json
+
+      - name: Build index.html with links and timestamps
+        run: |
+          python - << 'PY'
+          import json, pathlib, glob, html
+          docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
+          rows = []
+          for p in sorted(docs.glob('league_state_*.json')):
+            data = json.loads(p.read_text('utf-8'))
+            league_id = data.get('league',{}).get('league_id')
+            name = data.get('league',{}).get('name','League')
+            ts = data.get('generated_at','')
+            rows.append((name, league_id, p.name, ts))
+          out = ['<!doctype html>', '<meta charset="utf-8">', '<title>SleeperAgent export</title>', '<h1>SleeperAgent export</h1>', '<ul>']
+          for name, lid, fname, ts in rows:
+            out.append(f'<li><a href="{fname}">{html.escape(name)} (ID {lid})</a> — updated <code>{html.escape(ts)}</code></li>')
+          out.append('</ul>')
+          pathlib.Path('docs/index.html').write_text('\n'.join(out), encoding='utf-8')
+          PY
 
       - name: Commit & push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data" || echo "No changes to commit"
+          git commit -m "update league data (multi)" || echo "No changes to commit"
           git push
