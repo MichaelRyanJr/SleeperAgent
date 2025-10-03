@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-03T20:15:05.657525Z",
+  "generated_at": "2025-10-03T21:11:52.259163Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1185,7 +1185,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -1243,7 +1243,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -2418,7 +2418,7 @@
         "6813",
         "5045",
         "9500",
-        "9480",
+        "12498",
         "8408",
         "4227",
         "ARI"
@@ -2485,10 +2485,10 @@
           "keeper": true
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
-          "team": "JAX",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -2543,14 +2543,6 @@
           "keeper": false
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -2579,6 +2571,14 @@
           "name": "Justin Fields",
           "position": "QB",
           "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
