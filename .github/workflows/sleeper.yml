@@ -1,0 +1,37 @@
+name: Sleeper sync
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # hourly, UTC. Adjust below.
+  workflow_dispatch: {}    # lets you run it manually the first time
+
+permissions:
+  contents: write          # needed to commit league_state.json back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Export Sleeper league snapshot
+        run: |
+          mkdir -p docs
+          python sleeper_sync.py --league 1265837618587762688 --season 2025 --out ./docs
+          cp ./docs/league_1265837618587762688_2025/league_state.json ./docs/league_state.json
+          # tiny index that redirects to the JSON (handy to click)
+          printf '<meta http-equiv="refresh" content="0; url=league_state.json">' > docs/index.html
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "update league data" || echo "No changes to commit"
+          git push
