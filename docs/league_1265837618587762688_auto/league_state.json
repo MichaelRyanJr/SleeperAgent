@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-03T14:13:20.774852Z",
+  "generated_at": "2025-10-03T15:14:16.834855Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1284,8 +1284,8 @@
       },
       "starters_current": [
         "3163",
-        "11584",
         "0",
+        "9506",
         "7564",
         "11635",
         "7002",
@@ -1308,7 +1308,7 @@
         "7002",
         "7564",
         "7567",
-        "8125",
+        "9506",
         "ARI"
       ],
       "starters": [
@@ -1321,11 +1321,11 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "9506",
+          "name": "Sean Tucker",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1378,6 +1378,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
+          "keeper": false
+        },
         {
           "player_id": "4018",
           "name": "Joe Mixon",
@@ -1432,14 +1440,6 @@
           "position": "RB",
           "team": "PIT",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8125",
-          "name": "Calvin Austin",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Questionable",
           "keeper": false
         }
       ],
