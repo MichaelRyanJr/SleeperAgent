@@ -29,18 +29,18 @@ jobs:
           shopt -s nullglob
           mkdir -p docs
 
-          # Prepare a small Python script once; we'll reuse it in the loop
-          cat > /tmp/mirror.py <<'PY'
-import os, pathlib, html
-lid = os.environ["CUR_LID"]
-p = pathlib.Path(f'docs/league_state_{lid}.json')
-data = p.read_text(encoding='utf-8')
-html_doc = (
-  '<!doctype html><meta charset="utf-8"><title>league_state</title>'
-  f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
-)
-pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
-PY
+          # Prepare a small Python script once; reuse it in the loop
+          cat > /tmp/mirror.py << 'PY'
+          import os, pathlib, html
+          lid = os.environ["CUR_LID"]
+          p = pathlib.Path(f'docs/league_state_{lid}.json')
+          data = p.read_text(encoding='utf-8')
+          html_doc = (
+              '<!doctype html><meta charset="utf-8"><title>league_state</title>'
+              f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
+          )
+          pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
+          PY
 
           for LID in $LEAGUES; do
             echo "==> Exporting $LID"
@@ -57,14 +57,14 @@ PY
           docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
           rows=[]
           for p in sorted(docs.glob('league_state_*.json')):
-            data=json.loads(p.read_text('utf-8'))
-            lid=data.get('league',{}).get('league_id')
-            name=data.get('league',{}).get('name','League')
-            ts=data.get('generated_at','')
-            rows.append((name,lid,p.name,f'league_state_{lid}.html',ts))
+              data=json.loads(p.read_text('utf-8'))
+              lid=data.get('league',{}).get('league_id')
+              name=data.get('league',{}).get('name','League')
+              ts=data.get('generated_at','')
+              rows.append((name,lid,p.name,f'league_state_{lid}.html',ts))
           out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
           for name,lid,json_name,html_name,ts in rows:
-            out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
+              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
           out.append('</ul>')
           docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
@@ -74,4 +74,5 @@ PY
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (both leag
+          git commit -m "update league data (both leagues)" || echo "No changes"
+          git push
