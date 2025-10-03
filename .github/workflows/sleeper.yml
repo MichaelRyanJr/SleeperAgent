@@ -2,7 +2,7 @@ name: Sleeper sync (multi-league)
 
 on:
   schedule:
-    - cron: "0 * * * *"   # hourly in UTC; adjust if you like
+    - cron: "0 * * * *"      # hourly UTC; adjust if you like
   workflow_dispatch: {}
 
 permissions:
@@ -13,50 +13,60 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        league: ["1265837618587762688", "1181689020258160640"]  # add/remove IDs here
+        league: ["1265837618587762688","1181689020258160640"]  # non-keeper, keeper
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Sanity check script header
-        run: head -n 5 sleeper_sync.py
-
       - name: Export league ${{ matrix.league }}
         run: |
+          set -euo pipefail
+          shopt -s nullglob
           mkdir -p docs
-          # season omitted -> script auto-detects from league API
           python sleeper_sync.py --league ${{ matrix.league }} --out ./docs
-          # copy the compact summary to a stable per-league filename
-          cp ./docs/league_${{ matrix.league }}_*/*league_state.json ./docs/league_state_${{ matrix.league }}.json
+          files=(./docs/league_${{ matrix.league }}_*/league_state.json)
+          cp "${files[0]}" "./docs/league_state_${{ matrix.league }}.json"
+          # HTML mirror so ChatGPT can fetch it from Pages
+          python - << 'PY'
+          import json, html, pathlib, sys
+          lid = sys.argv[1]
+          p = pathlib.Path(f'docs/league_state_{lid}.json')
+          data = p.read_text(encoding='utf-8')
+          html_doc = (
+            '<!doctype html><meta charset="utf-8"><title>league_state</title>'
+            f'<h1>league_state_{lid}.json (mirror)</h1><pre>'
+            + html.escape(data) + '</pre>'
+          )
+          pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
+          PY
+          "${{ matrix.league }}"
 
-      - name: Build index.html with links and timestamps
+      - name: Build index.html
         run: |
           python - << 'PY'
-          import json, pathlib, glob, html
+          import json, pathlib, html
           docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
-          rows = []
+          rows=[]
           for p in sorted(docs.glob('league_state_*.json')):
-            data = json.loads(p.read_text('utf-8'))
-            league_id = data.get('league',{}).get('league_id')
-            name = data.get('league',{}).get('name','League')
-            ts = data.get('generated_at','')
-            rows.append((name, league_id, p.name, ts))
-          out = ['<!doctype html>', '<meta charset="utf-8">', '<title>SleeperAgent export</title>', '<h1>SleeperAgent export</h1>', '<ul>']
-          for name, lid, fname, ts in rows:
-            out.append(f'<li><a href="{fname}">{html.escape(name)} (ID {lid})</a> — updated <code>{html.escape(ts)}</code></li>')
+            data=json.loads(p.read_text('utf-8'))
+            lid=data.get('league',{}).get('league_id')
+            name=data.get('league',{}).get('name','League')
+            ts=data.get('generated_at','')
+            rows.append((name,lid,p.name,f'league_state_{lid}.html',ts))
+          out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
+          for name,lid,json_name,html_name,ts in rows:
+            out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code>'
+                       f' — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
           out.append('</ul>')
-          pathlib.Path('docs/index.html').write_text('\n'.join(out), encoding='utf-8')
+          docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
 
-      - name: Commit & push changes
+      - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (multi)" || echo "No changes to commit"
+          git commit -m "update league data (multi with html mirrors)" || echo "No changes"
           git push
