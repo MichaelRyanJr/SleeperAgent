@@ -29,7 +29,7 @@ jobs:
           shopt -s nullglob
           mkdir -p docs
 
-          # Prepare a small Python script once; reuse it in the loop
+          # Prepare a small Python script once; reuse it in the loop (build HTML mirror)
           cat > /tmp/mirror.py << 'PY'
           import os, pathlib, html
           lid = os.environ["CUR_LID"]
@@ -47,6 +47,13 @@ jobs:
             python sleeper_sync.py --league "$LID" --out ./docs
             FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
             cp "$FILE" "./docs/league_state_${LID}.json"
+
+            # Also publish draft picks so we can identify keepers from raw file if needed
+            if ls ./docs/league_${LID}_*/draft_picks.json >/dev/null 2>&1; then
+              FILE2=$(ls ./docs/league_${LID}_*/draft_picks.json | head -n 1)
+              cp "$FILE2" "./docs/draft_picks_${LID}.json"
+            fi
+
             CUR_LID="$LID" python /tmp/mirror.py
           done
 
@@ -61,10 +68,13 @@ jobs:
               lid=data.get('league',{}).get('league_id')
               name=data.get('league',{}).get('name','League')
               ts=data.get('generated_at','')
-              rows.append((name,lid,p.name,f'league_state_{lid}.html',ts))
+              picks = f'draft_picks_{lid}.json'
+              have_picks = docs.joinpath(picks).exists()
+              rows.append((name,lid,p.name,f'league_state_{lid}.html',ts,have_picks,picks))
           out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
-          for name,lid,json_name,html_name,ts in rows:
-              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a></li>')
+          for name,lid,json_name,html_name,ts,have_picks,picks in rows:
+              pick_link = f' | <a href="{picks}">draft_picks</a>' if have_picks else ''
+              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a>'+pick_link+'</li>')
           out.append('</ul>')
           docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
@@ -74,5 +84,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (both leagues)" || echo "No changes"
+          git commit -m "update league data (both leagues + picks)" || echo "No changes"
           git push
