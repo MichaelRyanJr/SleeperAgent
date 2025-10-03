@@ -23,28 +23,31 @@ jobs:
           python-version: "3.11"
 
       - name: Export all leagues
+        shell: bash
         run: |
           set -euo pipefail
           shopt -s nullglob
           mkdir -p docs
+
+          # Prepare a small Python script once; we'll reuse it in the loop
+          cat > /tmp/mirror.py <<'PY'
+import os, pathlib, html
+lid = os.environ["CUR_LID"]
+p = pathlib.Path(f'docs/league_state_{lid}.json')
+data = p.read_text(encoding='utf-8')
+html_doc = (
+  '<!doctype html><meta charset="utf-8"><title>league_state</title>'
+  f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
+)
+pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
+PY
+
           for LID in $LEAGUES; do
             echo "==> Exporting $LID"
             python sleeper_sync.py --league "$LID" --out ./docs
             FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
             cp "$FILE" "./docs/league_state_${LID}.json"
-
-            # HTML mirror (for Pages)
-            CUR_LID="$LID" python - << 'PY'
-            import os, pathlib, html
-            lid = os.environ["CUR_LID"]
-            p = pathlib.Path(f'docs/league_state_{lid}.json')
-            data = p.read_text(encoding='utf-8')
-            html_doc = (
-              '<!doctype html><meta charset="utf-8"><title>league_state</title>'
-              f'<h1>league_state_{lid}.json (mirror)</h1><pre>' + html.escape(data) + '</pre>'
-            )
-            pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
-            PY
+            CUR_LID="$LID" python /tmp/mirror.py
           done
 
       - name: Build index.html
@@ -71,5 +74,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (both leagues)" || echo "No changes"
-          git push
+          git commit -m "update league data (both leag
