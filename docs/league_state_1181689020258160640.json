@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T18:18:15.174844Z",
+  "generated_at": "2025-10-05T20:14:16.913118Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -339,7 +339,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3163",
+        "11564",
         "9226",
         "12512",
         "9493",
@@ -371,10 +371,10 @@
       ],
       "starters": [
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
+          "player_id": "11564",
+          "name": "Drake Maye",
           "position": "QB",
-          "team": "DET",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         },
@@ -423,7 +423,7 @@
           "name": "Darius Slayton",
           "position": "WR",
           "team": "NYG",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -444,14 +444,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11576",
           "name": "Braelon Allen",
@@ -497,6 +489,14 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -730,7 +730,7 @@
           "name": "Calvin Ridley",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -842,13 +842,13 @@
         "6801",
         "7002",
         "7049",
-        "7567",
         "8205",
         "8676",
         "9502",
         "9509",
         "9753",
-        "LAR"
+        "LAR",
+        "PIT"
       ],
       "starters": [
         {
@@ -958,14 +958,6 @@
           "keeper": false
         },
         {
-          "player_id": "7567",
-          "name": "Kenneth Gainwell",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
@@ -986,6 +978,14 @@
           "name": "Bijan Robinson",
           "position": "RB",
           "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "PIT",
+          "name": "Pittsburgh",
+          "position": "DEF",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         }
@@ -2147,7 +2147,7 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -3216,85 +3216,85 @@
       "week": 5,
       "roster_id": 1,
       "opponent_roster_id": 9,
-      "points": 10.1,
+      "points": 13.9,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 9,
       "opponent_roster_id": 1,
-      "points": 40.66,
+      "points": 82.06,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 63.0,
+      "points": 69.0,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 26.4,
+      "points": 31.1,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 11,
-      "points": 64.9,
+      "points": 130.66,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 3,
-      "points": 63.0,
+      "points": 129.1,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 5,
       "opponent_roster_id": 7,
-      "points": 54.58,
+      "points": 97.98,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 30.78,
+      "points": 73.38,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 19.22,
+      "points": 41.02,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 41.1,
+      "points": 45.1,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 12,
-      "points": 46.36,
-      "result": "W"
+      "points": 55.56,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 8,
-      "points": 32.12,
-      "result": "L"
+      "points": 80.88,
+      "result": "W"
     }
   ]
 }
