@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T14:11:41.181863Z",
+  "generated_at": "2025-10-05T15:12:05.213734Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -359,7 +359,6 @@
         "11792",
         "12489",
         "12490",
-        "12504",
         "12512",
         "3163",
         "3214",
@@ -367,7 +366,8 @@
         "9226",
         "9493",
         "9757",
-        "MIN"
+        "MIN",
+        "SEA"
       ],
       "starters": [
         {
@@ -501,18 +501,18 @@
           "keeper": false
         },
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
           "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "SEA",
+          "name": "Seattle",
+          "position": "DEF",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
@@ -822,7 +822,7 @@
       },
       "starters_current": [
         "4046",
-        "8205",
+        "12533",
         "9753",
         "8676",
         "6801",
@@ -860,12 +860,12 @@
           "keeper": false
         },
         {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "KC",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "9753",
@@ -942,14 +942,6 @@
           "keeper": false
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -974,6 +966,14 @@
           "keeper": false
         },
         {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "9502",
           "name": "Tank Dell",
           "position": "WR",
@@ -991,14 +991,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "9753",
           "name": "Zach Charbonnet",
@@ -1021,6 +1013,14 @@
           "position": "WR",
           "team": "DAL",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -3230,7 +3230,7 @@
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 34.3,
+      "points": 35.6,
       "result": "W"
     },
     {
@@ -3251,7 +3251,7 @@
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 3,
-      "points": 27.5,
+      "points": 28.7,
       "result": "L"
     },
     {
@@ -3279,7 +3279,7 @@
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 7.1,
+      "points": 11.4,
       "result": "W"
     },
     {
