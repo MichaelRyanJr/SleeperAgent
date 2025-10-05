@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T12:25:45.784344Z",
+  "generated_at": "2025-10-05T13:17:59.784304Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -586,7 +586,7 @@
         "12526",
         "8126",
         "8130",
-        "11584",
+        "7021",
         "8259",
         "PHI"
       ],
@@ -602,12 +602,12 @@
         "5849",
         "5850",
         "6783",
+        "7021",
         "7588",
         "8126",
         "8130",
         "8150",
         "8259",
-        "9506",
         "PHI"
       ],
       "starters": [
@@ -660,12 +660,12 @@
           "keeper": true
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8259",
@@ -691,6 +691,14 @@
           "position": "WR",
           "team": "KC",
           "injury_status": "Sus",
+          "keeper": true
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -748,14 +756,6 @@
           "team": "CLE",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9506",
-          "name": "Sean Tucker",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -784,19 +784,19 @@
           "keeper": true
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true
-        },
-        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
           "injury_status": "Sus",
+          "keeper": true
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
