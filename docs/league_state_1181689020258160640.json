@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T01:11:48.949622Z",
+  "generated_at": "2025-10-05T03:03:51.383054Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1743,7 +1743,7 @@
       "starters_current": [
         "421",
         "8138",
-        "7594",
+        "4098",
         "9997",
         "2133",
         "10236",
@@ -1788,12 +1788,12 @@
           "keeper": true
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "4098",
+          "name": "Kareem Hunt",
           "position": "RB",
-          "team": "CAR",
-          "injury_status": "Out",
-          "keeper": true
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9997",
@@ -1878,14 +1878,6 @@
           "keeper": false
         },
         {
-          "player_id": "4098",
-          "name": "Kareem Hunt",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4950",
           "name": "Christian Kirk",
           "position": "WR",
@@ -1900,6 +1892,14 @@
           "team": "PHI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": "Out",
+          "keeper": true
         },
         {
           "player_id": "7670",
@@ -1917,14 +1917,6 @@
           "position": "RB",
           "team": "BUF",
           "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -1957,6 +1949,14 @@
           "position": "WR",
           "team": "HOU",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
