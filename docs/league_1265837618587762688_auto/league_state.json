@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T15:12:02.159375Z",
+  "generated_at": "2025-10-05T16:15:15.279843Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1097,7 +1097,7 @@
         "12495",
         "9488",
         "2133",
-        "11604",
+        "9480",
         "8144",
         "2747",
         "DEN"
@@ -1163,11 +1163,11 @@
           "keeper": false
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
+          "player_id": "9480",
+          "name": "Brenton Strange",
           "position": "TE",
-          "team": "LV",
-          "injury_status": "Questionable",
+          "team": "JAX",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1205,6 +1205,14 @@
           "keeper": false
         },
         {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "6111",
           "name": "Jake Browning",
           "position": "QB",
@@ -1217,7 +1225,7 @@
           "name": "Miles Sanders",
           "position": "RB",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1250,14 +1258,6 @@
           "position": "QB",
           "team": "SF",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "injury_status": null,
           "keeper": false
         }
       ],
@@ -1358,7 +1358,7 @@
           "name": "Juwan Johnson",
           "position": "TE",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2740,7 +2740,7 @@
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 1,
-      "points": 28.66,
+      "points": 37.06,
       "result": "W"
     },
     {
@@ -2761,15 +2761,15 @@
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 11,
-      "points": 28.1,
-      "result": "L"
+      "points": 38.2,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 3,
-      "points": 28.2,
-      "result": "W"
+      "points": 30.2,
+      "result": "L"
     },
     {
       "week": 5,
@@ -2782,7 +2782,7 @@
       "week": 5,
       "roster_id": 9,
       "opponent_roster_id": 4,
-      "points": 5.3,
+      "points": 13.2,
       "result": "W"
     },
     {
@@ -2796,7 +2796,7 @@
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 5,
-      "points": 11.7,
+      "points": 20.3,
       "result": "L"
     },
     {
@@ -2810,7 +2810,7 @@
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 6,
-      "points": 9.4,
+      "points": 7.4,
       "result": "L"
     }
   ]
