@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T23:11:27.923364Z",
+  "generated_at": "2025-10-06T01:06:40.695262Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2669,12 +2669,12 @@
         "11624",
         "12481",
         "1466",
-        "1945",
         "2216",
         "3198",
         "4039",
         "4217",
         "5846",
+        "5848",
         "5870",
         "650",
         "6804",
@@ -2713,7 +2713,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2767,14 +2767,6 @@
           "keeper": false
         },
         {
-          "player_id": "1945",
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -2803,6 +2795,14 @@
           "name": "DK Metcalf",
           "position": "WR",
           "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5848",
+          "name": "Hollywood Brown",
+          "position": "WR",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -2837,14 +2837,6 @@
           "name": "Khalil Shakir",
           "position": "WR",
           "team": "BUF",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "1945",
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
           "injury_status": null,
           "keeper": true
         },
@@ -3216,28 +3208,28 @@
       "week": 5,
       "roster_id": 1,
       "opponent_roster_id": 9,
-      "points": 115.6,
+      "points": 116.34,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 9,
       "opponent_roster_id": 1,
-      "points": 103.0,
+      "points": 102.4,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 69.0,
+      "points": 70.4,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 78.9,
+      "points": 86.1,
       "result": "W"
     },
     {
@@ -3251,7 +3243,7 @@
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 3,
-      "points": 145.74,
+      "points": 142.74,
       "result": "L"
     },
     {
@@ -3265,35 +3257,35 @@
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 110.88,
+      "points": 112.88,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 82.02,
-      "result": "L"
+      "points": 93.12,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 84.1,
-      "result": "W"
+      "points": 87.9,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 12,
-      "points": 75.46,
+      "points": 82.16,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 8,
-      "points": 80.88,
+      "points": 82.28,
       "result": "W"
     }
   ]
