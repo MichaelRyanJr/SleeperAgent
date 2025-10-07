@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-07T11:12:26.477814Z",
+  "generated_at": "2025-10-07T12:30:28.281757Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -728,7 +728,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7591",
+        "4892",
         "8136",
         "7588",
         "7547",
@@ -759,10 +759,10 @@
       ],
       "starters": [
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "NYJ",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -865,14 +865,6 @@
           "keeper": false
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "7049",
           "name": "Jauan Jennings",
           "position": "WR",
@@ -885,6 +877,14 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "7591",
+          "name": "Justin Fields",
+          "position": "QB",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -1476,11 +1476,11 @@
       "starters_current": [
         "3294",
         "9226",
-        "8408",
-        "3286",
+        "8228",
+        "11638",
         "12503",
         "10236",
-        "12474",
+        "8112",
         "11789",
         "SEA"
       ],
@@ -1521,19 +1521,19 @@
           "keeper": false
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
           "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
+          "team": "PIT",
+          "injury_status": "Out",
           "keeper": false
         },
         {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1553,10 +1553,10 @@
           "keeper": false
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "8112",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -1587,11 +1587,11 @@
           "keeper": false
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Out",
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1619,6 +1619,14 @@
           "keeper": false
         },
         {
+          "player_id": "3286",
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -1627,19 +1635,11 @@
           "keeper": false
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "PIT",
-          "injury_status": "Out",
+          "team": "MIN",
+          "injury_status": null,
           "keeper": false
         }
       ],
