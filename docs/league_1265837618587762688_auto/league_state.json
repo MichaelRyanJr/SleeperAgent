@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-07T19:11:25.776354Z",
+  "generated_at": "2025-10-07T20:15:29.004842Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1167,7 +1167,7 @@
           "name": "Brenton Strange",
           "position": "TE",
           "team": "JAX",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -1848,14 +1848,14 @@
       },
       "starters_current": [
         "421",
-        "6806",
-        "12512",
+        "9509",
+        "6790",
         "11631",
         "11637",
         "12518",
-        "7607",
+        "6806",
         "4227",
-        "LAR"
+        "PIT"
       ],
       "players_current": [
         "11610",
@@ -1885,18 +1885,18 @@
           "keeper": false
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
+          "player_id": "9509",
+          "name": "Bijan Robinson",
           "position": "RB",
-          "team": "DEN",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "CLE",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -1925,10 +1925,10 @@
           "keeper": false
         },
         {
-          "player_id": "7607",
-          "name": "Michael Carter",
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
           "position": "RB",
-          "team": "ARI",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -1941,10 +1941,10 @@
           "keeper": false
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "PIT",
+          "name": "Pittsburgh",
           "position": "DEF",
-          "team": "LAR",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         }
@@ -1975,10 +1975,18 @@
           "keeper": false
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "CHI",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "7607",
+          "name": "Michael Carter",
+          "position": "RB",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -1991,18 +1999,10 @@
           "keeper": false
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
+          "player_id": "LAR",
+          "name": "Los Angeles",
           "position": "DEF",
-          "team": "PIT",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         }

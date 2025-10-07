@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-07T19:11:29.248431Z",
+  "generated_at": "2025-10-07T20:15:32.054897Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -100,12 +100,12 @@
       },
       "starters_current": [
         "4984",
-        "12507",
+        "8228",
         "12529",
         "9488",
         "12514",
         "10859",
-        "8144",
+        "2449",
         "2747",
         "NYG"
       ],
@@ -138,12 +138,12 @@
           "keeper": true
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
           "position": "RB",
-          "team": "LAC",
-          "injury_status": "IR",
-          "keeper": false
+          "team": "PIT",
+          "injury_status": "Out",
+          "keeper": true
         },
         {
           "player_id": "12529",
@@ -178,10 +178,10 @@
           "keeper": true
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "NO",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         },
@@ -228,11 +228,11 @@
           "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "NE",
-          "injury_status": null,
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -260,12 +260,12 @@
           "keeper": false
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Out",
-          "keeper": true
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -275,6 +275,14 @@
           "position": "QB",
           "team": "BUF",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -306,14 +314,6 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
-          "keeper": true
-        },
-        {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
           "injury_status": "Out",
           "keeper": true
         }
@@ -2579,7 +2579,7 @@
           "name": "Brenton Strange",
           "position": "TE",
           "team": "JAX",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false
         },
         {
