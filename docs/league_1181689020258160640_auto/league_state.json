@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-07T03:27:26.803657Z",
+  "generated_at": "2025-10-07T04:17:44.291171Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -822,14 +822,14 @@
       },
       "starters_current": [
         "4046",
+        "9509",
         "12533",
-        "9753",
-        "8676",
+        "11620",
         "6801",
         "7002",
-        "12530",
+        "9753",
         "12185",
-        "LAR"
+        "PIT"
       ],
       "players_current": [
         "11620",
@@ -860,6 +860,14 @@
           "keeper": false
         },
         {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -868,20 +876,12 @@
           "keeper": false
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "6801",
@@ -900,12 +900,12 @@
           "keeper": false
         },
         {
-          "player_id": "12530",
-          "name": "Travis Hunter",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "12185",
@@ -916,29 +916,29 @@
           "keeper": false
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "PIT",
+          "name": "Pittsburgh",
           "position": "DEF",
-          "team": "LAR",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
           "team": "CHI",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "12530",
+          "name": "Travis Hunter",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -966,6 +966,14 @@
           "keeper": true
         },
         {
+          "player_id": "8676",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "9502",
           "name": "Tank Dell",
           "position": "WR",
@@ -974,36 +982,28 @@
           "keeper": true
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
+          "player_id": "LAR",
+          "name": "Los Angeles",
           "position": "DEF",
-          "team": "PIT",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
@@ -3287,6 +3287,90 @@
       "opponent_roster_id": 8,
       "points": 119.78,
       "result": "W"
+    },
+    {
+      "week": 6,
+      "roster_id": 1,
+      "opponent_roster_id": 10,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 10,
+      "opponent_roster_id": 1,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 2,
+      "opponent_roster_id": 3,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 3,
+      "opponent_roster_id": 2,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 4,
+      "opponent_roster_id": 11,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 11,
+      "opponent_roster_id": 4,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 5,
+      "opponent_roster_id": 12,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 12,
+      "opponent_roster_id": 5,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 6,
+      "opponent_roster_id": 9,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 9,
+      "opponent_roster_id": 6,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 7,
+      "opponent_roster_id": 8,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 6,
+      "roster_id": 8,
+      "opponent_roster_id": 7,
+      "points": 0.0,
+      "result": null
     }
   ]
 }
