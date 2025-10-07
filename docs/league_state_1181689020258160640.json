@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-07T16:17:49.540503Z",
+  "generated_at": "2025-10-07T17:12:50.626592Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1521,9 +1521,9 @@
         "9221",
         "12527",
         "8137",
+        "6819",
+        "2505",
         "1479",
-        "1339",
-        "4035",
         "11533",
         "DET"
       ],
@@ -1580,26 +1580,26 @@
           "keeper": false
         },
         {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
           "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "1339",
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -1630,10 +1630,18 @@
           "keeper": true
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
+          "player_id": "1339",
+          "name": "Zach Ertz",
           "position": "TE",
-          "team": "MIA",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -1667,14 +1675,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "PUP",
-          "keeper": false
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
           "keeper": false
         },
         {
