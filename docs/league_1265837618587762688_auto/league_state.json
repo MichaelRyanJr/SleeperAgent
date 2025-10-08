@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T15:15:21.810169Z",
+  "generated_at": "2025-10-08T16:18:08.944862Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -945,7 +945,7 @@
         "1466",
         "8676",
         "11539",
-        "DET"
+        "GB"
       ],
       "players_current": [
         "11539",
@@ -962,7 +962,7 @@
         "6083",
         "8148",
         "8676",
-        "DET"
+        "GB"
       ],
       "starters": [
         {
@@ -1030,10 +1030,10 @@
           "keeper": false
         },
         {
-          "player_id": "DET",
-          "name": "Detroit",
+          "player_id": "GB",
+          "name": "Green Bay",
           "position": "DEF",
-          "team": "DET",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         }
@@ -1867,10 +1867,10 @@
         "PIT"
       ],
       "players_current": [
-        "11610",
         "11627",
         "11631",
         "11637",
+        "11646",
         "12455",
         "12512",
         "12518",
@@ -1960,19 +1960,19 @@
       ],
       "bench": [
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
           "team": "BUF",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": "IR",
           "keeper": false
         },
         {
