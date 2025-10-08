@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T18:21:43.618960Z",
+  "generated_at": "2025-10-08T19:11:32.775857Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1337,7 +1337,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1534,7 +1534,7 @@
         "2505",
         "1479",
         "11533",
-        "DET"
+        "LV"
       ],
       "players_current": [
         "11533",
@@ -1621,10 +1621,10 @@
           "keeper": true
         },
         {
-          "player_id": "DET",
-          "name": "Detroit",
+          "player_id": "LV",
+          "name": "Las Vegas",
           "position": "DEF",
-          "team": "DET",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         }
@@ -1687,10 +1687,10 @@
           "keeper": false
         },
         {
-          "player_id": "LV",
-          "name": "Las Vegas",
+          "player_id": "DET",
+          "name": "Detroit",
           "position": "DEF",
-          "team": "LV",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         }
