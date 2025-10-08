@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T04:17:05.266351Z",
+  "generated_at": "2025-10-08T05:14:07.924734Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1741,7 +1741,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "421",
+        "11566",
         "8138",
         "4098",
         "9997",
@@ -1772,12 +1772,12 @@
       ],
       "starters": [
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "LAR",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "8138",
@@ -1846,14 +1846,6 @@
       ],
       "bench": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1874,6 +1866,14 @@
           "name": "Evan Engram",
           "position": "TE",
           "team": "DEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1912,6 +1912,14 @@
       ],
       "keepers": [
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "8138",
           "name": "James Cook",
           "position": "RB",
@@ -1924,14 +1932,6 @@
           "name": "Los Angeles",
           "position": "DEF",
           "team": "LAC",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
           "injury_status": null,
           "keeper": true
         },
