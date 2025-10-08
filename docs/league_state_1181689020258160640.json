@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T07:14:01.612901Z",
+  "generated_at": "2025-10-08T08:20:10.739343Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -106,8 +106,8 @@
         "12514",
         "10859",
         "2449",
-        "2747",
-        "NYG"
+        "3678",
+        "NE"
       ],
       "players_current": [
         "10859",
@@ -118,7 +118,7 @@
         "12514",
         "12529",
         "2449",
-        "2747",
+        "3678",
         "4984",
         "5022",
         "5927",
@@ -127,7 +127,7 @@
         "8144",
         "8228",
         "9488",
-        "NYG"
+        "NE"
       ],
       "starters": [
         {
@@ -187,18 +187,18 @@
           "keeper": false
         },
         {
-          "player_id": "2747",
-          "name": "Jason Myers",
+          "player_id": "3678",
+          "name": "Wil Lutz",
           "position": "K",
-          "team": "SEA",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "NYG",
-          "name": "New York",
+          "player_id": "NE",
+          "name": "New England",
           "position": "DEF",
-          "team": "NYG",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         }
@@ -1062,22 +1062,21 @@
         "budget_used": 0
       },
       "starters_current": [
-        "12508",
+        "9228",
         "8151",
         "7543",
         "7564",
-        "7569",
-        "12518",
+        "11628",
+        "9484",
         "7526",
         "12711",
-        "NO"
+        "TEN"
       ],
       "players_current": [
         "11628",
         "11638",
         "12474",
         "12495",
-        "12508",
         "12518",
         "12711",
         "4881",
@@ -1087,15 +1086,16 @@
         "7564",
         "7569",
         "8151",
+        "9228",
         "9484",
-        "NO"
+        "TEN"
       ],
       "starters": [
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "NYG",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1124,20 +1124,20 @@
           "keeper": false
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": true
         },
         {
           "player_id": "7526",
@@ -1156,23 +1156,15 @@
           "keeper": false
         },
         {
-          "player_id": "NO",
-          "name": "New Orleans",
+          "player_id": "TEN",
+          "name": "Tennessee",
           "position": "DEF",
-          "team": "NO",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1198,6 +1190,14 @@
           "keeper": false
         },
         {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -1214,10 +1214,10 @@
           "keeper": true
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": null,
           "keeper": true
         }
@@ -1232,10 +1232,10 @@
           "keeper": true
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
           "injury_status": null,
           "keeper": true
         },
@@ -1264,10 +1264,10 @@
           "keeper": true
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": null,
           "keeper": true
         }
@@ -2426,11 +2426,11 @@
         "4034",
         "6813",
         "5045",
-        "9500",
-        "12498",
-        "8408",
+        "12501",
+        "4033",
+        "6806",
         "4227",
-        "ARI"
+        "GB"
       ],
       "players_current": [
         "10222",
@@ -2486,28 +2486,28 @@
           "keeper": true
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "IND",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4033",
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "4227",
@@ -2518,10 +2518,10 @@
           "keeper": false
         },
         {
-          "player_id": "ARI",
-          "name": "Arizona",
+          "player_id": "GB",
+          "name": "Green Bay",
           "position": "DEF",
-          "team": "ARI",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         }
@@ -2552,28 +2552,12 @@
           "keeper": false
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "4033",
-          "name": "David Njoku",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
-          "team": "CLE",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true
         },
         {
           "player_id": "7591",
@@ -2592,10 +2576,26 @@
           "keeper": false
         },
         {
-          "player_id": "GB",
-          "name": "Green Bay",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "ARI",
+          "name": "Arizona",
           "position": "DEF",
-          "team": "GB",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         }
@@ -2626,18 +2626,18 @@
           "keeper": true
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
           "injury_status": null,
           "keeper": true
         }
