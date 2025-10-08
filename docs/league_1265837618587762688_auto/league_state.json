@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T06:22:08.527712Z",
+  "generated_at": "2025-10-08T07:13:58.040774Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -201,7 +201,7 @@
         "4866",
         "4981",
         "5848",
-        "6149",
+        "8123",
         "8130",
         "8146",
         "8150",
@@ -310,11 +310,11 @@
           "keeper": false
         },
         {
-          "player_id": "6149",
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": "Questionable",
+          "player_id": "8123",
+          "name": "Hassan Haskins",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -566,6 +566,7 @@
         "SF"
       ],
       "players_current": [
+        "11597",
         "11650",
         "12508",
         "3678",
@@ -658,6 +659,14 @@
       ],
       "bench": [
         {
+          "player_id": "11597",
+          "name": "Theo Johnson",
+          "position": "TE",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11650",
           "name": "Luke McCaffrey",
           "position": "WR",
@@ -670,7 +679,7 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -686,7 +695,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -702,7 +711,7 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -869,7 +878,7 @@
           "name": "Jauan Jennings",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1209,7 +1218,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1225,7 +1234,7 @@
           "name": "Miles Sanders",
           "position": "RB",
           "team": "DAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1257,7 +1266,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -1392,7 +1401,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1525,7 +1534,7 @@
           "name": "Jaylen Warren",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1533,7 +1542,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1631,7 +1640,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1789,7 +1798,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1872,7 +1881,7 @@
         "7607",
         "9224",
         "9509",
-        "LAR",
+        "NE",
         "PIT"
       ],
       "starters": [
@@ -1999,10 +2008,10 @@
           "keeper": false
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "NE",
+          "name": "New England",
           "position": "DEF",
-          "team": "LAR",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         }
