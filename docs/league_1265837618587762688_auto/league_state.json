@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T13:25:39.007700Z",
+  "generated_at": "2025-10-08T14:15:05.748302Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -189,11 +189,12 @@
         "4981",
         "8130",
         "4035",
-        "0",
+        "5189",
         "IND"
       ],
       "players_current": [
         "11564",
+        "11647",
         "12185",
         "12533",
         "4035",
@@ -208,7 +209,6 @@
         "8150",
         "9500",
         "9756",
-        "9757",
         "IND"
       ],
       "starters": [
@@ -269,6 +269,14 @@
           "keeper": false
         },
         {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "IND",
           "name": "Indianapolis",
           "position": "DEF",
@@ -278,6 +286,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "12185",
           "name": "Spencer Shrader",
@@ -299,14 +315,6 @@
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
@@ -339,14 +347,6 @@
           "name": "Jordan Addison",
           "position": "WR",
           "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -1496,9 +1496,9 @@
         "9226",
         "8228",
         "11638",
-        "12503",
-        "10236",
         "8112",
+        "10236",
+        "12503",
         "11789",
         "0"
       ],
@@ -1554,10 +1554,10 @@
           "keeper": false
         },
         {
-          "player_id": "12503",
-          "name": "Isaiah Bond",
+          "player_id": "8112",
+          "name": "Drake London",
           "position": "WR",
-          "team": "CLE",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -1570,10 +1570,10 @@
           "keeper": false
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
+          "player_id": "12503",
+          "name": "Isaiah Bond",
           "position": "WR",
-          "team": "ATL",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         },
@@ -1860,7 +1860,7 @@
         "9509",
         "12512",
         "11631",
-        "11637",
+        "11627",
         "12518",
         "6806",
         "4227",
@@ -1918,10 +1918,10 @@
           "keeper": false
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
+          "player_id": "11627",
+          "name": "Troy Franklin",
           "position": "WR",
-          "team": "BUF",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -1968,10 +1968,10 @@
           "keeper": false
         },
         {
-          "player_id": "11627",
-          "name": "Troy Franklin",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "DEN",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T13:25:42.296833Z",
+  "generated_at": "2025-10-08T14:15:09.244137Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -837,7 +837,7 @@
         "6801",
         "7002",
         "9753",
-        "0",
+        "11789",
         "PIT"
       ],
       "players_current": [
@@ -917,6 +917,14 @@
           "keeper": true
         },
         {
+          "player_id": "11789",
+          "name": "Joshua Karty",
+          "position": "K",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "PIT",
           "name": "Pittsburgh",
           "position": "DEF",
@@ -926,14 +934,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11789",
-          "name": "Joshua Karty",
-          "position": "K",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "12517",
           "name": "Colston Loveland",
