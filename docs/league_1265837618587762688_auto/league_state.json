@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T09:15:49.266576Z",
+  "generated_at": "2025-10-08T10:15:12.753494Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -189,7 +189,7 @@
         "4981",
         "8130",
         "4035",
-        "12185",
+        "0",
         "IND"
       ],
       "players_current": [
@@ -200,6 +200,7 @@
         "4039",
         "4866",
         "4981",
+        "5189",
         "5848",
         "8123",
         "8130",
@@ -268,14 +269,6 @@
           "keeper": false
         },
         {
-          "player_id": "12185",
-          "name": "Spencer Shrader",
-          "position": "K",
-          "team": "IND",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
           "player_id": "IND",
           "name": "Indianapolis",
           "position": "DEF",
@@ -285,6 +278,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "injury_status": "IR",
+          "keeper": false
+        },
         {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
@@ -298,6 +299,14 @@
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
