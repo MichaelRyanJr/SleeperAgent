@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T12:30:26.067156Z",
+  "generated_at": "2025-10-08T13:25:39.007700Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1500,7 +1500,7 @@
         "10236",
         "8112",
         "11789",
-        "SEA"
+        "0"
       ],
       "players_current": [
         "10229",
@@ -1509,17 +1509,16 @@
         "11789",
         "12474",
         "12489",
+        "12498",
         "12503",
         "12506",
         "12530",
-        "3286",
         "3294",
         "6786",
         "8112",
         "8228",
         "8408",
-        "9226",
-        "SEA"
+        "9226"
       ],
       "starters": [
         {
@@ -1585,14 +1584,6 @@
           "team": "LAR",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "SEA",
-          "name": "Seattle",
-          "position": "DEF",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1621,6 +1612,14 @@
           "keeper": false
         },
         {
+          "player_id": "12498",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
@@ -1633,14 +1632,6 @@
           "name": "Travis Hunter",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
