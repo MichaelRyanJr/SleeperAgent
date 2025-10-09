@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T01:06:07.657591Z",
+  "generated_at": "2025-10-09T02:56:59.038666Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1756,7 +1756,7 @@
         "9997",
         "2133",
         "10236",
-        "9754",
+        "7525",
         "6083",
         "LAC"
       ],
@@ -1829,11 +1829,11 @@
           "keeper": false
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
+          "team": "PHI",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1903,20 +1903,20 @@
           "keeper": true
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "7594",
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
           "injury_status": "Questionable",
           "keeper": true
+        },
+        {
+          "player_id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1992,13 +1992,13 @@
       "starters_current": [
         "6904",
         "7611",
-        "7607",
-        "8146",
+        "6790",
+        "8112",
         "5859",
         "8110",
-        "12499",
+        "7607",
         "11786",
-        "CLE"
+        "DEN"
       ],
       "players_current": [
         "11560",
@@ -2017,7 +2017,6 @@
         "8112",
         "8146",
         "9508",
-        "CLE",
         "DEN"
       ],
       "starters": [
@@ -2038,18 +2037,18 @@
           "keeper": false
         },
         {
-          "player_id": "7607",
-          "name": "Michael Carter",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "ARI",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "8112",
+          "name": "Drake London",
           "position": "WR",
-          "team": "NYJ",
+          "team": "ATL",
           "injury_status": null,
           "keeper": true
         },
@@ -2070,10 +2069,10 @@
           "keeper": true
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "7607",
+          "name": "Michael Carter",
+          "position": "RB",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -2086,10 +2085,10 @@
           "keeper": false
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland",
+          "player_id": "DEN",
+          "name": "Denver",
           "position": "DEF",
-          "team": "CLE",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         }
@@ -2128,6 +2127,14 @@
           "keeper": false
         },
         {
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -2136,18 +2143,10 @@
           "keeper": false
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8112",
-          "name": "Drake London",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "ATL",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true
         },
@@ -2158,22 +2157,14 @@
           "team": "TEN",
           "injury_status": "Questionable",
           "keeper": false
-        },
-        {
-          "player_id": "DEN",
-          "name": "Denver",
-          "position": "DEF",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "8112",
+          "name": "Drake London",
           "position": "WR",
-          "team": "NYJ",
+          "team": "ATL",
           "injury_status": null,
           "keeper": true
         },
@@ -2186,10 +2177,10 @@
           "keeper": true
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "ATL",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true
         }
@@ -2446,10 +2437,10 @@
         "6806",
         "6813",
         "7591",
+        "8121",
         "8154",
         "8408",
         "9500",
-        "ARI",
         "GB"
       ],
       "starters": [
@@ -2568,6 +2559,14 @@
           "keeper": false
         },
         {
+          "player_id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -2590,14 +2589,6 @@
           "team": "IND",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "ARI",
-          "name": "Arizona",
-          "position": "DEF",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
