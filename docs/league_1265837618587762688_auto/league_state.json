@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T22:13:17.847100Z",
+  "generated_at": "2025-10-09T23:13:05.940568Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -374,12 +374,12 @@
       },
       "starters_current": [
         "9228",
-        "8151",
+        "5850",
         "7543",
         "5859",
         "12526",
         "10859",
-        "5955",
+        "2449",
         "12711",
         "KC"
       ],
@@ -412,10 +412,10 @@
           "keeper": false
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "SEA",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         },
@@ -452,10 +452,10 @@
           "keeper": false
         },
         {
-          "player_id": "5955",
-          "name": "Hunter Renfrow",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "CAR",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         },
@@ -510,18 +510,10 @@
           "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "5955",
+          "name": "Hunter Renfrow",
           "position": "WR",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -530,6 +522,14 @@
           "name": "Joshua Palmer",
           "position": "WR",
           "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
@@ -1115,7 +1115,7 @@
         "12495",
         "9488",
         "2133",
-        "11604",
+        "11603",
         "8144",
         "2747",
         "DEN"
@@ -1123,11 +1123,11 @@
       "players_current": [
         "10213",
         "11566",
+        "11603",
         "11604",
         "12495",
         "2133",
         "2747",
-        "6111",
         "6151",
         "7528",
         "8134",
@@ -1181,11 +1181,11 @@
           "keeper": false
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
+          "player_id": "11603",
+          "name": "AJ Barner",
           "position": "TE",
-          "team": "LV",
-          "injury_status": "Questionable",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1223,11 +1223,11 @@
           "keeper": false
         },
         {
-          "player_id": "6111",
-          "name": "Jake Browning",
-          "position": "QB",
-          "team": "CIN",
-          "injury_status": null,
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1708,7 +1708,7 @@
           "name": "Tua Tagovailoa",
           "position": "QB",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
