@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T16:19:06.026951Z",
+  "generated_at": "2025-10-09T17:13:32.129703Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -506,7 +506,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -2234,10 +2234,10 @@
         "9753",
         "5872",
         "6819",
-        "5844",
+        "5022",
         "11628",
         "7839",
-        "MIN"
+        "LAC"
       ],
       "players_current": [
         "11628",
@@ -2249,14 +2249,14 @@
         "5022",
         "5844",
         "5872",
-        "6130",
         "6801",
         "6804",
         "6819",
         "7839",
         "8121",
+        "8132",
         "9753",
-        "MIN"
+        "LAC"
       ],
       "starters": [
         {
@@ -2300,10 +2300,10 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
           "position": "TE",
-          "team": "MIN",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2324,10 +2324,10 @@
           "keeper": false
         },
         {
-          "player_id": "MIN",
-          "name": "Minnesota",
+          "player_id": "LAC",
+          "name": "Los Angeles",
           "position": "DEF",
-          "team": "MIN",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         }
@@ -2358,18 +2358,10 @@
           "keeper": false
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
           "position": "TE",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6130",
-          "name": "Devin Singletary",
-          "position": "RB",
-          "team": "NYG",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2394,6 +2386,14 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
