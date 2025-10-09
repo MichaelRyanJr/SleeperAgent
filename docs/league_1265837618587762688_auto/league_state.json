@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T11:12:37.508069Z",
+  "generated_at": "2025-10-09T12:29:59.719362Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2046,12 +2046,13 @@
         "2505",
         "8155",
         "11533",
-        "CLE"
+        "0"
       ],
       "players_current": [
         "11299",
         "11533",
         "11632",
+        "11783",
         "12501",
         "12527",
         "2505",
@@ -2061,11 +2062,10 @@
         "5967",
         "6904",
         "7525",
-        "8117",
         "8155",
         "9484",
         "96",
-        "CLE"
+        "LV"
       ],
       "starters": [
         {
@@ -2131,14 +2131,6 @@
           "team": "DAL",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -2156,6 +2148,14 @@
           "position": "WR",
           "team": "NYG",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2183,14 +2183,6 @@
           "keeper": false
         },
         {
-          "player_id": "8117",
-          "name": "Jalen Tolbert",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -2203,6 +2195,14 @@
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "LV",
+          "name": "Las Vegas",
+          "position": "DEF",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         }
