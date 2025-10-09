@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T18:20:32.203806Z",
+  "generated_at": "2025-10-09T19:12:13.226518Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1302,14 +1302,14 @@
       },
       "starters_current": [
         "3163",
-        "10219",
         "9506",
+        "7567",
         "7564",
         "11635",
         "7002",
         "5045",
         "11786",
-        "ARI"
+        "DAL"
       ],
       "players_current": [
         "10219",
@@ -1328,7 +1328,7 @@
         "7564",
         "7567",
         "9506",
-        "ARI"
+        "DAL"
       ],
       "starters": [
         {
@@ -1340,18 +1340,18 @@
           "keeper": false
         },
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9506",
           "name": "Sean Tucker",
           "position": "RB",
           "team": "TB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenneth Gainwell",
+          "position": "RB",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -1396,15 +1396,23 @@
           "keeper": false
         },
         {
-          "player_id": "ARI",
-          "name": "Arizona",
+          "player_id": "DAL",
+          "name": "Dallas",
           "position": "DEF",
-          "team": "ARI",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -1459,14 +1467,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "PUP",
-          "keeper": false
-        },
-        {
-          "player_id": "7567",
-          "name": "Kenneth Gainwell",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
           "keeper": false
         }
       ],
