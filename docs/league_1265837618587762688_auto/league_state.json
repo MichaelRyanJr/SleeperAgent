@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T12:29:59.719362Z",
+  "generated_at": "2025-10-09T13:26:35.435474Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2043,10 +2043,10 @@
         "5967",
         "4454",
         "7525",
-        "2505",
+        "9484",
         "8155",
         "11533",
-        "0"
+        "LV"
       ],
       "players_current": [
         "11299",
@@ -2109,11 +2109,11 @@
           "keeper": false
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
           "position": "TE",
-          "team": "MIA",
-          "injury_status": "Questionable",
+          "team": "GB",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2129,6 +2129,14 @@
           "name": "Brandon Aubrey",
           "position": "K",
           "team": "DAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "LV",
+          "name": "Las Vegas",
+          "position": "DEF",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         }
@@ -2167,6 +2175,14 @@
           "keeper": false
         },
         {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "MIA",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "5846",
           "name": "DK Metcalf",
           "position": "WR",
@@ -2183,26 +2199,10 @@
           "keeper": false
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "96",
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "LV",
-          "name": "Las Vegas",
-          "position": "DEF",
-          "team": "LV",
           "injury_status": null,
           "keeper": false
         }
