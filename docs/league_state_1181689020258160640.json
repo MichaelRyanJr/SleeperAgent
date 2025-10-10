@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T23:13:08.941083Z",
+  "generated_at": "2025-10-10T01:05:58.176459Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2209,10 +2209,10 @@
         "8183",
         "8143",
         "5967",
-        "6794",
+        "5872",
         "7547",
         "7553",
-        "8148",
+        "11637",
         "11539",
         "IND"
       ],
@@ -2260,10 +2260,10 @@
           "keeper": false
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "5872",
+          "name": "Deebo Samuel",
           "position": "WR",
-          "team": "MIN",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
@@ -2284,12 +2284,12 @@
           "keeper": true
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "DET",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "11539",
@@ -2318,14 +2318,6 @@
           "keeper": false
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4144",
           "name": "Jonnu Smith",
           "position": "TE",
@@ -2342,12 +2334,20 @@
           "keeper": false
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "WAS",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true
         },
         {
           "player_id": "96",
@@ -3307,14 +3307,14 @@
       "roster_id": 2,
       "opponent_roster_id": 3,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 3,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 20.1,
+      "result": "W"
     },
     {
       "week": 6,
@@ -3335,42 +3335,42 @@
       "roster_id": 5,
       "opponent_roster_id": 12,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 0.9,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 6,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 3.8,
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 18.14,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 7,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 8,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 4.4,
+      "result": "W"
     }
   ]
 }
