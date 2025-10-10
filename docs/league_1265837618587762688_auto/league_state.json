@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-10T01:05:53.979014Z",
+  "generated_at": "2025-10-10T02:57:37.716720Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -688,7 +688,7 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -704,7 +704,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -720,7 +720,7 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         }
       ],
@@ -813,7 +813,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1227,7 +1227,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1267,7 +1267,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1418,7 +1418,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1495,10 +1495,10 @@
         "3294",
         "9226",
         "8228",
-        "11638",
+        "12530",
         "8112",
+        "12498",
         "10236",
-        "12503",
         "11789",
         "0"
       ],
@@ -1546,11 +1546,11 @@
           "keeper": false
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
+          "player_id": "12530",
+          "name": "Travis Hunter",
           "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
+          "team": "JAX",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1562,19 +1562,19 @@
           "keeper": false
         },
         {
+          "player_id": "12498",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "10236",
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "12503",
-          "name": "Isaiah Bond",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1596,6 +1596,14 @@
           "keeper": false
         },
         {
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Doubtful",
+          "keeper": false
+        },
+        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -1612,10 +1620,10 @@
           "keeper": false
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
+          "player_id": "12503",
+          "name": "Isaiah Bond",
+          "position": "WR",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         },
@@ -1628,19 +1636,11 @@
           "keeper": false
         },
         {
-          "player_id": "12530",
-          "name": "Travis Hunter",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1798,7 +1798,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1867,6 +1867,7 @@
         "PIT"
       ],
       "players_current": [
+        "11559",
         "11631",
         "11637",
         "11646",
@@ -1958,6 +1959,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11559",
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11637",
           "name": "Keon Coleman",
@@ -2817,7 +2826,7 @@
       "week": 6,
       "roster_id": 1,
       "opponent_roster_id": 4,
-      "points": 3.8,
+      "points": 7.3,
       "result": "W"
     },
     {
@@ -2831,14 +2840,14 @@
       "week": 6,
       "roster_id": 2,
       "opponent_roster_id": 3,
-      "points": 7.0,
+      "points": 11.0,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 3,
       "opponent_roster_id": 2,
-      "points": 13.6,
+      "points": 17.4,
       "result": "W"
     },
     {
@@ -2880,22 +2889,22 @@
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 8,
-      "points": 13.04,
+      "points": 23.64,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 9,
       "opponent_roster_id": 12,
-      "points": 7.9,
-      "result": "L"
+      "points": 25.3,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 9,
-      "points": 14.0,
-      "result": "W"
+      "points": 17.4,
+      "result": "L"
     }
   ]
 }
