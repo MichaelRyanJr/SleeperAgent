@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-11T13:18:02.052368Z",
+  "generated_at": "2025-10-11T14:11:25.818248Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1302,7 +1302,7 @@
       },
       "starters_current": [
         "3163",
-        "0",
+        "9757",
         "7567",
         "7564",
         "11635",
@@ -1336,6 +1336,14 @@
           "name": "Jared Goff",
           "position": "QB",
           "team": "DET",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -1459,14 +1467,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "PUP",
-          "keeper": false
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
           "keeper": false
         }
       ],
