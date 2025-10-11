@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-11T18:17:06.853540Z",
+  "generated_at": "2025-10-11T19:10:06.441616Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1500,7 +1500,7 @@
         "12498",
         "10236",
         "11789",
-        "0"
+        "LAR"
       ],
       "players_current": [
         "10229",
@@ -1518,7 +1518,8 @@
         "8112",
         "8228",
         "8408",
-        "9226"
+        "9226",
+        "LAR"
       ],
       "starters": [
         {
@@ -1581,6 +1582,14 @@
           "player_id": "11789",
           "name": "Joshua Karty",
           "position": "K",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "LAR",
+          "name": "Los Angeles",
+          "position": "DEF",
           "team": "LAR",
           "injury_status": null,
           "keeper": false
