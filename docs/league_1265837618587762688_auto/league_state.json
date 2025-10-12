@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-12T15:12:06.663900Z",
+  "generated_at": "2025-10-12T16:15:26.415842Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -307,7 +307,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -937,7 +937,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "5849",
+        "1373",
         "4034",
         "5892",
         "8148",
@@ -953,24 +953,24 @@
         "12490",
         "12499",
         "12514",
+        "1373",
         "1466",
         "17",
         "4034",
         "4988",
         "5849",
         "5892",
-        "6083",
         "8148",
         "8676",
         "GB"
       ],
       "starters": [
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "1373",
+          "name": "Geno Smith",
           "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
+          "team": "LV",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1080,11 +1080,11 @@
           "keeper": false
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
-          "position": "K",
-          "team": "WAS",
-          "injury_status": null,
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Out",
           "keeper": false
         }
       ],
@@ -1749,7 +1749,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1839,7 +1839,7 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         }
       ],
@@ -1889,7 +1889,7 @@
         "4943",
         "6806",
         "7607",
-        "9508",
+        "8122",
         "9509",
         "NE",
         "PIT"
@@ -2018,10 +2018,10 @@
           "keeper": false
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
+          "player_id": "8122",
+          "name": "Bam Knight",
           "position": "RB",
-          "team": "TEN",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -2844,7 +2844,7 @@
       "week": 6,
       "roster_id": 1,
       "opponent_roster_id": 4,
-      "points": 8.4,
+      "points": 9.3,
       "result": "W"
     },
     {
@@ -2879,14 +2879,14 @@
       "week": 6,
       "roster_id": 10,
       "opponent_roster_id": 5,
-      "points": 1.5,
+      "points": 3.7,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 6,
       "opponent_roster_id": 7,
-      "points": 13.0,
+      "points": 14.0,
       "result": "W"
     },
     {
@@ -2907,7 +2907,7 @@
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 8,
-      "points": 29.92,
+      "points": 33.02,
       "result": "W"
     },
     {

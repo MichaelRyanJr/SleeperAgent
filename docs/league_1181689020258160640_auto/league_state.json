@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-12T15:12:09.203962Z",
+  "generated_at": "2025-10-12T16:15:28.927650Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -747,7 +747,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -805,7 +805,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
@@ -836,7 +836,7 @@
         "11620",
         "6801",
         "7002",
-        "9753",
+        "7049",
         "11789",
         "PIT"
       ],
@@ -909,12 +909,12 @@
           "keeper": false
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "11789",
@@ -959,14 +959,6 @@
           "keeper": true
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
@@ -991,6 +983,14 @@
           "keeper": true
         },
         {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "LAR",
           "name": "Los Angeles",
           "position": "DEF",
@@ -1005,14 +1005,6 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
@@ -1038,6 +1030,14 @@
           "position": "WR",
           "team": "HOU",
           "injury_status": "PUP",
+          "keeper": true
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": true
         }
       ]
@@ -1651,7 +1651,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1809,7 +1809,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1915,7 +1915,7 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         }
       ],
@@ -3327,7 +3327,7 @@
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 4,
-      "points": 4.2,
+      "points": 6.4,
       "result": "W"
     },
     {
@@ -3341,7 +3341,7 @@
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 42.4,
+      "points": 48.5,
       "result": "W"
     },
     {
@@ -3355,7 +3355,7 @@
       "week": 6,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 46.62,
+      "points": 45.62,
       "result": "W"
     },
     {
@@ -3369,7 +3369,7 @@
       "week": 6,
       "roster_id": 8,
       "opponent_roster_id": 7,
-      "points": 16.6,
+      "points": 18.8,
       "result": "W"
     }
   ]
