@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-12T13:18:31.052613Z",
+  "generated_at": "2025-10-12T14:12:00.590854Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -589,7 +589,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "5849",
+        "4943",
         "7588",
         "8150",
         "12526",
@@ -604,8 +604,8 @@
         "11584",
         "11646",
         "12457",
-        "12484",
         "12526",
+        "4943",
         "4981",
         "4983",
         "5849",
@@ -621,12 +621,12 @@
       ],
       "starters": [
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "4943",
+          "name": "Sam Darnold",
           "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7588",
@@ -727,14 +727,6 @@
           "keeper": false
         },
         {
-          "player_id": "12484",
-          "name": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4981",
           "name": "Calvin Ridley",
           "position": "WR",
@@ -749,6 +741,14 @@
           "team": "CHI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "6783",
@@ -768,14 +768,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -806,6 +798,14 @@
           "position": "RB",
           "team": "TB",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
@@ -1750,7 +1750,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11566",
+        "421",
         "8138",
         "11647",
         "9997",
@@ -1781,12 +1781,12 @@
       ],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "WAS",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8138",
@@ -1863,6 +1863,14 @@
           "keeper": false
         },
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1883,14 +1891,6 @@
           "name": "Kareem Hunt",
           "position": "RB",
           "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1921,14 +1921,6 @@
       ],
       "keepers": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "8138",
           "name": "James Cook",
           "position": "RB",
@@ -1941,6 +1933,14 @@
           "name": "Los Angeles",
           "position": "DEF",
           "team": "LAC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
           "injury_status": null,
           "keeper": true
         },
@@ -3292,15 +3292,15 @@
       "week": 6,
       "roster_id": 1,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 6.0,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 10,
       "opponent_roster_id": 1,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
@@ -3321,14 +3321,14 @@
       "roster_id": 4,
       "opponent_roster_id": 11,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 3.0,
+      "result": "W"
     },
     {
       "week": 6,
@@ -3341,7 +3341,7 @@
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 31.0,
+      "points": 40.4,
       "result": "W"
     },
     {
@@ -3355,7 +3355,7 @@
       "week": 6,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 35.62,
+      "points": 43.62,
       "result": "W"
     },
     {
@@ -3369,7 +3369,7 @@
       "week": 6,
       "roster_id": 8,
       "opponent_roster_id": 7,
-      "points": 8.9,
+      "points": 14.5,
       "result": "W"
     }
   ]
