@@ -62,11 +62,11 @@
   },
   "avatar": "1158073fa2140f85f5d9ea579e40ccce",
   "company_id": null,
-  "sport": "nfl",
-  "season_type": "regular",
-  "season": "2025",
   "last_message_id": "1283542947182157824",
+  "sport": "nfl",
   "shard": 722,
+  "season": "2025",
+  "season_type": "regular",
   "scoring_settings": {
     "sack": 1.0,
     "fgm_40_49": 4.0,
@@ -130,6 +130,8 @@
   "draft_id": "1181689020258160641",
   "league_id": "1181689020258160640",
   "previous_league_id": "1066143537286299648",
+  "bracket_id": null,
+  "bracket_overrides_id": null,
   "group_id": null,
   "roster_positions": [
     "QB",
@@ -149,8 +151,6 @@
     "BN",
     "BN"
   ],
-  "bracket_id": null,
-  "bracket_overrides_id": null,
   "loser_bracket_id": null,
   "loser_bracket_overrides_id": null,
   "total_rosters": 12
