@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-14T05:14:31.844477Z",
+  "generated_at": "2025-10-14T06:22:29.620064Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -591,11 +591,11 @@
       "starters_current": [
         "4943",
         "7588",
-        "8150",
+        "5850",
         "12526",
         "8126",
         "8130",
-        "5850",
+        "8150",
         "8259",
         "PHI"
       ],
@@ -637,12 +637,12 @@
           "keeper": false
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "LAR",
+          "team": "GB",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "12526",
@@ -669,12 +669,12 @@
           "keeper": true
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "GB",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "8259",
@@ -769,18 +769,18 @@
       ],
       "keepers": [
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "8130",
           "name": "Trey McBride",
           "position": "TE",
           "team": "ARI",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true
         },
