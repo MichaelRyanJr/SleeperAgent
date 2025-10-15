@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T10:16:41.169922Z",
+  "generated_at": "2025-10-15T11:12:45.209536Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1876,11 +1876,11 @@
         "PIT"
       ],
       "players_current": [
+        "11565",
         "11631",
         "11637",
         "11646",
         "12455",
-        "12457",
         "12512",
         "12518",
         "12519",
@@ -1970,6 +1970,14 @@
       ],
       "bench": [
         {
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -1990,14 +1998,6 @@
           "name": "Brashard Smith",
           "position": "RB",
           "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
