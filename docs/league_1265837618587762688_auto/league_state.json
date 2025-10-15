@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T06:22:23.155429Z",
+  "generated_at": "2025-10-15T07:15:11.184556Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -178,7 +178,7 @@
       "points_for": 644.68,
       "points_against": 610.9,
       "waiver": {
-        "position": 10,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -203,13 +203,13 @@
         "4981",
         "5189",
         "5848",
-        "8123",
         "8130",
         "8146",
         "8150",
         "9500",
         "9756",
-        "IND"
+        "IND",
+        "SEA"
       ],
       "starters": [
         {
@@ -241,7 +241,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -315,7 +315,7 @@
           "name": "Calvin Ridley",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -323,14 +323,6 @@
           "name": "Hollywood Brown",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8123",
-          "name": "Hassan Haskins",
-          "position": "RB",
-          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -347,6 +339,14 @@
           "name": "Jordan Addison",
           "position": "WR",
           "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "SEA",
+          "name": "Seattle",
+          "position": "DEF",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
@@ -506,7 +506,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -560,7 +560,7 @@
       "points_for": 660.42,
       "points_against": 646.64,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -688,7 +688,7 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -704,7 +704,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -720,7 +720,7 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -933,7 +933,7 @@
       "points_for": 643.98,
       "points_against": 638.0,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1002,7 +1002,7 @@
           "name": "Emeka Egbuka",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1084,7 +1084,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -1106,7 +1106,7 @@
       "points_for": 615.16,
       "points_against": 577.12,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -1227,7 +1227,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1267,7 +1267,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1297,7 +1297,7 @@
       "points_for": 525.7,
       "points_against": 625.06,
       "waiver": {
-        "position": 12,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1418,7 +1418,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1434,7 +1434,7 @@
           "name": "Chris Godwin",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1488,7 +1488,7 @@
       "points_for": 627.78,
       "points_against": 669.9,
       "waiver": {
-        "position": 6,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1499,27 +1499,27 @@
         "8112",
         "12506",
         "6786",
-        "11789",
-        "LAR"
+        "0",
+        "0"
       ],
       "players_current": [
         "10229",
         "10236",
         "11638",
-        "11789",
         "12489",
         "12498",
         "12503",
         "12506",
         "12530",
         "3294",
-        "4219",
+        "4943",
+        "6083",
         "6786",
         "8112",
         "8228",
         "8408",
         "9226",
-        "LAR"
+        "CLE"
       ],
       "starters": [
         {
@@ -1551,7 +1551,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": "Sus",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1575,23 +1575,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "11789",
-          "name": "Joshua Karty",
-          "position": "K",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "LAR",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -1609,7 +1593,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1645,9 +1629,17 @@
           "keeper": false
         },
         {
-          "player_id": "4219",
-          "name": "Jeremy McNichols",
-          "position": "RB",
+          "player_id": "4943",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6083",
+          "name": "Matt Gay",
+          "position": "K",
           "team": "WAS",
           "injury_status": null,
           "keeper": false
@@ -1657,6 +1649,14 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         }
@@ -1839,7 +1839,7 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -1861,7 +1861,7 @@
       "points_for": 578.52,
       "points_against": 541.98,
       "waiver": {
-        "position": 11,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2330,7 +2330,7 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
