@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T11:12:48.686381Z",
+  "generated_at": "2025-10-15T12:31:42.583484Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -356,7 +356,7 @@
         "3214",
         "4454",
         "0",
-        "SEA"
+        "0"
       ],
       "players_current": [
         "11564",
@@ -367,6 +367,7 @@
         "11792",
         "12489",
         "12490",
+        "12493",
         "12508",
         "12512",
         "3163",
@@ -375,8 +376,7 @@
         "9226",
         "9493",
         "9757",
-        "MIN",
-        "SEA"
+        "MIN"
       ],
       "starters": [
         {
@@ -434,14 +434,6 @@
           "team": "SF",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "SEA",
-          "name": "Seattle",
-          "position": "DEF",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -490,6 +482,14 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
