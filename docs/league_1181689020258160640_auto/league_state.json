@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T04:17:40.322163Z",
+  "generated_at": "2025-10-15T05:14:43.569487Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -103,9 +103,9 @@
         "8228",
         "12529",
         "9488",
-        "12514",
-        "10859",
         "2449",
+        "10859",
+        "5927",
         "3678",
         "NE"
       ],
@@ -163,11 +163,11 @@
           "keeper": true
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "TB",
-          "injury_status": "Out",
+          "team": "NE",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -179,12 +179,12 @@
           "keeper": true
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": true
         },
         {
           "player_id": "3678",
@@ -237,20 +237,20 @@
           "keeper": false
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "5022",
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Out",
-          "keeper": true
         },
         {
           "player_id": "7042",
@@ -311,19 +311,19 @@
           "keeper": true
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "5927",
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
           "keeper": true
         }
       ]
@@ -595,7 +595,7 @@
         "12526",
         "8126",
         "8130",
-        "8150",
+        "0",
         "8259",
         "PHI"
       ],
@@ -612,10 +612,10 @@
         "5850",
         "6783",
         "7021",
+        "7526",
         "7588",
         "8126",
         "8130",
-        "8150",
         "8259",
         "PHI"
       ],
@@ -665,14 +665,6 @@
           "name": "Trey McBride",
           "position": "TE",
           "team": "ARI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
           "injury_status": null,
           "keeper": true
         },
@@ -765,6 +757,14 @@
           "team": "CAR",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -773,14 +773,6 @@
           "name": "Trey McBride",
           "position": "TE",
           "team": "ARI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
           "injury_status": null,
           "keeper": true
         },
@@ -1065,7 +1057,7 @@
         "9228",
         "8151",
         "7543",
-        "7526",
+        "0",
         "11628",
         "9484",
         "7564",
@@ -1081,10 +1073,10 @@
         "12711",
         "4881",
         "5892",
-        "7526",
         "7543",
         "7564",
         "7569",
+        "8150",
         "8151",
         "9228",
         "9484",
@@ -1112,14 +1104,6 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -1220,6 +1204,14 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
