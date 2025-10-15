@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T19:11:50.329593Z",
+  "generated_at": "2025-10-15T20:17:03.215115Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -101,7 +101,7 @@
       "starters_current": [
         "9758",
         "8228",
-        "12529",
+        "8408",
         "9488",
         "2449",
         "10859",
@@ -123,8 +123,8 @@
         "5927",
         "7042",
         "8123",
-        "8144",
         "8228",
+        "8408",
         "9488",
         "9758",
         "NE"
@@ -147,10 +147,10 @@
           "keeper": true
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "NE",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -237,6 +237,14 @@
           "keeper": false
         },
         {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -265,14 +273,6 @@
           "name": "Hassan Haskins",
           "position": "RB",
           "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8144",
-          "name": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -593,9 +593,9 @@
         "7588",
         "5850",
         "12526",
-        "8126",
+        "10229",
         "8130",
-        "0",
+        "7526",
         "8259",
         "PHI"
       ],
@@ -606,7 +606,6 @@
         "12457",
         "12526",
         "4943",
-        "4981",
         "4983",
         "5849",
         "5850",
@@ -653,12 +652,12 @@
           "keeper": false
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "10229",
+          "name": "Rashee Rice",
           "position": "WR",
-          "team": "NYG",
+          "team": "KC",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "8130",
@@ -667,6 +666,14 @@
           "team": "ARI",
           "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8259",
@@ -686,14 +693,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -716,14 +715,6 @@
           "position": "RB",
           "team": "DAL",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "4981",
-          "name": "Calvin Ridley",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -759,28 +750,28 @@
           "keeper": false
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "MIA",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
           "injury_status": null,
           "keeper": true
         },
@@ -2409,8 +2400,8 @@
         "4034",
         "6813",
         "5045",
-        "12501",
-        "4033",
+        "8144",
+        "12498",
         "6806",
         "4227",
         "GB"
@@ -2430,8 +2421,8 @@
         "6813",
         "7591",
         "8121",
+        "8144",
         "8154",
-        "8408",
         "9500",
         "GB"
       ],
@@ -2469,19 +2460,19 @@
           "keeper": true
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "8144",
+          "name": "Chris Olave",
           "position": "WR",
-          "team": "GB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "4033",
-          "name": "David Njoku",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
-          "team": "CLE",
-          "injury_status": "Questionable",
+          "team": "NYJ",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2535,11 +2526,19 @@
           "keeper": false
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4033",
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "CLE",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2563,14 +2562,6 @@
           "name": "Brian Robinson",
           "position": "RB",
           "team": "SF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
