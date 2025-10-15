@@ -2,7 +2,7 @@ name: Sleeper sync (multi-league)
 
 on:
   schedule:
-    - cron: "0 * * * *"   # hourly UTC
+    - cron: "*/20 * * * *"   # every 20 mins
   workflow_dispatch: {}
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
           shopt -s nullglob
           mkdir -p docs
 
-          # Prepare a small Python script once; reuse it in the loop (build HTML mirror)
+          # Prepare a small Python script once; reuse in loop to build HTML mirrors
           cat > /tmp/mirror.py << 'PY'
           import os, pathlib, html
           lid = os.environ["CUR_LID"]
@@ -44,37 +44,48 @@ jobs:
 
           for LID in $LEAGUES; do
             echo "==> Exporting $LID"
+
+            # 1) Clear old per-league export folders to avoid copying stale files
+            rm -rf ./docs/league_${LID}_*/
+
+            # 2) Export fresh snapshot
             python sleeper_sync.py --league "$LID" --out ./docs
-            FILE=$(ls ./docs/league_${LID}_*/league_state.json | head -n 1)
+
+            # 3) Copy the NEWEST league_state.json and (if present) draft_picks.json
+            FILE=$(ls -t ./docs/league_${LID}_*/league_state.json | head -n 1)
             cp "$FILE" "./docs/league_state_${LID}.json"
 
-            # Also publish draft picks so we can identify keepers from raw file if needed
             if ls ./docs/league_${LID}_*/draft_picks.json >/dev/null 2>&1; then
-              FILE2=$(ls ./docs/league_${LID}_*/draft_picks.json | head -n 1)
+              FILE2=$(ls -t ./docs/league_${LID}_*/draft_picks.json | head -n 1)
               cp "$FILE2" "./docs/draft_picks_${LID}.json"
             fi
 
+            # 4) Build an HTML mirror (for GitHub Pages)
             CUR_LID="$LID" python /tmp/mirror.py
           done
+
+      - name: Show docs contents (debug)
+        run: ls -lR docs
 
       - name: Build index.html
         run: |
           python - << 'PY'
           import json, pathlib, html
           docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
-          rows=[]
+          rows = []
           for p in sorted(docs.glob('league_state_*.json')):
-              data=json.loads(p.read_text('utf-8'))
-              lid=data.get('league',{}).get('league_id')
-              name=data.get('league',{}).get('name','League')
-              ts=data.get('generated_at','')
-              picks = f'draft_picks_{lid}.json'
-              have_picks = docs.joinpath(picks).exists()
-              rows.append((name,lid,p.name,f'league_state_{lid}.html',ts,have_picks,picks))
-          out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
-          for name,lid,json_name,html_name,ts,have_picks,picks in rows:
+              data = json.loads(p.read_text('utf-8'))
+              lid = data.get('league',{}).get('league_id')
+              name = data.get('league',{}).get('name','League')
+              ts = data.get('generated_at','')
+              picks_name = f'draft_picks_{lid}.json'
+              have_picks = docs.joinpath(picks_name).exists()
+              rows.append((name, lid, p.name, f'league_state_{lid}.html', ts, have_picks, picks_name))
+          out = ['<!doctype html>', '<meta charset="utf-8">', '<title>SleeperAgent export</title>', '<h1>SleeperAgent export</h1>', '<ul>']
+          for name, lid, json_name, html_name, ts, have_picks, picks in rows:
               pick_link = f' | <a href="{picks}">draft_picks</a>' if have_picks else ''
-              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — <a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a>'+pick_link+'</li>')
+              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — '
+                        f'<a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a>' + pick_link + '</li>')
           out.append('</ul>')
           docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
@@ -84,5 +95,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (both leagues + picks)" || echo "No changes"
+          git commit -m "update league data (freshest copies for both leagues)" || echo "No changes"
           git push
