@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T07:15:14.936376Z",
+  "generated_at": "2025-10-15T08:20:48.914946Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -99,7 +99,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4984",
+        "9758",
         "8228",
         "12529",
         "9488",
@@ -111,7 +111,6 @@
       ],
       "players_current": [
         "10859",
-        "11199",
         "11655",
         "12506",
         "12507",
@@ -127,16 +126,17 @@
         "8144",
         "8228",
         "9488",
+        "9758",
         "NE"
       ],
       "starters": [
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
+          "player_id": "9758",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "team": "BUF",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8228",
@@ -205,14 +205,6 @@
       ],
       "bench": [
         {
-          "player_id": "11199",
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -243,6 +235,14 @@
           "team": "TB",
           "injury_status": "Questionable",
           "keeper": false
+        },
+        {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true
         },
         {
           "player_id": "5022",
@@ -278,14 +278,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "8228",
           "name": "Jaylen Warren",
@@ -323,6 +315,14 @@
           "name": "Tyrone Tracy",
           "position": "RB",
           "team": "NYG",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": true
         }
@@ -1055,14 +1055,14 @@
       },
       "starters_current": [
         "9228",
-        "8151",
+        "8150",
         "7543",
-        "0",
-        "11628",
-        "9484",
+        "7569",
         "7564",
-        "12711",
-        "TEN"
+        "12518",
+        "11628",
+        "5189",
+        "KC"
       ],
       "players_current": [
         "11628",
@@ -1070,8 +1070,8 @@
         "12474",
         "12495",
         "12518",
-        "12711",
         "4881",
+        "5189",
         "5892",
         "7543",
         "7564",
@@ -1080,7 +1080,7 @@
         "8151",
         "9228",
         "9484",
-        "TEN"
+        "KC"
       ],
       "starters": [
         {
@@ -1092,12 +1092,12 @@
           "keeper": false
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "SEA",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "7543",
@@ -1108,18 +1108,10 @@
           "keeper": false
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
+          "team": "HOU",
           "injury_status": null,
           "keeper": true
         },
@@ -1132,18 +1124,34 @@
           "keeper": false
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
-          "position": "K",
-          "team": "BAL",
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "TEN",
-          "name": "Tennessee",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "TEN",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         }
@@ -1174,14 +1182,6 @@
           "keeper": false
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -1198,24 +1198,6 @@
           "keeper": true
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        }
-      ],
-      "keepers": [
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -1228,6 +1210,16 @@
           "name": "Tucker Kraft",
           "position": "TE",
           "team": "GB",
+          "injury_status": null,
+          "keeper": true
+        }
+      ],
+      "keepers": [
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": null,
           "keeper": true
         },
@@ -1256,10 +1248,18 @@
           "keeper": true
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
           "injury_status": null,
           "keeper": true
         }
@@ -1290,10 +1290,10 @@
         "9224",
         "11635",
         "5947",
+        "1339",
         "5844",
-        "10219",
         "6650",
-        "BUF"
+        "CHI"
       ],
       "players_current": [
         "10219",
@@ -1301,7 +1301,7 @@
         "11635",
         "12469",
         "12519",
-        "12521",
+        "1339",
         "1373",
         "3321",
         "4137",
@@ -1313,7 +1313,7 @@
         "6770",
         "7571",
         "9224",
-        "BUF"
+        "CHI"
       ],
       "starters": [
         {
@@ -1357,18 +1357,18 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "1339",
+          "name": "Zach Ertz",
           "position": "TE",
-          "team": "MIN",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "WAS",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -1381,15 +1381,23 @@
           "keeper": false
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo",
+          "player_id": "CHI",
+          "name": "Chicago",
           "position": "DEF",
-          "team": "BUF",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11565",
           "name": "J.J. McCarthy",
@@ -1411,14 +1419,6 @@
           "name": "Luther Burden",
           "position": "WR",
           "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12521",
-          "name": "Elijah Arroyo",
-          "position": "TE",
-          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
