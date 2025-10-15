@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-15T15:14:46.250582Z",
+  "generated_at": "2025-10-15T16:16:02.187323Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -699,7 +699,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -789,7 +789,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -825,10 +825,10 @@
         "4046",
         "9509",
         "12533",
+        "6786",
         "11620",
+        "8111",
         "6801",
-        "7002",
-        "7049",
         "11789",
         "PIT"
       ],
@@ -841,8 +841,8 @@
         "4046",
         "6786",
         "6801",
-        "7002",
         "7049",
+        "8111",
         "8205",
         "8676",
         "9502",
@@ -877,6 +877,14 @@
           "keeper": false
         },
         {
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -885,27 +893,19 @@
           "keeper": true
         },
         {
+          "player_id": "8111",
+          "name": "Cade Otton",
+          "position": "TE",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "6801",
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -943,12 +943,12 @@
           "keeper": false
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
           "position": "WR",
-          "team": "DAL",
+          "team": "SF",
           "injury_status": "Questionable",
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8205",
@@ -993,19 +993,19 @@
       ],
       "keepers": [
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
           "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1643,7 +1643,7 @@
           "name": "Chris Godwin",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": false
         },
         {
