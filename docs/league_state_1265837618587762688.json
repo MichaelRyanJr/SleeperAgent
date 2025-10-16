@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-16T22:20:42.178852Z",
+  "generated_at": "2025-10-16T22:48:45.486123Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2247,8 +2247,8 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4984",
-        "3198",
+        "6804",
+        "8132",
         "9753",
         "5872",
         "6819",
@@ -2278,18 +2278,18 @@
       ],
       "starters": [
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
+          "player_id": "6804",
+          "name": "Jordan Love",
           "position": "QB",
-          "team": "BUF",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "3198",
-          "name": "Derrick Henry",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "BAL",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -2352,6 +2352,14 @@
       ],
       "bench": [
         {
+          "player_id": "3198",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4098",
           "name": "Kareem Hunt",
           "position": "RB",
@@ -2376,6 +2384,14 @@
           "keeper": false
         },
         {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -2392,26 +2408,10 @@
           "keeper": false
         },
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
