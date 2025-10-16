@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-16T21:48:49.412057Z",
+  "generated_at": "2025-10-16T22:20:42.178852Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1839,7 +1839,7 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -2056,7 +2056,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6904",
+        "4046",
         "12527",
         "5967",
         "5846",
@@ -2064,7 +2064,7 @@
         "9484",
         "8155",
         "11533",
-        "LV"
+        "0"
       ],
       "players_current": [
         "11299",
@@ -2083,14 +2083,14 @@
         "8155",
         "9484",
         "96",
-        "LV"
+        "CHI"
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "PHI",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -2149,14 +2149,6 @@
           "team": "DAL",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "LV",
-          "name": "Las Vegas",
-          "position": "DEF",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -2201,14 +2193,6 @@
           "keeper": false
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4454",
           "name": "Kendrick Bourne",
           "position": "WR",
@@ -2217,10 +2201,26 @@
           "keeper": false
         },
         {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "96",
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "CHI",
+          "name": "Chicago",
+          "position": "DEF",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         }
