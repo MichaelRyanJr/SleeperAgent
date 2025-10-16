@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-16T23:19:54.259665Z",
+  "generated_at": "2025-10-16T23:34:57.525904Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2638,12 +2638,12 @@
       },
       "starters_current": [
         "6804",
-        "8136",
+        "12481",
         "8155",
         "5846",
-        "8134",
+        "2216",
         "1466",
-        "12481",
+        "8136",
         "650",
         "JAX"
       ],
@@ -2676,10 +2676,10 @@
           "keeper": true
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "12481",
+          "name": "Cam Skattebo",
           "position": "RB",
-          "team": "TB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -2700,11 +2700,11 @@
           "keeper": false
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
+          "team": "TB",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -2716,10 +2716,10 @@
           "keeper": false
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYG",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -2758,14 +2758,6 @@
           "keeper": false
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
           "player_id": "3198",
           "name": "Derrick Henry",
           "position": "RB",
@@ -2798,6 +2790,14 @@
           "keeper": false
         },
         {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "HOU",
           "name": "Houston",
           "position": "DEF",
@@ -2824,14 +2824,6 @@
           "keeper": true
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -2845,6 +2837,14 @@
           "position": "TE",
           "team": "SF",
           "injury_status": "IR",
+          "keeper": true
+        },
+        {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
           "keeper": true
         }
       ]
