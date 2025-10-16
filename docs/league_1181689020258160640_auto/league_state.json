@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-16T11:48:53.841871Z",
+  "generated_at": "2025-10-16T12:55:15.680617Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -351,12 +351,12 @@
         "11564",
         "9226",
         "12512",
-        "9493",
+        "4454",
         "11631",
         "3214",
-        "4454",
-        "0",
-        "0"
+        "12493",
+        "11792",
+        "MIN"
       ],
       "players_current": [
         "11564",
@@ -404,12 +404,12 @@
           "keeper": false
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11631",
@@ -428,10 +428,26 @@
           "keeper": false
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11792",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "MIN",
+          "name": "Minnesota",
+          "position": "DEF",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         }
@@ -462,14 +478,6 @@
           "keeper": true
         },
         {
-          "player_id": "11792",
-          "name": "Will Reichard",
-          "position": "K",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -482,14 +490,6 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -510,18 +510,18 @@
           "keeper": false
         },
         {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "MIN",
-          "name": "Minnesota",
-          "position": "DEF",
-          "team": "MIN",
           "injury_status": null,
           "keeper": false
         }
@@ -533,14 +533,6 @@
           "position": "RB",
           "team": "MIA",
           "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -566,6 +558,14 @@
           "team": "NYG",
           "injury_status": "IR",
           "keeper": true
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true
         }
       ]
     },
@@ -589,7 +589,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4943",
+        "5849",
         "7588",
         "5850",
         "7526",
@@ -620,12 +620,12 @@
       ],
       "starters": [
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "7588",
@@ -718,20 +718,20 @@
           "keeper": false
         },
         {
+          "player_id": "4943",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4983",
           "name": "DJ Moore",
           "position": "WR",
           "team": "CHI",
           "injury_status": "Questionable",
           "keeper": false
-        },
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
         },
         {
           "player_id": "6783",
@@ -760,6 +760,14 @@
       ],
       "keepers": [
         {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
@@ -781,14 +789,6 @@
           "position": "RB",
           "team": "TB",
           "injury_status": "Out",
-          "keeper": true
-        },
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
           "keeper": true
         }
       ]
