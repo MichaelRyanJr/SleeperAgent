@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-17T01:56:03.715233Z",
+  "generated_at": "2025-10-17T03:06:49.752785Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1315,6 +1315,8 @@
         "11584",
         "11635",
         "11786",
+        "12474",
+        "12485",
         "12533",
         "3163",
         "4018",
@@ -1409,6 +1411,22 @@
           "position": "RB",
           "team": "TB",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12485",
+          "name": "Tez Johnson",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1666,10 +1684,10 @@
       },
       "starters_current": [
         "6768",
-        "8138",
+        "9506",
         "12481",
-        "7526",
-        "9997",
+        "6794",
+        "8137",
         "8110",
         "12529",
         "6650",
@@ -1679,7 +1697,6 @@
         "11560",
         "12481",
         "12529",
-        "4066",
         "4881",
         "6650",
         "6768",
@@ -1689,6 +1706,7 @@
         "8110",
         "8137",
         "8138",
+        "9506",
         "9754",
         "9997",
         "PHI"
@@ -1703,10 +1721,10 @@
           "keeper": false
         },
         {
-          "player_id": "8138",
-          "name": "James Cook",
+          "player_id": "9506",
+          "name": "Sean Tucker",
           "position": "RB",
-          "team": "BUF",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -1719,18 +1737,18 @@
           "keeper": false
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "MIA",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "BAL",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1777,14 +1795,6 @@
           "keeper": false
         },
         {
-          "player_id": "4066",
-          "name": "Evan Engram",
-          "position": "TE",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -1793,10 +1803,10 @@
           "keeper": false
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "MIN",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -1809,10 +1819,10 @@
           "keeper": false
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         },
@@ -1821,6 +1831,14 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
         }
@@ -2945,28 +2963,28 @@
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 18.1,
+      "points": 28.3,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 7.3,
+      "points": 10.8,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 4.0,
+      "points": -3.0,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 9.6,
+      "points": 17.8,
       "result": "W"
     },
     {
@@ -2980,14 +2998,14 @@
       "week": 7,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 5.5,
+      "points": 6.5,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 6.9,
+      "points": 14.7,
       "result": "W"
     }
   ]
