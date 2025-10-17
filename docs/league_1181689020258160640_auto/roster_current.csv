@@ -63,7 +63,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,9,PIT,Pittsburgh,DEF,PIT,,1,0
 4,,12517,Colston Loveland,TE,CHI,,0,0
 4,,12530,Travis Hunter,WR,JAX,,0,0
-4,,7049,Jauan Jennings,WR,SF,Questionable,0,0
+4,,7049,Jauan Jennings,WR,SF,,0,0
 4,,8205,Isiah Pacheco,RB,KC,,0,1
 4,,8676,Rashid Shaheed,WR,NO,,0,0
 4,,9502,Tank Dell,WR,HOU,PUP,0,1
@@ -78,7 +78,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,7,11628,Marvin Harrison,WR,ARI,,1,0
 5,8,5189,Eddy Pineiro,K,SF,,1,0
 5,9,KC,Kansas City,DEF,KC,,1,0
-5,,11638,Ricky Pearsall,WR,SF,Questionable,0,1
+5,,11638,Ricky Pearsall,WR,SF,Out,0,1
 5,,12474,Woody Marks,RB,HOU,,0,0
 5,,12495,Ollie Gordon,RB,MIA,,0,0
 5,,4881,Lamar Jackson,QB,BAL,Out,0,1
@@ -130,7 +130,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,8,6083,Matt Gay,K,WAS,,1,0
 8,9,LAC,Los Angeles,DEF,LAC,,1,1
 8,,10236,Dalton Kincaid,TE,BUF,Out,0,0
-8,,11586,Blake Corum,RB,LAR,Questionable,0,0
+8,,11586,Blake Corum,RB,LAR,,0,0
 8,,4018,Joe Mixon,RB,HOU,PUP,0,1
 8,,421,Matthew Stafford,QB,LAR,,0,0
 8,,4950,Christian Kirk,WR,HOU,,0,1
@@ -154,7 +154,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,,5012,Mark Andrews,TE,BAL,,0,0
 9,,8146,Garrett Wilson,WR,NYJ,Doubtful,0,1
 9,,9508,Tyjae Spears,RB,TEN,,0,0
-10,1,8183,Brock Purdy,QB,SF,Questionable,1,0
+10,1,8183,Brock Purdy,QB,SF,Out,1,0
 10,2,8143,Jerome Ford,RB,CLE,,1,0
 10,3,5967,Tony Pollard,RB,TEN,,1,0
 10,4,5872,Deebo Samuel,WR,WAS,Questionable,1,0
