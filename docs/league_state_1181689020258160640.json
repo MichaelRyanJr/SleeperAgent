@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-17T10:49:11.212692Z",
+  "generated_at": "2025-10-17T11:20:33.220106Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -344,7 +344,7 @@
       "points_for": 810.54,
       "points_against": 701.62,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1505,7 +1505,7 @@
       "points_for": 799.36,
       "points_against": 691.32,
       "waiver": {
-        "position": 10,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1517,7 +1517,7 @@
         "2505",
         "4035",
         "11533",
-        "LV"
+        "0"
       ],
       "players_current": [
         "11533",
@@ -1536,7 +1536,7 @@
         "8137",
         "9221",
         "DET",
-        "LV"
+        "SEA"
       ],
       "starters": [
         {
@@ -1602,14 +1602,6 @@
           "team": "DAL",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "LV",
-          "name": "Las Vegas",
-          "position": "DEF",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1674,6 +1666,14 @@
           "name": "Detroit",
           "position": "DEF",
           "team": "DET",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "SEA",
+          "name": "Seattle",
+          "position": "DEF",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
@@ -1969,7 +1969,7 @@
       "points_for": 706.6,
       "points_against": 692.44,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
