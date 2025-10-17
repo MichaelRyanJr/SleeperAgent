@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-17T20:27:34.577251Z",
+  "generated_at": "2025-10-17T20:48:55.090111Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -105,7 +105,7 @@
         "9488",
         "2449",
         "10859",
-        "5927",
+        "12529",
         "3678",
         "NE"
       ],
@@ -179,12 +179,12 @@
           "keeper": true
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Out",
-          "keeper": true
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "3678",
@@ -237,14 +237,6 @@
           "keeper": false
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -261,6 +253,14 @@
           "keeper": false
         },
         {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": true
+        },
+        {
           "player_id": "7042",
           "name": "Tyler Bass",
           "position": "K",
@@ -273,7 +273,7 @@
           "name": "Hassan Haskins",
           "position": "RB",
           "team": "LAC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -303,14 +303,6 @@
           "keeper": true
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Out",
-          "keeper": true
-        },
-        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -324,6 +316,14 @@
           "position": "QB",
           "team": "BUF",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
@@ -872,7 +872,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -988,7 +988,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1051,7 +1051,7 @@
         "7569",
         "7564",
         "12518",
-        "8151",
+        "11628",
         "5189",
         "KC"
       ],
@@ -1123,12 +1123,12 @@
           "keeper": false
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "5189",
@@ -1148,14 +1148,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1197,6 +1189,14 @@
           "keeper": true
         },
         {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1211,14 +1211,6 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
@@ -1243,6 +1235,14 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "DET",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
