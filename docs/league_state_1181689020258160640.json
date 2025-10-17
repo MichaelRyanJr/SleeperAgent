@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-17T11:48:52.151107Z",
+  "generated_at": "2025-10-17T12:53:41.736487Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1051,7 +1051,7 @@
         "7569",
         "7564",
         "12518",
-        "11628",
+        "8151",
         "5189",
         "KC"
       ],
@@ -1123,12 +1123,12 @@
           "keeper": false
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true
         },
         {
           "player_id": "5189",
@@ -1148,6 +1148,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1189,14 +1197,6 @@
           "keeper": true
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1211,6 +1211,14 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
@@ -1235,14 +1243,6 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
           "injury_status": null,
           "keeper": true
         },
