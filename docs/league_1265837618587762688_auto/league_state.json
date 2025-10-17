@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-16T23:48:59.770989Z",
+  "generated_at": "2025-10-17T01:56:03.715233Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -185,10 +185,10 @@
         "11564",
         "4866",
         "8150",
-        "8146",
-        "4039",
+        "9756",
+        "5045",
         "8130",
-        "12533",
+        "11647",
         "5189",
         "SEA"
       ],
@@ -196,11 +196,11 @@
         "11564",
         "11647",
         "12185",
-        "12533",
         "4035",
         "4039",
         "4866",
         "4981",
+        "5045",
         "5189",
         "5848",
         "8130",
@@ -237,18 +237,18 @@
           "keeper": false
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "9756",
+          "name": "Jordan Addison",
           "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Doubtful",
+          "team": "MIN",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "SEA",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -261,10 +261,10 @@
           "keeper": false
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "WAS",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -287,14 +287,6 @@
       ],
       "bench": [
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12185",
           "name": "Spencer Shrader",
           "position": "K",
@@ -308,6 +300,14 @@
           "position": "RB",
           "team": "NO",
           "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
+          "player_id": "4039",
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -327,19 +327,19 @@
           "keeper": false
         },
         {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Doubtful",
+          "keeper": false
+        },
+        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1302,32 +1302,30 @@
       },
       "starters_current": [
         "3163",
-        "9757",
+        "12533",
         "7567",
         "7564",
         "11635",
         "7002",
-        "5045",
+        "6783",
         "11786",
         "MIA"
       ],
       "players_current": [
-        "10219",
         "11584",
         "11635",
         "11786",
+        "12533",
         "3163",
         "4018",
         "4037",
         "5012",
-        "5045",
         "5870",
         "6783",
         "6803",
         "7002",
         "7564",
         "7567",
-        "9757",
         "MIA"
       ],
       "starters": [
@@ -1340,10 +1338,10 @@
           "keeper": false
         },
         {
-          "player_id": "9757",
-          "name": "Kendre Miller",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "NO",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
@@ -1380,11 +1378,11 @@
           "keeper": false
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
+          "player_id": "6783",
+          "name": "Jerry Jeudy",
           "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
+          "team": "CLE",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1405,14 +1403,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -1451,14 +1441,6 @@
           "position": "QB",
           "team": "IND",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2957,56 +2939,56 @@
       "roster_id": 5,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 18.1,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 7.3,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 4.0,
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 9.6,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 9,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 5.5,
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 6.9,
+      "result": "W"
     }
   ]
 }
