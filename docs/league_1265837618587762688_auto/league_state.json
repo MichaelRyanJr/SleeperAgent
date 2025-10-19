@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T15:48:02.042632Z",
+  "generated_at": "2025-10-19T16:28:19.681096Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -379,8 +379,8 @@
         "5859",
         "12526",
         "10859",
-        "2449",
-        "12711",
+        "2216",
+        "1433",
         "KC"
       ],
       "players_current": [
@@ -390,11 +390,11 @@
         "12526",
         "12711",
         "1339",
+        "1433",
         "2216",
         "2449",
         "5850",
         "5859",
-        "5955",
         "7543",
         "7670",
         "8151",
@@ -452,19 +452,19 @@
           "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "NE",
-          "injury_status": null,
+          "team": "TB",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
+          "player_id": "1433",
+          "name": "Brandon McManus",
           "position": "K",
-          "team": "BAL",
-          "injury_status": null,
+          "team": "GB",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -494,6 +494,14 @@
           "keeper": false
         },
         {
+          "player_id": "12711",
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "1339",
           "name": "Zach Ertz",
           "position": "TE",
@@ -502,19 +510,11 @@
           "keeper": false
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "5955",
-          "name": "Hunter Renfrow",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": "Out",
+          "team": "NE",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2919,7 +2919,7 @@
       "week": 7,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 5.5,
+      "points": 7.5,
       "result": "W"
     },
     {
@@ -2933,7 +2933,7 @@
       "week": 7,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 2.6,
+      "points": 3.3,
       "result": "W"
     },
     {
@@ -2954,7 +2954,7 @@
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 31.6,
+      "points": 32.6,
       "result": "W"
     },
     {
@@ -2968,7 +2968,7 @@
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 35.22,
+      "points": 41.34,
       "result": "W"
     },
     {
