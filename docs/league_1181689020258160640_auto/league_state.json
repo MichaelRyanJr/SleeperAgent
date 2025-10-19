@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T11:48:48.369923Z",
+  "generated_at": "2025-10-19T12:47:59.559827Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -589,13 +589,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "5849",
+        "4943",
         "7588",
         "5850",
         "12526",
         "10229",
         "8130",
-        "7021",
+        "7526",
         "8259",
         "PHI"
       ],
@@ -609,7 +609,6 @@
         "4983",
         "5849",
         "5850",
-        "6783",
         "7021",
         "7526",
         "7588",
@@ -620,12 +619,12 @@
       ],
       "starters": [
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "4943",
+          "name": "Sam Darnold",
           "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7588",
@@ -668,10 +667,10 @@
           "keeper": true
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -718,14 +717,6 @@
           "keeper": false
         },
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4983",
           "name": "DJ Moore",
           "position": "WR",
@@ -734,18 +725,18 @@
           "keeper": false
         },
         {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "MIA",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -759,14 +750,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
         {
           "player_id": "10229",
           "name": "Rashee Rice",
@@ -789,6 +772,14 @@
           "position": "RB",
           "team": "TB",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
