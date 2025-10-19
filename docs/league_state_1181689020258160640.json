@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T14:21:17.134678Z",
+  "generated_at": "2025-10-19T14:48:41.097525Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -591,11 +591,11 @@
       "starters_current": [
         "4943",
         "7588",
-        "5850",
-        "12526",
+        "7021",
+        "7526",
         "10229",
         "8130",
-        "7526",
+        "5850",
         "8259",
         "PHI"
       ],
@@ -635,18 +635,18 @@
           "keeper": false
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
-          "team": "GB",
-          "injury_status": "Questionable",
+          "team": "CAR",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "CAR",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -667,11 +667,11 @@
           "keeper": true
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "MIA",
-          "injury_status": null,
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -717,6 +717,14 @@
           "keeper": false
         },
         {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4983",
           "name": "DJ Moore",
           "position": "WR",
@@ -731,14 +739,6 @@
           "team": "ARI",
           "injury_status": "Questionable",
           "keeper": true
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8126",
@@ -3348,14 +3348,14 @@
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 1,
-      "points": 9.0,
+      "points": 8.0,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 2,
       "opponent_roster_id": 9,
-      "points": 1.1,
+      "points": 6.1,
       "result": "L"
     },
     {
@@ -3397,7 +3397,7 @@
       "week": 7,
       "roster_id": 5,
       "opponent_roster_id": 10,
-      "points": 44.6,
+      "points": 45.9,
       "result": "W"
     },
     {
@@ -3411,7 +3411,7 @@
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 11,
-      "points": 9.7,
+      "points": 19.4,
       "result": "W"
     },
     {
