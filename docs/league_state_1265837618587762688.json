@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T17:48:52.082785Z",
+  "generated_at": "2025-10-19T18:32:30.634087Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -575,9 +575,9 @@
         "SF"
       ],
       "players_current": [
-        "11597",
         "11650",
         "12508",
+        "3200",
         "3678",
         "4033",
         "4983",
@@ -668,14 +668,6 @@
       ],
       "bench": [
         {
-          "player_id": "11597",
-          "name": "Theo Johnson",
-          "position": "TE",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11650",
           "name": "Luke McCaffrey",
           "position": "WR",
@@ -688,6 +680,14 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "3200",
+          "name": "Sterling Shepard",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -1657,7 +1657,7 @@
           "name": "Kendre Miller",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -2919,21 +2919,21 @@
       "week": 7,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 19.5,
+      "points": 32.5,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 3,
       "opponent_roster_id": 1,
-      "points": 5.1,
+      "points": 8.2,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 30.64,
+      "points": 40.28,
       "result": "W"
     },
     {
@@ -2947,56 +2947,56 @@
       "week": 7,
       "roster_id": 5,
       "opponent_roster_id": 7,
-      "points": 8.6,
+      "points": 10.4,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 41.3,
+      "points": 41.4,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 13.6,
+      "points": 38.2,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 67.08,
+      "points": 74.48,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 42.5,
+      "points": 56.8,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 9,
       "opponent_roster_id": 8,
-      "points": 21.42,
+      "points": 27.48,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 29.9,
+      "points": 43.84,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 18.3,
+      "points": 20.6,
       "result": "L"
     }
   ]
