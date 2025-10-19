@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T20:48:14.280128Z",
+  "generated_at": "2025-10-19T21:20:56.776797Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2246,7 +2246,7 @@
         "5022",
         "11628",
         "7839",
-        "0"
+        "HOU"
       ],
       "players_current": [
         "11628",
@@ -2265,7 +2265,7 @@
         "8121",
         "8132",
         "9753",
-        "LAR"
+        "HOU"
       ],
       "starters": [
         {
@@ -2329,6 +2329,14 @@
           "name": "Evan McPherson",
           "position": "K",
           "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston",
+          "position": "DEF",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         }
@@ -2395,14 +2403,6 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "LAR",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAR",
           "injury_status": null,
           "keeper": false
         }
@@ -2919,84 +2919,84 @@
       "week": 7,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 57.88,
+      "points": 61.68,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 3,
       "opponent_roster_id": 1,
-      "points": 34.0,
+      "points": 38.74,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 61.32,
+      "points": 63.32,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 17.4,
+      "points": 18.5,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 5,
       "opponent_roster_id": 7,
-      "points": 27.68,
+      "points": 30.3,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 54.7,
+      "points": 54.2,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 63.32,
+      "points": 69.44,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 91.78,
+      "points": 99.48,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 81.92,
+      "points": 103.88,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 9,
       "opponent_roster_id": 8,
-      "points": 23.5,
+      "points": 37.3,
       "result": "L"
     },
     {
       "week": 7,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 81.74,
+      "points": 88.54,
       "result": "W"
     },
     {
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 22.52,
+      "points": 31.64,
       "result": "L"
     }
   ]
