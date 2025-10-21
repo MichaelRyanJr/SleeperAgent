@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-21T12:56:16.020566Z",
+  "generated_at": "2025-10-21T13:39:29.893100Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1501,12 +1501,12 @@
       },
       "starters_current": [
         "3294",
-        "9221",
-        "12527",
+        "4035",
+        "4988",
         "8137",
         "1479",
         "2505",
-        "4035",
+        "6819",
         "11533",
         "SEA"
       ],
@@ -1539,18 +1539,18 @@
           "keeper": false
         },
         {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "DET",
+          "team": "NO",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
+          "player_id": "4988",
+          "name": "Nick Chubb",
           "position": "RB",
-          "team": "LV",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         },
@@ -1579,10 +1579,10 @@
           "keeper": false
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1621,6 +1621,14 @@
           "keeper": false
         },
         {
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "position": "WR",
@@ -1637,14 +1645,6 @@
           "keeper": true
         },
         {
-          "player_id": "4988",
-          "name": "Nick Chubb",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6803",
           "name": "Brandon Aiyuk",
           "position": "WR",
@@ -1653,12 +1653,12 @@
           "keeper": false
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "IND",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "DET",
@@ -1670,14 +1670,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "11533",
           "name": "Brandon Aubrey",
@@ -1699,6 +1691,14 @@
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
           "injury_status": null,
           "keeper": true
         }
