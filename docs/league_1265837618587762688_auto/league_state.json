@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-21T21:49:01.762800Z",
+  "generated_at": "2025-10-21T22:21:46.185062Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -373,13 +373,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9228",
+        "9758",
         "5850",
-        "7543",
+        "0",
         "5859",
         "12526",
-        "10859",
-        "2216",
+        "1339",
+        "2449",
         "3451",
         "KC"
       ],
@@ -404,11 +404,11 @@
       ],
       "starters": [
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
+          "player_id": "9758",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "team": "CAR",
-          "injury_status": "Out",
+          "team": "HOU",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -416,14 +416,6 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -444,19 +436,19 @@
           "keeper": false
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
+          "player_id": "1339",
+          "name": "Zach Ertz",
           "position": "TE",
-          "team": "DET",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "TB",
-          "injury_status": "Out",
+          "team": "NE",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -486,6 +478,14 @@
           "keeper": false
         },
         {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11589",
           "name": "Trey Benson",
           "position": "RB",
@@ -502,18 +502,18 @@
           "keeper": false
         },
         {
-          "player_id": "1339",
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": "WAS",
-          "injury_status": null,
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Out",
           "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -534,11 +534,11 @@
           "keeper": false
         },
         {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "HOU",
-          "injury_status": null,
+          "team": "CAR",
+          "injury_status": "Out",
           "keeper": false
         }
       ],
