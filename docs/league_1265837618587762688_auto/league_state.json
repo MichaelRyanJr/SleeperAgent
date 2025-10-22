@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T20:29:23.420610Z",
+  "generated_at": "2025-10-22T20:48:10.916402Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1869,7 +1869,7 @@
         "9509",
         "12512",
         "11610",
-        "11646",
+        "0",
         "12518",
         "6806",
         "4227",
@@ -1878,12 +1878,12 @@
       "players_current": [
         "11610",
         "11631",
-        "11646",
         "12512",
         "12518",
         "12534",
         "2133",
         "2307",
+        "4171",
         "421",
         "4227",
         "6806",
@@ -1923,14 +1923,6 @@
           "name": "Malik Washington",
           "position": "WR",
           "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1989,6 +1981,14 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4171",
+          "name": "Josh Reynolds",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -2238,9 +2238,9 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6804",
+        "4984",
         "8132",
-        "9753",
+        "3198",
         "5872",
         "6819",
         "5022",
@@ -2269,10 +2269,10 @@
       ],
       "starters": [
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
+          "player_id": "4984",
+          "name": "Josh Allen",
           "position": "QB",
-          "team": "GB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         },
@@ -2285,10 +2285,10 @@
           "keeper": false
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "3198",
+          "name": "Derrick Henry",
           "position": "RB",
-          "team": "SEA",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
         },
@@ -2351,14 +2351,6 @@
           "keeper": false
         },
         {
-          "player_id": "3198",
-          "name": "Derrick Henry",
-          "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4098",
           "name": "Kareem Hunt",
           "position": "RB",
@@ -2383,14 +2375,6 @@
           "keeper": false
         },
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -2399,10 +2383,26 @@
           "keeper": false
         },
         {
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
