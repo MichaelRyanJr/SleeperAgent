@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T16:55:13.111667Z",
+  "generated_at": "2025-10-22T17:22:32.655471Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -697,7 +697,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -771,7 +771,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -1744,11 +1744,11 @@
         "4066",
         "4098",
         "421",
-        "4950",
         "6083",
         "7525",
         "7594",
         "8138",
+        "9504",
         "9754",
         "9997",
         "LAC"
@@ -1841,7 +1841,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": true
         },
         {
@@ -1885,12 +1885,12 @@
           "keeper": false
         },
         {
-          "player_id": "4950",
-          "name": "Christian Kirk",
+          "player_id": "9504",
+          "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1923,7 +1923,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": true
         },
         {
@@ -1932,14 +1932,6 @@
           "position": "RB",
           "team": "HOU",
           "injury_status": "PUP",
-          "keeper": true
-        },
-        {
-          "player_id": "4950",
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Questionable",
           "keeper": true
         }
       ]

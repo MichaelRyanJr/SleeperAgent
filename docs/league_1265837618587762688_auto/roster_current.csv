@@ -52,17 +52,17 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,1,4892,Baker Mayfield,QB,TB,,1,0
 4,2,8136,Rachaad White,RB,TB,,1,0
 4,3,7588,Javonte Williams,RB,DAL,,1,0
-4,4,7547,Amon-Ra St. Brown,WR,DET,,1,0
+4,4,11620,Rome Odunze,WR,CHI,,1,0
 4,5,7569,Nico Collins,WR,HOU,Questionable,1,0
 4,6,4217,George Kittle,TE,SF,,1,0
-4,7,11620,Rome Odunze,WR,CHI,,1,0
+4,7,1479,Keenan Allen,WR,LAC,,1,0
 4,8,8259,Cameron Dicker,K,LAC,,1,0
 4,9,MIN,Minnesota,DEF,MIN,,1,0
 4,,11624,Xavier Worthy,WR,KC,,0,0
 4,,12507,Omarion Hampton,RB,LAC,IR,0,0
-4,,1479,Keenan Allen,WR,LAC,,0,0
 4,,3214,Hunter Henry,TE,NE,,0,0
 4,,7049,Jauan Jennings,WR,SF,,0,0
+4,,7547,Amon-Ra St. Brown,WR,DET,,0,0
 4,,7591,Justin Fields,QB,NYJ,,0,0
 4,,8205,Isiah Pacheco,RB,KC,,0,0
 4,,9504,Kayshon Boutte,WR,NE,,0,0
@@ -81,7 +81,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,,17,Matt Prater,K,BUF,,0,0
 5,,4988,Nick Chubb,RB,HOU,,0,0
 5,,5849,Kyler Murray,QB,ARI,Out,0,0
-6,1,11566,Jayden Daniels,QB,WAS,Questionable,1,0
+6,1,11566,Jayden Daniels,QB,WAS,Doubtful,1,0
 6,2,12495,Ollie Gordon,RB,MIA,,1,0
 6,3,6790,D'Andre Swift,RB,CHI,,1,0
 6,4,8134,Khalil Shakir,WR,BUF,,1,0
@@ -107,11 +107,11 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 7,7,6783,Jerry Jeudy,WR,CLE,,1,0
 7,8,MIA,Miami,DEF,MIA,,1,0
 7,,10937,Jake Moody,K,CHI,,0,0
-7,,11584,Bucky Irving,RB,TB,Questionable,0,0
+7,,11584,Bucky Irving,RB,TB,Out,0,0
 7,,12474,Woody Marks,RB,HOU,,0,0
 7,,12485,Tez Johnson,WR,TB,,0,0
 7,,4018,Joe Mixon,RB,HOU,PUP,0,0
-7,,4037,Chris Godwin,WR,TB,Questionable,0,0
+7,,4037,Chris Godwin,WR,TB,Out,0,0
 7,,5012,Mark Andrews,TE,BAL,,0,0
 7,,5870,Daniel Jones,QB,IND,,0,0
 7,,6803,Brandon Aiyuk,WR,SF,PUP,0,0
@@ -161,7 +161,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 10,,12519,Luther Burden,WR,CHI,,0,0
 10,,12534,Kyle Monangai,RB,CHI,,0,0
 10,,421,Matthew Stafford,QB,LAR,,0,0
-10,,8122,Bam Knight,RB,ARI,,0,0
+10,,8122,Zonovan Knight,RB,ARI,,0,0
 10,,9508,Tyjae Spears,RB,TEN,,0,0
 10,,PIT,Pittsburgh,DEF,PIT,,0,0
 11,1,4046,Patrick Mahomes,QB,KC,,1,0
