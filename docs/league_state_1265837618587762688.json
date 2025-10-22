@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T19:49:26.482283Z",
+  "generated_at": "2025-10-22T20:29:23.420610Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -622,7 +622,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1161,7 +1161,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1868,19 +1868,19 @@
         "2307",
         "9509",
         "12512",
-        "11631",
-        "2133",
+        "11610",
+        "11646",
         "12518",
         "6806",
         "4227",
         "NE"
       ],
       "players_current": [
+        "11610",
         "11631",
         "11646",
         "12512",
         "12518",
-        "12519",
         "12534",
         "2133",
         "2307",
@@ -1919,18 +1919,18 @@
           "keeper": false
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
+          "team": "MIA",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "11646",
+          "name": "Jalen Coker",
           "position": "WR",
-          "team": "LAR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1969,19 +1969,11 @@
       ],
       "bench": [
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1989,6 +1981,14 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
@@ -2130,7 +2130,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2244,7 +2244,7 @@
         "5872",
         "6819",
         "5022",
-        "11628",
+        "6801",
         "7839",
         "HOU"
       ],
@@ -2281,7 +2281,7 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ATL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2317,10 +2317,10 @@
           "keeper": false
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "ARI",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2342,6 +2342,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "3198",
           "name": "Derrick Henry",
@@ -2387,14 +2395,6 @@
           "name": "T.J. Hockenson",
           "position": "TE",
           "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
