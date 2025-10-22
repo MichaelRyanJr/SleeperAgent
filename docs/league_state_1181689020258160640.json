@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T21:48:38.436975Z",
+  "generated_at": "2025-10-22T22:20:45.816461Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2628,7 +2628,7 @@
         "4217",
         "3198",
         "650",
-        "JAX"
+        "TB"
       ],
       "players_current": [
         "10213",
@@ -2646,7 +2646,8 @@
         "8134",
         "8136",
         "8155",
-        "JAX"
+        "JAX",
+        "TB"
       ],
       "starters": [
         {
@@ -2714,10 +2715,10 @@
           "keeper": false
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville",
+          "player_id": "TB",
+          "name": "Tampa Bay",
           "position": "DEF",
-          "team": "JAX",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         }
@@ -2744,7 +2745,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true
         },
         {
@@ -2778,6 +2779,14 @@
           "team": "TB",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2802,7 +2811,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true
         },
         {
