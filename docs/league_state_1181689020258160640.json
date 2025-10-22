@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T06:57:22.274269Z",
+  "generated_at": "2025-10-22T07:27:02.875468Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -95,7 +95,7 @@
       "points_for": 840.84,
       "points_against": 831.52,
       "waiver": {
-        "position": 6,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -257,7 +257,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -273,7 +273,7 @@
           "name": "Hassan Haskins",
           "position": "RB",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false
         }
       ],
@@ -323,7 +323,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
@@ -351,10 +351,10 @@
         "11564",
         "9226",
         "12512",
-        "4454",
-        "11631",
+        "11626",
+        "7090",
         "12493",
-        "11650",
+        "12534",
         "11792",
         "MIN"
       ],
@@ -362,20 +362,20 @@
         "11564",
         "11576",
         "11604",
+        "11626",
         "11631",
         "11632",
-        "11650",
         "11792",
         "12489",
         "12490",
         "12493",
         "12508",
         "12512",
+        "12534",
         "3163",
-        "4454",
+        "7090",
         "9226",
         "9493",
-        "9757",
         "MIN"
       ],
       "starters": [
@@ -404,20 +404,20 @@
           "keeper": false
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
+          "player_id": "11626",
+          "name": "Xavier Legette",
           "position": "WR",
-          "team": "SF",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12493",
@@ -428,10 +428,10 @@
           "keeper": false
         },
         {
-          "player_id": "11650",
-          "name": "Luke McCaffrey",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -467,6 +467,14 @@
           "position": "TE",
           "team": "LV",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -516,14 +524,6 @@
           "team": "LAR",
           "injury_status": "Out",
           "keeper": true
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": "IR",
-          "keeper": false
         }
       ],
       "keepers": [
@@ -536,19 +536,19 @@
           "keeper": true
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
           "player_id": "11604",
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -697,7 +697,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -771,7 +771,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -800,7 +800,7 @@
       "points_for": 817.0,
       "points_against": 783.34,
       "waiver": {
-        "position": 9,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1032,11 +1032,11 @@
       "points_for": 839.84,
       "points_against": 806.86,
       "waiver": {
-        "position": 4,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
-        "9228",
+        "0",
         "8150",
         "7543",
         "7569",
@@ -1050,6 +1050,7 @@
         "11628",
         "11638",
         "12474",
+        "12485",
         "12495",
         "12518",
         "4881",
@@ -1060,19 +1061,10 @@
         "7569",
         "8150",
         "8151",
-        "9228",
         "9484",
         "KC"
       ],
       "starters": [
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": "Out",
-          "keeper": false
-        },
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -1094,7 +1086,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1144,7 +1136,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1152,6 +1144,14 @@
           "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12485",
+          "name": "Tez Johnson",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -1168,7 +1168,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1202,7 +1202,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1210,7 +1210,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1218,7 +1218,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1385,7 +1385,7 @@
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1513,10 +1513,10 @@
       "players_current": [
         "11533",
         "11563",
-        "11603",
         "12527",
         "1479",
         "2505",
+        "3214",
         "3294",
         "4035",
         "4037",
@@ -1575,7 +1575,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "team": "MIA",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1613,14 +1613,6 @@
           "keeper": true
         },
         {
-          "player_id": "11603",
-          "name": "AJ Barner",
-          "position": "TE",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12527",
           "name": "Ashton Jeanty",
           "position": "RB",
@@ -1629,11 +1621,19 @@
           "keeper": false
         },
         {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1720,7 +1720,7 @@
       "points_for": 843.6,
       "points_against": 923.36,
       "waiver": {
-        "position": 5,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -1737,8 +1737,8 @@
       "players_current": [
         "10236",
         "11566",
-        "11586",
         "11647",
+        "19",
         "2133",
         "4018",
         "4066",
@@ -1759,7 +1759,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1833,14 +1833,14 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
+          "player_id": "19",
+          "name": "Joe Flacco",
+          "position": "QB",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -1873,7 +1873,7 @@
           "name": "Christian Kirk",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1899,7 +1899,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1931,7 +1931,7 @@
           "name": "Christian Kirk",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1977,7 +1977,6 @@
       "players_current": [
         "11560",
         "11589",
-        "12497",
         "12499",
         "1945",
         "4171",
@@ -1991,6 +1990,7 @@
         "8112",
         "8146",
         "9508",
+        "ATL",
         "DEN"
       ],
       "starters": [
@@ -2085,14 +2085,6 @@
           "keeper": false
         },
         {
-          "player_id": "12497",
-          "name": "Tory Horton",
-          "position": "WR",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4171",
           "name": "Josh Reynolds",
           "position": "WR",
@@ -2121,7 +2113,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -2129,6 +2121,14 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "ATL",
+          "name": "Atlanta",
+          "position": "DEF",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
@@ -2155,7 +2155,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
@@ -2214,7 +2214,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2238,7 +2238,7 @@
           "name": "Deebo Samuel",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2383,7 +2383,7 @@
       "points_for": 922.62,
       "points_against": 777.54,
       "waiver": {
-        "position": 8,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2410,7 +2410,7 @@
         "6797",
         "6806",
         "6813",
-        "7591",
+        "7523",
         "8121",
         "8144",
         "8154",
@@ -2529,14 +2529,14 @@
           "name": "David Njoku",
           "position": "TE",
           "team": "CLE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "NYJ",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -2561,7 +2561,7 @@
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ],
@@ -2603,7 +2603,7 @@
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
@@ -2624,7 +2624,7 @@
       "points_for": 733.8,
       "points_against": 818.14,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
