@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T20:48:10.916402Z",
+  "generated_at": "2025-10-22T21:19:21.875120Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -448,7 +448,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "NE",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -939,16 +939,15 @@
       "starters_current": [
         "11563",
         "4034",
-        "5892",
-        "8148",
+        "4988",
+        "12514",
         "12499",
         "1466",
         "8676",
-        "11539",
+        "4195",
         "GB"
       ],
       "players_current": [
-        "11539",
         "11563",
         "12490",
         "12499",
@@ -957,6 +956,7 @@
         "1466",
         "17",
         "4034",
+        "4195",
         "4988",
         "5849",
         "5892",
@@ -982,19 +982,19 @@
           "keeper": false
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "4988",
+          "name": "Nick Chubb",
           "position": "RB",
-          "team": "DET",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "DET",
-          "injury_status": null,
+          "team": "TB",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1022,10 +1022,10 @@
           "keeper": false
         },
         {
-          "player_id": "11539",
-          "name": "Jake Bates",
+          "player_id": "4195",
+          "name": "Jake Elliott",
           "position": "K",
-          "team": "DET",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -1048,14 +1048,6 @@
           "keeper": false
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "1373",
           "name": "Geno Smith",
           "position": "QB",
@@ -1072,19 +1064,27 @@
           "keeper": false
         },
         {
-          "player_id": "4988",
-          "name": "Nick Chubb",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5849",
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -1384,7 +1384,7 @@
           "name": "Jerry Jeudy",
           "position": "WR",
           "team": "CLE",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1869,7 +1869,7 @@
         "9509",
         "12512",
         "11610",
-        "0",
+        "4171",
         "12518",
         "6806",
         "4227",
@@ -1923,6 +1923,14 @@
           "name": "Malik Washington",
           "position": "WR",
           "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4171",
+          "name": "Josh Reynolds",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -1981,14 +1989,6 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "4171",
-          "name": "Josh Reynolds",
-          "position": "WR",
-          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
