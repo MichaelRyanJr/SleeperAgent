@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T12:56:55.134751Z",
+  "generated_at": "2025-10-22T13:38:32.788580Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -112,6 +112,7 @@
       "players_current": [
         "10859",
         "11655",
+        "12455",
         "12506",
         "12507",
         "12514",
@@ -122,7 +123,6 @@
         "5022",
         "5927",
         "7042",
-        "8123",
         "8228",
         "8408",
         "9488",
@@ -213,6 +213,14 @@
           "keeper": true
         },
         {
+          "player_id": "12455",
+          "name": "Brashard Smith",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
@@ -266,14 +274,6 @@
           "position": "K",
           "team": "BUF",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "8123",
-          "name": "Hassan Haskins",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": "Doubtful",
           "keeper": false
         }
       ],
@@ -1267,24 +1267,24 @@
         "budget_used": 0
       },
       "starters_current": [
-        "1373",
+        "11559",
         "4866",
         "9224",
         "11635",
-        "5947",
+        "7571",
         "1339",
-        "5844",
+        "12519",
         "6650",
         "CHI"
       ],
       "players_current": [
         "10219",
+        "11559",
         "11565",
         "11635",
         "12469",
         "12519",
         "1339",
-        "1373",
         "3321",
         "4137",
         "4866",
@@ -1299,11 +1299,11 @@
       ],
       "starters": [
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
+          "player_id": "11559",
+          "name": "Michael Penix",
           "position": "QB",
-          "team": "LV",
-          "injury_status": null,
+          "team": "ATL",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1331,11 +1331,11 @@
           "keeper": true
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "team": "LV",
-          "injury_status": "Out",
+          "team": "BAL",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1347,10 +1347,10 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -1397,14 +1397,6 @@
           "keeper": false
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -1421,6 +1413,22 @@
           "keeper": true
         },
         {
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "5995",
           "name": "Justice Hill",
           "position": "RB",
@@ -1435,14 +1443,6 @@
           "team": "CIN",
           "injury_status": "IR",
           "keeper": true
-        },
-        {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -1500,15 +1500,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3294",
+        "11563",
         "4035",
         "4988",
         "8137",
         "1479",
-        "2505",
+        "3214",
         "6819",
         "11533",
-        "SEA"
+        "BUF"
       ],
       "players_current": [
         "11533",
@@ -1519,24 +1519,24 @@
         "3214",
         "3294",
         "4035",
-        "4037",
         "4892",
         "4988",
         "6803",
         "6819",
         "8137",
         "9221",
+        "BUF",
         "DET",
         "SEA"
       ],
       "starters": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "DAL",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "4035",
@@ -1571,11 +1571,11 @@
           "keeper": false
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
+          "player_id": "3214",
+          "name": "Hunter Henry",
           "position": "TE",
-          "team": "MIA",
-          "injury_status": "Questionable",
+          "team": "NE",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1595,23 +1595,15 @@
           "keeper": true
         },
         {
-          "player_id": "SEA",
-          "name": "Seattle",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "SEA",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "12527",
           "name": "Ashton Jeanty",
@@ -1621,19 +1613,19 @@
           "keeper": false
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "NE",
-          "injury_status": null,
+          "team": "MIA",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "4037",
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1667,22 +1659,30 @@
           "team": "DET",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "SEA",
+          "name": "Seattle",
+          "position": "DEF",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "11533",
-          "name": "Brandon Aubrey",
-          "position": "K",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "11563",
           "name": "Bo Nix",
           "position": "QB",
           "team": "DEN",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11533",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true
         },
