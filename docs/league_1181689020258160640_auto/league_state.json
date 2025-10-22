@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T16:34:19.619863Z",
+  "generated_at": "2025-10-22T16:55:13.111667Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1617,7 +1617,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -1724,13 +1724,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11566",
+        "19",
         "7594",
-        "11647",
+        "8138",
         "9754",
-        "2133",
-        "4066",
         "7525",
+        "4066",
+        "9997",
         "6083",
         "LAC"
       ],
@@ -1755,12 +1755,12 @@
       ],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "19",
+          "name": "Joe Flacco",
           "position": "QB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7594",
@@ -1771,12 +1771,12 @@
           "keeper": true
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "8138",
+          "name": "James Cook",
           "position": "RB",
-          "team": "LAC",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "9754",
@@ -1787,10 +1787,10 @@
           "keeper": false
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "LAR",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -1803,10 +1803,10 @@
           "keeper": false
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "PHI",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1837,10 +1837,26 @@
           "keeper": false
         },
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "CIN",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
@@ -1875,6 +1891,16 @@
           "team": "HOU",
           "injury_status": "Questionable",
           "keeper": true
+        }
+      ],
+      "keepers": [
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": true
         },
         {
           "player_id": "8138",
@@ -1885,37 +1911,19 @@
           "keeper": true
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
-        }
-      ],
-      "keepers": [
+          "keeper": true
+        },
         {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
           "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAC",
-          "injury_status": null,
           "keeper": true
         },
         {
@@ -1932,14 +1940,6 @@
           "position": "WR",
           "team": "HOU",
           "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
-          "player_id": "8138",
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
-          "injury_status": null,
           "keeper": true
         }
       ]
