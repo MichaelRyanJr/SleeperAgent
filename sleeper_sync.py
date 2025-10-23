@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 """
-Sleeper League Sync (keeper-aware)
----------------------------------
-Pulls essential data for a Sleeper league and emits a compact, ChatGPT‑friendly export
-with optional keeper tagging derived from draft picks.
+Sleeper League Sync (normalized outputs + keeper-aware)
+------------------------------------------------------
+Pulls essential data for a Sleeper league and emits a compact, ChatGPT‑friendly export.
+In addition to the single-file summary, this version writes a *normalized API* per run:
 
-Outputs inside the chosen --out folder:
-- Raw API JSONs (league/users/rosters/matchups/transactions/drafts/draft_picks)
-- CSV conveniences (teams.csv, roster_current.csv, schedule_weekly.csv)
-- A tidy summary: league_state.json  (now includes per-team keeper flags)
+Inside the run folder (e.g., docs/league_<ID>_auto/):
+  - state.json            → tidy league snapshot (same content as league_state.json)
+  - league_state.json     → backward-compatible name of state.json
+  - teams.json            → team-level fields only (record, PF/PA, waiver, keepers)
+  - schedule.json         → all matchups in the season to date
+  - transactions.json     → flattened list of league transactions with week tags
+  - players_min.json      → trimmed player metadata actually referenced by the league
+  - lineups/<week>.json   → per-week starters/bench for each roster (humanized)
+  - drafts.json           → list of drafts
+  - draft_picks.json      → picks across drafts (used for keeper detection)
+  - teams.csv, roster_current.csv, schedule_weekly.csv → convenience CSVs
 
 Usage
 ------
-python sleeper_sync.py --league 1181689020258160640 --season 2025 --weeks 1-5 --out ./docs
+python sleeper_sync.py --league 1181689020258160640 --season 2025 --weeks 1-6 --out ./docs
 
 Notes
-- If --season is omitted, we try to infer it from the league object.
+- If --season is omitted, we infer it from the league object.
 - If --weeks is omitted, we pull 1..current NFL week from /state/nfl.
 - Keepers are inferred from draft picks metadata ("is_keeper" or similar flags). If a league
   doesn’t use keeper flags in picks, the keeper tagging simply stays False.
@@ -35,7 +42,7 @@ from typing import Any, Dict, Iterable, List, Optional, Set
 BASE = "https://api.sleeper.app/v1"
 NFL_STATE_URL = f"{BASE}/state/nfl"
 PLAYERS_URL = f"{BASE}/players/nfl"
-USER_AGENT = "sleeper-sync/1.1 (stdlib)"
+USER_AGENT = "sleeper-sync/1.2 (stdlib)"
 
 # ----------------------------
 # HTTP helpers
@@ -48,7 +55,6 @@ def http_get_json(url: str, retry: int = 3, backoff: float = 0.75) -> Any:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
-            # gentle retry on transient errors
             if e.code in (429, 500, 502, 503, 504) and attempt < retry:
                 time.sleep(backoff * attempt)
                 continue
@@ -86,23 +92,15 @@ def _truthy(x: Any) -> bool:
 
 
 def detect_keepers_from_picks(all_picks: List[Dict[str, Any]]) -> Dict[str, Set[str]]:
-    """Return mapping {user_id -> set(player_id)} for picks flagged as keepers.
-    We try a handful of common Sleeper pick metadata keys.
-    """
+    """Return mapping {user_id -> set(player_id)} for picks flagged as keepers."""
     keepers: Dict[str, Set[str]] = {}
     for p in all_picks or []:
         md = p.get("metadata") or {}
-        # direct or metadata flags people often see in Sleeper exports
         flags = [
-            p.get("is_keeper"),
-            md.get("is_keeper"),
-            md.get("keeper"),
-            md.get("was_keeper"),
-            md.get("isKeeper"),
-            (md.get("keeper_status") or "").lower() == "keeper",
+            p.get("is_keeper"), md.get("is_keeper"), md.get("keeper"), md.get("was_keeper"),
+            md.get("isKeeper"), (md.get("keeper_status") or "").lower() == "keeper",
         ]
-        is_keeper = any(_truthy(f) for f in flags)
-        if is_keeper:
+        if any(_truthy(f) for f in flags):
             uid = str(p.get("picked_by") or p.get("owner_id") or "")
             pid = str(p.get("player_id") or "")
             if uid and pid:
@@ -222,7 +220,65 @@ def pull_league_bundle(league_id: str,
 
     # 7) Build tidy summary (keeper-aware)
     summary = build_summary(league, users, rosters, matchups_by_week, players_min, season, keeper_map)
+    # Normalized outputs
+    (outdir / "state.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (outdir / "league_state.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+
+    # Teams-only view
+    teams_lite = []
+    for rid, t in (summary.get("teams") or {}).items():
+        teams_lite.append({
+            "roster_id": int(rid),
+            "owner": t.get("owner"),
+            "record": t.get("record"),
+            "points_for": t.get("points_for"),
+            "points_against": t.get("points_against"),
+            "waiver": t.get("waiver"),
+            "keepers": t.get("keepers", []),
+        })
+    (outdir / "teams.json").write_text(json.dumps(sorted(teams_lite, key=lambda x: x["roster_id"]), indent=2), encoding="utf-8")
+
+    # Schedule-only view
+    (outdir / "schedule.json").write_text(json.dumps(summary.get("schedule", []), indent=2), encoding="utf-8")
+
+    # Transactions (flatten + tag week)
+    flat_txns: List[Dict[str, Any]] = []
+    for w, txns in txns_by_week.items():
+        for tx in txns or []:
+            flat_txns.append({"week": int(w), **tx})
+    (outdir / "transactions.json").write_text(json.dumps(flat_txns, indent=2), encoding="utf-8")
+
+    # Lineups per week (humanized)
+    lineups_dir = outdir / "lineups"
+    lineups_dir.mkdir(parents=True, exist_ok=True)
+    for w, ms in matchups_by_week.items():
+        # Map matchup_id -> sides, to get opponents
+        by_matchup: Dict[int, List[Dict[str, Any]]] = {}
+        for m in ms or []:
+            by_matchup.setdefault(int(m.get("matchup_id", -1)), []).append(m)
+        entries: List[Dict[str, Any]] = []
+        for mid, pair in by_matchup.items():
+            # Build a quick opponent map
+            opp = {}
+            if len(pair) == 2:
+                a, b = pair
+                opp[int(a.get("roster_id"))] = int(b.get("roster_id"))
+                opp[int(b.get("roster_id"))] = int(a.get("roster_id"))
+            for side in pair:
+                rid = int(side.get("roster_id"))
+                starters = [humanize_pid(p, players_min) for p in (side.get("starters") or []) if p and str(p) != "0"]
+                bench = []
+                all_ps = [p for p in (side.get("players") or []) if p]
+                if all_ps:
+                    bench = [humanize_pid(p, players_min) for p in all_ps if p not in (side.get("starters") or []) and str(p) != "0"]
+                entries.append({
+                    "roster_id": rid,
+                    "opponent_roster_id": opp.get(rid),
+                    "points": float(side.get("points", 0)),
+                    "starters": starters,
+                    "bench": bench,
+                })
+        (lineups_dir / f"{int(w)}.json").write_text(json.dumps(entries, indent=2), encoding="utf-8")
 
     # 8) CSVs
     write_csvs(outdir, summary)
@@ -239,6 +295,20 @@ def pull_league_bundle(league_id: str,
 # ----------------------------
 # Derived summaries
 # ----------------------------
+
+def humanize_pid(pid: Any, players_min: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
+    spid = str(pid)
+    if spid == "0" or not spid:
+        return None
+    meta = players_min.get(spid, {})
+    return {
+        "player_id": spid,
+        "name": meta.get("full_name") or f"ID:{spid}",
+        "position": meta.get("position"),
+        "team": meta.get("team"),
+        "injury_status": meta.get("injury_status"),
+    }
+
 
 def index_users(users: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     idx = {}
@@ -310,7 +380,7 @@ def build_summary(league: Dict[str, Any],
             if len(pair) != 2:
                 for side in pair:
                     schedule.append({
-                        "week": week,
+                        "week": int(week),
                         "roster_id": int(side.get("roster_id")),
                         "opponent_roster_id": None,
                         "points": float(side.get("points", 0)),
@@ -325,13 +395,13 @@ def build_summary(league: Dict[str, Any],
             else:
                 res_a = "W" if pa > pb else ("L" if pa < pb else "T")
                 res_b = "W" if pb > pa else ("L" if pb < pa else "T")
-            schedule.append({"week": week, "roster_id": ra, "opponent_roster_id": rb, "points": pa, "result": res_a})
-            schedule.append({"week": week, "roster_id": rb, "opponent_roster_id": ra, "points": pb, "result": res_b})
+            schedule.append({"week": int(week), "roster_id": ra, "opponent_roster_id": rb, "points": pa, "result": res_a})
+            schedule.append({"week": int(week), "roster_id": rb, "opponent_roster_id": ra, "points": pb, "result": res_b})
 
     # Helper to humanize + keeper-tag
     def humanize(pid: str) -> Dict[str, Any]:
         if str(pid) == "0":
-            return None  # skip empty slots
+            return None
         meta = players_min.get(str(pid), {})
         return {
             "player_id": str(pid),
@@ -456,11 +526,11 @@ def parse_weeks(weeks_str: Optional[str]) -> Optional[List[int]]:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Export a Sleeper league to tidy JSON/CSV for ChatGPT analysis (keeper-aware).")
+    ap = argparse.ArgumentParser(description="Export a Sleeper league to tidy JSON/CSV for ChatGPT analysis (keeper-aware, normalized outputs).")
     ap.add_argument("--league", required=True, help="Sleeper league_id, e.g., 1181689020258160640")
     ap.add_argument("--season", type=int, default=None, help="Season (e.g., 2025). Defaults to league season.")
-    ap.add_argument("--weeks", type=str, default=None, help="Weeks to pull (e.g., '1-4' or '1,2,5'). Default=1..current week")
-    ap.add_argument("--out", type=str, default="./sleeper_export", help="Output directory (will create if missing)")
+    ap.add_argument("--weeks", type=str, default=None, help="Weeks to pull (e.g., '1-6' or '1,2,5'). Default=1..current week")
+    ap.add_argument("--out", type=str, default="./docs", help="Output directory (will create if missing)")
     ap.add_argument("--skip-players", action="store_true", help="Skip downloading the full players map (not recommended on first run)")
     ap.add_argument("--zip", dest="do_zip", action="store_true", help="Zip the export folder when done")
 
