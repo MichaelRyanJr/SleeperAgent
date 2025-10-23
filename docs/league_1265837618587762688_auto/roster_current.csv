@@ -46,7 +46,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,12508,Jaxson Dart,QB,NYG,,0,0
 3,,3200,Sterling Shepard,WR,TB,,0,0
 3,,4033,David Njoku,TE,CLE,Questionable,0,0
-3,,5927,Terry McLaurin,WR,WAS,Questionable,0,0
+3,,5927,Terry McLaurin,WR,WAS,,0,0
 3,,7594,Chuba Hubbard,RB,CAR,,0,0
 3,,9493,Puka Nacua,WR,LAR,Out,0,0
 4,1,4892,Baker Mayfield,QB,TB,Questionable,1,0
@@ -128,7 +128,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,,11571,Isaiah Davis,RB,NYJ,,0,0
 8,,11638,Ricky Pearsall,WR,SF,Questionable,0,0
 8,,12489,RJ Harvey,RB,DEN,,0,0
-8,,12498,Mason Taylor,TE,NYJ,,0,0
+8,,12498,Mason Taylor,TE,NYJ,Questionable,0,0
 8,,12530,Travis Hunter,WR,JAX,,0,0
 8,,4943,Sam Darnold,QB,SEA,,0,0
 8,,8408,Jordan Mason,RB,MIN,,0,0
@@ -184,7 +184,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,1,4984,Josh Allen,QB,BUF,,1,0
 12,2,8132,Tyler Allgeier,RB,ATL,Questionable,1,0
 12,3,3198,Derrick Henry,RB,BAL,,1,0
-12,4,5872,Deebo Samuel,WR,WAS,Questionable,1,0
+12,4,5872,Deebo Samuel,WR,WAS,,1,0
 12,5,6819,Michael Pittman,WR,IND,,1,0
 12,6,5022,Dallas Goedert,TE,PHI,Questionable,1,0
 12,7,6801,Tee Higgins,WR,CIN,,1,0
@@ -192,7 +192,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,9,HOU,Houston,DEF,HOU,,1,0
 12,,11628,Marvin Harrison,WR,ARI,,0,0
 12,,4098,Kareem Hunt,RB,KC,Questionable,0,0
-12,,4199,Aaron Jones,RB,MIN,IR,0,0
+12,,4199,Aaron Jones,RB,MIN,Questionable,0,0
 12,,4950,Christian Kirk,WR,HOU,Questionable,0,0
 12,,5844,T.J. Hockenson,TE,MIN,,0,0
 12,,6804,Jordan Love,QB,GB,,0,0
