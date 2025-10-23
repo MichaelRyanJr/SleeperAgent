@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T15:27:27.053662Z",
+  "generated_at": "2025-10-23T15:48:28.311427Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2058,7 +2058,6 @@
         "0"
       ],
       "players_current": [
-        "11299",
         "11533",
         "11632",
         "11783",
@@ -2066,6 +2065,7 @@
         "12527",
         "2505",
         "4046",
+        "4147",
         "4454",
         "5846",
         "5967",
@@ -2074,7 +2074,7 @@
         "8155",
         "9484",
         "96",
-        "CHI"
+        "BUF"
       ],
       "starters": [
         {
@@ -2144,14 +2144,6 @@
       ],
       "bench": [
         {
-          "player_id": "11299",
-          "name": "Zavier Scott",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -2184,6 +2176,14 @@
           "keeper": false
         },
         {
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4454",
           "name": "Kendrick Bourne",
           "position": "WR",
@@ -2208,10 +2208,10 @@
           "keeper": false
         },
         {
-          "player_id": "CHI",
-          "name": "Chicago",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "CHI",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
