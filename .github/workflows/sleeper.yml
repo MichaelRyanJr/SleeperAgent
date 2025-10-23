@@ -2,7 +2,7 @@ name: Sleeper sync (multi-league)
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   # every 20 mins
+    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch: {}
 
 permissions:
@@ -29,11 +29,11 @@ jobs:
           shopt -s nullglob
           mkdir -p docs
 
-          # Prepare a small Python script once; reuse in loop to build HTML mirrors
+          # Build HTML mirror helper once; reuse in loop
           cat > /tmp/mirror.py << 'PY'
-          import os, pathlib, html
+          import os, pathlib, html, json
           lid = os.environ["CUR_LID"]
-          p = pathlib.Path(f'docs/league_state_{lid}.json')
+          p = pathlib.Path(f'docs/league_{lid}/state.json')
           data = p.read_text(encoding='utf-8')
           html_doc = (
               '<!doctype html><meta charset="utf-8"><title>league_state</title>'
@@ -45,22 +45,26 @@ jobs:
           for LID in $LEAGUES; do
             echo "==> Exporting $LID"
 
-            # 1) Clear old per-league export folders to avoid copying stale files
+            # 1) Clear old per-run folders for this league
             rm -rf ./docs/league_${LID}_*/
 
-            # 2) Export fresh snapshot
+            # 2) Export fresh snapshot (per-run folder)
             python sleeper_sync.py --league "$LID" --out ./docs
 
-            # 3) Copy the NEWEST league_state.json and (if present) draft_picks.json
-            FILE=$(ls -t ./docs/league_${LID}_*/league_state.json | head -n 1)
-            cp "$FILE" "./docs/league_state_${LID}.json"
+            # 3) Locate newest per-run folder and sync to stable docs/league_<ID>/
+            RUN_DIR=$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)
+            STABLE_DIR=./docs/league_${LID}
+            rm -rf "$STABLE_DIR"
+            mkdir -p "$STABLE_DIR"
+            rsync -a "$RUN_DIR" "$STABLE_DIR/.." >/dev/null 2>&1 || cp -R "$RUN_DIR" "$STABLE_DIR"  # fallback if rsync unavailable
 
-            if ls ./docs/league_${LID}_*/draft_picks.json >/dev/null 2>&1; then
-              FILE2=$(ls -t ./docs/league_${LID}_*/draft_picks.json | head -n 1)
-              cp "$FILE2" "./docs/draft_picks_${LID}.json"
+            # 4) Publish top-level shortcuts (backward compatibility)
+            cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json"
+            if [ -f "$STABLE_DIR/draft_picks.json" ]; then
+              cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
             fi
 
-            # 4) Build an HTML mirror (for GitHub Pages)
+            # 5) Build HTML mirror for Pages
             CUR_LID="$LID" python /tmp/mirror.py
           done
 
@@ -72,20 +76,27 @@ jobs:
           python - << 'PY'
           import json, pathlib, html
           docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
-          rows = []
-          for p in sorted(docs.glob('league_state_*.json')):
-              data = json.loads(p.read_text('utf-8'))
-              lid = data.get('league',{}).get('league_id')
-              name = data.get('league',{}).get('name','League')
-              ts = data.get('generated_at','')
-              picks_name = f'draft_picks_{lid}.json'
-              have_picks = docs.joinpath(picks_name).exists()
-              rows.append((name, lid, p.name, f'league_state_{lid}.html', ts, have_picks, picks_name))
-          out = ['<!doctype html>', '<meta charset="utf-8">', '<title>SleeperAgent export</title>', '<h1>SleeperAgent export</h1>', '<ul>']
-          for name, lid, json_name, html_name, ts, have_picks, picks in rows:
-              pick_link = f' | <a href="{picks}">draft_picks</a>' if have_picks else ''
-              out.append(f'<li>{html.escape(name)} (ID {lid}) — updated <code>{html.escape(ts)}</code> — '
-                        f'<a href="{json_name}">JSON</a> | <a href="{html_name}">HTML</a>' + pick_link + '</li>')
+          rows=[]
+          for league_dir in sorted(docs.glob('league_*')):
+              if league_dir.is_dir() and league_dir.name.count('_')==1:  # matches league_<ID>
+                  state_p = league_dir / 'state.json'
+                  if not state_p.exists():
+                      continue
+                  data=json.loads(state_p.read_text('utf-8'))
+                  lid=data.get('league',{}).get('league_id')
+                  name=data.get('league',{}).get('name','League')
+                  ts=data.get('generated_at','')
+                  rows.append((name,lid,f'league_{lid}/state.json',f'league_state_{lid}.html'))
+          out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
+          for name,lid,state_link,html_link in rows:
+              extras = [
+                f'<a href="league_{lid}/teams.json">teams</a>',
+                f'<a href="league_{lid}/schedule.json">schedule</a>',
+                f'<a href="league_{lid}/transactions.json">transactions</a>',
+                f'<a href="league_{lid}/players_min.json">players_min</a>'
+              ]
+              out.append(f'<li>{html.escape(name)} (ID {lid}) — <a href="{state_link}">state.json</a> | '
+                         f'<a href="{html_link}">HTML mirror</a> | ' + ' | '.join(extras) + '</li>')
           out.append('</ul>')
           docs.joinpath('index.html').write_text('\n'.join(out), encoding='utf-8')
           PY
@@ -95,5 +106,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "update league data (freshest copies for both leagues)" || echo "No changes"
+          git commit -m "normalized publish: league_<ID> API + state shortcuts" || echo "No changes"
           git push
