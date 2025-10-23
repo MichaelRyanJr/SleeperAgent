@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T03:09:37.454048Z",
+  "generated_at": "2025-10-23T03:46:12.449651Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1683,13 +1683,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6768",
-        "9506",
+        "4881",
         "12481",
+        "8138",
         "6794",
         "8137",
         "8110",
-        "12529",
+        "7611",
         "6650",
         "PHI"
       ],
@@ -1713,19 +1713,11 @@
       ],
       "starters": [
         {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "9506",
-          "name": "Sean Tucker",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
+          "team": "BAL",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1733,6 +1725,14 @@
           "name": "Cam Skattebo",
           "position": "RB",
           "team": "NYG",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         },
@@ -1761,8 +1761,8 @@
           "keeper": false
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
           "team": "NE",
           "injury_status": null,
@@ -1795,11 +1795,19 @@
           "keeper": false
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6768",
+          "name": "Tua Tagovailoa",
           "position": "QB",
-          "team": "BAL",
-          "injury_status": "Questionable",
+          "team": "MIA",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1811,18 +1819,10 @@
           "keeper": false
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "9506",
+          "name": "Sean Tucker",
           "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8138",
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
