@@ -31,7 +31,7 @@ jobs:
 
           # Build HTML mirror helper once; reuse in loop
           cat > /tmp/mirror.py << 'PY'
-          import os, pathlib, html, json
+          import os, pathlib, html
           lid = os.environ["CUR_LID"]
           p = pathlib.Path(f'docs/league_{lid}/state.json')
           data = p.read_text(encoding='utf-8')
@@ -48,18 +48,22 @@ jobs:
             # 1) Clear old per-run folders for this league
             rm -rf ./docs/league_${LID}_*/
 
-            # 2) Export fresh snapshot (per-run folder)
+            # 2) Export fresh snapshot (per-run folder like docs/league_<ID>_auto/)
             python sleeper_sync.py --league "$LID" --out ./docs
 
-            # 3) Locate newest per-run folder and sync to stable docs/league_<ID>/
+            # 3) Locate newest per-run folder and copy its CONTENTS into stable docs/league_<ID>/
             RUN_DIR=$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)
             STABLE_DIR=./docs/league_${LID}
             rm -rf "$STABLE_DIR"
             mkdir -p "$STABLE_DIR"
-            rsync -a "$RUN_DIR" "$STABLE_DIR/.." >/dev/null 2>&1 || cp -R "$RUN_DIR" "$STABLE_DIR"  # fallback if rsync unavailable
+            if command -v rsync >/dev/null 2>&1; then
+              rsync -a "$RUN_DIR"/ "$STABLE_DIR"/
+            else
+              cp -R "$RUN_DIR"/. "$STABLE_DIR"/
+            fi
 
             # 4) Publish top-level shortcuts (backward compatibility)
-            cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json"
+            cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json" || (echo "state.json missing in $STABLE_DIR" && exit 1)
             if [ -f "$STABLE_DIR/draft_picks.json" ]; then
               cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
             fi
@@ -78,14 +82,15 @@ jobs:
           docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
           rows=[]
           for league_dir in sorted(docs.glob('league_*')):
-              if league_dir.is_dir() and league_dir.name.count('_')==1:  # matches league_<ID>
+              # keep only stable folders like league_<ID> (not league_<ID>_auto)
+              parts = league_dir.name.split('_')
+              if league_dir.is_dir() and len(parts)==2 and parts[0]=='league':
                   state_p = league_dir / 'state.json'
                   if not state_p.exists():
                       continue
                   data=json.loads(state_p.read_text('utf-8'))
                   lid=data.get('league',{}).get('league_id')
                   name=data.get('league',{}).get('name','League')
-                  ts=data.get('generated_at','')
                   rows.append((name,lid,f'league_{lid}/state.json',f'league_state_{lid}.html'))
           out=['<!doctype html>','<meta charset="utf-8">','<title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>','<ul>']
           for name,lid,state_link,html_link in rows:
@@ -106,5 +111,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "normalized publish: league_<ID> API + state shortcuts" || echo "No changes"
+          git commit -m "normalized publish: copy contents to stable league_<ID>" || echo "No changes"
           git push
