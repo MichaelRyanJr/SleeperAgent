@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T21:48:08.705605Z",
+  "generated_at": "2025-10-23T22:23:35.510662Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -375,7 +375,7 @@
       "starters_current": [
         "9758",
         "5850",
-        "0",
+        "5995",
         "5859",
         "12526",
         "1339",
@@ -394,6 +394,7 @@
         "3451",
         "5850",
         "5859",
+        "5995",
         "7543",
         "7670",
         "8151",
@@ -416,6 +417,14 @@
           "position": "RB",
           "team": "GB",
           "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
+          "player_id": "5995",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2039,14 +2048,14 @@
       },
       "starters_current": [
         "4046",
-        "12527",
+        "8155",
         "5967",
         "5846",
         "7525",
         "9484",
-        "8155",
+        "4454",
         "11533",
-        "0"
+        "BUF"
       ],
       "players_current": [
         "11533",
@@ -2077,11 +2086,11 @@
           "keeper": false
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "LV",
-          "injury_status": null,
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2117,11 +2126,11 @@
           "keeper": false
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Questionable",
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2129,6 +2138,14 @@
           "name": "Brandon Aubrey",
           "position": "K",
           "team": "DAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "BUF",
+          "name": "Buffalo",
+          "position": "DEF",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
@@ -2159,6 +2176,14 @@
           "keeper": false
         },
         {
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
@@ -2175,14 +2200,6 @@
           "keeper": false
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6904",
           "name": "Jalen Hurts",
           "position": "QB",
@@ -2195,14 +2212,6 @@
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "BUF",
-          "name": "Buffalo",
-          "position": "DEF",
-          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
@@ -2304,7 +2313,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
