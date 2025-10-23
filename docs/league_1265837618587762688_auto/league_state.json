@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T22:48:51.833841Z",
+  "generated_at": "2025-10-23T23:22:01.314956Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -188,7 +188,7 @@
         "9756",
         "5045",
         "8111",
-        "8146",
+        "11647",
         "5189",
         "IND"
       ],
@@ -261,11 +261,11 @@
           "keeper": false
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Questionable",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -286,14 +286,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "12185",
           "name": "Spencer Shrader",
@@ -324,6 +316,14 @@
           "position": "TE",
           "team": "ARI",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -568,7 +568,7 @@
         "6813",
         "7021",
         "4983",
-        "5947",
+        "3200",
         "7553",
         "8126",
         "3678",
@@ -626,11 +626,11 @@
           "keeper": false
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
+          "player_id": "3200",
+          "name": "Sterling Shepard",
           "position": "WR",
-          "team": "LV",
-          "injury_status": "Out",
+          "team": "TB",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -684,14 +684,6 @@
           "keeper": false
         },
         {
-          "player_id": "3200",
-          "name": "Sterling Shepard",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4033",
           "name": "David Njoku",
           "position": "TE",
@@ -705,6 +697,14 @@
           "position": "WR",
           "team": "WAS",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2363,7 +2363,7 @@
           "name": "Aaron Jones",
           "position": "RB",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
