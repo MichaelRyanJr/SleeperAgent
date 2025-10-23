@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-22T23:48:40.265987Z",
+  "generated_at": "2025-10-23T01:57:35.271566Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -589,7 +589,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4943",
+        "2307",
         "7588",
         "7021",
         "7526",
@@ -605,7 +605,7 @@
         "11646",
         "12457",
         "12526",
-        "4943",
+        "2307",
         "4983",
         "5849",
         "5850",
@@ -619,10 +619,10 @@
       ],
       "starters": [
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "2307",
+          "name": "Marcus Mariota",
           "position": "QB",
-          "team": "SEA",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
@@ -2176,15 +2176,14 @@
         "8143",
         "5967",
         "5872",
-        "7547",
+        "9756",
         "7553",
         "6794",
-        "11539",
+        "7839",
         "IND"
       ],
       "players_current": [
         "11539",
-        "11575",
         "11637",
         "4144",
         "4199",
@@ -2193,6 +2192,7 @@
         "6794",
         "7547",
         "7553",
+        "7839",
         "8143",
         "8148",
         "8183",
@@ -2234,12 +2234,12 @@
           "keeper": false
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "9756",
+          "name": "Jordan Addison",
           "position": "WR",
-          "team": "DET",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "7553",
@@ -2258,10 +2258,10 @@
           "keeper": false
         },
         {
-          "player_id": "11539",
-          "name": "Jake Bates",
+          "player_id": "7839",
+          "name": "Evan McPherson",
           "position": "K",
-          "team": "DET",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2276,10 +2276,10 @@
       ],
       "bench": [
         {
-          "player_id": "11575",
-          "name": "Ray Davis",
-          "position": "RB",
-          "team": "BUF",
+          "player_id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -2308,6 +2308,14 @@
           "keeper": false
         },
         {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "8148",
           "name": "Jameson Williams",
           "position": "WR",
@@ -2322,30 +2330,22 @@
           "team": "PIT",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "7553",
           "name": "Kyle Pitts",
           "position": "TE",
           "team": "ATL",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
           "injury_status": null,
           "keeper": true
         },
