@@ -4,8 +4,7 @@ import json, html, pathlib, datetime as dt
 DOCS = pathlib.Path("docs")
 DOCS.mkdir(exist_ok=True)
 
-def collect():
-    rows = []
+def collect_rows():
     for league_dir in sorted(DOCS.glob("league_*")):
         if not league_dir.is_dir():
             continue
@@ -24,8 +23,7 @@ def collect():
                 gen = data.get("generated_at", "")
             except Exception:
                 pass
-        rows.append((name, lid, gen))
-    return rows
+        yield name, lid, gen
 
 def main():
     out = []
@@ -35,26 +33,29 @@ def main():
         dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     ))
 
-    # Unconditional link set (so the hub always shows them)
-    standard = [
-        ("state.json", "state.json"),
-        ("HTML", "HTML mirror"),           # special-cased below
-        ("teams.json", "teams"),
-        ("schedule.json", "schedule"),
-        ("transactions.json", "transactions"),
-        ("players_min.json", "players_min"),
-        ("manifest.json", "manifest"),
-        ("diff.json", "diff"),
-    ]
+    for name, lid, gen in collect_rows():
+        base_fs = DOCS / "league_{}".format(lid)     # filesystem check
+        base_href = "league_{}/".format(lid)         # link shown on page
 
-    for name, lid, gen in collect():
-        base = "league_{}/".format(lid)
+        def have(fname: str) -> bool:
+            return (base_fs / fname).exists()
+
         links = []
-        for fname, label in standard:
-            if fname == "HTML":
-                links.append('<a href="league_state_{}.html">{}</a>'.format(lid, label))
-            else:
-                links.append('<a href="{}{}">{}</a>'.format(base, fname, label))
+        # Always show state + HTML mirror
+        links.append('<a href="{}state.json">state.json</a>'.format(base_href))
+        links.append('<a href="league_state_{}.html">HTML mirror</a>'.format(lid))
+        # Only show these if the file exists to avoid dead links
+        for fname, label in [
+            ("teams.json","teams"),
+            ("schedule.json","schedule"),
+            ("transactions.json","transactions"),
+            ("players_min.json","players_min"),
+            ("manifest.json","manifest"),
+            ("diff.json","diff"),
+        ]:
+            if have(fname):
+                links.append('<a href="{}{}">{}</a>'.format(base_href, fname, label))
+
         gen_str = ' &mdash; generated_at: {}'.format(html.escape(gen)) if gen else ''
         out.append('  <div>- {} (ID {}) &mdash; '.format(html.escape(name), lid)
                    + ' | '.join(links) + gen_str + '</div>')
