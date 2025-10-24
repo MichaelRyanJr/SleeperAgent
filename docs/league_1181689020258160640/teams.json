@@ -263,14 +263,6 @@
     },
     "keepers": [
       {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "position": "QB",
-        "team": "BAL",
-        "injury_status": "Questionable",
-        "keeper": true
-      },
-      {
         "player_id": "7569",
         "name": "Nico Collins",
         "position": "WR",
@@ -279,18 +271,18 @@
         "keeper": true
       },
       {
-        "player_id": "9484",
-        "name": "Tucker Kraft",
-        "position": "TE",
-        "team": "GB",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
         "player_id": "11638",
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
+        "injury_status": "Questionable",
+        "keeper": true
+      },
+      {
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
         "injury_status": "Questionable",
         "keeper": true
       },
@@ -307,6 +299,14 @@
         "name": "Kenneth Walker",
         "position": "RB",
         "team": "SEA",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "9484",
+        "name": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
         "injury_status": null,
         "keeper": true
       }
