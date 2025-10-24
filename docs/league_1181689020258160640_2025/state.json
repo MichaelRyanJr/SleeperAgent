@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-24T02:24:00.391992Z",
+  "generated_at": "2025-10-24T03:22:05.612020Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1278,9 +1278,9 @@
         "CHI"
       ],
       "players_current": [
-        "10219",
         "11559",
         "11565",
+        "11571",
         "11635",
         "12469",
         "12519",
@@ -1373,19 +1373,19 @@
       ],
       "bench": [
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1957,7 +1957,7 @@
       },
       "starters_current": [
         "6904",
-        "7611",
+        "9508",
         "6790",
         "8112",
         "5859",
@@ -1995,10 +1995,10 @@
           "keeper": false
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "NE",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -2101,20 +2101,20 @@
           "keeper": false
         },
         {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8146",
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
           "injury_status": "Questionable",
           "keeper": true
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "DEN",
@@ -3433,21 +3433,21 @@
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 1,
-      "points": 28.7,
+      "points": 23.7,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 8,
-      "points": 6.0,
+      "points": 14.0,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 3,
-      "points": 24.5,
+      "points": 36.7,
       "result": "W"
     },
     {
@@ -3475,28 +3475,28 @@
       "week": 8,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 23.2,
+      "points": 25.4,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 10,
-      "points": 6.5,
+      "points": 8.4,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 7,
-      "points": 17.4,
+      "points": 26.0,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 20.58,
+      "points": 26.28,
       "result": "W"
     },
     {
