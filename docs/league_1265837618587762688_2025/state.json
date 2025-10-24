@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-24T01:31:28.884366Z",
+  "generated_at": "2025-10-24T01:44:38.495765Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1301,23 +1301,23 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3163",
+        "5870",
         "12533",
-        "7567",
+        "12474",
         "7564",
         "11635",
         "7002",
-        "6783",
-        "0",
-        "MIA"
+        "12485",
+        "1945",
+        "ATL"
       ],
       "players_current": [
-        "10937",
         "11584",
         "11635",
         "12474",
         "12485",
         "12533",
+        "1945",
         "3163",
         "4018",
         "4037",
@@ -1328,14 +1328,14 @@
         "7002",
         "7564",
         "7567",
-        "MIA"
+        "ATL"
       ],
       "starters": [
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
+          "player_id": "5870",
+          "name": "Daniel Jones",
           "position": "QB",
-          "team": "DET",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1348,10 +1348,10 @@
           "keeper": false
         },
         {
-          "player_id": "7567",
-          "name": "Kenneth Gainwell",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "PIT",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         },
@@ -1380,31 +1380,31 @@
           "keeper": false
         },
         {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
+          "player_id": "12485",
+          "name": "Tez Johnson",
           "position": "WR",
-          "team": "CLE",
-          "injury_status": "Questionable",
+          "team": "TB",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "MIA",
-          "name": "Miami",
+          "player_id": "1945",
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "ATL",
+          "name": "Atlanta",
           "position": "DEF",
-          "team": "MIA",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "10937",
-          "name": "Jake Moody",
-          "position": "K",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -1414,18 +1414,10 @@
           "keeper": false
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12485",
-          "name": "Tez Johnson",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1454,11 +1446,11 @@
           "keeper": false
         },
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND",
-          "injury_status": null,
+          "player_id": "6783",
+          "name": "Jerry Jeudy",
+          "position": "WR",
+          "team": "CLE",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1467,6 +1459,14 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "PUP",
+          "keeper": false
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenneth Gainwell",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -3003,7 +3003,7 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 6,
-      "points": 9.6,
+      "points": 11.6,
       "result": "W"
     },
     {
@@ -3031,7 +3031,7 @@
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 12,
-      "points": 12.56,
+      "points": 20.74,
       "result": "W"
     },
     {
@@ -3045,7 +3045,7 @@
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 8,
-      "points": 6.0,
+      "points": 7.0,
       "result": "W"
     },
     {
@@ -3059,7 +3059,7 @@
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 11,
-      "points": 5.0,
+      "points": 16.2,
       "result": "W"
     },
     {
@@ -3073,7 +3073,7 @@
       "week": 8,
       "roster_id": 9,
       "opponent_roster_id": 10,
-      "points": 8.0,
+      "points": 10.2,
       "result": "W"
     },
     {
