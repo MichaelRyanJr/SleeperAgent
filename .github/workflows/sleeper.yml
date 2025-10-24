@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LEAGUES: "1265837618587762688 1181689020258160640"
+      SEASON: "2025"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -30,23 +31,23 @@ jobs:
           set -euo pipefail
           mkdir -p docs
           for LID in $LEAGUES; do
-            echo ">> Export $LID"
-            rm -rf ./docs/league_${LID}_*/
-            python sleeper_sync.py --league "$LID" --out ./docs
+            echo ">> Export $LID (season=$SEASON)"
+            rm -rf "./docs/league_${LID}_*/"
+            python sleeper_sync.py --league "$LID" --season "$SEASON" --out ./docs
           done
 
-      - name: Publish and write diffs/manifests
+      - name: Publish + diff + manifest (Python helper)
+        run: python tools/publish_and_manifest.py
+
+      - name: Build hub index (adds manifest & diff links)
+        run: python tools/build_index.py
+
+      - name: Commit & push
         shell: bash
         run: |
-          set -euo pipefail
-          for LID in $LEAGUES; do
-            RUN_DIR=$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)
-            STABLE_DIR=./docs/league_${LID}
-            if [ -z "${RUN_DIR:-}" ]; then
-              echo "::error::No per-run folder for $LID"
-              exit 1
-            fi
-
-            # File-level diff BEFORE copying to stable
-            if [ -d "$STABLE_DIR" ]; then
-              python tools/postprocess.py --diff --old "$STABLE_DIR"_
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "sync: publish + manifest + file diff + hub index" || echo "No changes"
+          git push
