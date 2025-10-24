@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-24T01:15:03.896338Z",
+  "generated_at": "2025-10-24T01:24:02.210701Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -99,7 +99,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9758",
+        "0",
         "8228",
         "8408",
         "9488",
@@ -126,18 +126,10 @@
         "8228",
         "8408",
         "9488",
-        "9758",
+        "9494",
         "NE"
       ],
       "starters": [
-        {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "8228",
           "name": "Jaylen Warren",
@@ -274,6 +266,14 @@
           "position": "K",
           "team": "BUF",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "9494",
+          "name": "Marvin Mims",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -3433,14 +3433,14 @@
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 1,
-      "points": 24.7,
+      "points": 25.7,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 8,
-      "points": 2.0,
+      "points": 1.0,
       "result": "L"
     },
     {
@@ -3482,14 +3482,14 @@
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 10,
-      "points": 2.7,
+      "points": 4.9,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 7,
-      "points": 8.4,
+      "points": 12.2,
       "result": "W"
     },
     {
