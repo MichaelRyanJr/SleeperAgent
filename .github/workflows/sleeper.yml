@@ -31,52 +31,35 @@ jobs:
           shopt -s nullglob
           mkdir -p docs
 
-          # Build tiny HTML mirror helper once; reused inside the loop
-          cat > /tmp/mirror.py << 'PY'
-          import os, pathlib, html, json
-          lid = os.environ["CUR_LID"]
-          p = pathlib.Path(f'docs/league_{lid}/state.json')
-          data = p.read_text(encoding='utf-8')
-          html_doc = (
-              '<!doctype html><meta charset="utf-8"><title>league_state_{lid}</title>\n'
-              '<h1>league_state_{lid}.json (mirror)</h1>\n'
-              '<pre style="white-space:pre-wrap;word-break:break-word;">' + html.escape(data) + '</pre>\n'
-          )
-          pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')
-          PY
-
           for LID in $LEAGUES; do
             echo "==> Exporting $LID"
 
-            # 1) Clear old per-run folders for this league
-            rm -rf "./docs/league_${LID}_*/"
+            # 1) Remove prior per-run folders for this league (not the stable one)
+            rm -rf "./docs/league_${LID}_"/
 
-            # 2) Export fresh snapshot (creates per-run folder like docs/league_<ID>_auto/)
+            # 2) Export fresh snapshot (creates ./docs/league_<ID>_auto/)
             python sleeper_sync.py --league "$LID" --out ./docs
 
-            # 3) Locate newest per-run folder and prep stable path
+            # 3) Find newest per-run folder and prep stable path
             RUN_DIR="$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)"
             STABLE_DIR="./docs/league_${LID}"
+
+            if [ -z "${RUN_DIR:-}" ] || [ ! -d "$RUN_DIR" ]; then
+              echo "::error::No per-run folder produced for league $LID"
+              exit 1
+            fi
 
             # 3.5) Build file-level diff BEFORE copying to stable
             if [ -d "$STABLE_DIR" ]; then
               python tools/postprocess.py --diff --old "$STABLE_DIR" --new "$RUN_DIR" --out "$RUN_DIR/diff.json" || true
             else
-              # First publish: emit a synthetic "all added" diff
-              python - "$RUN_DIR" << 'PY' || true
-              import sys, os, json, datetime as dt
-              new = sys.argv[1]
-              files=[]
-              for dp,_,fn in os.walk(new):
-                  for n in fn:
-                      rel=os.path.relpath(os.path.join(dp,n), new).replace("\\","/")
-                      files.append(rel)
-              out = {
-                "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "files": {"added": sorted(files), "removed": [], "changed": [], "unchanged_count": 0}
-              }
-              json.dump(out, open(os.path.join(new, "diff.json"), "w"), indent=2)
-              PY
+              # First publish: synthetic 'all added' diff (no heredoc)
+              python -c "import os,sys,json,datetime as dt; new=sys.argv[1]; files=[]; \
+for dp,_,fn in os.walk(new): \
+  [files.append(os.path.relpath(os.path.join(dp,n), new).replace('\\','/')) for n in fn]; \
+json.dump({'generated_at':dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), \
+'files':{'added':sorted(files),'removed':[],'changed':[],'unchanged_count':0}}, \
+open(os.path.join(new,'diff.json'),'w'), indent=2)" "$RUN_DIR" || true
             fi
 
             # 4) Copy CONTENTS of auto → stable
@@ -89,54 +72,51 @@ jobs:
             fi
 
             # 5) Publish top-level shortcuts (back-compat)
-            cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json"
+            cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json" || true
             if [ -f "$STABLE_DIR/draft_picks.json" ]; then
               cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
             fi
 
-            # 6) Build HTML mirror for Pages
-            CUR_LID="$LID" python /tmp/mirror.py
+            # 6) Build HTML mirror (no heredoc)
+            CUR_LID="$LID" python -c "import os,html,pathlib; lid=os.environ['CUR_LID']; \
+p=pathlib.Path(f'docs/league_{lid}/state.json'); data=p.read_text(encoding='utf-8'); \
+html_doc='<!doctype html><meta charset=\"utf-8\"><title>league_state_%s</title>'%lid + \
+f'<h1>league_state_{lid}.json (mirror)</h1><pre style=\"white-space:pre-wrap;word-break:break-word;\">' + \
+html.escape(data) + '</pre>'; \
+pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')"
 
-            # 7) Write manifest.json in the stable folder (after publish)
+            # 7) Write manifest.json in the stable folder
             python tools/postprocess.py --manifest "$STABLE_DIR" --league-id "$LID" || true
           done
 
       - name: Show docs contents (debug)
-        run: ls -lR docs
+        run: ls -lR docs || true
 
       - name: Build index.html
         shell: bash
         run: |
-          python - << 'PY'
-          import json, pathlib, html
-          docs = pathlib.Path('docs'); docs.mkdir(exist_ok=True)
-          rows=[]
-          for league_dir in sorted(docs.glob('league_*')):
-              parts = league_dir.name.split('_')
-              if league_dir.is_dir() and len(parts)==2 and parts[0]=='league':
-                  state_p = league_dir / 'state.json'
-                  if not state_p.exists(): continue
-                  data=json.loads(state_p.read_text('utf-8'))
-                  lid=data.get('league',{}).get('league_id')
-                  name=data.get('league',{}).get('name','League')
-                  rows.append((name,lid,f'league_{lid}/state.json',f'league_state_{lid}.html'))
-
-          out=[]
-          out.append('<!doctype html><meta charset="utf-8"><title>SleeperAgent export</title>')
-          out.append('<h1>SleeperAgent export</h1>')
-          for name,lid,state_link,html_link in rows:
-              extras=['teams','schedule','transactions','players_min']
-              extras_links=' | '.join(f'<a href="league_{lid}/{x}.json">{x}</a>' for x in extras)
-              out.append(f'  <div>• {html.escape(name)} (ID {lid}) — '
-                         f'<a href="{state_link}">state.json</a> | '
-                         f'<a href="{html_link}">HTML mirror</a> | {extras_links}</div>')
-          pathlib.Path('docs/index.html').write_text('\n'.join(out), encoding='utf-8')
-          PY
+          python -c "import json, pathlib, html; docs=pathlib.Path('docs'); docs.mkdir(exist_ok=True); rows=[]; \
+for league_dir in sorted(docs.glob('league_*')): \
+    parts=league_dir.name.split('_'); \
+    if league_dir.is_dir() and len(parts)==2 and parts[0]=='league': \
+        state_p=league_dir/'state.json'; \
+        if not state_p.exists(): \
+            continue; \
+        data=json.loads(state_p.read_text('utf-8')); \
+        lid=data.get('league',{}).get('league_id'); \
+        name=data.get('league',{}).get('name','League'); \
+        rows.append((name,lid,f'league_{lid}/state.json',f'league_state_{lid}.html')); \
+out=['<!doctype html><meta charset=\"utf-8\"><title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>']; \
+for name,lid,state_link,html_link in rows: \
+    extras=['teams','schedule','transactions','players_min']; \
+    extras_links=' | '.join(f'<a href=\"league_{lid}/{x}.json\">{x}</a>' for x in extras); \
+    out.append(f'  <div>• {html.escape(name)} (ID {lid}) — <a href=\"{state_link}\">state.json</a> | <a href=\"{html_link}\">HTML mirror</a> | {extras_links}</div>'); \
+pathlib.Path('docs/index.html').write_text('\\n'.join(out), encoding='utf-8')"
 
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "normalized publish + manifest & file-level diff" || echo "No changes"
+          git commit -m "normalized publish + manifest & file-level diff (no heredocs)" || echo "No changes"
           git push
