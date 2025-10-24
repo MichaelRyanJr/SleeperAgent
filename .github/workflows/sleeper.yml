@@ -1,8 +1,8 @@
 name: Sleeper sync
 
-on:
+'on':
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
+    - cron: '*/15 * * * *'   # every 15 minutes (UTC)
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LEAGUES: "1265837618587762688 1181689020258160640"
+      PYTHONUNBUFFERED: "1"
 
     steps:
       - name: Check out repo
@@ -21,97 +22,51 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Export, diff, publish, manifest
+      - name: Export each league
         shell: bash
         run: |
           set -euo pipefail
-          shopt -s nullglob
           mkdir -p docs
-
           for LID in $LEAGUES; do
-            echo "==> League $LID"
-
-            # Remove any prior per-run folders for this league
-            rm -rf "./docs/league_${LID}_"*/
-
-            # Export fresh snapshot (creates ./docs/league_<ID>_auto/)
+            echo ">> $LID"
+            rm -rf ./docs/league_${LID}_*/
             python sleeper_sync.py --league "$LID" --out ./docs
+          done
 
-            # Locate newest per-run folder and define stable path
-            RUN_DIR="$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)"
-            STABLE_DIR="./docs/league_${LID}"
-
-            if [ -z "${RUN_DIR:-}" ] || [ ! -d "$RUN_DIR" ]; then
-              echo "::error::No per-run folder produced for league $LID"
-              exit 1
+      - name: Publish and write diffs/manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          for LID in $LEAGUES; do
+            RUN_DIR=$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)
+            STABLE_DIR=./docs/league_${LID}
+            if [ -z "${RUN_DIR:-}" ]; then
+              echo "::error::No per-run folder for $LID"; exit 1
             fi
 
-            # Build file-level diff BEFORE copying to stable
+            # Diff (old stable vs new auto)
             if [ -d "$STABLE_DIR" ]; then
               python tools/postprocess.py --diff --old "$STABLE_DIR" --new "$RUN_DIR" --out "$RUN_DIR/diff.json" || true
             else
-              # First publish: synthetic "all added" diff using Python one-liner
-              python -c "import os,sys,json,datetime as dt; new=sys.argv[1]; files=[]; \
-for dp,_,fn in os.walk(new): \
-  [files.append(os.path.relpath(os.path.join(dp,n), new).replace('\\','/')) for n in fn]; \
-json.dump({'generated_at':dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), \
-'files':{'added':sorted(files),'removed':[],'changed':[],'unchanged_count':0}}, \
-open(os.path.join(new,'diff.json'),'w'), indent=2)" "$RUN_DIR" || true
+              # First publish: emit an empty baseline diff with timestamp
+              printf '{\n  "generated_at": "%s",\n  "files": {"added": [], "removed": [], "changed": [], "unchanged_count": 0}\n}\n' \
+                "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$RUN_DIR/diff.json"
             fi
 
             # Copy CONTENTS of auto -> stable
             rm -rf "$STABLE_DIR"
             mkdir -p "$STABLE_DIR"
-            if command -v rsync >/dev/null 2>&1; then
-              rsync -a "$RUN_DIR"/ "$STABLE_DIR"/
-            else
-              cp -R "$RUN_DIR"/. "$STABLE_DIR"/
-            fi
+            cp -R "$RUN_DIR"/. "$STABLE_DIR"/
 
-            # Publish top-level shortcuts (back-compat)
+            # Back-compat shortcuts
             cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json" || true
-            if [ -f "$STABLE_DIR/draft_picks.json" ]; then
-              cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
-            fi
+            [ -f "$STABLE_DIR/draft_picks.json" ] && cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
 
-            # Build simple HTML mirror page from state.json
-            CUR_LID="$LID" python -c "import os,html,pathlib; lid=os.environ['CUR_LID']; \
-p=pathlib.Path('docs/league_%s/state.json'%lid); data=p.read_text(encoding='utf-8'); \
-html_doc='<!doctype html><meta charset=\"utf-8\"><title>league_state_%s</title>'%lid + \
-'<h1>league_state_%s.json (mirror)</h1>'%lid + \
-'<pre style=\"white-space:pre-wrap;word-break:break-word;\">' + html.escape(data) + '</pre>'; \
-pathlib.Path('docs/league_state_%s.html'%lid).write_text(html_doc, encoding='utf-8')"
-
-            # Write manifest.json in the stable folder
+            # Manifest for the stable folder
             python tools/postprocess.py --manifest "$STABLE_DIR" --league-id "$LID" || true
           done
-
-      - name: Show docs contents (debug)
-        shell: bash
-        run: ls -lR docs || true
-
-      - name: Build index.html
-        shell: bash
-        run: |
-          python -c "import json, pathlib, html; docs=pathlib.Path('docs'); docs.mkdir(exist_ok=True); rows=[]; \
-for league_dir in sorted(docs.glob('league_*')): \
-    parts=league_dir.name.split('_'); \
-    if league_dir.is_dir() and len(parts)==2 and parts[0]=='league': \
-        state_p=league_dir/'state.json'; \
-        if not state_p.exists(): \
-            continue; \
-        data=json.loads(state_p.read_text('utf-8')); \
-        lid=data.get('league',{}).get('league_id'); \
-        name=data.get('league',{}).get('name','League'); \
-        rows.append((name,lid,'league_%s/state.json'%lid,'league_state_%s.html'%lid)); \
-out=['<!doctype html><meta charset=\"utf-8\"><title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>']; \
-for name,lid,state_link,html_link in rows: \
-    extras=['teams','schedule','transactions','players_min']; \
-    extras_links=' | '.join('<a href=\"league_%s/%s.json\">%s</a>'%(lid,x,x) for x in extras); \
-    out.append('  <div>- '+html.escape(name)+' (ID %s) — <a href=\"%s\">state.json</a> | <a href=\"%s\">HTML mirror</a> | '%(lid,state_link,html_link)+extras_links+'</div>'); \
-pathlib.Path('docs/index.html').write_text('\\n'.join(out), encoding='utf-8')"
 
       - name: Commit & push
         shell: bash
@@ -119,5 +74,5 @@ pathlib.Path('docs/index.html').write_text('\\n'.join(out), encoding='utf-8')"
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "publish + manifest & file-level diff" || echo "No changes"
+          git commit -m "sync: publish + manifest + file diff" || echo "No changes"
           git push
