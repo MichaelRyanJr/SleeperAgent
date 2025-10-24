@@ -30,7 +30,7 @@ jobs:
           set -euo pipefail
           mkdir -p docs
           for LID in $LEAGUES; do
-            echo ">> $LID"
+            echo ">> Export $LID"
             rm -rf ./docs/league_${LID}_*/
             python sleeper_sync.py --league "$LID" --out ./docs
           done
@@ -46,11 +46,11 @@ jobs:
               echo "::error::No per-run folder for $LID"; exit 1
             fi
 
-            # Diff (old stable vs new auto)
+            # File-level diff BEFORE copying to stable
             if [ -d "$STABLE_DIR" ]; then
               python tools/postprocess.py --diff --old "$STABLE_DIR" --new "$RUN_DIR" --out "$RUN_DIR/diff.json" || true
             else
-              # First publish: emit an empty baseline diff with timestamp
+              # First publish: baseline diff object
               printf '{\n  "generated_at": "%s",\n  "files": {"added": [], "removed": [], "changed": [], "unchanged_count": 0}\n}\n' \
                 "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$RUN_DIR/diff.json"
             fi
@@ -64,15 +64,47 @@ jobs:
             cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json" || true
             [ -f "$STABLE_DIR/draft_picks.json" ] && cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
 
-            # Manifest for the stable folder
+            # Manifest for stable folder
             python tools/postprocess.py --manifest "$STABLE_DIR" --league-id "$LID" || true
           done
+
+      - name: Build index.html (with manifest & diff links)
+        shell: bash
+        run: |
+          python -c "import json, pathlib, html; from pathlib import Path; \
+docs=pathlib.Path('docs'); docs.mkdir(exist_ok=True); rows=[]; \
+for league_dir in sorted(docs.glob('league_*')): \
+    parts=league_dir.name.split('_'); \
+    if not (league_dir.is_dir() and len(parts)==2 and parts[0]=='league'): \
+        continue; \
+    state_p=league_dir/'state.json'; \
+    if not state_p.exists(): \
+        continue; \
+    try: data=json.loads(state_p.read_text('utf-8')); \
+    except Exception: data={}; \
+    lid=str(data.get('league',{}).get('league_id') or parts[1]); \
+    name=data.get('league',{}).get('name','League'); \
+    gen=data.get('generated_at',''); \
+    rows.append((name,lid,gen)); \
+out=['<!doctype html><meta charset=\"utf-8\"><title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>']; \
+def ex(rel): return Path(rel).exists(); \
+for name,lid,gen in rows: \
+    base=f'league_{lid}/'; \
+    links=['<a href=\"%sstate.json\">state.json</a>'%base]; \
+    for x in ['teams','schedule','transactions','players_min']: \
+        if ex(base+f'{x}.json'): links.append('<a href=\"%s%s.json\">%s</a>'%(base,x,x)); \
+    if ex(base+'manifest.json'): links.append('<a href=\"%smanifest.json\">manifest</a>'%base); \
+    if ex(base+'diff.json'): links.append('<a href=\"%sdiff.json\">diff</a>'%base); \
+    gen_str=(' — generated_at: '+html.escape(gen)) if gen else ''; \
+    out.append('  <div>• '+html.escape(name)+' (ID %s) — '%lid + ' | '.join(links) + gen_str + '</div>'); \
+pathlib.Path('docs/index.html').write_text('\\n'.join(out), encoding='utf-8')"
 
       - name: Commit & push
         shell: bash
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "sync: publish + manifest + file diff" || echo "No changes"
+          git commit -m "sync: publish + manifest + file diff + hub index" || echo "No changes"
           git push
