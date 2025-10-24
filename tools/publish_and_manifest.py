@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, json, shutil, pathlib, datetime as dt, subprocess
+import os, sys, json, shutil, pathlib, datetime as dt, subprocess, html
 
 DOCS = pathlib.Path("docs")
 DOCS.mkdir(exist_ok=True)
@@ -26,6 +26,26 @@ def write_baseline_diff(run_dir: pathlib.Path) -> None:
 
 def run_cmd(args: list[str]) -> None:
     subprocess.run(args, check=False)
+
+def write_html_mirror(lid: str, stable_dir: pathlib.Path) -> None:
+    """Create docs/league_state_<lid>.html that renders the stable state.json."""
+    state_p = stable_dir / "state.json"
+    if not state_p.exists():
+        return
+    try:
+        raw = state_p.read_text(encoding="utf-8")
+    except Exception:
+        return
+    title = f"league_state_{lid}.json"
+    doc = (
+        "<!doctype html><meta charset=\"utf-8\">"
+        f"<title>{html.escape(title)}</title>"
+        f"<h1>{html.escape(title)} (mirror)</h1>"
+        "<pre style=\"white-space:pre-wrap;word-break:break-word;\">"
+        + html.escape(raw)
+        + "</pre>"
+    )
+    (DOCS / f"league_state_{lid}.html").write_text(doc, encoding="utf-8")
 
 def main() -> int:
     leagues = os.environ.get("LEAGUES", "").split()
@@ -63,6 +83,9 @@ def main() -> int:
         dp_src = stable_dir / "draft_picks.json"
         if dp_src.exists():
             shutil.copy2(dp_src, DOCS / f"draft_picks_{lid}.json")
+
+        # HTML mirror (new)
+        write_html_mirror(lid, stable_dir)
 
         # Manifest
         run_cmd([
