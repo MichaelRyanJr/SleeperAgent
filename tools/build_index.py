@@ -36,6 +36,7 @@ out.append(f'<p style="font:12px/1.2 monospace">built_at: {dt.datetime.utcnow().
 # Unconditionally render the standard link set so they always appear.
 STANDARD = [
     ("state.json", "state.json"),
+    ("HTML", "HTML mirror"),             # special-cased below
     ("teams.json", "teams"),
     ("schedule.json", "schedule"),
     ("transactions.json", "transactions"),
@@ -45,8 +46,14 @@ STANDARD = [
 ]
 
 for name, lid, gen in rows:
-    href_base = f"league_{lid}/"
-    links = [f'<a href="{href_base}{fname}">{label}</a>' for fname, label in STANDARD]
+    base = f"league_{lid}/"
+    links = []
+    for fname, label in STANDARD:
+        if fname == "HTML":
+            # mirror is in docs root, not inside the league folder
+            links.append(f'<a href="league_state_{lid}.html">{label}</a>')
+        else:
+            links.append(f'<a href="{base}{fname}">{label}</a>')
     gen_str = f" — generated_at: {html.escape(gen)}" if gen else ""
     out.append(f'  <div>• {html.escape(name)} (ID {lid}) — ' + " | ".join(links) + gen_str + "</div>")
 
