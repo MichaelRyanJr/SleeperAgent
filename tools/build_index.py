@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, html, pathlib
+import json, html, pathlib, datetime as dt
 
 DOCS = pathlib.Path("docs")
 DOCS.mkdir(exist_ok=True)
@@ -31,30 +31,23 @@ for league_dir in sorted(DOCS.glob("league_*")):
 out = []
 out.append('<!doctype html><meta charset="utf-8"><title>SleeperAgent export</title>')
 out.append('<h1>SleeperAgent export</h1>')
+out.append(f'<p style="font:12px/1.2 monospace">built_at: {dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}</p>')
+
+# Unconditionally render the standard link set so they always appear.
+STANDARD = [
+    ("state.json", "state.json"),
+    ("teams.json", "teams"),
+    ("schedule.json", "schedule"),
+    ("transactions.json", "transactions"),
+    ("players_min.json", "players_min"),
+    ("manifest.json", "manifest"),
+    ("diff.json", "diff"),
+]
 
 for name, lid, gen in rows:
-    # File-system base vs. href base (index.html sits in docs/, so hrefs are relative)
-    fs_base = DOCS / f"league_{lid}"
     href_base = f"league_{lid}/"
-
-    def exists(fname: str) -> bool:
-        return (fs_base / fname).exists()
-
-    links = []
-    for fname, label in [
-        ("state.json", "state.json"),
-        ("teams.json", "teams"),
-        ("schedule.json", "schedule"),
-        ("transactions.json", "transactions"),
-        ("players_min.json", "players_min"),
-        ("manifest.json", "manifest"),
-        ("diff.json", "diff"),
-    ]:
-        if exists(fname):
-            links.append(f'<a href="{href_base}{fname}">{label}</a>')
-
+    links = [f'<a href="{href_base}{fname}">{label}</a>' for fname, label in STANDARD]
     gen_str = f" — generated_at: {html.escape(gen)}" if gen else ""
-    links_html = " | ".join(links) if links else "(no files found)"
-    out.append(f'  <div>• {html.escape(name)} (ID {lid}) — {links_html}{gen_str}</div>')
+    out.append(f'  <div>• {html.escape(name)} (ID {lid}) — ' + " | ".join(links) + gen_str + "</div>")
 
 (DOCS / "index.html").write_text("\n".join(out), encoding="utf-8")
