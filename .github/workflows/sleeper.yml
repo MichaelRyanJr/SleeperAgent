@@ -1,9 +1,9 @@
-name: Sleeper sync (multi-league)
+name: Sleeper sync
 
 on:
   schedule:
     - cron: "*/15 * * * *"   # every 15 minutes (UTC)
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,7 +12,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     env:
-      # non-keeper, keeper
       LEAGUES: "1265837618587762688 1181689020258160640"
 
     steps:
@@ -24,7 +23,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Export all leagues (build, diff, publish, manifest)
+      - name: Export, diff, publish, manifest
         shell: bash
         run: |
           set -euo pipefail
@@ -32,15 +31,15 @@ jobs:
           mkdir -p docs
 
           for LID in $LEAGUES; do
-            echo "==> Exporting $LID"
+            echo "==> League $LID"
 
-            # 1) Remove prior per-run folders for this league (not the stable one)
-            rm -rf "./docs/league_${LID}_"/
+            # Remove any prior per-run folders for this league
+            rm -rf "./docs/league_${LID}_"*/
 
-            # 2) Export fresh snapshot (creates ./docs/league_<ID>_auto/)
+            # Export fresh snapshot (creates ./docs/league_<ID>_auto/)
             python sleeper_sync.py --league "$LID" --out ./docs
 
-            # 3) Find newest per-run folder and prep stable path
+            # Locate newest per-run folder and define stable path
             RUN_DIR="$(ls -dtd ./docs/league_${LID}_*/ | head -n 1)"
             STABLE_DIR="./docs/league_${LID}"
 
@@ -49,11 +48,11 @@ jobs:
               exit 1
             fi
 
-            # 3.5) Build file-level diff BEFORE copying to stable
+            # Build file-level diff BEFORE copying to stable
             if [ -d "$STABLE_DIR" ]; then
               python tools/postprocess.py --diff --old "$STABLE_DIR" --new "$RUN_DIR" --out "$RUN_DIR/diff.json" || true
             else
-              # First publish: synthetic 'all added' diff (no heredoc)
+              # First publish: synthetic "all added" diff using Python one-liner
               python -c "import os,sys,json,datetime as dt; new=sys.argv[1]; files=[]; \
 for dp,_,fn in os.walk(new): \
   [files.append(os.path.relpath(os.path.join(dp,n), new).replace('\\','/')) for n in fn]; \
@@ -62,7 +61,7 @@ json.dump({'generated_at':dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), \
 open(os.path.join(new,'diff.json'),'w'), indent=2)" "$RUN_DIR" || true
             fi
 
-            # 4) Copy CONTENTS of auto → stable
+            # Copy CONTENTS of auto -> stable
             rm -rf "$STABLE_DIR"
             mkdir -p "$STABLE_DIR"
             if command -v rsync >/dev/null 2>&1; then
@@ -71,25 +70,26 @@ open(os.path.join(new,'diff.json'),'w'), indent=2)" "$RUN_DIR" || true
               cp -R "$RUN_DIR"/. "$STABLE_DIR"/
             fi
 
-            # 5) Publish top-level shortcuts (back-compat)
+            # Publish top-level shortcuts (back-compat)
             cp "$STABLE_DIR/state.json" "./docs/league_state_${LID}.json" || true
             if [ -f "$STABLE_DIR/draft_picks.json" ]; then
               cp "$STABLE_DIR/draft_picks.json" "./docs/draft_picks_${LID}.json"
             fi
 
-            # 6) Build HTML mirror (no heredoc)
+            # Build simple HTML mirror page from state.json
             CUR_LID="$LID" python -c "import os,html,pathlib; lid=os.environ['CUR_LID']; \
-p=pathlib.Path(f'docs/league_{lid}/state.json'); data=p.read_text(encoding='utf-8'); \
+p=pathlib.Path('docs/league_%s/state.json'%lid); data=p.read_text(encoding='utf-8'); \
 html_doc='<!doctype html><meta charset=\"utf-8\"><title>league_state_%s</title>'%lid + \
-f'<h1>league_state_{lid}.json (mirror)</h1><pre style=\"white-space:pre-wrap;word-break:break-word;\">' + \
-html.escape(data) + '</pre>'; \
-pathlib.Path(f'docs/league_state_{lid}.html').write_text(html_doc, encoding='utf-8')"
+'<h1>league_state_%s.json (mirror)</h1>'%lid + \
+'<pre style=\"white-space:pre-wrap;word-break:break-word;\">' + html.escape(data) + '</pre>'; \
+pathlib.Path('docs/league_state_%s.html'%lid).write_text(html_doc, encoding='utf-8')"
 
-            # 7) Write manifest.json in the stable folder
+            # Write manifest.json in the stable folder
             python tools/postprocess.py --manifest "$STABLE_DIR" --league-id "$LID" || true
           done
 
       - name: Show docs contents (debug)
+        shell: bash
         run: ls -lR docs || true
 
       - name: Build index.html
@@ -105,18 +105,19 @@ for league_dir in sorted(docs.glob('league_*')): \
         data=json.loads(state_p.read_text('utf-8')); \
         lid=data.get('league',{}).get('league_id'); \
         name=data.get('league',{}).get('name','League'); \
-        rows.append((name,lid,f'league_{lid}/state.json',f'league_state_{lid}.html')); \
+        rows.append((name,lid,'league_%s/state.json'%lid,'league_state_%s.html'%lid)); \
 out=['<!doctype html><meta charset=\"utf-8\"><title>SleeperAgent export</title>','<h1>SleeperAgent export</h1>']; \
 for name,lid,state_link,html_link in rows: \
     extras=['teams','schedule','transactions','players_min']; \
-    extras_links=' | '.join(f'<a href=\"league_{lid}/{x}.json\">{x}</a>' for x in extras); \
-    out.append(f'  <div>• {html.escape(name)} (ID {lid}) — <a href=\"{state_link}\">state.json</a> | <a href=\"{html_link}\">HTML mirror</a> | {extras_links}</div>'); \
+    extras_links=' | '.join('<a href=\"league_%s/%s.json\">%s</a>'%(lid,x,x) for x in extras); \
+    out.append('  <div>- '+html.escape(name)+' (ID %s) — <a href=\"%s\">state.json</a> | <a href=\"%s\">HTML mirror</a> | '%(lid,state_link,html_link)+extras_links+'</div>'); \
 pathlib.Path('docs/index.html').write_text('\\n'.join(out), encoding='utf-8')"
 
       - name: Commit & push
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "normalized publish + manifest & file-level diff (no heredocs)" || echo "No changes"
+          git commit -m "publish + manifest & file-level diff" || echo "No changes"
           git push
