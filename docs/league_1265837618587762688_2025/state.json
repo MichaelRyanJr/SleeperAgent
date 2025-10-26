@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-26T16:26:57.061261Z",
+  "generated_at": "2025-10-26T16:45:39.861847Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -376,7 +376,7 @@
         "9758",
         "5850",
         "5995",
-        "5859",
+        "11637",
         "12526",
         "1339",
         "2449",
@@ -386,6 +386,7 @@
       "players_current": [
         "10222",
         "10859",
+        "11637",
         "12526",
         "12711",
         "1339",
@@ -396,7 +397,6 @@
         "5859",
         "5995",
         "7543",
-        "7670",
         "8151",
         "9228",
         "9758",
@@ -428,11 +428,11 @@
           "keeper": false
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": "Out",
+          "team": "BUF",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -510,19 +510,19 @@
           "keeper": false
         },
         {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "7543",
           "name": "Travis Etienne",
           "position": "RB",
           "team": "JAX",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7670",
-          "name": "Joshua Palmer",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1495,10 +1495,10 @@
         "3294",
         "9226",
         "8228",
-        "10229",
+        "7090",
         "6786",
         "12506",
-        "12489",
+        "10229",
         "5230",
         "CLE"
       ],
@@ -1508,13 +1508,13 @@
         "11571",
         "11638",
         "12489",
-        "12498",
         "12506",
         "12530",
         "3294",
         "4943",
         "5230",
         "6786",
+        "7090",
         "8112",
         "8228",
         "8408",
@@ -1547,10 +1547,10 @@
           "keeper": false
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
           "position": "WR",
-          "team": "KC",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -1571,10 +1571,10 @@
           "keeper": false
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -1621,10 +1621,10 @@
           "keeper": false
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
