@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-26T14:53:17.827420Z",
+  "generated_at": "2025-10-26T15:21:19.082227Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -592,9 +592,9 @@
         "2307",
         "7588",
         "5850",
-        "7526",
+        "8126",
         "10229",
-        "8130",
+        "5001",
         "7021",
         "8259",
         "PHI"
@@ -602,11 +602,11 @@
       "players_current": [
         "10229",
         "11584",
-        "12457",
         "12526",
         "2307",
         "4037",
         "4983",
+        "5001",
         "5849",
         "5850",
         "7021",
@@ -643,10 +643,10 @@
           "keeper": false
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "MIA",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -659,12 +659,12 @@
           "keeper": true
         },
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
+          "player_id": "5001",
+          "name": "Dalton Schultz",
           "position": "TE",
-          "team": "ARI",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "7021",
@@ -701,14 +701,6 @@
           "keeper": true
         },
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12526",
           "name": "Tetairoa McMillan",
           "position": "WR",
@@ -741,12 +733,20 @@
           "keeper": true
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NYG",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": true
         }
       ],
       "keepers": [
@@ -755,14 +755,6 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
           "injury_status": null,
           "keeper": true
         },
@@ -780,6 +772,14 @@
           "position": "QB",
           "team": "ARI",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "injury_status": null,
           "keeper": true
         }
       ]
