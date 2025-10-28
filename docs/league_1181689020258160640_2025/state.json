@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-28T12:50:32.073500Z",
+  "generated_at": "2025-10-28T13:34:01.341271Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1037,9 +1037,9 @@
       },
       "starters_current": [
         "4881",
-        "12474",
-        "12495",
-        "12485",
+        "8150",
+        "7543",
+        "7569",
         "7564",
         "12518",
         "9484",
@@ -1074,28 +1074,28 @@
           "keeper": true
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "HOU",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "7543",
+          "name": "Travis Etienne",
           "position": "RB",
-          "team": "MIA",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12485",
-          "name": "Tez Johnson",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true
         },
         {
           "player_id": "7564",
@@ -1156,36 +1156,36 @@
           "keeper": true
         },
         {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12485",
+          "name": "Tez Johnson",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
           "team": "DET",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true
-        },
-        {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8151",
@@ -1202,6 +1202,14 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
+          "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": "Out",
           "keeper": true
         },
@@ -1227,14 +1235,6 @@
           "position": "RB",
           "team": "DET",
           "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Out",
           "keeper": true
         },
         {
