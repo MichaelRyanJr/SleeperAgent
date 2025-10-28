@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-28T21:40:39.217869Z",
+  "generated_at": "2025-10-28T21:53:08.638023Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2639,14 +2639,14 @@
       },
       "starters_current": [
         "5870",
-        "12481",
+        "3198",
         "8155",
         "5846",
         "11624",
         "4217",
-        "3198",
+        "1466",
         "650",
-        "TB"
+        "JAX"
       ],
       "players_current": [
         "10213",
@@ -2677,11 +2677,11 @@
           "keeper": false
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "3198",
+          "name": "Derrick Henry",
           "position": "RB",
-          "team": "NYG",
-          "injury_status": "IR",
+          "team": "BAL",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2717,10 +2717,10 @@
           "keeper": true
         },
         {
-          "player_id": "3198",
-          "name": "Derrick Henry",
-          "position": "RB",
-          "team": "BAL",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -2733,10 +2733,10 @@
           "keeper": false
         },
         {
-          "player_id": "TB",
-          "name": "Tampa Bay",
+          "player_id": "JAX",
+          "name": "Jacksonville",
           "position": "DEF",
-          "team": "TB",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         }
@@ -2751,11 +2751,11 @@
           "keeper": false
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "injury_status": null,
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -2799,10 +2799,10 @@
           "keeper": false
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville",
+          "player_id": "TB",
+          "name": "Tampa Bay",
           "position": "DEF",
-          "team": "JAX",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         }
