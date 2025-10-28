@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-28T22:55:10.237994Z",
+  "generated_at": "2025-10-28T23:21:51.229938Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1865,11 +1865,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "19",
+        "421",
         "9509",
-        "12512",
-        "12539",
-        "9494",
+        "8122",
+        "2133",
+        "11631",
         "12518",
         "6806",
         "4227",
@@ -1895,11 +1895,11 @@
       ],
       "starters": [
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "CIN",
-          "injury_status": "Questionable",
+          "team": "LAR",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1911,26 +1911,26 @@
           "keeper": false
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "12539",
-          "name": "Arian Smith",
-          "position": "WR",
-          "team": "NYJ",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "9494",
-          "name": "Marvin Mims",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "DEN",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
           "injury_status": "Questionable",
           "keeper": false
         },
@@ -1969,14 +1969,6 @@
       ],
       "bench": [
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
@@ -1985,27 +1977,35 @@
           "keeper": false
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "ARI",
+          "team": "CLE",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "12539",
+          "name": "Arian Smith",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "19",
+          "name": "Joe Flacco",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
+          "player_id": "9494",
+          "name": "Marvin Mims",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
