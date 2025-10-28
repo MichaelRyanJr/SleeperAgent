@@ -14,7 +14,7 @@
     "points_for": 840.84,
     "points_against": 831.52,
     "waiver": {
-      "position": 5,
+      "position": 4,
       "budget_used": 0
     },
     "keepers": [
@@ -63,7 +63,7 @@
         "name": "Terry McLaurin",
         "position": "WR",
         "team": "WAS",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true
       }
     ]
@@ -83,7 +83,7 @@
     "points_for": 935.72,
     "points_against": 842.26,
     "waiver": {
-      "position": 10,
+      "position": 9,
       "budget_used": 0
     },
     "keepers": [
@@ -144,7 +144,7 @@
     "points_for": 922.3,
     "points_against": 886.24,
     "waiver": {
-      "position": 2,
+      "position": 12,
       "budget_used": 0
     },
     "keepers": [
@@ -153,14 +153,6 @@
         "name": "Rashee Rice",
         "position": "WR",
         "team": "KC",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
-        "player_id": "8130",
-        "name": "Trey McBride",
-        "position": "TE",
-        "team": "ARI",
         "injury_status": null,
         "keeper": true
       },
@@ -178,6 +170,14 @@
         "position": "QB",
         "team": "ARI",
         "injury_status": "Out",
+        "keeper": true
+      },
+      {
+        "player_id": "8130",
+        "name": "Trey McBride",
+        "position": "TE",
+        "team": "ARI",
+        "injury_status": null,
         "keeper": true
       }
     ]
@@ -197,7 +197,7 @@
     "points_for": 817.0,
     "points_against": 783.34,
     "waiver": {
-      "position": 7,
+      "position": 6,
       "budget_used": 0
     },
     "keepers": [
@@ -258,16 +258,24 @@
     "points_for": 839.84,
     "points_against": 806.86,
     "waiver": {
-      "position": 8,
+      "position": 7,
       "budget_used": 0
     },
     "keepers": [
       {
-        "player_id": "7569",
-        "name": "Nico Collins",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": "Questionable",
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "injury_status": "Out",
+        "keeper": true
+      },
+      {
+        "player_id": "9484",
+        "name": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
+        "injury_status": null,
         "keeper": true
       },
       {
@@ -275,15 +283,7 @@
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Questionable",
-        "keeper": true
-      },
-      {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "position": "QB",
-        "team": "BAL",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "keeper": true
       },
       {
@@ -295,18 +295,18 @@
         "keeper": true
       },
       {
+        "player_id": "7569",
+        "name": "Nico Collins",
+        "position": "WR",
+        "team": "HOU",
+        "injury_status": "Out",
+        "keeper": true
+      },
+      {
         "player_id": "8151",
         "name": "Kenneth Walker",
         "position": "RB",
         "team": "SEA",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
-        "player_id": "9484",
-        "name": "Tucker Kraft",
-        "position": "TE",
-        "team": "GB",
         "injury_status": null,
         "keeper": true
       }
@@ -327,7 +327,7 @@
     "points_for": 610.0,
     "points_against": 834.42,
     "waiver": {
-      "position": 3,
+      "position": 2,
       "budget_used": 0
     },
     "keepers": [
@@ -380,23 +380,23 @@
     "points_for": 944.82,
     "points_against": 814.16,
     "waiver": {
-      "position": 12,
+      "position": 11,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "injury_status": null,
-        "keeper": true
-      },
       {
         "player_id": "11533",
         "name": "Brandon Aubrey",
         "position": "K",
         "team": "DAL",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "11563",
+        "name": "Bo Nix",
+        "position": "QB",
+        "team": "DEN",
         "injury_status": null,
         "keeper": true
       },
@@ -433,7 +433,7 @@
     "points_for": 843.6,
     "points_against": 923.36,
     "waiver": {
-      "position": 4,
+      "position": 3,
       "budget_used": 0
     },
     "keepers": [
@@ -494,18 +494,10 @@
     "points_for": 847.24,
     "points_against": 817.62,
     "waiver": {
-      "position": 11,
+      "position": 10,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "8112",
-        "name": "Drake London",
-        "position": "WR",
-        "team": "ATL",
-        "injury_status": null,
-        "keeper": true
-      },
       {
         "player_id": "8110",
         "name": "Jake Ferguson",
@@ -515,11 +507,19 @@
         "keeper": true
       },
       {
+        "player_id": "8112",
+        "name": "Drake London",
+        "position": "WR",
+        "team": "ATL",
+        "injury_status": "Out",
+        "keeper": true
+      },
+      {
         "player_id": "8146",
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "keeper": true
       }
     ]
@@ -584,7 +584,7 @@
     "points_for": 922.62,
     "points_against": 777.54,
     "waiver": {
-      "position": 9,
+      "position": 8,
       "budget_used": 0
     },
     "keepers": [
@@ -625,7 +625,7 @@
         "name": "Josh Downs",
         "position": "WR",
         "team": "IND",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true
       }
     ]
@@ -645,7 +645,7 @@
     "points_for": 733.8,
     "points_against": 818.14,
     "waiver": {
-      "position": 6,
+      "position": 5,
       "budget_used": 0
     },
     "keepers": [
@@ -654,7 +654,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true
       },
       {
