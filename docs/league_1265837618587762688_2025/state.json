@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T11:20:51.595599Z",
+  "generated_at": "2025-10-29T11:40:26.150105Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1876,6 +1876,7 @@
         "NE"
       ],
       "players_current": [
+        "11610",
         "11631",
         "12455",
         "12512",
@@ -1887,7 +1888,6 @@
         "4227",
         "6806",
         "8122",
-        "9494",
         "9508",
         "9509",
         "NE",
@@ -1969,6 +1969,14 @@
       ],
       "bench": [
         {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
@@ -1997,14 +2005,6 @@
           "name": "Joe Flacco",
           "position": "QB",
           "team": "CIN",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "9494",
-          "name": "Marvin Mims",
-          "position": "WR",
-          "team": "DEN",
           "injury_status": "Questionable",
           "keeper": false
         },
