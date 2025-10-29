@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T10:31:22.708710Z",
+  "generated_at": "2025-10-29T10:53:38.659265Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -594,7 +594,7 @@
         "5850",
         "7526",
         "10229",
-        "5001",
+        "0",
         "7021",
         "8259",
         "PHI"
@@ -606,7 +606,6 @@
         "2307",
         "4037",
         "4983",
-        "5001",
         "5849",
         "5850",
         "7021",
@@ -615,6 +614,7 @@
         "8126",
         "8130",
         "8259",
+        "HOU",
         "PHI"
       ],
       "starters": [
@@ -657,14 +657,6 @@
           "team": "KC",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "7021",
@@ -747,6 +739,14 @@
           "team": "ARI",
           "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston",
+          "position": "DEF",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
