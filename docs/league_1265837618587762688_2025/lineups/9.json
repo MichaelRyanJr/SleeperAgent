@@ -88,7 +88,7 @@
         "name": "Calvin Ridley",
         "position": "WR",
         "team": "TEN",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8130",
@@ -223,7 +223,7 @@
         "name": "Kyler Murray",
         "position": "QB",
         "team": "ARI",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5892",
@@ -365,7 +365,7 @@
         "name": "Bryce Young",
         "position": "QB",
         "team": "CAR",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -379,7 +379,7 @@
         "name": "Jayden Daniels",
         "position": "QB",
         "team": "WAS",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9224",
@@ -451,7 +451,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12495",
@@ -472,7 +472,7 @@
         "name": "Brock Purdy",
         "position": "QB",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9221",
@@ -568,10 +568,10 @@
     ],
     "bench": [
       {
-        "player_id": "11650",
-        "name": "Luke McCaffrey",
-        "position": "WR",
-        "team": "WAS",
+        "player_id": "11655",
+        "name": "Tyrone Tracy",
+        "position": "RB",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -600,7 +600,7 @@
         "name": "Jakobi Meyers",
         "position": "WR",
         "team": "LV",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7594",
@@ -614,7 +614,7 @@
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -649,7 +649,7 @@
         "name": "Drake London",
         "position": "WR",
         "team": "ATL",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "6786",
@@ -678,13 +678,6 @@
         "position": "K",
         "team": "IND",
         "injury_status": null
-      },
-      {
-        "player_id": "CLE",
-        "name": "Cleveland",
-        "position": "DEF",
-        "team": "CLE",
-        "injury_status": null
       }
     ],
     "bench": [
@@ -707,7 +700,7 @@
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12489",
@@ -742,6 +735,13 @@
         "name": "Jordan Mason",
         "position": "RB",
         "team": "MIN",
+        "injury_status": null
+      },
+      {
+        "player_id": "LAR",
+        "name": "Los Angeles",
+        "position": "DEF",
+        "team": "LAR",
         "injury_status": null
       }
     ]
@@ -849,7 +849,7 @@
         "name": "Nico Collins",
         "position": "WR",
         "team": "HOU",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7591",
@@ -970,7 +970,7 @@
         "name": "Christian Kirk",
         "position": "WR",
         "team": "HOU",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5844",
@@ -1080,6 +1080,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "12493",
+        "name": "Oronde Gadsden",
+        "position": "TE",
+        "team": "LAC",
+        "injury_status": null
+      },
+      {
         "player_id": "3163",
         "name": "Jared Goff",
         "position": "QB",
@@ -1092,20 +1099,6 @@
         "position": "RB",
         "team": "HOU",
         "injury_status": "PUP"
-      },
-      {
-        "player_id": "4037",
-        "name": "Chris Godwin",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": "Out"
-      },
-      {
-        "player_id": "5012",
-        "name": "Mark Andrews",
-        "position": "TE",
-        "team": "BAL",
-        "injury_status": null
       },
       {
         "player_id": "6783",
@@ -1127,6 +1120,13 @@
         "position": "RB",
         "team": "PIT",
         "injury_status": null
+      },
+      {
+        "player_id": "8167",
+        "name": "Christian Watson",
+        "position": "WR",
+        "team": "GB",
+        "injury_status": null
       }
     ]
   },
@@ -1140,7 +1140,7 @@
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "12481",
@@ -1336,10 +1336,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "12539",
-        "name": "Arian Smith",
+        "player_id": "12540",
+        "name": "Chimere Dike",
         "position": "WR",
-        "team": "NYJ",
+        "team": "TEN",
         "injury_status": null
       },
       {

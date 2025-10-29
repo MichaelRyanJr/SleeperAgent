@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T06:58:17.165225Z",
+  "generated_at": "2025-10-29T07:27:04.353901Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -344,14 +344,14 @@
       "points_for": 1019.7,
       "points_against": 946.08,
       "waiver": {
-        "position": 9,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
         "11564",
         "9226",
         "12512",
-        "11626",
+        "0",
         "7090",
         "12493",
         "12534",
@@ -362,7 +362,6 @@
         "11564",
         "11576",
         "11604",
-        "11626",
         "11631",
         "11632",
         "11792",
@@ -374,6 +373,7 @@
         "12534",
         "3163",
         "7090",
+        "8122",
         "9226",
         "9493",
         "MIN"
@@ -401,14 +401,6 @@
           "position": "RB",
           "team": "CLE",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "11626",
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -466,7 +458,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -518,11 +510,19 @@
           "keeper": false
         },
         {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "9493",
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ],
@@ -540,7 +540,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -564,7 +564,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         }
       ]
@@ -585,7 +585,7 @@
       "points_for": 1043.22,
       "points_against": 1029.96,
       "waiver": {
-        "position": 12,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -729,7 +729,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -771,7 +771,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -800,7 +800,7 @@
       "points_for": 911.66,
       "points_against": 877.6,
       "waiver": {
-        "position": 6,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -819,6 +819,7 @@
         "12517",
         "12530",
         "12533",
+        "12540",
         "4046",
         "5230",
         "6786",
@@ -830,8 +831,7 @@
         "9502",
         "9509",
         "9753",
-        "LAR",
-        "PIT"
+        "LAR"
       ],
       "starters": [
         {
@@ -917,6 +917,14 @@
           "keeper": false
         },
         {
+          "player_id": "12540",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "7049",
           "name": "Jauan Jennings",
           "position": "WR",
@@ -963,14 +971,6 @@
           "team": "SEA",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
-          "position": "DEF",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -1032,7 +1032,7 @@
       "points_for": 956.54,
       "points_against": 947.36,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -1070,7 +1070,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1094,7 +1094,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1152,7 +1152,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1202,7 +1202,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1210,7 +1210,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1226,7 +1226,7 @@
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1351,7 +1351,7 @@
           "name": "Luther Burden",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1377,7 +1377,7 @@
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1425,7 +1425,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1496,7 +1496,7 @@
       "points_for": 1048.24,
       "points_against": 898.22,
       "waiver": {
-        "position": 11,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1842,7 +1842,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1932,7 +1932,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1961,7 +1961,7 @@
       "points_for": 941.5,
       "points_against": 912.28,
       "waiver": {
-        "position": 10,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -2123,7 +2123,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -2157,7 +2157,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -2346,7 +2346,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -2393,7 +2393,7 @@
       "points_for": 1069.3,
       "points_against": 948.78,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
