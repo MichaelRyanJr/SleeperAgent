@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T10:53:38.659265Z",
+  "generated_at": "2025-10-29T11:20:54.338866Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -589,15 +589,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "2307",
+        "5849",
         "7588",
         "5850",
         "7526",
         "10229",
-        "0",
-        "7021",
+        "8130",
+        "12526",
         "8259",
-        "PHI"
+        "HOU"
       ],
       "players_current": [
         "10229",
@@ -619,12 +619,12 @@
       ],
       "starters": [
         {
-          "player_id": "2307",
-          "name": "Marcus Mariota",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "7588",
@@ -659,9 +659,17 @@
           "keeper": true
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
           "team": "CAR",
           "injury_status": null,
           "keeper": false
@@ -675,10 +683,10 @@
           "keeper": false
         },
         {
-          "player_id": "PHI",
-          "name": "Philadelphia",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "PHI",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         }
@@ -693,10 +701,10 @@
           "keeper": true
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
+          "player_id": "2307",
+          "name": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
@@ -717,12 +725,12 @@
           "keeper": false
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8126",
@@ -733,39 +741,15 @@
           "keeper": false
         },
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "PHI",
+          "name": "Philadelphia",
           "position": "DEF",
-          "team": "HOU",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true
-        },
         {
           "player_id": "5849",
           "name": "Kyler Murray",
@@ -775,11 +759,27 @@
           "keeper": true
         },
         {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "8130",
           "name": "Trey McBride",
           "position": "TE",
           "team": "ARI",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
