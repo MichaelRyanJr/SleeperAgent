@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T19:21:24.093096Z",
+  "generated_at": "2025-10-29T19:39:36.112194Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -257,7 +257,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -323,7 +323,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
@@ -350,11 +350,11 @@
       "starters_current": [
         "11564",
         "9226",
-        "12512",
-        "0",
-        "7090",
+        "8122",
+        "9493",
+        "11631",
         "12493",
-        "12534",
+        "11604",
         "11792",
         "MIN"
       ],
@@ -396,20 +396,28 @@
           "keeper": true
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": "Out",
+          "team": "ARI",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "12493",
@@ -420,12 +428,12 @@
           "keeper": false
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "11792",
@@ -452,22 +460,6 @@
           "team": "NYJ",
           "injury_status": "IR",
           "keeper": false
-        },
-        {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": true
         },
         {
           "player_id": "11632",
@@ -502,6 +494,22 @@
           "keeper": false
         },
         {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -510,20 +518,12 @@
           "keeper": false
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
-          "position": "RB",
-          "team": "ARI",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true
         }
       ],
       "keepers": [
@@ -536,10 +536,10 @@
           "keeper": true
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
           "injury_status": "Questionable",
           "keeper": true
         },
@@ -552,19 +552,19 @@
           "keeper": true
         },
         {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
           "team": "NYG",
           "injury_status": "IR",
-          "keeper": true
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
           "keeper": true
         }
       ]
