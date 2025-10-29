@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T12:52:28.628573Z",
+  "generated_at": "2025-10-29T13:36:22.374249Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -566,9 +566,9 @@
       "starters_current": [
         "6797",
         "6813",
-        "7021",
+        "11655",
         "4983",
-        "3200",
+        "9493",
         "7553",
         "8126",
         "3678",
@@ -610,10 +610,10 @@
           "keeper": false
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
           "position": "RB",
-          "team": "CAR",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -626,11 +626,11 @@
           "keeper": false
         },
         {
-          "player_id": "3200",
-          "name": "Sterling Shepard",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "TB",
-          "injury_status": null,
+          "team": "LAR",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -668,18 +668,18 @@
       ],
       "bench": [
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
           "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
+          "player_id": "3200",
+          "name": "Sterling Shepard",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -708,19 +708,19 @@
           "keeper": false
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
           "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -749,10 +749,10 @@
         "4892",
         "8136",
         "7588",
-        "11620",
-        "1479",
+        "7569",
+        "7547",
         "4217",
-        "11624",
+        "11620",
         "8259",
         "TB"
       ],
@@ -801,18 +801,18 @@
           "keeper": false
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
+          "team": "HOU",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "LAC",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -825,10 +825,10 @@
           "keeper": false
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "KC",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -851,11 +851,27 @@
       ],
       "bench": [
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
           "team": "LAC",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -872,22 +888,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
