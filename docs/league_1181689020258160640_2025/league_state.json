@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T16:32:52.968358Z",
+  "generated_at": "2025-10-29T16:58:55.175622Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1965,15 +1965,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6904",
+        "11560",
         "7611",
         "6790",
         "12499",
-        "5185",
+        "8112",
         "8110",
         "9508",
         "1945",
-        "ATL"
+        "DEN"
       ],
       "players_current": [
         "11560",
@@ -1997,10 +1997,10 @@
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "PHI",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2029,12 +2029,12 @@
           "keeper": false
         },
         {
-          "player_id": "5185",
-          "name": "Allen Lazard",
+          "player_id": "8112",
+          "name": "Drake London",
           "position": "WR",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
+          "team": "ATL",
+          "injury_status": "Questionable",
+          "keeper": true
         },
         {
           "player_id": "8110",
@@ -2061,23 +2061,15 @@
           "keeper": false
         },
         {
-          "player_id": "ATL",
-          "name": "Atlanta",
+          "player_id": "DEN",
+          "name": "Denver",
           "position": "DEF",
-          "team": "ATL",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11589",
           "name": "Trey Benson",
@@ -2103,11 +2095,27 @@
           "keeper": false
         },
         {
+          "player_id": "5185",
+          "name": "Allen Lazard",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5859",
           "name": "A.J. Brown",
           "position": "WR",
           "team": "PHI",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2119,14 +2127,6 @@
           "keeper": false
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
           "player_id": "8146",
           "name": "Garrett Wilson",
           "position": "WR",
@@ -2135,29 +2135,29 @@
           "keeper": true
         },
         {
-          "player_id": "DEN",
-          "name": "Denver",
+          "player_id": "ATL",
+          "name": "Atlanta",
           "position": "DEF",
-          "team": "DEN",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "8112",
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
           "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
           "keeper": true
         },
         {

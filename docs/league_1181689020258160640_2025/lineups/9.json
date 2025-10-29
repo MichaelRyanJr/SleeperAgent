@@ -1178,10 +1178,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
+        "player_id": "11560",
+        "name": "Caleb Williams",
         "position": "QB",
-        "team": "PHI",
+        "team": "CHI",
         "injury_status": null
       },
       {
@@ -1206,11 +1206,11 @@
         "injury_status": null
       },
       {
-        "player_id": "5185",
-        "name": "Allen Lazard",
+        "player_id": "8112",
+        "name": "Drake London",
         "position": "WR",
-        "team": "NYJ",
-        "injury_status": null
+        "team": "ATL",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8110",
@@ -1234,21 +1234,14 @@
         "injury_status": null
       },
       {
-        "player_id": "ATL",
-        "name": "Atlanta",
+        "player_id": "DEN",
+        "name": "Denver",
         "position": "DEF",
-        "team": "ATL",
+        "team": "DEN",
         "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "11560",
-        "name": "Caleb Williams",
-        "position": "QB",
-        "team": "CHI",
-        "injury_status": null
-      },
       {
         "player_id": "11589",
         "name": "Trey Benson",
@@ -1271,11 +1264,25 @@
         "injury_status": null
       },
       {
+        "player_id": "5185",
+        "name": "Allen Lazard",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": null
+      },
+      {
         "player_id": "5859",
         "name": "A.J. Brown",
         "position": "WR",
         "team": "PHI",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "6904",
+        "name": "Jalen Hurts",
+        "position": "QB",
+        "team": "PHI",
+        "injury_status": null
       },
       {
         "player_id": "7607",
@@ -1285,13 +1292,6 @@
         "injury_status": null
       },
       {
-        "player_id": "8112",
-        "name": "Drake London",
-        "position": "WR",
-        "team": "ATL",
-        "injury_status": "Questionable"
-      },
-      {
         "player_id": "8146",
         "name": "Garrett Wilson",
         "position": "WR",
@@ -1299,10 +1299,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "DEN",
-        "name": "Denver",
+        "player_id": "ATL",
+        "name": "Atlanta",
         "position": "DEF",
-        "team": "DEN",
+        "team": "ATL",
         "injury_status": null
       }
     ]
