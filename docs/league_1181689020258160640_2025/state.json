@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T21:25:00.170690Z",
+  "generated_at": "2025-10-29T21:40:35.061943Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1268,12 +1268,12 @@
       },
       "starters_current": [
         "6768",
-        "4866",
         "9224",
+        "5995",
         "11635",
         "7571",
         "5844",
-        "12519",
+        "5947",
         "6650",
         "CHI"
       ],
@@ -1307,20 +1307,20 @@
           "keeper": false
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "9224",
           "name": "Chase Brown",
           "position": "RB",
           "team": "CIN",
           "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "5995",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11635",
@@ -1347,10 +1347,10 @@
           "keeper": false
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "CHI",
+          "team": "LV",
           "injury_status": "Questionable",
           "keeper": false
         },
@@ -1377,7 +1377,7 @@
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1394,6 +1394,14 @@
           "position": "RB",
           "team": "CLE",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1421,19 +1429,11 @@
           "keeper": true
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "5995",
-          "name": "Justice Hill",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
+          "team": "PHI",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1501,14 +1501,14 @@
       },
       "starters_current": [
         "3294",
-        "4035",
-        "4988",
+        "9221",
+        "12527",
         "8137",
-        "1479",
-        "3214",
         "6819",
+        "3214",
+        "1479",
         "11533",
-        "BUF"
+        "DET"
       ],
       "players_current": [
         "11533",
@@ -1522,13 +1522,13 @@
         "4454",
         "4892",
         "4988",
+        "5857",
         "6803",
         "6819",
         "8137",
         "9221",
         "BUF",
-        "DET",
-        "SEA"
+        "DET"
       ],
       "starters": [
         {
@@ -1540,18 +1540,18 @@
           "keeper": false
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
           "position": "RB",
-          "team": "NO",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true
         },
         {
-          "player_id": "4988",
-          "name": "Nick Chubb",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
           "position": "RB",
-          "team": "HOU",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         },
@@ -1564,10 +1564,10 @@
           "keeper": false
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "LAC",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1580,10 +1580,10 @@
           "keeper": false
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -1596,10 +1596,10 @@
           "keeper": true
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo",
+          "player_id": "DET",
+          "name": "Detroit",
           "position": "DEF",
-          "team": "BUF",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         }
@@ -1614,19 +1614,19 @@
           "keeper": true
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "position": "RB",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
           "team": "MIA",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1646,6 +1646,22 @@
           "keeper": true
         },
         {
+          "player_id": "4988",
+          "name": "Nick Chubb",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5857",
+          "name": "Noah Fant",
+          "position": "TE",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "6803",
           "name": "Brandon Aiyuk",
           "position": "WR",
@@ -1654,6 +1670,16 @@
           "keeper": false
         },
         {
+          "player_id": "BUF",
+          "name": "Buffalo",
+          "position": "DEF",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        }
+      ],
+      "keepers": [
+        {
           "player_id": "9221",
           "name": "Jahmyr Gibbs",
           "position": "RB",
@@ -1661,24 +1687,6 @@
           "injury_status": null,
           "keeper": true
         },
-        {
-          "player_id": "DET",
-          "name": "Detroit",
-          "position": "DEF",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "SEA",
-          "name": "Seattle",
-          "position": "DEF",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        }
-      ],
-      "keepers": [
         {
           "player_id": "11533",
           "name": "Brandon Aubrey",
@@ -1700,14 +1708,6 @@
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
           "injury_status": null,
           "keeper": true
         }
@@ -1733,11 +1733,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "19",
+        "421",
         "7594",
         "8138",
-        "9754",
-        "7525",
+        "2133",
+        "9997",
         "10236",
         "11647",
         "3451",
@@ -1764,11 +1764,11 @@
       ],
       "starters": [
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "CIN",
-          "injury_status": "Questionable",
+          "team": "LAR",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1788,18 +1788,18 @@
           "keeper": true
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "LAC",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "PHI",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1846,11 +1846,11 @@
           "keeper": true
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
+          "player_id": "19",
+          "name": "Joe Flacco",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1878,10 +1878,10 @@
           "keeper": false
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -1894,10 +1894,10 @@
           "keeper": false
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "9754",
+          "name": "Quentin Johnston",
           "position": "WR",
-          "team": "BAL",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         }
