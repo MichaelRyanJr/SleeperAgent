@@ -787,11 +787,11 @@
         "injury_status": null
       },
       {
-        "player_id": "11620",
-        "name": "Rome Odunze",
+        "player_id": "1479",
+        "name": "Keenan Allen",
         "position": "WR",
-        "team": "CHI",
-        "injury_status": "Questionable"
+        "team": "LAC",
+        "injury_status": null
       },
       {
         "player_id": "8259",
@@ -801,14 +801,21 @@
         "injury_status": null
       },
       {
-        "player_id": "TB",
-        "name": "Tampa Bay",
+        "player_id": "DET",
+        "name": "Detroit",
         "position": "DEF",
-        "team": "TB",
+        "team": "DET",
         "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "11620",
+        "name": "Rome Odunze",
+        "position": "WR",
+        "team": "CHI",
+        "injury_status": "Questionable"
+      },
       {
         "player_id": "11624",
         "name": "Xavier Worthy",
@@ -822,13 +829,6 @@
         "position": "RB",
         "team": "LAC",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "1479",
-        "name": "Keenan Allen",
-        "position": "WR",
-        "team": "LAC",
-        "injury_status": null
       },
       {
         "player_id": "3214",
@@ -1392,10 +1392,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12501",
-        "name": "Matthew Golden",
+        "player_id": "4454",
+        "name": "Kendrick Bourne",
         "position": "WR",
-        "team": "GB",
+        "team": "SF",
         "injury_status": null
       },
       {
@@ -1425,6 +1425,13 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
+      },
+      {
+        "player_id": "JAX",
+        "name": "Jacksonville",
+        "position": "DEF",
+        "team": "JAX",
+        "injury_status": null
       }
     ],
     "bench": [
@@ -1434,6 +1441,13 @@
         "position": "WR",
         "team": "NYG",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "12501",
+        "name": "Matthew Golden",
+        "position": "WR",
+        "team": "GB",
+        "injury_status": null
       },
       {
         "player_id": "2505",
@@ -1447,13 +1461,6 @@
         "name": "Samaje Perine",
         "position": "RB",
         "team": "CIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "4454",
-        "name": "Kendrick Bourne",
-        "position": "WR",
-        "team": "SF",
         "injury_status": null
       },
       {
@@ -1482,13 +1489,6 @@
         "name": "Aaron Rodgers",
         "position": "QB",
         "team": "PIT",
-        "injury_status": null
-      },
-      {
-        "player_id": "JAX",
-        "name": "Jacksonville",
-        "position": "DEF",
-        "team": "JAX",
         "injury_status": null
       }
     ]

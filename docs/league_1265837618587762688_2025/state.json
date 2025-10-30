@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-30T23:21:16.890175Z",
+  "generated_at": "2025-10-30T23:39:23.345397Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -752,9 +752,9 @@
         "7569",
         "7547",
         "4217",
-        "11620",
+        "1479",
         "8259",
-        "TB"
+        "DET"
       ],
       "players_current": [
         "11620",
@@ -773,7 +773,7 @@
         "8205",
         "8259",
         "9504",
-        "TB"
+        "DET"
       ],
       "starters": [
         {
@@ -825,11 +825,11 @@
           "keeper": false
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "CHI",
-          "injury_status": "Questionable",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -841,15 +841,23 @@
           "keeper": false
         },
         {
-          "player_id": "TB",
-          "name": "Tampa Bay",
+          "player_id": "DET",
+          "name": "Detroit",
           "position": "DEF",
-          "team": "TB",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
         {
           "player_id": "11624",
           "name": "Xavier Worthy",
@@ -864,14 +872,6 @@
           "position": "RB",
           "team": "LAC",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -2041,12 +2041,12 @@
         "4046",
         "12527",
         "5967",
-        "12501",
+        "4454",
         "5846",
         "9484",
         "6130",
         "11533",
-        "0"
+        "JAX"
       ],
       "players_current": [
         "11533",
@@ -2093,10 +2093,10 @@
           "keeper": false
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
           "position": "WR",
-          "team": "GB",
+          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
@@ -2131,6 +2131,14 @@
           "team": "DAL",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -2140,6 +2148,14 @@
           "position": "WR",
           "team": "NYG",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2155,14 +2171,6 @@
           "name": "Samaje Perine",
           "position": "RB",
           "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
@@ -2195,14 +2203,6 @@
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "JAX",
-          "name": "Jacksonville",
-          "position": "DEF",
-          "team": "JAX",
           "injury_status": null,
           "keeper": false
         }
