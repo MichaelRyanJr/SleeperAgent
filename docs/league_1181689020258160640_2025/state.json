@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-30T14:47:30.738990Z",
+  "generated_at": "2025-10-30T15:27:40.814727Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2640,7 +2640,7 @@
       "starters_current": [
         "5870",
         "3198",
-        "8155",
+        "7567",
         "5846",
         "11624",
         "4217",
@@ -2660,8 +2660,8 @@
         "4217",
         "5846",
         "5870",
-        "650",
         "6804",
+        "7567",
         "8134",
         "8136",
         "8155",
@@ -2686,12 +2686,12 @@
           "keeper": false
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "7567",
+          "name": "Kenneth Gainwell",
           "position": "RB",
-          "team": "NYJ",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "5846",
@@ -2776,14 +2776,6 @@
           "keeper": false
         },
         {
-          "player_id": "650",
-          "name": "Nick Folk",
-          "position": "K",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6804",
           "name": "Jordan Love",
           "position": "QB",
@@ -2808,6 +2800,14 @@
           "keeper": false
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "TB",
           "name": "Tampa Bay",
           "position": "DEF",
@@ -2817,14 +2817,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "4217",
           "name": "George Kittle",
@@ -2854,6 +2846,14 @@
           "name": "Khalil Shakir",
           "position": "WR",
           "team": "BUF",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true
         }
