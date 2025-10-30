@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-29T23:53:30.014484Z",
+  "generated_at": "2025-10-30T01:56:34.276093Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -99,9 +99,9 @@
         "budget_used": 0
       },
       "starters_current": [
-        "0",
+        "4984",
         "8228",
-        "8408",
+        "11655",
         "9488",
         "2449",
         "10859",
@@ -131,6 +131,14 @@
       ],
       "starters": [
         {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "8228",
           "name": "Jaylen Warren",
           "position": "RB",
@@ -139,12 +147,12 @@
           "keeper": true
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
           "position": "RB",
-          "team": "MIN",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "9488",
@@ -197,14 +205,6 @@
       ],
       "bench": [
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
@@ -237,14 +237,6 @@
           "keeper": false
         },
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "5022",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -269,6 +261,14 @@
           "keeper": false
         },
         {
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "9494",
           "name": "Marvin Mims",
           "position": "WR",
@@ -279,10 +279,26 @@
       ],
       "keepers": [
         {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "8228",
           "name": "Jaylen Warren",
           "position": "RB",
           "team": "PIT",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": true
         },
@@ -299,22 +315,6 @@
           "name": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
           "injury_status": null,
           "keeper": true
         },
