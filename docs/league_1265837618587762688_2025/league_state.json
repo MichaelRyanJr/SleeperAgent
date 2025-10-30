@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-30T22:53:29.179511Z",
+  "generated_at": "2025-10-30T23:21:16.890175Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -299,7 +299,7 @@
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2039,19 +2039,18 @@
       },
       "starters_current": [
         "4046",
-        "8155",
+        "12527",
         "5967",
-        "5846",
-        "7525",
-        "9484",
         "12501",
+        "5846",
+        "9484",
+        "6130",
         "11533",
-        "BUF"
+        "0"
       ],
       "players_current": [
         "11533",
         "11632",
-        "11783",
         "12501",
         "12527",
         "2505",
@@ -2060,12 +2059,13 @@
         "4454",
         "5846",
         "5967",
+        "6130",
         "6904",
         "7525",
         "8155",
         "9484",
         "96",
-        "BUF"
+        "JAX"
       ],
       "starters": [
         {
@@ -2077,10 +2077,10 @@
           "keeper": false
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
           "position": "RB",
-          "team": "NYJ",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         },
@@ -2093,18 +2093,18 @@
           "keeper": false
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "PIT",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "5846",
+          "name": "DK Metcalf",
           "position": "WR",
-          "team": "PHI",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -2117,10 +2117,10 @@
           "keeper": false
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -2129,14 +2129,6 @@
           "name": "Brandon Aubrey",
           "position": "K",
           "team": "DAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "BUF",
-          "name": "Buffalo",
-          "position": "DEF",
-          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
@@ -2148,22 +2140,6 @@
           "position": "WR",
           "team": "NYG",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "11783",
-          "name": "Ryan Flournoy",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "position": "RB",
-          "team": "LV",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -2199,10 +2175,34 @@
           "keeper": false
         },
         {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "96",
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         }
