@@ -1313,17 +1313,17 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
+        "player_id": "8183",
+        "name": "Brock Purdy",
         "position": "QB",
-        "team": "PIT",
-        "injury_status": null
+        "team": "SF",
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "8143",
-        "name": "Jerome Ford",
+        "player_id": "4199",
+        "name": "Aaron Jones",
         "position": "RB",
-        "team": "CLE",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -1341,10 +1341,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9756",
-        "name": "Jordan Addison",
+        "player_id": "7547",
+        "name": "Amon-Ra St. Brown",
         "position": "WR",
-        "team": "MIN",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -1362,10 +1362,10 @@
         "injury_status": null
       },
       {
-        "player_id": "7839",
-        "name": "Evan McPherson",
+        "player_id": "11539",
+        "name": "Jake Bates",
         "position": "K",
-        "team": "CIN",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -1377,13 +1377,6 @@
       }
     ],
     "bench": [
-      {
-        "player_id": "11539",
-        "name": "Jake Bates",
-        "position": "K",
-        "team": "DET",
-        "injury_status": null
-      },
       {
         "player_id": "11637",
         "name": "Keon Coleman",
@@ -1399,17 +1392,17 @@
         "injury_status": null
       },
       {
-        "player_id": "4199",
-        "name": "Aaron Jones",
-        "position": "RB",
-        "team": "MIN",
+        "player_id": "7839",
+        "name": "Evan McPherson",
+        "position": "K",
+        "team": "CIN",
         "injury_status": null
       },
       {
-        "player_id": "7547",
-        "name": "Amon-Ra St. Brown",
-        "position": "WR",
-        "team": "DET",
+        "player_id": "8143",
+        "name": "Jerome Ford",
+        "position": "RB",
+        "team": "CLE",
         "injury_status": null
       },
       {
@@ -1420,11 +1413,18 @@
         "injury_status": null
       },
       {
-        "player_id": "8183",
-        "name": "Brock Purdy",
+        "player_id": "96",
+        "name": "Aaron Rodgers",
         "position": "QB",
-        "team": "SF",
-        "injury_status": "Questionable"
+        "team": "PIT",
+        "injury_status": null
+      },
+      {
+        "player_id": "9756",
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "injury_status": null
       }
     ]
   },

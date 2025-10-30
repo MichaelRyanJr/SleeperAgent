@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-30T14:24:49.932426Z",
+  "generated_at": "2025-10-30T14:47:30.738990Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2190,14 +2190,14 @@
         "budget_used": 0
       },
       "starters_current": [
-        "96",
-        "8143",
+        "8183",
+        "4199",
         "5967",
         "5872",
-        "9756",
+        "7547",
         "7553",
         "6794",
-        "7839",
+        "11539",
         "IND"
       ],
       "players_current": [
@@ -2220,18 +2220,18 @@
       ],
       "starters": [
         {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
+          "player_id": "8183",
+          "name": "Brock Purdy",
           "position": "QB",
-          "team": "PIT",
-          "injury_status": null,
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "8143",
-          "name": "Jerome Ford",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "CLE",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2252,12 +2252,12 @@
           "keeper": false
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "MIN",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "7553",
@@ -2276,10 +2276,10 @@
           "keeper": false
         },
         {
-          "player_id": "7839",
-          "name": "Evan McPherson",
+          "player_id": "11539",
+          "name": "Jake Bates",
           "position": "K",
-          "team": "CIN",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -2293,14 +2293,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11539",
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11637",
           "name": "Keon Coleman",
@@ -2318,20 +2310,20 @@
           "keeper": false
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
+          "player_id": "8143",
+          "name": "Jerome Ford",
+          "position": "RB",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8148",
@@ -2342,29 +2334,37 @@
           "keeper": true
         },
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "SF",
-          "injury_status": "Questionable",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
         {
           "player_id": "7547",
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "7553",
+          "name": "Kyle Pitts",
+          "position": "TE",
+          "team": "ATL",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
