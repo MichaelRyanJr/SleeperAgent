@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-31T16:56:43.998867Z",
+  "generated_at": "2025-10-31T17:24:54.436257Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -809,7 +809,7 @@
         "12533",
         "6786",
         "11620",
-        "12517",
+        "7002",
         "6801",
         "5230",
         "LAR"
@@ -824,6 +824,7 @@
         "5230",
         "6786",
         "6801",
+        "7002",
         "7049",
         "8111",
         "8205",
@@ -875,10 +876,10 @@
           "keeper": true
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
           "position": "TE",
-          "team": "CHI",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -909,11 +910,19 @@
       ],
       "bench": [
         {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false
         },
         {
