@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-31T09:44:06.551321Z",
+  "generated_at": "2025-10-31T09:56:24.365433Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -344,7 +344,7 @@
       "points_for": 1019.7,
       "points_against": 946.08,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -585,7 +585,7 @@
       "points_for": 1043.22,
       "points_against": 1029.96,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -800,7 +800,7 @@
       "points_for": 911.66,
       "points_against": 877.6,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1496,7 +1496,7 @@
       "points_for": 1048.24,
       "points_against": 898.22,
       "waiver": {
-        "position": 9,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1522,12 +1522,12 @@
         "4454",
         "4892",
         "4988",
+        "5001",
         "5857",
         "6803",
         "6819",
         "8137",
         "9221",
-        "BUF",
         "DET"
       ],
       "starters": [
@@ -1654,6 +1654,14 @@
           "keeper": false
         },
         {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "5857",
           "name": "Noah Fant",
           "position": "TE",
@@ -1667,14 +1675,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "PUP",
-          "keeper": false
-        },
-        {
-          "player_id": "BUF",
-          "name": "Buffalo",
-          "position": "DEF",
-          "team": "BUF",
-          "injury_status": null,
           "keeper": false
         }
       ],
