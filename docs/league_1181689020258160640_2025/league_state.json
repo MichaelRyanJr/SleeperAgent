@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-31T18:56:19.222680Z",
+  "generated_at": "2025-10-31T19:20:26.478838Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -721,7 +721,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -872,7 +872,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -954,7 +954,7 @@
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -996,7 +996,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1004,7 +1004,7 @@
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true
         },
         {
@@ -1410,7 +1410,7 @@
           "name": "Luther Burden",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1975,12 +1975,12 @@
       },
       "starters_current": [
         "11560",
-        "7611",
-        "6790",
+        "6130",
+        "9508",
         "12499",
         "8112",
         "8110",
-        "9508",
+        "7090",
         "1945",
         "DEN"
       ],
@@ -1991,17 +1991,17 @@
         "1945",
         "4171",
         "5012",
-        "5185",
         "5859",
+        "6130",
         "6790",
         "6904",
+        "7090",
         "7607",
         "7611",
         "8110",
         "8112",
         "8146",
         "9508",
-        "ATL",
         "DEN"
       ],
       "starters": [
@@ -2014,19 +2014,19 @@
           "keeper": false
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
-          "team": "NE",
-          "injury_status": "Out",
+          "team": "NYG",
+          "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
+          "team": "TEN",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2042,7 +2042,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -2054,10 +2054,10 @@
           "keeper": true
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -2104,18 +2104,18 @@
           "keeper": false
         },
         {
-          "player_id": "5185",
-          "name": "Allen Lazard",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5859",
           "name": "A.J. Brown",
           "position": "WR",
           "team": "PHI",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
           "injury_status": "Out",
           "keeper": false
         },
@@ -2136,20 +2136,20 @@
           "keeper": false
         },
         {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "8146",
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
           "injury_status": "Out",
           "keeper": true
-        },
-        {
-          "player_id": "ATL",
-          "name": "Atlanta",
-          "position": "DEF",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2158,7 +2158,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -2273,7 +2273,7 @@
           "name": "Kyle Pitts",
           "position": "TE",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -2373,7 +2373,7 @@
           "name": "Kyle Pitts",
           "position": "TE",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -2739,7 +2739,7 @@
           "name": "Matt Prater",
           "position": "K",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
