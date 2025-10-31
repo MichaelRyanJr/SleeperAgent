@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-31T01:53:10.660252Z",
+  "generated_at": "2025-10-31T03:14:21.351755Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1675,20 +1675,20 @@
       },
       "starters_current": [
         "4881",
-        "12481",
+        "7611",
         "8138",
         "6794",
         "8137",
         "8110",
         "9997",
-        "6650",
-        "PHI"
+        "1433",
+        "CHI"
       ],
       "players_current": [
         "11560",
-        "11562",
         "12481",
         "12529",
+        "1433",
         "4881",
         "6650",
         "6768",
@@ -1700,6 +1700,7 @@
         "8138",
         "9754",
         "9997",
+        "CHI",
         "PHI"
       ],
       "starters": [
@@ -1712,11 +1713,11 @@
           "keeper": false
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
-          "team": "NYG",
-          "injury_status": "IR",
+          "team": "NE",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1760,18 +1761,18 @@
           "keeper": false
         },
         {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
+          "player_id": "1433",
+          "name": "Brandon McManus",
           "position": "K",
-          "team": "TB",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "PHI",
-          "name": "Philadelphia",
+          "player_id": "CHI",
+          "name": "Chicago",
           "position": "DEF",
-          "team": "PHI",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         }
@@ -1786,11 +1787,11 @@
           "keeper": false
         },
         {
-          "player_id": "11562",
-          "name": "Spencer Rattler",
-          "position": "QB",
-          "team": "NO",
-          "injury_status": null,
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -1798,6 +1799,14 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -1818,18 +1827,18 @@
           "keeper": false
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "9754",
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "PHI",
+          "name": "Philadelphia",
+          "position": "DEF",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         }
@@ -3083,7 +3092,7 @@
       "week": 9,
       "roster_id": 2,
       "opponent_roster_id": 6,
-      "points": 2.0,
+      "points": 4.0,
       "result": "W"
     },
     {
@@ -3104,7 +3113,7 @@
       "week": 9,
       "roster_id": 8,
       "opponent_roster_id": 3,
-      "points": 12.7,
+      "points": 13.6,
       "result": "W"
     },
     {
@@ -3118,7 +3127,7 @@
       "week": 9,
       "roster_id": 12,
       "opponent_roster_id": 4,
-      "points": 3.0,
+      "points": 12.6,
       "result": "W"
     },
     {
@@ -3132,7 +3141,7 @@
       "week": 9,
       "roster_id": 9,
       "opponent_roster_id": 7,
-      "points": 14.26,
+      "points": 34.46,
       "result": "W"
     },
     {
