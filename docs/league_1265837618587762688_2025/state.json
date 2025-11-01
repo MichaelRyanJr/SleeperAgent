@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-01T16:55:04.618552Z",
+  "generated_at": "2025-11-01T17:17:33.679637Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1889,15 +1889,17 @@
         "2133",
         "11631",
         "12518",
-        "0",
+        "11620",
         "4227",
         "NE"
       ],
       "players_current": [
+        "11589",
         "11610",
         "11620",
         "11631",
         "12455",
+        "12476",
         "12512",
         "12518",
         "12540",
@@ -1907,8 +1909,7 @@
         "7591",
         "9508",
         "9509",
-        "NE",
-        "PIT"
+        "NE"
       ],
       "starters": [
         {
@@ -1960,6 +1961,14 @@
           "keeper": false
         },
         {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4227",
           "name": "Harrison Butker",
           "position": "K",
@@ -1978,6 +1987,14 @@
       ],
       "bench": [
         {
+          "player_id": "11589",
+          "name": "Trey Benson",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": "IR",
+          "keeper": false
+        },
+        {
           "player_id": "11610",
           "name": "Malik Washington",
           "position": "WR",
@@ -1986,18 +2003,18 @@
           "keeper": false
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
           "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12476",
+          "name": "Devin Neal",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -2022,14 +2039,6 @@
           "name": "Justin Fields",
           "position": "QB",
           "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
-          "position": "DEF",
-          "team": "PIT",
           "injury_status": null,
           "keeper": false
         }
