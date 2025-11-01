@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-01T05:53:47.774300Z",
+  "generated_at": "2025-11-01T06:31:54.633299Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -757,18 +757,19 @@
         "DET"
       ],
       "players_current": [
-        "11620",
         "11624",
         "12507",
         "1479",
+        "19",
         "3214",
         "4217",
         "4892",
+        "6806",
         "7049",
         "7547",
         "7569",
         "7588",
-        "7591",
+        "8122",
         "8136",
         "8205",
         "8259",
@@ -851,14 +852,6 @@
       ],
       "bench": [
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "position": "WR",
@@ -875,10 +868,26 @@
           "keeper": false
         },
         {
+          "player_id": "19",
+          "name": "Joe Flacco",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "3214",
           "name": "Hunter Henry",
           "position": "TE",
           "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -891,10 +900,10 @@
           "keeper": false
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "NYJ",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -1889,23 +1898,22 @@
         "2133",
         "11631",
         "12518",
-        "6806",
+        "0",
         "4227",
         "NE"
       ],
       "players_current": [
         "11610",
+        "11620",
         "11631",
         "12455",
         "12512",
         "12518",
         "12540",
-        "19",
         "2133",
         "421",
         "4227",
-        "6806",
-        "8122",
+        "7591",
         "9508",
         "9509",
         "NE",
@@ -1961,14 +1969,6 @@
           "keeper": false
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4227",
           "name": "Harrison Butker",
           "position": "K",
@@ -1991,6 +1991,14 @@
           "name": "Malik Washington",
           "position": "WR",
           "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2019,18 +2027,10 @@
           "keeper": false
         },
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
+          "player_id": "7591",
+          "name": "Justin Fields",
           "position": "QB",
-          "team": "CIN",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
-          "position": "RB",
-          "team": "ARI",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
