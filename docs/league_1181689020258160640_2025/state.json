@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-04T17:20:05.007388Z",
+  "generated_at": "2025-11-04T17:38:49.699823Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1049,9 +1049,9 @@
         "8150",
         "7543",
         "7569",
-        "7564",
+        "11628",
         "12518",
-        "9484",
+        "5892",
         "5189",
         "SF"
       ],
@@ -1107,10 +1107,10 @@
           "keeper": true
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
-          "team": "CIN",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -1123,11 +1123,11 @@
           "keeper": false
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": "Out",
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1148,14 +1148,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1189,12 +1181,12 @@
           "keeper": false
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8151",
@@ -1202,6 +1194,14 @@
           "position": "RB",
           "team": "SEA",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": "Out",
           "keeper": true
         }
       ],
@@ -1223,11 +1223,11 @@
           "keeper": true
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": "Out",
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1239,19 +1239,19 @@
           "keeper": true
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
           "team": "SEA",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
@@ -1974,13 +1974,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11560",
+        "6904",
         "6130",
-        "9508",
-        "12499",
+        "6790",
+        "5859",
         "8112",
-        "8110",
-        "7090",
+        "5012",
+        "8146",
         "1945",
         "DEN"
       ],
@@ -2006,10 +2006,10 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
           "position": "QB",
-          "team": "CHI",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2022,19 +2022,19 @@
           "keeper": false
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
+          "team": "CHI",
+          "injury_status": "Out",
           "keeper": false
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
+          "team": "PHI",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2046,20 +2046,20 @@
           "keeper": true
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
+          "player_id": "5012",
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "ATL",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": true
         },
         {
           "player_id": "1945",
@@ -2080,11 +2080,27 @@
       ],
       "bench": [
         {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11589",
           "name": "Trey Benson",
           "position": "RB",
           "team": "ARI",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2096,34 +2112,10 @@
           "keeper": false
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -2144,12 +2136,20 @@
           "keeper": false
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Out",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2162,19 +2162,19 @@
           "keeper": true
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "8146",
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
           "injury_status": "Out",
+          "keeper": true
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
           "keeper": true
         }
       ]
