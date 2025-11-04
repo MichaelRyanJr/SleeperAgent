@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-04T05:56:13.326340Z",
+  "generated_at": "2025-11-04T06:39:51.983543Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -806,10 +806,10 @@
       "starters_current": [
         "4046",
         "9509",
-        "12533",
+        "9753",
         "7049",
         "11620",
-        "7002",
+        "12517",
         "8676",
         "5230",
         "LAR"
@@ -852,12 +852,12 @@
           "keeper": false
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "WAS",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "7049",
@@ -876,10 +876,10 @@
           "keeper": true
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
+          "player_id": "12517",
+          "name": "Colston Loveland",
           "position": "TE",
-          "team": "NO",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -910,19 +910,19 @@
       ],
       "bench": [
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
           "team": "JAX",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -950,6 +950,14 @@
           "keeper": false
         },
         {
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8111",
           "name": "Cade Otton",
           "position": "TE",
@@ -972,7 +980,9 @@
           "team": "HOU",
           "injury_status": "PUP",
           "keeper": true
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "9753",
           "name": "Zach Charbonnet",
@@ -980,9 +990,7 @@
           "team": "SEA",
           "injury_status": null,
           "keeper": true
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "11620",
           "name": "Rome Odunze",
@@ -1013,14 +1021,6 @@
           "position": "WR",
           "team": "HOU",
           "injury_status": "PUP",
-          "keeper": true
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
           "keeper": true
         }
       ]
