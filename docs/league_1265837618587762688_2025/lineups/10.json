@@ -12,11 +12,11 @@
         "injury_status": null
       },
       {
-        "player_id": "11647",
-        "name": "Kimani Vidal",
+        "player_id": "4866",
+        "name": "Saquon Barkley",
         "position": "RB",
-        "team": "LAC",
-        "injury_status": null
+        "team": "PHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8150",
@@ -26,11 +26,11 @@
         "injury_status": null
       },
       {
-        "player_id": "9756",
-        "name": "Jordan Addison",
+        "player_id": "8146",
+        "name": "Garrett Wilson",
         "position": "WR",
-        "team": "MIN",
-        "injury_status": null
+        "team": "NYJ",
+        "injury_status": "Out"
       },
       {
         "player_id": "5045",
@@ -47,10 +47,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
-        "position": "RB",
-        "team": "NO",
+        "player_id": "9756",
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -61,14 +61,21 @@
         "injury_status": null
       },
       {
-        "player_id": "IND",
-        "name": "Indianapolis",
+        "player_id": "SEA",
+        "name": "Seattle",
         "position": "DEF",
-        "team": "IND",
+        "team": "SEA",
         "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "11647",
+        "name": "Kimani Vidal",
+        "position": "RB",
+        "team": "LAC",
+        "injury_status": null
+      },
       {
         "player_id": "12185",
         "name": "Spencer Shrader",
@@ -77,18 +84,18 @@
         "injury_status": "IR"
       },
       {
+        "player_id": "4035",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "injury_status": null
+      },
+      {
         "player_id": "4039",
         "name": "Cooper Kupp",
         "position": "WR",
         "team": "SEA",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "4866",
-        "name": "Saquon Barkley",
-        "position": "RB",
-        "team": "PHI",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "4981",
@@ -105,13 +112,6 @@
         "injury_status": null
       },
       {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "9500",
         "name": "Josh Downs",
         "position": "WR",
@@ -119,10 +119,10 @@
         "injury_status": null
       },
       {
-        "player_id": "SEA",
-        "name": "Seattle",
+        "player_id": "IND",
+        "name": "Indianapolis",
         "position": "DEF",
-        "team": "SEA",
+        "team": "IND",
         "injury_status": null
       }
     ]

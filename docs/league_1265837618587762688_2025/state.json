@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-04T14:26:25.441010Z",
+  "generated_at": "2025-11-04T14:48:14.052656Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -183,14 +183,14 @@
       },
       "starters_current": [
         "11564",
-        "11647",
+        "4866",
         "8150",
-        "9756",
+        "8146",
         "5045",
         "8130",
-        "4035",
+        "9756",
         "5189",
-        "IND"
+        "SEA"
       ],
       "players_current": [
         "11564",
@@ -221,11 +221,11 @@
           "keeper": false
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
+          "team": "PHI",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -237,11 +237,11 @@
           "keeper": false
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
+          "team": "NYJ",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -261,10 +261,10 @@
           "keeper": false
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -277,15 +277,23 @@
           "keeper": false
         },
         {
-          "player_id": "IND",
-          "name": "Indianapolis",
+          "player_id": "SEA",
+          "name": "Seattle",
           "position": "DEF",
-          "team": "IND",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "12185",
           "name": "Spencer Shrader",
@@ -295,19 +303,19 @@
           "keeper": false
         },
         {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -327,14 +335,6 @@
           "keeper": false
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
@@ -343,10 +343,10 @@
           "keeper": false
         },
         {
-          "player_id": "SEA",
-          "name": "Seattle",
+          "player_id": "IND",
+          "name": "Indianapolis",
           "position": "DEF",
-          "team": "SEA",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         }
