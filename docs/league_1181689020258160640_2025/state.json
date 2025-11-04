@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-04T05:43:57.277678Z",
+  "generated_at": "2025-11-04T05:56:13.326340Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -807,10 +807,10 @@
         "4046",
         "9509",
         "12533",
-        "6786",
+        "7049",
         "11620",
         "7002",
-        "6801",
+        "8676",
         "5230",
         "LAR"
       ],
@@ -860,12 +860,12 @@
           "keeper": false
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
           "position": "WR",
-          "team": "DAL",
+          "team": "SF",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "11620",
@@ -884,10 +884,10 @@
           "keeper": false
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "8676",
+          "name": "Rashid Shaheed",
           "position": "WR",
-          "team": "CIN",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -934,10 +934,18 @@
           "keeper": false
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "SF",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -958,14 +966,6 @@
           "keeper": true
         },
         {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9502",
           "name": "Tank Dell",
           "position": "WR",
@@ -984,18 +984,18 @@
       ],
       "keepers": [
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true
         },
