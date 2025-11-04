@@ -2,7 +2,7 @@
   {
     "roster_id": 1,
     "opponent_roster_id": 2,
-    "points": 103.82,
+    "points": 0.2,
     "starters": [
       {
         "player_id": "4984",
@@ -30,14 +30,14 @@
         "name": "Emeka Egbuka",
         "position": "WR",
         "team": "TB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2449",
         "name": "Stefon Diggs",
         "position": "WR",
         "team": "NE",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12506",
@@ -51,7 +51,7 @@
         "name": "Terry McLaurin",
         "position": "WR",
         "team": "WAS",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "3678",
@@ -126,18 +126,18 @@
         "injury_status": null
       },
       {
-        "player_id": "9494",
-        "name": "Marvin Mims",
-        "position": "WR",
-        "team": "DEN",
-        "injury_status": "Out"
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "injury_status": null
       }
     ]
   },
   {
     "roster_id": 2,
     "opponent_roster_id": 1,
-    "points": 83.98,
+    "points": 11.9,
     "starters": [
       {
         "player_id": "11564",
@@ -158,21 +158,21 @@
         "name": "Quinshon Judkins",
         "position": "RB",
         "team": "CLE",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "11626",
         "name": "Xavier Legette",
         "position": "WR",
         "team": "CAR",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7090",
         "name": "Darnell Mooney",
         "position": "WR",
         "team": "ATL",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12493",
@@ -216,7 +216,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "11631",
@@ -261,25 +261,18 @@
         "injury_status": null
       },
       {
-        "player_id": "8122",
-        "name": "Zonovan Knight",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": null
-      },
-      {
         "player_id": "9493",
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       }
     ]
   },
   {
     "roster_id": 3,
     "opponent_roster_id": 8,
-    "points": 120.92,
+    "points": 0.0,
     "starters": [
       {
         "player_id": "2307",
@@ -296,10 +289,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5850",
-        "name": "Josh Jacobs",
+        "player_id": "7021",
+        "name": "Rico Dowdle",
         "position": "RB",
-        "team": "GB",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -307,7 +300,7 @@
         "name": "Jaylen Waddle",
         "position": "WR",
         "team": "MIA",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "10229",
@@ -317,18 +310,18 @@
         "injury_status": null
       },
       {
-        "player_id": "5001",
-        "name": "Dalton Schultz",
+        "player_id": "8130",
+        "name": "Trey McBride",
         "position": "TE",
-        "team": "HOU",
+        "team": "ARI",
         "injury_status": null
       },
       {
-        "player_id": "7021",
-        "name": "Rico Dowdle",
+        "player_id": "5850",
+        "name": "Josh Jacobs",
         "position": "RB",
-        "team": "CAR",
-        "injury_status": null
+        "team": "GB",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8259",
@@ -354,6 +347,20 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "11646",
+        "name": "Jalen Coker",
+        "position": "WR",
+        "team": "CAR",
+        "injury_status": null
+      },
+      {
+        "player_id": "12457",
+        "name": "Jaydon Blue",
+        "position": "RB",
+        "team": "DAL",
+        "injury_status": null
+      },
+      {
         "player_id": "12526",
         "name": "Tetairoa McMillan",
         "position": "WR",
@@ -361,18 +368,11 @@
         "injury_status": null
       },
       {
-        "player_id": "4037",
-        "name": "Chris Godwin",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "4983",
         "name": "DJ Moore",
         "position": "WR",
         "team": "CHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5849",
@@ -387,20 +387,13 @@
         "position": "WR",
         "team": "NYG",
         "injury_status": null
-      },
-      {
-        "player_id": "8130",
-        "name": "Trey McBride",
-        "position": "TE",
-        "team": "ARI",
-        "injury_status": null
       }
     ]
   },
   {
     "roster_id": 8,
     "opponent_roster_id": 3,
-    "points": 143.72,
+    "points": 9.6,
     "starters": [
       {
         "player_id": "19",
@@ -438,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "10236",
-        "name": "Dalton Kincaid",
+        "player_id": "4066",
+        "name": "Evan Engram",
         "position": "TE",
-        "team": "BUF",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -452,10 +445,10 @@
         "injury_status": null
       },
       {
-        "player_id": "3451",
-        "name": "Ka'imi Fairbairn",
+        "player_id": "6083",
+        "name": "Matt Gay",
         "position": "K",
-        "team": "HOU",
+        "team": "WAS",
         "injury_status": null
       },
       {
@@ -467,6 +460,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "10236",
+        "name": "Dalton Kincaid",
+        "position": "TE",
+        "team": "BUF",
+        "injury_status": "Questionable"
+      },
       {
         "player_id": "11566",
         "name": "Jayden Daniels",
@@ -489,18 +489,11 @@
         "injury_status": "PUP"
       },
       {
-        "player_id": "4066",
-        "name": "Evan Engram",
-        "position": "TE",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
         "player_id": "4098",
         "name": "Kareem Hunt",
         "position": "RB",
         "team": "KC",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "421",
@@ -514,7 +507,7 @@
         "name": "Kayshon Boutte",
         "position": "WR",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "9997",
@@ -528,7 +521,7 @@
   {
     "roster_id": 4,
     "opponent_roster_id": 9,
-    "points": 94.66,
+    "points": 0.0,
     "starters": [
       {
         "player_id": "4046",
@@ -607,7 +600,7 @@
         "name": "Travis Hunter",
         "position": "WR",
         "team": "JAX",
-        "injury_status": "IR"
+        "injury_status": null
       },
       {
         "player_id": "7049",
@@ -621,7 +614,7 @@
         "name": "Isiah Pacheco",
         "position": "RB",
         "team": "KC",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "8676",
@@ -656,7 +649,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 4,
-    "points": 94.26,
+    "points": 0.0,
     "starters": [
       {
         "player_id": "6904",
@@ -670,28 +663,28 @@
         "name": "Rhamondre Stevenson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "6790",
         "name": "D'Andre Swift",
         "position": "RB",
         "team": "CHI",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "12499",
-        "name": "Elic Ayomanor",
+        "player_id": "8112",
+        "name": "Drake London",
         "position": "WR",
-        "team": "TEN",
+        "team": "ATL",
         "injury_status": null
       },
       {
-        "player_id": "5185",
-        "name": "Allen Lazard",
+        "player_id": "5859",
+        "name": "A.J. Brown",
         "position": "WR",
-        "team": "NYJ",
-        "injury_status": null
+        "team": "PHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8110",
@@ -701,9 +694,9 @@
         "injury_status": null
       },
       {
-        "player_id": "9508",
-        "name": "Tyjae Spears",
-        "position": "RB",
+        "player_id": "12499",
+        "name": "Elic Ayomanor",
+        "position": "WR",
         "team": "TEN",
         "injury_status": null
       },
@@ -742,7 +735,7 @@
         "name": "Josh Reynolds",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "IR"
+        "injury_status": null
       },
       {
         "player_id": "5012",
@@ -752,13 +745,6 @@
         "injury_status": null
       },
       {
-        "player_id": "5859",
-        "name": "A.J. Brown",
-        "position": "WR",
-        "team": "PHI",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "7607",
         "name": "Michael Carter",
         "position": "RB",
@@ -766,18 +752,18 @@
         "injury_status": null
       },
       {
-        "player_id": "8112",
-        "name": "Drake London",
-        "position": "WR",
-        "team": "ATL",
-        "injury_status": null
-      },
-      {
         "player_id": "8146",
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
+      },
+      {
+        "player_id": "9508",
+        "name": "Tyjae Spears",
+        "position": "RB",
+        "team": "TEN",
+        "injury_status": null
       },
       {
         "player_id": "DEN",
@@ -791,14 +777,14 @@
   {
     "roster_id": 5,
     "opponent_roster_id": 6,
-    "points": 116.7,
+    "points": 0.0,
     "starters": [
       {
         "player_id": "4881",
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12474",
@@ -812,14 +798,14 @@
         "name": "Ollie Gordon",
         "position": "RB",
         "team": "MIA",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
-        "player_id": "12485",
-        "name": "Tez Johnson",
+        "player_id": "7569",
+        "name": "Nico Collins",
         "position": "WR",
-        "team": "TB",
-        "injury_status": null
+        "team": "HOU",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7564",
@@ -840,7 +826,7 @@
         "name": "Tucker Kraft",
         "position": "TE",
         "team": "GB",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "5189",
@@ -870,7 +856,14 @@
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
+      },
+      {
+        "player_id": "12485",
+        "name": "Tez Johnson",
+        "position": "WR",
+        "team": "TB",
+        "injury_status": null
       },
       {
         "player_id": "5892",
@@ -884,13 +877,6 @@
         "name": "Travis Etienne",
         "position": "RB",
         "team": "JAX",
-        "injury_status": null
-      },
-      {
-        "player_id": "7569",
-        "name": "Nico Collins",
-        "position": "WR",
-        "team": "HOU",
         "injury_status": null
       },
       {
@@ -912,21 +898,21 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 5,
-    "points": 140.5,
+    "points": 1.4,
     "starters": [
       {
-        "player_id": "6768",
-        "name": "Tua Tagovailoa",
+        "player_id": "11559",
+        "name": "Michael Penix",
         "position": "QB",
-        "team": "MIA",
-        "injury_status": null
+        "team": "ATL",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4866",
         "name": "Saquon Barkley",
         "position": "RB",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9224",
@@ -961,7 +947,7 @@
         "name": "Luther Burden",
         "position": "WR",
         "team": "CHI",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "6650",
@@ -980,18 +966,18 @@
     ],
     "bench": [
       {
+        "player_id": "10219",
+        "name": "Chris Rodriguez",
+        "position": "RB",
+        "team": "WAS",
+        "injury_status": null
+      },
+      {
         "player_id": "11565",
         "name": "J.J. McCarthy",
         "position": "QB",
         "team": "MIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "11571",
-        "name": "Isaiah Davis",
-        "position": "RB",
-        "team": "NYJ",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "12469",
@@ -1026,7 +1012,7 @@
         "name": "Jakobi Meyers",
         "position": "WR",
         "team": "LV",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "5995",
@@ -1047,13 +1033,13 @@
   {
     "roster_id": 7,
     "opponent_roster_id": 10,
-    "points": 103.42,
+    "points": 2.7,
     "starters": [
       {
-        "player_id": "3294",
-        "name": "Dak Prescott",
+        "player_id": "11563",
+        "name": "Bo Nix",
         "position": "QB",
-        "team": "DAL",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -1061,7 +1047,7 @@
         "name": "Alvin Kamara",
         "position": "RB",
         "team": "NO",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4988",
@@ -1115,13 +1101,6 @@
     ],
     "bench": [
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
         "player_id": "12527",
         "name": "Ashton Jeanty",
         "position": "RB",
@@ -1136,10 +1115,10 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "4454",
-        "name": "Kendrick Bourne",
-        "position": "WR",
-        "team": "SF",
+        "player_id": "3294",
+        "name": "Dak Prescott",
+        "position": "QB",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -1182,14 +1161,14 @@
   {
     "roster_id": 10,
     "opponent_roster_id": 7,
-    "points": 84.06,
+    "points": 4.3,
     "starters": [
       {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
+        "player_id": "8183",
+        "name": "Brock Purdy",
         "position": "QB",
-        "team": "PIT",
-        "injury_status": null
+        "team": "SF",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8143",
@@ -1275,7 +1254,7 @@
         "name": "Aaron Jones",
         "position": "RB",
         "team": "MIN",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7547",
@@ -1292,18 +1271,18 @@
         "injury_status": null
       },
       {
-        "player_id": "8183",
-        "name": "Brock Purdy",
+        "player_id": "96",
+        "name": "Aaron Rodgers",
         "position": "QB",
-        "team": "SF",
-        "injury_status": "Out"
+        "team": "PIT",
+        "injury_status": null
       }
     ]
   },
   {
     "roster_id": 11,
     "opponent_roster_id": 12,
-    "points": 146.68,
+    "points": 1.2,
     "starters": [
       {
         "player_id": "6797",
@@ -1338,14 +1317,14 @@
         "name": "Chris Olave",
         "position": "WR",
         "team": "NO",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12498",
         "name": "Mason Taylor",
         "position": "TE",
         "team": "NYJ",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "6806",
@@ -1396,14 +1375,14 @@
         "name": "Matthew Golden",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "4033",
         "name": "David Njoku",
         "position": "TE",
         "team": "CLE",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7523",
@@ -1431,14 +1410,14 @@
         "name": "Josh Downs",
         "position": "WR",
         "team": "IND",
-        "injury_status": null
+        "injury_status": "Questionable"
       }
     ]
   },
   {
     "roster_id": 12,
     "opponent_roster_id": 11,
-    "points": 171.24,
+    "points": 0.0,
     "starters": [
       {
         "player_id": "5870",
@@ -1452,14 +1431,14 @@
         "name": "Cam Skattebo",
         "position": "RB",
         "team": "NYG",
-        "injury_status": "IR"
+        "injury_status": null
       },
       {
         "player_id": "8155",
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5846",
@@ -1531,7 +1510,7 @@
         "name": "Cooper Kupp",
         "position": "WR",
         "team": "SEA",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "6804",
