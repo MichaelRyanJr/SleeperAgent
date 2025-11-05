@@ -1,287 +1,329 @@
 {
   "league_id": "1181689020258160640",
   "dir": "league_1181689020258160640",
-  "generated_at": "2025-10-24T00:33:30.619372Z",
-  "count": 40,
+  "generated_at": "2025-11-05T03:02:08.306361Z",
+  "count": 46,
   "files": [
     {
       "path": "diff.json",
-      "bytes": 170,
-      "sha256": "988de4ebe36807ae6dd962d175b08ac7104929481150848042eb8c23c4ae775f",
-      "mtime": "2025-11-05T01:55:15Z",
+      "bytes": 952,
+      "sha256": "ea05eb841cf3fa635e3db2d9dcbb1aaa178989aff54a1e2c3a5276844d91c033",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": false
     },
     {
       "path": "draft_picks.json",
       "bytes": 116865,
       "sha256": "facb23bf4aecec58157d3df061b1162d070680dcfbff373f3f4a6c3d5755e909",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
       "is_core": false
     },
     {
       "path": "drafts.json",
       "bytes": 1544,
       "sha256": "27d812ded5a879edf2dbb74fb0c13ad7bdb6d7ef4c920f02c1fd9660b73553c4",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
       "is_core": false
     },
     {
       "path": "league.json",
       "bytes": 3651,
-      "sha256": "9d35560e24e3d8a52ac31084e0c62163ede8282dcad3bf32df7c8a945f208af9",
-      "mtime": "2025-11-05T01:55:07Z",
+      "sha256": "bdbdade78bc687d7ce57c4192fe30eb9c75cf485eabb29a9c9995f196891e3c8",
+      "mtime": "2025-11-05T03:02:03Z",
       "is_core": false
     },
     {
       "path": "league_state.json",
-      "bytes": 77797,
-      "sha256": "5012823c1f32bb49e1f544ab251198d1c737843a5c2c5b78f92e737724d1ed9f",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 81563,
+      "sha256": "b8afb21e1583e9829e16a5e00e01dfe6bd1aaeaf2af39e6e9696d0a392a05762",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": false
     },
     {
       "path": "lineups/1.json",
-      "bytes": 33101,
-      "sha256": "2bc44ad2410b09fb508a29073d5e072dc498901b8faa0d4785993ee1c3302a0b",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 32910,
+      "sha256": "3981ca2cb3408a636b3a0c923a5623d849c991555a6f2d9cbcf81bee56b7c480",
+      "mtime": "2025-11-05T03:02:08Z",
+      "is_core": true
+    },
+    {
+      "path": "lineups/10.json",
+      "bytes": 34448,
+      "sha256": "7fae6c080006834d5f580802e01e27e55cbf86643d1e47e62979e75608adfefb",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/2.json",
-      "bytes": 33089,
-      "sha256": "96f55040506875142a5073b685c4e8c569e6e7f52f73e83a970661c96dfd5a1a",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 32896,
+      "sha256": "e52b2493a3f0022f2976ee11771e95abc33c280e3f006a40afe41841925ade64",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/3.json",
-      "bytes": 33420,
-      "sha256": "0c3291c56de186182e7893fa0807c06c0dbd9711f9496cec6f90fdbab97dc07b",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 33224,
+      "sha256": "890d4ac7f90f81c93e8d70e2ee33b4b3a6e587fc6c0e635aaeecfff03c6627a4",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/4.json",
-      "bytes": 33586,
-      "sha256": "22a8fe3bfdc776e8f2ede730c7311e0858e025bfb3ab09314808fe938a7644cd",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 33369,
+      "sha256": "1145e391f578e18aead20ed016aab73ff86c77d487c5bf385b481c73702358bb",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/5.json",
-      "bytes": 34354,
-      "sha256": "2c9141110d0478a68f7ddcfb4ace2b467f97d4923155349ffe571e6ad3800515",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 34146,
+      "sha256": "33df6f2d77cef229143152b95701019d88b7692b0e82cb519a3adf837127d555",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/6.json",
-      "bytes": 34318,
-      "sha256": "1532e91e7d218707ef5a965c45b142294b524ab4174328cadd9f99ea07754049",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 34132,
+      "sha256": "450625d161f5b972467b66c20b72269471ad228701d5e1768f8a21bcecb6af4e",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/7.json",
-      "bytes": 33829,
-      "sha256": "814fb70a841940efbcaae4b635b2207d971ff00436215052cc1180b32d4d9025",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 33674,
+      "sha256": "7b64d33c05fd2ff9d4d35ffc00a0f71d20d2a6f75f8c6e19c41d5ca7e3e7f7f4",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "lineups/8.json",
-      "bytes": 33955,
-      "sha256": "aeb3a554386919ef9355f71c249d68f96a1fbc92f10a18f656fe2065e69ab94f",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 34318,
+      "sha256": "d1f3c36d782bba658a1eba8c969b2fff14ebc5f6d948a0298c9a0c828247b0d2",
+      "mtime": "2025-11-05T03:02:08Z",
+      "is_core": true
+    },
+    {
+      "path": "lineups/9.json",
+      "bytes": 34477,
+      "sha256": "384476dc16ef8d9c9867266133893d7db03b9154017dd31e3f83e4725bcd8899",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "matchups_week_1.json",
       "bytes": 12031,
       "sha256": "a5cd1692f16a8b07797183ee97e22d0469b6c42863f0671582d854d06a66ce6c",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
+      "is_core": false
+    },
+    {
+      "path": "matchups_week_10.json",
+      "bytes": 12113,
+      "sha256": "805a1d812562428032af34787209a26cd8d1fd0fe54c705bf98ca416ffd1ab43",
+      "mtime": "2025-11-05T03:02:07Z",
       "is_core": false
     },
     {
       "path": "matchups_week_2.json",
       "bytes": 12004,
       "sha256": "73dcb02bfb1fc90eceee8bd4dec99aab12e81f4a357e33edb1db7f6eb66346da",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
       "is_core": false
     },
     {
       "path": "matchups_week_3.json",
       "bytes": 12076,
       "sha256": "b2c047ea8b746931a5eb4ef5498d58566f20612b1731731f92cf09e827a7042b",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "matchups_week_4.json",
       "bytes": 12123,
       "sha256": "cffdbf60abe0b0b890c2d42c280a5d5e577cee34c7c00f4312cd69c382363b4d",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "matchups_week_5.json",
       "bytes": 12277,
       "sha256": "37fb4ab473002fa09d02f180b4b4c24358e2b9ec7e66731d5fd23622ecdaf919",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "matchups_week_6.json",
       "bytes": 12222,
       "sha256": "6c4d21b87869a91e4614867a9f92db52d6bfd278acb4548880ccd22f5fac2756",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:06Z",
       "is_core": false
     },
     {
       "path": "matchups_week_7.json",
       "bytes": 12154,
       "sha256": "b2d14016d0710b32b053695bdbd1bca1253932ab41a6e9e08610c0c7ef7be924",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:06Z",
       "is_core": false
     },
     {
       "path": "matchups_week_8.json",
-      "bytes": 11984,
-      "sha256": "de36afb2a3709c129d0bff8161c27534e5968e08508360b934a65f1836588a18",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 12263,
+      "sha256": "5fb727bca32846a05387fde4cc94603cfdd7b9e97056239ed0e5918e4874de57",
+      "mtime": "2025-11-05T03:02:06Z",
+      "is_core": false
+    },
+    {
+      "path": "matchups_week_9.json",
+      "bytes": 12307,
+      "sha256": "c94de7c26edad4a4a1286e92fd20402376a29325514b97b961b5cecbda3a54a7",
+      "mtime": "2025-11-05T03:02:07Z",
       "is_core": false
     },
     {
       "path": "nfl_state.json",
-      "bytes": 252,
-      "sha256": "6700847f8a5f7441da91c97faaaa8595642f716a5d0f71087abc20245d02e4db",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 254,
+      "sha256": "9b10d21f6a2cddb5a435ed03a5f76548f77338ea0c4d76a88bc655629b1ba1f7",
+      "mtime": "2025-11-05T03:02:03Z",
       "is_core": false
     },
     {
       "path": "players_min.json",
-      "bytes": 84916,
-      "sha256": "fc3e52fcccc44299ee4b2f35752d5ce83e1e6240c7ad1d908e29a9402b291c60",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 87203,
+      "sha256": "0004c32ded58bcd84304b331c38f7dc51ac2249033b5d05c0faac0c5ad97dbfe",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "roster_current.csv",
-      "bytes": 7604,
-      "sha256": "af61dc7f3dfa8a1c14179658ca250c3f40ee9ec5a70ce3891ae50f11e40216bd",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 7602,
+      "sha256": "5aee9b545e91afcaabf211ebcf7863b41d623e66731691378d611fd0e818c963",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": false
     },
     {
       "path": "rosters.json",
-      "bytes": 31351,
-      "sha256": "c6e449bc57922aad2e72bb18870aef03f30812048e0c6fd5b2ff3f252a09a918",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 31611,
+      "sha256": "5dabee8b0f2d8a051e4a73e6b2aeb1b6b440fe6c1b56717c2324054e09f10abc",
+      "mtime": "2025-11-05T03:02:03Z",
       "is_core": false
     },
     {
       "path": "schedule.json",
-      "bytes": 10824,
-      "sha256": "d76faf8d4a919e9a426151dc03f1f4e028bed02a66de1a9a906e4c10be6a6891",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 13556,
+      "sha256": "26a3e7095c64a49be043785e37e83ac3b3bd573232773fa5409212297c16a79c",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "schedule_weekly.csv",
-      "bytes": 1586,
-      "sha256": "71f4675fbb9267e2a5104e59e037fc6c30e38d6037c127a8d1e21e95cd00278e",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 1976,
+      "sha256": "faa6e918bb67d2064a51f04df31fbd72c4ff11a6bf680e39c106917c248748eb",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": false
     },
     {
       "path": "state.json",
-      "bytes": 77797,
-      "sha256": "5012823c1f32bb49e1f544ab251198d1c737843a5c2c5b78f92e737724d1ed9f",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 81563,
+      "sha256": "b8afb21e1583e9829e16a5e00e01dfe6bd1aaeaf2af39e6e9696d0a392a05762",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "teams.csv",
-      "bytes": 1556,
-      "sha256": "3f8f2955de7c3c931a969b906be72a1575376675775cb892e95d50d512b17094",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 1575,
+      "sha256": "308dd47f12edaa5f742287b093f6cb4fbb761074c9aa72a6a7d6339b63951ac7",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": false
     },
     {
       "path": "teams.json",
-      "bytes": 14460,
-      "sha256": "d446b23d54aeac66c5c9a5af589831efa571c58b184ae3c0a5a56599da2cd2b5",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 14430,
+      "sha256": "b90198b92654f7962a166aaf5e17289f4c6d94024e47c74d4fd76311fc6b6bc8",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "transactions.json",
-      "bytes": 89364,
-      "sha256": "d9018d403616f4d7000663a6cb6387f7943847ace53979b66b667516abfa73ca",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 105083,
+      "sha256": "0785edd2bb29f636a1633b1bd6658cb563776d671e3eb204b75256c48a9cbe0b",
+      "mtime": "2025-11-05T03:02:08Z",
       "is_core": true
     },
     {
       "path": "transactions_week_1.json",
       "bytes": 20098,
       "sha256": "ac414e66f3674c9f32c76a128c1c329aea020a3cb2c8873dd6746e0eadd9f217",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
+      "is_core": false
+    },
+    {
+      "path": "transactions_week_10.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime": "2025-11-05T03:02:07Z",
       "is_core": false
     },
     {
       "path": "transactions_week_2.json",
       "bytes": 6545,
       "sha256": "44e9bb78d27a2ae7140ac803fffeff89beb97729cf978f66d446bc9f8ac822a8",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:04Z",
       "is_core": false
     },
     {
       "path": "transactions_week_3.json",
       "bytes": 9081,
       "sha256": "23a9bc70a67f2abca28bad726e194024e63e839b387a514594cb4bc4b5d98e78",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "transactions_week_4.json",
       "bytes": 11234,
       "sha256": "9031e6c457f12daf7d0316e1b9162286b7fdae4307bf44c7e125439dfd1e11e0",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "transactions_week_5.json",
       "bytes": 15017,
       "sha256": "9ece348ab60872d72b91689d1f29264553126448ce02a6bc643ac727bb6eb81f",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:05Z",
       "is_core": false
     },
     {
       "path": "transactions_week_6.json",
       "bytes": 9240,
-      "sha256": "e675a266698c8fcca61fb7d8bcac28c4edd74709fbed9bb66d6978149df0c1ac",
-      "mtime": "2025-11-05T01:55:07Z",
+      "sha256": "9d2681c5a474892ca798268e8f505485fe84ee5c10232cc90a358e3b36bbcf83",
+      "mtime": "2025-11-05T03:02:06Z",
       "is_core": false
     },
     {
       "path": "transactions_week_7.json",
       "bytes": 10970,
       "sha256": "70e2b5a6323d7bc7800f0bf7bb34e9855b7e2251d96fe8d63999b047f69289cb",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:06Z",
       "is_core": false
     },
     {
       "path": "transactions_week_8.json",
-      "bytes": 4628,
-      "sha256": "7ecfdb1ffc36a3707dc78de40740ceb6e28652eb2a7254faf0fea7f5a6a73511",
-      "mtime": "2025-11-05T01:55:07Z",
+      "bytes": 12341,
+      "sha256": "83a9d311f38e756efef10ef1e7c7cd1cdf93b134394147558baa2ffff9e1dd8f",
+      "mtime": "2025-11-05T03:02:07Z",
+      "is_core": false
+    },
+    {
+      "path": "transactions_week_9.json",
+      "bytes": 7543,
+      "sha256": "34de0b22ecb8548a129bfbdb06bde6e35140d3f1ee80785805dbc62e2bb6c8ca",
+      "mtime": "2025-11-05T03:02:07Z",
       "is_core": false
     },
     {
       "path": "users.json",
       "bytes": 5878,
       "sha256": "deecf785d331bed49612f1627ef83ff0a8fabcaeb5a7df1644e38029cd2e958a",
-      "mtime": "2025-11-05T01:55:07Z",
+      "mtime": "2025-11-05T03:02:03Z",
       "is_core": false
     }
   ]

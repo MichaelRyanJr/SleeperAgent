@@ -7,22 +7,38 @@
       "team_name": "Njigbas in Paris "
     },
     "record": {
-      "wins": 4,
+      "wins": 6,
       "losses": 3,
       "ties": 0
     },
-    "points_for": 840.84,
-    "points_against": 831.52,
+    "points_for": 1074.28,
+    "points_against": 991.54,
     "waiver": {
-      "position": 5,
+      "position": 4,
       "budget_used": 0
     },
     "keepers": [
+      {
+        "player_id": "4984",
+        "name": "Josh Allen",
+        "position": "QB",
+        "team": "BUF",
+        "injury_status": null,
+        "keeper": true
+      },
       {
         "player_id": "8228",
         "name": "Jaylen Warren",
         "position": "RB",
         "team": "PIT",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "11655",
+        "name": "Tyrone Tracy",
+        "position": "RB",
+        "team": "NYG",
         "injury_status": null,
         "keeper": true
       },
@@ -43,27 +59,11 @@
         "keeper": true
       },
       {
-        "player_id": "11655",
-        "name": "Tyrone Tracy",
-        "position": "RB",
-        "team": "NYG",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
-        "player_id": "4984",
-        "name": "Josh Allen",
-        "position": "QB",
-        "team": "BUF",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
         "player_id": "5927",
         "name": "Terry McLaurin",
         "position": "WR",
         "team": "WAS",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true
       }
     ]
@@ -76,14 +76,14 @@
       "team_name": "De'von Intervention"
     },
     "record": {
-      "wins": 3,
-      "losses": 4,
+      "wins": 4,
+      "losses": 5,
       "ties": 0
     },
-    "points_for": 935.72,
-    "points_against": 842.26,
+    "points_for": 1190.86,
+    "points_against": 1070.74,
     "waiver": {
-      "position": 10,
+      "position": 11,
       "budget_used": 0
     },
     "keepers": [
@@ -96,11 +96,11 @@
         "keeper": true
       },
       {
-        "player_id": "11604",
-        "name": "Brock Bowers",
-        "position": "TE",
-        "team": "LV",
-        "injury_status": "Out",
+        "player_id": "9493",
+        "name": "Puka Nacua",
+        "position": "WR",
+        "team": "LAR",
+        "injury_status": "Questionable",
         "keeper": true
       },
       {
@@ -112,19 +112,19 @@
         "keeper": true
       },
       {
+        "player_id": "11604",
+        "name": "Brock Bowers",
+        "position": "TE",
+        "team": "LV",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
         "player_id": "11632",
         "name": "Malik Nabers",
         "position": "WR",
         "team": "NYG",
         "injury_status": "IR",
-        "keeper": true
-      },
-      {
-        "player_id": "9493",
-        "name": "Puka Nacua",
-        "position": "WR",
-        "team": "LAR",
-        "injury_status": "Out",
         "keeper": true
       }
     ]
@@ -137,14 +137,14 @@
       "team_name": "Rashee's Driving School"
     },
     "record": {
-      "wins": 5,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "ties": 0
     },
-    "points_for": 922.3,
-    "points_against": 886.24,
+    "points_for": 1171.26,
+    "points_against": 1149.86,
     "waiver": {
-      "position": 2,
+      "position": 9,
       "budget_used": 0
     },
     "keepers": [
@@ -190,22 +190,22 @@
       "team_name": "Tittsburgh Feelers"
     },
     "record": {
-      "wins": 5,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "ties": 0
     },
-    "points_for": 817.0,
-    "points_against": 783.34,
+    "points_for": 1031.56,
+    "points_against": 1005.64,
     "waiver": {
-      "position": 7,
+      "position": 10,
       "budget_used": 0
     },
     "keepers": [
       {
-        "player_id": "6786",
-        "name": "CeeDee Lamb",
-        "position": "WR",
-        "team": "DAL",
+        "player_id": "9753",
+        "name": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
         "injury_status": null,
         "keeper": true
       },
@@ -218,11 +218,19 @@
         "keeper": true
       },
       {
+        "player_id": "6786",
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "team": "DAL",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
         "player_id": "8205",
         "name": "Isiah Pacheco",
         "position": "RB",
         "team": "KC",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true
       },
       {
@@ -231,14 +239,6 @@
         "position": "WR",
         "team": "HOU",
         "injury_status": "PUP",
-        "keeper": true
-      },
-      {
-        "player_id": "9753",
-        "name": "Zach Charbonnet",
-        "position": "RB",
-        "team": "SEA",
-        "injury_status": null,
         "keeper": true
       }
     ]
@@ -252,38 +252,30 @@
     },
     "record": {
       "wins": 3,
-      "losses": 4,
+      "losses": 6,
       "ties": 0
     },
-    "points_for": 839.84,
-    "points_against": 806.86,
+    "points_for": 1081.2,
+    "points_against": 1118.52,
     "waiver": {
-      "position": 8,
+      "position": 6,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "7569",
-        "name": "Nico Collins",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": "Questionable",
-        "keeper": true
-      },
-      {
-        "player_id": "11638",
-        "name": "Ricky Pearsall",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": "Questionable",
-        "keeper": true
-      },
       {
         "player_id": "4881",
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": "Questionable",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "7569",
+        "name": "Nico Collins",
+        "position": "WR",
+        "team": "HOU",
+        "injury_status": null,
         "keeper": true
       },
       {
@@ -292,6 +284,14 @@
         "position": "RB",
         "team": "DET",
         "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "11638",
+        "name": "Ricky Pearsall",
+        "position": "WR",
+        "team": "SF",
+        "injury_status": "Out",
         "keeper": true
       },
       {
@@ -307,7 +307,7 @@
         "name": "Tucker Kraft",
         "position": "TE",
         "team": "GB",
-        "injury_status": null,
+        "injury_status": "IR",
         "keeper": true
       }
     ]
@@ -320,14 +320,14 @@
       "team_name": "The Ladds"
     },
     "record": {
-      "wins": 2,
-      "losses": 5,
+      "wins": 3,
+      "losses": 6,
       "ties": 0
     },
-    "points_for": 610.0,
-    "points_against": 834.42,
+    "points_for": 826.54,
+    "points_against": 1080.74,
     "waiver": {
-      "position": 3,
+      "position": 2,
       "budget_used": 0
     },
     "keepers": [
@@ -373,12 +373,12 @@
       "team_name": "Can You CeeDeez Nuts"
     },
     "record": {
-      "wins": 6,
+      "wins": 8,
       "losses": 1,
       "ties": 0
     },
-    "points_for": 944.82,
-    "points_against": 814.16,
+    "points_for": 1153.94,
+    "points_against": 978.9,
     "waiver": {
       "position": 12,
       "budget_used": 0
@@ -389,6 +389,14 @@
         "name": "Bo Nix",
         "position": "QB",
         "team": "DEN",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "9221",
+        "name": "Jahmyr Gibbs",
+        "position": "RB",
+        "team": "DET",
         "injury_status": null,
         "keeper": true
       },
@@ -407,14 +415,6 @@
         "team": "TB",
         "injury_status": null,
         "keeper": true
-      },
-      {
-        "player_id": "9221",
-        "name": "Jahmyr Gibbs",
-        "position": "RB",
-        "team": "DET",
-        "injury_status": null,
-        "keeper": true
       }
     ]
   },
@@ -426,14 +426,14 @@
       "team_name": "J. Daniels Whiskey"
     },
     "record": {
-      "wins": 2,
+      "wins": 4,
       "losses": 5,
       "ties": 0
     },
-    "points_for": 843.6,
-    "points_against": 923.36,
+    "points_for": 1119.86,
+    "points_against": 1174.18,
     "waiver": {
-      "position": 4,
+      "position": 3,
       "budget_used": 0
     },
     "keepers": [
@@ -488,13 +488,13 @@
     },
     "record": {
       "wins": 3,
-      "losses": 4,
+      "losses": 6,
       "ties": 0
     },
-    "points_for": 847.24,
-    "points_against": 817.62,
+    "points_for": 1071.4,
+    "points_against": 1044.82,
     "waiver": {
-      "position": 11,
+      "position": 8,
       "budget_used": 0
     },
     "keepers": [
@@ -507,19 +507,19 @@
         "keeper": true
       },
       {
+        "player_id": "8146",
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": "Out",
+        "keeper": true
+      },
+      {
         "player_id": "8110",
         "name": "Jake Ferguson",
         "position": "TE",
         "team": "DAL",
         "injury_status": null,
-        "keeper": true
-      },
-      {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "Questionable",
         "keeper": true
       }
     ]
@@ -533,29 +533,29 @@
     },
     "record": {
       "wins": 2,
-      "losses": 5,
+      "losses": 7,
       "ties": 0
     },
-    "points_for": 681.62,
-    "points_against": 803.94,
+    "points_for": 862.0,
+    "points_against": 1033.16,
     "waiver": {
       "position": 1,
       "budget_used": 0
     },
     "keepers": [
       {
-        "player_id": "7553",
-        "name": "Kyle Pitts",
-        "position": "TE",
-        "team": "ATL",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
         "player_id": "7547",
         "name": "Amon-Ra St. Brown",
         "position": "WR",
         "team": "DET",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "7553",
+        "name": "Kyle Pitts",
+        "position": "TE",
+        "team": "ATL",
         "injury_status": null,
         "keeper": true
       },
@@ -577,14 +577,14 @@
       "team_name": "Harrison Butkers Kitchen "
     },
     "record": {
-      "wins": 4,
-      "losses": 3,
+      "wins": 5,
+      "losses": 4,
       "ties": 0
     },
-    "points_for": 922.62,
-    "points_against": 777.54,
+    "points_for": 1195.1,
+    "points_against": 1045.1,
     "waiver": {
-      "position": 9,
+      "position": 7,
       "budget_used": 0
     },
     "keepers": [
@@ -625,7 +625,7 @@
         "name": "Josh Downs",
         "position": "WR",
         "team": "IND",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true
       }
     ]
@@ -638,25 +638,17 @@
       "team_name": "South Beach CTE"
     },
     "record": {
-      "wins": 3,
-      "losses": 4,
+      "wins": 4,
+      "losses": 5,
       "ties": 0
     },
-    "points_for": 733.8,
-    "points_against": 818.14,
+    "points_for": 985.72,
+    "points_against": 1070.52,
     "waiver": {
-      "position": 6,
+      "position": 5,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "8155",
-        "name": "Breece Hall",
-        "position": "RB",
-        "team": "NYJ",
-        "injury_status": "Questionable",
-        "keeper": true
-      },
       {
         "player_id": "4217",
         "name": "George Kittle",
@@ -686,6 +678,14 @@
         "name": "Khalil Shakir",
         "position": "WR",
         "team": "BUF",
+        "injury_status": null,
+        "keeper": true
+      },
+      {
+        "player_id": "8155",
+        "name": "Breece Hall",
+        "position": "RB",
+        "team": "NYJ",
         "injury_status": null,
         "keeper": true
       }
