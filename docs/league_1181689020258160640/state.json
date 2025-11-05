@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T12:51:28.299616Z",
+  "generated_at": "2025-11-05T13:35:38.722130Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -804,7 +804,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4046",
+        "11559",
         "9509",
         "9753",
         "7049",
@@ -836,10 +836,10 @@
       ],
       "starters": [
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
+          "player_id": "11559",
+          "name": "Michael Penix",
           "position": "QB",
-          "team": "KC",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -910,14 +910,6 @@
       ],
       "bench": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix",
-          "position": "QB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
@@ -938,6 +930,14 @@
           "name": "Chimere Dike",
           "position": "WR",
           "team": "TEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -1525,7 +1525,7 @@
         "6819",
         "5001",
         "8121",
-        "11533",
+        "6650",
         "DET"
       ],
       "players_current": [
@@ -1606,12 +1606,12 @@
           "keeper": false
         },
         {
-          "player_id": "11533",
-          "name": "Brandon Aubrey",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "DAL",
+          "team": "TB",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "DET",
@@ -1623,6 +1623,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11533",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true
+        },
         {
           "player_id": "2505",
           "name": "Darren Waller",
@@ -1662,14 +1670,6 @@
           "team": "TB",
           "injury_status": null,
           "keeper": true
-        },
-        {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "6803",
