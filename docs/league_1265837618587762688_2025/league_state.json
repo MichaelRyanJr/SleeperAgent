@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T18:57:19.842462Z",
+  "generated_at": "2025-11-05T19:23:10.311809Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1310,15 +1310,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "5870",
+        "3163",
         "12533",
-        "12474",
-        "7564",
+        "11584",
+        "8142",
         "11635",
         "12493",
-        "8167",
+        "9487",
         "1945",
-        "LAC"
+        "BUF"
       ],
       "players_current": [
         "11584",
@@ -1331,20 +1331,20 @@
         "3163",
         "4018",
         "5870",
-        "6783",
         "6803",
         "7002",
         "7564",
-        "7567",
+        "8142",
         "8167",
-        "LAC"
+        "9487",
+        "BUF"
       ],
       "starters": [
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "IND",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1357,18 +1357,18 @@
           "keeper": false
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
+          "team": "TB",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
+          "player_id": "8142",
+          "name": "Alec Pierce",
           "position": "WR",
-          "team": "CIN",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1389,10 +1389,10 @@
           "keeper": false
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "GB",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -1405,21 +1405,21 @@
           "keeper": false
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "LAC",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
+          "team": "HOU",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1427,14 +1427,6 @@
           "name": "Tez Johnson",
           "position": "WR",
           "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1447,10 +1439,10 @@
           "keeper": false
         },
         {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
-          "position": "WR",
-          "team": "CLE",
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1471,10 +1463,18 @@
           "keeper": false
         },
         {
-          "player_id": "7567",
-          "name": "Kenneth Gainwell",
-          "position": "RB",
-          "team": "PIT",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         }
@@ -2271,7 +2271,7 @@
         "5872",
         "6819",
         "5844",
-        "6801",
+        "11628",
         "7839",
         "HOU"
       ],
@@ -2343,10 +2343,10 @@
           "keeper": false
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
-          "team": "CIN",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -2369,14 +2369,6 @@
       ],
       "bench": [
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4098",
           "name": "Kareem Hunt",
           "position": "RB",
@@ -2397,6 +2389,14 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },

@@ -431,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6801",
-        "name": "Tee Higgins",
+        "player_id": "11628",
+        "name": "Marvin Harrison",
         "position": "WR",
-        "team": "CIN",
+        "team": "ARI",
         "injury_status": null
       },
       {
@@ -454,13 +454,6 @@
     ],
     "bench": [
       {
-        "player_id": "11628",
-        "name": "Marvin Harrison",
-        "position": "WR",
-        "team": "ARI",
-        "injury_status": null
-      },
-      {
         "player_id": "4098",
         "name": "Kareem Hunt",
         "position": "RB",
@@ -479,6 +472,13 @@
         "name": "Dallas Goedert",
         "position": "TE",
         "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "6801",
+        "name": "Tee Higgins",
+        "position": "WR",
+        "team": "CIN",
         "injury_status": null
       },
       {
@@ -887,10 +887,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "5870",
-        "name": "Daniel Jones",
+        "player_id": "3163",
+        "name": "Jared Goff",
         "position": "QB",
-        "team": "IND",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -901,17 +901,17 @@
         "injury_status": null
       },
       {
-        "player_id": "12474",
-        "name": "Woody Marks",
+        "player_id": "11584",
+        "name": "Bucky Irving",
         "position": "RB",
-        "team": "HOU",
-        "injury_status": null
+        "team": "TB",
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "7564",
-        "name": "Ja'Marr Chase",
+        "player_id": "8142",
+        "name": "Alec Pierce",
         "position": "WR",
-        "team": "CIN",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -929,10 +929,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8167",
-        "name": "Christian Watson",
+        "player_id": "9487",
+        "name": "Parker Washington",
         "position": "WR",
-        "team": "GB",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -943,33 +943,26 @@
         "injury_status": null
       },
       {
-        "player_id": "LAC",
-        "name": "Los Angeles",
+        "player_id": "BUF",
+        "name": "Buffalo",
         "position": "DEF",
-        "team": "LAC",
+        "team": "BUF",
         "injury_status": null
       }
     ],
     "bench": [
       {
-        "player_id": "11584",
-        "name": "Bucky Irving",
+        "player_id": "12474",
+        "name": "Woody Marks",
         "position": "RB",
-        "team": "TB",
-        "injury_status": "Questionable"
+        "team": "HOU",
+        "injury_status": null
       },
       {
         "player_id": "12485",
         "name": "Tez Johnson",
         "position": "WR",
         "team": "TB",
-        "injury_status": null
-      },
-      {
-        "player_id": "3163",
-        "name": "Jared Goff",
-        "position": "QB",
-        "team": "DET",
         "injury_status": null
       },
       {
@@ -980,10 +973,10 @@
         "injury_status": "PUP"
       },
       {
-        "player_id": "6783",
-        "name": "Jerry Jeudy",
-        "position": "WR",
-        "team": "CLE",
+        "player_id": "5870",
+        "name": "Daniel Jones",
+        "position": "QB",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -1001,10 +994,17 @@
         "injury_status": null
       },
       {
-        "player_id": "7567",
-        "name": "Kenneth Gainwell",
-        "position": "RB",
-        "team": "PIT",
+        "player_id": "7564",
+        "name": "Ja'Marr Chase",
+        "position": "WR",
+        "team": "CIN",
+        "injury_status": null
+      },
+      {
+        "player_id": "8167",
+        "name": "Christian Watson",
+        "position": "WR",
+        "team": "GB",
         "injury_status": null
       }
     ]
