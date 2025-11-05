@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T17:55:33.885373Z",
+  "generated_at": "2025-11-05T18:35:38.060111Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1285,13 +1285,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "0",
-        "9224",
+        "11565",
+        "4866",
         "5995",
         "11635",
         "7571",
         "1339",
-        "5947",
+        "5844",
         "12711",
         "CHI"
       ],
@@ -1317,12 +1317,20 @@
       ],
       "starters": [
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "5995",
@@ -1357,10 +1365,10 @@
           "keeper": false
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -1382,14 +1390,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11571",
           "name": "Isaiah Davis",
@@ -1439,18 +1439,10 @@
           "keeper": true
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -1461,9 +1453,7 @@
           "team": "CIN",
           "injury_status": "IR",
           "keeper": true
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "9224",
           "name": "Chase Brown",
@@ -1471,7 +1461,9 @@
           "team": "CIN",
           "injury_status": null,
           "keeper": true
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
@@ -1494,6 +1486,14 @@
           "position": "QB",
           "team": "CIN",
           "injury_status": "IR",
+          "keeper": true
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": true
         }
       ]
