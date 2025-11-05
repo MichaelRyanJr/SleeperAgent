@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-04T23:53:16.753929Z",
+  "generated_at": "2025-11-05T01:55:15.137221Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -191,7 +191,7 @@
           "name": "Wil Lutz",
           "position": "K",
           "team": "DEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -348,9 +348,9 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11564",
+        "12508",
         "9226",
-        "12534",
+        "12512",
         "9493",
         "11631",
         "12493",
@@ -380,10 +380,10 @@
       ],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
+          "player_id": "12508",
+          "name": "Jaxson Dart",
           "position": "QB",
-          "team": "NE",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -396,11 +396,11 @@
           "keeper": true
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
+          "team": "CLE",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -454,6 +454,14 @@
       ],
       "bench": [
         {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11576",
           "name": "Braelon Allen",
           "position": "RB",
@@ -494,19 +502,11 @@
           "keeper": false
         },
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": "Out",
+          "team": "CHI",
+          "injury_status": null,
           "keeper": false
         },
         {
