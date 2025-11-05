@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T15:57:23.563039Z",
+  "generated_at": "2025-11-05T16:36:18.634987Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -591,17 +591,18 @@
       "starters_current": [
         "3257",
         "7021",
-        "11584",
+        "5850",
         "7526",
         "12526",
         "8130",
-        "5850",
+        "8126",
         "8259",
         "HOU"
       ],
       "players_current": [
         "10229",
         "11584",
+        "12476",
         "12526",
         "3257",
         "4037",
@@ -614,8 +615,7 @@
         "8126",
         "8130",
         "8259",
-        "HOU",
-        "PHI"
+        "HOU"
       ],
       "starters": [
         {
@@ -635,12 +635,12 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7526",
@@ -667,10 +667,10 @@
           "keeper": true
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -699,6 +699,22 @@
           "team": "KC",
           "injury_status": null,
           "keeper": true
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "12476",
+          "name": "Devin Neal",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "4037",
@@ -731,33 +747,9 @@
           "team": "DAL",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "PHI",
-          "name": "Philadelphia",
-          "position": "DEF",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
         {
           "player_id": "8130",
           "name": "Trey McBride",
@@ -772,6 +764,14 @@
           "position": "WR",
           "team": "KC",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1842,7 +1842,7 @@
           "name": "Ka'imi Fairbairn",
           "position": "K",
           "team": "HOU",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
