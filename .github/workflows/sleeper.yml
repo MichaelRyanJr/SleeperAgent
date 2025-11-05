@@ -5,11 +5,19 @@ on:
     - cron: "*/15 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch:
 
+# Needed if your repo uses "GitHub Actions" as the Pages source
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Avoid overlapping deploys
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
     env:
       LEAGUES: "1265837618587762688 1181689020258160640"
@@ -30,17 +38,24 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p docs
+          # IMPORTANT: no quotes here or the wildcard won't expand
           for LID in $LEAGUES; do
             echo ">> Export $LID (season=$SEASON)"
-            rm -rf "./docs/league_${LID}_*/"
+            rm -rf ./docs/league_${LID}_*/
             python sleeper_sync.py --league "$LID" --season "$SEASON" --out ./docs
           done
 
       - name: Publish + diff + manifest (Python helper)
         run: python tools/publish_and_manifest.py
 
-      - name: Build hub index (adds manifest & diff links)
+      - name: Build hub index (adds HTML mirror + manifest & diff links)
         run: python tools/build_index.py
+
+      # Force a file to change so there's always something to commit when data is identical
+      - name: Bump cache-bust marker
+        shell: bash
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/.built_at
 
       - name: Commit & push
         shell: bash
@@ -49,5 +64,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "sync: publish + manifest + file diff + hub index" || echo "No changes"
-          git push
+          git commit -m "sync: publish + manifest + diff + hub index" || echo "No changes to commit"
+          git push || true
+
+      # Upload the /docs site for a GitHub Pages deployment
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    # Only runs if your repo uses "GitHub Actions" deployment for Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
