@@ -133,10 +133,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "3294",
-        "name": "Dak Prescott",
+        "player_id": "4943",
+        "name": "Sam Darnold",
         "position": "QB",
-        "team": "DAL",
+        "team": "SEA",
         "injury_status": null
       },
       {
@@ -147,10 +147,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8228",
-        "name": "Jaylen Warren",
+        "player_id": "12489",
+        "name": "RJ Harvey",
         "position": "RB",
-        "team": "PIT",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -161,10 +161,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6786",
-        "name": "CeeDee Lamb",
+        "player_id": "6149",
+        "name": "Darius Slayton",
         "position": "WR",
-        "team": "DAL",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -175,10 +175,10 @@
         "injury_status": null
       },
       {
-        "player_id": "10229",
-        "name": "Rashee Rice",
-        "position": "WR",
-        "team": "KC",
+        "player_id": "8228",
+        "name": "Jaylen Warren",
+        "position": "RB",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -187,29 +187,22 @@
         "position": "K",
         "team": "IND",
         "injury_status": null
-      },
-      {
-        "player_id": "LAR",
-        "name": "Los Angeles",
-        "position": "DEF",
-        "team": "LAR",
-        "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "10229",
+        "name": "Rashee Rice",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": null
+      },
       {
         "player_id": "11638",
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
         "injury_status": "Questionable"
-      },
-      {
-        "player_id": "12489",
-        "name": "RJ Harvey",
-        "position": "RB",
-        "team": "DEN",
-        "injury_status": null
       },
       {
         "player_id": "12506",
@@ -233,17 +226,17 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "4943",
-        "name": "Sam Darnold",
+        "player_id": "3294",
+        "name": "Dak Prescott",
         "position": "QB",
-        "team": "SEA",
+        "team": "DAL",
         "injury_status": null
       },
       {
-        "player_id": "6149",
-        "name": "Darius Slayton",
+        "player_id": "6786",
+        "name": "CeeDee Lamb",
         "position": "WR",
-        "team": "NYG",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -251,6 +244,13 @@
         "name": "Jordan Mason",
         "position": "RB",
         "team": "MIN",
+        "injury_status": null
+      },
+      {
+        "player_id": "CAR",
+        "name": "Carolina",
+        "position": "DEF",
+        "team": "CAR",
         "injury_status": null
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T21:22:25.456343Z",
+  "generated_at": "2025-11-05T21:42:04.175676Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1501,15 +1501,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3294",
+        "4943",
         "9226",
-        "8228",
+        "12489",
         "8112",
-        "6786",
+        "6149",
         "10236",
-        "10229",
+        "8228",
         "5230",
-        "LAR"
+        "0"
       ],
       "players_current": [
         "10229",
@@ -1528,14 +1528,14 @@
         "8228",
         "8408",
         "9226",
-        "LAR"
+        "CAR"
       ],
       "starters": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "4943",
+          "name": "Sam Darnold",
           "position": "QB",
-          "team": "DAL",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
@@ -1548,10 +1548,10 @@
           "keeper": false
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "PIT",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -1564,10 +1564,10 @@
           "keeper": false
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "6149",
+          "name": "Darius Slayton",
           "position": "WR",
-          "team": "DAL",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -1580,10 +1580,10 @@
           "keeper": false
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -1594,31 +1594,23 @@
           "team": "IND",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "LAR",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1646,18 +1638,18 @@
           "keeper": false
         },
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "3294",
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "SEA",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "6149",
-          "name": "Darius Slayton",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "NYG",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1666,6 +1658,14 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "CAR",
+          "name": "Carolina",
+          "position": "DEF",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         }
