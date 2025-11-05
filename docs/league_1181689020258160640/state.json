@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T11:53:23.575360Z",
+  "generated_at": "2025-11-05T12:51:28.299616Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1053,7 +1053,7 @@
         "12518",
         "5892",
         "5189",
-        "0"
+        "CLE"
       ],
       "players_current": [
         "11628",
@@ -1138,6 +1138,14 @@
           "team": "SF",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1204,14 +1212,6 @@
           "team": "GB",
           "injury_status": "IR",
           "keeper": true
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
