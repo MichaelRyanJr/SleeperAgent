@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-06T05:26:34.666012Z",
+  "generated_at": "2025-11-06T05:44:18.876180Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1294,13 +1294,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11565",
+        "3163",
         "4866",
-        "5995",
+        "12469",
         "11635",
         "7571",
         "1339",
-        "5844",
+        "5947",
         "12711",
         "CHI"
       ],
@@ -1326,10 +1326,10 @@
       ],
       "starters": [
         {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "MIN",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1342,10 +1342,10 @@
           "keeper": false
         },
         {
-          "player_id": "5995",
-          "name": "Justice Hill",
+          "player_id": "12469",
+          "name": "Dylan Sampson",
           "position": "RB",
-          "team": "BAL",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         },
@@ -1374,10 +1374,10 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -1400,18 +1400,18 @@
       ],
       "bench": [
         {
-          "player_id": "11571",
-          "name": "Isaiah Davis",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
+          "player_id": "11571",
+          "name": "Isaiah Davis",
           "position": "RB",
-          "team": "CLE",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -1421,14 +1421,6 @@
           "position": "WR",
           "team": "CHI",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1448,10 +1440,18 @@
           "keeper": true
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5995",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
         },
