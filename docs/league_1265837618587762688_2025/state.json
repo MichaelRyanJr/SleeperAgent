@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-06T21:40:32.295972Z",
+  "generated_at": "2025-11-06T21:53:11.805822Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1312,7 +1312,7 @@
       "starters_current": [
         "3163",
         "12533",
-        "11584",
+        "11199",
         "8142",
         "11635",
         "12493",
@@ -1321,6 +1321,7 @@
         "BUF"
       ],
       "players_current": [
+        "11199",
         "11584",
         "11635",
         "12474",
@@ -1335,7 +1336,6 @@
         "7002",
         "7564",
         "8142",
-        "8167",
         "9487",
         "BUF"
       ],
@@ -1357,11 +1357,11 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "11199",
+          "name": "Emari Demercado",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
+          "team": "ARI",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1414,6 +1414,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
         {
           "player_id": "12474",
           "name": "Woody Marks",
@@ -1469,14 +1477,6 @@
           "team": "CIN",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -1509,7 +1509,7 @@
         "10236",
         "8228",
         "5230",
-        "0"
+        "CAR"
       ],
       "players_current": [
         "10229",
@@ -1594,6 +1594,14 @@
           "team": "IND",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "CAR",
+          "name": "Carolina",
+          "position": "DEF",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1658,14 +1666,6 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "CAR",
-          "name": "Carolina",
-          "position": "DEF",
-          "team": "CAR",
           "injury_status": null,
           "keeper": false
         }

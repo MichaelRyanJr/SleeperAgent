@@ -187,6 +187,13 @@
         "position": "K",
         "team": "IND",
         "injury_status": null
+      },
+      {
+        "player_id": "CAR",
+        "name": "Carolina",
+        "position": "DEF",
+        "team": "CAR",
+        "injury_status": null
       }
     ],
     "bench": [
@@ -244,13 +251,6 @@
         "name": "Jordan Mason",
         "position": "RB",
         "team": "MIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "CAR",
-        "name": "Carolina",
-        "position": "DEF",
-        "team": "CAR",
         "injury_status": null
       }
     ]
@@ -901,11 +901,11 @@
         "injury_status": null
       },
       {
-        "player_id": "11584",
-        "name": "Bucky Irving",
+        "player_id": "11199",
+        "name": "Emari Demercado",
         "position": "RB",
-        "team": "TB",
-        "injury_status": "Questionable"
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "8142",
@@ -951,6 +951,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "11584",
+        "name": "Bucky Irving",
+        "position": "RB",
+        "team": "TB",
+        "injury_status": "Questionable"
+      },
       {
         "player_id": "12474",
         "name": "Woody Marks",
@@ -998,13 +1005,6 @@
         "name": "Ja'Marr Chase",
         "position": "WR",
         "team": "CIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "8167",
-        "name": "Christian Watson",
-        "position": "WR",
-        "team": "GB",
         "injury_status": null
       }
     ]
