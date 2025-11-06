@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-05T23:53:04.226759Z",
+  "generated_at": "2025-11-06T01:55:23.941780Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -746,9 +746,9 @@
         "budget_used": 0
       },
       "starters_current": [
-        "19",
-        "8122",
-        "7588",
+        "4892",
+        "8136",
+        "6806",
         "7569",
         "7547",
         "4217",
@@ -777,26 +777,26 @@
       ],
       "starters": [
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "CIN",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "ARI",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
           "position": "RB",
-          "team": "DAL",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -867,18 +867,10 @@
           "keeper": false
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
+          "player_id": "19",
+          "name": "Joe Flacco",
           "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -891,10 +883,18 @@
           "keeper": false
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -1244,7 +1244,7 @@
           "name": "AJ Barner",
           "position": "TE",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
