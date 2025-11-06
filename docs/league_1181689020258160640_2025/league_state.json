@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-06T23:22:24.847466Z",
+  "generated_at": "2025-11-06T23:40:15.640069Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -349,12 +349,12 @@
       },
       "starters_current": [
         "12508",
-        "9226",
+        "12489",
         "12512",
         "9493",
         "11631",
         "11604",
-        "12493",
+        "9226",
         "11792",
         "SEA"
       ],
@@ -388,12 +388,12 @@
           "keeper": false
         },
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "MIA",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "12512",
@@ -428,12 +428,12 @@
           "keeper": true
         },
         {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "11792",
@@ -486,18 +486,18 @@
           "keeper": true
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -528,14 +528,6 @@
       ],
       "keepers": [
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "9493",
           "name": "Puka Nacua",
           "position": "WR",
@@ -556,6 +548,14 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
           "injury_status": null,
           "keeper": true
         },
@@ -2052,7 +2052,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
