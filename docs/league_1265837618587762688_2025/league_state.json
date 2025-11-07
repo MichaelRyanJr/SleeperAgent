@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-07T03:14:15.248439Z",
+  "generated_at": "2025-11-07T03:51:29.555260Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1061,7 +1061,7 @@
           "name": "Geno Smith",
           "position": "QB",
           "team": "LV",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1894,6 +1894,7 @@
         "CLE"
       ],
       "players_current": [
+        "11575",
         "11589",
         "11610",
         "11620",
@@ -1901,13 +1902,12 @@
         "12476",
         "12512",
         "12518",
-        "12540",
         "2020",
         "2133",
         "421",
         "4227",
+        "6039",
         "7591",
-        "9508",
         "9509",
         "CLE",
         "NE"
@@ -1988,6 +1988,14 @@
       ],
       "bench": [
         {
+          "player_id": "11575",
+          "name": "Ray Davis",
+          "position": "RB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11589",
           "name": "Trey Benson",
           "position": "RB",
@@ -2012,14 +2020,6 @@
           "keeper": false
         },
         {
-          "player_id": "12540",
-          "name": "Chimere Dike",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4227",
           "name": "Harrison Butker",
           "position": "K",
@@ -2028,18 +2028,18 @@
           "keeper": false
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "NYJ",
+          "player_id": "6039",
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "7591",
+          "name": "Justin Fields",
+          "position": "QB",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -2257,7 +2257,7 @@
       },
       "starters_current": [
         "4984",
-        "8132",
+        "9753",
         "3198",
         "5872",
         "6819",
@@ -2294,10 +2294,10 @@
           "keeper": false
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "ATL",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
@@ -2408,10 +2408,10 @@
           "keeper": false
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "SEA",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         }
@@ -3180,14 +3180,14 @@
       "week": 10,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 3.0,
+      "points": 3.9,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 0.9,
+      "points": 2.8,
       "result": "L"
     },
     {
@@ -3208,7 +3208,7 @@
       "week": 10,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 1.0,
+      "points": 3.2,
       "result": "W"
     },
     {
@@ -3222,7 +3222,7 @@
       "week": 10,
       "roster_id": 4,
       "opponent_roster_id": 7,
-      "points": 5.5,
+      "points": 6.4,
       "result": "W"
     },
     {
@@ -3236,7 +3236,7 @@
       "week": 10,
       "roster_id": 5,
       "opponent_roster_id": 9,
-      "points": 6.66,
+      "points": 6.98,
       "result": "W"
     },
     {
@@ -3250,14 +3250,14 @@
       "week": 10,
       "roster_id": 6,
       "opponent_roster_id": 11,
-      "points": 15.2,
+      "points": 19.2,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 11.2,
+      "points": 11.3,
       "result": "L"
     }
   ]
