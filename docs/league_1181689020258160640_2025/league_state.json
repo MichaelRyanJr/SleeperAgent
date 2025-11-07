@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-07T19:52:46.023783Z",
+  "generated_at": "2025-11-07T20:24:01.913501Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -101,11 +101,11 @@
       "starters_current": [
         "4984",
         "8228",
-        "11655",
+        "12529",
         "9488",
         "2449",
         "10859",
-        "12529",
+        "12514",
         "3678",
         "NE"
       ],
@@ -147,12 +147,12 @@
           "keeper": true
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "NYG",
+          "team": "NE",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "9488",
@@ -179,10 +179,10 @@
           "keeper": true
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -205,6 +205,14 @@
       ],
       "bench": [
         {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
@@ -226,14 +234,6 @@
           "position": "RB",
           "team": "LAC",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -295,14 +295,6 @@
           "keeper": true
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "9488",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -315,6 +307,14 @@
           "name": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": true
         },
@@ -738,7 +738,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -881,7 +881,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1005,7 +1005,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1420,7 +1420,7 @@
           "name": "Luther Burden",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1811,7 +1811,7 @@
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1935,7 +1935,7 @@
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -2044,7 +2044,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
