@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-07T01:54:06.143039Z",
+  "generated_at": "2025-11-07T03:14:19.678893Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2218,8 +2218,8 @@
       },
       "starters_current": [
         "96",
+        "11199",
         "4199",
-        "5967",
         "5872",
         "7547",
         "7553",
@@ -2228,6 +2228,7 @@
         "IND"
       ],
       "players_current": [
+        "11199",
         "11539",
         "11637",
         "4144",
@@ -2237,7 +2238,6 @@
         "6794",
         "7547",
         "7553",
-        "7839",
         "8143",
         "8148",
         "8183",
@@ -2255,19 +2255,19 @@
           "keeper": false
         },
         {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
           "team": "MIN",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -2337,10 +2337,10 @@
           "keeper": false
         },
         {
-          "player_id": "7839",
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -3648,28 +3648,28 @@
       "week": 10,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 1.0,
+      "result": "W"
     },
     {
       "week": 10,
       "roster_id": 8,
       "opponent_roster_id": 1,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 2,
       "opponent_roster_id": 7,
-      "points": 0.0,
+      "points": 5.1,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 7,
       "opponent_roster_id": 2,
-      "points": 10.84,
+      "points": 19.34,
       "result": "W"
     },
     {
@@ -3711,14 +3711,14 @@
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 2.5,
+      "points": 9.1,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 9,
       "opponent_roster_id": 12,
-      "points": 6.0,
+      "points": 10.0,
       "result": "W"
     },
     {
