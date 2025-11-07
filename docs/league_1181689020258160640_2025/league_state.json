@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-07T11:53:00.925515Z",
+  "generated_at": "2025-11-07T12:50:06.501552Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -352,7 +352,7 @@
         "12489",
         "12512",
         "9493",
-        "11631",
+        "9487",
         "11604",
         "9226",
         "11792",
@@ -412,12 +412,12 @@
           "keeper": true
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": true
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11604",
@@ -478,6 +478,14 @@
           "keeper": false
         },
         {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -516,14 +524,6 @@
           "team": "CHI",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -533,14 +533,6 @@
           "position": "WR",
           "team": "LAR",
           "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -557,6 +549,14 @@
           "position": "RB",
           "team": "MIA",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
