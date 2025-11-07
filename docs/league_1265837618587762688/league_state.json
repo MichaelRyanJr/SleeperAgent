@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-07T14:44:18.725254Z",
+  "generated_at": "2025-11-07T14:56:48.047135Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -572,7 +572,7 @@
         "7553",
         "8126",
         "3678",
-        "0"
+        "BAL"
       ],
       "players_current": [
         "11655",
@@ -656,6 +656,14 @@
           "team": "DEN",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "BAL",
+          "name": "Baltimore",
+          "position": "DEF",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -712,14 +720,6 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "BAL",
-          "name": "Baltimore",
-          "position": "DEF",
-          "team": "BAL",
           "injury_status": null,
           "keeper": false
         }
