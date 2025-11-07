@@ -92,7 +92,7 @@
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true
       },
       {
@@ -438,14 +438,6 @@
     },
     "keepers": [
       {
-        "player_id": "7594",
-        "name": "Chuba Hubbard",
-        "position": "RB",
-        "team": "CAR",
-        "injury_status": null,
-        "keeper": true
-      },
-      {
         "player_id": "8138",
         "name": "James Cook",
         "position": "RB",
@@ -475,6 +467,14 @@
         "position": "RB",
         "team": "HOU",
         "injury_status": "PUP",
+        "keeper": true
+      },
+      {
+        "player_id": "7594",
+        "name": "Chuba Hubbard",
+        "position": "RB",
+        "team": "CAR",
+        "injury_status": null,
         "keeper": true
       }
     ]

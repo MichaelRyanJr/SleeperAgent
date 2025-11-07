@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-06T23:52:57.165440Z",
+  "generated_at": "2025-11-07T01:54:06.143039Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -408,7 +408,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -506,7 +506,7 @@
           "name": "Tory Horton",
           "position": "WR",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -532,7 +532,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true
         },
         {
@@ -1761,13 +1761,13 @@
       },
       "starters_current": [
         "421",
-        "7594",
+        "11647",
         "8138",
         "2133",
         "9997",
         "10236",
-        "11647",
-        "3451",
+        "7525",
+        "2747",
         "LAC"
       ],
       "players_current": [
@@ -1776,7 +1776,7 @@
         "11647",
         "19",
         "2133",
-        "3451",
+        "2747",
         "4018",
         "4066",
         "4098",
@@ -1799,12 +1799,12 @@
           "keeper": false
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "CAR",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8138",
@@ -1839,19 +1839,19 @@
           "keeper": false
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "3451",
-          "name": "Ka'imi Fairbairn",
+          "player_id": "2747",
+          "name": "Jason Myers",
           "position": "K",
-          "team": "HOU",
-          "injury_status": "Questionable",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1905,12 +1905,12 @@
           "keeper": false
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "9504",
@@ -1930,14 +1930,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "8138",
           "name": "James Cook",
@@ -1968,6 +1960,14 @@
           "position": "RB",
           "team": "HOU",
           "injury_status": "PUP",
+          "keeper": true
+        },
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
           "keeper": true
         }
       ]
@@ -3663,14 +3663,14 @@
       "roster_id": 2,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 7,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 10.84,
+      "result": "W"
     },
     {
       "week": 10,
@@ -3705,28 +3705,28 @@
       "roster_id": 6,
       "opponent_roster_id": 11,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 2.5,
+      "result": "W"
     },
     {
       "week": 10,
       "roster_id": 9,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 6.0,
+      "result": "W"
     },
     {
       "week": 10,
       "roster_id": 12,
       "opponent_roster_id": 9,
       "points": 0.0,
-      "result": null
+      "result": "L"
     }
   ]
 }
