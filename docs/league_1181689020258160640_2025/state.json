@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-09T19:52:38.302720Z",
+  "generated_at": "2025-11-09T20:23:54.830708Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -506,7 +506,7 @@
           "name": "Tory Horton",
           "position": "WR",
           "team": "SEA",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -738,7 +738,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1835,7 +1835,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2365,7 +2365,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2431,17 +2431,17 @@
         "8144",
         "12498",
         "6806",
-        "11789",
+        "4195",
         "GB"
       ],
       "players_current": [
         "10222",
         "11627",
-        "11789",
         "12498",
         "12501",
         "4033",
         "4034",
+        "4195",
         "4227",
         "5045",
         "6797",
@@ -2511,10 +2511,10 @@
           "keeper": true
         },
         {
-          "player_id": "11789",
-          "name": "Joshua Karty",
+          "player_id": "4195",
+          "name": "Jake Elliott",
           "position": "K",
-          "team": "LAR",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2790,7 +2790,7 @@
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -3639,84 +3639,84 @@
       "week": 10,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 61.0,
+      "points": 68.22,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 22.9,
+      "points": 25.3,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 2,
       "opponent_roster_id": 7,
-      "points": 67.1,
+      "points": 78.6,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 7,
       "opponent_roster_id": 2,
-      "points": 33.9,
+      "points": 35.5,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 54.9,
+      "points": 62.1,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 10,
       "opponent_roster_id": 3,
-      "points": 30.0,
+      "points": 35.4,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 4,
       "opponent_roster_id": 5,
-      "points": 38.38,
+      "points": 42.88,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 51.48,
+      "points": 59.58,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 6,
       "opponent_roster_id": 11,
-      "points": 17.0,
+      "points": 27.4,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 89.9,
+      "points": 92.8,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 9,
       "opponent_roster_id": 12,
-      "points": 58.1,
+      "points": 63.4,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 12,
       "opponent_roster_id": 9,
-      "points": 45.7,
+      "points": 48.6,
       "result": "L"
     }
   ]
