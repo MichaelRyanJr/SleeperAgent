@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-11T20:43:51.313547Z",
+  "generated_at": "2025-11-11T20:56:00.947385Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1993,11 +1993,11 @@
       },
       "starters_current": [
         "6904",
-        "6130",
         "6790",
+        "9508",
         "5859",
         "8112",
-        "5012",
+        "8110",
         "8146",
         "1945",
         "DEN"
@@ -2032,18 +2032,18 @@
           "keeper": false
         },
         {
-          "player_id": "6130",
-          "name": "Devin Singletary",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6790",
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -2064,12 +2064,12 @@
           "keeper": true
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
           "position": "TE",
-          "team": "BAL",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "8146",
@@ -2130,6 +2130,22 @@
           "keeper": false
         },
         {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "7090",
           "name": "Darnell Mooney",
           "position": "WR",
@@ -2152,22 +2168,6 @@
           "team": "NE",
           "injury_status": "Out",
           "keeper": false
-        },
-        {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2180,19 +2180,19 @@
           "keeper": true
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": true
-        },
-        {
           "player_id": "8110",
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
           "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Out",
           "keeper": true
         }
       ]
