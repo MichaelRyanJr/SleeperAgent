@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-11T16:31:42.781675Z",
+  "generated_at": "2025-11-11T16:57:21.972868Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -590,12 +590,12 @@
       },
       "starters_current": [
         "2307",
-        "7021",
         "5850",
+        "7021",
+        "10229",
         "7526",
-        "12526",
         "8130",
-        "8126",
+        "7588",
         "8259",
         "HOU"
       ],
@@ -628,14 +628,6 @@
           "keeper": false
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -644,18 +636,26 @@
           "keeper": false
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "MIA",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
+          "player_id": "10229",
+          "name": "Rashee Rice",
           "position": "WR",
-          "team": "CAR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -668,10 +668,10 @@
           "keeper": true
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "NYG",
+          "player_id": "7588",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -694,14 +694,6 @@
       ],
       "bench": [
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "position": "RB",
@@ -714,6 +706,14 @@
           "name": "Devin Neal",
           "position": "RB",
           "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -750,28 +750,28 @@
           "keeper": true
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         }
       ],
       "keepers": [
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
           "injury_status": null,
           "keeper": true
         },
