@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-11T20:56:00.947385Z",
+  "generated_at": "2025-11-11T21:23:17.248143Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1998,7 +1998,7 @@
         "5859",
         "8112",
         "8110",
-        "8146",
+        "5012",
         "1945",
         "DEN"
       ],
@@ -2072,12 +2072,12 @@
           "keeper": true
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": true
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "1945",
@@ -2130,14 +2130,6 @@
           "keeper": false
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "6130",
           "name": "Devin Singletary",
           "position": "RB",
@@ -2168,6 +2160,14 @@
           "team": "NE",
           "injury_status": "Out",
           "keeper": false
+        },
+        {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": true
         }
       ],
       "keepers": [
