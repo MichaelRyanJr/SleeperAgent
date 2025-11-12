@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T08:33:55.050403Z",
+  "generated_at": "2025-11-12T08:59:08.681462Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2417,12 +2417,12 @@
       "starters_current": [
         "6797",
         "4034",
-        "6813",
+        "8132",
         "5045",
-        "8144",
+        "11627",
         "12498",
         "6806",
-        "4195",
+        "4227",
         "GB"
       ],
       "players_current": [
@@ -2432,13 +2432,13 @@
         "12501",
         "4033",
         "4034",
-        "4195",
         "4227",
         "5045",
         "6797",
         "6806",
         "6813",
         "7523",
+        "8132",
         "8144",
         "8154",
         "9500",
@@ -2462,12 +2462,12 @@
           "keeper": false
         },
         {
-          "player_id": "6813",
-          "name": "Jonathan Taylor",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "IND",
+          "team": "ATL",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "5045",
@@ -2478,10 +2478,10 @@
           "keeper": true
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "11627",
+          "name": "Troy Franklin",
           "position": "WR",
-          "team": "NO",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false
         },
@@ -2502,10 +2502,10 @@
           "keeper": true
         },
         {
-          "player_id": "4195",
-          "name": "Jake Elliott",
+          "player_id": "4227",
+          "name": "Harrison Butker",
           "position": "K",
-          "team": "PHI",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -2528,14 +2528,6 @@
           "keeper": false
         },
         {
-          "player_id": "11627",
-          "name": "Troy Franklin",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -2552,18 +2544,26 @@
           "keeper": false
         },
         {
-          "player_id": "4227",
-          "name": "Harrison Butker",
-          "position": "K",
-          "team": "KC",
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "7523",
           "name": "Trevor Lawrence",
           "position": "QB",
           "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -2594,14 +2594,6 @@
           "keeper": true
         },
         {
-          "player_id": "6813",
-          "name": "Jonathan Taylor",
-          "position": "RB",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -2615,6 +2607,14 @@
           "position": "RB",
           "team": "DEN",
           "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "injury_status": null,
           "keeper": true
         },
         {
