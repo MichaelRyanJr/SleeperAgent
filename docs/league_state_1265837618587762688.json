@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T19:52:24.400242Z",
+  "generated_at": "2025-11-12T20:27:38.557843Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -331,7 +331,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -614,7 +614,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1559,7 +1559,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1718,7 +1718,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2248,12 +2248,12 @@
       },
       "starters_current": [
         "4984",
-        "9753",
+        "8132",
         "3198",
         "5872",
-        "6819",
-        "5844",
-        "11628",
+        "6801",
+        "5022",
+        "4199",
         "6083",
         "HOU"
       ],
@@ -2285,10 +2285,10 @@
           "keeper": false
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "SEA",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -2309,27 +2309,27 @@
           "keeper": false
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "IND",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
           "position": "TE",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
           "team": "MIN",
           "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2351,6 +2351,14 @@
       ],
       "bench": [
         {
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "4098",
           "name": "Kareem Hunt",
           "position": "RB",
@@ -2359,26 +2367,10 @@
           "keeper": false
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
           "position": "TE",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2391,6 +2383,14 @@
           "keeper": false
         },
         {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
@@ -2399,10 +2399,10 @@
           "keeper": false
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "ATL",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         }
