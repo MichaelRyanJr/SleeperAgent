@@ -836,10 +836,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11628",
-        "name": "Marvin Harrison",
-        "position": "WR",
-        "team": "ARI",
+        "player_id": "12474",
+        "name": "Woody Marks",
+        "position": "RB",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -848,22 +848,29 @@
         "position": "K",
         "team": "SF",
         "injury_status": null
+      },
+      {
+        "player_id": "ATL",
+        "name": "Atlanta",
+        "position": "DEF",
+        "team": "ATL",
+        "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "11628",
+        "name": "Marvin Harrison",
+        "position": "WR",
+        "team": "ARI",
+        "injury_status": null
+      },
       {
         "player_id": "11638",
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
         "injury_status": "Questionable"
-      },
-      {
-        "player_id": "12474",
-        "name": "Woody Marks",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": null
       },
       {
         "player_id": "12485",
@@ -906,13 +913,6 @@
         "position": "TE",
         "team": "GB",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "ATL",
-        "name": "Atlanta",
-        "position": "DEF",
-        "team": "ATL",
-        "injury_status": null
       }
     ]
   },

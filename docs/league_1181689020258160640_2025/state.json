@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T16:33:54.627315Z",
+  "generated_at": "2025-11-12T16:59:13.590268Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1049,11 +1049,11 @@
         "8150",
         "7543",
         "7569",
-        "11628",
-        "12518",
-        "5892",
+        "7564",
+        "9481",
+        "12474",
         "5189",
-        "0"
+        "ATL"
       ],
       "players_current": [
         "11628",
@@ -1108,10 +1108,76 @@
           "keeper": true
         },
         {
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9481",
+          "name": "Luke Musgrave",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "ATL",
+          "name": "Atlanta",
+          "position": "DEF",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        }
+      ],
+      "bench": [
+        {
           "player_id": "11628",
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "12485",
+          "name": "Tez Johnson",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -1132,56 +1198,6 @@
           "keeper": true
         },
         {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false
-        }
-      ],
-      "bench": [
-        {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12485",
-          "name": "Tez Johnson",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -1190,28 +1206,12 @@
           "keeper": true
         },
         {
-          "player_id": "9481",
-          "name": "Luke Musgrave",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
           "team": "GB",
           "injury_status": "IR",
           "keeper": true
-        },
-        {
-          "player_id": "ATL",
-          "name": "Atlanta",
-          "position": "DEF",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -1232,19 +1232,19 @@
           "keeper": true
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "11638",
           "name": "Ricky Pearsall",
           "position": "WR",
           "team": "SF",
           "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
           "keeper": true
         },
         {
