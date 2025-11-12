@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T13:56:10.476308Z",
+  "generated_at": "2025-11-12T14:49:38.059515Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -804,14 +804,14 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11559",
+        "4046",
         "9509",
         "9753",
-        "7049",
+        "6786",
         "11620",
-        "12517",
-        "8676",
-        "0",
+        "8111",
+        "6801",
+        "11786",
         "LAR"
       ],
       "players_current": [
@@ -836,10 +836,10 @@
       ],
       "starters": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "ATL",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -860,12 +860,12 @@
           "keeper": true
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "SF",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "11620",
@@ -876,18 +876,26 @@
           "keeper": true
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "8111",
+          "name": "Cade Otton",
           "position": "TE",
-          "team": "CHI",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "SEA",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11786",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
@@ -902,10 +910,18 @@
       ],
       "bench": [
         {
-          "player_id": "11786",
-          "name": "Cam Little",
-          "position": "K",
-          "team": "JAX",
+          "player_id": "11559",
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
@@ -934,34 +950,10 @@
           "keeper": false
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
           "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8111",
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB",
+          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
@@ -972,6 +964,14 @@
           "team": "KC",
           "injury_status": "Questionable",
           "keeper": true
+        },
+        {
+          "player_id": "8676",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9502",
@@ -992,18 +992,18 @@
           "keeper": true
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
+          "injury_status": null,
+          "keeper": true
+        },
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true
         },
