@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T23:23:13.554689Z",
+  "generated_at": "2025-11-12T23:41:13.871554Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -812,16 +812,14 @@
         "8111",
         "6801",
         "11786",
-        "LAR"
+        "KC"
       ],
       "players_current": [
-        "11559",
         "11620",
         "11786",
         "12517",
         "12530",
         "12533",
-        "12540",
         "4046",
         "6786",
         "6801",
@@ -832,6 +830,8 @@
         "9502",
         "9509",
         "9753",
+        "9758",
+        "KC",
         "LAR"
       ],
       "starters": [
@@ -900,23 +900,15 @@
           "keeper": false
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "LAR",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "11559",
-          "name": "Michael Penix",
-          "position": "QB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "12517",
           "name": "Colston Loveland",
@@ -938,14 +930,6 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12540",
-          "name": "Chimere Dike",
-          "position": "WR",
-          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -980,6 +964,22 @@
           "team": "HOU",
           "injury_status": "PUP",
           "keeper": true
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
+          "player_id": "LAR",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
