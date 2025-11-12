@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T11:53:37.336631Z",
+  "generated_at": "2025-11-12T12:52:47.040026Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -103,10 +103,10 @@
         "8228",
         "12529",
         "9488",
-        "2449",
-        "10859",
         "12514",
-        "0",
+        "10859",
+        "2449",
+        "3451",
         "NE"
       ],
       "players_current": [
@@ -162,10 +162,10 @@
           "keeper": true
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "NE",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         },
@@ -178,11 +178,19 @@
           "keeper": true
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "TB",
+          "team": "NE",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "3451",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -217,14 +225,6 @@
           "position": "RB",
           "team": "LAC",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "3451",
-          "name": "Ka'imi Fairbairn",
-          "position": "K",
-          "team": "HOU",
-          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1053,7 +1053,7 @@
         "12518",
         "5892",
         "5189",
-        "CLE"
+        "0"
       ],
       "players_current": [
         "11628",
@@ -1072,7 +1072,7 @@
         "8151",
         "9481",
         "9484",
-        "CLE"
+        "ATL"
       ],
       "starters": [
         {
@@ -1136,14 +1136,6 @@
           "name": "Eddy Pineiro",
           "position": "K",
           "team": "SF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
           "injury_status": null,
           "keeper": false
         }
@@ -1212,6 +1204,14 @@
           "team": "GB",
           "injury_status": "IR",
           "keeper": true
+        },
+        {
+          "player_id": "ATL",
+          "name": "Atlanta",
+          "position": "DEF",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
