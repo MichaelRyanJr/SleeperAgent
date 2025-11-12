@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T16:59:08.469682Z",
+  "generated_at": "2025-11-12T17:29:05.060609Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1507,7 +1507,7 @@
         "8112",
         "10229",
         "12506",
-        "12489",
+        "6786",
         "5095",
         "GB"
       ],
@@ -1579,10 +1579,10 @@
           "keeper": false
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1621,6 +1621,14 @@
           "keeper": false
         },
         {
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12534",
           "name": "Kyle Monangai",
           "position": "RB",
@@ -1633,14 +1641,6 @@
           "name": "Darius Slayton",
           "position": "WR",
           "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
-          "position": "WR",
-          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -2329,7 +2329,7 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false
         },
         {
