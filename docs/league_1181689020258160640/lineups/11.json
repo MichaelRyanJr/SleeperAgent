@@ -23,7 +23,7 @@
         "name": "TreVeyon Henderson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9488",
@@ -51,13 +51,6 @@
         "name": "Stefon Diggs",
         "position": "WR",
         "team": "NE",
-        "injury_status": null
-      },
-      {
-        "player_id": "3678",
-        "name": "Wil Lutz",
-        "position": "K",
-        "team": "DEN",
         "injury_status": null
       },
       {
@@ -89,6 +82,13 @@
         "position": "RB",
         "team": "LAC",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "3451",
+        "name": "Ka'imi Fairbairn",
+        "position": "K",
+        "team": "HOU",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4943",
@@ -182,13 +182,6 @@
         "injury_status": null
       },
       {
-        "player_id": "5230",
-        "name": "Michael Badgley",
-        "position": "K",
-        "team": "IND",
-        "injury_status": null
-      },
-      {
         "player_id": "LAR",
         "name": "Los Angeles",
         "position": "DEF",
@@ -202,6 +195,13 @@
         "name": "Michael Penix",
         "position": "QB",
         "team": "ATL",
+        "injury_status": null
+      },
+      {
+        "player_id": "11786",
+        "name": "Cam Little",
+        "position": "K",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -244,7 +244,7 @@
         "name": "Isiah Pacheco",
         "position": "RB",
         "team": "KC",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8676",
@@ -351,7 +351,7 @@
         "name": "Brian Thomas",
         "position": "WR",
         "team": "JAX",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11632",
@@ -379,14 +379,14 @@
         "name": "Tory Horton",
         "position": "WR",
         "team": "SEA",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12508",
         "name": "Jaxson Dart",
         "position": "QB",
         "team": "NYG",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12534",
@@ -431,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8144",
-        "name": "Chris Olave",
+        "player_id": "11627",
+        "name": "Troy Franklin",
         "position": "WR",
-        "team": "NO",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -452,10 +452,10 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "4195",
-        "name": "Jake Elliott",
+        "player_id": "4227",
+        "name": "Harrison Butker",
         "position": "K",
-        "team": "PHI",
+        "team": "KC",
         "injury_status": null
       },
       {
@@ -475,18 +475,11 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "11627",
-        "name": "Troy Franklin",
-        "position": "WR",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
         "player_id": "12501",
         "name": "Matthew Golden",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4033",
@@ -496,10 +489,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4227",
-        "name": "Harrison Butker",
+        "player_id": "4195",
+        "name": "Jake Elliott",
         "position": "K",
-        "team": "KC",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -507,6 +500,13 @@
         "name": "Trevor Lawrence",
         "position": "QB",
         "team": "JAX",
+        "injury_status": null
+      },
+      {
+        "player_id": "8144",
+        "name": "Chris Olave",
+        "position": "WR",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -600,7 +600,7 @@
         "name": "Bucky Irving",
         "position": "RB",
         "team": "TB",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "12476",
@@ -628,14 +628,14 @@
         "name": "Chris Godwin",
         "position": "WR",
         "team": "TB",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "4983",
         "name": "DJ Moore",
         "position": "WR",
         "team": "CHI",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "5849",
@@ -863,7 +863,7 @@
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12474",
@@ -961,7 +961,7 @@
         "name": "Dalton Kincaid",
         "position": "TE",
         "team": "BUF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7525",
@@ -1033,7 +1033,7 @@
         "name": "Kayshon Boutte",
         "position": "WR",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9754",
@@ -1234,13 +1234,6 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "6650",
-        "name": "Chase McLaughlin",
-        "position": "K",
-        "team": "TB",
-        "injury_status": null
-      },
-      {
         "player_id": "DET",
         "name": "Detroit",
         "position": "DEF",
@@ -1289,6 +1282,13 @@
         "name": "Baker Mayfield",
         "position": "QB",
         "team": "TB",
+        "injury_status": null
+      },
+      {
+        "player_id": "4988",
+        "name": "Nick Chubb",
+        "position": "RB",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -1427,25 +1427,25 @@
         "injury_status": null
       },
       {
-        "player_id": "7607",
-        "name": "Michael Carter",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": null
-      },
-      {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8146",
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
+      },
+      {
+        "player_id": "BAL",
+        "name": "Baltimore",
+        "position": "DEF",
+        "team": "BAL",
+        "injury_status": null
       }
     ]
   },
@@ -1559,7 +1559,7 @@
         "name": "Brock Purdy",
         "position": "QB",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9756",
