@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-13T20:27:39.982611Z",
+  "generated_at": "2025-11-13T20:45:35.845441Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2028,7 +2028,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2414,12 +2414,13 @@
         "5045",
         "11627",
         "12498",
-        "6806",
+        "11610",
         "4227",
         "GB"
       ],
       "players_current": [
         "10222",
+        "11610",
         "11627",
         "12498",
         "12501",
@@ -2433,7 +2434,6 @@
         "7523",
         "8132",
         "8144",
-        "8154",
         "9500",
         "GB"
       ],
@@ -2487,12 +2487,12 @@
           "keeper": false
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": "Questionable",
-          "keeper": true
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "4227",
@@ -2537,6 +2537,14 @@
           "keeper": false
         },
         {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": "Questionable",
+          "keeper": true
+        },
+        {
           "player_id": "6813",
           "name": "Jonathan Taylor",
           "position": "RB",
@@ -2557,14 +2565,6 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8154",
-          "name": "Brian Robinson",
-          "position": "RB",
-          "team": "SF",
           "injury_status": null,
           "keeper": false
         },
