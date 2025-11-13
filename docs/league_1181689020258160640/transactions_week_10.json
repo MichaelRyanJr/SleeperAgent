@@ -53,6 +53,45 @@
   },
   {
     "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "poll_id": "1294136787198832640",
+      "veto_msg_id": "1294136787278528512"
+    },
+    "created": 1762908717271,
+    "settings": null,
+    "leg": 10,
+    "draft_picks": [
+      {
+        "round": 6,
+        "season": "2026",
+        "league_id": null,
+        "roster_id": 1,
+        "owner_id": 5,
+        "previous_owner_id": 1
+      }
+    ],
+    "creator": "992551957615198208",
+    "transaction_id": "1294136594269208576",
+    "adds": {
+      "5892": 1
+    },
+    "drops": {
+      "5892": 5
+    },
+    "consenter_ids": [
+      1,
+      5
+    ],
+    "roster_ids": [
+      1,
+      5
+    ],
+    "status_updated": 1763001467849,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
     "type": "waiver",
     "metadata": {
       "notes": "Your waiver claim was processed successfully!"
@@ -78,6 +117,47 @@
       9
     ],
     "status_updated": 1762935215506,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "poll_id": "1294074706202206208",
+      "veto_msg_id": "1294074706286088192"
+    },
+    "created": 1762893894149,
+    "settings": null,
+    "leg": 10,
+    "draft_picks": [
+      {
+        "round": 1,
+        "season": "2026",
+        "league_id": null,
+        "roster_id": 7,
+        "owner_id": 10,
+        "previous_owner_id": 7
+      }
+    ],
+    "creator": "866098578773393408",
+    "transaction_id": "1294074421593505792",
+    "adds": {
+      "1479": 10,
+      "7547": 7
+    },
+    "drops": {
+      "1479": 7,
+      "7547": 10
+    },
+    "consenter_ids": [
+      7,
+      10
+    ],
+    "roster_ids": [
+      7,
+      10
+    ],
+    "status_updated": 1763001462335,
     "waiver_budget": []
   },
   {

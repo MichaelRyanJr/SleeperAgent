@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-13T01:56:42.485476Z",
+  "generated_at": "2025-11-13T03:19:43.795298Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -121,6 +121,7 @@
         "4943",
         "4984",
         "5022",
+        "5892",
         "5927",
         "7042",
         "8228",
@@ -240,6 +241,14 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1064,7 +1073,7 @@
         "12518",
         "4881",
         "5189",
-        "5892",
+        "6768",
         "7543",
         "7564",
         "7569",
@@ -1190,12 +1199,12 @@
           "keeper": false
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
+          "player_id": "6768",
+          "name": "Tua Tagovailoa",
+          "position": "QB",
+          "team": "MIA",
           "injury_status": null,
-          "keeper": true
+          "keeper": false
         },
         {
           "player_id": "8151",
@@ -1237,14 +1246,6 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "Questionable",
-          "keeper": true
-        },
-        {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
           "keeper": true
         },
         {
@@ -1521,20 +1522,18 @@
         "4892",
         "9221",
         "12527",
-        "1479",
+        "7547",
         "8137",
         "5001",
         "8121",
         "11533",
-        "DET"
+        "SF"
       ],
       "players_current": [
         "11533",
         "11563",
         "12527",
-        "1479",
         "2505",
-        "3214",
         "3294",
         "4035",
         "4892",
@@ -1542,11 +1541,13 @@
         "5001",
         "6803",
         "6819",
+        "7547",
         "8121",
         "8137",
         "8142",
         "9221",
-        "DET"
+        "DET",
+        "SF"
       ],
       "starters": [
         {
@@ -1574,10 +1575,10 @@
           "keeper": false
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "LAC",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         },
@@ -1614,10 +1615,10 @@
           "keeper": true
         },
         {
-          "player_id": "DET",
-          "name": "Detroit",
+          "player_id": "SF",
+          "name": "San Francisco",
           "position": "DEF",
-          "team": "DET",
+          "team": "SF",
           "injury_status": null,
           "keeper": false
         }
@@ -1637,14 +1638,6 @@
           "position": "TE",
           "team": "MIA",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1692,6 +1685,14 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "DET",
+          "name": "Detroit",
+          "position": "DEF",
+          "team": "DET",
           "injury_status": null,
           "keeper": false
         }
@@ -2212,7 +2213,7 @@
         "11199",
         "4199",
         "5872",
-        "7547",
+        "0",
         "7553",
         "6794",
         "11539",
@@ -2222,12 +2223,12 @@
         "11199",
         "11539",
         "11637",
+        "1479",
         "4144",
         "4199",
         "5872",
         "5967",
         "6794",
-        "7547",
         "7553",
         "8143",
         "8148",
@@ -2270,14 +2271,6 @@
           "keeper": false
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
-        {
           "player_id": "7553",
           "name": "Kyle Pitts",
           "position": "TE",
@@ -2316,6 +2309,14 @@
           "name": "Keon Coleman",
           "position": "WR",
           "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -2369,14 +2370,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true
-        },
         {
           "player_id": "7553",
           "name": "Kyle Pitts",
