@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T23:53:53.008063Z",
+  "generated_at": "2025-11-13T01:56:42.485476Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -407,7 +407,7 @@
           "name": "Parker Washington",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -489,7 +489,7 @@
           "name": "Oronde Gadsden",
           "position": "TE",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1287,11 +1287,11 @@
       "starters_current": [
         "3163",
         "4866",
-        "12469",
+        "9224",
         "11635",
-        "7571",
-        "1339",
         "5947",
+        "1339",
+        "5844",
         "12711",
         "CHI"
       ],
@@ -1333,27 +1333,27 @@
           "keeper": false
         },
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "CLE",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": true
         },
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
+          "team": "JAX",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1365,10 +1365,10 @@
           "keeper": false
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -1407,6 +1407,14 @@
           "keeper": false
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -1431,14 +1439,6 @@
           "keeper": true
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5995",
           "name": "Justice Hill",
           "position": "RB",
@@ -1455,21 +1455,29 @@
           "keeper": true
         },
         {
+          "player_id": "7571",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": false
+        }
+      ],
+      "keepers": [
+        {
           "player_id": "9224",
           "name": "Chase Brown",
           "position": "RB",
           "team": "CIN",
           "injury_status": null,
           "keeper": true
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true
         },
         {
@@ -1486,14 +1494,6 @@
           "position": "QB",
           "team": "CIN",
           "injury_status": "IR",
-          "keeper": true
-        },
-        {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
-          "injury_status": null,
           "keeper": true
         }
       ]
@@ -1916,7 +1916,7 @@
           "name": "Quentin Johnston",
           "position": "WR",
           "team": "LAC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],

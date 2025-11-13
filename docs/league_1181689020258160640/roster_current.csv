@@ -20,7 +20,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,2,12489,RJ Harvey,RB,DEN,,1,0
 2,3,12512,Quinshon Judkins,RB,CLE,,1,0
 2,4,9493,Puka Nacua,WR,LAR,,1,1
-2,5,9487,Parker Washington,WR,JAX,,1,0
+2,5,9487,Parker Washington,WR,JAX,Questionable,1,0
 2,6,11604,Brock Bowers,TE,LV,,1,1
 2,7,9226,De'Von Achane,RB,MIA,,1,1
 2,8,11792,Will Reichard,K,MIN,,1,0
@@ -30,7 +30,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,,11631,Brian Thomas,WR,JAX,Questionable,0,1
 2,,11632,Malik Nabers,WR,NYG,IR,0,1
 2,,12490,Bhayshul Tuten,RB,JAX,,0,0
-2,,12493,Oronde Gadsden,TE,LAC,Questionable,0,0
+2,,12493,Oronde Gadsden,TE,LAC,,0,0
 2,,12497,Tory Horton,WR,SEA,Questionable,0,0
 2,,12508,Jaxson Dart,QB,NYG,Questionable,0,0
 2,,12534,Kyle Monangai,RB,CHI,,0,0
@@ -88,22 +88,22 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,,9484,Tucker Kraft,TE,GB,IR,0,1
 6,1,3163,Jared Goff,QB,DET,,1,0
 6,2,4866,Saquon Barkley,RB,PHI,,1,0
-6,3,12469,Dylan Sampson,RB,CLE,,1,0
-6,4,11635,Ladd McConkey,WR,LAC,,1,1
-6,5,7571,Rashod Bateman,WR,BAL,Questionable,1,0
+6,3,9224,Chase Brown,RB,CIN,,1,1
+6,4,11635,Ladd McConkey,WR,LAC,Questionable,1,1
+6,5,5947,Jakobi Meyers,WR,JAX,,1,0
 6,6,1339,Zach Ertz,TE,WAS,,1,0
-6,7,5947,Jakobi Meyers,WR,JAX,,1,0
+6,7,5844,T.J. Hockenson,TE,MIN,,1,0
 6,8,12711,Tyler Loop,K,BAL,,1,0
 6,9,CHI,Chicago,DEF,CHI,,1,0
 6,,11565,J.J. McCarthy,QB,MIN,Questionable,0,0
 6,,11571,Isaiah Davis,RB,NYJ,,0,0
+6,,12469,Dylan Sampson,RB,CLE,,0,0
 6,,12519,Luther Burden,WR,CHI,,0,0
 6,,3321,Tyreek Hill,WR,MIA,IR,0,0
 6,,4137,James Conner,RB,ARI,IR,0,1
-6,,5844,T.J. Hockenson,TE,MIN,,0,0
 6,,5995,Justice Hill,RB,BAL,Questionable,0,0
 6,,6770,Joe Burrow,QB,CIN,IR,0,1
-6,,9224,Chase Brown,RB,CIN,,0,1
+6,,7571,Rashod Bateman,WR,BAL,Questionable,0,0
 7,1,4892,Baker Mayfield,QB,TB,,1,1
 7,2,9221,Jahmyr Gibbs,RB,DET,,1,1
 7,3,12527,Ashton Jeanty,RB,LV,,1,0
@@ -138,7 +138,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,,4098,Kareem Hunt,RB,KC,,0,0
 8,,7594,Chuba Hubbard,RB,CAR,,0,1
 8,,9504,Kayshon Boutte,WR,NE,Out,0,0
-8,,9754,Quentin Johnston,WR,LAC,,0,0
+8,,9754,Quentin Johnston,WR,LAC,Questionable,0,0
 9,1,6904,Jalen Hurts,QB,PHI,,1,0
 9,2,6790,D'Andre Swift,RB,CHI,Questionable,1,0
 9,3,9508,Tyjae Spears,RB,TEN,,1,0
