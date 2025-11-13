@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-13T18:34:44.306758Z",
+  "generated_at": "2025-11-13T18:56:50.108450Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1121,11 +1121,11 @@
       "starters_current": [
         "7523",
         "9221",
-        "6790",
+        "9224",
         "9488",
-        "10213",
-        "11604",
         "8134",
+        "11604",
+        "6790",
         "2747",
         "DEN"
       ],
@@ -1166,11 +1166,11 @@
           "keeper": false
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1182,11 +1182,11 @@
           "keeper": false
         },
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "LV",
-          "injury_status": null,
+          "team": "BUF",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1198,10 +1198,10 @@
           "keeper": false
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
           "injury_status": "Questionable",
           "keeper": false
         },
@@ -1223,6 +1223,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11566",
           "name": "Jayden Daniels",
@@ -1269,14 +1277,6 @@
           "position": "QB",
           "team": "SF",
           "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
-          "injury_status": null,
           "keeper": false
         },
         {
