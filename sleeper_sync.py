@@ -2,7 +2,7 @@
 """
 Sleeper League Sync (normalized outputs + keeper-aware)
 ------------------------------------------------------
-Pulls essential data for a Sleeper league and emits a compact, ChatGPT‑friendly export.
+Pulls essential data for a Sleeper league and emits a compact, ChatGPT-friendly export.
 In addition to the single-file summary, this version writes a *normalized API* per run:
 
 Inside the run folder (e.g., docs/league_<ID>_auto/):
@@ -15,7 +15,13 @@ Inside the run folder (e.g., docs/league_<ID>_auto/):
   - lineups/<week>.json   → per-week starters/bench for each roster (humanized)
   - drafts.json           → list of drafts
   - draft_picks.json      → picks across drafts (used for keeper detection)
-  - teams.csv, roster_current.csv, schedule_weekly.csv → convenience CSVs
+
+New in this version:
+  - draft_round is attached to every player in starters/bench/keepers based on
+    the current-season draft picks. For a player drafted in round N, you'll see:
+        "draft_round": N
+    in their player objects (including the keepers list). This is what ChatGPT
+    will use as the keeper round cost.
 
 Usage
 ------
@@ -139,7 +145,7 @@ def pull_league_bundle(league_id: str,
     rosters = http_get_json(league_rosters_url(league_id))
     (outdir / "rosters.json").write_text(json.dumps(rosters, indent=2), encoding="utf-8")
 
-    # 3) Drafts & picks (for keepers)
+    # 3) Drafts & picks (for keepers + draft_round mapping)
     drafts = http_get_json(league_drafts_url(league_id))
     (outdir / "drafts.json").write_text(json.dumps(drafts, indent=2), encoding="utf-8")
 
@@ -151,6 +157,22 @@ def pull_league_bundle(league_id: str,
             all_picks.extend(picks)
     if all_picks:
         (outdir / "draft_picks.json").write_text(json.dumps(all_picks, indent=2), encoding="utf-8")
+
+    # Map player_id -> earliest draft round this season
+    player_draft_round: Dict[str, int] = {}
+    for p in all_picks or []:
+        pid = str(p.get("player_id") or "")
+        rnd = p.get("round")
+        if not pid or rnd is None:
+            continue
+        try:
+            rnd_i = int(rnd)
+        except (TypeError, ValueError):
+            continue
+        # If multiple drafts exist, keep the earliest (smallest) round
+        prev = player_draft_round.get(pid)
+        if prev is None or rnd_i < prev:
+            player_draft_round[pid] = rnd_i
 
     keeper_map = detect_keepers_from_picks(all_picks)
 
@@ -218,8 +240,18 @@ def pull_league_bundle(league_id: str,
                 }
         (outdir / "players_min.json").write_text(json.dumps(players_min, indent=2), encoding="utf-8")
 
-    # 7) Build tidy summary (keeper-aware)
-    summary = build_summary(league, users, rosters, matchups_by_week, players_min, season, keeper_map)
+    # 7) Build tidy summary (keeper-aware + draft_round aware)
+    summary = build_summary(
+        league=league,
+        users=users,
+        rosters=rosters,
+        matchups_by_week=matchups_by_week,
+        players_min=players_min,
+        season=season,
+        keeper_map=keeper_map,
+        player_draft_round=player_draft_round,
+    )
+
     # Normalized outputs
     (outdir / "state.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (outdir / "league_state.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
@@ -337,7 +369,18 @@ def build_summary(league: Dict[str, Any],
                   matchups_by_week: Dict[int, Any],
                   players_min: Dict[str, Dict[str, Any]],
                   season: int,
-                  keeper_map: Dict[str, Set[str]]) -> Dict[str, Any]:
+                  keeper_map: Dict[str, Set[str]],
+                  player_draft_round: Optional[Dict[str, int]] = None) -> Dict[str, Any]:
+    """
+    Build the main league_state summary.
+
+    keeper_map: mapping {user_id -> set(player_id)} from draft picks metadata.
+    player_draft_round: mapping {player_id -> round} from current season draft.
+                        Used to attach "draft_round" to each player.
+    """
+    if player_draft_round is None:
+        player_draft_round = {}
+
     user_idx = index_users(users)
     roster_idx = index_rosters(rosters)
 
@@ -398,7 +441,7 @@ def build_summary(league: Dict[str, Any],
             schedule.append({"week": int(week), "roster_id": ra, "opponent_roster_id": rb, "points": pa, "result": res_a})
             schedule.append({"week": int(week), "roster_id": rb, "opponent_roster_id": ra, "points": pb, "result": res_b})
 
-    # Helper to humanize + keeper-tag
+    # Helper to humanize + later add keeper/draft_round
     def humanize(pid: str) -> Dict[str, Any]:
         if str(pid) == "0":
             return None
@@ -420,10 +463,17 @@ def build_summary(league: Dict[str, Any],
         bench_h = [humanize(p) for p in (t.get("players_current") or []) if p not in (t.get("starters_current") or [])]
         bench_h = [p for p in bench_h if p is not None]
 
+        # Attach keeper + draft_round flags
         for p in starters_h:
-            p["keeper"] = p["player_id"] in owner_keeper_ids
+            pid = p.get("player_id")
+            p["keeper"] = pid in owner_keeper_ids
+            if pid in player_draft_round:
+                p["draft_round"] = player_draft_round[pid]
         for p in bench_h:
-            p["keeper"] = p["player_id"] in owner_keeper_ids
+            pid = p.get("player_id")
+            p["keeper"] = pid in owner_keeper_ids
+            if pid in player_draft_round:
+                p["draft_round"] = player_draft_round[pid]
 
         keepers_list = [p for p in (starters_h + bench_h) if p.get("keeper")]
 
