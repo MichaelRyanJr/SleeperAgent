@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T14:55:01.647028Z",
+  "generated_at": "2025-11-14T15:22:44.197678Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -106,7 +106,7 @@
         "12514",
         "10859",
         "2449",
-        "3451",
+        "6650",
         "NE"
       ],
       "players_current": [
@@ -117,12 +117,12 @@
         "12514",
         "12529",
         "2449",
-        "3451",
         "4943",
         "4984",
         "5022",
         "5892",
         "5927",
+        "6650",
         "7042",
         "8228",
         "8408",
@@ -194,12 +194,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "3451",
-          "name": "Ka'imi Fairbairn",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": false
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "NE",
@@ -370,11 +371,11 @@
       "starters_current": [
         "11564",
         "12489",
-        "12512",
+        "0",
         "9493",
         "9487",
         "11604",
-        "9226",
+        "0",
         "11792",
         "SEA"
       ],
@@ -390,12 +391,11 @@
         "12490",
         "12493",
         "12497",
-        "12508",
-        "12512",
         "12534",
-        "9226",
+        "4866",
         "9487",
         "9493",
+        "9509",
         "SEA"
       ],
       "starters": [
@@ -413,15 +413,6 @@
           "name": "RJ Harvey",
           "position": "RB",
           "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
@@ -451,15 +442,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         },
         {
           "player_id": "11792",
@@ -543,20 +525,30 @@
           "draft_round": 15
         },
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
           "player_id": "12534",
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         }
       ],
       "keepers": [
@@ -577,15 +569,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         },
         {
           "player_id": "11631",
@@ -868,7 +851,7 @@
       },
       "starters_current": [
         "4046",
-        "9509",
+        "9226",
         "9753",
         "6786",
         "6801",
@@ -880,6 +863,7 @@
       "players_current": [
         "11620",
         "11786",
+        "12508",
         "12517",
         "12530",
         "12533",
@@ -890,10 +874,9 @@
         "8111",
         "8205",
         "8676",
+        "9226",
         "9502",
-        "9509",
         "9753",
-        "9758",
         "KC",
         "LAR"
       ],
@@ -908,13 +891,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
+          "player_id": "9226",
+          "name": "De'Von Achane",
           "position": "RB",
-          "team": "ATL",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 13
         },
         {
           "player_id": "9753",
@@ -981,6 +964,14 @@
       ],
       "bench": [
         {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1042,15 +1033,6 @@
           "injury_status": "PUP",
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "LAR",
@@ -1379,7 +1361,7 @@
       },
       "starters_current": [
         "3163",
-        "4866",
+        "0",
         "9224",
         "11635",
         "5947",
@@ -1393,13 +1375,13 @@
         "11571",
         "11635",
         "12469",
+        "12512",
         "12519",
         "12711",
         "1339",
         "3163",
         "3321",
         "4137",
-        "4866",
         "5844",
         "5947",
         "5995",
@@ -1417,15 +1399,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "9224",
@@ -1516,6 +1489,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12519",
