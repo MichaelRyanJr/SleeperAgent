@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T18:56:51.182132Z",
+  "generated_at": "2025-11-14T19:21:44.706922Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1876,7 +1876,7 @@
         "8138",
         "2133",
         "9997",
-        "10236",
+        "4066",
         "7525",
         "2747",
         "LAC"
@@ -1945,13 +1945,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
+          "player_id": "4066",
+          "name": "Evan Engram",
           "position": "TE",
-          "team": "BUF",
-          "injury_status": "Out",
+          "team": "DEN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 4
         },
         {
           "player_id": "7525",
@@ -1982,6 +1982,15 @@
       ],
       "bench": [
         {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -2006,15 +2015,6 @@
           "injury_status": "PUP",
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "4066",
-          "name": "Evan Engram",
-          "position": "TE",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
         },
         {
           "player_id": "4098",
