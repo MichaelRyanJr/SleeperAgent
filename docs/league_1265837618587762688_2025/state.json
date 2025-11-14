@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T16:31:46.981812Z",
+  "generated_at": "2025-11-14T16:57:22.789167Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1182,7 +1182,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7523",
+        "8183",
         "9221",
         "9224",
         "9488",
@@ -1213,13 +1213,13 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "8183",
+          "name": "Brock Purdy",
           "position": "QB",
-          "team": "JAX",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 10
         },
         {
           "player_id": "9221",
@@ -1336,6 +1336,15 @@
           "keeper": false
         },
         {
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
+        },
+        {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
@@ -1343,15 +1352,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
-        },
-        {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "9480",
@@ -1698,7 +1698,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 11
         },
