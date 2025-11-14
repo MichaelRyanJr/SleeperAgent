@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T15:55:18.270073Z",
+  "generated_at": "2025-11-14T16:31:51.408593Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -370,12 +370,12 @@
       },
       "starters_current": [
         "11564",
-        "12489",
-        "0",
+        "4866",
+        "9509",
         "9493",
         "9487",
         "11604",
-        "0",
+        "12489",
         "11792",
         "SEA"
       ],
@@ -396,6 +396,7 @@
         "9487",
         "9493",
         "9509",
+        "CAR",
         "SEA"
       ],
       "starters": [
@@ -409,13 +410,22 @@
           "draft_round": 8
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "DEN",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 1
+        },
+        {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "9493",
@@ -442,6 +452,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "11792",
@@ -533,22 +552,12 @@
           "keeper": false
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "CAR",
+          "name": "Carolina",
+          "position": "DEF",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1252,7 +1261,7 @@
           "name": "Ollie Gordon",
           "position": "RB",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 16
         },
