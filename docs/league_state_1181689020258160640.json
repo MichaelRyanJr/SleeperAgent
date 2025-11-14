@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T22:54:47.054141Z",
+  "generated_at": "2025-11-14T23:22:01.873749Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -104,7 +104,7 @@
         "12529",
         "9488",
         "12514",
-        "10859",
+        "12506",
         "2449",
         "6650",
         "NE"
@@ -176,13 +176,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
+          "player_id": "12506",
+          "name": "Harold Fannin",
           "position": "TE",
-          "team": "DET",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 14
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "2449",
@@ -213,6 +212,15 @@
       ],
       "bench": [
         {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -220,14 +228,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "12507",
