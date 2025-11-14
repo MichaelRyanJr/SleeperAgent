@@ -1,0 +1,6 @@
+# SleeperAgent export
+
+built_at: 2025-11-14T01:28:05.571101+00:00
+
+- Grub from the Fantasy (ID 1181689020258160640) — [state.json](league_1181689020258160640/state.json) | [HTML mirror](league_state_1181689020258160640.html) | [teams](league_1181689020258160640/teams.json) | [schedule](league_1181689020258160640/schedule.json) | [transactions](league_1181689020258160640/transactions.json) | [players_min](league_1181689020258160640/players_min.json) | [manifest](league_1181689020258160640/manifest.json) | [diff](league_1181689020258160640/diff.json) | [draft](draft_1181689020258160640.json) | [keeper_costs](keeper_costs_1181689020258160640.json) — generated_at: 2025-11-14T01:28:04.725912Z
+- Ryan Fantasy Football (ID 1265837618587762688) — [state.json](league_1265837618587762688/state.json) | [HTML mirror](league_state_1265837618587762688.html) | [teams](league_1265837618587762688/teams.json) | [schedule](league_1265837618587762688/schedule.json) | [transactions](league_1265837618587762688/transactions.json) | [players_min](league_1265837618587762688/players_min.json) | [manifest](league_1265837618587762688/manifest.json) | [diff](league_1265837618587762688/diff.json) | [draft](draft_1265837618587762688.json) — generated_at: 2025-11-14T01:27:58.786962Z

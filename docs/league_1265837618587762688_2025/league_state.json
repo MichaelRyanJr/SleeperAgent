@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-13T23:53:12.435553Z",
+  "generated_at": "2025-11-14T01:27:58.786962Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1276,7 +1276,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1318,7 +1318,7 @@
         "12493",
         "12485",
         "1945",
-        "BUF"
+        "KC"
       ],
       "players_current": [
         "11199",
@@ -1337,7 +1337,7 @@
         "7564",
         "8142",
         "9487",
-        "BUF"
+        "KC"
       ],
       "starters": [
         {
@@ -1405,10 +1405,10 @@
           "keeper": false
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo",
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "BUF",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         }
@@ -1688,7 +1688,7 @@
         "8138",
         "6794",
         "7526",
-        "12517",
+        "8110",
         "9997",
         "6650",
         "CHI"
@@ -1754,10 +1754,10 @@
           "keeper": false
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
           "position": "TE",
-          "team": "CHI",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1804,6 +1804,14 @@
           "keeper": false
         },
         {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "1433",
           "name": "Brandon McManus",
           "position": "K",
@@ -1825,14 +1833,6 @@
           "position": "RB",
           "team": "NE",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1879,7 +1879,7 @@
         "12512",
         "2133",
         "11620",
-        "5001",
+        "12498",
         "10232",
         "4227",
         "NE"
@@ -1891,12 +1891,12 @@
         "11625",
         "11631",
         "12476",
+        "12498",
         "12512",
         "12518",
         "2133",
         "421",
         "4227",
-        "5001",
         "6783",
         "7591",
         "9509",
@@ -1945,11 +1945,11 @@
           "keeper": false
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
-          "team": "HOU",
-          "injury_status": "Questionable",
+          "team": "NYJ",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -3298,28 +3298,28 @@
       "roster_id": 4,
       "opponent_roster_id": 10,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 11,
       "roster_id": 10,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 11.1,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 5,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 10.0,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 11,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 1.6,
+      "result": "L"
     },
     {
       "week": 11,
