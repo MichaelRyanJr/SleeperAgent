@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T22:23:29.072612Z",
+  "generated_at": "2025-11-14T22:42:41.920512Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1621,7 +1621,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4892",
+        "3294",
         "9221",
         "12527",
         "7547",
@@ -1653,13 +1653,13 @@
       ],
       "starters": [
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
+          "player_id": "3294",
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "TB",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "9221",
@@ -1750,15 +1750,6 @@
           "keeper": false
         },
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
-          "position": "QB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
-        },
-        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
@@ -1766,6 +1757,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "4988",
@@ -1814,15 +1814,6 @@
       ],
       "keepers": [
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
           "player_id": "9221",
           "name": "Jahmyr Gibbs",
           "position": "RB",
@@ -1848,6 +1839,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         }
       ]
     },
@@ -2716,7 +2716,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 9
         },
@@ -2781,7 +2781,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 9
         },
