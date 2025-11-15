@@ -6543,6 +6543,36 @@
   {
     "week": 11,
     "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1763071788663,
+    "settings": {
+      "seq": 0
+    },
+    "leg": 11,
+    "draft_picks": [],
+    "creator": "866098578773393408",
+    "transaction_id": "1294820565260980224",
+    "adds": {
+      "8154": 7
+    },
+    "drops": {
+      "4988": 7
+    },
+    "consenter_ids": [
+      7
+    ],
+    "roster_ids": [
+      7
+    ],
+    "status_updated": 1763235793671,
+    "waiver_budget": []
+  },
+  {
+    "week": 11,
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1763066090663,
