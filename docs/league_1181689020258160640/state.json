@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-15T13:14:05.684897Z",
+  "generated_at": "2025-11-15T13:35:57.505403Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1643,12 +1643,12 @@
         "5001",
         "6803",
         "6819",
+        "7002",
         "7547",
         "8121",
         "8137",
         "8142",
         "9221",
-        "DET",
         "SF"
       ],
       "starters": [
@@ -1795,21 +1795,20 @@
           "draft_round": 8
         },
         {
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "DET",
-          "name": "Detroit",
-          "position": "DEF",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         }
       ],
       "keepers": [
