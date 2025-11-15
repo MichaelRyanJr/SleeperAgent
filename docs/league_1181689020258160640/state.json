@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-15T21:19:24.552301Z",
+  "generated_at": "2025-11-15T21:38:34.315007Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -104,7 +104,7 @@
         "12529",
         "9488",
         "12514",
-        "12506",
+        "5022",
         "2449",
         "6650",
         "NE"
@@ -126,6 +126,7 @@
         "8228",
         "8408",
         "9488",
+        "9511",
         "NE"
       ],
       "starters": [
@@ -175,12 +176,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
           "position": "TE",
-          "team": "CLE",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "2449",
@@ -215,7 +217,7 @@
           "name": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
         },
@@ -227,6 +229,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12507",
@@ -244,15 +254,6 @@
           "team": "SEA",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         },
         {
           "player_id": "5892",
@@ -280,6 +281,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "9511",
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -315,7 +324,7 @@
           "name": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
         },
