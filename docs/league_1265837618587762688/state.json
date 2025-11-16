@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-16T15:21:34.177150Z",
+  "generated_at": "2025-11-16T15:39:49.521913Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -389,7 +389,7 @@
         "7543",
         "5859",
         "12526",
-        "10859",
+        "0",
         "2449",
         "12711",
         "LAC"
@@ -459,15 +459,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "2449",
           "name": "Stefon Diggs",
           "position": "WR",
@@ -503,6 +494,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "11637",
@@ -3406,21 +3406,21 @@
       "week": 11,
       "roster_id": 12,
       "opponent_roster_id": 1,
-      "points": 3.6,
+      "points": 3.7,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 2,
       "opponent_roster_id": 8,
-      "points": 17.08,
+      "points": 17.88,
       "result": "W"
     },
     {
       "week": 11,
       "roster_id": 8,
       "opponent_roster_id": 2,
-      "points": 7.2,
+      "points": 7.0,
       "result": "L"
     },
     {
@@ -3476,7 +3476,7 @@
       "week": 11,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 31.7,
+      "points": 32.9,
       "result": "W"
     }
   ]
