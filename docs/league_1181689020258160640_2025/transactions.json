@@ -6332,6 +6332,43 @@
   {
     "week": 11,
     "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "poll_id": "1295617319120142336",
+      "veto_msg_id": "1295617319204048896"
+    },
+    "created": 1763260899585,
+    "settings": null,
+    "leg": 11,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1295613753957564417",
+    "adds": {
+      "4046": 10,
+      "4199": 4,
+      "6794": 4,
+      "8205": 10
+    },
+    "drops": {
+      "4046": 4,
+      "4199": 10,
+      "6794": 10,
+      "8205": 4
+    },
+    "consenter_ids": [
+      4,
+      10
+    ],
+    "roster_ids": [
+      4,
+      10
+    ],
+    "status_updated": 1763303031517,
+    "waiver_budget": []
+  },
+  {
+    "week": 11,
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1763241683179,

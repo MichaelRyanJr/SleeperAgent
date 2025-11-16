@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-16T14:20:03.924102Z",
+  "generated_at": "2025-11-16T14:41:07.279108Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -858,7 +858,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4046",
+        "11559",
         "9226",
         "9753",
         "6786",
@@ -876,11 +876,11 @@
         "12517",
         "12530",
         "12533",
-        "4046",
+        "4199",
         "6786",
+        "6794",
         "6801",
         "8111",
-        "8205",
         "8676",
         "9226",
         "9502",
@@ -890,13 +890,12 @@
       ],
       "starters": [
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
+          "player_id": "11559",
+          "name": "Michael Penix",
           "position": "QB",
-          "team": "KC",
+          "team": "ATL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "9226",
@@ -972,14 +971,6 @@
       ],
       "bench": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix",
-          "position": "QB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1015,13 +1006,22 @@
           "draft_round": 9
         },
         {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "KC",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 8
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "8676",
@@ -1078,15 +1078,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "9502",
@@ -2359,11 +2350,11 @@
       "starters_current": [
         "96",
         "11199",
-        "4199",
+        "0",
         "5872",
         "1479",
         "7553",
-        "6794",
+        "0",
         "11539",
         "PIT"
       ],
@@ -2372,15 +2363,15 @@
         "11539",
         "11637",
         "1479",
+        "4046",
         "4144",
-        "4199",
         "5872",
         "5967",
-        "6794",
         "7553",
         "8143",
         "8148",
         "8183",
+        "8205",
         "96",
         "9756",
         "PIT"
@@ -2401,15 +2392,6 @@
           "team": "ARI",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "5872",
@@ -2439,15 +2421,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "11539",
           "name": "Jake Bates",
           "position": "K",
@@ -2475,6 +2448,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "4144",
@@ -2520,6 +2502,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "9756",
@@ -3913,7 +3904,7 @@
       "week": 11,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 0.0,
+      "points": 3.4,
       "result": "L"
     },
     {
@@ -3934,15 +3925,15 @@
       "week": 11,
       "roster_id": 3,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 2.4,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 12,
       "opponent_roster_id": 3,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 11,
