@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-16T05:42:24.028742Z",
+  "generated_at": "2025-11-16T05:54:42.525279Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -869,6 +869,7 @@
         "KC"
       ],
       "players_current": [
+        "11559",
         "11620",
         "11786",
         "12508",
@@ -878,7 +879,6 @@
         "4046",
         "6786",
         "6801",
-        "7049",
         "8111",
         "8205",
         "8676",
@@ -972,6 +972,14 @@
       ],
       "bench": [
         {
+          "player_id": "11559",
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1002,15 +1010,6 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
-        },
-        {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "SF",
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
