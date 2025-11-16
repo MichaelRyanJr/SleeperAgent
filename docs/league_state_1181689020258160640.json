@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-16T14:41:07.279108Z",
+  "generated_at": "2025-11-16T14:53:27.011902Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -860,11 +860,11 @@
       "starters_current": [
         "11559",
         "9226",
-        "9753",
+        "4199",
         "6786",
-        "6801",
+        "6794",
         "8111",
-        "11620",
+        "6801",
         "11786",
         "KC"
       ],
@@ -907,13 +907,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "SEA",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "6786",
@@ -925,13 +925,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "CIN",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 1
         },
         {
           "player_id": "8111",
@@ -942,13 +942,13 @@
           "keeper": false
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "CHI",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "11786",
@@ -970,6 +970,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
         {
           "player_id": "12508",
           "name": "Jaxson Dart",
@@ -1006,24 +1015,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "8676",
           "name": "Rashid Shaheed",
           "position": "WR",
@@ -1042,6 +1033,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 10
+        },
+        {
           "player_id": "LAR",
           "name": "Los Angeles",
           "position": "DEF",
@@ -1052,15 +1052,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
-        },
         {
           "player_id": "6786",
           "name": "CeeDee Lamb",
@@ -1087,6 +1078,15 @@
           "injury_status": "PUP",
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 10
         }
       ]
     },
@@ -3904,7 +3904,7 @@
       "week": 11,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 3.4,
+      "points": 3.5,
       "result": "L"
     },
     {
@@ -3925,7 +3925,7 @@
       "week": 11,
       "roster_id": 3,
       "opponent_roster_id": 12,
-      "points": 2.4,
+      "points": 3.74,
       "result": "W"
     },
     {
@@ -3968,14 +3968,14 @@
       "roster_id": 9,
       "opponent_roster_id": 10,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 11,
       "roster_id": 10,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 1.5,
+      "result": "W"
     }
   ]
 }
