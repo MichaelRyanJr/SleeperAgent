@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-16T14:53:27.011902Z",
+  "generated_at": "2025-11-16T15:21:38.581267Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1860,12 +1860,12 @@
       },
       "starters_current": [
         "421",
-        "11647",
         "8138",
+        "11647",
         "2133",
         "9997",
         "4066",
-        "7525",
+        "9754",
         "2747",
         "LAC"
       ],
@@ -1898,14 +1898,6 @@
           "keeper": false
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8138",
           "name": "James Cook",
           "position": "RB",
@@ -1913,6 +1905,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "2133",
@@ -1942,13 +1942,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "9754",
+          "name": "Quentin Johnston",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "2747",
@@ -2013,6 +2012,15 @@
           "keeper": false
         },
         {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
           "player_id": "7594",
           "name": "Chuba Hubbard",
           "position": "RB",
@@ -2027,14 +2035,6 @@
           "position": "WR",
           "team": "NE",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -3904,7 +3904,7 @@
       "week": 11,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 3.5,
+      "points": 8.2,
       "result": "L"
     },
     {
@@ -3918,14 +3918,14 @@
       "week": 11,
       "roster_id": 11,
       "opponent_roster_id": 2,
-      "points": 7.0,
+      "points": 9.8,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 3,
       "opponent_roster_id": 12,
-      "points": 3.74,
+      "points": 3.88,
       "result": "W"
     },
     {
@@ -3953,15 +3953,15 @@
       "week": 11,
       "roster_id": 6,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 2.5,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 7,
       "opponent_roster_id": 6,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 11,
