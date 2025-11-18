@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T14:47:12.775390Z",
+  "generated_at": "2025-11-18T15:28:00.290744Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -621,11 +621,11 @@
       "starters_current": [
         "3257",
         "5850",
-        "7021",
-        "10229",
-        "7526",
-        "8130",
         "7588",
+        "10229",
+        "12526",
+        "8130",
+        "8126",
         "8259",
         "HOU"
       ],
@@ -667,12 +667,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "CAR",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "10229",
@@ -684,13 +685,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "MIA",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 3
         },
         {
           "player_id": "8130",
@@ -702,13 +703,12 @@
           "draft_round": 12
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         },
         {
           "player_id": "8259",
@@ -756,15 +756,6 @@
           "keeper": false
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
           "player_id": "2307",
           "name": "Marcus Mariota",
           "position": "QB",
@@ -791,12 +782,21 @@
           "draft_round": 6
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "NYG",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         }
       ],
       "keepers": [
