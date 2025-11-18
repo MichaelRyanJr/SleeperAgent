@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T11:53:33.102051Z",
+  "generated_at": "2025-11-18T12:51:47.416615Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -776,11 +776,11 @@
       "starters_current": [
         "4892",
         "7588",
-        "8136",
+        "8122",
         "7569",
         "7547",
         "4217",
-        "1479",
+        "11624",
         "8259",
         "DET"
       ],
@@ -823,13 +823,12 @@
           "draft_round": 9
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "TB",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         },
         {
           "player_id": "7569",
@@ -859,13 +858,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
           "position": "WR",
-          "team": "LAC",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 6
         },
         {
           "player_id": "8259",
@@ -887,15 +886,6 @@
       ],
       "bench": [
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -903,6 +893,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "19",
@@ -931,12 +930,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "ARI",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "8205",
