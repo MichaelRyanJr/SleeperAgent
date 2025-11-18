@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T11:22:30.768080Z",
+  "generated_at": "2025-11-18T11:40:59.751908Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -186,16 +186,15 @@
         "4866",
         "8150",
         "9756",
-        "5045",
+        "4039",
         "8130",
-        "11647",
+        "4035",
         "5189",
         "SEA"
       ],
       "players_current": [
         "11564",
         "11647",
-        "12185",
         "4035",
         "4039",
         "4866",
@@ -249,13 +248,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
+          "player_id": "4039",
+          "name": "Cooper Kupp",
           "position": "WR",
-          "team": "DEN",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 7
         },
         {
           "player_id": "8130",
@@ -267,12 +266,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "5189",
@@ -293,30 +293,12 @@
       ],
       "bench": [
         {
-          "player_id": "12185",
-          "name": "Spencer Shrader",
-          "position": "K",
-          "team": "IND",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "4981",
@@ -326,6 +308,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "8111",
