@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T20:29:27.176837Z",
+  "generated_at": "2025-11-18T21:41:44.440628Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -620,7 +620,7 @@
       },
       "starters_current": [
         "3257",
-        "5850",
+        "11584",
         "7588",
         "10229",
         "12526",
@@ -658,13 +658,13 @@
           "keeper": false
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "GB",
+          "team": "TB",
           "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "7588",
@@ -731,15 +731,6 @@
       ],
       "bench": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "12455",
           "name": "Brashard Smith",
           "position": "RB",
@@ -773,6 +764,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "6783",
           "name": "Jerry Jeudy",
           "position": "WR",
@@ -801,6 +801,15 @@
       ],
       "keepers": [
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
@@ -817,15 +826,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 15
         },
         {
           "player_id": "5849",
