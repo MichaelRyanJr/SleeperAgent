@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T16:59:44.141828Z",
+  "generated_at": "2025-11-18T17:28:42.312695Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2110,9 +2110,9 @@
         "6790",
         "9508",
         "5859",
-        "8112",
-        "8110",
         "10232",
+        "8110",
+        "5012",
         "1945",
         "BAL"
       ],
@@ -2122,7 +2122,6 @@
         "11589",
         "12499",
         "1945",
-        "4171",
         "5012",
         "5859",
         "6130",
@@ -2174,13 +2173,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
+          "player_id": "10232",
+          "name": "Michael Wilson",
           "position": "WR",
-          "team": "ATL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8110",
@@ -2192,12 +2190,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "1945",
@@ -2246,23 +2245,6 @@
           "keeper": false
         },
         {
-          "player_id": "4171",
-          "name": "Josh Reynolds",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "6130",
           "name": "Devin Singletary",
           "position": "RB",
@@ -2278,6 +2260,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "8112",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "8146",
@@ -2300,15 +2291,6 @@
       ],
       "keepers": [
         {
-          "player_id": "8112",
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
           "player_id": "8110",
           "name": "Jake Ferguson",
           "position": "TE",
@@ -2316,6 +2298,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "8112",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "8146",
