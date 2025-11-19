@@ -428,7 +428,7 @@
         "name": "Xavier Worthy",
         "position": "WR",
         "team": "KC",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8259",
@@ -510,10 +510,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
+        "player_id": "1373",
+        "name": "Geno Smith",
         "position": "QB",
-        "team": "DEN",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -545,17 +545,17 @@
         "injury_status": null
       },
       {
-        "player_id": "5012",
-        "name": "Mark Andrews",
+        "player_id": "1466",
+        "name": "Travis Kelce",
         "position": "TE",
-        "team": "BAL",
+        "team": "KC",
         "injury_status": null
       },
       {
-        "player_id": "8676",
-        "name": "Rashid Shaheed",
+        "player_id": "12514",
+        "name": "Emeka Egbuka",
         "position": "WR",
-        "team": "SEA",
+        "team": "TB",
         "injury_status": null
       },
       {
@@ -566,41 +566,27 @@
         "injury_status": null
       },
       {
-        "player_id": "NYJ",
-        "name": "New York",
+        "player_id": "LV",
+        "name": "Las Vegas",
         "position": "DEF",
-        "team": "NYJ",
+        "team": "LV",
         "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "11563",
+        "name": "Bo Nix",
+        "position": "QB",
+        "team": "DEN",
+        "injury_status": null
+      },
       {
         "player_id": "12490",
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
         "injury_status": "Questionable"
-      },
-      {
-        "player_id": "12514",
-        "name": "Emeka Egbuka",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": null
-      },
-      {
-        "player_id": "1373",
-        "name": "Geno Smith",
-        "position": "QB",
-        "team": "LV",
-        "injury_status": null
-      },
-      {
-        "player_id": "1466",
-        "name": "Travis Kelce",
-        "position": "TE",
-        "team": "KC",
-        "injury_status": null
       },
       {
         "player_id": "17",
@@ -617,11 +603,25 @@
         "injury_status": null
       },
       {
+        "player_id": "5012",
+        "name": "Mark Andrews",
+        "position": "TE",
+        "team": "BAL",
+        "injury_status": null
+      },
+      {
         "player_id": "5849",
         "name": "Kyler Murray",
         "position": "QB",
         "team": "ARI",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "8676",
+        "name": "Rashid Shaheed",
+        "position": "WR",
+        "team": "SEA",
+        "injury_status": null
       }
     ]
   },
@@ -1157,10 +1157,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5872",
-        "name": "Deebo Samuel",
+        "player_id": "6819",
+        "name": "Michael Pittman",
         "position": "WR",
-        "team": "WAS",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -1185,17 +1185,17 @@
         "injury_status": null
       },
       {
-        "player_id": "6083",
-        "name": "Matt Gay",
+        "player_id": "4195",
+        "name": "Jake Elliott",
         "position": "K",
-        "team": null,
+        "team": "PHI",
         "injury_status": null
       },
       {
-        "player_id": "HOU",
-        "name": "Houston",
+        "player_id": "BUF",
+        "name": "Buffalo",
         "position": "DEF",
-        "team": "HOU",
+        "team": "BUF",
         "injury_status": null
       }
     ],
@@ -1222,17 +1222,17 @@
         "injury_status": null
       },
       {
+        "player_id": "5872",
+        "name": "Deebo Samuel",
+        "position": "WR",
+        "team": "WAS",
+        "injury_status": null
+      },
+      {
         "player_id": "6804",
         "name": "Jordan Love",
         "position": "QB",
         "team": "GB",
-        "injury_status": null
-      },
-      {
-        "player_id": "6819",
-        "name": "Michael Pittman",
-        "position": "WR",
-        "team": "IND",
         "injury_status": null
       },
       {

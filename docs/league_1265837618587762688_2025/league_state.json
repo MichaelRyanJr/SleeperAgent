@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-19T17:53:47.286858Z",
+  "generated_at": "2025-11-19T18:36:12.748392Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -871,7 +871,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -987,15 +987,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11563",
+        "1373",
         "4034",
         "5892",
         "8148",
         "7090",
-        "5012",
-        "8676",
+        "1466",
+        "12514",
         "11539",
-        "NYJ"
+        "LV"
       ],
       "players_current": [
         "11539",
@@ -1013,17 +1013,16 @@
         "7090",
         "8148",
         "8676",
-        "NYJ"
+        "LV"
       ],
       "starters": [
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
+          "player_id": "1373",
+          "name": "Geno Smith",
           "position": "QB",
-          "team": "DEN",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
+          "keeper": false
         },
         {
           "player_id": "4034",
@@ -1062,50 +1061,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "BAL",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
-        },
-        {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
-          "player_id": "11539",
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
-        },
-        {
-          "player_id": "NYJ",
-          "name": "New York",
-          "position": "DEF",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        }
-      ],
-      "bench": [
-        {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 12
+          "draft_round": 2
         },
         {
           "player_id": "12514",
@@ -1117,21 +1079,41 @@
           "draft_round": 8
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
+          "player_id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
+        },
+        {
+          "player_id": "LV",
+          "name": "Las Vegas",
+          "position": "DEF",
           "team": "LV",
           "injury_status": null,
           "keeper": false
-        },
+        }
+      ],
+      "bench": [
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 4
+        },
+        {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "17",
@@ -1151,6 +1133,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "5849",
           "name": "Kyler Murray",
           "position": "QB",
@@ -1158,6 +1149,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "8676",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         }
       ],
       "keepers": []
@@ -2378,30 +2378,30 @@
         "4984",
         "8132",
         "3198",
-        "5872",
+        "6819",
         "6801",
         "5022",
         "4199",
-        "6083",
-        "HOU"
+        "4195",
+        "BUF"
       ],
       "players_current": [
         "11628",
         "3198",
         "4098",
+        "4195",
         "4199",
         "4984",
         "5022",
         "5844",
         "5872",
-        "6083",
         "6801",
         "6804",
         "6819",
         "8121",
         "8132",
         "9753",
-        "HOU"
+        "BUF"
       ],
       "starters": [
         {
@@ -2432,13 +2432,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "WAS",
+          "team": "IND",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 10
         },
         {
           "player_id": "6801",
@@ -2468,21 +2468,20 @@
           "draft_round": 5
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
+          "player_id": "4195",
+          "name": "Jake Elliott",
           "position": "K",
-          "team": null,
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "HOU",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         }
       ],
       "bench": [
@@ -2514,6 +2513,15 @@
           "draft_round": 6
         },
         {
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "6804",
           "name": "Jordan Love",
           "position": "QB",
@@ -2521,15 +2529,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "8121",

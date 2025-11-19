@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-19T17:53:52.803431Z",
+  "generated_at": "2025-11-19T18:36:17.523821Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -627,17 +627,17 @@
         "12526",
         "8130",
         "8126",
-        "8259",
+        "3451",
         "HOU"
       ],
       "players_current": [
         "10229",
         "11435",
         "11584",
-        "12455",
         "12476",
         "12526",
         "3257",
+        "3451",
         "5849",
         "5850",
         "7021",
@@ -712,13 +712,12 @@
           "keeper": false
         },
         {
-          "player_id": "8259",
-          "name": "Cameron Dicker",
+          "player_id": "3451",
+          "name": "Ka'imi Fairbairn",
           "position": "K",
-          "team": "LAC",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
+          "keeper": false
         },
         {
           "player_id": "HOU",
@@ -736,14 +735,6 @@
           "name": "Emanuel Wilson",
           "position": "RB",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12455",
-          "name": "Brashard Smith",
-          "position": "RB",
-          "team": "KC",
           "injury_status": null,
           "keeper": false
         },
@@ -789,6 +780,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "8259",
+          "name": "Cameron Dicker",
+          "position": "K",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "9506",
@@ -2898,7 +2898,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
