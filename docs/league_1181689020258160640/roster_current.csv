@@ -70,9 +70,9 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,,9502,Tank Dell,WR,HOU,PUP,0,1
 4,,KC,Kansas City,DEF,KC,,0,0
 4,,LAR,Los Angeles,DEF,LAR,,0,0
-5,1,4881,Lamar Jackson,QB,BAL,,1,1
+5,1,4881,Lamar Jackson,QB,BAL,Questionable,1,1
 5,2,8150,Kyren Williams,RB,LAR,,1,0
-5,3,7543,Travis Etienne,RB,JAX,,1,0
+5,3,7543,Travis Etienne,RB,JAX,Questionable,1,0
 5,4,7569,Nico Collins,WR,HOU,,1,1
 5,5,11638,Ricky Pearsall,WR,SF,,1,1
 5,6,12518,Tyler Warren,TE,IND,,1,0
@@ -104,7 +104,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,,1339,Zach Ertz,TE,WAS,,0,0
 6,,3321,Tyreek Hill,WR,MIA,IR,0,0
 6,,4137,James Conner,RB,ARI,IR,0,1
-6,,5995,Justice Hill,RB,BAL,Questionable,0,0
+6,,5995,Justice Hill,RB,BAL,,0,0
 6,,6770,Joe Burrow,QB,CIN,IR,0,1
 7,1,3294,Dak Prescott,QB,DAL,Questionable,1,0
 7,2,9221,Jahmyr Gibbs,RB,DET,,1,1
@@ -121,7 +121,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 7,,4892,Baker Mayfield,QB,TB,,0,1
 7,,5001,Dalton Schultz,TE,HOU,,0,0
 7,,6803,Brandon Aiyuk,WR,SF,PUP,0,0
-7,,8121,Romeo Doubs,WR,GB,,0,0
+7,,8121,Romeo Doubs,WR,GB,Questionable,0,0
 7,,8142,Alec Pierce,WR,IND,,0,0
 7,,8154,Brian Robinson,RB,SF,,0,0
 8,1,421,Matthew Stafford,QB,LAR,,1,0
@@ -139,7 +139,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,,19,Joe Flacco,QB,CIN,Questionable,0,0
 8,,4018,Joe Mixon,RB,HOU,PUP,0,1
 8,,7594,Chuba Hubbard,RB,CAR,,0,1
-8,,9504,Kayshon Boutte,WR,NE,Questionable,0,0
+8,,9504,Kayshon Boutte,WR,NE,,0,0
 8,,9754,Quentin Johnston,WR,LAC,,0,0
 9,1,6904,Jalen Hurts,QB,PHI,,1,0
 9,2,6790,D'Andre Swift,RB,CHI,Questionable,1,0
@@ -187,7 +187,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,,10222,Jayden Reed,WR,GB,IR,0,0
 11,,11610,Malik Washington,WR,MIA,,0,0
 11,,11627,Troy Franklin,WR,DEN,,0,0
-11,,12501,Matthew Golden,WR,GB,,0,0
+11,,12501,Matthew Golden,WR,GB,Questionable,0,0
 11,,4033,David Njoku,TE,CLE,Questionable,0,0
 11,,5045,Courtland Sutton,WR,DEN,,0,1
 11,,6797,Justin Herbert,QB,LAC,,0,1
