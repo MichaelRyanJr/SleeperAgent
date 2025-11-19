@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-19T08:34:58.514880Z",
+  "generated_at": "2025-11-19T08:57:52.013962Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2545,13 +2545,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6797",
+        "7523",
         "4034",
-        "8132",
-        "5045",
-        "11627",
+        "6813",
+        "8144",
+        "7049",
         "12498",
-        "11610",
+        "9500",
         "4227",
         "GB"
       ],
@@ -2577,13 +2577,13 @@
       ],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "LAC",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "4034",
@@ -2595,30 +2595,31 @@
           "draft_round": 1
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
           "position": "RB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
+          "team": "IND",
           "injury_status": null,
           "keeper": true,
+          "draft_round": 3
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false,
           "draft_round": 6
         },
         {
-          "player_id": "11627",
-          "name": "Troy Franklin",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
           "position": "WR",
-          "team": "DEN",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "12498",
@@ -2629,12 +2630,13 @@
           "keeper": false
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
+          "player_id": "9500",
+          "name": "Josh Downs",
           "position": "WR",
-          "team": "MIA",
+          "team": "IND",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "4227",
@@ -2665,6 +2667,22 @@
           "draft_round": 10
         },
         {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11627",
+          "name": "Troy Franklin",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -2683,6 +2701,24 @@
           "draft_round": 6
         },
         {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -2691,6 +2727,17 @@
           "keeper": true,
           "draft_round": 9
         },
+        {
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
+        }
+      ],
+      "keepers": [
         {
           "player_id": "6813",
           "name": "Jonathan Taylor",
@@ -2701,33 +2748,6 @@
           "draft_round": 3
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
-        },
-        {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
-          "player_id": "8144",
-          "name": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
@@ -2735,17 +2755,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        }
-      ],
-      "keepers": [
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "5045",
@@ -2757,6 +2766,15 @@
           "draft_round": 6
         },
         {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -2764,24 +2782,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 9
-        },
-        {
-          "player_id": "6813",
-          "name": "Jonathan Taylor",
-          "position": "RB",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         }
       ]
     },
