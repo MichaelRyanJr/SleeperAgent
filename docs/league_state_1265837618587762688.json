@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-19T11:53:12.771278Z",
+  "generated_at": "2025-11-19T12:52:07.661123Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -2187,8 +2187,8 @@
         "7525",
         "5846",
         "3214",
-        "6130",
-        "11792",
+        "5967",
+        "11533",
         "JAX"
       ],
       "players_current": [
@@ -2265,20 +2265,22 @@
           "draft_round": 16
         },
         {
-          "player_id": "6130",
-          "name": "Devin Singletary",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "NYG",
+          "team": "TEN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
-          "player_id": "11792",
-          "name": "Will Reichard",
+          "player_id": "11533",
+          "name": "Brandon Aubrey",
           "position": "K",
-          "team": "MIN",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "JAX",
@@ -2291,15 +2293,6 @@
       ],
       "bench": [
         {
-          "player_id": "11533",
-          "name": "Brandon Aubrey",
-          "position": "K",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -2307,6 +2300,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 1
+        },
+        {
+          "player_id": "11792",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12501",
@@ -2335,13 +2336,12 @@
           "keeper": false
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
-          "team": "TEN",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
+          "keeper": false
         },
         {
           "player_id": "96",
