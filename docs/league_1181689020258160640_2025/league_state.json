@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-19T19:52:52.908785Z",
+  "generated_at": "2025-11-19T20:24:20.423525Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1373,10 +1373,10 @@
         "3163",
         "12512",
         "9224",
-        "11635",
+        "7571",
         "5947",
-        "1339",
         "5844",
+        "11571",
         "12711",
         "CHI"
       ],
@@ -1429,13 +1429,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 14
         },
         {
           "player_id": "5947",
@@ -1447,15 +1447,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "1339",
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
-        },
-        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -1463,6 +1454,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12711",
@@ -1493,12 +1492,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "11571",
-          "name": "Isaiah Davis",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "12469",
@@ -1517,6 +1517,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "1339",
+          "name": "Zach Ertz",
+          "position": "TE",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 14
         },
         {
           "player_id": "3321",
@@ -1552,15 +1561,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 14
         }
       ],
       "keepers": [
@@ -1658,7 +1658,7 @@
           "name": "Dak Prescott",
           "position": "QB",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
