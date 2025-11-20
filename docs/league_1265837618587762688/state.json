@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-20T01:53:20.089224Z",
+  "generated_at": "2025-11-20T03:13:43.621530Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1190,7 +1190,7 @@
         "11604",
         "6790",
         "2747",
-        "DEN"
+        "ATL"
       ],
       "players_current": [
         "10213",
@@ -1209,7 +1209,7 @@
         "9224",
         "9480",
         "9488",
-        "DEN"
+        "ATL"
       ],
       "starters": [
         {
@@ -1284,13 +1284,12 @@
           "keeper": false
         },
         {
-          "player_id": "DEN",
-          "name": "Denver",
+          "player_id": "ATL",
+          "name": "Atlanta",
           "position": "DEF",
-          "team": "DEN",
+          "team": "ATL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         }
       ],
       "bench": [
@@ -1789,7 +1788,7 @@
         "12529",
         "8138",
         "6794",
-        "7526",
+        "8137",
         "8110",
         "9997",
         "6650",
@@ -1852,13 +1851,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "MIA",
+          "team": "DAL",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 6
         },
         {
           "player_id": "8110",
@@ -1941,6 +1940,15 @@
           "keeper": false
         },
         {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -1948,15 +1956,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
         },
         {
           "player_id": "9754",
