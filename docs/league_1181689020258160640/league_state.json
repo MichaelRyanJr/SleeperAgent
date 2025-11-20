@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-20T23:22:48.614396Z",
+  "generated_at": "2025-11-20T23:47:49.409457Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -111,6 +111,7 @@
       ],
       "players_current": [
         "10859",
+        "11377",
         "11655",
         "12506",
         "12507",
@@ -126,7 +127,6 @@
         "8228",
         "8408",
         "9488",
-        "9511",
         "NE"
       ],
       "starters": [
@@ -222,6 +222,14 @@
           "draft_round": 14
         },
         {
+          "player_id": "11377",
+          "name": "Tyrell Shavers",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -281,14 +289,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
-        },
-        {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
