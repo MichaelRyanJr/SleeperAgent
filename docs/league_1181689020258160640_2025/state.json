@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-20T21:38:58.358594Z",
+  "generated_at": "2025-11-20T21:53:02.781368Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -628,13 +628,12 @@
         "8130",
         "8126",
         "3451",
-        "HOU"
+        "NO"
       ],
       "players_current": [
         "10229",
         "11435",
         "11584",
-        "12476",
         "12526",
         "3257",
         "3451",
@@ -647,7 +646,8 @@
         "8130",
         "8259",
         "9506",
-        "HOU"
+        "HOU",
+        "NO"
       ],
       "starters": [
         {
@@ -720,13 +720,12 @@
           "keeper": false
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "NO",
+          "name": "New Orleans",
           "position": "DEF",
-          "team": "HOU",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         }
       ],
       "bench": [
@@ -735,14 +734,6 @@
           "name": "Emanuel Wilson",
           "position": "RB",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12476",
-          "name": "Devin Neal",
-          "position": "RB",
-          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
@@ -797,6 +788,15 @@
           "team": "TB",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston",
+          "position": "DEF",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "keepers": [
