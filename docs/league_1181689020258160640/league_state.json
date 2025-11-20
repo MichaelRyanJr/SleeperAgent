@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-20T21:24:39.157767Z",
+  "generated_at": "2025-11-20T21:38:58.358594Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2572,13 +2572,12 @@
         "8144",
         "7049",
         "12498",
-        "9500",
+        "8167",
         "4227",
         "GB"
       ],
       "players_current": [
         "10222",
-        "11610",
         "11627",
         "12498",
         "12501",
@@ -2593,6 +2592,7 @@
         "7523",
         "8132",
         "8144",
+        "8167",
         "9500",
         "GB"
       ],
@@ -2651,13 +2651,12 @@
           "keeper": false
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
+          "team": "GB",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "4227",
@@ -2686,14 +2685,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "11627",
@@ -2756,6 +2747,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         }
       ],
       "keepers": [
@@ -2767,15 +2767,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         },
         {
           "player_id": "5045",
@@ -2803,6 +2794,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         }
       ]
     },
@@ -2978,7 +2978,7 @@
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
