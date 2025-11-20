@@ -337,7 +337,7 @@
         "name": "Sterling Shepard",
         "position": "WR",
         "team": "TB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4033",
@@ -386,7 +386,7 @@
         "name": "Baker Mayfield",
         "position": "QB",
         "team": "TB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7588",
@@ -556,7 +556,7 @@
         "name": "Emeka Egbuka",
         "position": "WR",
         "team": "TB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11539",
@@ -1015,11 +1015,11 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "3294",
-        "name": "Dak Prescott",
+        "player_id": "3257",
+        "name": "Jacoby Brissett",
         "position": "QB",
-        "team": "DAL",
-        "injury_status": "Questionable"
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "9508",
@@ -1036,11 +1036,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "8112",
-        "name": "Drake London",
+        "player_id": "6786",
+        "name": "CeeDee Lamb",
         "position": "WR",
-        "team": "ATL",
-        "injury_status": "Doubtful"
+        "team": "DAL",
+        "injury_status": null
       },
       {
         "player_id": "10229",
@@ -1057,10 +1057,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6786",
-        "name": "CeeDee Lamb",
-        "position": "WR",
-        "team": "DAL",
+        "player_id": "7567",
+        "name": "Kenneth Gainwell",
+        "position": "RB",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -1108,24 +1108,31 @@
         "injury_status": null
       },
       {
-        "player_id": "7567",
-        "name": "Kenneth Gainwell",
-        "position": "RB",
-        "team": "PIT",
-        "injury_status": null
+        "player_id": "3294",
+        "name": "Dak Prescott",
+        "position": "QB",
+        "team": "DAL",
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "8408",
-        "name": "Jordan Mason",
-        "position": "RB",
-        "team": "MIN",
-        "injury_status": null
+        "player_id": "8112",
+        "name": "Drake London",
+        "position": "WR",
+        "team": "ATL",
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "9226",
         "name": "De'Von Achane",
         "position": "RB",
         "team": "MIA",
+        "injury_status": null
+      },
+      {
+        "player_id": "PHI",
+        "name": "Philadelphia",
+        "position": "DEF",
+        "team": "PHI",
         "injury_status": null
       }
     ]
