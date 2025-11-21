@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T15:53:02.564906Z",
+  "generated_at": "2025-11-21T16:30:00.377154Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -621,7 +621,7 @@
       },
       "starters_current": [
         "3257",
-        "11584",
+        "9506",
         "7588",
         "10229",
         "12526",
@@ -659,13 +659,12 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "9506",
+          "name": "Sean Tucker",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 15
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7588",
@@ -738,6 +737,15 @@
           "keeper": false
         },
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "4892",
           "name": "Baker Mayfield",
           "position": "QB",
@@ -783,14 +791,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "9506",
-          "name": "Sean Tucker",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "HOU",
           "name": "Houston",
           "position": "DEF",
@@ -801,15 +801,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 15
-        },
         {
           "player_id": "10229",
           "name": "Rashee Rice",
@@ -827,6 +818,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "5849",
