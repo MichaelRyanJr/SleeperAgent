@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T20:56:34.361356Z",
+  "generated_at": "2025-11-21T21:24:01.377226Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -186,7 +186,7 @@
         "4866",
         "8150",
         "9756",
-        "4039",
+        "8167",
         "8130",
         "4035",
         "5189",
@@ -249,13 +249,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "SEA",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         },
         {
           "player_id": "8130",
@@ -302,6 +301,15 @@
           "keeper": false
         },
         {
+          "player_id": "4039",
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -335,14 +343,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": "Questionable",
-          "keeper": false
         },
         {
           "player_id": "9500",
@@ -553,7 +553,7 @@
           "name": "Kenneth Walker",
           "position": "RB",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -2551,7 +2551,7 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
