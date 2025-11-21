@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T06:58:34.413528Z",
+  "generated_at": "2025-11-21T07:28:10.471749Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -637,9 +637,9 @@
         "12526",
         "3257",
         "3451",
+        "4892",
         "5849",
         "5850",
-        "7021",
         "7526",
         "7588",
         "8126",
@@ -738,6 +738,15 @@
           "keeper": false
         },
         {
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
+        },
+        {
           "player_id": "5849",
           "name": "Kyler Murray",
           "position": "QB",
@@ -754,14 +763,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "7526",
@@ -1639,11 +1640,11 @@
         "2505",
         "3294",
         "4035",
-        "4892",
         "5001",
         "6803",
         "6819",
         "7002",
+        "7021",
         "7547",
         "8121",
         "8137",
@@ -1761,15 +1762,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
           "player_id": "5001",
           "name": "Dalton Schultz",
           "position": "TE",
@@ -1785,6 +1777,14 @@
           "injury_status": "PUP",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8121",
@@ -1839,15 +1839,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         }
       ]
     },
