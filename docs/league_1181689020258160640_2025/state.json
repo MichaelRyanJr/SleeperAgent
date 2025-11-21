@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T16:49:01.714486Z",
+  "generated_at": "2025-11-21T17:21:13.737593Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -859,7 +859,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "12508",
+        "9228",
         "9753",
         "4199",
         "6786",
@@ -883,19 +883,19 @@
         "8111",
         "8676",
         "9226",
+        "9228",
         "9502",
         "9753",
         "DET",
-        "KC",
         "LAR"
       ],
       "starters": [
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "NYG",
-          "injury_status": "Out",
+          "team": "CAR",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -981,6 +981,14 @@
           "draft_round": 5
         },
         {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1033,15 +1041,6 @@
           "injury_status": "PUP",
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "LAR",
@@ -1866,7 +1865,7 @@
         "8138",
         "4098",
         "7525",
-        "2133",
+        "0",
         "3214",
         "9997",
         "2747",
@@ -1877,7 +1876,6 @@
         "11566",
         "11647",
         "19",
-        "2133",
         "2747",
         "3214",
         "4018",
@@ -1925,15 +1923,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "3214",
@@ -2572,6 +2561,7 @@
         "11627",
         "12498",
         "12501",
+        "2133",
         "4033",
         "4034",
         "4227",
@@ -2693,6 +2683,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "4033",

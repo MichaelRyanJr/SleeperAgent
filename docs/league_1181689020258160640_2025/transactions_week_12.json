@@ -3,6 +3,70 @@
     "status": "complete",
     "type": "free_agent",
     "metadata": null,
+    "created": 1763743765703,
+    "settings": null,
+    "leg": 12,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1297639041251971072",
+    "adds": {
+      "9228": 4
+    },
+    "consenter_ids": [
+      4
+    ],
+    "drops": {
+      "KC": 4
+    },
+    "roster_ids": [
+      4
+    ],
+    "status_updated": 1763743765703,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "poll_id": "1297385847422717952",
+      "veto_msg_id": "1297385847506628608"
+    },
+    "created": 1763683076032,
+    "settings": null,
+    "leg": 12,
+    "draft_picks": [
+      {
+        "round": 1,
+        "season": "2026",
+        "league_id": null,
+        "roster_id": 11,
+        "owner_id": 8,
+        "previous_owner_id": 11
+      }
+    ],
+    "creator": "1002420063170924544",
+    "transaction_id": "1297384490322116608",
+    "adds": {
+      "2133": 11
+    },
+    "consenter_ids": [
+      8,
+      11
+    ],
+    "drops": {
+      "2133": 8
+    },
+    "roster_ids": [
+      8,
+      11
+    ],
+    "status_updated": 1763745057986,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "free_agent",
+    "metadata": null,
     "created": 1763681153557,
     "settings": null,
     "leg": 12,
