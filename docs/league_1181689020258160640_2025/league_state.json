@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T21:52:49.675540Z",
+  "generated_at": "2025-11-21T22:23:48.503451Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -171,7 +171,7 @@
           "name": "Emeka Egbuka",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 5
         },
@@ -538,7 +538,7 @@
           "name": "Chris Godwin",
           "position": "WR",
           "team": "TB",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
@@ -2559,9 +2559,9 @@
         "4034",
         "6813",
         "8144",
-        "7049",
+        "2133",
         "12498",
-        "8167",
+        "7049",
         "4227",
         "GB"
       ],
@@ -2580,7 +2580,6 @@
         "6813",
         "7049",
         "7523",
-        "8132",
         "8144",
         "8167",
         "9500",
@@ -2624,13 +2623,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "SF",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 1
         },
         {
           "player_id": "12498",
@@ -2641,12 +2640,13 @@
           "keeper": false
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
           "position": "WR",
-          "team": "GB",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "4227",
@@ -2694,15 +2694,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "4033",
           "name": "David Njoku",
           "position": "TE",
@@ -2739,13 +2730,12 @@
           "draft_round": 9
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ATL",
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         },
         {
           "player_id": "9500",
