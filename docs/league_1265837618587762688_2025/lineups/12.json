@@ -77,18 +77,18 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "4981",
-        "name": "Calvin Ridley",
-        "position": "WR",
-        "team": "TEN",
-        "injury_status": "IR"
-      },
-      {
         "player_id": "5045",
         "name": "Courtland Sutton",
         "position": "WR",
         "team": "DEN",
         "injury_status": null
+      },
+      {
+        "player_id": "6770",
+        "name": "Joe Burrow",
+        "position": "QB",
+        "team": "CIN",
+        "injury_status": "IR"
       },
       {
         "player_id": "8111",
@@ -216,7 +216,7 @@
         "name": "Keon Coleman",
         "position": "WR",
         "team": "BUF",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "1339",
@@ -261,17 +261,17 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "6797",
-        "name": "Justin Herbert",
+        "player_id": "12508",
+        "name": "Jaxson Dart",
         "position": "QB",
-        "team": "LAC",
-        "injury_status": null
+        "team": "NYG",
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "11655",
-        "name": "Tyrone Tracy",
+        "player_id": "6813",
+        "name": "Jonathan Taylor",
         "position": "RB",
-        "team": "NYG",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -310,10 +310,10 @@
         "injury_status": null
       },
       {
-        "player_id": "3678",
-        "name": "Wil Lutz",
+        "player_id": "2020",
+        "name": "Cairo Santos",
         "position": "K",
-        "team": "DEN",
+        "team": "CHI",
         "injury_status": null
       },
       {
@@ -326,18 +326,25 @@
     ],
     "bench": [
       {
-        "player_id": "12508",
-        "name": "Jaxson Dart",
-        "position": "QB",
+        "player_id": "11655",
+        "name": "Tyrone Tracy",
+        "position": "RB",
         "team": "NYG",
-        "injury_status": "Questionable"
+        "injury_status": null
+      },
+      {
+        "player_id": "12524",
+        "name": "Shedeur Sanders",
+        "position": "QB",
+        "team": "CLE",
+        "injury_status": null
       },
       {
         "player_id": "3200",
         "name": "Sterling Shepard",
         "position": "WR",
         "team": "TB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "4033",
@@ -361,10 +368,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "6813",
-        "name": "Jonathan Taylor",
-        "position": "RB",
-        "team": "IND",
+        "player_id": "6797",
+        "name": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
         "injury_status": null
       },
       {
@@ -386,7 +393,7 @@
         "name": "Baker Mayfield",
         "position": "QB",
         "team": "TB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7588",
@@ -628,7 +635,7 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 5,
-    "points": 0.0,
+    "points": 1.3,
     "starters": [
       {
         "player_id": "8183",
@@ -673,10 +680,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6790",
-        "name": "D'Andre Swift",
-        "position": "RB",
-        "team": "CHI",
+        "player_id": "8144",
+        "name": "Chris Olave",
+        "position": "WR",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -731,17 +738,17 @@
         "injury_status": null
       },
       {
+        "player_id": "6790",
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "team": "CHI",
+        "injury_status": null
+      },
+      {
         "player_id": "7523",
         "name": "Trevor Lawrence",
         "position": "QB",
         "team": "JAX",
-        "injury_status": null
-      },
-      {
-        "player_id": "8144",
-        "name": "Chris Olave",
-        "position": "WR",
-        "team": "NO",
         "injury_status": null
       },
       {
@@ -756,7 +763,7 @@
   {
     "roster_id": 7,
     "opponent_roster_id": 10,
-    "points": 0.0,
+    "points": 3.8,
     "starters": [
       {
         "player_id": "3163",
@@ -780,11 +787,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "7564",
-        "name": "Ja'Marr Chase",
+        "player_id": "5970",
+        "name": "Greg Dortch",
         "position": "WR",
-        "team": "CIN",
-        "injury_status": "Sus"
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "8142",
@@ -801,10 +808,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12485",
-        "name": "Tez Johnson",
+        "player_id": "11626",
+        "name": "Xavier Legette",
         "position": "WR",
-        "team": "TB",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -815,10 +822,10 @@
         "injury_status": null
       },
       {
-        "player_id": "KC",
-        "name": "Kansas City",
+        "player_id": "NO",
+        "name": "New Orleans",
         "position": "DEF",
-        "team": "KC",
+        "team": "NO",
         "injury_status": null
       }
     ],
@@ -845,18 +852,18 @@
         "injury_status": null
       },
       {
+        "player_id": "12485",
+        "name": "Tez Johnson",
+        "position": "WR",
+        "team": "TB",
+        "injury_status": null
+      },
+      {
         "player_id": "12493",
         "name": "Oronde Gadsden",
         "position": "TE",
         "team": "LAC",
         "injury_status": null
-      },
-      {
-        "player_id": "4018",
-        "name": "Joe Mixon",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": "PUP"
       },
       {
         "player_id": "5870",
@@ -866,18 +873,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "6803",
-        "name": "Brandon Aiyuk",
+        "player_id": "7564",
+        "name": "Ja'Marr Chase",
         "position": "WR",
-        "team": "SF",
-        "injury_status": "PUP"
-      },
-      {
-        "player_id": "9487",
-        "name": "Parker Washington",
-        "position": "WR",
-        "team": "JAX",
-        "injury_status": null
+        "team": "CIN",
+        "injury_status": "Sus"
       }
     ]
   },
@@ -1140,7 +1140,7 @@
   {
     "roster_id": 12,
     "opponent_roster_id": 8,
-    "points": 0.0,
+    "points": 10.58,
     "starters": [
       {
         "player_id": "4984",
@@ -1261,7 +1261,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 11,
-    "points": 0.0,
+    "points": 12.2,
     "starters": [
       {
         "player_id": "4881",
