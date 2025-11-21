@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T18:54:45.372134Z",
+  "generated_at": "2025-11-21T19:20:04.125871Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -620,7 +620,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
+        "4892",
         "9506",
         "7588",
         "10229",
@@ -651,12 +651,13 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "ARI",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "9506",
@@ -746,13 +747,12 @@
           "draft_round": 15
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "TB",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
           "player_id": "5849",
@@ -2224,7 +2224,7 @@
           "name": "Elic Ayomanor",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2258,7 +2258,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 6
         },
@@ -2296,7 +2296,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 6
         },
@@ -2483,7 +2483,7 @@
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 8
         },
