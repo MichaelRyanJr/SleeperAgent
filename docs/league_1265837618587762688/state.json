@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-22T21:52:30.860405Z",
+  "generated_at": "2025-11-22T22:22:38.944634Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -189,19 +189,19 @@
         "8167",
         "8130",
         "4035",
-        "5189",
+        "11786",
         "SEA"
       ],
       "players_current": [
         "11564",
         "11647",
+        "11786",
         "4035",
         "4039",
         "4866",
         "5045",
         "5189",
         "6770",
-        "8111",
         "8130",
         "8146",
         "8150",
@@ -275,12 +275,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
+          "player_id": "11786",
+          "name": "Cam Little",
           "position": "K",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "SEA",
@@ -319,6 +320,14 @@
           "draft_round": 5
         },
         {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "injury_status": "Out",
+          "keeper": false
+        },
+        {
           "player_id": "6770",
           "name": "Joe Burrow",
           "position": "QB",
@@ -326,14 +335,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "8111",
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8146",
@@ -1394,7 +1395,7 @@
       "starters_current": [
         "3163",
         "12474",
-        "11584",
+        "7607",
         "5970",
         "8142",
         "7002",
@@ -1404,7 +1405,6 @@
       ],
       "players_current": [
         "10219",
-        "11199",
         "11584",
         "11626",
         "11635",
@@ -1417,6 +1417,7 @@
         "5970",
         "7002",
         "7564",
+        "7607",
         "8142",
         "NO"
       ],
@@ -1439,13 +1440,12 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7607",
+          "name": "Michael Carter",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 2
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5970",
@@ -1508,12 +1508,13 @@
           "keeper": false
         },
         {
-          "player_id": "11199",
-          "name": "Emari Demercado",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "ARI",
+          "team": "TB",
           "injury_status": "Out",
-          "keeper": false
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "11635",
