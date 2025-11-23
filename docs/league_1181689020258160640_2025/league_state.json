@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-23T16:28:14.184897Z",
+  "generated_at": "2025-11-23T16:46:48.342458Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -623,9 +623,9 @@
         "11435",
         "7588",
         "10229",
-        "12526",
-        "8130",
         "8126",
+        "8130",
+        "12526",
         "3451",
         "NO"
       ],
@@ -684,13 +684,12 @@
           "draft_round": 13
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "CAR",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "8130",
@@ -702,12 +701,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "NYG",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "3451",
@@ -759,7 +759,7 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 1
         },
@@ -2257,7 +2257,7 @@
           "name": "Rhamondre Stevenson",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         },
