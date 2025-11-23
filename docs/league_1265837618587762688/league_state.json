@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-23T20:55:51.853186Z",
+  "generated_at": "2025-11-23T21:22:37.652733Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1218,7 +1218,6 @@
         "8183",
         "9221",
         "9224",
-        "9480",
         "9488",
         "ATL"
       ],
@@ -1362,14 +1361,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -2463,7 +2454,7 @@
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
         },
@@ -3498,85 +3489,85 @@
       "week": 12,
       "roster_id": 1,
       "opponent_roster_id": 2,
-      "points": 29.9,
+      "points": 32.56,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 2,
       "opponent_roster_id": 1,
-      "points": 39.0,
+      "points": 55.0,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 3,
       "opponent_roster_id": 4,
-      "points": 82.16,
+      "points": 84.32,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 4,
       "opponent_roster_id": 3,
-      "points": 43.1,
+      "points": 53.2,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 5,
       "opponent_roster_id": 6,
-      "points": 18.3,
+      "points": 33.6,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 106.5,
+      "points": 125.3,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 7,
       "opponent_roster_id": 10,
-      "points": 29.66,
-      "result": "W"
+      "points": 32.46,
+      "result": "L"
     },
     {
       "week": 12,
       "roster_id": 10,
       "opponent_roster_id": 7,
-      "points": 23.6,
-      "result": "L"
+      "points": 44.3,
+      "result": "W"
     },
     {
       "week": 12,
       "roster_id": 8,
       "opponent_roster_id": 12,
-      "points": 48.9,
+      "points": 59.86,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 12,
       "opponent_roster_id": 8,
-      "points": 61.82,
+      "points": 61.92,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 9,
       "opponent_roster_id": 11,
-      "points": 60.12,
-      "result": "W"
+      "points": 61.42,
+      "result": "L"
     },
     {
       "week": 12,
       "roster_id": 11,
       "opponent_roster_id": 9,
-      "points": 47.9,
-      "result": "L"
+      "points": 63.7,
+      "result": "W"
     }
   ]
 }
