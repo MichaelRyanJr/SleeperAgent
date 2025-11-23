@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-23T17:41:01.285395Z",
+  "generated_at": "2025-11-23T17:53:07.245762Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -385,15 +385,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "2307",
-        "5850",
+        "9228",
+        "8151",
         "7543",
         "5859",
         "12526",
         "7891",
         "2449",
         "12711",
-        "LAC"
+        "PIT"
       ],
       "players_current": [
         "10222",
@@ -412,25 +412,26 @@
         "7891",
         "8151",
         "9228",
-        "LAC"
+        "PIT"
       ],
       "starters": [
         {
-          "player_id": "2307",
-          "name": "Marcus Mariota",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
           "position": "RB",
-          "team": "GB",
-          "injury_status": "Out",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 4
         },
         {
           "player_id": "7543",
@@ -486,12 +487,13 @@
           "draft_round": 16
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles",
+          "player_id": "PIT",
+          "name": "Pittsburgh",
           "position": "DEF",
-          "team": "LAC",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         }
       ],
       "bench": [
@@ -541,6 +543,14 @@
           "draft_round": 3
         },
         {
+          "player_id": "2307",
+          "name": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "3451",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -550,22 +560,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
+          "team": "GB",
+          "injury_status": "Out",
           "keeper": false,
-          "draft_round": 4
-        },
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "draft_round": 1
         }
       ],
       "keepers": []
