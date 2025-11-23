@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-23T15:53:06.489567Z",
+  "generated_at": "2025-11-23T16:28:14.184897Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -620,7 +620,7 @@
       },
       "starters_current": [
         "3257",
-        "5850",
+        "11435",
         "7588",
         "10229",
         "12526",
@@ -658,13 +658,12 @@
           "keeper": false
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
           "team": "GB",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7588",
@@ -729,14 +728,6 @@
       ],
       "bench": [
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "position": "RB",
@@ -762,6 +753,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7526",
