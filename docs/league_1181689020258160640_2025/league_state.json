@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-25T19:53:07.005839Z",
+  "generated_at": "2025-11-25T20:28:33.643419Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -372,7 +372,7 @@
         "4866",
         "9509",
         "9493",
-        "12540",
+        "11631",
         "11604",
         "12489",
         "11792",
@@ -436,12 +436,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12540",
-          "name": "Chimere Dike",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
+          "team": "JAX",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "11604",
@@ -490,15 +491,6 @@
           "draft_round": 11
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -529,6 +521,14 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12540",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -571,15 +571,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas",
           "position": "WR",
@@ -587,6 +578,15 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "11632",
