@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-25T23:40:58.594444Z",
+  "generated_at": "2025-11-25T23:53:31.247019Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -800,8 +800,8 @@
         "7569",
         "7547",
         "4217",
-        "11624",
-        "12713",
+        "1479",
+        "8259",
         "DET"
       ],
       "players_current": [
@@ -878,21 +878,22 @@
           "draft_round": 4
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "KC",
-          "injury_status": "Questionable",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 11
         },
         {
-          "player_id": "12713",
-          "name": "Andy Borregales",
+          "player_id": "8259",
+          "name": "Cameron Dicker",
           "position": "K",
-          "team": "NE",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "DET",
@@ -905,6 +906,15 @@
       ],
       "bench": [
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -914,13 +924,12 @@
           "draft_round": 3
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "12713",
+          "name": "Andy Borregales",
+          "position": "K",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         },
         {
           "player_id": "6806",
@@ -957,15 +966,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "8259",
-          "name": "Cameron Dicker",
-          "position": "K",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "9504",
