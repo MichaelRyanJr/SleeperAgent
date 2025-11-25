@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-25T13:37:13.185031Z",
+  "generated_at": "2025-11-25T13:55:43.367675Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -620,8 +620,8 @@
       },
       "starters_current": [
         "3257",
-        "11435",
-        "7588",
+        "5850",
+        "11584",
         "10229",
         "8126",
         "8130",
@@ -658,21 +658,22 @@
           "keeper": false
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": null,
-          "keeper": false
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 1
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "team": "TB",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "10229",
@@ -728,13 +729,12 @@
       ],
       "bench": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 15
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "4892",
@@ -755,15 +755,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "7526",
           "name": "Jaylen Waddle",
           "position": "WR",
@@ -771,6 +762,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "7588",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "8259",
@@ -801,6 +801,15 @@
       ],
       "keepers": [
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
@@ -817,15 +826,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 15
         },
         {
           "player_id": "5849",
