@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T15:25:19.487292Z",
+  "generated_at": "2025-11-26T15:44:19.750647Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1615,7 +1615,7 @@
       "starters_current": [
         "3294",
         "9221",
-        "7021",
+        "12527",
         "7547",
         "8137",
         "7002",
@@ -1663,12 +1663,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
           "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
+          "team": "LV",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7547",
@@ -1734,15 +1735,6 @@
           "draft_round": 15
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "position": "RB",
-          "team": "LV",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
@@ -1775,6 +1767,14 @@
           "injury_status": "PUP",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8142",
