@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T04:36:07.209643Z",
+  "generated_at": "2025-11-26T04:55:41.113255Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1112,11 +1112,11 @@
       "starters_current": [
         "4881",
         "8150",
-        "12474",
-        "7569",
-        "11638",
-        "12518",
         "7543",
+        "7569",
+        "7564",
+        "12518",
+        "8151",
         "4195",
         "ATL"
       ],
@@ -1131,7 +1131,6 @@
         "4195",
         "4881",
         "6039",
-        "6768",
         "7543",
         "7564",
         "7569",
@@ -1160,12 +1159,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "7543",
+          "name": "Travis Etienne",
           "position": "RB",
-          "team": "HOU",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "7569",
@@ -1177,13 +1177,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
+          "team": "CIN",
+          "injury_status": "Sus",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "12518",
@@ -1195,13 +1195,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
           "position": "RB",
-          "team": "JAX",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "4195",
@@ -1230,6 +1230,23 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12484",
@@ -1266,32 +1283,6 @@
           "keeper": false
         },
         {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": "Sus",
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1321,15 +1312,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -1337,6 +1319,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
+        },
+        {
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "9484",
