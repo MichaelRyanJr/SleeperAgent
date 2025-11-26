@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T15:44:19.750647Z",
+  "generated_at": "2025-11-26T15:56:57.195992Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1621,7 +1621,7 @@
         "7002",
         "6819",
         "11533",
-        "CLE"
+        "MIA"
       ],
       "players_current": [
         "11533",
@@ -1630,7 +1630,6 @@
         "2505",
         "3294",
         "4035",
-        "5001",
         "6803",
         "6819",
         "7002",
@@ -1641,7 +1640,8 @@
         "8154",
         "9221",
         "9480",
-        "CLE"
+        "CLE",
+        "MIA"
       ],
       "starters": [
         {
@@ -1716,10 +1716,10 @@
           "draft_round": 11
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland",
+          "player_id": "MIA",
+          "name": "Miami",
           "position": "DEF",
-          "team": "CLE",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         }
@@ -1750,14 +1750,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "6803",
@@ -1798,6 +1790,14 @@
           "name": "Brenton Strange",
           "position": "TE",
           "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         }
