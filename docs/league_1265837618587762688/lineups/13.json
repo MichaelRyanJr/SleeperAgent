@@ -95,7 +95,7 @@
         "name": "Joe Burrow",
         "position": "QB",
         "team": "CIN",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8146",
@@ -300,7 +300,7 @@
         "name": "Brock Wright",
         "position": "TE",
         "team": "DET",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "2449",
@@ -933,7 +933,7 @@
         "name": "Chris Olave",
         "position": "WR",
         "team": "NO",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2747",
@@ -1171,11 +1171,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8112",
-        "name": "Drake London",
-        "position": "WR",
-        "team": "ATL",
-        "injury_status": "Doubtful"
+        "player_id": "12489",
+        "name": "RJ Harvey",
+        "position": "RB",
+        "team": "DEN",
+        "injury_status": null
       },
       {
         "player_id": "5095",
@@ -1208,13 +1208,6 @@
         "injury_status": null
       },
       {
-        "player_id": "12489",
-        "name": "RJ Harvey",
-        "position": "RB",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
         "player_id": "12506",
         "name": "Harold Fannin",
         "position": "TE",
@@ -1236,17 +1229,17 @@
         "injury_status": null
       },
       {
+        "player_id": "8112",
+        "name": "Drake London",
+        "position": "WR",
+        "team": "ATL",
+        "injury_status": "Doubtful"
+      },
+      {
         "player_id": "9508",
         "name": "Tyjae Spears",
         "position": "RB",
         "team": "TEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "GB",
-        "name": "Green Bay",
-        "position": "DEF",
-        "team": "GB",
         "injury_status": null
       }
     ]

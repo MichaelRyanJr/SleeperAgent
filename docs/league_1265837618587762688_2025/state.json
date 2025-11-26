@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T21:21:36.887942Z",
+  "generated_at": "2025-11-26T21:40:08.754474Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -324,7 +324,7 @@
           "name": "Joe Burrow",
           "position": "QB",
           "team": "CIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 4
         },
@@ -466,7 +466,7 @@
           "name": "Brock Wright",
           "position": "TE",
           "team": "DET",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1272,7 +1272,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 7
         },
@@ -1565,14 +1565,14 @@
       },
       "starters_current": [
         "3257",
-        "9508",
+        "9226",
         "8228",
         "6786",
         "10229",
         "11597",
-        "11638",
+        "12489",
         "5095",
-        "GB"
+        "PHI"
       ],
       "players_current": [
         "10229",
@@ -1590,7 +1590,6 @@
         "8228",
         "9226",
         "9508",
-        "GB",
         "PHI"
       ],
       "starters": [
@@ -1603,13 +1602,13 @@
           "keeper": false
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
+          "player_id": "9226",
+          "name": "De'Von Achane",
           "position": "RB",
-          "team": "TEN",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 3
         },
         {
           "player_id": "8228",
@@ -1647,13 +1646,13 @@
           "keeper": false
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 5
         },
         {
           "player_id": "5095",
@@ -1664,12 +1663,13 @@
           "keeper": false
         },
         {
-          "player_id": "GB",
-          "name": "Green Bay",
+          "player_id": "PHI",
+          "name": "Philadelphia",
           "position": "DEF",
-          "team": "GB",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 7
         }
       ],
       "bench": [
@@ -1683,13 +1683,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 8
         },
         {
           "player_id": "12506",
@@ -1726,22 +1726,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "MIA",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "PHI",
-          "name": "Philadelphia",
-          "position": "DEF",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "draft_round": 13
         }
       ],
       "keepers": []
