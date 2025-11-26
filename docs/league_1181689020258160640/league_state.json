@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T12:53:55.640879Z",
+  "generated_at": "2025-11-26T13:37:51.327510Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -626,7 +626,7 @@
         "8130",
         "12526",
         "3451",
-        "0"
+        "LAC"
       ],
       "players_current": [
         "10229",
@@ -716,6 +716,15 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "bench": [
@@ -788,15 +797,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "keepers": [
