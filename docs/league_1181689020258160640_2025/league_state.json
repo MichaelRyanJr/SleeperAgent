@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T15:56:57.195992Z",
+  "generated_at": "2025-11-26T16:36:00.763692Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -625,7 +625,7 @@
         "8126",
         "8130",
         "12526",
-        "3451",
+        "8259",
         "LAC"
       ],
       "players_current": [
@@ -710,12 +710,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "3451",
-          "name": "Ka'imi Fairbairn",
+          "player_id": "8259",
+          "name": "Cameron Dicker",
           "position": "K",
-          "team": "HOU",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "LAC",
@@ -733,6 +734,14 @@
           "name": "Emanuel Wilson",
           "position": "RB",
           "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "3451",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false
         },
@@ -771,15 +780,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
-        },
-        {
-          "player_id": "8259",
-          "name": "Cameron Dicker",
-          "position": "K",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "9506",
@@ -2114,8 +2114,8 @@
         "8110",
         "8112",
         "8146",
+        "8147",
         "9508",
-        "BAL",
         "DEN"
       ],
       "starters": [
@@ -2272,13 +2272,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "BAL",
-          "name": "Baltimore",
-          "position": "DEF",
-          "team": "BAL",
+          "player_id": "8147",
+          "name": "John Metchie",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         }
       ],
       "keepers": [
