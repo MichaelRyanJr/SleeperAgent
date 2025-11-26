@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T07:55:38.003356Z",
+  "generated_at": "2025-11-26T08:34:38.828105Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -277,7 +277,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         },
@@ -342,7 +342,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         }
@@ -385,12 +385,12 @@
         "11631",
         "11632",
         "11792",
+        "12476",
         "12489",
         "12490",
         "12493",
         "12534",
         "12540",
-        "4037",
         "4866",
         "4983",
         "9493",
@@ -440,7 +440,7 @@
           "name": "Brian Thomas",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -500,6 +500,14 @@
           "draft_round": 2
         },
         {
+          "player_id": "12476",
+          "name": "Devin Neal",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -531,15 +539,6 @@
           "team": "TEN",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "4037",
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "4983",
@@ -575,7 +574,7 @@
           "name": "Brian Thomas",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -627,7 +626,7 @@
         "8130",
         "12526",
         "3451",
-        "NO"
+        "0"
       ],
       "players_current": [
         "10229",
@@ -646,7 +645,7 @@
         "8259",
         "9506",
         "HOU",
-        "NO"
+        "LAC"
       ],
       "starters": [
         {
@@ -662,7 +661,7 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -671,7 +670,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 15
         },
@@ -680,7 +679,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -717,14 +716,6 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "NO",
-          "name": "New Orleans",
-          "position": "DEF",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -741,7 +732,7 @@
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 13
         },
@@ -797,6 +788,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "keepers": [
@@ -805,7 +805,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 15
         },
@@ -814,7 +814,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -858,7 +858,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9228",
+        "0",
         "9753",
         "4199",
         "6786",
@@ -882,21 +882,13 @@
         "8111",
         "8676",
         "9226",
-        "9228",
         "9502",
         "9753",
+        "9758",
         "DET",
         "LAR"
       ],
       "starters": [
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "9753",
           "name": "Zach Charbonnet",
@@ -984,7 +976,7 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1040,6 +1032,15 @@
           "injury_status": "PUP",
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "LAR",
@@ -1145,7 +1146,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 3
         },
@@ -1181,7 +1182,7 @@
           "name": "Ja'Marr Chase",
           "position": "WR",
           "team": "CIN",
-          "injury_status": "Sus",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -1227,7 +1228,7 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1298,7 +1299,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 3
         },
@@ -1548,7 +1549,7 @@
           "name": "Rashod Bateman",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 14
         }
@@ -1635,11 +1636,11 @@
         "7002",
         "7021",
         "7547",
-        "7891",
         "8137",
         "8142",
         "8154",
         "9221",
+        "9480",
         "CLE"
       ],
       "starters": [
@@ -1754,7 +1755,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1776,14 +1777,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "7891",
-          "name": "Brock Wright",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
@@ -1799,6 +1792,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1964,7 +1965,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -1973,7 +1974,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -1982,7 +1983,7 @@
           "name": "Kimani Vidal",
           "position": "RB",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1990,7 +1991,7 @@
           "name": "Joe Flacco",
           "position": "QB",
           "team": "CIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2043,7 +2044,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2223,7 +2224,7 @@
           "name": "Elic Ayomanor",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2257,7 +2258,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2295,7 +2296,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2373,7 +2374,7 @@
           "name": "Emari Demercado",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2446,7 +2447,7 @@
           "name": "Keon Coleman",
           "position": "WR",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 11
         },
@@ -2491,7 +2492,7 @@
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 8
         },
@@ -2500,7 +2501,7 @@
           "name": "Aaron Rodgers",
           "position": "QB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -2570,8 +2571,8 @@
         "6813",
         "7049",
         "7523",
+        "8121",
         "8144",
-        "8167",
         "9500",
         "GB"
       ],
@@ -2679,7 +2680,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -2720,8 +2721,8 @@
           "draft_round": 9
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
           "team": "GB",
           "injury_status": null,
@@ -2877,7 +2878,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
