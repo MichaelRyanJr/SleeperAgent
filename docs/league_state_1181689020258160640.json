@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T20:26:40.921880Z",
+  "generated_at": "2025-11-26T20:42:12.754753Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -620,7 +620,7 @@
       "starters_current": [
         "3257",
         "5850",
-        "11584",
+        "7588",
         "10229",
         "8126",
         "8130",
@@ -666,13 +666,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 15
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "10229",
@@ -738,6 +738,15 @@
           "keeper": false
         },
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "3451",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -773,15 +782,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "9506",
           "name": "Sean Tucker",
           "position": "RB",
@@ -801,15 +801,6 @@
       ],
       "keepers": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
@@ -826,6 +817,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "5849",
