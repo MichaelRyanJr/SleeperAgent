@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-26T19:20:27.964201Z",
+  "generated_at": "2025-11-26T19:39:03.824564Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2545,13 +2545,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7523",
+        "6797",
         "4034",
         "6813",
         "8144",
         "2133",
         "12498",
-        "7049",
+        "5045",
         "4227",
         "GB"
       ],
@@ -2577,13 +2577,13 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "6797",
+          "name": "Justin Herbert",
           "position": "QB",
-          "team": "JAX",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "4034",
@@ -2630,13 +2630,13 @@
           "keeper": false
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "SF",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "4227",
@@ -2693,24 +2693,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
-        },
-        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -2718,6 +2700,24 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
+        },
+        {
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "8121",
@@ -2739,6 +2739,15 @@
       ],
       "keepers": [
         {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "6813",
           "name": "Jonathan Taylor",
           "position": "RB",
@@ -2755,15 +2764,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 6
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "6806",
