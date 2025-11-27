@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T14:27:16.906239Z",
+  "generated_at": "2025-11-27T14:46:59.826697Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2322,7 +2322,7 @@
       },
       "starters_current": [
         "4046",
-        "11199",
+        "8205",
         "5967",
         "9756",
         "5872",
@@ -2360,12 +2360,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "11199",
-          "name": "Emari Demercado",
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
           "position": "RB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "5967",
@@ -2433,6 +2434,14 @@
       ],
       "bench": [
         {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -2476,15 +2485,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "96",
