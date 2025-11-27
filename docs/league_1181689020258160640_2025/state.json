@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T01:54:22.321210Z",
+  "generated_at": "2025-11-27T03:15:34.941163Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1361,13 +1361,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3163",
+        "6770",
         "12512",
         "9224",
+        "11635",
         "12519",
-        "5947",
         "5844",
-        "11571",
+        "5947",
         "12711",
         "CHI"
       ],
@@ -1385,7 +1385,6 @@
         "4137",
         "5844",
         "5947",
-        "5995",
         "6770",
         "7571",
         "9224",
@@ -1393,13 +1392,13 @@
       ],
       "starters": [
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
+          "player_id": "6770",
+          "name": "Joe Burrow",
           "position": "QB",
-          "team": "DET",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "12512",
@@ -1420,6 +1419,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -1427,15 +1435,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
         },
         {
           "player_id": "5844",
@@ -1447,12 +1446,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "11571",
-          "name": "Isaiah Davis",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "12711",
@@ -1483,13 +1483,12 @@
           "draft_round": 10
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
+          "keeper": false
         },
         {
           "player_id": "12469",
@@ -1510,6 +1509,15 @@
           "draft_round": 14
         },
         {
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -1528,23 +1536,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "5995",
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "6770",
-          "name": "Joe Burrow",
-          "position": "QB",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
           "player_id": "7571",
           "name": "Rashod Bateman",
           "position": "WR",
@@ -1555,6 +1546,15 @@
         }
       ],
       "keepers": [
+        {
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        },
         {
           "player_id": "9224",
           "name": "Chase Brown",
@@ -1581,15 +1581,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "6770",
-          "name": "Joe Burrow",
-          "position": "QB",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     },
