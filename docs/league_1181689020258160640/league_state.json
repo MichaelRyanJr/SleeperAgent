@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T15:43:40.708915Z",
+  "generated_at": "2025-11-27T15:56:16.043351Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1117,7 +1117,7 @@
         "7569",
         "7564",
         "12518",
-        "8151",
+        "11628",
         "4195",
         "ATL"
       ],
@@ -1196,13 +1196,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
           "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "4195",
@@ -1223,15 +1223,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 2
-        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1284,6 +1275,15 @@
           "keeper": false
         },
         {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1313,15 +1313,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "11638",
           "name": "Ricky Pearsall",
           "position": "WR",
@@ -1329,6 +1320,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "9484",
