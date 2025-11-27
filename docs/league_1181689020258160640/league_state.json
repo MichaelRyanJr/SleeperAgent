@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T16:33:45.112830Z",
+  "generated_at": "2025-11-27T16:57:00.092420Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2670,7 +2670,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 5
         },
@@ -2798,9 +2798,9 @@
       "starters_current": [
         "6804",
         "3198",
-        "8136",
+        "8155",
         "5846",
-        "11624",
+        "8134",
         "4217",
         "1466",
         "17",
@@ -2846,13 +2846,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "TB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "5846",
@@ -2864,13 +2864,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "KC",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": true,
+          "draft_round": 10
         },
         {
           "player_id": "4217",
@@ -2917,6 +2917,15 @@
           "keeper": false
         },
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -2960,22 +2969,13 @@
           "keeper": false
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYJ",
+          "team": "TB",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "TB",
@@ -2997,6 +2997,24 @@
           "draft_round": 14
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 10
+        },
+        {
           "player_id": "4217",
           "name": "George Kittle",
           "position": "TE",
@@ -3013,24 +3031,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 6
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     }
