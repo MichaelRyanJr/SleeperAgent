@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-28T19:52:44.476832Z",
+  "generated_at": "2025-11-28T20:27:00.420035Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -613,7 +613,7 @@
         "5850",
         "7588",
         "10229",
-        "8126",
+        "7526",
         "8130",
         "12526",
         "8259",
@@ -675,12 +675,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NYG",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "8130",
@@ -764,13 +765,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "team": "NYG",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "9506",
@@ -1469,7 +1469,7 @@
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 10
         },
@@ -1728,7 +1728,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
         },
@@ -2240,7 +2240,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 6
         },
@@ -2277,7 +2277,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 6
         },
@@ -4053,7 +4053,7 @@
       "week": 13,
       "roster_id": 2,
       "opponent_roster_id": 12,
-      "points": 0.0,
+      "points": 1.0,
       "result": "L"
     },
     {
@@ -4081,14 +4081,14 @@
       "week": 13,
       "roster_id": 4,
       "opponent_roster_id": 6,
-      "points": 27.2,
+      "points": 28.7,
       "result": "L"
     },
     {
       "week": 13,
       "roster_id": 6,
       "opponent_roster_id": 4,
-      "points": 39.54,
+      "points": 53.24,
       "result": "W"
     },
     {
@@ -4109,7 +4109,7 @@
       "week": 13,
       "roster_id": 9,
       "opponent_roster_id": 11,
-      "points": 8.6,
+      "points": 15.0,
       "result": "W"
     },
     {
