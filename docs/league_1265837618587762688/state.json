@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-28T09:30:11.017402Z",
+  "generated_at": "2025-11-28T09:46:05.936978Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1961,10 +1961,10 @@
       "starters_current": [
         "421",
         "9509",
-        "12512",
+        "12476",
         "2133",
-        "11620",
-        "0",
+        "11631",
+        "12518",
         "10232",
         "4227",
         "NE"
@@ -2007,13 +2007,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "12476",
+          "name": "Devin Neal",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "team": "NO",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "2133",
@@ -2025,10 +2024,19 @@
           "draft_round": 5
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "CHI",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
@@ -2087,30 +2095,22 @@
           "draft_round": 11
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
-          "player_id": "12476",
-          "name": "Devin Neal",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "12540",
