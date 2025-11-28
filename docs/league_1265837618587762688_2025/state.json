@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-28T17:21:45.495973Z",
+  "generated_at": "2025-11-28T17:41:27.700093Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -394,7 +394,7 @@
         "1339",
         "2449",
         "12711",
-        "0"
+        "IND"
       ],
       "players_current": [
         "10222",
@@ -486,6 +486,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "IND",
+          "name": "Indianapolis",
+          "position": "DEF",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -559,14 +567,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "IND",
-          "name": "Indianapolis",
-          "position": "DEF",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
