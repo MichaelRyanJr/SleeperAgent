@@ -62,10 +62,6 @@
   },
   "avatar": "1158073fa2140f85f5d9ea579e40ccce",
   "company_id": null,
-  "shard": 722,
-  "season": "2025",
-  "season_type": "regular",
-  "sport": "nfl",
   "scoring_settings": {
     "sack": 1.0,
     "fgm_40_49": 4.0,
@@ -117,6 +113,10 @@
     "pts_allow_7_13": 4.0,
     "st_ff": 1.0
   },
+  "season": "2025",
+  "season_type": "regular",
+  "sport": "nfl",
+  "shard": 722,
   "last_message_id": "1300192127262670848",
   "last_author_avatar": "15d7cf259bc30eab8f6120f45f652fb6",
   "last_author_display_name": "KingDong420",
@@ -130,11 +130,7 @@
   "draft_id": "1181689020258160641",
   "league_id": "1181689020258160640",
   "previous_league_id": "1066143537286299648",
-  "bracket_id": null,
-  "bracket_overrides_id": null,
   "group_id": null,
-  "loser_bracket_id": null,
-  "loser_bracket_overrides_id": null,
   "roster_positions": [
     "QB",
     "RB",
@@ -153,5 +149,9 @@
     "BN",
     "BN"
   ],
+  "bracket_id": null,
+  "bracket_overrides_id": null,
+  "loser_bracket_id": null,
+  "loser_bracket_overrides_id": null,
   "total_rosters": 12
 }
