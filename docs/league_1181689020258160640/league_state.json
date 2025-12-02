@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:01:11.295806Z",
+  "generated_at": "2025-12-02T17:39:59.130498Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1595,12 +1595,12 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3294",
+        "11563",
         "9221",
         "12527",
         "7547",
         "8137",
-        "9480",
+        "2505",
         "6819",
         "11533",
         "CLE"
@@ -1626,13 +1626,13 @@
       ],
       "starters": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "DAL",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "9221",
@@ -1671,10 +1671,10 @@
           "draft_round": 3
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "JAX",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         },
@@ -1707,21 +1707,13 @@
       ],
       "bench": [
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
+          "player_id": "3294",
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "DEN",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "4035",
@@ -1767,6 +1759,14 @@
           "draft_round": 8
         },
         {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "MIA",
           "name": "Miami",
           "position": "DEF",
@@ -1776,6 +1776,15 @@
         }
       ],
       "keepers": [
+        {
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
         {
           "player_id": "9221",
           "name": "Jahmyr Gibbs",
@@ -1793,15 +1802,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
-        },
-        {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:01:05.604929Z",
+  "generated_at": "2025-12-02T17:39:52.460187Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1554,12 +1554,12 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
+        "3294",
         "9226",
         "8228",
         "6786",
         "10229",
-        "11597",
+        "10236",
         "12489",
         "5095",
         "PHI"
@@ -1584,12 +1584,13 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "3294",
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "ARI",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "9226",
@@ -1628,12 +1629,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "11597",
-          "name": "Theo Johnson",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
+          "team": "BUF",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "12489",
@@ -1664,13 +1666,12 @@
       ],
       "bench": [
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
+          "player_id": "11597",
+          "name": "Theo Johnson",
           "position": "TE",
-          "team": "BUF",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 11
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11638",
@@ -1690,13 +1691,12 @@
           "keeper": false
         },
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "DAL",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
+          "keeper": false
         },
         {
           "player_id": "7567",
