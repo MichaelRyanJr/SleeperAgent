@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T14:34:13.555245Z",
+  "generated_at": "2025-12-02T14:57:39.363297Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1600,10 +1600,10 @@
         "12527",
         "7547",
         "8137",
-        "7002",
-        "7021",
+        "9480",
+        "6819",
         "11533",
-        "MIA"
+        "CLE"
       ],
       "players_current": [
         "11533",
@@ -1671,20 +1671,21 @@
           "draft_round": 3
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
+          "player_id": "9480",
+          "name": "Brenton Strange",
           "position": "TE",
-          "team": "NO",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "IND",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "11533",
@@ -1696,10 +1697,10 @@
           "draft_round": 11
         },
         {
-          "player_id": "MIA",
-          "name": "Miami",
+          "player_id": "CLE",
+          "name": "Cleveland",
           "position": "DEF",
-          "team": "MIA",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         }
@@ -1741,13 +1742,20 @@
           "draft_round": 10
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "IND",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
+          "keeper": false
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8154",
@@ -1759,18 +1767,10 @@
           "draft_round": 8
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
+          "player_id": "MIA",
+          "name": "Miami",
           "position": "DEF",
-          "team": "CLE",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false
         }
