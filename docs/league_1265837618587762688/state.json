@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T13:37:57.677748Z",
+  "generated_at": "2025-12-03T14:25:50.745545Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -194,6 +194,7 @@
       ],
       "players_current": [
         "11564",
+        "11586",
         "11647",
         "11786",
         "12484",
@@ -205,7 +206,6 @@
         "8146",
         "8150",
         "8167",
-        "9225",
         "9487",
         "9756",
         "HOU",
@@ -294,6 +294,14 @@
       ],
       "bench": [
         {
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11647",
           "name": "Kimani Vidal",
           "position": "RB",
@@ -327,15 +335,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         },
         {
           "player_id": "9487",
@@ -980,14 +979,14 @@
       },
       "starters_current": [
         "11563",
-        "4034",
+        "12490",
         "5892",
         "8148",
         "7090",
         "1466",
         "12514",
         "11539",
-        "MIA"
+        "DEN"
       ],
       "players_current": [
         "11539",
@@ -1005,7 +1004,7 @@
         "7090",
         "8148",
         "8676",
-        "MIA"
+        "DEN"
       ],
       "starters": [
         {
@@ -1018,13 +1017,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
           "position": "RB",
-          "team": "SF",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 12
         },
         {
           "player_id": "5892",
@@ -1081,24 +1080,16 @@
           "draft_round": 13
         },
         {
-          "player_id": "MIA",
-          "name": "Miami",
+          "player_id": "DEN",
+          "name": "Denver",
           "position": "DEF",
-          "team": "MIA",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         }
       ],
       "bench": [
-        {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
         {
           "player_id": "1373",
           "name": "Geno Smith",
@@ -1114,6 +1105,15 @@
           "team": "BUF",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "4988",
