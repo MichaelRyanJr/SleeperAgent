@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T11:42:16.300067Z",
+  "generated_at": "2025-12-03T12:52:03.700162Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1116,9 +1116,9 @@
         "7569",
         "11628",
         "12518",
-        "0",
-        "0",
-        "ATL"
+        "8151",
+        "7839",
+        "IND"
       ],
       "players_current": [
         "11586",
@@ -1137,7 +1137,7 @@
         "8150",
         "8151",
         "9484",
-        "ATL"
+        "IND"
       ],
       "starters": [
         {
@@ -1195,10 +1195,27 @@
           "draft_round": 7
         },
         {
-          "player_id": "ATL",
-          "name": "Atlanta",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "IND",
+          "name": "Indianapolis",
           "position": "DEF",
-          "team": "ATL",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         }
@@ -1266,23 +1283,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "7839",
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1312,15 +1312,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "11638",
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -1328,6 +1319,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
+        },
+        {
+          "player_id": "11638",
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "9484",
