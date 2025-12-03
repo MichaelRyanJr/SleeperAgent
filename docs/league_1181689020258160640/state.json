@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T19:31:47.593219Z",
+  "generated_at": "2025-12-03T05:23:02.025041Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -101,11 +101,11 @@
       "starters_current": [
         "4984",
         "8228",
-        "12529",
+        "5892",
         "9488",
         "12514",
-        "5022",
-        "2449",
+        "12506",
+        "5927",
         "6650",
         "NE"
       ],
@@ -148,13 +148,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "NE",
+          "team": "DET",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 8
         },
         {
           "player_id": "9488",
@@ -175,22 +175,21 @@
           "draft_round": 5
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
+          "player_id": "12506",
+          "name": "Harold Fannin",
           "position": "TE",
-          "team": "PHI",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "NE",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "6650",
@@ -230,14 +229,6 @@
           "draft_round": 15
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -245,6 +236,24 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 1
+        },
+        {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "4943",
@@ -255,22 +264,13 @@
           "keeper": false
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "DET",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
-        },
-        {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
+          "draft_round": 11
         },
         {
           "player_id": "8408",
@@ -311,6 +311,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
           "player_id": "10859",
           "name": "Sam LaPorta",
           "position": "TE",
@@ -327,15 +336,6 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
         }
       ]
     },
@@ -1116,9 +1116,9 @@
         "8150",
         "7543",
         "7569",
-        "0",
-        "12518",
         "11628",
+        "12518",
+        "0",
         "4195",
         "ATL"
       ],
@@ -1178,15 +1178,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "11628",
           "name": "Marvin Harrison",
           "position": "WR",
@@ -1194,6 +1185,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "4195",
