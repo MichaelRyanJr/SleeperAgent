@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T08:33:26.438859Z",
+  "generated_at": "2025-12-03T09:28:14.665561Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -2085,8 +2085,8 @@
         "5859",
         "10232",
         "8110",
-        "8147",
-        "1945",
+        "11834",
+        "3678",
         "DEN"
       ],
       "players_current": [
@@ -2095,7 +2095,7 @@
         "11589",
         "11834",
         "12499",
-        "1945",
+        "3678",
         "5012",
         "5859",
         "6130",
@@ -2164,21 +2164,20 @@
           "draft_round": 14
         },
         {
-          "player_id": "8147",
-          "name": "John Metchie",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
           "position": "WR",
-          "team": "NYJ",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "1945",
-          "name": "Chris Boswell",
+          "player_id": "3678",
+          "name": "Wil Lutz",
           "position": "K",
-          "team": "PIT",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
           "player_id": "DEN",
@@ -2208,14 +2207,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "12499",
@@ -2268,6 +2259,14 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 2
+        },
+        {
+          "player_id": "8147",
+          "name": "John Metchie",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2536,7 +2535,7 @@
       },
       "starters_current": [
         "6797",
-        "4034",
+        "10219",
         "6813",
         "8144",
         "2133",
@@ -2546,6 +2545,7 @@
         "GB"
       ],
       "players_current": [
+        "10219",
         "10222",
         "11627",
         "12498",
@@ -2560,7 +2560,6 @@
         "6813",
         "7049",
         "7523",
-        "8121",
         "8144",
         "9500",
         "GB"
@@ -2576,13 +2575,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
           "position": "RB",
-          "team": "SF",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": false
         },
         {
           "player_id": "6813",
@@ -2683,6 +2681,15 @@
           "draft_round": 6
         },
         {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -2708,14 +2715,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "9500",
