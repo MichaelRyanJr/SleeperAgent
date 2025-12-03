@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T11:21:38.283059Z",
+  "generated_at": "2025-12-03T11:42:16.300067Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -368,11 +368,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11564",
+        "12545",
         "4866",
         "9509",
         "9493",
-        "12540",
+        "7564",
         "11604",
         "12489",
         "11792",
@@ -390,9 +390,8 @@
         "12490",
         "12493",
         "12534",
-        "12540",
+        "12545",
         "4866",
-        "4983",
         "7564",
         "9493",
         "9509",
@@ -401,13 +400,12 @@
       ],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
+          "player_id": "12545",
+          "name": "Tyler Shough",
           "position": "QB",
-          "team": "NE",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
+          "keeper": false
         },
         {
           "player_id": "4866",
@@ -437,12 +435,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12540",
-          "name": "Chimere Dike",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "TEN",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "11604",
@@ -481,6 +480,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
         {
           "player_id": "11576",
           "name": "Braelon Allen",
@@ -540,24 +548,6 @@
           "team": "CHI",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "PHI",
