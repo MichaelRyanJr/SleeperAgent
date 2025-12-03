@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T15:48:37.303377Z",
+  "generated_at": "2025-12-03T16:34:15.658828Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1837,9 +1837,9 @@
         "8138",
         "4098",
         "7525",
-        "9997",
-        "3214",
         "9754",
+        "10236",
+        "11647",
         "2747",
         "BUF"
       ],
@@ -1898,26 +1898,26 @@
           "draft_round": 2
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "9754",
+          "name": "Quentin Johnston",
           "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
           "team": "LAC",
           "injury_status": null,
           "keeper": false
@@ -1942,15 +1942,6 @@
       ],
       "bench": [
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -1960,18 +1951,18 @@
           "draft_round": 7
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "19",
           "name": "Joe Flacco",
           "position": "QB",
           "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
           "injury_status": null,
           "keeper": false
         },
@@ -2008,6 +1999,15 @@
           "team": "NE",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
         }
       ],
       "keepers": [
