@@ -1,6 +1,36 @@
 [
   {
     "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1764694188020,
+    "settings": {
+      "priority": 0,
+      "seq": 0
+    },
+    "leg": 13,
+    "draft_picks": [],
+    "creator": "1266635324683976704",
+    "transaction_id": "1301625401373626368",
+    "adds": {
+      "8408": 10
+    },
+    "consenter_ids": [
+      10
+    ],
+    "drops": {
+      "9506": 10
+    },
+    "roster_ids": [
+      10
+    ],
+    "status_updated": 1764749557120,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1764675577627,
@@ -20,6 +50,66 @@
       4
     ],
     "status_updated": 1764675577627,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1764624581443,
+    "settings": {
+      "priority": 1,
+      "seq": 1
+    },
+    "leg": 13,
+    "draft_picks": [],
+    "creator": "1266635324683976704",
+    "transaction_id": "1301333450233511936",
+    "adds": {
+      "9486": 10
+    },
+    "consenter_ids": [
+      10
+    ],
+    "drops": {
+      "12540": 10
+    },
+    "roster_ids": [
+      10
+    ],
+    "status_updated": 1764749557120,
+    "waiver_budget": []
+  },
+  {
+    "status": "failed",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    "created": 1764540825949,
+    "settings": {
+      "priority": 2,
+      "seq": 2
+    },
+    "leg": 13,
+    "draft_picks": [],
+    "creator": "1266635324683976704",
+    "transaction_id": "1300982154230005760",
+    "adds": {
+      "8800": 10
+    },
+    "consenter_ids": [
+      10
+    ],
+    "drops": {
+      "9506": 10
+    },
+    "roster_ids": [
+      10
+    ],
+    "status_updated": 1764749557120,
     "waiver_budget": []
   },
   {

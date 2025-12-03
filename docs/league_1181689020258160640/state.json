@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T07:43:26.812648Z",
+  "generated_at": "2025-12-03T08:33:26.438859Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -95,7 +95,7 @@
       "points_for": 1567.44,
       "points_against": 1419.86,
       "waiver": {
-        "position": 6,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -126,7 +126,8 @@
         "8228",
         "8408",
         "9488",
-        "NE"
+        "NE",
+        "WAS"
       ],
       "starters": [
         {
@@ -280,6 +281,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "WAS",
+          "name": "Washington",
+          "position": "DEF",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -355,7 +364,7 @@
       "points_for": 1714.34,
       "points_against": 1491.4,
       "waiver": {
-        "position": 11,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -615,7 +624,7 @@
       "points_for": 1758.52,
       "points_against": 1616.06,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -633,7 +642,7 @@
         "10229",
         "11435",
         "11584",
-        "12524",
+        "11625",
         "12526",
         "3257",
         "4892",
@@ -749,10 +758,10 @@
           "draft_round": 15
         },
         {
-          "player_id": "12524",
-          "name": "Shedeur Sanders",
-          "position": "QB",
-          "team": "CLE",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         },
@@ -867,7 +876,7 @@
         "8111",
         "6801",
         "11786",
-        "DET"
+        "0"
       ],
       "players_current": [
         "11620",
@@ -881,12 +890,12 @@
         "6794",
         "6801",
         "8111",
+        "8122",
         "8676",
         "9226",
         "9502",
         "9753",
         "9758",
-        "DET",
         "LAR"
       ],
       "starters": [
@@ -939,7 +948,7 @@
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -951,15 +960,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "DET",
-          "name": "Detroit",
-          "position": "DEF",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         }
       ],
       "bench": [
@@ -1006,6 +1006,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8676",
@@ -1108,7 +1116,7 @@
       "points_for": 1482.42,
       "points_against": 1522.06,
       "waiver": {
-        "position": 5,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1119,10 +1127,11 @@
         "11628",
         "12518",
         "0",
-        "4195",
+        "0",
         "ATL"
       ],
       "players_current": [
+        "11586",
         "11628",
         "11638",
         "12474",
@@ -1130,11 +1139,11 @@
         "12485",
         "12495",
         "12518",
-        "4195",
+        "4037",
         "4881",
-        "6865",
         "7543",
         "7569",
+        "7839",
         "8150",
         "8151",
         "9484",
@@ -1155,7 +1164,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 14
         },
@@ -1196,15 +1205,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "4195",
-          "name": "Jake Elliott",
-          "position": "K",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
-        },
-        {
           "player_id": "ATL",
           "name": "Atlanta",
           "position": "DEF",
@@ -1214,6 +1214,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
         {
           "player_id": "11638",
           "name": "Ricky Pearsall",
@@ -1228,7 +1237,7 @@
           "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1258,10 +1267,19 @@
           "draft_round": 16
         },
         {
-          "player_id": "6865",
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
+          "player_id": "4037",
+          "name": "Chris Godwin",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         },
@@ -1469,7 +1487,7 @@
           "name": "J.J. McCarthy",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -1486,7 +1504,7 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -1618,11 +1636,11 @@
         "7021",
         "7547",
         "8137",
+        "8142",
         "8154",
         "9221",
         "9480",
-        "CLE",
-        "MIA"
+        "CLE"
       ],
       "starters": [
         {
@@ -1657,7 +1675,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1666,7 +1684,7 @@
           "name": "George Pickens",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
@@ -1720,7 +1738,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1750,6 +1768,14 @@
           "keeper": false
         },
         {
+          "player_id": "8142",
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -1763,14 +1789,6 @@
           "name": "Brenton Strange",
           "position": "TE",
           "team": "JAX",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "MIA",
-          "name": "Miami",
-          "position": "DEF",
-          "team": "MIA",
           "injury_status": null,
           "keeper": false
         }
@@ -1938,7 +1956,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -1947,7 +1965,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2017,7 +2035,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2057,7 +2075,7 @@
       "points_for": 1556.58,
       "points_against": 1549.88,
       "waiver": {
-        "position": 7,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -2075,6 +2093,7 @@
         "10232",
         "11560",
         "11589",
+        "11834",
         "12499",
         "1945",
         "5012",
@@ -2082,7 +2101,6 @@
         "6130",
         "6790",
         "6904",
-        "7090",
         "7611",
         "8110",
         "8112",
@@ -2192,6 +2210,14 @@
           "draft_round": 11
         },
         {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12499",
           "name": "Elic Ayomanor",
           "position": "WR",
@@ -2217,15 +2243,6 @@
           "keeper": false
         },
         {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -2239,7 +2256,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2268,7 +2285,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2420,7 +2437,7 @@
           "name": "Emari Demercado",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2514,7 +2531,7 @@
       "points_for": 1695.62,
       "points_against": 1605.6,
       "waiver": {
-        "position": 8,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -2652,7 +2669,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
