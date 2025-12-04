@@ -109,7 +109,7 @@
         "name": "Sam Darnold",
         "position": "QB",
         "team": "SEA",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "5022",
@@ -507,7 +507,7 @@
         "name": "Greg Dortch",
         "position": "WR",
         "team": "ARI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7594",
@@ -666,10 +666,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
+        "player_id": "3294",
+        "name": "Dak Prescott",
         "position": "QB",
-        "team": "DEN",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -701,10 +701,10 @@
         "injury_status": null
       },
       {
-        "player_id": "2505",
-        "name": "Darren Waller",
+        "player_id": "9480",
+        "name": "Brenton Strange",
         "position": "TE",
-        "team": "MIA",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -731,10 +731,17 @@
     ],
     "bench": [
       {
-        "player_id": "3294",
-        "name": "Dak Prescott",
+        "player_id": "11563",
+        "name": "Bo Nix",
         "position": "QB",
-        "team": "DAL",
+        "team": "DEN",
+        "injury_status": null
+      },
+      {
+        "player_id": "2505",
+        "name": "Darren Waller",
+        "position": "TE",
+        "team": "MIA",
         "injury_status": null
       },
       {
@@ -777,13 +784,6 @@
         "name": "Brian Robinson",
         "position": "RB",
         "team": "SF",
-        "injury_status": null
-      },
-      {
-        "player_id": "9480",
-        "name": "Brenton Strange",
-        "position": "TE",
-        "team": "JAX",
         "injury_status": null
       }
     ]
