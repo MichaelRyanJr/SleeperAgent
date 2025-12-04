@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-04T16:34:44.725792Z",
+  "generated_at": "2025-12-04T17:24:55.954790Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1606,10 +1606,10 @@
         "3294",
         "9221",
         "12527",
-        "7547",
+        "6819",
         "8137",
         "9480",
-        "6819",
+        "7547",
         "11533",
         "CLE"
       ],
@@ -1617,7 +1617,6 @@
         "11533",
         "11563",
         "12527",
-        "2505",
         "3294",
         "4035",
         "6803",
@@ -1628,6 +1627,7 @@
         "8137",
         "8142",
         "8154",
+        "8167",
         "9221",
         "9480",
         "CLE"
@@ -1661,13 +1661,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "DET",
-          "injury_status": "Questionable",
+          "team": "IND",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 8
         },
         {
           "player_id": "8137",
@@ -1687,13 +1687,13 @@
           "keeper": false
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "IND",
-          "injury_status": null,
+          "team": "DET",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 2
         },
         {
           "player_id": "11533",
@@ -1722,14 +1722,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "4035",
@@ -1781,6 +1773,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
