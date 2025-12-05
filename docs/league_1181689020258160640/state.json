@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T22:22:20.369575Z",
+  "generated_at": "2025-12-05T22:42:26.509048Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1825,11 +1825,11 @@
       "starters_current": [
         "421",
         "8138",
-        "4098",
+        "11647",
         "7525",
         "9754",
         "10236",
-        "11647",
+        "9997",
         "2747",
         "BUF"
       ],
@@ -1871,10 +1871,10 @@
           "draft_round": 5
         },
         {
-          "player_id": "4098",
-          "name": "Kareem Hunt",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "KC",
+          "team": "LAC",
           "injury_status": null,
           "keeper": false
         },
@@ -1905,12 +1905,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "2747",
@@ -1966,6 +1967,14 @@
           "draft_round": 3
         },
         {
+          "player_id": "4098",
+          "name": "Kareem Hunt",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5970",
           "name": "Greg Dortch",
           "position": "WR",
@@ -1989,15 +1998,6 @@
           "team": "NE",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
         }
       ],
       "keepers": [
