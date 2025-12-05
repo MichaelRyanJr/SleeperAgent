@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-04T23:40:49.451641Z",
+  "generated_at": "2025-12-05T01:52:26.866736Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -473,7 +473,7 @@
           "name": "Kenneth Walker",
           "position": "RB",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -592,11 +592,11 @@
       "starters_current": [
         "6797",
         "6813",
-        "7021",
+        "0",
         "9493",
         "5947",
         "7553",
-        "8126",
+        "5927",
         "2020",
         "BAL"
       ],
@@ -638,15 +638,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
-        },
-        {
           "player_id": "9493",
           "name": "Puka Nacua",
           "position": "WR",
@@ -674,12 +665,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "NYG",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "2020",
@@ -744,13 +736,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 16
         },
         {
           "player_id": "7594",
@@ -760,6 +752,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -788,7 +788,7 @@
         "7588",
         "8122",
         "7569",
-        "1479",
+        "7547",
         "2505",
         "12507",
         "8259",
@@ -850,13 +850,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "LAC",
+          "team": "DET",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 1
         },
         {
           "player_id": "2505",
@@ -912,6 +912,15 @@
           "keeper": false
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
           "player_id": "4217",
           "name": "George Kittle",
           "position": "TE",
@@ -937,15 +946,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "8205",
@@ -1315,7 +1315,7 @@
           "name": "AJ Barner",
           "position": "TE",
           "team": "SEA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1953,7 +1953,7 @@
         "9509",
         "12512",
         "2133",
-        "12535",
+        "11631",
         "12518",
         "10232",
         "4227",
@@ -1968,11 +1968,11 @@
         "12512",
         "12518",
         "12519",
-        "12535",
         "2133",
         "421",
         "4227",
         "8408",
+        "8800",
         "9486",
         "9509",
         "CLE",
@@ -2015,12 +2015,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "DET",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "12518",
@@ -2077,15 +2078,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "12476",
           "name": "Devin Neal",
           "position": "RB",
@@ -2110,6 +2102,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9486",
@@ -2151,12 +2151,12 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4046",
+        "6904",
         "5967",
         "8155",
         "7525",
         "5846",
-        "3214",
+        "9479",
         "12527",
         "11533",
         "JAX"
@@ -2182,13 +2182,13 @@
       ],
       "starters": [
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
           "position": "QB",
-          "team": "KC",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 3
         },
         {
           "player_id": "5967",
@@ -2227,13 +2227,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "9479",
+          "name": "Darnell Washington",
           "position": "TE",
-          "team": "NE",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         },
         {
           "player_id": "12527",
@@ -2290,6 +2289,24 @@
           "draft_round": 8
         },
         {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
+        },
+        {
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "4454",
           "name": "Kendrick Bourne",
           "position": "WR",
@@ -2302,23 +2319,6 @@
           "name": "Devin Singletary",
           "position": "RB",
           "team": "NYG",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "9479",
-          "name": "Darnell Washington",
-          "position": "TE",
-          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -2360,9 +2360,9 @@
         "6819",
         "5872",
         "5022",
-        "4199",
+        "9753",
         "4195",
-        "LAC"
+        "0"
       ],
       "players_current": [
         "11628",
@@ -2380,7 +2380,7 @@
         "8121",
         "8132",
         "9753",
-        "LAC"
+        "MIN"
       ],
       "starters": [
         {
@@ -2438,27 +2438,19 @@
           "draft_round": 16
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "MIN",
-          "injury_status": "Questionable",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 9
         },
         {
           "player_id": "4195",
           "name": "Jake Elliott",
           "position": "K",
           "team": "PHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAC",
           "injury_status": null,
           "keeper": false
         }
@@ -2472,6 +2464,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "5844",
@@ -2518,13 +2519,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "MIN",
+          "name": "Minnesota",
+          "position": "DEF",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 14
         }
       ],
       "keepers": []
@@ -3628,84 +3629,84 @@
       "roster_id": 1,
       "opponent_roster_id": 9,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 14,
       "roster_id": 9,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 4.9,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 2,
       "opponent_roster_id": 11,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 14,
       "roster_id": 11,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 5.7,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 3,
       "opponent_roster_id": 6,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 14,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 0.0,
-      "result": null
+      "points": 6.4,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 4,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 5.0,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 4.6,
+      "result": "L"
     },
     {
       "week": 14,
       "roster_id": 7,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 3.08,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 12,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 14,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 1.16,
+      "result": "W"
     },
     {
       "week": 14,
       "roster_id": 10,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     }
   ]
 }
