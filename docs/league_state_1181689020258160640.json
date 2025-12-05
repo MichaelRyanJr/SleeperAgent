@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T10:47:39.991740Z",
+  "generated_at": "2025-12-05T11:21:35.014470Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -609,15 +609,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
-        "5850",
+        "4892",
+        "11584",
         "7588",
         "10229",
         "7526",
         "8130",
-        "12526",
+        "5850",
         "8259",
-        "0"
+        "MIA"
       ],
       "players_current": [
         "10229",
@@ -640,21 +640,22 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "ARI",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "GB",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "7588",
@@ -693,13 +694,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 1
         },
         {
           "player_id": "8259",
@@ -709,6 +710,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "MIA",
+          "name": "Miami",
+          "position": "DEF",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -721,15 +730,6 @@
           "keeper": false
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "11625",
           "name": "Adonai Mitchell",
           "position": "WR",
@@ -738,13 +738,21 @@
           "keeper": false
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 3
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5849",
@@ -779,17 +787,18 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "MIA",
-          "name": "Miami",
-          "position": "DEF",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
         {
           "player_id": "10229",
           "name": "Rashee Rice",
@@ -807,15 +816,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         },
         {
           "player_id": "5849",
