@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-07T20:24:30.739873Z",
+  "generated_at": "2025-12-07T20:41:48.835734Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1430,7 +1430,7 @@
           "name": "Zach Ertz",
           "position": "TE",
           "team": "WAS",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 14
         },
@@ -1850,7 +1850,8 @@
         "9504",
         "9754",
         "9997",
-        "BUF"
+        "BUF",
+        "NE"
       ],
       "starters": [
         {
@@ -1995,6 +1996,14 @@
           "player_id": "9504",
           "name": "Kayshon Boutte",
           "position": "WR",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "NE",
+          "name": "New England",
+          "position": "DEF",
           "team": "NE",
           "injury_status": null,
           "keeper": false
@@ -4100,63 +4109,63 @@
       "week": 14,
       "roster_id": 1,
       "opponent_roster_id": 11,
-      "points": 87.56,
+      "points": 106.18,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 11,
       "opponent_roster_id": 1,
-      "points": 35.7,
+      "points": 48.64,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 2,
       "opponent_roster_id": 8,
-      "points": 54.86,
+      "points": 68.0,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 8,
       "opponent_roster_id": 2,
-      "points": 45.1,
+      "points": 47.3,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 3,
       "opponent_roster_id": 7,
-      "points": 66.1,
+      "points": 66.3,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 7,
       "opponent_roster_id": 3,
-      "points": 129.84,
+      "points": 128.84,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 4,
       "opponent_roster_id": 10,
-      "points": 68.2,
+      "points": 74.0,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 10,
       "opponent_roster_id": 4,
-      "points": 85.2,
+      "points": 99.1,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 5,
       "opponent_roster_id": 9,
-      "points": 54.92,
+      "points": 60.64,
       "result": "W"
     },
     {
@@ -4170,14 +4179,14 @@
       "week": 14,
       "roster_id": 6,
       "opponent_roster_id": 12,
-      "points": 65.36,
+      "points": 70.76,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 12,
       "opponent_roster_id": 6,
-      "points": 51.3,
+      "points": 54.5,
       "result": "L"
     }
   ]
