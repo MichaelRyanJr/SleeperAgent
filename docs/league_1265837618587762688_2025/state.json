@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-07T16:45:36.996339Z",
+  "generated_at": "2025-12-07T17:18:31.470262Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -341,7 +341,7 @@
           "name": "Parker Washington",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1253,7 +1253,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -1965,12 +1965,12 @@
         "10232",
         "12518",
         "12476",
-        "4227",
+        "10937",
         "CLE"
       ],
       "players_current": [
         "10232",
-        "11589",
+        "10937",
         "11620",
         "11631",
         "12476",
@@ -1980,12 +1980,12 @@
         "2133",
         "421",
         "4227",
-        "8408",
         "8800",
         "9486",
         "9509",
         "CLE",
-        "NE"
+        "NE",
+        "SF"
       ],
       "starters": [
         {
@@ -2049,13 +2049,12 @@
           "keeper": false
         },
         {
-          "player_id": "4227",
-          "name": "Harrison Butker",
+          "player_id": "10937",
+          "name": "Jake Moody",
           "position": "K",
-          "team": "KC",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
+          "keeper": false
         },
         {
           "player_id": "CLE",
@@ -2067,15 +2066,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11589",
-          "name": "Trey Benson",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 11
-        },
         {
           "player_id": "11620",
           "name": "Rome Odunze",
@@ -2104,13 +2094,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "4227",
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 14
         },
         {
           "player_id": "8800",
@@ -2136,6 +2126,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco",
+          "position": "DEF",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
         }
       ],
       "keepers": []

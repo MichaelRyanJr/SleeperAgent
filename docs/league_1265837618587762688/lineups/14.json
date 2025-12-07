@@ -109,7 +109,7 @@
         "name": "Parker Washington",
         "position": "WR",
         "team": "JAX",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "9756",
@@ -670,7 +670,7 @@
         "name": "Chris Olave",
         "position": "WR",
         "team": "NO",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "11604",
@@ -1420,10 +1420,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4227",
-        "name": "Harrison Butker",
+        "player_id": "10937",
+        "name": "Jake Moody",
         "position": "K",
-        "team": "KC",
+        "team": "WAS",
         "injury_status": null
       },
       {
@@ -1435,13 +1435,6 @@
       }
     ],
     "bench": [
-      {
-        "player_id": "11589",
-        "name": "Trey Benson",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": "IR"
-      },
       {
         "player_id": "11620",
         "name": "Rome Odunze",
@@ -1464,10 +1457,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8408",
-        "name": "Jordan Mason",
-        "position": "RB",
-        "team": "MIN",
+        "player_id": "4227",
+        "name": "Harrison Butker",
+        "position": "K",
+        "team": "KC",
         "injury_status": null
       },
       {
@@ -1489,6 +1482,13 @@
         "name": "New England",
         "position": "DEF",
         "team": "NE",
+        "injury_status": null
+      },
+      {
+        "player_id": "SF",
+        "name": "San Francisco",
+        "position": "DEF",
+        "team": "SF",
         "injury_status": null
       }
     ]
