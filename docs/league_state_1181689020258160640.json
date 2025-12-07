@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-07T15:39:07.054231Z",
+  "generated_at": "2025-12-07T16:26:13.340695Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -1615,12 +1615,12 @@
         "7021",
         "7547",
         "8137",
-        "8142",
         "8154",
         "8167",
         "9221",
         "9480",
-        "CLE"
+        "CLE",
+        "SF"
       ],
       "starters": [
         {
@@ -1748,14 +1748,6 @@
           "keeper": false
         },
         {
-          "player_id": "8142",
-          "name": "Alec Pierce",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -1769,6 +1761,14 @@
           "name": "Christian Watson",
           "position": "WR",
           "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco",
+          "position": "DEF",
+          "team": "SF",
           "injury_status": null,
           "keeper": false
         }
