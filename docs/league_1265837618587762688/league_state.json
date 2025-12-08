@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-07T23:39:34.362532Z",
+  "generated_at": "2025-12-08T01:53:03.726527Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1104,7 +1104,7 @@
           "name": "Geno Smith",
           "position": "QB",
           "team": "LV",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2370,7 +2370,7 @@
         "5022",
         "9753",
         "4195",
-        "0"
+        "LAC"
       ],
       "players_current": [
         "11628",
@@ -2388,7 +2388,7 @@
         "8121",
         "8132",
         "9753",
-        "MIN"
+        "LAC"
       ],
       "starters": [
         {
@@ -2461,6 +2461,14 @@
           "team": "PHI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -2525,15 +2533,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "MIN",
-          "name": "Minnesota",
-          "position": "DEF",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
         }
       ],
       "keepers": []
@@ -3636,21 +3635,21 @@
       "week": 14,
       "roster_id": 1,
       "opponent_roster_id": 9,
-      "points": 111.86,
+      "points": 115.16,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 9,
       "opponent_roster_id": 1,
-      "points": 83.46,
+      "points": 80.46,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 2,
       "opponent_roster_id": 11,
-      "points": 73.36,
+      "points": 84.06,
       "result": "L"
     },
     {
@@ -3664,35 +3663,35 @@
       "week": 14,
       "roster_id": 3,
       "opponent_roster_id": 6,
-      "points": 77.5,
+      "points": 88.1,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 139.16,
+      "points": 145.96,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 4,
       "opponent_roster_id": 5,
-      "points": 48.78,
+      "points": 56.18,
       "result": "L"
     },
     {
       "week": 14,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 78.08,
+      "points": 76.08,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 7,
       "opponent_roster_id": 12,
-      "points": 66.56,
+      "points": 66.46,
       "result": "L"
     },
     {
@@ -3706,14 +3705,14 @@
       "week": 14,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 95.34,
+      "points": 102.94,
       "result": "W"
     },
     {
       "week": 14,
       "roster_id": 10,
       "opponent_roster_id": 8,
-      "points": 79.8,
+      "points": 98.74,
       "result": "L"
     }
   ]

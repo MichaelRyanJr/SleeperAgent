@@ -75,7 +75,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,7,5012,Mark Andrews,TE,BAL,,1,0
 5,8,11539,Jake Bates,K,DET,,1,0
 5,9,DEN,Denver,DEF,DEN,,1,0
-5,,1373,Geno Smith,QB,LV,Questionable,0,0
+5,,1373,Geno Smith,QB,LV,Out,0,0
 5,,17,Matt Prater,K,BUF,,0,0
 5,,4034,Christian McCaffrey,RB,SF,,0,0
 5,,4988,Nick Chubb,RB,HOU,,0,0
@@ -189,6 +189,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,6,5022,Dallas Goedert,TE,PHI,,1,0
 12,7,9753,Zach Charbonnet,RB,SEA,,1,0
 12,8,4195,Jake Elliott,K,PHI,,1,0
+12,9,LAC,Los Angeles,DEF,LAC,,1,0
 12,,11628,Marvin Harrison,WR,ARI,Out,0,0
 12,,4199,Aaron Jones,RB,MIN,,0,0
 12,,5844,T.J. Hockenson,TE,MIN,,0,0
@@ -196,4 +197,3 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,,6804,Jordan Love,QB,GB,,0,0
 12,,8121,Romeo Doubs,WR,GB,,0,0
 12,,8132,Tyler Allgeier,RB,ATL,,0,0
-12,,MIN,Minnesota,DEF,MIN,,0,0
