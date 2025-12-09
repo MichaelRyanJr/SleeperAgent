@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-09T20:41:03.867553Z",
+  "generated_at": "2025-12-09T21:20:40.629238Z",
   "season": 2025,
   "league": {
     "league_id": "1265837618587762688",
@@ -1527,7 +1527,7 @@
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false
         }
       ],
@@ -1966,7 +1966,7 @@
         "12518",
         "12476",
         "10937",
-        "CLE"
+        "SF"
       ],
       "players_current": [
         "10232",
@@ -2057,12 +2057,13 @@
           "keeper": false
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland",
+          "player_id": "SF",
+          "name": "San Francisco",
           "position": "DEF",
-          "team": "CLE",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         }
       ],
       "bench": [
@@ -2119,6 +2120,14 @@
           "keeper": false
         },
         {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "NE",
           "name": "New England",
           "position": "DEF",
@@ -2126,15 +2135,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco",
-          "position": "DEF",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         }
       ],
       "keepers": []

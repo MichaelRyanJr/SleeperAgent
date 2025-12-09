@@ -237,7 +237,7 @@
         "name": "Daniel Jones",
         "position": "QB",
         "team": "IND",
-        "injury_status": "Out"
+        "injury_status": "IR"
       }
     ]
   },
@@ -431,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "CLE",
-        "name": "Cleveland",
+        "player_id": "SF",
+        "name": "San Francisco",
         "position": "DEF",
-        "team": "CLE",
+        "team": "SF",
         "injury_status": null
       }
     ],
@@ -482,17 +482,17 @@
         "injury_status": "Questionable"
       },
       {
+        "player_id": "CLE",
+        "name": "Cleveland",
+        "position": "DEF",
+        "team": "CLE",
+        "injury_status": null
+      },
+      {
         "player_id": "NE",
         "name": "New England",
         "position": "DEF",
         "team": "NE",
-        "injury_status": null
-      },
-      {
-        "player_id": "SF",
-        "name": "San Francisco",
-        "position": "DEF",
-        "team": "SF",
         "injury_status": null
       }
     ]
