@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-09T13:38:22.816234Z",
+  "generated_at": "2025-12-09T14:26:37.476843Z",
   "season": 2025,
   "league": {
     "league_id": "1181689020258160640",
@@ -359,7 +359,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "12545",
+        "11564",
         "4866",
         "9509",
         "9493",
@@ -391,12 +391,13 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
+          "player_id": "11564",
+          "name": "Drake Maye",
           "position": "QB",
-          "team": "NO",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "4866",
@@ -472,15 +473,6 @@
       ],
       "bench": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "11576",
           "name": "Braelon Allen",
           "position": "RB",
@@ -537,6 +529,14 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         },
