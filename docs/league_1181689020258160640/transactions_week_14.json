@@ -1,6 +1,95 @@
 [
   {
     "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765338219004,
+    "settings": {
+      "seq": 3
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "985618252640407552",
+    "transaction_id": "1304326663110156288",
+    "adds": {
+      "12524": 3
+    },
+    "consenter_ids": [
+      3
+    ],
+    "drops": {
+      "MIA": 3
+    },
+    "roster_ids": [
+      3
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765337846965,
+    "settings": {
+      "priority": 0,
+      "seq": 2
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1002070574866288640",
+    "transaction_id": "1304325102665498624",
+    "adds": {
+      "NO": 5
+    },
+    "consenter_ids": [
+      5
+    ],
+    "drops": {
+      "IND": 5
+    },
+    "roster_ids": [
+      5
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "failed",
+    "type": "waiver",
+    "metadata": {
+      "notes": "This player was claimed by another owner."
+    },
+    "created": 1765337710423,
+    "settings": {
+      "priority": 1,
+      "seq": 6
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1002070574866288640",
+    "transaction_id": "1304324529966821376",
+    "adds": {
+      "CAR": 5
+    },
+    "consenter_ids": [
+      5
+    ],
+    "drops": {
+      "IND": 5
+    },
+    "roster_ids": [
+      5
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1765337639581,
@@ -10,16 +99,72 @@
     "creator": "1002276420074246144",
     "transaction_id": "1304324232833957888",
     "adds": null,
-    "drops": {
-      "BUF": 8
-    },
     "consenter_ids": [
       8
     ],
+    "drops": {
+      "BUF": 8
+    },
     "roster_ids": [
       8
     ],
     "status_updated": 1765337639581,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765299729356,
+    "settings": {
+      "seq": 0
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1002276479373369344",
+    "transaction_id": "1304165225825603584",
+    "adds": {
+      "DAL": 9
+    },
+    "consenter_ids": [
+      9
+    ],
+    "drops": {
+      "12499": 9
+    },
+    "roster_ids": [
+      9
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "failed",
+    "type": "waiver",
+    "metadata": {
+      "notes": "This player was claimed by another owner."
+    },
+    "created": 1765299643033,
+    "settings": {
+      "seq": 4
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "866098578773393408",
+    "transaction_id": "1304164863756505088",
+    "adds": {
+      "KC": 7
+    },
+    "consenter_ids": [
+      7
+    ],
+    "drops": null,
+    "roster_ids": [
+      7
+    ],
+    "status_updated": 1765354443917,
     "waiver_budget": []
   },
   {
@@ -33,16 +178,106 @@
     "creator": "866098578773393408",
     "transaction_id": "1304164732655144960",
     "adds": null,
-    "drops": {
-      "CLE": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "CLE": 7
+    },
     "roster_ids": [
       7
     ],
     "status_updated": 1765299611775,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765292886305,
+    "settings": {
+      "priority": 1,
+      "seq": 5
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1304136523985227776",
+    "adds": {
+      "CAR": 4
+    },
+    "consenter_ids": [
+      4
+    ],
+    "drops": {
+      "8676": 4
+    },
+    "roster_ids": [
+      4
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765292875995,
+    "settings": {
+      "priority": 0,
+      "seq": 1
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1304136480746110976",
+    "adds": {
+      "KC": 4
+    },
+    "consenter_ids": [
+      4
+    ],
+    "drops": {
+      "8111": 4
+    },
+    "roster_ids": [
+      4
+    ],
+    "status_updated": 1765354443917,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1765256432875,
+    "settings": {
+      "priority": 2,
+      "seq": 7
+    },
+    "leg": 14,
+    "draft_picks": [],
+    "creator": "1002070574866288640",
+    "transaction_id": "1303983627217944576",
+    "adds": {
+      "11597": 5
+    },
+    "consenter_ids": [
+      5
+    ],
+    "drops": {
+      "827": 5
+    },
+    "roster_ids": [
+      5
+    ],
+    "status_updated": 1765354443917,
     "waiver_budget": []
   },
   {
@@ -58,12 +293,12 @@
     "adds": {
       "NE": 8
     },
-    "drops": {
-      "4983": 8
-    },
     "consenter_ids": [
       8
     ],
+    "drops": {
+      "4983": 8
+    },
     "roster_ids": [
       8
     ],
@@ -83,10 +318,10 @@
     "adds": {
       "4983": 8
     },
-    "drops": null,
     "consenter_ids": [
       8
     ],
+    "drops": null,
     "roster_ids": [
       8
     ],
@@ -106,12 +341,12 @@
     "adds": {
       "SF": 7
     },
-    "drops": {
-      "8142": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "8142": 7
+    },
     "roster_ids": [
       7
     ],
@@ -135,12 +370,12 @@
     "adds": {
       "7049": 7
     },
-    "drops": {
-      "8154": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "8154": 7
+    },
     "roster_ids": [
       7
     ],
@@ -158,12 +393,12 @@
     "creator": "1002420063170924544",
     "transaction_id": "1303174123832238080",
     "adds": null,
-    "drops": {
-      "7049": 11
-    },
     "consenter_ids": [
       11
     ],
+    "drops": {
+      "7049": 11
+    },
     "roster_ids": [
       11
     ],
@@ -181,12 +416,12 @@
     "creator": "992551957615198208",
     "transaction_id": "1302472164514996224",
     "adds": null,
-    "drops": {
-      "NE": 1
-    },
     "consenter_ids": [
       1
     ],
+    "drops": {
+      "NE": 1
+    },
     "roster_ids": [
       1
     ],
@@ -206,12 +441,12 @@
     "adds": {
       "827": 5
     },
-    "drops": {
-      "12485": 5
-    },
     "consenter_ids": [
       5
     ],
+    "drops": {
+      "12485": 5
+    },
     "roster_ids": [
       5
     ],
@@ -231,12 +466,12 @@
     "adds": {
       "8167": 7
     },
-    "drops": {
-      "2505": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "2505": 7
+    },
     "roster_ids": [
       7
     ],
@@ -260,12 +495,12 @@
     "adds": {
       "MIA": 3
     },
-    "drops": {
-      "LAC": 3
-    },
     "consenter_ids": [
       3
     ],
+    "drops": {
+      "LAC": 3
+    },
     "roster_ids": [
       3
     ],
@@ -285,12 +520,12 @@
     "adds": {
       "IND": 5
     },
-    "drops": {
-      "ATL": 5
-    },
     "consenter_ids": [
       5
     ],
+    "drops": {
+      "ATL": 5
+    },
     "roster_ids": [
       5
     ],
@@ -310,12 +545,12 @@
     "adds": {
       "12545": 2
     },
-    "drops": {
-      "4983": 2
-    },
     "consenter_ids": [
       2
     ],
+    "drops": {
+      "4983": 2
+    },
     "roster_ids": [
       2
     ],
@@ -333,12 +568,12 @@
     "creator": "1001900087896784896",
     "transaction_id": "1301909306387484672",
     "adds": null,
-    "drops": {
-      "12540": 2
-    },
     "consenter_ids": [
       2
     ],
+    "drops": {
+      "12540": 2
+    },
     "roster_ids": [
       2
     ],
@@ -358,12 +593,12 @@
     "adds": {
       "10219": 11
     },
-    "drops": {
-      "8121": 11
-    },
     "consenter_ids": [
       11
     ],
+    "drops": {
+      "8121": 11
+    },
     "roster_ids": [
       11
     ],
@@ -383,12 +618,12 @@
     "adds": {
       "3678": 9
     },
-    "drops": {
-      "1945": 9
-    },
     "consenter_ids": [
       9
     ],
+    "drops": {
+      "1945": 9
+    },
     "roster_ids": [
       9
     ],
