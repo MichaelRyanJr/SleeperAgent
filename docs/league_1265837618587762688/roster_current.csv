@@ -11,13 +11,13 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 1,,11586,Blake Corum,RB,LAR,,0,0
 1,,11647,Kimani Vidal,RB,LAC,,0,0
 1,,12484,Jayden Higgins,WR,HOU,,0,0
-1,,4035,Alvin Kamara,RB,NO,Out,0,0
+1,,4035,Alvin Kamara,RB,NO,Questionable,0,0
 1,,6149,Darius Slayton,WR,NYG,,0,0
 1,,6770,Joe Burrow,QB,CIN,,0,0
 1,,8146,Garrett Wilson,WR,NYJ,IR,0,0
 1,,HOU,Houston,DEF,HOU,,0,0
 2,1,4943,Sam Darnold,QB,SEA,,1,0
-2,2,5850,Josh Jacobs,RB,GB,Out,1,0
+2,2,5850,Josh Jacobs,RB,GB,,1,0
 2,3,7543,Travis Etienne,RB,JAX,,1,0
 2,4,5859,A.J. Brown,WR,PHI,,1,0
 2,5,4037,Chris Godwin,WR,TB,,1,0
@@ -43,7 +43,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,8,2020,Cairo Santos,K,CHI,,1,0
 3,9,CIN,Cincinnati,DEF,CIN,,1,0
 3,,12508,Jaxson Dart,QB,NYG,,0,0
-3,,3200,Sterling Shepard,WR,TB,Out,0,0
+3,,3200,Sterling Shepard,WR,TB,,0,0
 3,,4033,David Njoku,TE,CLE,Questionable,0,0
 3,,5927,Terry McLaurin,WR,WAS,,0,0
 3,,5947,Jakobi Meyers,WR,JAX,,0,0
@@ -52,19 +52,19 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,1,4892,Baker Mayfield,QB,TB,,1,0
 4,2,7588,Javonte Williams,RB,DAL,IR,1,0
 4,3,12507,Omarion Hampton,RB,LAC,Questionable,1,0
-4,4,7569,Nico Collins,WR,HOU,Out,1,0
+4,4,7569,Nico Collins,WR,HOU,,1,0
 4,5,7547,Amon-Ra St. Brown,WR,DET,,1,0
 4,6,4217,George Kittle,TE,SF,,1,0
 4,7,7049,Jauan Jennings,WR,SF,,1,0
 4,8,8259,Cameron Dicker,K,LAC,,1,0
 4,9,TB,Tampa Bay,DEF,TB,,1,0
-4,,11624,Xavier Worthy,WR,KC,Out,0,0
+4,,11624,Xavier Worthy,WR,KC,Questionable,0,0
 4,,12534,Kyle Monangai,RB,CHI,,0,0
 4,,1479,Keenan Allen,WR,LAC,,0,0
 4,,2505,Darren Waller,TE,MIA,IR,0,0
 4,,6806,J.K. Dobbins,RB,DEN,IR,0,0
 4,,8122,Zonovan Knight,RB,ARI,IR,0,0
-4,,8205,Isiah Pacheco,RB,KC,Out,0,0
+4,,8205,Isiah Pacheco,RB,KC,,0,0
 4,,9504,Kayshon Boutte,WR,NE,,0,0
 5,1,11563,Bo Nix,QB,DEN,,1,0
 5,2,4034,Christian McCaffrey,RB,SF,,1,0
@@ -77,8 +77,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,9,DET,Detroit,DEF,DET,,1,0
 5,,12469,Dylan Sampson,RB,CLE,,0,0
 5,,12490,Bhayshul Tuten,RB,JAX,,0,0
-5,,2307,Marcus Mariota,QB,WAS,Out,0,0
-5,,4988,Nick Chubb,RB,HOU,Out,0,0
+5,,2307,Marcus Mariota,QB,WAS,Questionable,0,0
+5,,4988,Nick Chubb,RB,HOU,,0,0
 5,,5012,Mark Andrews,TE,BAL,,0,0
 5,,7090,Darnell Mooney,WR,ATL,,0,0
 5,,SF,San Francisco,DEF,SF,,0,0
@@ -86,7 +86,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,2,9221,Jahmyr Gibbs,RB,DET,,1,0
 6,3,9224,Chase Brown,RB,CIN,,1,0
 6,4,9488,Jaxon Smith-Njigba,WR,SEA,,1,0
-6,5,8144,Chris Olave,WR,NO,Out,1,0
+6,5,8144,Chris Olave,WR,NO,Questionable,1,0
 6,6,11603,AJ Barner,TE,SEA,,1,0
 6,7,6790,D'Andre Swift,RB,CHI,,1,0
 6,8,2747,Jason Myers,K,SEA,,1,0
@@ -110,10 +110,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 7,,10219,Chris Rodriguez,RB,WAS,,0,0
 7,,11199,Emari Demercado,RB,ARI,,0,0
 7,,12493,Oronde Gadsden,TE,LAC,,0,0
-7,,331,Philip Rivers,QB,IND,Out,0,0
+7,,331,Philip Rivers,QB,IND,,0,0
 7,,8142,Alec Pierce,WR,IND,,0,0
 8,1,3257,Jacoby Brissett,QB,ARI,,1,0
-8,2,9226,De'Von Achane,RB,MIA,Out,1,0
+8,2,9226,De'Von Achane,RB,MIA,Questionable,1,0
 8,3,7567,Kenneth Gainwell,RB,PIT,,1,0
 8,4,6786,CeeDee Lamb,WR,DAL,,1,0
 8,5,8112,Drake London,WR,ATL,,1,0
@@ -123,7 +123,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,9,NO,New Orleans,DEF,NO,,1,0
 8,,10229,Rashee Rice,WR,KC,IR,0,0
 8,,10236,Dalton Kincaid,TE,BUF,,0,0
-8,,11638,Ricky Pearsall,WR,SF,Out,0,0
+8,,11638,Ricky Pearsall,WR,SF,Questionable,0,0
 8,,3294,Dak Prescott,QB,DAL,,0,0
 8,,8228,Jaylen Warren,RB,PIT,,0,0
 8,,KC,Kansas City,DEF,KC,,0,0
@@ -140,8 +140,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,,11560,Caleb Williams,QB,CHI,,0,0
 9,,12481,Cam Skattebo,RB,NYG,IR,0,0
 9,,4147,Samaje Perine,RB,CIN,,0,0
-9,,6768,Tua Tagovailoa,QB,MIA,Out,0,0
-9,,7526,Jaylen Waddle,WR,MIA,Out,0,0
+9,,6768,Tua Tagovailoa,QB,MIA,,0,0
+9,,7526,Jaylen Waddle,WR,MIA,Questionable,0,0
 9,,7611,Rhamondre Stevenson,RB,NE,,0,0
 9,,9754,Quentin Johnston,WR,LAC,,0,0
 9,,LAR,Los Angeles,DEF,LAR,,0,0
@@ -160,11 +160,11 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 10,,12517,Colston Loveland,TE,CHI,,0,0
 10,,12518,Tyler Warren,TE,IND,,0,0
 10,,12545,Tyler Shough,QB,NO,,0,0
-10,,2133,Davante Adams,WR,LAR,Out,0,0
+10,,2133,Davante Adams,WR,LAR,Questionable,0,0
 10,,9480,Brenton Strange,TE,JAX,,0,0
 11,1,6904,Jalen Hurts,QB,PHI,,1,0
 11,2,5967,Tony Pollard,RB,TEN,,1,0
-11,3,8155,Breece Hall,RB,NYJ,Out,1,0
+11,3,8155,Breece Hall,RB,NYJ,Questionable,1,0
 11,4,7525,DeVonta Smith,WR,PHI,,1,0
 11,5,5846,DK Metcalf,WR,PIT,Sus,1,0
 11,6,3214,Hunter Henry,TE,NE,,1,0
@@ -180,17 +180,17 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,,9479,Darnell Washington,TE,PIT,IR,0,0
 11,,96,Aaron Rodgers,QB,PIT,,0,0
 12,1,4984,Josh Allen,QB,BUF,,1,0
-12,2,4199,Aaron Jones,RB,MIN,Out,1,0
+12,2,4199,Aaron Jones,RB,MIN,Questionable,1,0
 12,3,3198,Derrick Henry,RB,BAL,,1,0
 12,4,6819,Michael Pittman,WR,IND,,1,0
 12,5,5872,Deebo Samuel,WR,WAS,,1,0
-12,6,5022,Dallas Goedert,TE,PHI,Out,1,0
+12,6,5022,Dallas Goedert,TE,PHI,Questionable,1,0
 12,7,6801,Tee Higgins,WR,CIN,,1,0
 12,8,4195,Jake Elliott,K,PHI,,1,0
 12,9,DAL,Dallas,DEF,DAL,,1,0
 12,,11628,Marvin Harrison,WR,ARI,IR,0,0
 12,,4098,Kareem Hunt,RB,KC,,0,0
-12,,5844,T.J. Hockenson,TE,MIN,Out,0,0
+12,,5844,T.J. Hockenson,TE,MIN,Questionable,0,0
 12,,6804,Jordan Love,QB,GB,,0,0
 12,,8121,Romeo Doubs,WR,GB,,0,0
 12,,8132,Tyler Allgeier,RB,ATL,,0,0
