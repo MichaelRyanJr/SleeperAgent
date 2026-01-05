@@ -1,434 +1,140 @@
 {
   "league_id": "1181689020258160640",
   "dir": "league_1181689020258160640",
-  "generated_at": "2025-12-10T08:33:44.174119Z",
-  "count": 61,
+  "generated_at": "2026-01-05T05:09:58.644049Z",
+  "count": 19,
   "files": [
     {
       "path": "diff.json",
-      "bytes": 890,
-      "sha256": "cfd20d0ad9cc72ba3ebedbdc8b5984a68d548d8bd3643748855ee1173bcb249a",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 1752,
+      "sha256": "b0ce71e283478226887bb29939b2518c587b84376b4c200c611805024b34f161",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "draft_picks.json",
       "bytes": 116865,
       "sha256": "facb23bf4aecec58157d3df061b1162d070680dcfbff373f3f4a6c3d5755e909",
-      "mtime": "2025-12-10T08:33:39Z",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "drafts.json",
       "bytes": 1544,
       "sha256": "27d812ded5a879edf2dbb74fb0c13ad7bdb6d7ef4c920f02c1fd9660b73553c4",
-      "mtime": "2025-12-10T08:33:39Z",
+      "mtime": "2026-01-05T05:09:57Z",
       "is_core": false
     },
     {
       "path": "league.json",
-      "bytes": 3654,
-      "sha256": "18e829136fc0c9704c1d820ce66f3f8b09e4a6e943c86ee1cc9b1ed48f32fba5",
-      "mtime": "2025-12-10T08:33:39Z",
+      "bytes": 3707,
+      "sha256": "9fd85ef8bf6e8e6e87faa44b958c06964099b5c28f96ffce27255711e2de55c9",
+      "mtime": "2026-01-05T05:09:57Z",
       "is_core": false
     },
     {
       "path": "league_state.json",
-      "bytes": 93168,
-      "sha256": "7887f8112f1178389af009a346b82ba35c633011802fccc3314dd86e0f043d7f",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 72072,
+      "sha256": "e1618c003415bb4687d61d703d3496fcf41a2440d4e153aedc6f58c8a8a877a9",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "lineups/1.json",
-      "bytes": 33009,
-      "sha256": "0cc43881f79ebf9dd8ffb9e07c6cecbbb85a1b01de9a39989f6baa6dca972af7",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/10.json",
-      "bytes": 34564,
-      "sha256": "04b6b1189f748147759680c0e068544c3cef664fbb2180f1a5269bbfc06486ae",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/11.json",
-      "bytes": 34747,
-      "sha256": "ed79f8579bead2e2ce0c5e3d6f064a2bd83e9f5a4d87dc4b38dd1bee956633cb",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/12.json",
-      "bytes": 35012,
-      "sha256": "e2397a0d8f57bec658a3c01163005b69013de4e8539141bae7d6e450f7cef009",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/13.json",
-      "bytes": 34372,
-      "sha256": "210a3e54472a00707c199e73e3675e2bde21574cc0994365276c0140de268cd0",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/14.json",
-      "bytes": 34705,
-      "sha256": "939b73596a93bb3c69896c41384a54e082fd6b4dbee1e4da7b24931824bb65df",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/15.json",
-      "bytes": 34033,
-      "sha256": "08828b9527e0509eaa4bb82ac4e0ac9156b10acbdd92e1ccbdbff5ced75ff86c",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/2.json",
-      "bytes": 32994,
-      "sha256": "3c59c807b4cdb655a6e592114922c3d2d4829b8606a35467e7935f4275daf199",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/3.json",
-      "bytes": 33315,
-      "sha256": "a32cff13c7cd48b7c3d4445b768511438ba458c150f56c503d645418bdaf962c",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/4.json",
-      "bytes": 33471,
-      "sha256": "fc1246d660c280315df69236e63691d6eda4dd4d93fca08f4fb953ea4a8c1b8e",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/5.json",
-      "bytes": 34247,
-      "sha256": "7291d2067e4d52f1d1545d2fbf7c4fae085016ab802c0010194ff6b0505147a8",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/6.json",
-      "bytes": 34223,
-      "sha256": "85ca1dd666b3384ab878b46b1044279e533c80e24a437365242bff4c489dfe3c",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/7.json",
-      "bytes": 33765,
-      "sha256": "98044cc3f50c5c443d48501dcb1bdc0e4711efd5a7da2badc44e71b53324f1a4",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/8.json",
-      "bytes": 34380,
-      "sha256": "25c469cbcae0fa9173ae6a3b15af988c14daf59b873a563ee0ca4e80f57791e8",
-      "mtime": "2025-12-10T08:33:44Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/9.json",
-      "bytes": 34863,
-      "sha256": "6db99baa056d444c9e03de60c976590ddeeb178831ea0daa8af4d162b4d9cc8b",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 32903,
+      "sha256": "cfc4a7e7888c06099400f1b195f22d08abcf67f9d9a3302330029ea1407d29c9",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "matchups_week_1.json",
       "bytes": 12031,
       "sha256": "a5cd1692f16a8b07797183ee97e22d0469b6c42863f0671582d854d06a66ce6c",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_10.json",
-      "bytes": 12323,
-      "sha256": "fb1405ec5cace37c9f5ea55a495583d3c7986a40ffa0dd551ee401b513d4a665",
-      "mtime": "2025-12-10T08:33:42Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_11.json",
-      "bytes": 12325,
-      "sha256": "f50c761fec211461cf1333177a054ca9b12acad0b5fc74f0ede005c6bdc35dea",
-      "mtime": "2025-12-10T08:33:42Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_12.json",
-      "bytes": 12423,
-      "sha256": "253eb5e619d87b6fbd764d4801ea4c3c23d0830d4013b449ee05d9a5358c0849",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_13.json",
-      "bytes": 12300,
-      "sha256": "c196a281681ceeecfc4daddd0495ed93582bfb52487848d59f398882cf48275f",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_14.json",
-      "bytes": 12365,
-      "sha256": "3c864c8a480d9921142b06bb686ca3d066a7e0a58e973ed7bb635bd77dae7b30",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_15.json",
-      "bytes": 12018,
-      "sha256": "d3a3de899d2a6d57ac205ed1a38ad4b9fa9ca1596b608d46f7f8b8b10de2d2e3",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_2.json",
-      "bytes": 12004,
-      "sha256": "73dcb02bfb1fc90eceee8bd4dec99aab12e81f4a357e33edb1db7f6eb66346da",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_3.json",
-      "bytes": 12076,
-      "sha256": "b2c047ea8b746931a5eb4ef5498d58566f20612b1731731f92cf09e827a7042b",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_4.json",
-      "bytes": 12123,
-      "sha256": "cffdbf60abe0b0b890c2d42c280a5d5e577cee34c7c00f4312cd69c382363b4d",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_5.json",
-      "bytes": 12277,
-      "sha256": "37fb4ab473002fa09d02f180b4b4c24358e2b9ec7e66731d5fd23622ecdaf919",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_6.json",
-      "bytes": 12222,
-      "sha256": "6c4d21b87869a91e4614867a9f92db52d6bfd278acb4548880ccd22f5fac2756",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_7.json",
-      "bytes": 12154,
-      "sha256": "b2d14016d0710b32b053695bdbd1bca1253932ab41a6e9e08610c0c7ef7be924",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_8.json",
-      "bytes": 12263,
-      "sha256": "5fb727bca32846a05387fde4cc94603cfdd7b9e97056239ed0e5918e4874de57",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_9.json",
-      "bytes": 12371,
-      "sha256": "32becf8bce176b807011de26d774ffdae58c9f6a696a25076f0060649122a0df",
-      "mtime": "2025-12-10T08:33:42Z",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "nfl_state.json",
-      "bytes": 255,
-      "sha256": "dbcffd5a6ad29999ed3e79cb32ce2f5c0976226c5530afe9444b42f5f9147719",
-      "mtime": "2025-12-10T08:33:39Z",
+      "bytes": 250,
+      "sha256": "4fe04ecf9414eb5b81ee78f235d0350480d0864400488d61774f533b0ed4d320",
+      "mtime": "2026-01-05T05:09:57Z",
       "is_core": false
     },
     {
       "path": "players_min.json",
-      "bytes": 94823,
-      "sha256": "19ec3d83a029b3e6da260b961a4785df7c288254eca4f6560abbccbdbc0e3dd0",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 80719,
+      "sha256": "d9fdb6097540fd217b87ae9fffb60d6fbefff2042168076611978d900092bde5",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "roster_current.csv",
-      "bytes": 7531,
-      "sha256": "5acae3941c270f1fddea198d77d202087adbca5f49fd99dafc0e5f6a3e791c0c",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 7591,
+      "sha256": "744451b39e1a039013c96b46dc8fddb13f4e33a1be620c9e31148afc6e1de480",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "rosters.json",
-      "bytes": 32991,
-      "sha256": "4faead169e8e320f55f42e0646c46a2bbbfb9375612ffccf7f8ba2f9dd4a8a97",
-      "mtime": "2025-12-10T08:33:39Z",
+      "bytes": 33374,
+      "sha256": "a16514a6bdb30e1b37060d1bc5051b932726e883aa472113112d2c52ec35748a",
+      "mtime": "2026-01-05T05:09:57Z",
       "is_core": false
     },
     {
       "path": "schedule.json",
-      "bytes": 20394,
-      "sha256": "d17627ccdb366c12cbeca0633f91e20cf52d8409572736474ca6025f496a4c77",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 1360,
+      "sha256": "8d29d1816be903cd1d4a4b42a1fb8fa0fbc2d5ff779a914e0f153f84e1d69d3b",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "schedule_weekly.csv",
-      "bytes": 3008,
-      "sha256": "caaa1c144137d55cc0b70aefea197bbe0875e62797366f2adf7e080f97aecfa5",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 244,
+      "sha256": "37c595ebe3dfaaa8c3cce885f8f2b72830a8f4c2cd37b0eebdb8273f5add975c",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "state.json",
-      "bytes": 93168,
-      "sha256": "7887f8112f1178389af009a346b82ba35c633011802fccc3314dd86e0f043d7f",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 72072,
+      "sha256": "e1618c003415bb4687d61d703d3496fcf41a2440d4e153aedc6f58c8a8a877a9",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "teams.csv",
       "bytes": 1481,
-      "sha256": "40049142da3e690d8d5280c977c68ad7fd5b7749a8ac176b432d87bddedbf429",
-      "mtime": "2025-12-10T08:33:44Z",
+      "sha256": "2dcc23fb4dbcde79ae57466aa3ab42dd331bf5d8d98cd168206b9ee9a934ea3d",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "teams.json",
-      "bytes": 14662,
-      "sha256": "cd5775173eb5a79cca9aab924ae7a5998b5e15c5f88d3956620644765bbfe089",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 14618,
+      "sha256": "de1d9d7c6bee75429039345fba032b35272dde1359eb09c3bbfaec06c1306ba7",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "transactions.json",
-      "bytes": 178176,
-      "sha256": "d92517f71d41c0ae034493be0bbdfc4b7e467738515bb3bab48cc34feefa59cf",
-      "mtime": "2025-12-10T08:33:44Z",
+      "bytes": 20653,
+      "sha256": "4c0cfa673f7474de0ba844d98808cb78d46ea46e1eb324883352eb59244913e9",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": true
     },
     {
       "path": "transactions_week_1.json",
       "bytes": 20098,
       "sha256": "5d318ae0b47676b00e06c0920255991453bd8e0fcc1e858c6e30fee23832ae3d",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_10.json",
-      "bytes": 8509,
-      "sha256": "dd81c2e6f659c286e75f1504f6ef8f0ad2d10ebe304d1ba5d50647d7394ddeb6",
-      "mtime": "2025-12-10T08:33:42Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_11.json",
-      "bytes": 20590,
-      "sha256": "a7ae9e12734ebeb5114e060cfe5920c4870043d236db7cf36682077f1364697c",
-      "mtime": "2025-12-10T08:33:42Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_12.json",
-      "bytes": 13875,
-      "sha256": "b7557d399d889a11c68fe58c893912cc118406bc21d85571406a79d6af2fa697",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_13.json",
-      "bytes": 11676,
-      "sha256": "e2301f622dcae5386b64a9d21ab71df7ebe512d7f448b0d4620ce96f17a4b82a",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_14.json",
-      "bytes": 11902,
-      "sha256": "1fc3131a7797d0dba3c9ecfee967ff33a9c326cc755b1b0324c4bc33f4da234d",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_15.json",
-      "bytes": 2,
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "mtime": "2025-12-10T08:33:43Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_2.json",
-      "bytes": 6545,
-      "sha256": "8d2b0843147a3e5d411f4df70fa0b2b41267076fd2ab1199aaf2d89761b90c87",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_3.json",
-      "bytes": 9081,
-      "sha256": "23a9bc70a67f2abca28bad726e194024e63e839b387a514594cb4bc4b5d98e78",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_4.json",
-      "bytes": 11234,
-      "sha256": "359614948e896a6c38a6f9b5b2076260469c4f1799715f278d1644e654acda3b",
-      "mtime": "2025-12-10T08:33:40Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_5.json",
-      "bytes": 15017,
-      "sha256": "9ece348ab60872d72b91689d1f29264553126448ce02a6bc643ac727bb6eb81f",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_6.json",
-      "bytes": 9240,
-      "sha256": "e675a266698c8fcca61fb7d8bcac28c4edd74709fbed9bb66d6978149df0c1ac",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_7.json",
-      "bytes": 10970,
-      "sha256": "a16d3c13a46ec9fd76230d5a9dfd51887af0e43f37b9f61ef154a9afa474c26d",
-      "mtime": "2025-12-10T08:33:41Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_8.json",
-      "bytes": 12341,
-      "sha256": "b81c0946d89d0d0ef76df4a9e8bcb9f7823508949401daaf83b7cd8feafbecf5",
-      "mtime": "2025-12-10T08:33:42Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_9.json",
-      "bytes": 11910,
-      "sha256": "0bac937e3b581dee1c5926a8e344fdde3b55e3b3e5e8774ae845d191f3d98a0d",
-      "mtime": "2025-12-10T08:33:42Z",
+      "mtime": "2026-01-05T05:09:58Z",
       "is_core": false
     },
     {
       "path": "users.json",
       "bytes": 5875,
       "sha256": "e83bc26ba4b901cb0fe1d28a682bc6e6c2ee46910e11c2718c4ebb2f0f40fb54",
-      "mtime": "2025-12-10T08:33:39Z",
+      "mtime": "2026-01-05T05:09:57Z",
       "is_core": false
     }
   ]

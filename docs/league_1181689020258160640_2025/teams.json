@@ -28,15 +28,6 @@
         "draft_round": 2
       },
       {
-        "player_id": "8228",
-        "name": "Jaylen Warren",
-        "position": "RB",
-        "team": "PIT",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 13
-      },
-      {
         "player_id": "9488",
         "name": "Jaxon Smith-Njigba",
         "position": "WR",
@@ -68,9 +59,18 @@
         "name": "Tyrone Tracy",
         "position": "RB",
         "team": "NYG",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 15
+      },
+      {
+        "player_id": "8228",
+        "name": "Jaylen Warren",
+        "position": "RB",
+        "team": "PIT",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 13
       }
     ]
   },
@@ -89,7 +89,7 @@
     "points_for": 1882.7,
     "points_against": 1609.34,
     "waiver": {
-      "position": 6,
+      "position": 4,
       "budget_used": 0
     },
     "keepers": [
@@ -107,7 +107,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": null,
+        "injury_status": "IR",
         "keeper": true,
         "draft_round": 5
       },
@@ -116,7 +116,7 @@
         "name": "Brian Thomas",
         "position": "WR",
         "team": "JAX",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 7
       },
@@ -146,7 +146,7 @@
     "points_for": 1891.9,
     "points_against": 1754.8,
     "waiver": {
-      "position": 10,
+      "position": 9,
       "budget_used": 0
     },
     "keepers": [
@@ -160,15 +160,6 @@
         "draft_round": 15
       },
       {
-        "player_id": "10229",
-        "name": "Rashee Rice",
-        "position": "WR",
-        "team": "KC",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 13
-      },
-      {
         "player_id": "8130",
         "name": "Trey McBride",
         "position": "TE",
@@ -176,6 +167,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 12
+      },
+      {
+        "player_id": "10229",
+        "name": "Rashee Rice",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": "IR",
+        "keeper": true,
+        "draft_round": 13
       },
       {
         "player_id": "5849",
@@ -203,25 +203,16 @@
     "points_for": 1520.08,
     "points_against": 1691.12,
     "waiver": {
-      "position": 11,
+      "position": 6,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "9753",
-        "name": "Zach Charbonnet",
-        "position": "RB",
-        "team": "SEA",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 10
-      },
       {
         "player_id": "6786",
         "name": "CeeDee Lamb",
         "position": "WR",
         "team": "DAL",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 2
       },
@@ -230,7 +221,7 @@
         "name": "Rome Odunze",
         "position": "WR",
         "team": "CHI",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 5
       },
@@ -242,6 +233,15 @@
         "injury_status": "PUP",
         "keeper": true,
         "draft_round": 13
+      },
+      {
+        "player_id": "9753",
+        "name": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 10
       }
     ]
   },
@@ -260,25 +260,16 @@
     "points_for": 1587.48,
     "points_against": 1638.36,
     "waiver": {
-      "position": 12,
+      "position": 10,
       "budget_used": 0
     },
     "keepers": [
-      {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "position": "QB",
-        "team": "BAL",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 3
-      },
       {
         "player_id": "7569",
         "name": "Nico Collins",
         "position": "WR",
         "team": "HOU",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 14
       },
@@ -296,9 +287,18 @@
         "name": "Ricky Pearsall",
         "position": "WR",
         "team": "SF",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 15
+      },
+      {
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 3
       },
       {
         "player_id": "9484",
@@ -326,18 +326,18 @@
     "points_for": 1330.9,
     "points_against": 1644.04,
     "waiver": {
-      "position": 4,
+      "position": 8,
       "budget_used": 0
     },
     "keepers": [
       {
-        "player_id": "9224",
-        "name": "Chase Brown",
+        "player_id": "4137",
+        "name": "James Conner",
         "position": "RB",
-        "team": "CIN",
-        "injury_status": null,
+        "team": "ARI",
+        "injury_status": "IR",
         "keeper": true,
-        "draft_round": 8
+        "draft_round": 5
       },
       {
         "player_id": "11635",
@@ -349,15 +349,6 @@
         "draft_round": 6
       },
       {
-        "player_id": "4137",
-        "name": "James Conner",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": "IR",
-        "keeper": true,
-        "draft_round": 5
-      },
-      {
         "player_id": "6770",
         "name": "Joe Burrow",
         "position": "QB",
@@ -365,6 +356,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 3
+      },
+      {
+        "player_id": "9224",
+        "name": "Chase Brown",
+        "position": "RB",
+        "team": "CIN",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 8
       }
     ]
   },
@@ -383,7 +383,7 @@
     "points_for": 1852.46,
     "points_against": 1582.54,
     "waiver": {
-      "position": 8,
+      "position": 12,
       "budget_used": 0
     },
     "keepers": [
@@ -445,11 +445,20 @@
         "draft_round": 5
       },
       {
+        "player_id": "7594",
+        "name": "Chuba Hubbard",
+        "position": "RB",
+        "team": "CAR",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 10
+      },
+      {
         "player_id": "11566",
         "name": "Jayden Daniels",
         "position": "QB",
         "team": "WAS",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 7
       },
@@ -461,15 +470,6 @@
         "injury_status": "PUP",
         "keeper": true,
         "draft_round": 3
-      },
-      {
-        "player_id": "7594",
-        "name": "Chuba Hubbard",
-        "position": "RB",
-        "team": "CAR",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 10
       }
     ]
   },
@@ -488,7 +488,7 @@
     "points_for": 1672.88,
     "points_against": 1654.94,
     "waiver": {
-      "position": 9,
+      "position": 5,
       "budget_used": 0
     },
     "keepers": [
@@ -506,7 +506,7 @@
         "name": "Drake London",
         "position": "WR",
         "team": "ATL",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 6
       },
@@ -545,7 +545,7 @@
         "name": "Kyle Pitts",
         "position": "TE",
         "team": "ATL",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 7
       },
@@ -575,10 +575,19 @@
     "points_for": 1773.78,
     "points_against": 1752.44,
     "waiver": {
-      "position": 5,
+      "position": 11,
       "budget_used": 0
     },
     "keepers": [
+      {
+        "player_id": "6797",
+        "name": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 8
+      },
       {
         "player_id": "6813",
         "name": "Jonathan Taylor",
@@ -596,15 +605,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 6
-      },
-      {
-        "player_id": "6797",
-        "name": "Justin Herbert",
-        "position": "QB",
-        "team": "LAC",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 8
       },
       {
         "player_id": "6806",
@@ -659,7 +659,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 3
       },
@@ -673,6 +673,15 @@
         "draft_round": 10
       },
       {
+        "player_id": "2216",
+        "name": "Mike Evans",
+        "position": "WR",
+        "team": "TB",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 6
+      },
+      {
         "player_id": "4217",
         "name": "George Kittle",
         "position": "TE",
@@ -680,15 +689,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 4
-      },
-      {
-        "player_id": "2216",
-        "name": "Mike Evans",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": "IR",
-        "keeper": true,
-        "draft_round": 6
       }
     ]
   }

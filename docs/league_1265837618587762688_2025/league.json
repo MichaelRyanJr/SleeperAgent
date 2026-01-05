@@ -1,9 +1,10 @@
 {
   "name": "Ryan Fantasy Football",
-  "status": "in_season",
+  "status": "complete",
   "metadata": {
     "auto_continue": "on",
-    "keeper_deadline": "0"
+    "keeper_deadline": "0",
+    "latest_league_winner_roster_id": "6"
   },
   "settings": {
     "best_ball": 0,
@@ -24,7 +25,7 @@
     "playoff_type": 0,
     "taxi_slots": 0,
     "sub_start_time_eligibility": 0,
-    "last_scored_leg": 14,
+    "last_scored_leg": 17,
     "daily_waivers_days": 5461,
     "sub_lock_if_starter_active": 0,
     "playoff_week_start": 15,
@@ -53,7 +54,7 @@
     "trade_review_days": 2,
     "bench_lock": 0,
     "offseason_adds": 0,
-    "leg": 15,
+    "leg": 17,
     "reserve_slots": 1,
     "reserve_allow_cov": 0,
     "daily_waivers_last_ran": 28
@@ -198,22 +199,24 @@
     "pts_allow_7_13": 3.0,
     "st_ff": 1.0
   },
-  "last_message_id": "1304394345713008640",
+  "last_message_id": "1311995574953730048",
   "last_author_avatar": null,
   "last_author_display_name": "sys",
+  "draft_id": "1265837619594403840",
   "last_author_id": "166666666666666666",
   "last_author_is_bot": true,
   "last_message_attachment": null,
   "last_message_text_map": null,
-  "last_message_time": 1765354355794,
+  "last_message_time": 1767166630069,
   "last_pinned_message_id": null,
   "last_read_id": null,
-  "draft_id": "1265837619594403840",
   "league_id": "1265837618587762688",
   "previous_league_id": null,
-  "bracket_id": null,
+  "bracket_id": 1304400947870433281,
   "bracket_overrides_id": null,
   "group_id": null,
+  "loser_bracket_id": 1304400947878821888,
+  "loser_bracket_overrides_id": null,
   "roster_positions": [
     "QB",
     "RB",
@@ -232,7 +235,5 @@
     "BN",
     "BN"
   ],
-  "loser_bracket_id": null,
-  "loser_bracket_overrides_id": null,
   "total_rosters": 12
 }
