@@ -1,140 +1,161 @@
 {
   "league_id": "1181689020258160640",
   "dir": "league_1181689020258160640",
-  "generated_at": "2026-01-13T04:42:47.369777Z",
-  "count": 19,
+  "generated_at": "2026-01-13T05:28:43.024840Z",
+  "count": 22,
   "files": [
     {
       "path": "diff.json",
-      "bytes": 290,
-      "sha256": "4d54628ece64538f41df1b7478a683411a523ed3b8967b476ae99fb2006eedc4",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 495,
+      "sha256": "1f68f7081e0c72897b87c611bca94bd135b65656f20c46763d09ee76f3b4c929",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": false
     },
     {
       "path": "draft_picks.json",
       "bytes": 116865,
       "sha256": "facb23bf4aecec58157d3df061b1162d070680dcfbff373f3f4a6c3d5755e909",
-      "mtime": "2026-01-13T04:42:46Z",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     },
     {
       "path": "drafts.json",
       "bytes": 1544,
       "sha256": "27d812ded5a879edf2dbb74fb0c13ad7bdb6d7ef4c920f02c1fd9660b73553c4",
-      "mtime": "2026-01-13T04:42:46Z",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     },
     {
       "path": "league.json",
       "bytes": 3707,
       "sha256": "0dbff03c0bfb7cf747b8cfbb50dfdcb8bf46cf58233f8cac1087b5dd0ceb67af",
-      "mtime": "2026-01-13T04:42:46Z",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     },
     {
       "path": "league_state.json",
-      "bytes": 72214,
-      "sha256": "6b15426753585eda5715b93fdb7f63acf223ee5aab47f93a827251e41da2971a",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 73735,
+      "sha256": "8e63b17a7500daaea5a87650f2953fa05df30e1c4027b716ebcff534142db86f",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": false
     },
     {
       "path": "lineups/1.json",
       "bytes": 33012,
       "sha256": "dc9198c04bd31ae1ea86222f3ed4f5c5bfef99e09b1e273a9a673a8b58a99bc9",
-      "mtime": "2026-01-13T04:42:47Z",
+      "mtime": "2026-01-13T05:28:43Z",
+      "is_core": true
+    },
+    {
+      "path": "lineups/2.json",
+      "bytes": 33006,
+      "sha256": "17dadf20bce2d53ed4c59e609545b77cc16219e841380ebad70c16d97ac9765a",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "matchups_week_1.json",
       "bytes": 12031,
       "sha256": "a5cd1692f16a8b07797183ee97e22d0469b6c42863f0671582d854d06a66ce6c",
-      "mtime": "2026-01-13T04:42:47Z",
+      "mtime": "2026-01-13T05:28:42Z",
+      "is_core": false
+    },
+    {
+      "path": "matchups_week_2.json",
+      "bytes": 12004,
+      "sha256": "73dcb02bfb1fc90eceee8bd4dec99aab12e81f4a357e33edb1db7f6eb66346da",
+      "mtime": "2026-01-13T05:28:42Z",
       "is_core": false
     },
     {
       "path": "nfl_state.json",
       "bytes": 250,
-      "sha256": "f32ca1939f499ddd9e31df1b70b2e497f74a65c680caee42e023e0d4cf339053",
-      "mtime": "2026-01-13T04:42:46Z",
+      "sha256": "3a6c1834881b9400eff0e11ca187be4d6ffd545fffc1483c79b5fffb1c4e79c5",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     },
     {
       "path": "players_min.json",
-      "bytes": 80855,
-      "sha256": "09e76f12388fab42428b6d606e02974b199040f38c6fe9adf64f482df5b97cbd",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 81478,
+      "sha256": "b20ab735549628c9ff944c52bcf97444a1af6e930c60515321d5d4adf86c43f2",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "roster_current.csv",
       "bytes": 7690,
       "sha256": "1de537beeb6df7762891528409918dfa11a7d2913236b23fa08635e2329b3044",
-      "mtime": "2026-01-13T04:42:47Z",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": false
     },
     {
       "path": "rosters.json",
       "bytes": 33403,
       "sha256": "f973ec150f34c3510e32c39cb0f1c549e072f938dac26c58fb1d2ecd13e91670",
-      "mtime": "2026-01-13T04:42:46Z",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     },
     {
       "path": "schedule.json",
-      "bytes": 1360,
-      "sha256": "8d29d1816be903cd1d4a4b42a1fb8fa0fbc2d5ff779a914e0f153f84e1d69d3b",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 2713,
+      "sha256": "65c4b71f01f0b71030cce7fc82adedc8de400b58d4463c2e67a62db72cd3091b",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "schedule_weekly.csv",
-      "bytes": 244,
-      "sha256": "37c595ebe3dfaaa8c3cce885f8f2b72830a8f4c2cd37b0eebdb8273f5add975c",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 437,
+      "sha256": "ca63b83b1e159372f1e02bf12a733915803989af88a379ad5a5c8279f5cf28b3",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": false
     },
     {
       "path": "state.json",
-      "bytes": 72214,
-      "sha256": "6b15426753585eda5715b93fdb7f63acf223ee5aab47f93a827251e41da2971a",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 73735,
+      "sha256": "8e63b17a7500daaea5a87650f2953fa05df30e1c4027b716ebcff534142db86f",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "teams.csv",
       "bytes": 1481,
       "sha256": "2dcc23fb4dbcde79ae57466aa3ab42dd331bf5d8d98cd168206b9ee9a934ea3d",
-      "mtime": "2026-01-13T04:42:47Z",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": false
     },
     {
       "path": "teams.json",
       "bytes": 14643,
       "sha256": "995c34ac08a96d2485b6c1f5ed03882ce7fc944a7c22763683bc6b4325dab506",
-      "mtime": "2026-01-13T04:42:47Z",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "transactions.json",
-      "bytes": 20653,
-      "sha256": "6bf5b49803cb209a573042a5b281abec73c1722bf153972a23ad0e84fa039ccd",
-      "mtime": "2026-01-13T04:42:47Z",
+      "bytes": 27391,
+      "sha256": "f9f69287ddd8934aa9326ce4f400ea822cac0f9db37341f8d08c7fe55bc5b417",
+      "mtime": "2026-01-13T05:28:43Z",
       "is_core": true
     },
     {
       "path": "transactions_week_1.json",
       "bytes": 20098,
-      "sha256": "ac414e66f3674c9f32c76a128c1c329aea020a3cb2c8873dd6746e0eadd9f217",
-      "mtime": "2026-01-13T04:42:47Z",
+      "sha256": "5d318ae0b47676b00e06c0920255991453bd8e0fcc1e858c6e30fee23832ae3d",
+      "mtime": "2026-01-13T05:28:42Z",
+      "is_core": false
+    },
+    {
+      "path": "transactions_week_2.json",
+      "bytes": 6545,
+      "sha256": "44e9bb78d27a2ae7140ac803fffeff89beb97729cf978f66d446bc9f8ac822a8",
+      "mtime": "2026-01-13T05:28:42Z",
       "is_core": false
     },
     {
       "path": "users.json",
       "bytes": 5875,
       "sha256": "e83bc26ba4b901cb0fe1d28a682bc6e6c2ee46910e11c2718c4ebb2f0f40fb54",
-      "mtime": "2026-01-13T04:42:46Z",
+      "mtime": "2026-01-13T05:28:41Z",
       "is_core": false
     }
   ]
