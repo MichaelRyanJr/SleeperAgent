@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-01-19T04:02:20Z",
+  "generated_at": "2026-01-19T05:05:43Z",
   "files": {
-    "added": [],
+    "added": [
+      "lineups/3.json",
+      "matchups_week_3.json",
+      "transactions_week_3.json"
+    ],
     "removed": [
       "diff.json",
       "manifest.json"
@@ -9,11 +13,15 @@
     "changed": [
       "league.json",
       "league_state.json",
+      "lineups/1.json",
+      "nfl_state.json",
       "players_min.json",
+      "roster_current.csv",
+      "schedule.json",
+      "schedule_weekly.csv",
       "state.json",
-      "transactions.json",
-      "transactions_week_1.json"
+      "transactions.json"
     ],
-    "unchanged_count": 15
+    "unchanged_count": 11
   }
 }
