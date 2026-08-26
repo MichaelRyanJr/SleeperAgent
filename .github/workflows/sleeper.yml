@@ -2,7 +2,7 @@ name: Sleeper sync
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes (UTC)
+    - cron: "7,37 * * * *"   # every 30 minutes (UTC), offset to reactivate schedule
   workflow_dispatch:
   push:
     branches:
