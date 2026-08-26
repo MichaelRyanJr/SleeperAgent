@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 minutes (UTC)
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sleeper.yml"
+      - "sleeper_sync.py"
+      - "tools/**"
 
 permissions:
   contents: write
@@ -18,8 +25,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      LEAGUES: "1265837618587762688 1181689020258160640"
-      SEASON: "2025"
+      # Permanent 2025 anchor IDs. The resolver follows Sleeper renewals to
+      # the current season while publishing back to these stable URLs.
+      BASE_LEAGUES: "1265837618587762688 1181689020258160640"
+      SLEEPER_USERNAME: "mikeryan65"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -31,22 +40,26 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Resolve current-season league IDs
+        run: python tools/resolve_leagues.py
+
       - name: Export each league
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p docs
-          # IMPORTANT: no quotes here or the wildcard won't expand
           for LID in $LEAGUES; do
-            echo ">> Export $LID (season=$SEASON)"
+            echo ">> Export current league $LID"
             rm -rf ./docs/league_${LID}_*/
-            python sleeper_sync.py --league "$LID" --season "$SEASON" --out ./docs
+            # Do not pass a hard-coded season; sleeper_sync infers it from
+            # the resolved league object.
+            python sleeper_sync.py --league "$LID" --out ./docs
           done
 
-      - name: Publish + diff + manifest (Python helper)
+      - name: Publish + diff + manifest
         run: python tools/publish_and_manifest.py
 
-      - name: Build hub index (adds HTML mirror + manifest & diff links)
+      - name: Build hub index
         run: python tools/build_index.py
 
       - name: Bump cache-bust marker
@@ -61,7 +74,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "sync: publish + manifest + diff + hub index" || echo "No changes to commit"
+          git commit -m "sync: publish current Sleeper season" || echo "No changes to commit"
           git push || true
 
       - name: Upload Pages artifact
