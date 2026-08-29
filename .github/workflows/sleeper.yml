@@ -56,6 +56,7 @@ jobs:
             python sleeper_sync.py --league "$LID" --out ./docs
             python tools/enrich_keeper_data.py --league "$LID" --out ./docs
             python tools/apply_keeper_rules.py --league "$LID" --out ./docs
+            python tools/cache_draft_history.py --league "$LID" --out ./docs
           done
 
       - name: Publish + diff + manifest
