@@ -1,203 +1,183 @@
 {
-  "league_id": "1265837618587762688",
+  "league_id": "1389347524489277440",
+  "anchor_league_id": "1265837618587762688",
   "dir": "league_1265837618587762688",
-  "generated_at": "2026-02-10T02:42:08.062951Z",
-  "count": 28,
+  "generated_at": "2026-08-29T17:56:19.069751Z",
+  "count": 25,
   "files": [
     {
       "path": "diff.json",
-      "bytes": 287,
-      "sha256": "78cdc4859de8137b4c1393ec6c409b92260f2b243308a586dd6f7e83e01f349b",
-      "mtime": "2026-02-10T02:42:10Z",
+      "bytes": 897,
+      "sha256": "da390feda0f76d22f28c5904b976907b9ab274df9194c79cb314d3ffe977c651",
+      "mtime": "2026-08-29T17:56:20Z",
       "is_core": false
     },
     {
       "path": "draft_picks.json",
-      "bytes": 115670,
-      "sha256": "8544d9894c38f687c40fdaa530358c544f8d9a1364c4f552e41b47053e99f00d",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 115894,
+      "sha256": "3f506722b106157b2d3c113e5c68425c92f53b2110103af0df18cad2f657068b",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "drafts.json",
       "bytes": 1571,
-      "sha256": "1d0891a7f4eae2720d01989e59b5e80171b77613e438078096e5e0f3b9a16b35",
-      "mtime": "2026-02-10T02:42:06Z",
+      "sha256": "6ed19c01bcaab12fe104f00cdfe9148bc2acdcc3df1b1a9b27ce910b2a183348",
+      "mtime": "2026-08-29T17:56:17Z",
       "is_core": false
     },
     {
       "path": "league.json",
-      "bytes": 5637,
-      "sha256": "4a8b6f7175cc466adacbce52a75b82849d27174ca2cbf10984f7e45617ae8c8d",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 5531,
+      "sha256": "0ed7360bd561948e6f2aa03c489eec00fadf1ad6442b5253e3799fe07241bf14",
+      "mtime": "2026-08-29T17:56:17Z",
       "is_core": false
     },
     {
       "path": "league_state.json",
-      "bytes": 64991,
-      "sha256": "201dee3b652152e4b3cd7dd729a8aa182f5978be677b27cc306382c95010a931",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 64425,
+      "sha256": "29b25ef272f5b2d9388f51d0983a0f3185e3c764d99b399343129485823f528f",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": false
     },
     {
       "path": "lineups/1.json",
-      "bytes": 31873,
-      "sha256": "b28c4bd168466ce7fbdeeb50e45e1a578c1468445b03d15050e95061ccf0cddc",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 32173,
+      "sha256": "2ac4077dc06c3c6265254d59c09b1f18b199abb12c388a35091a7d91ba3db59e",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "lineups/2.json",
-      "bytes": 32187,
-      "sha256": "3ebd463fe0dfdbef511a407f16d4bce6e719c5acf345b058ee6bde311d4d0fb3",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 32173,
+      "sha256": "6addcd5e0ecc3de548f4b5bd33a2ca49d76cffade2924559ff131e9b270ed63c",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "lineups/3.json",
-      "bytes": 32042,
-      "sha256": "ae80e0123e22a12898ddabd5f5d22b4bef91fb160c92f7d1c6644a18f59b42fd",
-      "mtime": "2026-02-10T02:42:08Z",
-      "is_core": true
-    },
-    {
-      "path": "lineups/4.json",
-      "bytes": 32519,
-      "sha256": "1231f04e749b587043fe04bb9b745613c3d586734e6e16f54fd106c2ecc106ef",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 32173,
+      "sha256": "3b4f6531651d40796b337b4768c555287687ed04842747c0847c83c2693deea9",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "matchups_week_1.json",
-      "bytes": 11762,
-      "sha256": "9ac6505f1437ad5d789dbf74b3c4db5468c78d73299d7248538b9461fe1f1697",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 11602,
+      "sha256": "819075d05868730180848b695fef7f2c24f7800adc29642cc353c0fcdfc53bc2",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "matchups_week_2.json",
-      "bytes": 11809,
-      "sha256": "7c34ee9bd52674a911c458a54f348b7a0d977267b5b3bb663fc3b0bd11f040ef",
-      "mtime": "2026-02-10T02:42:07Z",
+      "bytes": 11602,
+      "sha256": "57622952d41af50a0b6f575178d7bb215fea879076cde4b38bcbbc0380986b30",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "matchups_week_3.json",
-      "bytes": 11768,
-      "sha256": "f8f60a7d08e0f10b94080fb271b37f702e7b4f7ba730ddd9287acf0d1315e489",
-      "mtime": "2026-02-10T02:42:07Z",
-      "is_core": false
-    },
-    {
-      "path": "matchups_week_4.json",
-      "bytes": 11877,
-      "sha256": "0e8d60554e07ff641ffe22b59ac2c4d231e595226086f16ffd8480dacfc522ce",
-      "mtime": "2026-02-10T02:42:07Z",
+      "bytes": 11602,
+      "sha256": "0a215805b677d412e274bc2101a664d74a2c51a17f1879dacfd09c70b3e66f5a",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "nfl_state.json",
-      "bytes": 250,
-      "sha256": "bbb0d8834b99b65e3db4e364f58fda54dd6a8b5c473fd6f6d5cef12319a9eb7f",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 248,
+      "sha256": "866f6a2829592c0a0e474ccda25c68a4f9f831678e0491b8a37f44d1d4f288d7",
+      "mtime": "2026-08-29T17:56:17Z",
       "is_core": false
     },
     {
       "path": "players_min.json",
-      "bytes": 83640,
-      "sha256": "3a284366304a9f3f97851cb937600454b26818ea3345af6d6195b2a28a4bfc37",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 60343,
+      "sha256": "a3def77aee10ad0b2213b0f5561ce56ba3606bbcd4d87f1f8597d6697d258926",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "roster_current.csv",
-      "bytes": 7234,
-      "sha256": "750d7b94e55d91e1b6651f0338a94b8942c758d7de69925a69418379674c6eae",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 7414,
+      "sha256": "60d15e7e7cf67ed3ba3260326acd7f21483eaa020b881b584f346d75423b7355",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": false
     },
     {
       "path": "rosters.json",
-      "bytes": 12282,
-      "sha256": "dae56e872a09bb6480e8b8225145c9da818056179e582820f5b269e5b5022f78",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 10124,
+      "sha256": "bc16adeaaf5bf425303eb6db5f3088008c7c1ab24de60e753280dfa28eacbebd",
+      "mtime": "2026-08-29T17:56:17Z",
       "is_core": false
     },
     {
       "path": "schedule.json",
-      "bytes": 5417,
-      "sha256": "a0803679b9c3e6498369321317c6191bc1a1c0e8218af3146b8ff670cb7f26e2",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 4016,
+      "sha256": "2b4663a741bde1a4b0ab256eced92554810d52a66fdf147ca4a00489697590fd",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "schedule_weekly.csv",
-      "bytes": 817,
-      "sha256": "94d9440a129b9f8227edda485d83f7756611e35fc257e2d6b2c68b68523026de",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 535,
+      "sha256": "e859841b43585e8b94cb5e9f2c9cca1ff23c0d6df60773de5e55808ee05b014f",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": false
     },
     {
       "path": "state.json",
-      "bytes": 64991,
-      "sha256": "201dee3b652152e4b3cd7dd729a8aa182f5978be677b27cc306382c95010a931",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 64425,
+      "sha256": "29b25ef272f5b2d9388f51d0983a0f3185e3c764d99b399343129485823f528f",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "teams.csv",
-      "bytes": 745,
-      "sha256": "981d4a12537a8908be4d0ba0ee22bded5238772957bf296acff04436996a5d1f",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 699,
+      "sha256": "206b42dcdd9e7530c0e9117bc961fc4e6397a129d4725441f48a124851518261",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": false
     },
     {
       "path": "teams.json",
-      "bytes": 4337,
-      "sha256": "0e65614e21365c6263fbf957d97494de2b4d0eacd0b2633524a3cee7a3176bd4",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 4302,
+      "sha256": "0492efd2a0e3d0ee7bef9cfaaaaa065676b1519a5a2f56f4384b0bb7d7cff552",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "transactions.json",
-      "bytes": 40072,
-      "sha256": "13f1612bb6d59bc794b1d799d06b8ff72e633787de18a18284f1f28c484962a1",
-      "mtime": "2026-02-10T02:42:08Z",
+      "bytes": 479,
+      "sha256": "7f8121c84207684b1d4c87b6c18eca7e01a67897559b12e8d34f09a9aedc2d0f",
+      "mtime": "2026-08-29T17:56:19Z",
       "is_core": true
     },
     {
       "path": "transactions_week_1.json",
-      "bytes": 8343,
-      "sha256": "b375cfe21a427d714d046ca751be8faededea071ddd429cb5fc70aca4ecc877d",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 464,
+      "sha256": "4937970645dc7a044968142b5f6eef08196ece6af9064069d36e97d3dbc522ee",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "transactions_week_2.json",
-      "bytes": 7430,
-      "sha256": "4c91f4cfdacc423e05b53b8550294359202fdcce0e02fc087fe9e2e54efb76c7",
-      "mtime": "2026-02-10T02:42:07Z",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "transactions_week_3.json",
-      "bytes": 12005,
-      "sha256": "f7f1585fa3a41c81d68ef0251b8b03263fc9aa8e75de37440d3a43fa76996599",
-      "mtime": "2026-02-10T02:42:07Z",
-      "is_core": false
-    },
-    {
-      "path": "transactions_week_4.json",
-      "bytes": 11130,
-      "sha256": "e45fc44219f356b500bdeb3b818524514b67e304b873a9beab3f06a4aa20f278",
-      "mtime": "2026-02-10T02:42:07Z",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime": "2026-08-29T17:56:18Z",
       "is_core": false
     },
     {
       "path": "users.json",
-      "bytes": 3914,
-      "sha256": "0bf737afe338ac2c679c19a277a5c4b5d6fe5d018c4318a76024873fadfea0cb",
-      "mtime": "2026-02-10T02:42:06Z",
+      "bytes": 4404,
+      "sha256": "31a7af8b4c8af49c60e83781144bd40b016c7889414e97d96e66f468b555fc52",
+      "mtime": "2026-08-29T17:56:17Z",
       "is_core": false
     }
   ]
