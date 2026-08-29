@@ -2,196 +2,203 @@
   "league_id": "1389347524489277440",
   "anchor_league_id": "1265837618587762688",
   "dir": "league_1265837618587762688",
-  "generated_at": "2026-08-29T18:52:39.558003Z",
-  "count": 27,
+  "generated_at": "2026-08-29T18:53:08.885585Z",
+  "count": 28,
   "files": [
     {
       "path": "diff.json",
-      "bytes": 314,
-      "sha256": "87fdf0e66e676501fc25c959f2e93bc112c7b50349523a90b8c2f20c6dacf556",
-      "mtime": "2026-08-29T18:52:42Z",
+      "bytes": 352,
+      "sha256": "4a5a67d10a3759a8990b2640a009cb1f2b24b5119c4aafb6f0484bc0735732a1",
+      "mtime": "2026-08-29T18:53:14Z",
+      "is_core": false
+    },
+    {
+      "path": "draft_history_index.json",
+      "bytes": 474,
+      "sha256": "d269053e5beb36c1f5166eeac396df8cbf8a8b7fc29913d9762ce118bc1d26ac",
+      "mtime": "2026-08-29T18:53:09Z",
       "is_core": false
     },
     {
       "path": "draft_picks.json",
       "bytes": 115894,
       "sha256": "3f506722b106157b2d3c113e5c68425c92f53b2110103af0df18cad2f657068b",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "drafts.json",
       "bytes": 1571,
       "sha256": "6ed19c01bcaab12fe104f00cdfe9148bc2acdcc3df1b1a9b27ce910b2a183348",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "keeper_board.json",
       "bytes": 203906,
-      "sha256": "aa8614e1f0b3cad1d61737b13e16180bf8b67d4edb7854c9a1878dbf12923785",
-      "mtime": "2026-08-29T18:52:39Z",
+      "sha256": "208eccacb234446d60b3bc7b17a8f8542551f9166b11e0a4b193a492998b2dfa",
+      "mtime": "2026-08-29T18:53:09Z",
       "is_core": false
     },
     {
       "path": "league.json",
       "bytes": 5531,
-      "sha256": "0ed7360bd561948e6f2aa03c489eec00fadf1ad6442b5253e3799fe07241bf14",
-      "mtime": "2026-08-29T18:52:37Z",
+      "sha256": "c0502b988614d243ddd93224804ca0b494157d84f17588dff4e26ded3fa2682c",
+      "mtime": "2026-08-29T18:53:06Z",
       "is_core": false
     },
     {
       "path": "league_state.json",
       "bytes": 64425,
-      "sha256": "b0e296a98bac3fcea1d6607551c8b0706c21b7460abb10f097caba8969201091",
-      "mtime": "2026-08-29T18:52:39Z",
+      "sha256": "6a003be42f5ef2e2084dff55e86630af7c1198d60da97e47db5ea66465907034",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "lineups/1.json",
       "bytes": 32173,
       "sha256": "2ac4077dc06c3c6265254d59c09b1f18b199abb12c388a35091a7d91ba3db59e",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "lineups/2.json",
       "bytes": 32173,
       "sha256": "6addcd5e0ecc3de548f4b5bd33a2ca49d76cffade2924559ff131e9b270ed63c",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "lineups/3.json",
       "bytes": 32173,
       "sha256": "3b4f6531651d40796b337b4768c555287687ed04842747c0847c83c2693deea9",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "matchups_week_1.json",
       "bytes": 11602,
       "sha256": "819075d05868730180848b695fef7f2c24f7800adc29642cc353c0fcdfc53bc2",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "matchups_week_2.json",
       "bytes": 11602,
       "sha256": "57622952d41af50a0b6f575178d7bb215fea879076cde4b38bcbbc0380986b30",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "matchups_week_3.json",
       "bytes": 11602,
       "sha256": "0a215805b677d412e274bc2101a664d74a2c51a17f1879dacfd09c70b3e66f5a",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "nfl_state.json",
       "bytes": 248,
       "sha256": "866f6a2829592c0a0e474ccda25c68a4f9f831678e0491b8a37f44d1d4f288d7",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:06Z",
       "is_core": false
     },
     {
       "path": "players_min.json",
       "bytes": 60343,
-      "sha256": "0720f39aece02f2ee731750adc6432c5622f7c6c6fe98e24fcaad7f2fd227708",
-      "mtime": "2026-08-29T18:52:39Z",
+      "sha256": "1211d36c970fe8bd964e526a348b21f605be77669addafa8566168da12946877",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "roster_current.csv",
       "bytes": 7414,
       "sha256": "60d15e7e7cf67ed3ba3260326acd7f21483eaa020b881b584f346d75423b7355",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "rosters.json",
       "bytes": 10124,
       "sha256": "bc16adeaaf5bf425303eb6db5f3088008c7c1ab24de60e753280dfa28eacbebd",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "schedule.json",
       "bytes": 4016,
       "sha256": "2b4663a741bde1a4b0ab256eced92554810d52a66fdf147ca4a00489697590fd",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "schedule_weekly.csv",
       "bytes": 535,
       "sha256": "e859841b43585e8b94cb5e9f2c9cca1ff23c0d6df60773de5e55808ee05b014f",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "state.json",
       "bytes": 64425,
-      "sha256": "b0e296a98bac3fcea1d6607551c8b0706c21b7460abb10f097caba8969201091",
-      "mtime": "2026-08-29T18:52:39Z",
+      "sha256": "6a003be42f5ef2e2084dff55e86630af7c1198d60da97e47db5ea66465907034",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "teams.csv",
       "bytes": 699,
       "sha256": "206b42dcdd9e7530c0e9117bc961fc4e6397a129d4725441f48a124851518261",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "teams.json",
       "bytes": 4302,
       "sha256": "0492efd2a0e3d0ee7bef9cfaaaaa065676b1519a5a2f56f4384b0bb7d7cff552",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "traded_picks.json",
       "bytes": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:09Z",
       "is_core": false
     },
     {
       "path": "transactions.json",
       "bytes": 479,
       "sha256": "7f8121c84207684b1d4c87b6c18eca7e01a67897559b12e8d34f09a9aedc2d0f",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": true
     },
     {
       "path": "transactions_week_1.json",
       "bytes": 464,
       "sha256": "4937970645dc7a044968142b5f6eef08196ece6af9064069d36e97d3dbc522ee",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "transactions_week_2.json",
       "bytes": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:07Z",
       "is_core": false
     },
     {
       "path": "transactions_week_3.json",
       "bytes": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "mtime": "2026-08-29T18:52:39Z",
+      "mtime": "2026-08-29T18:53:08Z",
       "is_core": false
     },
     {
       "path": "users.json",
       "bytes": 4404,
       "sha256": "31a7af8b4c8af49c60e83781144bd40b016c7889414e97d96e66f468b555fc52",
-      "mtime": "2026-08-29T18:52:38Z",
+      "mtime": "2026-08-29T18:53:06Z",
       "is_core": false
     }
   ]
