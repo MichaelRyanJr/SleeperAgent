@@ -67,6 +67,10 @@ def league_drafts_url(league_id: str) -> str:
     return f"{BASE}/league/{league_id}/drafts"
 
 
+def league_rosters_url(league_id: str) -> str:
+    return f"{BASE}/league/{league_id}/rosters"
+
+
 def draft_picks_url(draft_id: str) -> str:
     return f"{BASE}/draft/{draft_id}/picks"
 
@@ -175,11 +179,20 @@ def fetch_transactions(league_id: str, weeks: Iterable[int] = range(1, 19)) -> L
 
 def latest_acquisition(
     player_id: str,
-    roster_id: int,
+    roster_targets: Dict[str, int],
     transactions: Iterable[Dict[str, Any]],
 ) -> Optional[Dict[str, Any]]:
+    """Find the latest add of player_id to the owner's roster in each league.
+
+    Renewed Sleeper leagues can reassign roster_id values, so roster_targets maps
+    each league_id to the roster_id owned by the current manager in that season.
+    """
     latest: Optional[Tuple[int, Dict[str, Any]]] = None
     for txn in transactions:
+        txn_league_id = str(txn.get("league_id") or "")
+        expected_roster_id = roster_targets.get(txn_league_id)
+        if expected_roster_id is None:
+            continue
         adds = txn.get("adds") or {}
         destination = adds.get(player_id)
         if destination is None:
@@ -188,7 +201,7 @@ def latest_acquisition(
             destination_id = int(destination)
         except (TypeError, ValueError):
             continue
-        if destination_id != int(roster_id):
+        if destination_id != int(expected_roster_id):
             continue
         try:
             created = int(txn.get("created") or 0)
@@ -198,12 +211,55 @@ def latest_acquisition(
             "type": txn.get("type") or "unknown",
             "transaction_id": txn.get("transaction_id"),
             "created": txn.get("created"),
-            "league_id": txn.get("league_id"),
+            "league_id": txn_league_id or None,
             "week": txn.get("week"),
         }
         if latest is None or created >= latest[0]:
             latest = (created, event)
     return latest[1] if latest else None
+
+
+def load_run_transactions(run_dir: Path, league_id: str) -> List[Dict[str, Any]]:
+    out: List[Dict[str, Any]] = []
+    for path in sorted(run_dir.glob("transactions_week_*.json")):
+        try:
+            week = int(path.stem.rsplit("_", 1)[-1])
+        except ValueError:
+            continue
+        for txn in load_json(path, []) or []:
+            out.append({"league_id": league_id, "week": week, **txn})
+    return out
+
+
+def load_or_fetch_previous_history(
+    out_base: Path, previous_league_id: str
+) -> Tuple[Dict[str, Any], List[Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Cache completed prior-season data so scheduled syncs do not refetch it."""
+    cache_dir = out_base / "_history" / f"league_{previous_league_id}"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    league_path = cache_dir / "league.json"
+    rosters_path = cache_dir / "rosters.json"
+    picks_path = cache_dir / "draft_picks.json"
+    txns_path = cache_dir / "transactions.json"
+
+    if all(path.exists() for path in (league_path, rosters_path, picks_path, txns_path)):
+        return (
+            load_json(league_path, {}),
+            load_json(rosters_path, []),
+            load_json(picks_path, []),
+            load_json(txns_path, []),
+        )
+
+    previous_league = http_get_json(league_url(previous_league_id)) or {}
+    previous_rosters = http_get_json(league_rosters_url(previous_league_id)) or []
+    previous_picks = fetch_draft_picks(previous_league_id)
+    previous_transactions = fetch_transactions(previous_league_id)
+
+    league_path.write_text(json.dumps(previous_league, indent=2), encoding="utf-8")
+    rosters_path.write_text(json.dumps(previous_rosters, indent=2), encoding="utf-8")
+    picks_path.write_text(json.dumps(previous_picks, indent=2), encoding="utf-8")
+    txns_path.write_text(json.dumps(previous_transactions, indent=2), encoding="utf-8")
+    return previous_league, previous_rosters, previous_picks, previous_transactions
 
 
 def iso_from_ms(value: Any) -> Optional[str]:
@@ -232,27 +288,35 @@ def main() -> int:
     traded_picks = http_get_json(league_traded_picks_url(league_id)) or []
     (run_dir / "traded_picks.json").write_text(json.dumps(traded_picks, indent=2), encoding="utf-8")
 
+    user_by_id = {str(u.get("user_id")): u for u in users or []}
+    max_keepers = int((league.get("settings") or {}).get("max_keepers") or 0)
+    keeper_enabled = max_keepers > 0
+
     previous_league_id = str(league.get("previous_league_id") or "") or None
     previous_picks: List[Dict[str, Any]] = []
     previous_transactions: List[Dict[str, Any]] = []
+    previous_rosters: List[Dict[str, Any]] = []
     previous_season = None
 
-    if previous_league_id:
-        previous_league = http_get_json(league_url(previous_league_id)) or {}
+    # Historical draft/transaction enrichment is useful only for keeper leagues.
+    # Prior-season data is cached because a completed season is effectively static.
+    if keeper_enabled and previous_league_id:
+        previous_league, previous_rosters, previous_picks, previous_transactions = (
+            load_or_fetch_previous_history(out_base, previous_league_id)
+        )
         previous_season = previous_league.get("season")
-        previous_picks = fetch_draft_picks(previous_league_id)
-        previous_transactions = fetch_transactions(previous_league_id)
 
-    current_transactions = fetch_transactions(league_id)
+    current_transactions = load_run_transactions(run_dir, league_id) if keeper_enabled else []
     all_transactions = previous_transactions + current_transactions
 
     prior_draft = draft_index(previous_picks)
     current_draft = draft_index(current_picks)
     submitted = submitted_keeper_index(current_picks)
-
-    user_by_id = {str(u.get("user_id")): u for u in users or []}
-    max_keepers = int((league.get("settings") or {}).get("max_keepers") or 0)
-    keeper_enabled = max_keepers > 0
+    previous_roster_by_owner = {
+        str(r.get("owner_id") or ""): int(r.get("roster_id") or 0)
+        for r in previous_rosters or []
+        if r.get("owner_id") is not None
+    }
 
     teams: List[Dict[str, Any]] = []
     for roster in sorted(rosters or [], key=lambda r: int(r.get("roster_id") or 0)):
@@ -267,14 +331,18 @@ def main() -> int:
             meta = players_min.get(pid, {})
             prior = prior_draft.get(pid)
             submitted_keeper = submitted.get(pid)
-            acquisition = latest_acquisition(pid, roster_id, all_transactions)
+            previous_roster_id = previous_roster_by_owner.get(owner_id)
+            roster_targets = {league_id: roster_id}
+            if previous_league_id and previous_roster_id is not None:
+                roster_targets[previous_league_id] = previous_roster_id
+            acquisition = latest_acquisition(pid, roster_targets, all_transactions)
 
             acquired_via = None
             if acquisition:
                 acquired_via = acquisition.get("type")
             elif prior and (
                 prior.get("picked_by") == owner_id
-                or int(prior.get("roster_id") or -1) == roster_id
+                or (previous_roster_id is not None and int(prior.get("roster_id") or -1) == previous_roster_id)
             ):
                 acquired_via = "draft"
             elif prior:
