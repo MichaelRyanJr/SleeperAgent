@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:08:52.565637Z",
+  "generated_at": "2026-08-29T18:21:23.952061Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -7,9 +7,10 @@
   "max_keepers": 7,
   "rules": {
     "round_1_keepable": false,
-    "drafted_player_cost": "previous/original draft round",
-    "traded_player_cost": "previous/original draft round",
-    "waiver_free_agent_cost": "unknown unless Sleeper has a submitted keeper round"
+    "drafted_player_base_cost": "previous/original draft round, regardless of later drop, waiver claim, re-add, or trade",
+    "undrafted_player_base_cost_round": 14,
+    "round_collision_rule": "If a keeper's base round is already occupied, move that keeper one round earlier repeatedly until an unused round is available.",
+    "submitted_keeper_round_authoritative": true
   },
   "teams": [
     {
@@ -36,10 +37,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11655",
@@ -59,10 +62,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12506",
@@ -82,10 +87,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "undrafted_base_round_14",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12507",
@@ -108,7 +115,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12514",
@@ -128,10 +137,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12529",
@@ -151,10 +162,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "2449",
@@ -174,10 +187,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4943",
@@ -196,11 +211,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4984",
@@ -220,10 +237,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 2,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 2
+          "current_draft_round": 2,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "5022",
@@ -243,10 +262,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5892",
@@ -266,10 +287,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "5927",
@@ -289,10 +312,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 4,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 4
+          "current_draft_round": 4,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6650",
@@ -311,11 +336,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 12,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8228",
@@ -335,10 +362,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8408",
@@ -358,10 +387,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9488",
@@ -381,10 +412,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 8,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 8
+          "current_draft_round": 8,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "JAX",
@@ -403,11 +436,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -435,10 +470,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 8,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 8
+          "current_draft_round": 8,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11576",
@@ -458,10 +495,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11604",
@@ -481,10 +520,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11631",
@@ -504,10 +545,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11632",
@@ -527,10 +570,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 2,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 2
+          "current_draft_round": 2,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11792",
@@ -550,10 +595,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 16,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 16,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12489",
@@ -573,10 +620,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12490",
@@ -596,10 +645,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 10,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 10
+          "current_draft_round": 10,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12493",
@@ -618,11 +669,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12534",
@@ -642,10 +695,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "undrafted_base_round_14",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "4866",
@@ -668,7 +723,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7564",
@@ -691,7 +748,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7607",
@@ -710,11 +769,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9493",
@@ -734,10 +795,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9509",
@@ -760,7 +823,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "SEA",
@@ -779,11 +844,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -811,10 +878,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11435",
@@ -833,11 +902,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11584",
@@ -857,10 +928,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 15,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 15
+          "current_draft_round": 15,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11625",
@@ -879,11 +952,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12487",
@@ -902,11 +977,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12526",
@@ -926,10 +1003,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 3,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 3
+          "current_draft_round": 3,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "3257",
@@ -948,11 +1027,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4892",
@@ -972,10 +1053,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 11,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 11
+          "current_draft_round": 11,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "5849",
@@ -995,10 +1078,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5850",
@@ -1021,7 +1106,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7526",
@@ -1041,10 +1128,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 6,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 6
+          "current_draft_round": 6,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7588",
@@ -1064,10 +1153,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8126",
@@ -1086,11 +1177,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8130",
@@ -1110,10 +1203,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 12,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 12
+          "current_draft_round": 12,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8142",
@@ -1132,11 +1227,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8259",
@@ -1156,10 +1253,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9506",
@@ -1178,11 +1277,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "HOU",
@@ -1201,11 +1302,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -1233,10 +1336,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11786",
@@ -1255,11 +1360,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12508",
@@ -1279,10 +1386,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "undrafted_base_round_14",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12517",
@@ -1302,10 +1411,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12530",
@@ -1325,10 +1436,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12533",
@@ -1348,10 +1461,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4199",
@@ -1371,10 +1486,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6786",
@@ -1394,10 +1511,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 2,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 2
+          "current_draft_round": 2,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6794",
@@ -1420,7 +1539,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6801",
@@ -1440,10 +1561,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 4,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 4
+          "current_draft_round": 4,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9226",
@@ -1463,10 +1586,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9502",
@@ -1486,10 +1611,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9753",
@@ -1509,10 +1636,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 9,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 9
+          "current_draft_round": 9,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9758",
@@ -1531,11 +1660,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 12,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "LAR",
@@ -1555,10 +1686,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -1586,10 +1719,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 12,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 12
+          "current_draft_round": 12,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11628",
@@ -1609,10 +1744,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11638",
@@ -1632,10 +1769,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12474",
@@ -1654,11 +1793,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12484",
@@ -1677,11 +1818,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 8,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12495",
@@ -1701,10 +1844,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 16,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 16,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12518",
@@ -1724,10 +1869,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12545",
@@ -1746,11 +1893,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4037",
@@ -1769,11 +1918,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 8,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4881",
@@ -1793,10 +1944,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 3,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 3
+          "current_draft_round": 3,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7543",
@@ -1816,10 +1969,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7569",
@@ -1839,10 +1994,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7839",
@@ -1861,11 +2018,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8150",
@@ -1885,10 +2044,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8151",
@@ -1908,10 +2069,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 4,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 4
+          "current_draft_round": 4,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9484",
@@ -1931,10 +2094,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "NO",
@@ -1953,11 +2118,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -1985,10 +2152,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11571",
@@ -2007,11 +2176,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11635",
@@ -2031,10 +2202,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11646",
@@ -2053,11 +2226,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12469",
@@ -2077,10 +2252,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12512",
@@ -2100,10 +2277,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12519",
@@ -2123,10 +2302,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 13,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12711",
@@ -2145,11 +2326,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 12,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "1339",
@@ -2168,11 +2351,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "3163",
@@ -2192,10 +2377,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "3321",
@@ -2215,10 +2402,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4137",
@@ -2238,10 +2427,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5844",
@@ -2261,10 +2452,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5947",
@@ -2284,10 +2477,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6770",
@@ -2307,10 +2502,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9224",
@@ -2330,10 +2527,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "CHI",
@@ -2352,11 +2551,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -2384,10 +2585,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11563",
@@ -2407,10 +2610,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11579",
@@ -2429,11 +2634,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12527",
@@ -2456,7 +2663,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "3294",
@@ -2475,11 +2684,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 9,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6819",
@@ -2499,10 +2710,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7021",
@@ -2521,11 +2734,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7049",
@@ -2544,11 +2759,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 9,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7547",
@@ -2568,10 +2785,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8137",
@@ -2591,10 +2810,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8154",
@@ -2613,11 +2834,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 8,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8161",
@@ -2636,11 +2859,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8167",
@@ -2659,11 +2884,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9221",
@@ -2683,10 +2910,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9480",
@@ -2705,11 +2934,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "MIN",
@@ -2728,11 +2959,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 9,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -2760,10 +2993,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11566",
@@ -2783,10 +3018,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11647",
@@ -2805,11 +3042,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "2747",
@@ -2828,11 +3067,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "3214",
@@ -2851,11 +3092,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4018",
@@ -2875,10 +3118,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4098",
@@ -2897,11 +3142,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "421",
@@ -2920,11 +3167,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5970",
@@ -2943,11 +3192,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7525",
@@ -2967,10 +3218,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7594",
@@ -2990,10 +3243,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8138",
@@ -3013,10 +3268,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9504",
@@ -3035,11 +3292,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9754",
@@ -3058,11 +3317,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9997",
@@ -3082,10 +3343,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "NE",
@@ -3104,11 +3367,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -3136,10 +3401,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 13,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "undrafted_base_round_14",
           "keeper_cost_round": 13,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 13
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11560",
@@ -3159,10 +3426,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "11589",
@@ -3182,10 +3451,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "3678",
@@ -3204,11 +3475,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4983",
@@ -3227,11 +3500,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 2,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5012",
@@ -3251,10 +3526,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5859",
@@ -3277,7 +3554,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6130",
@@ -3296,11 +3575,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6790",
@@ -3320,10 +3601,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6865",
@@ -3342,11 +3625,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6904",
@@ -3369,7 +3654,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7611",
@@ -3389,10 +3676,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 9,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 9
+          "current_draft_round": 9,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8110",
@@ -3412,10 +3701,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8112",
@@ -3435,10 +3726,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 6,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 6
+          "current_draft_round": 6,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8146",
@@ -3458,10 +3751,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 2,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 2
+          "current_draft_round": 2,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8147",
@@ -3480,11 +3775,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9508",
@@ -3504,10 +3801,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "DEN",
@@ -3527,10 +3826,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -3557,11 +3858,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11539",
@@ -3581,10 +3884,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11637",
@@ -3604,10 +3909,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 11,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "1479",
@@ -3627,10 +3934,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4046",
@@ -3650,10 +3959,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4144",
@@ -3673,10 +3984,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5872",
@@ -3696,10 +4009,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5967",
@@ -3719,10 +4034,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7553",
@@ -3742,10 +4059,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8143",
@@ -3765,10 +4084,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 16,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 16,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8148",
@@ -3788,10 +4109,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 9,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 9
+          "current_draft_round": 9,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8183",
@@ -3811,10 +4134,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8205",
@@ -3834,10 +4159,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 8,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "96",
@@ -3856,11 +4183,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9756",
@@ -3880,10 +4209,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 6,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 6
+          "current_draft_round": 6,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "PIT",
@@ -3902,11 +4233,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "waiver_or_free_agent_cost_rule_unknown",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "previous_draft",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -3934,10 +4267,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11603",
@@ -3956,11 +4291,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11627",
@@ -3979,11 +4316,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12498",
@@ -4002,11 +4341,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12501",
@@ -4026,10 +4367,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "2133",
@@ -4052,7 +4395,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "4034",
@@ -4075,7 +4420,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "4227",
@@ -4095,10 +4442,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5045",
@@ -4118,10 +4467,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 5,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 5
+          "current_draft_round": 5,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6797",
@@ -4141,10 +4492,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 7,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 7
+          "current_draft_round": 7,
+          "base_keeper_cost_round": 8,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6806",
@@ -4164,10 +4517,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 9,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 9,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 9
+          "current_draft_round": 9,
+          "base_keeper_cost_round": 9,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6813",
@@ -4187,10 +4542,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 3,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 3
+          "current_draft_round": 3,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7523",
@@ -4210,10 +4567,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 15,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 15,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 15
+          "current_draft_round": 15,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8144",
@@ -4233,10 +4592,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 6,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 6
+          "current_draft_round": 6,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "9500",
@@ -4256,10 +4617,12 @@
           "keeper_submitted": true,
           "keeper_submitted_round": 14,
           "keeper_eligible": true,
-          "eligibility_reason": "submitted_keeper_round",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "current_submitted_keeper",
-          "current_draft_round": 14
+          "current_draft_round": 14,
+          "base_keeper_cost_round": 15,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "GB",
@@ -4278,11 +4641,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     },
@@ -4309,11 +4674,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "11624",
@@ -4333,10 +4700,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12481",
@@ -4356,10 +4725,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12500",
@@ -4378,11 +4749,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "1466",
@@ -4402,10 +4775,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 5,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "2216",
@@ -4425,10 +4800,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 6,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 6,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "3198",
@@ -4451,7 +4828,9 @@
           "eligibility_reason": "round_1_not_keepable",
           "keeper_cost_round": null,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": null,
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "3451",
@@ -4470,11 +4849,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4039",
@@ -4494,10 +4875,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 7,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 7,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "4217",
@@ -4517,10 +4900,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 4,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5846",
@@ -4540,10 +4925,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 2,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "5870",
@@ -4562,11 +4949,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6804",
@@ -4586,10 +4975,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 14,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "7567",
@@ -4608,11 +4999,13 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8134",
@@ -4632,10 +5025,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 10,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8136",
@@ -4655,10 +5050,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 12,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8155",
@@ -4678,10 +5075,12 @@
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "prior_draft_round_available",
+          "eligibility_reason": "original_draft_round_retained",
           "keeper_cost_round": 3,
           "keeper_cost_source": "previous_draft",
-          "current_draft_round": null
+          "current_draft_round": null,
+          "base_keeper_cost_round": 3,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "LV",
@@ -4700,13 +5099,16 @@
           "acquisition_league_id": "1181689020258160640",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
-          "keeper_eligible": null,
-          "eligibility_reason": "no_prior_draft_round_found",
-          "keeper_cost_round": null,
-          "keeper_cost_source": null,
-          "current_draft_round": null
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         }
       ]
     }
-  ]
+  ],
+  "rules_updated_at": "2026-08-29T18:21:23.996958Z"
 }
