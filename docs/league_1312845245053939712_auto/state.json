@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:44:07.885087Z",
+  "generated_at": "2026-08-30T20:56:36.714608Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -652,7 +652,7 @@
           "team": "TB",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 11
+          "draft_round": 13
         },
         {
           "player_id": "11584",
@@ -704,7 +704,7 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": "DNR",
           "keeper": false
         },
         {
@@ -807,7 +807,7 @@
           "team": "TB",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 11
+          "draft_round": 13
         },
         {
           "player_id": "11584",
@@ -1435,7 +1435,8 @@
           "position": "RB",
           "team": "CLE",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "4137",
@@ -1459,7 +1460,8 @@
           "position": "WR",
           "team": "CHI",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "5844",
@@ -1475,7 +1477,8 @@
           "position": "RB",
           "team": "CLE",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "12711",
@@ -1509,7 +1512,8 @@
           "position": "WR",
           "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "11646",
@@ -1517,7 +1521,8 @@
           "position": "WR",
           "team": "CAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "1339",
@@ -1541,7 +1546,8 @@
           "position": "WR",
           "team": "JAX",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "6770",
@@ -1557,10 +1563,75 @@
           "position": "RB",
           "team": "CIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 8
         }
       ],
-      "keepers": []
+      "keepers": [
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        }
+      ]
     },
     "7": {
       "roster_id": 7,
@@ -1616,7 +1687,8 @@
           "position": "QB",
           "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "9221",
@@ -1624,7 +1696,8 @@
           "position": "RB",
           "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "12527",
@@ -1640,7 +1713,8 @@
           "position": "WR",
           "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "9480",
@@ -1664,7 +1738,8 @@
           "position": "K",
           "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 11
         },
         {
           "player_id": "MIN",
@@ -1682,7 +1757,8 @@
           "position": "QB",
           "team": "DEN",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "11579",
@@ -1698,7 +1774,8 @@
           "position": "WR",
           "team": "PIT",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "7021",
@@ -1706,7 +1783,8 @@
           "position": "RB",
           "team": "PIT",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "8154",
@@ -1733,7 +1811,71 @@
           "keeper": false
         }
       ],
-      "keepers": []
+      "keepers": [
+        {
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 2
+        },
+        {
+          "player_id": "11533",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 11
+        },
+        {
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        }
+      ]
     },
     "8": {
       "roster_id": 8,
@@ -1791,7 +1933,8 @@
           "position": "QB",
           "team": "LAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "8138",
@@ -1799,7 +1942,8 @@
           "position": "RB",
           "team": "BUF",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "11647",
@@ -1823,7 +1967,8 @@
           "position": "WR",
           "team": "BAL",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "10236",
@@ -1839,7 +1984,8 @@
           "position": "RB",
           "team": "CAR",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 10
         },
         {
           "player_id": "2747",
@@ -1865,7 +2011,8 @@
           "position": "QB",
           "team": "WAS",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "3214",
@@ -1873,7 +2020,8 @@
           "position": "TE",
           "team": "NE",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "4018",
@@ -1905,7 +2053,8 @@
           "position": "WR",
           "team": "DAL",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "9504",
@@ -1924,7 +2073,71 @@
           "keeper": false
         }
       ],
-      "keepers": []
+      "keepers": [
+        {
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 10
+        },
+        {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        }
+      ]
     },
     "9": {
       "roster_id": 9,
