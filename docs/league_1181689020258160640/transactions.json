@@ -2,6 +2,46 @@
   {
     "week": 1,
     "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "poll_id": "1399478859052654592",
+      "veto_msg_id": "1399478859140763648"
+    },
+    "created": 1788024231223,
+    "settings": null,
+    "leg": 1,
+    "draft_picks": [
+      {
+        "round": 2,
+        "season": "2026",
+        "league_id": null,
+        "roster_id": 8,
+        "owner_id": 7,
+        "previous_owner_id": 8
+      }
+    ],
+    "creator": "1002276420074246144",
+    "transaction_id": "1399478694904385536",
+    "adds": {
+      "8137": 8
+    },
+    "drops": {
+      "8137": 7
+    },
+    "consenter_ids": [
+      7,
+      8
+    ],
+    "roster_ids": [
+      7,
+      8
+    ],
+    "status_updated": 1788059767792,
+    "waiver_budget": []
+  },
+  {
+    "week": 1,
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1787879243490,
