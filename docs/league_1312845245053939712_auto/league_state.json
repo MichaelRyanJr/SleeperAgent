@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T20:56:36.714608Z",
+  "generated_at": "2026-08-30T23:22:51.270284Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -937,8 +937,7 @@
           "position": "RB",
           "team": "SEA",
           "injury_status": "PUP",
-          "keeper": true,
-          "draft_round": 9
+          "keeper": false
         },
         {
           "player_id": "6786",
@@ -1008,7 +1007,8 @@
           "position": "RB",
           "team": "WAS",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "4199",
@@ -1031,7 +1031,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -1061,15 +1061,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": "PUP",
-          "keeper": true,
-          "draft_round": 9
         },
         {
           "player_id": "6786",
@@ -1106,6 +1097,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         }
       ]
     },
@@ -1443,7 +1443,7 @@
           "name": "James Conner",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "keeper": false
         },
         {
