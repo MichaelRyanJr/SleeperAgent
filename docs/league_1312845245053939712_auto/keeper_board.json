@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:22:51.594169Z",
+  "generated_at": "2026-08-31T01:32:32.234407Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -36,33 +36,6 @@
         "complete": true
       },
       "players": [
-        {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "original_draft_round": 14,
-          "original_draft_pick_no": 165,
-          "original_draft_slot": 9,
-          "original_drafted_by": "992551957615198208",
-          "original_draft_roster_id": 1,
-          "acquired_via": "draft",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
         {
           "player_id": "11655",
           "name": "Tyrone Tracy",
@@ -2324,33 +2297,6 @@
           "keeper_cost_round_is_provisional": false
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": "Questionable",
-          "original_draft_round": 13,
-          "original_draft_pick_no": 145,
-          "original_draft_slot": 1,
-          "original_drafted_by": "1002070574866288640",
-          "original_draft_roster_id": 5,
-          "acquired_via": "draft",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 13,
-          "keeper_cost_round": 13,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 13,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "NO",
           "name": "New Orleans",
           "position": "DEF",
@@ -2402,6 +2348,33 @@
         "complete": true
       },
       "players": [
+        {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": "Questionable",
+          "original_draft_round": 14,
+          "original_draft_pick_no": 165,
+          "original_draft_slot": 9,
+          "original_drafted_by": "992551957615198208",
+          "original_draft_roster_id": 1,
+          "acquired_via": "trade",
+          "acquisition_transaction_id": "1399898944808431616",
+          "acquisition_time": "2026-08-30T21:13:46.609000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": 12,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
         {
           "player_id": "11565",
           "name": "J.J. McCarthy",
@@ -4747,7 +4720,7 @@
       "owner": "Doctahfootball",
       "team_name": "Harrison Butkers Kitchen ",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 7,
+        "submitted_keeper_count": 6,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
@@ -4755,13 +4728,12 @@
           6,
           7,
           9,
-          14,
-          15
+          14
         ],
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": true
+        "complete": false
       },
       "players": [
         {
@@ -5103,17 +5075,17 @@
           "acquisition_transaction_id": "1285802802647437312",
           "acquisition_time": "2025-10-20T00:56:26.514000Z",
           "acquisition_league_id": "1181689020258160640",
-          "keeper_submitted": true,
-          "keeper_submitted_round": 15,
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 15,
           "keeper_cost_round": 15,
-          "keeper_cost_source": "current_submitted_keeper",
-          "keeper_round_may_move_for_collision": false,
-          "current_draft_round": 15,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
           "base_keeper_cost_round": 15,
-          "keeper_cost_round_is_provisional": false
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8144",
@@ -5141,6 +5113,33 @@
           "current_draft_round": 6,
           "base_keeper_cost_round": 6,
           "keeper_cost_round_is_provisional": false
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": "Questionable",
+          "original_draft_round": 13,
+          "original_draft_pick_no": 145,
+          "original_draft_slot": 1,
+          "original_drafted_by": "1002070574866288640",
+          "original_draft_roster_id": 5,
+          "acquired_via": "trade",
+          "acquisition_transaction_id": "1399935457982185472",
+          "acquisition_time": "2026-08-30T23:38:52.028000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 13,
+          "keeper_cost_round": 13,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": 13,
+          "base_keeper_cost_round": 13,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "9500",
@@ -5204,13 +5203,21 @@
       "owner": "TLops",
       "team_name": "South Beach CTE",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 0,
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
-        "assigned_rounds": [],
-        "round_2_or_3_keeper_count": 0,
+        "assigned_rounds": [
+          3,
+          4,
+          6,
+          11,
+          12,
+          13,
+          14
+        ],
+        "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": false
+        "complete": true
       },
       "players": [
         {
@@ -5282,17 +5289,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 4,
           "keeper_cost_round": 4,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 4,
           "base_keeper_cost_round": 4,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "12500",
@@ -5363,17 +5370,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 6,
           "keeper_cost_round": 6,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 6,
           "base_keeper_cost_round": 6,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "3198",
@@ -5417,17 +5424,17 @@
           "acquisition_transaction_id": "1304617985473777664",
           "acquisition_time": "2025-12-10T23:01:15.668000Z",
           "acquisition_league_id": "1181689020258160640",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13,
           "keeper_eligible": true,
           "eligibility_reason": "undrafted_base_round_14",
           "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_round": 13,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 13,
           "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "4039",
@@ -5552,17 +5559,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 14,
           "keeper_cost_round": 14,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 14,
           "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "7567",
@@ -5579,17 +5586,17 @@
           "acquisition_transaction_id": "1289641260331569152",
           "acquisition_time": "2025-10-30T15:09:06.141000Z",
           "acquisition_league_id": "1181689020258160640",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 11,
           "keeper_eligible": true,
           "eligibility_reason": "undrafted_base_round_14",
           "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 11,
           "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8134",
@@ -5633,17 +5640,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 12,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 12,
           "keeper_cost_round": 12,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 12,
           "base_keeper_cost_round": 12,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "8155",
@@ -5660,17 +5667,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 3,
           "keeper_cost_round": 3,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 3,
           "base_keeper_cost_round": 3,
-          "keeper_cost_round_is_provisional": true
+          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "LV",
@@ -5702,5 +5709,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-08-30T23:22:51.642498Z"
+  "rules_updated_at": "2026-08-31T01:32:32.285810Z"
 }

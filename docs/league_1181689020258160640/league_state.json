@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:22:51.270284Z",
+  "generated_at": "2026-08-31T01:32:31.992121Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -110,7 +110,6 @@
         "JAX"
       ],
       "players_current": [
-        "10859",
         "11655",
         "12506",
         "12507",
@@ -207,14 +206,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
         {
           "player_id": "11655",
           "name": "Tyrone Tracy",
@@ -1155,7 +1146,6 @@
         "7839",
         "8150",
         "8151",
-        "9484",
         "NO"
       ],
       "starters": [
@@ -1295,14 +1285,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "injury_status": "Questionable",
-          "keeper": false
         }
       ],
       "keepers": [
@@ -1402,6 +1384,7 @@
         "CHI"
       ],
       "players_current": [
+        "10859",
         "11565",
         "11571",
         "11635",
@@ -1498,6 +1481,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
+        },
         {
           "player_id": "11571",
           "name": "Isaiah Davis",
@@ -2668,6 +2660,7 @@
         "6813",
         "7523",
         "8144",
+        "9484",
         "9500",
         "GB"
       ],
@@ -2797,8 +2790,16 @@
           "position": "QB",
           "team": "JAX",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
+          "keeper": false
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "9500",
@@ -2855,15 +2856,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
-        },
-        {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         },
         {
           "player_id": "9500",
@@ -2933,7 +2925,8 @@
           "position": "QB",
           "team": "GB",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "3198",
@@ -2949,7 +2942,8 @@
           "position": "RB",
           "team": "NYJ",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "4039",
@@ -2989,7 +2983,8 @@
           "position": "K",
           "team": "HOU",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "LV",
@@ -3015,7 +3010,8 @@
           "position": "RB",
           "team": "NYG",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "12500",
@@ -3031,7 +3027,8 @@
           "position": "WR",
           "team": "SF",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "4217",
@@ -3063,7 +3060,8 @@
           "position": "RB",
           "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 11
         },
         {
           "player_id": "8136",
@@ -3071,10 +3069,75 @@
           "position": "RB",
           "team": "WAS",
           "injury_status": "Questionable",
-          "keeper": false
+          "keeper": true,
+          "draft_round": 12
         }
       ],
-      "keepers": []
+      "keepers": [
+        {
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
+          "player_id": "3451",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 11
+        },
+        {
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 12
+        }
+      ]
     }
   },
   "schedule": []
