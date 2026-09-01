@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:07:21.227907Z",
+  "generated_at": "2026-09-01T18:45:38.618166Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -506,7 +506,7 @@
           "player_id": "7607",
           "name": "Michael Carter",
           "position": "RB",
-          "team": null,
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -878,7 +878,7 @@
       "starters_current": [
         "12508",
         "9226",
-        "9753",
+        "12533",
         "6786",
         "6801",
         "12517",
@@ -923,12 +923,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "SEA",
-          "injury_status": "PUP",
-          "keeper": false
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "6786",
@@ -944,7 +945,7 @@
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         },
@@ -993,15 +994,6 @@
           "keeper": false
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
@@ -1023,6 +1015,14 @@
           "position": "WR",
           "team": "HOU",
           "injury_status": "IR",
+          "keeper": false
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "PUP",
           "keeper": false
         },
         {
@@ -1054,6 +1054,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
+        },
+        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -1067,7 +1076,7 @@
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         },
@@ -1088,15 +1097,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
         }
       ]
     },
