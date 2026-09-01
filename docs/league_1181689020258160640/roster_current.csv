@@ -29,7 +29,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,,12493,Oronde Gadsden,TE,LAC,,0,0
 2,,4866,Saquon Barkley,RB,PHI,,0,0
 2,,7564,Ja'Marr Chase,WR,CIN,Questionable,0,0
-2,,7607,Michael Carter,RB,TEN,,0,0
+2,,7607,Michael Carter,RB,,,0,0
 2,,9509,Bijan Robinson,RB,ATL,,0,0
 3,1,4892,Baker Mayfield,QB,TB,,1,1
 3,2,11584,Bucky Irving,RB,TB,,1,1
@@ -37,7 +37,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,4,12526,Tetairoa McMillan,WR,CAR,,1,1
 3,5,7526,Jaylen Waddle,WR,DEN,,1,1
 3,6,8130,Trey McBride,TE,ARI,,1,1
-3,7,5850,Josh Jacobs,RB,GB,DNR,1,0
+3,7,5850,Josh Jacobs,RB,GB,NA,1,0
 3,8,8259,Cameron Dicker,K,LAC,Questionable,1,0
 3,9,HOU,Houston,DEF,HOU,,1,0
 3,,10229,Rashee Rice,WR,KC,,0,1
@@ -102,13 +102,13 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 7,2,9221,Jahmyr Gibbs,RB,DET,,1,1
 7,3,12527,Ashton Jeanty,RB,LV,Questionable,1,0
 7,4,7547,Amon-Ra St. Brown,WR,DET,,1,1
-7,5,9480,Brenton Strange,TE,JAX,,1,0
-7,6,7049,Jauan Jennings,WR,MIN,,1,0
-7,7,11533,Brandon Aubrey,K,DAL,,1,1
-7,8,MIN,Minnesota,DEF,MIN,,1,0
+7,5,6819,Michael Pittman,WR,PIT,Questionable,1,1
+7,6,9480,Brenton Strange,TE,JAX,,1,0
+7,7,7049,Jauan Jennings,WR,MIN,,1,0
+7,8,11533,Brandon Aubrey,K,DAL,,1,1
+7,9,MIN,Minnesota,DEF,MIN,,1,0
 7,,11563,Bo Nix,QB,DEN,,0,1
 7,,11579,Audric Estime,RB,NO,,0,0
-7,,6819,Michael Pittman,WR,PIT,Questionable,0,1
 7,,7021,Rico Dowdle,RB,PIT,,0,1
 7,,8154,Brian Robinson,RB,ATL,,0,0
 7,,8161,Malik Willis,QB,MIA,,0,0
@@ -126,7 +126,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,,3214,Hunter Henry,TE,NE,,0,1
 8,,4018,Joe Mixon,RB,,Questionable,0,0
 8,,4098,Kareem Hunt,RB,,,0,0
-8,,5970,Greg Dortch,WR,DET,,0,0
+8,,5970,Greg Dortch,WR,,,0,0
 8,,8137,George Pickens,WR,DAL,,0,1
 8,,9504,Kayshon Boutte,WR,HOU,,0,0
 8,,9754,Quentin Johnston,WR,LAC,,0,0
@@ -157,7 +157,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 10,7,8148,Jameson Williams,WR,DET,,1,1
 10,8,11539,Jake Bates,K,DET,,1,0
 10,9,PIT,Pittsburgh,DEF,PIT,,1,0
-10,,11199,Emari Demercado,RB,KC,,0,0
+10,,11199,Emari Demercado,RB,,,0,0
 10,,11637,Keon Coleman,WR,BUF,Questionable,0,0
 10,,4046,Patrick Mahomes,QB,KC,Questionable,0,0
 10,,4144,Jonnu Smith,TE,GB,,0,0

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:19:39.320691Z",
+  "generated_at": "2026-09-01T00:32:06.972059Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -506,7 +506,7 @@
           "player_id": "7607",
           "name": "Michael Carter",
           "position": "RB",
-          "team": "TEN",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
@@ -695,7 +695,7 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": "DNR",
+          "injury_status": "NA",
           "keeper": false
         },
         {
@@ -1649,7 +1649,7 @@
         "9221",
         "12527",
         "7547",
-        "0",
+        "6819",
         "9480",
         "7049",
         "11533",
@@ -1709,6 +1709,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "9480",
           "name": "Brenton Strange",
           "position": "TE",
@@ -1759,15 +1768,6 @@
           "team": "NO",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "7021",
@@ -1832,6 +1832,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "11533",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1848,15 +1857,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "7021",
@@ -2035,7 +2035,7 @@
           "player_id": "5970",
           "name": "Greg Dortch",
           "position": "WR",
-          "team": "DET",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
@@ -2531,7 +2531,7 @@
           "player_id": "11199",
           "name": "Emari Demercado",
           "position": "RB",
-          "team": "KC",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
