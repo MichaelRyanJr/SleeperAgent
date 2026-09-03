@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:59:12.936385Z",
+  "generated_at": "2026-09-03T20:54:39.601296Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -193,6 +193,7 @@
         "LAR"
       ],
       "players_current": [
+        "10213",
         "11603",
         "12490",
         "12507",
@@ -201,7 +202,6 @@
         "12534",
         "13279",
         "13294",
-        "1479",
         "4881",
         "5022",
         "5850",
@@ -295,6 +295,14 @@
       ],
       "bench": [
         {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -338,15 +346,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "5850",
@@ -910,7 +909,7 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 8
         },
