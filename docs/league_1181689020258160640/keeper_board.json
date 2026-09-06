@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:01:20.888178Z",
+  "generated_at": "2026-09-06T21:11:57.644032Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -2304,7 +2304,7 @@
       "owner": "mikeryan65",
       "team_name": "The Ladds",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 7,
+        "submitted_keeper_count": 6,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
@@ -2312,13 +2312,12 @@
           7,
           8,
           13,
-          14,
-          15
+          14
         ],
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": true
+        "complete": false
       },
       "players": [
         {
@@ -2471,17 +2470,17 @@
           "acquisition_transaction_id": null,
           "acquisition_time": null,
           "acquisition_league_id": null,
-          "keeper_submitted": true,
-          "keeper_submitted_round": 15,
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
           "keeper_base_round": 15,
           "keeper_cost_round": 15,
-          "keeper_cost_source": "current_submitted_keeper",
-          "keeper_round_may_move_for_collision": false,
-          "current_draft_round": 15,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
           "base_keeper_cost_round": 15,
-          "keeper_cost_round_is_provisional": false
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12512",
@@ -5682,5 +5681,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-06T19:01:20.933286Z"
+  "rules_updated_at": "2026-09-06T21:11:57.688868Z"
 }
