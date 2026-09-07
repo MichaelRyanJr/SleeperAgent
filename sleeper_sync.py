@@ -15,6 +15,8 @@ Inside the run folder (e.g., docs/league_<ID>_auto/):
   - lineups/<week>.json   → per-week starters/bench for each roster (humanized)
   - drafts.json           → list of drafts
   - draft_picks.json      → picks across drafts (used for keeper detection)
+  - available_players.json / .csv / .html → timestamped unrostered candidates
+  - available_players_all.json → includes inactive league-eligible catalog entries
 
 New in this version:
   - draft_round is attached to every player in starters/bench/keepers based on
@@ -44,6 +46,7 @@ import urllib.error
 import urllib.request
 import zipfile
 from typing import Any, Dict, Iterable, List, Optional, Set
+from tools.available_players import build_snapshot, load_player_catalog, utcnow, write_outputs
 
 BASE = "https://api.sleeper.app/v1"
 NFL_STATE_URL = f"{BASE}/state/nfl"
@@ -123,9 +126,11 @@ def pull_league_bundle(league_id: str,
                         outdir: Path,
                         include_players: bool = True) -> Dict[str, Any]:
     outdir.mkdir(parents=True, exist_ok=True)
+    sources = {"snapshot_started_at": utcnow()}
 
     # 1) League + state
     league = http_get_json(league_url(league_id))
+    sources["league"] = {"url": league_url(league_id), "fetched_at": utcnow()}
     (outdir / "league.json").write_text(json.dumps(league, indent=2), encoding="utf-8")
 
     nfl_state = http_get_json(NFL_STATE_URL)
@@ -142,11 +147,10 @@ def pull_league_bundle(league_id: str,
     users = http_get_json(league_users_url(league_id))
     (outdir / "users.json").write_text(json.dumps(users, indent=2), encoding="utf-8")
 
-    rosters = http_get_json(league_rosters_url(league_id))
-    (outdir / "rosters.json").write_text(json.dumps(rosters, indent=2), encoding="utf-8")
-
     # 3) Drafts & picks (for keepers + draft_round mapping)
     drafts = http_get_json(league_drafts_url(league_id))
+    sources["drafts"] = {"url": league_drafts_url(league_id), "fetched_at": utcnow()}
+    sources["draft_picks"] = []
     (outdir / "drafts.json").write_text(json.dumps(drafts, indent=2), encoding="utf-8")
 
     all_picks: List[Dict[str, Any]] = []
@@ -155,8 +159,14 @@ def pull_league_bundle(league_id: str,
         if did:
             picks = http_get_json(draft_picks_url(did))
             all_picks.extend(picks)
-    if all_picks:
-        (outdir / "draft_picks.json").write_text(json.dumps(all_picks, indent=2), encoding="utf-8")
+            sources["draft_picks"].append({"url": draft_picks_url(did), "fetched_at": utcnow()})
+    # Always overwrite empty picks too; never reuse a previous run's selections.
+    (outdir / "draft_picks.json").write_text(json.dumps(all_picks, indent=2), encoding="utf-8")
+
+    # Fetch ownership after picks to reduce post-draft propagation lag.
+    rosters = http_get_json(league_rosters_url(league_id))
+    sources["rosters"] = {"url": league_rosters_url(league_id), "fetched_at": utcnow()}
+    (outdir / "rosters.json").write_text(json.dumps(rosters, indent=2), encoding="utf-8")
 
     # Map player_id -> earliest draft round this season
     player_draft_round: Dict[str, int] = {}
@@ -219,8 +229,11 @@ def pull_league_bundle(league_id: str,
 
     players_min: Dict[str, Dict[str, Any]] = {}
     players_full_count = 0
+    players_all = None
     if include_players:
-        players_all = http_get_json(PLAYERS_URL)
+        players_all, sources["players"] = load_player_catalog(
+            http_get_json, outdir.parent / "_cache" / "nfl_players_catalog.json"
+        )
         players_full_count = len(players_all)
         for pid in used_ids:
             pdata = players_all.get(pid) or players_all.get(str(pid).upper())
@@ -251,6 +264,17 @@ def pull_league_bundle(league_id: str,
         keeper_map=keeper_map,
         player_draft_round=player_draft_round,
     )
+
+    available = build_snapshot(league, rosters, drafts, all_picks, players_all, sources,
+                               generated_at=summary["generated_at"])
+    write_outputs(outdir, available)
+    summary["available_players"] = {
+        "json": "available_players.json", "html": "available_players.html",
+        "csv": "available_players.csv", "all_json": "available_players_all.json",
+        "player_count": available["player_count"], "valid": available["valid"],
+        "is_provisional": available["is_provisional"],
+        "generated_at": available["generated_at"], "stale_after": available["stale_after"],
+    }
 
     # Normalized outputs
     (outdir / "state.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
@@ -321,6 +345,8 @@ def pull_league_bundle(league_id: str,
         "weeks": weeks,
         "players_used": len(players_min),
         "players_full_catalog": players_full_count,
+        "available_players": available["player_count"],
+        "availability_is_provisional": available["is_provisional"],
         "outdir": str(outdir.resolve()),
     }
 
