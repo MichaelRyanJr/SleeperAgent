@@ -63,6 +63,10 @@ def main():
             f'<a href="league_state_{anchor_id}.html">HTML mirror</a>',
         ]
         for fname, label in [
+            ("available_players.html", "Available players (searchable)"),
+            ("available_players.json", "available players JSON"),
+            ("available_players.csv", "available players CSV"),
+            ("available_players_all.json", "all unrostered catalog entries"),
             ("teams.json", "teams"),
             ("schedule.json", "schedule"),
             ("transactions.json", "transactions"),
@@ -83,6 +87,13 @@ def main():
             details.append(f"ID {html.escape(anchor_id)}")
         if generated:
             details.append(f"generated_at: {html.escape(generated)}")
+        if have("available_players.json"):
+            try:
+                available = json.loads((base_fs / "available_players.json").read_text("utf-8"))
+                status = "unavailable" if not available.get("valid") else "provisional" if available.get("is_provisional") else "unrostered snapshot"
+                details.append(f"{int(available.get('player_count', 0))} candidates ({status})")
+            except (OSError, ValueError, TypeError):
+                details.append("availability metadata unreadable")
 
         out.append(
             "  <div>- {} ({}) &mdash; {}</div>".format(
