@@ -1,17 +1,15 @@
 {
   "name": "Grub from the Fantasy",
-  "status": "drafting",
+  "status": "in_season",
   "metadata": {
     "auto_continue": "on",
-    "current_pick_no": "25",
     "keeper_deadline": "7",
-    "latest_league_winner_roster_id": "2",
-    "on_the_clock_user_id": "1002276479373369344"
+    "latest_league_winner_roster_id": "2"
   },
   "settings": {
     "best_ball": 0,
     "waiver_budget": 100,
-    "disable_adds": 1,
+    "disable_adds": 0,
     "divisions": 0,
     "capacity_override": 0,
     "waiver_bid_min": 0,
@@ -57,12 +55,12 @@
     "offseason_adds": 1,
     "leg": 1,
     "reserve_slots": 2,
-    "reserve_allow_cov": 1
+    "reserve_allow_cov": 1,
+    "daily_waivers_last_ran": 6
   },
   "avatar": "1158073fa2140f85f5d9ea579e40ccce",
-  "shard": 191,
-  "season": "2026",
-  "season_type": "regular",
+  "company_id": null,
+  "last_message_id": "1402510896135163904",
   "sport": "nfl",
   "scoring_settings": {
     "sack": 1.0,
@@ -115,16 +113,17 @@
     "pts_allow_7_13": 4.0,
     "st_ff": 1.0
   },
-  "last_message_id": "1402484775565938688",
-  "company_id": null,
-  "draft_id": "1312845245062348800",
+  "season": "2026",
+  "season_type": "regular",
+  "shard": 191,
   "last_author_avatar": null,
   "last_author_display_name": "sys",
   "last_author_id": "166666666666666666",
   "last_author_is_bot": true,
+  "draft_id": "1312845245062348800",
   "last_message_attachment": null,
   "last_message_text_map": null,
-  "last_message_time": 1788740936704,
+  "last_message_time": 1788747164332,
   "last_pinned_message_id": "1399935925626101760",
   "last_read_id": null,
   "league_id": "1312845245053939712",

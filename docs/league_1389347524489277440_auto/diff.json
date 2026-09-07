@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-09-07T00:52:35Z",
+  "generated_at": "2026-09-07T02:33:21Z",
   "files": {
-    "added": [],
+    "added": [
+      "available_players.csv",
+      "available_players.html",
+      "available_players.json",
+      "available_players_all.json"
+    ],
     "removed": [
       "diff.json",
       "manifest.json"
@@ -12,10 +17,8 @@
       "league_state.json",
       "nfl_state.json",
       "players_min.json",
-      "state.json",
-      "transactions.json",
-      "transactions_week_1.json"
+      "state.json"
     ],
-    "unchanged_count": 13
+    "unchanged_count": 15
   }
 }
