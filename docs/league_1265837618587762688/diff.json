@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-07T02:33:21Z",
+  "generated_at": "2026-09-07T02:45:06Z",
   "files": {
-    "added": [
-      "available_players.csv",
-      "available_players.html",
-      "available_players.json",
-      "available_players_all.json"
-    ],
+    "added": [],
     "removed": [
       "diff.json",
       "manifest.json"
     ],
     "changed": [
+      "available_players.csv",
+      "available_players.html",
+      "available_players.json",
+      "available_players_all.json",
       "keeper_board.json",
       "league.json",
       "league_state.json",
       "nfl_state.json",
       "players_min.json",
-      "state.json"
+      "state.json",
+      "transactions.json",
+      "transactions_week_1.json"
     ],
-    "unchanged_count": 15
+    "unchanged_count": 13
   }
 }
