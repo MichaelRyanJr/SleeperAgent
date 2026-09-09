@@ -1,0 +1,114 @@
+name: Sleeper sync
+
+on:
+  schedule:
+    - cron: "2-57/5 * * * *"   # every 5 minutes (UTC), offset from the top of the hour
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sleeper.yml"
+      - "sleeper_sync.py"
+      - "tools/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Permanent 2025 anchor IDs. The resolver follows Sleeper renewals to
+      # the current season while publishing back to these stable URLs.
+      BASE_LEAGUES: "1265837618587762688 1181689020258160640"
+      SLEEPER_USERNAME: "mikeryan65"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run export regression tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Scrub saved exports before reuse
+        run: python tools/scrub_nicknames.py --root docs
+
+      - name: Resolve current-season league IDs
+        run: python tools/resolve_leagues.py
+
+      - name: Export each league
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs
+          for LID in $LEAGUES; do
+            echo ">> Export current league $LID"
+            rm -rf ./docs/league_${LID}_*/
+            # Do not pass a hard-coded season; sleeper_sync infers it from
+            # the resolved league object.
+            python sleeper_sync.py --league "$LID" --out ./docs
+            python tools/enrich_keeper_data.py --league "$LID" --out ./docs
+            python tools/apply_keeper_rules.py --league "$LID" --out ./docs
+            python tools/cache_draft_history.py --league "$LID" --out ./docs
+          done
+
+      - name: Remove any nicknames from generated and cached exports
+        run: python tools/scrub_nicknames.py --root docs
+
+      - name: Publish + diff + manifest
+        run: python tools/publish_and_manifest.py
+
+      - name: Build hub index
+        run: python tools/build_index.py
+
+      - name: Verify nickname-free public tree
+        run: python tools/scrub_nicknames.py --root docs --check
+
+      - name: Bump cache-bust marker
+        shell: bash
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/.built_at
+
+      - name: Commit & push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "sync: publish current Sleeper season"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

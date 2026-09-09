@@ -1,0 +1,97 @@
+{
+  "operation": "nickname-clean-snapshot-20260909",
+  "prepared_at": "2026-09-09T16:58:09.531261+00:00",
+  "scope": "Replace all four writable branch histories with sanitized root snapshots",
+  "history_reset": true,
+  "validation": "All original application and league files preserved byte-for-byte",
+  "regression_tests_passed": 44,
+  "normal_sync_cron": "2-57/5 * * * *",
+  "normal_workflow_unchanged": true,
+  "branches": [
+    {
+      "branch": "feat/keeper-board-data",
+      "backup_file": "branch-0.zip",
+      "existing_files_preserved": 189,
+      "export_files_scanned": 181,
+      "nickname_fields_remaining": 0,
+      "saved_export_tree_fingerprint": "4a9ff9207a0ab8da881d2dbfdae39090ea86e4706027dc9bc49a3a32d5253d5c",
+      "saved_historical_drafts": [],
+      "all_existing_application_and_data_files_byte_identical": true
+    },
+    {
+      "branch": "feature/available-player-exports",
+      "backup_file": "branch-1.zip",
+      "existing_files_preserved": 200,
+      "export_files_scanned": 185,
+      "nickname_fields_remaining": 0,
+      "saved_export_tree_fingerprint": "e8f7404ca49f801d9095367b23dd037d679c4c4abf996cd34ecda55cf55da82d",
+      "saved_historical_drafts": [
+        {
+          "league_id": "1002049023420776448",
+          "season": "2023",
+          "pick_records": 168
+        },
+        {
+          "league_id": "1066143537286299648",
+          "season": "2024",
+          "pick_records": 192
+        },
+        {
+          "league_id": "1181689020258160640",
+          "season": "2025",
+          "pick_records": 192
+        },
+        {
+          "league_id": "1265837618587762688",
+          "season": "2025",
+          "pick_records": 192
+        }
+      ],
+      "all_existing_application_and_data_files_byte_identical": true
+    },
+    {
+      "branch": "fix/2026-sleeper-rollover",
+      "backup_file": "branch-2.zip",
+      "existing_files_preserved": 138,
+      "export_files_scanned": 131,
+      "nickname_fields_remaining": 0,
+      "saved_export_tree_fingerprint": "4e21ae29a3ae08e55f67b91249114928684d1dc4b319a8308850ffd908611322",
+      "saved_historical_drafts": [],
+      "all_existing_application_and_data_files_byte_identical": true
+    },
+    {
+      "branch": "main",
+      "backup_file": "main.zip",
+      "existing_files_preserved": 221,
+      "export_files_scanned": 203,
+      "nickname_fields_remaining": 0,
+      "saved_export_tree_fingerprint": "850b25196e5dcc024f1e7d7528084d3ae7f6d53d8b8b2fbe183dc8b0f8b6d690",
+      "saved_historical_drafts": [
+        {
+          "league_id": "1002049023420776448",
+          "season": "2023",
+          "pick_records": 168
+        },
+        {
+          "league_id": "1066143537286299648",
+          "season": "2024",
+          "pick_records": 192
+        },
+        {
+          "league_id": "1181689020258160640",
+          "season": "2025",
+          "pick_records": 192
+        },
+        {
+          "league_id": "1265837618587762688",
+          "season": "2025",
+          "pick_records": 192
+        }
+      ],
+      "all_existing_application_and_data_files_byte_identical": true
+    }
+  ],
+  "one_time_workflow_removed": true,
+  "github_cached_commits_and_pull_request_refs_purged": false,
+  "limitations": "GitHub-retained commits, pull-request references and external copies may remain. Do not merge or push old clones."
+}
