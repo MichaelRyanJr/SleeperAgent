@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T16:15:28.521059Z",
-  "stale_after": "2026-09-09T17:15:28.521059Z",
+  "generated_at": "2026-09-09T16:58:27.044928Z",
+  "stale_after": "2026-09-09T17:58:27.044928Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-09T16:15:27.999162Z",
+    "snapshot_started_at": "2026-09-09T16:58:25.472698Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-09T16:15:28.061026Z"
+      "fetched_at": "2026-09-09T16:58:25.690292Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-09T16:15:28.213371Z"
+      "fetched_at": "2026-09-09T16:58:26.223059Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-09T16:15:28.275739Z"
+        "fetched_at": "2026-09-09T16:58:26.333038Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-09T16:15:28.337155Z"
+      "fetched_at": "2026-09-09T16:58:26.560646Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
