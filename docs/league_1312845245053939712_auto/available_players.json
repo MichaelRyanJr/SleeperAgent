@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T16:58:29.473479Z",
-  "stale_after": "2026-09-09T17:58:29.473479Z",
+  "generated_at": "2026-09-09T18:50:31.120346Z",
+  "stale_after": "2026-09-09T19:50:31.120346Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-09T16:58:27.723242Z",
+    "snapshot_started_at": "2026-09-09T18:50:29.386304Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-09T16:58:27.939776Z"
+      "fetched_at": "2026-09-09T18:50:29.534680Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-09T16:58:28.423352Z"
+      "fetched_at": "2026-09-09T18:50:29.939516Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-09T16:58:28.529242Z"
+        "fetched_at": "2026-09-09T18:50:30.036035Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-09T16:58:28.715795Z"
+      "fetched_at": "2026-09-09T18:50:30.239980Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 199,
+  "excluded_rostered_count": 198,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12226,
-  "default_player_count": 2856,
-  "all_player_count": 4186,
-  "player_count": 2856,
+  "default_player_count": 2857,
+  "all_player_count": 4187,
+  "player_count": 2857,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -62,7 +62,7 @@
     "K": 138,
     "P": 4,
     "QB": 327,
-    "RB": 566,
+    "RB": 567,
     "SS": 1,
     "TE": 551,
     "WR": 1186
@@ -15988,6 +15988,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "SF",
+      "age": 24,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1788789339318,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 10
     },
     {
       "player_id": "12516",
