@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T11:12:47.453208Z",
-  "stale_after": "2026-09-10T12:12:47.453208Z",
+  "generated_at": "2026-09-10T15:00:10.184099Z",
+  "stale_after": "2026-09-10T16:00:10.184099Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-10T11:12:46.579236Z",
+    "snapshot_started_at": "2026-09-10T15:00:08.200272Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-10T11:12:46.682102Z"
+      "fetched_at": "2026-09-10T15:00:08.488161Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-10T11:12:46.897159Z"
+      "fetched_at": "2026-09-10T15:00:09.099950Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-10T11:12:46.969177Z"
+        "fetched_at": "2026-09-10T15:00:09.311187Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-10T11:12:47.097812Z"
+      "fetched_at": "2026-09-10T15:00:09.590116Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,11 +63,11 @@
     "K": 178,
     "P": 5,
     "QB": 453,
-    "RB": 876,
+    "RB": 877,
     "SS": 1,
     "T": 2,
     "TE": 818,
-    "WR": 1722
+    "WR": 1721
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -21864,6 +21864,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "news_updated": 1780024825668,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "5995",
+      "name": "Justice Hill",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "BAL",
+      "age": 28,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1788450005309,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64915,32 +64941,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "13296",
-      "name": "Caleb Douglas",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "MIA",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1788986445775,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 16
     },
     {
       "player_id": "5223",

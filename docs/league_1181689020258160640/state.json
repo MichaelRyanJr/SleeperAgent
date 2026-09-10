@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:12:47.453208Z",
+  "generated_at": "2026-09-10T15:00:10.184099Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1956,7 +1956,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11566",
+        "421",
         "8138",
         "12507",
         "6794",
@@ -1986,13 +1986,13 @@
       ],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "WAS",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 13
         },
         {
           "player_id": "8138",
@@ -2069,6 +2069,15 @@
       ],
       "bench": [
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -2094,15 +2103,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         },
         {
           "player_id": "7594",
@@ -2134,13 +2134,13 @@
       ],
       "keepers": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "WAS",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 13
         },
         {
           "player_id": "8138",
@@ -2170,6 +2170,15 @@
           "draft_round": 4
         },
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "3214",
           "name": "Hunter Henry",
           "position": "TE",
@@ -2177,15 +2186,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         },
         {
           "player_id": "7594",
@@ -2732,9 +2732,9 @@
         "12474",
         "12492",
         "13285",
+        "13296",
         "4943",
         "5045",
-        "5995",
         "6797",
         "6806",
         "6813",
@@ -2863,6 +2863,15 @@
           "draft_round": 12
         },
         {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
+        },
+        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
@@ -2870,14 +2879,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 16
-        },
-        {
-          "player_id": "5995",
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8131",
@@ -3313,7 +3314,7 @@
     "player_count": 2855,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-10T11:12:47.453208Z",
-    "stale_after": "2026-09-10T12:12:47.453208Z"
+    "generated_at": "2026-09-10T15:00:10.184099Z",
+    "stale_after": "2026-09-10T16:00:10.184099Z"
   }
 }
