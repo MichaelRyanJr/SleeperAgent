@@ -2,7 +2,7 @@
   {
     "roster_id": 1,
     "opponent_roster_id": 4,
-    "points": 0.0,
+    "points": 5.6,
     "starters": [
       {
         "player_id": "4984",
@@ -251,7 +251,7 @@
   {
     "roster_id": 2,
     "opponent_roster_id": 10,
-    "points": 0.0,
+    "points": 4.2,
     "starters": [
       {
         "player_id": "7523",
@@ -642,7 +642,7 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 3,
-    "points": 0.0,
+    "points": 12.0,
     "starters": [
       {
         "player_id": "6904",
@@ -763,7 +763,7 @@
   {
     "roster_id": 5,
     "opponent_roster_id": 12,
-    "points": 0.0,
+    "points": 3.2,
     "starters": [
       {
         "player_id": "4881",
@@ -1071,10 +1071,10 @@
         "injury_status": null
       },
       {
-        "player_id": "HOU",
-        "name": "Houston",
+        "player_id": "KC",
+        "name": "Kansas City",
         "position": "DEF",
-        "team": "HOU",
+        "team": "KC",
         "injury_status": null
       }
     ],
@@ -1091,13 +1091,6 @@
         "name": "Bo Nix",
         "position": "QB",
         "team": "DEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "11834",
-        "name": "Devaughn Vele",
-        "position": "WR",
-        "team": "NO",
         "injury_status": null
       },
       {
@@ -1126,6 +1119,13 @@
         "name": "Jerry Jeudy",
         "position": "WR",
         "team": "CLE",
+        "injury_status": null
+      },
+      {
+        "player_id": "HOU",
+        "name": "Houston",
+        "position": "DEF",
+        "team": "HOU",
         "injury_status": null
       }
     ]
@@ -1292,10 +1292,10 @@
         "injury_status": null
       },
       {
-        "player_id": "3214",
-        "name": "Hunter Henry",
+        "player_id": "5022",
+        "name": "Dallas Goedert",
         "position": "TE",
-        "team": "NE",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -1336,17 +1336,17 @@
         "injury_status": null
       },
       {
+        "player_id": "3214",
+        "name": "Hunter Henry",
+        "position": "TE",
+        "team": "NE",
+        "injury_status": null
+      },
+      {
         "player_id": "421",
         "name": "Matthew Stafford",
         "position": "QB",
         "team": "LAR",
-        "injury_status": null
-      },
-      {
-        "player_id": "5022",
-        "name": "Dallas Goedert",
-        "position": "TE",
-        "team": "PHI",
         "injury_status": null
       },
       {
@@ -1375,7 +1375,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 8,
-    "points": 0.0,
+    "points": 5.2,
     "starters": [
       {
         "player_id": "11560",
@@ -1392,11 +1392,11 @@
         "injury_status": null
       },
       {
-        "player_id": "6790",
-        "name": "D'Andre Swift",
+        "player_id": "7611",
+        "name": "Rhamondre Stevenson",
         "position": "RB",
-        "team": "CHI",
-        "injury_status": "Questionable"
+        "team": "NE",
+        "injury_status": null
       },
       {
         "player_id": "8112",
@@ -1420,11 +1420,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12489",
-        "name": "RJ Harvey",
+        "player_id": "6790",
+        "name": "D'Andre Swift",
         "position": "RB",
-        "team": "DEN",
-        "injury_status": null
+        "team": "CHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8259",
@@ -1457,6 +1457,13 @@
         "injury_status": null
       },
       {
+        "player_id": "12489",
+        "name": "RJ Harvey",
+        "position": "RB",
+        "team": "DEN",
+        "injury_status": null
+      },
+      {
         "player_id": "13276",
         "name": "Omar Cooper",
         "position": "WR",
@@ -1475,13 +1482,6 @@
         "name": "Kyler Murray",
         "position": "QB",
         "team": "MIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "7611",
-        "name": "Rhamondre Stevenson",
-        "position": "RB",
-        "team": "NE",
         "injury_status": null
       },
       {

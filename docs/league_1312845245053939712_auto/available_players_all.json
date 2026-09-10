@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T23:22:22.202424Z",
-  "stale_after": "2026-09-10T00:22:22.202424Z",
+  "generated_at": "2026-09-10T01:15:38.768381Z",
+  "stale_after": "2026-09-10T02:15:38.768381Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-09T23:22:21.516551Z",
+    "snapshot_started_at": "2026-09-10T01:15:37.536702Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-09T23:22:21.589644Z"
+      "fetched_at": "2026-09-10T01:15:37.638319Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-09T23:22:21.807953Z"
+      "fetched_at": "2026-09-10T01:15:37.927366Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-09T23:22:21.849992Z"
+        "fetched_at": "2026-09-10T01:15:38.013065Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-09T23:22:21.920250Z"
+      "fetched_at": "2026-09-10T01:15:38.133909Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -58,7 +58,7 @@
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 17,
+    "DEF": 16,
     "FB": 112,
     "K": 178,
     "P": 5,
@@ -67,7 +67,7 @@
     "SS": 1,
     "T": 2,
     "TE": 818,
-    "WR": 1721
+    "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -370,32 +370,6 @@
         "DEF"
       ],
       "team": "IND",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "KC",
-      "name": "Kansas City Chiefs",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "KC",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -66001,6 +65975,32 @@
       "depth_chart_order": 6,
       "depth_chart_position": "SWR",
       "news_updated": 1782253224110,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11834",
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "NO",
+      "age": 28,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "SWR",
+      "news_updated": 1788576324442,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
