@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T01:15:39.120606Z",
+  "generated_at": "2026-09-10T06:04:35.477627Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -3048,6 +3048,33 @@
           "keeper_cost_round_is_provisional": false
         },
         {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null,
+          "injury_status": "Questionable",
+          "original_draft_round": 2,
+          "original_draft_pick_no": 16,
+          "original_draft_slot": 4,
+          "original_drafted_by": "1002070687789600768",
+          "original_draft_roster_id": 6,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1403593209136910336",
+          "acquisition_time": "2026-09-10T01:53:27.860000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 2,
+          "keeper_cost_round": 2,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 2,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -3127,33 +3154,6 @@
           "current_draft_round": 2,
           "base_keeper_cost_round": null,
           "keeper_cost_round_is_provisional": false
-        },
-        {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "original_draft_round": 6,
-          "original_draft_pick_no": 67,
-          "original_draft_slot": 7,
-          "original_drafted_by": "985618252640407552",
-          "original_draft_roster_id": 3,
-          "acquired_via": "trade_or_other",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 6,
-          "keeper_cost_round": 6,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 16,
-          "base_keeper_cost_round": 6,
-          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "6819",
@@ -5654,5 +5654,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-10T01:15:39.154915Z"
+  "rules_updated_at": "2026-09-10T06:04:35.524740Z"
 }

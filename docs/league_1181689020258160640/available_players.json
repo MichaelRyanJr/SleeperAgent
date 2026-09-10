@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T01:15:38.768381Z",
-  "stale_after": "2026-09-10T02:15:38.768381Z",
+  "generated_at": "2026-09-10T06:04:34.997650Z",
+  "stale_after": "2026-09-10T07:04:34.997650Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-10T01:15:37.536702Z",
+    "snapshot_started_at": "2026-09-10T06:04:33.780644Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-10T01:15:37.638319Z"
+      "fetched_at": "2026-09-10T06:04:33.937715Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-10T01:15:37.927366Z"
+      "fetched_at": "2026-09-10T06:04:34.280684Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-10T01:15:38.013065Z"
+        "fetched_at": "2026-09-10T06:04:34.437488Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-10T01:15:38.133909Z"
+      "fetched_at": "2026-09-10T06:04:34.596022Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -46231,6 +46231,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "6783",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "CLE",
+      "age": 27,
+      "years_exp": 6,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "RWR",
+      "news_updated": 1788642324536,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
+    },
+    {
       "player_id": "11911",
       "name": "Jeshaun Jones",
       "position": "WR",
@@ -73524,32 +73550,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1566570631867,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "3321",
-      "name": "Tyreek Hill",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": null,
-      "age": 31,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1787336440462,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
