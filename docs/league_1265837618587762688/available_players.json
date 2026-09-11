@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T23:05:28.252403Z",
-  "stale_after": "2026-09-11T00:05:28.252403Z",
+  "generated_at": "2026-09-11T01:01:56.142605Z",
+  "stale_after": "2026-09-11T02:01:56.142605Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-10T23:05:26.810568Z",
+    "snapshot_started_at": "2026-09-11T01:01:54.359996Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-10T23:05:26.950345Z"
+      "fetched_at": "2026-09-11T01:01:54.810523Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-10T23:05:27.218654Z"
+      "fetched_at": "2026-09-11T01:01:55.340814Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-10T23:05:27.395803Z"
+        "fetched_at": "2026-09-11T01:01:55.486597Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-10T23:05:27.527884Z"
+      "fetched_at": "2026-09-11T01:01:55.721753Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 191,
+  "excluded_rostered_count": 192,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12227,
-  "default_player_count": 2861,
-  "all_player_count": 4194,
-  "player_count": 2861,
+  "default_player_count": 2860,
+  "all_player_count": 4193,
+  "player_count": 2860,
   "position_counts": {
     "CB": 1,
     "DEF": 19,
@@ -63,7 +63,7 @@
     "QB": 329,
     "RB": 566,
     "SS": 1,
-    "TE": 553,
+    "TE": 552,
     "WR": 1185
   },
   "view": "active_or_nfl_affiliated_candidates",
@@ -31997,32 +31997,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788363931970,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9482",
-      "name": "Michael Mayer",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "LV",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "TE",
-      "news_updated": 1788985545679,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

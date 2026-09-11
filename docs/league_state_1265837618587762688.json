@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:05:28.252403Z",
+  "generated_at": "2026-09-11T01:01:56.142605Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -789,6 +789,7 @@
         "8155",
         "8183",
         "8205",
+        "9482",
         "9484",
         "9509",
         "NE"
@@ -939,6 +940,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -2531,7 +2540,7 @@
       "week": 1,
       "roster_id": 1,
       "opponent_roster_id": 12,
-      "points": 0.0,
+      "points": 9.0,
       "result": "L"
     },
     {
@@ -2545,15 +2554,15 @@
       "week": 1,
       "roster_id": 2,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 2.2,
+      "result": "L"
     },
     {
       "week": 1,
       "roster_id": 6,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 3.7,
+      "result": "W"
     },
     {
       "week": 1,
@@ -2573,7 +2582,7 @@
       "week": 1,
       "roster_id": 4,
       "opponent_roster_id": 10,
-      "points": 7.0,
+      "points": 9.0,
       "result": "W"
     },
     {
@@ -2594,22 +2603,22 @@
       "week": 1,
       "roster_id": 7,
       "opponent_roster_id": 5,
-      "points": 4.1,
+      "points": 4.26,
       "result": "W"
     },
     {
       "week": 1,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 1.9,
+      "result": "W"
     },
     {
       "week": 1,
       "roster_id": 9,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     }
   ],
   "available_players": {
@@ -2617,10 +2626,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2861,
+    "player_count": 2860,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-10T23:05:28.252403Z",
-    "stale_after": "2026-09-11T00:05:28.252403Z"
+    "generated_at": "2026-09-11T01:01:56.142605Z",
+    "stale_after": "2026-09-11T02:01:56.142605Z"
   }
 }
