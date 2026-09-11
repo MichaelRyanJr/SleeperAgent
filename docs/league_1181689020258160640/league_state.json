@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T01:01:58.350937Z",
+  "generated_at": "2026-09-11T05:52:55.938184Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -938,7 +938,7 @@
         "8134",
         "9226",
         "9502",
-        "CLE",
+        "9508",
         "DET",
         "GB",
         "TEN"
@@ -1071,13 +1071,13 @@
           "keeper": false
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 16
+          "draft_round": 12
         },
         {
           "player_id": "DET",
@@ -3232,14 +3232,14 @@
       "week": 1,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 0.0,
+      "points": 1.0,
       "result": "L"
     },
     {
       "week": 1,
       "roster_id": 2,
       "opponent_roster_id": 10,
-      "points": 16.2,
+      "points": 22.2,
       "result": "W"
     },
     {
@@ -3260,7 +3260,7 @@
       "week": 1,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 8.4,
+      "points": 19.8,
       "result": "W"
     },
     {
@@ -3268,14 +3268,14 @@
       "roster_id": 5,
       "opponent_roster_id": 12,
       "points": 5.6,
-      "result": "W"
+      "result": "L"
     },
     {
       "week": 1,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 5.2,
-      "result": "L"
+      "points": 16.9,
+      "result": "W"
     },
     {
       "week": 1,
@@ -3295,7 +3295,7 @@
       "week": 1,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 0.16,
+      "points": 5.1,
       "result": "L"
     },
     {
@@ -3314,7 +3314,7 @@
     "player_count": 2855,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-11T01:01:58.350937Z",
-    "stale_after": "2026-09-11T02:01:58.350937Z"
+    "generated_at": "2026-09-11T05:52:55.938184Z",
+    "stale_after": "2026-09-11T06:52:55.938184Z"
   }
 }

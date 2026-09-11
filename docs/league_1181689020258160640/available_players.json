@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T01:01:58.350937Z",
-  "stale_after": "2026-09-11T02:01:58.350937Z",
+  "generated_at": "2026-09-11T05:52:55.938184Z",
+  "stale_after": "2026-09-11T06:52:55.938184Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-11T01:01:56.802033Z",
+    "snapshot_started_at": "2026-09-11T05:52:54.360000Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-11T01:01:57.029918Z"
+      "fetched_at": "2026-09-11T05:52:54.522286Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-11T01:01:57.490722Z"
+      "fetched_at": "2026-09-11T05:52:54.896062Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-11T01:01:57.599279Z"
+        "fetched_at": "2026-09-11T05:52:55.125692Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-11T01:01:57.766176Z"
+      "fetched_at": "2026-09-11T05:52:55.330547Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -57,12 +57,12 @@
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 16,
+    "DEF": 17,
     "FB": 64,
     "K": 138,
     "P": 4,
     "QB": 327,
-    "RB": 567,
+    "RB": 566,
     "SS": 1,
     "TE": 551,
     "WR": 1185
@@ -277,6 +277,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "CLE",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
     },
     {
       "player_id": "DAL",
@@ -17028,32 +17054,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "TEN",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1788791139490,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 12
     },
     {
       "player_id": "8208",

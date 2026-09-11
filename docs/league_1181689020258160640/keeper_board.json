@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T01:01:58.811916Z",
+  "generated_at": "2026-09-11T05:52:56.429739Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -1840,30 +1840,30 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "undrafted",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
+          "original_draft_round": 10,
+          "original_draft_pick_no": 118,
+          "original_draft_slot": 10,
+          "original_drafted_by": "1002276479373369344",
+          "original_draft_roster_id": 9,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1403944729023913984",
+          "acquisition_time": "2026-09-11T01:10:16.733000Z",
+          "acquisition_league_id": "1312845245053939712",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 10,
+          "keeper_cost_round": 10,
+          "keeper_cost_source": "previous_draft",
           "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 16,
-          "base_keeper_cost_round": 14,
+          "current_draft_round": 12,
+          "base_keeper_cost_round": 10,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5654,5 +5654,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-11T01:01:58.857653Z"
+  "rules_updated_at": "2026-09-11T05:52:56.466175Z"
 }
