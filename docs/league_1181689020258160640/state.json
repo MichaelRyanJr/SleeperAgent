@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:47:00.066750Z",
+  "generated_at": "2026-09-12T22:39:19.656692Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -635,10 +635,10 @@
         "4892",
         "12527",
         "7588",
-        "10229",
+        "7526",
         "12526",
         "8130",
-        "7526",
+        "11584",
         "2747",
         "PIT"
       ],
@@ -691,13 +691,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "KC",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         },
         {
           "player_id": "12526",
@@ -718,13 +718,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 15
         },
         {
           "player_id": "2747",
@@ -747,13 +747,13 @@
       ],
       "bench": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 13
         },
         {
           "player_id": "12487",
@@ -848,13 +848,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "KC",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         },
         {
           "player_id": "12526",
@@ -875,15 +875,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "position": "RB",
@@ -891,6 +882,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         }
       ]
     },
@@ -3314,7 +3314,7 @@
     "player_count": 2853,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-12T20:47:00.066750Z",
-    "stale_after": "2026-09-12T21:47:00.066750Z"
+    "generated_at": "2026-09-12T22:39:19.656692Z",
+    "stale_after": "2026-09-12T23:39:19.656692Z"
   }
 }
