@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:27:10.100045Z",
+  "generated_at": "2026-09-13T17:34:38.173267Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -633,12 +633,12 @@
       },
       "starters_current": [
         "4892",
+        "11584",
         "12527",
-        "7588",
         "7526",
         "12526",
         "8130",
-        "11584",
+        "7588",
         "2747",
         "PIT"
       ],
@@ -673,6 +673,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "12527",
           "name": "Ashton Jeanty",
           "position": "RB",
@@ -680,15 +689,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "7526",
@@ -718,13 +718,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 7
         },
         {
           "player_id": "2747",
@@ -839,13 +839,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "DAL",
+          "team": "TB",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 15
         },
         {
           "player_id": "7526",
@@ -875,13 +875,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 7
         },
         {
           "player_id": "10229",
@@ -1003,7 +1003,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 5
         },
@@ -1147,7 +1147,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 5
         },
@@ -3225,84 +3225,84 @@
       "week": 1,
       "roster_id": 1,
       "opponent_roster_id": 4,
-      "points": 29.2,
+      "points": 44.16,
       "result": "W"
     },
     {
       "week": 1,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 1.0,
+      "points": 6.2,
       "result": "L"
     },
     {
       "week": 1,
       "roster_id": 2,
       "opponent_roster_id": 10,
-      "points": 22.2,
+      "points": 30.94,
       "result": "W"
     },
     {
       "week": 1,
       "roster_id": 10,
       "opponent_roster_id": 2,
-      "points": 0.0,
+      "points": 5.72,
       "result": "L"
     },
     {
       "week": 1,
       "roster_id": 3,
       "opponent_roster_id": 6,
-      "points": 7.0,
+      "points": 20.64,
       "result": "L"
     },
     {
       "week": 1,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 19.8,
+      "points": 30.5,
       "result": "W"
     },
     {
       "week": 1,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 5.6,
-      "result": "L"
+      "points": 31.74,
+      "result": "W"
     },
     {
       "week": 1,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 16.9,
-      "result": "W"
+      "points": 26.9,
+      "result": "L"
     },
     {
       "week": 1,
       "roster_id": 7,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 21.6,
+      "result": "W"
     },
     {
       "week": 1,
       "roster_id": 11,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 12.3,
+      "result": "L"
     },
     {
       "week": 1,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 5.1,
+      "points": 27.9,
       "result": "L"
     },
     {
       "week": 1,
       "roster_id": 9,
       "opponent_roster_id": 8,
-      "points": 27.5,
+      "points": 47.56,
       "result": "W"
     }
   ],
@@ -3311,10 +3311,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2853,
+    "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-13T14:27:10.100045Z",
-    "stale_after": "2026-09-13T15:27:10.100045Z"
+    "generated_at": "2026-09-13T17:34:38.173267Z",
+    "stale_after": "2026-09-13T18:34:38.173267Z"
   }
 }
