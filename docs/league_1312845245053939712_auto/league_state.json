@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:14:22.878034Z",
+  "generated_at": "2026-09-15T19:04:07.576548Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1186,9 +1186,9 @@
         "7543",
         "8151",
         "7569",
-        "5859",
-        "12518",
         "7564",
+        "12518",
+        "8150",
         "4227",
         "BAL"
       ],
@@ -1248,11 +1248,11 @@
           "draft_round": 14
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "NE",
-          "injury_status": "IR",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -1266,13 +1266,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "4227",
@@ -1349,13 +1349,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 1
         }
       ],
       "keepers": [
@@ -1405,15 +1405,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 12
-        },
-        {
           "player_id": "8150",
           "name": "Kyren Williams",
           "position": "RB",
@@ -1421,6 +1412,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 12
         }
       ]
     },
@@ -3398,7 +3398,7 @@
     "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-15T15:14:22.878034Z",
-    "stale_after": "2026-09-15T16:14:22.878034Z"
+    "generated_at": "2026-09-15T19:04:07.576548Z",
+    "stale_after": "2026-09-15T20:04:07.576548Z"
   }
 }
