@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:30:08.267758Z",
+  "generated_at": "2026-09-16T23:47:21.814968Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -325,7 +325,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -550,7 +550,7 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
         }
@@ -694,7 +694,7 @@
           "name": "Tyrone Tracy",
           "position": "RB",
           "team": "NYG",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -835,7 +835,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -871,7 +871,7 @@
           "name": "Eddy Pineiro",
           "position": "K",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 16
         },
@@ -900,7 +900,7 @@
           "name": "Michael Pittman",
           "position": "WR",
           "team": "PIT",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
@@ -918,7 +918,7 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 8
         },
@@ -1032,7 +1032,7 @@
           "name": "RJ Harvey",
           "position": "RB",
           "team": "DEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -1140,7 +1140,7 @@
           "name": "Joe Burrow",
           "position": "QB",
           "team": "CIN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -1310,7 +1310,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -1319,7 +1319,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -1328,7 +1328,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -1461,7 +1461,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -1508,7 +1508,7 @@
           "name": "Omar Cooper",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 14
         },
@@ -1737,7 +1737,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         }
@@ -1816,7 +1816,7 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 4
         },
@@ -1852,7 +1852,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1889,7 +1889,7 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 14
         },
@@ -1907,7 +1907,7 @@
           "name": "Ja'Kobi Lane",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 12
         },
@@ -2293,7 +2293,7 @@
           "name": "George Kittle",
           "position": "TE",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 7
         },
@@ -2710,10 +2710,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2852,
+    "player_count": 2854,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T21:30:08.267758Z",
-    "stale_after": "2026-09-16T22:30:08.267758Z"
+    "generated_at": "2026-09-16T23:47:21.814968Z",
+    "stale_after": "2026-09-17T00:47:21.814968Z"
   }
 }
