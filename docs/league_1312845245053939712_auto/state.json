@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:21:57.744526Z",
+  "generated_at": "2026-09-16T05:01:46.114531Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -635,7 +635,7 @@
         "4892",
         "11584",
         "12527",
-        "7526",
+        "10229",
         "12526",
         "8130",
         "7588",
@@ -691,13 +691,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "10229",
+          "name": "Rashee Rice",
           "position": "WR",
-          "team": "DEN",
+          "team": "KC",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "12526",
@@ -747,15 +747,6 @@
       ],
       "bench": [
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -799,6 +790,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "8132",
@@ -848,13 +848,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "10229",
+          "name": "Rashee Rice",
           "position": "WR",
-          "team": "DEN",
+          "team": "KC",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "12526",
@@ -884,13 +884,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "KC",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         }
       ]
     },
@@ -1701,8 +1701,8 @@
         "7021",
         "7547",
         "5846",
-        "5012",
-        "6819",
+        "10236",
+        "12501",
         "11533",
         "KC"
       ],
@@ -1771,22 +1771,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "team": "BAL",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 6
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "PIT",
+          "team": "GB",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "11533",
@@ -1808,15 +1808,6 @@
       ],
       "bench": [
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "11563",
           "name": "Bo Nix",
           "position": "QB",
@@ -1824,15 +1815,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
         },
         {
           "player_id": "13269",
@@ -1852,6 +1834,15 @@
           "keeper": false
         },
         {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -1859,6 +1850,15 @@
           "injury_status": "NA",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "HOU",
@@ -1908,15 +1908,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
-        },
-        {
           "player_id": "11533",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1933,6 +1924,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
         }
       ]
     },
@@ -3398,7 +3398,7 @@
     "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T00:21:57.744526Z",
-    "stale_after": "2026-09-16T01:21:57.744526Z"
+    "generated_at": "2026-09-16T05:01:46.114531Z",
+    "stale_after": "2026-09-16T06:01:46.114531Z"
   }
 }
