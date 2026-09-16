@@ -28,7 +28,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,,11604,Brock Bowers,TE,LV,Out,0,1
 2,,11631,Brian Thomas,WR,JAX,Questionable,0,1
 2,,12534,Kyle Monangai,RB,CHI,,0,1
-2,,13413,Cyrus Allen,WR,KC,,0,0
+2,,13414,Kaelon Black,RB,SF,,0,0
 2,,7523,Trevor Lawrence,QB,JAX,,0,0
 2,,8408,Jordan Mason,RB,MIN,Questionable,0,0
 2,,9753,Zach Charbonnet,RB,SEA,PUP,0,0
@@ -58,7 +58,6 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,6,12517,Colston Loveland,TE,CHI,,1,1
 4,7,11620,Rome Odunze,WR,CHI,,1,1
 4,8,12015,Harrison Mevis,K,LAR,,1,0
-4,9,TEN,Tennessee,DEF,TEN,,1,0
 4,,10219,Chris Rodriguez,RB,JAX,,0,0
 4,,12533,Jacory Croskey-Merritt,RB,WAS,,0,1
 4,,2449,Stefon Diggs,WR,WAS,,0,0
@@ -66,7 +65,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,,9502,Tank Dell,WR,HOU,IR,0,0
 4,,9508,Tyjae Spears,RB,TEN,,0,0
 4,,DET,Detroit,DEF,DET,,0,0
-4,,GB,Green Bay,DEF,GB,,0,0
+4,,SF,San Francisco,DEF,SF,,0,0
+4,,TB,Tampa Bay,DEF,TB,,0,0
 5,1,4881,Lamar Jackson,QB,BAL,,1,1
 5,2,7543,Travis Etienne,RB,NO,,1,1
 5,3,8151,Kenneth Walker,RB,KC,,1,1
@@ -143,9 +143,9 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,,10232,Michael Wilson,WR,ARI,,0,1
 9,,11628,Marvin Harrison,WR,ARI,,0,0
 9,,12489,RJ Harvey,RB,DEN,,0,0
+9,,12545,Tyler Shough,QB,NO,,0,0
 9,,13276,Omar Cooper,WR,NYJ,Out,0,0
 9,,13330,Kenyon Sadiq,TE,NYJ,,0,0
-9,,5849,Kyler Murray,QB,MIN,Out,0,0
 9,,8154,Brian Robinson,RB,ATL,,0,0
 10,1,6770,Joe Burrow,QB,CIN,,1,0
 10,2,4866,Saquon Barkley,RB,PHI,,1,0
@@ -176,8 +176,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,,11583,Jonathon Brooks,RB,CAR,,0,0
 11,,12474,Woody Marks,RB,HOU,,0,0
 11,,12492,Pat Bryant,WR,DEN,,0,0
-11,,13285,Malachi Fields,WR,NYG,,0,0
 11,,13296,Caleb Douglas,WR,MIA,,0,0
+11,,13301,Antonio Williams,WR,WAS,,0,0
 11,,4943,Sam Darnold,QB,SEA,Out,0,0
 11,,8131,Isaiah Likely,TE,NYG,,0,0
 12,1,6804,Jordan Love,QB,GB,,1,1
@@ -189,8 +189,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,7,12481,Cam Skattebo,RB,NYG,,1,1
 12,8,3451,Ka'imi Fairbairn,K,HOU,,1,1
 12,9,DEN,Denver,DEF,DEN,,1,0
+12,,11834,Devaughn Vele,WR,NO,,0,0
 12,,12493,Oronde Gadsden,TE,LAC,,0,0
-12,,1945,Chris Boswell,K,PIT,,0,0
 12,,4037,Chris Godwin,WR,TB,,0,0
 12,,4046,Patrick Mahomes,QB,KC,,0,0
 12,,7567,Kenny Gainwell,RB,TB,,0,1

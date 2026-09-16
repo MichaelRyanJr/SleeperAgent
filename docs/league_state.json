@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:01:43.783688Z",
+  "generated_at": "2026-09-16T09:51:52.358437Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 105.56,
       "points_against": 126.92,
       "waiver": {
-        "position": 12,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -375,7 +375,7 @@
       "points_for": 100.34,
       "points_against": 149.46,
       "waiver": {
-        "position": 6,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -573,7 +573,7 @@
       "points_for": 85.7,
       "points_against": 106.12,
       "waiver": {
-        "position": 1,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -581,7 +581,7 @@
         "10219",
         "7588",
         "6786",
-        "5859",
+        "0",
         "10859",
         "5927",
         "2747",
@@ -592,13 +592,14 @@
         "10222",
         "10859",
         "11655",
+        "11834",
         "13285",
         "13414",
         "2747",
+        "3286",
         "3294",
         "5844",
         "5846",
-        "5859",
         "5927",
         "6786",
         "7588",
@@ -640,15 +641,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 2
         },
         {
           "player_id": "10859",
@@ -707,6 +699,14 @@
           "draft_round": 10
         },
         {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -723,6 +723,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "3286",
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5844",
@@ -761,7 +769,7 @@
       "points_for": 123.36,
       "points_against": 114.86,
       "waiver": {
-        "position": 10,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -968,13 +976,13 @@
       "points_for": 101.76,
       "points_against": 117.0,
       "waiver": {
-        "position": 9,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
-        "6770",
+        "8161",
         "12481",
-        "5967",
+        "12489",
         "7564",
         "2133",
         "8130",
@@ -1002,13 +1010,13 @@
       ],
       "starters": [
         {
-          "player_id": "6770",
-          "name": "Joe Burrow",
+          "player_id": "8161",
+          "name": "Malik Willis",
           "position": "QB",
-          "team": "CIN",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 14
         },
         {
           "player_id": "12481",
@@ -1020,13 +1028,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "TEN",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 6
         },
         {
           "player_id": "7564",
@@ -1085,15 +1093,6 @@
       ],
       "bench": [
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1130,13 +1129,22 @@
           "draft_round": 8
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 14
+          "draft_round": 7
+        },
+        {
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "8180",
@@ -1166,7 +1174,7 @@
       "points_for": 149.46,
       "points_against": 100.34,
       "waiver": {
-        "position": 11,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1364,7 +1372,7 @@
       "points_for": 117.0,
       "points_against": 101.76,
       "waiver": {
-        "position": 4,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1376,7 +1384,7 @@
         "3214",
         "6790",
         "7839",
-        "DET"
+        "0"
       ],
       "players_current": [
         "11620",
@@ -1385,6 +1393,7 @@
         "12514",
         "13276",
         "3214",
+        "3257",
         "4199",
         "421",
         "6790",
@@ -1393,8 +1402,7 @@
         "7839",
         "8131",
         "9226",
-        "9504",
-        "DET"
+        "SF"
       ],
       "starters": [
         {
@@ -1468,15 +1476,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "DET",
-          "name": "Detroit",
-          "position": "DEF",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "bench": [
@@ -1517,6 +1516,14 @@
           "draft_round": 14
         },
         {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
@@ -1535,13 +1542,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "SF",
+          "name": "San Francisco",
+          "position": "DEF",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1562,7 +1568,7 @@
       "points_for": 128.7,
       "points_against": 84.06,
       "waiver": {
-        "position": 7,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1574,7 +1580,7 @@
         "12518",
         "13287",
         "11533",
-        "LAC"
+        "0"
       ],
       "players_current": [
         "11533",
@@ -1584,15 +1590,16 @@
         "12518",
         "12533",
         "13287",
+        "13296",
         "13298",
-        "13413",
+        "13337",
         "4034",
         "4983",
         "7523",
         "8167",
         "9224",
         "9997",
-        "LAC"
+        "KC"
       ],
       "starters": [
         {
@@ -1657,15 +1664,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         }
       ],
       "bench": [
@@ -1706,6 +1704,14 @@
           "draft_round": 9
         },
         {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13298",
           "name": "KC Concepcion",
           "position": "WR",
@@ -1715,13 +1721,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "position": "WR",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
           "team": "KC",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         },
         {
           "player_id": "4983",
@@ -1740,6 +1745,14 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City",
+          "position": "DEF",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1760,7 +1773,7 @@
       "points_for": 84.06,
       "points_against": 128.7,
       "waiver": {
-        "position": 8,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -1957,7 +1970,7 @@
       "points_for": 114.86,
       "points_against": 123.36,
       "waiver": {
-        "position": 2,
+        "position": 1,
         "budget_used": 0
       },
       "starters_current": [
@@ -2154,7 +2167,7 @@
       "points_for": 106.12,
       "points_against": 85.7,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -2352,7 +2365,7 @@
       "points_for": 126.92,
       "points_against": 105.56,
       "waiver": {
-        "position": 5,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -2710,10 +2723,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2854,
+    "player_count": 2851,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T05:01:43.783688Z",
-    "stale_after": "2026-09-16T06:01:43.783688Z"
+    "generated_at": "2026-09-16T09:51:52.358437Z",
+    "stale_after": "2026-09-16T10:51:52.358437Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:01:46.114531Z",
+  "generated_at": "2026-09-16T09:51:53.705551Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -95,7 +95,7 @@
       "points_for": 148.86,
       "points_against": 74.1,
       "waiver": {
-        "position": 2,
+        "position": 1,
         "budget_used": 0
       },
       "starters_current": [
@@ -356,7 +356,7 @@
       "points_for": 104.3,
       "points_against": 86.46,
       "waiver": {
-        "position": 1,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -380,7 +380,7 @@
         "12490",
         "12534",
         "13286",
-        "13413",
+        "13414",
         "7002",
         "7523",
         "8121",
@@ -510,13 +510,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 10
         },
         {
           "player_id": "7523",
@@ -628,7 +628,7 @@
       "points_for": 157.04,
       "points_against": 124.12,
       "waiver": {
-        "position": 4,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -910,7 +910,7 @@
       "points_for": 74.1,
       "points_against": 148.86,
       "waiver": {
-        "position": 6,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -922,7 +922,7 @@
         "12517",
         "11620",
         "12015",
-        "TEN"
+        "0"
       ],
       "players_current": [
         "10219",
@@ -940,8 +940,8 @@
         "9502",
         "9508",
         "DET",
-        "GB",
-        "TEN"
+        "SF",
+        "TB"
       ],
       "starters": [
         {
@@ -1015,14 +1015,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "TEN",
-          "name": "Tennessee",
-          "position": "DEF",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1088,10 +1080,18 @@
           "keeper": false
         },
         {
-          "player_id": "GB",
-          "name": "Green Bay",
+          "player_id": "SF",
+          "name": "San Francisco",
           "position": "DEF",
-          "team": "GB",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "TB",
+          "name": "Tampa Bay",
+          "position": "DEF",
+          "team": "TB",
           "injury_status": null,
           "keeper": false
         }
@@ -1178,7 +1178,7 @@
       "points_for": 137.16,
       "points_against": 166.68,
       "waiver": {
-        "position": 11,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1440,7 +1440,7 @@
       "points_for": 124.12,
       "points_against": 157.04,
       "waiver": {
-        "position": 10,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -1692,7 +1692,7 @@
       "points_for": 126.5,
       "points_against": 99.46,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -1952,7 +1952,7 @@
       "points_for": 135.0,
       "points_against": 157.46,
       "waiver": {
-        "position": 8,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -2214,7 +2214,7 @@
       "points_for": 157.46,
       "points_against": 135.0,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2233,9 +2233,9 @@
         "11560",
         "11628",
         "12489",
+        "12545",
         "13276",
         "13330",
-        "5849",
         "6790",
         "7611",
         "8110",
@@ -2358,6 +2358,14 @@
           "draft_round": 3
         },
         {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -2374,15 +2382,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "8154",
@@ -2476,7 +2475,7 @@
       "points_for": 86.46,
       "points_against": 104.3,
       "waiver": {
-        "position": 9,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -2712,7 +2711,7 @@
       "points_for": 99.46,
       "points_against": 126.5,
       "waiver": {
-        "position": 7,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2731,8 +2730,8 @@
         "12185",
         "12474",
         "12492",
-        "13285",
         "13296",
+        "13301",
         "4943",
         "5045",
         "6797",
@@ -2854,15 +2853,6 @@
           "keeper": false
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "13296",
           "name": "Caleb Douglas",
           "position": "WR",
@@ -2870,6 +2860,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "13301",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "4943",
@@ -2963,7 +2961,7 @@
       "points_for": 166.68,
       "points_against": 137.16,
       "waiver": {
-        "position": 5,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2978,10 +2976,10 @@
         "DEN"
       ],
       "players_current": [
+        "11834",
         "12481",
         "12493",
         "1466",
-        "1945",
         "2216",
         "3198",
         "3451",
@@ -3081,19 +3079,18 @@
       ],
       "bench": [
         {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12493",
           "name": "Oronde Gadsden",
           "position": "TE",
           "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
-          "player_id": "1945",
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
@@ -3398,7 +3395,7 @@
     "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T05:01:46.114531Z",
-    "stale_after": "2026-09-16T06:01:46.114531Z"
+    "generated_at": "2026-09-16T09:51:53.705551Z",
+    "stale_after": "2026-09-16T10:51:53.705551Z"
   }
 }
