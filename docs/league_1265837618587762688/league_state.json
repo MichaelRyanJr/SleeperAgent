@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:51:52.358437Z",
+  "generated_at": "2026-09-16T14:29:51.043084Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -987,8 +987,8 @@
         "2133",
         "8130",
         "11646",
-        "6650",
-        "DAL"
+        "13545",
+        "TB"
       ],
       "players_current": [
         "11646",
@@ -996,17 +996,17 @@
         "12489",
         "12501",
         "13305",
+        "13545",
         "1466",
         "2133",
         "4037",
         "5967",
-        "6650",
         "6770",
         "7564",
+        "7571",
         "8130",
         "8161",
-        "8180",
-        "DAL"
+        "TB"
       ],
       "starters": [
         {
@@ -1073,22 +1073,20 @@
           "draft_round": 11
         },
         {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
+          "player_id": "13545",
+          "name": "Trey Smack",
           "position": "K",
-          "team": "TB",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         },
         {
-          "player_id": "DAL",
-          "name": "Dallas",
+          "player_id": "TB",
+          "name": "Tampa Bay",
           "position": "DEF",
-          "team": "DAL",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         }
       ],
       "bench": [
@@ -1147,13 +1145,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "8180",
-          "name": "Jalen Nailor",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "team": "LV",
+          "team": "BAL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1575,17 +1572,16 @@
         "7523",
         "4034",
         "9224",
-        "0",
+        "4983",
         "8167",
         "12518",
         "13287",
         "11533",
-        "0"
+        "KC"
       ],
       "players_current": [
         "11533",
         "11581",
-        "12487",
         "12492",
         "12518",
         "12533",
@@ -1630,6 +1626,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "8167",
           "name": "Christian Watson",
           "position": "WR",
@@ -1664,6 +1669,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City",
+          "position": "DEF",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1675,15 +1688,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         },
         {
           "player_id": "12492",
@@ -1729,15 +1733,6 @@
           "keeper": false
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "9997",
           "name": "Zay Flowers",
           "position": "WR",
@@ -1745,14 +1740,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -2723,10 +2710,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2851,
+    "player_count": 2852,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T09:51:52.358437Z",
-    "stale_after": "2026-09-16T10:51:52.358437Z"
+    "generated_at": "2026-09-16T14:29:51.043084Z",
+    "stale_after": "2026-09-16T15:29:51.043084Z"
   }
 }
