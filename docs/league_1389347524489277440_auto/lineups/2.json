@@ -600,76 +600,12 @@
     "roster_id": 10,
     "opponent_roster_id": 3,
     "points": 0.0,
-    "starters": [],
-    "bench": [
-      {
-        "player_id": "10232",
-        "name": "Michael Wilson",
-        "position": "WR",
-        "team": "ARI",
-        "injury_status": null
-      },
-      {
-        "player_id": "11539",
-        "name": "Jake Bates",
-        "position": "K",
-        "team": "DET",
-        "injury_status": null
-      },
-      {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "position": "WR",
-        "team": "LAC",
-        "injury_status": "Questionable"
-      },
-      {
-        "player_id": "12508",
-        "name": "Jaxson Dart",
-        "position": "QB",
-        "team": "NYG",
-        "injury_status": null
-      },
-      {
-        "player_id": "12517",
-        "name": "Colston Loveland",
-        "position": "TE",
-        "team": "CHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "13286",
-        "name": "Jadarian Price",
-        "position": "RB",
-        "team": "SEA",
-        "injury_status": null
-      },
-      {
-        "player_id": "13311",
-        "name": "Chris Bell",
-        "position": "WR",
-        "team": "MIA",
-        "injury_status": null
-      },
-      {
-        "player_id": "13417",
-        "name": "De'Zhaun Stribling",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": "Out"
-      },
+    "starters": [
       {
         "player_id": "6797",
         "name": "Justin Herbert",
         "position": "QB",
         "team": "LAC",
-        "injury_status": null
-      },
-      {
-        "player_id": "8132",
-        "name": "Tyler Allgeier",
-        "position": "RB",
-        "team": "ARI",
         "injury_status": null
       },
       {
@@ -687,11 +623,11 @@
         "injury_status": null
       },
       {
-        "player_id": "9225",
-        "name": "Tank Bigsby",
-        "position": "RB",
-        "team": "PHI",
-        "injury_status": null
+        "player_id": "11635",
+        "name": "Ladd McConkey",
+        "position": "WR",
+        "team": "LAC",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9487",
@@ -701,10 +637,24 @@
         "injury_status": null
       },
       {
-        "player_id": "HOU",
-        "name": "Houston",
-        "position": "DEF",
-        "team": "HOU",
+        "player_id": "12517",
+        "name": "Colston Loveland",
+        "position": "TE",
+        "team": "CHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "13286",
+        "name": "Jadarian Price",
+        "position": "RB",
+        "team": "SEA",
+        "injury_status": null
+      },
+      {
+        "player_id": "11539",
+        "name": "Jake Bates",
+        "position": "K",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -712,6 +662,57 @@
         "name": "Jacksonville",
         "position": "DEF",
         "team": "JAX",
+        "injury_status": null
+      }
+    ],
+    "bench": [
+      {
+        "player_id": "10232",
+        "name": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "injury_status": null
+      },
+      {
+        "player_id": "12508",
+        "name": "Jaxson Dart",
+        "position": "QB",
+        "team": "NYG",
+        "injury_status": null
+      },
+      {
+        "player_id": "13311",
+        "name": "Chris Bell",
+        "position": "WR",
+        "team": "MIA",
+        "injury_status": null
+      },
+      {
+        "player_id": "13417",
+        "name": "De'Zhaun Stribling",
+        "position": "WR",
+        "team": "SF",
+        "injury_status": "Out"
+      },
+      {
+        "player_id": "8132",
+        "name": "Tyler Allgeier",
+        "position": "RB",
+        "team": "ARI",
+        "injury_status": null
+      },
+      {
+        "player_id": "9225",
+        "name": "Tank Bigsby",
+        "position": "RB",
+        "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "HOU",
+        "name": "Houston",
+        "position": "DEF",
+        "team": "HOU",
         "injury_status": null
       }
     ]
