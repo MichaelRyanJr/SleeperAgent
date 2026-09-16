@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T18:23:05.076510Z",
-  "stale_after": "2026-09-16T19:23:05.076510Z",
+  "generated_at": "2026-09-16T21:30:10.596402Z",
+  "stale_after": "2026-09-16T22:30:10.596402Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-16T18:23:03.294372Z",
+    "snapshot_started_at": "2026-09-16T21:30:08.936233Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-16T18:23:03.455402Z"
+      "fetched_at": "2026-09-16T21:30:09.077074Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-16T18:23:03.845092Z"
+      "fetched_at": "2026-09-16T21:30:09.456849Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-16T18:23:04.079320Z"
+        "fetched_at": "2026-09-16T21:30:09.554324Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-16T18:23:04.280277Z"
+      "fetched_at": "2026-09-16T21:30:09.762436Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 198,
+  "excluded_rostered_count": 200,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12227,
-  "default_player_count": 2849,
-  "all_player_count": 4187,
-  "player_count": 4187,
+  "default_player_count": 2847,
+  "all_player_count": 4185,
+  "player_count": 4185,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,11 +63,11 @@
     "K": 179,
     "P": 5,
     "QB": 453,
-    "RB": 875,
+    "RB": 874,
     "SS": 1,
     "T": 2,
     "TE": 818,
-    "WR": 1721
+    "WR": 1720
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -20980,32 +20980,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1789442408997,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13347",
-      "name": "Demond Claiborne",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIN",
-      "age": 22,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": "Out",
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RB",
-      "news_updated": 1789328155490,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -69225,32 +69199,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788394535073,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7571",
-      "name": "Rashod Bateman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BAL",
-      "age": 26,
-      "years_exp": 5,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "LWR",
-      "news_updated": 1789423209267,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

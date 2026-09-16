@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:23:05.076510Z",
+  "generated_at": "2026-09-16T21:30:10.596402Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -380,6 +380,7 @@
         "12490",
         "12534",
         "13286",
+        "13347",
         "13414",
         "7002",
         "7523",
@@ -508,6 +509,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "13347",
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": "Out",
+          "keeper": false
         },
         {
           "player_id": "13414",
@@ -1183,12 +1192,12 @@
       },
       "starters_current": [
         "4881",
-        "7543",
+        "8150",
         "8151",
         "7569",
         "7564",
         "12518",
-        "8150",
+        "7543",
         "4227",
         "BAL"
       ],
@@ -1206,6 +1215,7 @@
         "7543",
         "7564",
         "7569",
+        "7571",
         "8150",
         "8151",
         "BAL"
@@ -1221,13 +1231,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "NO",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 13
         },
         {
           "player_id": "8151",
@@ -1266,13 +1276,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "7543",
+          "name": "Travis Etienne",
           "position": "RB",
-          "team": "LAR",
+          "team": "NO",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "4227",
@@ -1356,6 +1366,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 1
+        },
+        {
+          "player_id": "7571",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1369,13 +1387,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "NO",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 13
         },
         {
           "player_id": "8151",
@@ -1405,13 +1423,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "7543",
+          "name": "Travis Etienne",
           "position": "RB",
-          "team": "LAR",
+          "team": "NO",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "11586",
@@ -3392,10 +3410,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2849,
+    "player_count": 2847,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T18:23:05.076510Z",
-    "stale_after": "2026-09-16T19:23:05.076510Z"
+    "generated_at": "2026-09-16T21:30:10.596402Z",
+    "stale_after": "2026-09-16T22:30:10.596402Z"
   }
 }
