@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:13:51.166434Z",
+  "generated_at": "2026-09-17T17:06:03.446756Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1385,13 +1385,13 @@
       "starters_current": [
         "421",
         "9226",
-        "7543",
+        "6790",
         "7547",
         "12514",
-        "3214",
-        "6790",
+        "8131",
+        "7543",
         "7839",
-        "0"
+        "SF"
       ],
       "players_current": [
         "11620",
@@ -1431,13 +1431,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "NO",
-          "injury_status": null,
+          "team": "CHI",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 5
         },
         {
           "player_id": "7547",
@@ -1458,22 +1458,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
           "position": "TE",
-          "team": "NE",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 8
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "7543",
+          "name": "Travis Etienne",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
+          "team": "NO",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 4
         },
         {
           "player_id": "7839",
@@ -1483,6 +1483,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco",
+          "position": "DEF",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1523,6 +1531,15 @@
           "draft_round": 14
         },
         {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "3257",
           "name": "Jacoby Brissett",
           "position": "QB",
@@ -1538,23 +1555,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco",
-          "position": "DEF",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -2723,7 +2723,7 @@
     "player_count": 2854,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-17T12:13:51.166434Z",
-    "stale_after": "2026-09-17T13:13:51.166434Z"
+    "generated_at": "2026-09-17T17:06:03.446756Z",
+    "stale_after": "2026-09-17T18:06:03.446756Z"
   }
 }
