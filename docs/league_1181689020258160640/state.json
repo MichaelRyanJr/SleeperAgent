@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T23:47:23.932849Z",
+  "generated_at": "2026-09-17T01:49:36.670016Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -2992,7 +2992,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6804",
+        "4046",
         "3198",
         "8155",
         "4983",
@@ -3023,13 +3023,13 @@
       ],
       "starters": [
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "GB",
+          "team": "KC",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "3198",
@@ -3132,13 +3132,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
+          "player_id": "6804",
+          "name": "Jordan Love",
           "position": "QB",
-          "team": "KC",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "7567",
@@ -3179,15 +3179,6 @@
       ],
       "keepers": [
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "8155",
           "name": "Breece Hall",
           "position": "RB",
@@ -3222,6 +3213,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "7567",
@@ -3422,7 +3422,7 @@
     "player_count": 2848,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-16T23:47:23.932849Z",
-    "stale_after": "2026-09-17T00:47:23.932849Z"
+    "generated_at": "2026-09-17T01:49:36.670016Z",
+    "stale_after": "2026-09-17T02:49:36.670016Z"
   }
 }
