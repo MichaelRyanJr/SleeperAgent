@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:49:34.988251Z",
+  "generated_at": "2026-09-17T06:47:20.525678Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -581,7 +581,7 @@
         "10219",
         "7588",
         "6786",
-        "0",
+        "10222",
         "10859",
         "5927",
         "2747",
@@ -643,6 +643,15 @@
           "draft_round": 1
         },
         {
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
+        },
+        {
           "player_id": "10859",
           "name": "Sam LaPorta",
           "position": "TE",
@@ -680,15 +689,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10222",
-          "name": "Jayden Reed",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
-        },
         {
           "player_id": "11655",
           "name": "Tyrone Tracy",
@@ -2713,7 +2713,7 @@
     "player_count": 2854,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-17T01:49:34.988251Z",
-    "stale_after": "2026-09-17T02:49:34.988251Z"
+    "generated_at": "2026-09-17T06:47:20.525678Z",
+    "stale_after": "2026-09-17T07:47:20.525678Z"
   }
 }
