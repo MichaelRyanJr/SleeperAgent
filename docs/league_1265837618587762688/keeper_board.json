@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:47:20.848899Z",
+  "generated_at": "2026-09-17T12:13:51.601415Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1248,6 +1248,33 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 8,
           "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": "IR",
+          "original_draft_round": 2,
+          "original_draft_pick_no": 15,
+          "original_draft_slot": 10,
+          "original_drafted_by": "1126919541247942656",
+          "original_draft_roster_id": 2,
+          "acquired_via": "commissioner",
+          "acquisition_transaction_id": "1406204816178393088",
+          "acquisition_time": "2026-09-17T06:51:03.501000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 2,
+          "keeper_cost_round": 2,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": 2,
+          "base_keeper_cost_round": 2,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5429,5 +5456,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-17T06:47:20.882792Z"
+  "rules_updated_at": "2026-09-17T12:13:51.649340Z"
 }
