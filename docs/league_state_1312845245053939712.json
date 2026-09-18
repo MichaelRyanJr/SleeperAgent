@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:54:42.192934Z",
+  "generated_at": "2026-09-18T01:04:10.106308Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -260,7 +260,7 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -523,7 +523,7 @@
           "name": "Kaelon Black",
           "position": "RB",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -2803,7 +2803,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2948,7 +2948,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -3333,15 +3333,15 @@
       "week": 2,
       "roster_id": 1,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 19.4,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 12,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": -0.1,
+      "result": "L"
     },
     {
       "week": 2,
@@ -3376,42 +3376,42 @@
       "roster_id": 4,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 2,
       "roster_id": 7,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 8.2,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 6,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 1.2,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 9,
       "opponent_roster_id": 6,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 2,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 3.9,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 10,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     }
   ],
   "available_players": {
@@ -3422,7 +3422,7 @@
     "player_count": 2848,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-17T22:54:42.192934Z",
-    "stale_after": "2026-09-17T23:54:42.192934Z"
+    "generated_at": "2026-09-18T01:04:10.106308Z",
+    "stale_after": "2026-09-18T02:04:10.106308Z"
   }
 }
