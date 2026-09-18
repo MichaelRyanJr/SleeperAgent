@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T01:04:10.106308Z",
-  "stale_after": "2026-09-18T02:04:10.106308Z",
+  "generated_at": "2026-09-18T05:52:27.418472Z",
+  "stale_after": "2026-09-18T06:52:27.418472Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-18T01:04:09.033474Z",
+    "snapshot_started_at": "2026-09-18T05:52:26.474124Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-18T01:04:09.131598Z"
+      "fetched_at": "2026-09-18T05:52:26.560575Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-18T01:04:09.350829Z"
+      "fetched_at": "2026-09-18T05:52:26.749581Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-18T01:04:09.431570Z"
+        "fetched_at": "2026-09-18T05:52:26.795972Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-18T01:04:09.526436Z"
+      "fetched_at": "2026-09-18T05:52:26.892603Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 201,
+  "excluded_rostered_count": 202,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12228,
-  "default_player_count": 2848,
-  "all_player_count": 4185,
-  "player_count": 4185,
+  "default_player_count": 2847,
+  "all_player_count": 4184,
+  "player_count": 4184,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 179,
     "P": 5,
     "QB": 453,
-    "RB": 874,
+    "RB": 873,
     "SS": 1,
     "T": 2,
     "TE": 818,
@@ -21006,32 +21006,6 @@
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "news_updated": 1789598422560,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "6130",
-      "name": "Devin Singletary",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NYG",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1789478412496,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T01:04:10.106308Z",
+  "generated_at": "2026-09-18T05:52:27.418472Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -105,7 +105,7 @@
         "9488",
         "12514",
         "12506",
-        "5927",
+        "8167",
         "11786",
         "MIN"
       ],
@@ -183,13 +183,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "WAS",
+          "team": "GB",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "11786",
@@ -256,6 +256,15 @@
           "draft_round": 15
         },
         {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
@@ -263,15 +272,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         }
       ],
       "keepers": [
@@ -1983,13 +1983,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "421",
+        "11566",
         "8138",
         "12507",
         "6794",
         "8137",
         "5022",
-        "9997",
+        "7594",
         "11539",
         "JAX"
       ],
@@ -2002,6 +2002,7 @@
         "3214",
         "421",
         "5022",
+        "6130",
         "6794",
         "7594",
         "8137",
@@ -2013,13 +2014,13 @@
       ],
       "starters": [
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "LAR",
+          "team": "WAS",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 7
         },
         {
           "player_id": "8138",
@@ -2067,13 +2068,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 4
+          "draft_round": 10
         },
         {
           "player_id": "11539",
@@ -2095,15 +2096,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
         {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
@@ -2132,13 +2124,21 @@
           "draft_round": 14
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 10
+          "draft_round": 13
+        },
+        {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8676",
@@ -2157,17 +2157,26 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         }
       ],
       "keepers": [
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "LAR",
+          "team": "WAS",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 7
         },
         {
           "player_id": "8138",
@@ -2188,22 +2197,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 10
         },
         {
           "player_id": "3214",
@@ -2215,13 +2215,22 @@
           "draft_round": 14
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 10
+          "draft_round": 13
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -3333,7 +3342,7 @@
       "week": 2,
       "roster_id": 1,
       "opponent_roster_id": 12,
-      "points": 19.4,
+      "points": 40.82,
       "result": "W"
     },
     {
@@ -3382,14 +3391,14 @@
       "week": 2,
       "roster_id": 7,
       "opponent_roster_id": 4,
-      "points": 8.2,
+      "points": 84.0,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 6,
       "opponent_roster_id": 9,
-      "points": 1.2,
+      "points": 17.2,
       "result": "W"
     },
     {
@@ -3403,14 +3412,14 @@
       "week": 2,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 3.9,
+      "points": 32.9,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 10,
       "opponent_roster_id": 8,
-      "points": 0.0,
+      "points": 5.3,
       "result": "L"
     }
   ],
@@ -3419,10 +3428,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2848,
+    "player_count": 2847,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-18T01:04:10.106308Z",
-    "stale_after": "2026-09-18T02:04:10.106308Z"
+    "generated_at": "2026-09-18T05:52:27.418472Z",
+    "stale_after": "2026-09-18T06:52:27.418472Z"
   }
 }
