@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T05:52:27.418472Z",
-  "stale_after": "2026-09-18T06:52:27.418472Z",
+  "generated_at": "2026-09-18T10:23:26.225617Z",
+  "stale_after": "2026-09-18T11:23:26.225617Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-18T05:52:26.474124Z",
+    "snapshot_started_at": "2026-09-18T10:23:24.515789Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-18T05:52:26.560575Z"
+      "fetched_at": "2026-09-18T10:23:24.722944Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-18T05:52:26.749581Z"
+      "fetched_at": "2026-09-18T10:23:25.072062Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-18T05:52:26.795972Z"
+        "fetched_at": "2026-09-18T10:23:25.127411Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-18T05:52:26.892603Z"
+      "fetched_at": "2026-09-18T10:23:25.308258Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -7462,32 +7462,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "5849",
-      "name": "Kyler Murray",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "MIN",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "QB",
-      "news_updated": 1789681533220,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 10
-    },
-    {
       "player_id": "13314",
       "name": "Luke Altmyer",
       "position": "QB",
@@ -7850,6 +7824,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "4943",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "SEA",
+      "age": 29,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "QB",
+      "news_updated": 1789656628440,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
     },
     {
       "player_id": "7583",
