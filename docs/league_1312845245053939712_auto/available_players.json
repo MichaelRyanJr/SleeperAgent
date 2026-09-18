@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T17:51:39.128062Z",
-  "stale_after": "2026-09-18T18:51:39.128062Z",
+  "generated_at": "2026-09-18T20:12:02.384461Z",
+  "stale_after": "2026-09-18T21:12:02.384461Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-18T17:51:37.936275Z",
+    "snapshot_started_at": "2026-09-18T20:12:00.306025Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-18T17:51:38.047237Z"
+      "fetched_at": "2026-09-18T20:12:00.523194Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-18T17:51:38.306810Z"
+      "fetched_at": "2026-09-18T20:12:00.987413Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-18T17:51:38.364091Z"
+        "fetched_at": "2026-09-18T20:12:01.271176Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-18T17:51:38.496969Z"
+      "fetched_at": "2026-09-18T20:12:01.458359Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47869,6 +47869,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "7571",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "BAL",
+      "age": 26,
+      "years_exp": 5,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LWR",
+      "news_updated": 1789661129012,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "13297",
       "name": "Reggie Virgil",
       "position": "WR",
@@ -48953,32 +48979,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788304823012,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "10218",
-      "name": "Xavier Hutchinson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "HOU",
-      "age": 26,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "LWR",
-      "news_updated": 1789487115211,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

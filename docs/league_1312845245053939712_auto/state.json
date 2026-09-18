@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:51:39.128062Z",
+  "generated_at": "2026-09-18T20:12:02.384461Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1194,7 +1194,7 @@
         "4881",
         "8150",
         "8151",
-        "7569",
+        "2133",
         "7564",
         "12518",
         "7543",
@@ -1202,6 +1202,7 @@
         "BAL"
       ],
       "players_current": [
+        "10218",
         "11586",
         "12472",
         "12518",
@@ -1216,7 +1217,6 @@
         "7543",
         "7564",
         "7569",
-        "7571",
         "8150",
         "8151",
         "BAL"
@@ -1250,13 +1250,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "7564",
@@ -1306,6 +1306,14 @@
       ],
       "bench": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1350,15 +1358,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "4217",
           "name": "George Kittle",
           "position": "TE",
@@ -1377,12 +1376,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ],
       "keepers": [
@@ -1414,15 +1414,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "12518",
           "name": "Tyler Warren",
           "position": "TE",
@@ -1448,6 +1439,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -3431,7 +3431,7 @@
     "player_count": 2847,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-18T17:51:39.128062Z",
-    "stale_after": "2026-09-18T18:51:39.128062Z"
+    "generated_at": "2026-09-18T20:12:02.384461Z",
+    "stale_after": "2026-09-18T21:12:02.384461Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:51:37.313983Z",
+  "generated_at": "2026-09-18T20:11:59.686564Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -184,18 +184,18 @@
       "starters_current": [
         "4881",
         "12507",
-        "7021",
+        "12481",
         "6794",
         "12526",
-        "5022",
-        "12490",
+        "8130",
+        "13279",
         "8259",
         "LAR"
       ],
       "players_current": [
         "10213",
         "11603",
-        "12490",
+        "12481",
         "12507",
         "12526",
         "12530",
@@ -203,10 +203,9 @@
         "13279",
         "13294",
         "4881",
-        "5022",
         "5850",
         "6794",
-        "7021",
+        "8130",
         "8259",
         "LAR"
       ],
@@ -230,13 +229,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "12481",
+          "name": "Cam Skattebo",
           "position": "RB",
-          "team": "PIT",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 3
         },
         {
           "player_id": "6794",
@@ -257,22 +256,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
+          "player_id": "8130",
+          "name": "Trey McBride",
           "position": "TE",
-          "team": "PHI",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 2
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 6
         },
         {
           "player_id": "8259",
@@ -328,15 +327,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "13279",
-          "name": "Carnell Tate",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
         },
         {
           "player_id": "13294",
@@ -991,30 +981,31 @@
       },
       "starters_current": [
         "8161",
-        "12481",
+        "0",
         "12489",
         "7564",
         "2133",
-        "8130",
+        "0",
         "11646",
         "13545",
         "TB"
       ],
       "players_current": [
         "11646",
-        "12481",
         "12489",
+        "12490",
         "12501",
         "13305",
         "13545",
         "1466",
         "2133",
         "4037",
+        "5022",
         "5967",
         "6770",
+        "7021",
         "7564",
         "7571",
-        "8130",
         "8161",
         "TB"
       ],
@@ -1027,15 +1018,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
-        },
-        {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "12489",
@@ -1065,15 +1047,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "11646",
           "name": "Jalen Coker",
           "position": "WR",
@@ -1100,6 +1073,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
         {
           "player_id": "12501",
           "name": "Matthew Golden",
@@ -1137,6 +1119,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "5967",
           "name": "Tony Pollard",
           "position": "RB",
@@ -1153,6 +1144,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "7571",
@@ -2723,7 +2723,7 @@
     "player_count": 2854,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-18T17:51:37.313983Z",
-    "stale_after": "2026-09-18T18:51:37.313983Z"
+    "generated_at": "2026-09-18T20:11:59.686564Z",
+    "stale_after": "2026-09-18T21:11:59.686564Z"
   }
 }

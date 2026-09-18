@@ -1,6 +1,41 @@
 [
   {
     "status": "complete",
+    "type": "trade",
+    "metadata": null,
+    "created": 1789757849165,
+    "settings": null,
+    "leg": 2,
+    "draft_picks": [],
+    "creator": "860748694180438016",
+    "transaction_id": "1406750015572951040",
+    "adds": {
+      "12481": 1,
+      "12490": 5,
+      "5022": 5,
+      "7021": 5,
+      "8130": 1
+    },
+    "consenter_ids": [
+      1,
+      5
+    ],
+    "drops": {
+      "12481": 5,
+      "12490": 1,
+      "5022": 1,
+      "7021": 1,
+      "8130": 5
+    },
+    "roster_ids": [
+      1,
+      5
+    ],
+    "status_updated": 1789759609982,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
     "type": "commissioner",
     "metadata": null,
     "created": 1789627863501,
