@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:38:55.757911Z",
+  "generated_at": "2026-09-20T14:51:50.140334Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -363,10 +363,10 @@
         "11564",
         "12490",
         "13286",
-        "9493",
+        "8121",
         "11632",
         "7002",
-        "8121",
+        "9493",
         "11792",
         "LAR"
       ],
@@ -419,13 +419,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "11632",
@@ -446,13 +446,13 @@
           "draft_round": 16
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "11792",
@@ -575,15 +575,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -591,6 +582,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 2
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "11604",
@@ -3431,7 +3431,7 @@
     "player_count": 2846,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-20T11:38:55.757911Z",
-    "stale_after": "2026-09-20T12:38:55.757911Z"
+    "generated_at": "2026-09-20T14:51:50.140334Z",
+    "stale_after": "2026-09-20T15:51:50.140334Z"
   }
 }
