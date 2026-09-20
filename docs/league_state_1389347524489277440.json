@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:51:34.118637Z",
+  "generated_at": "2026-09-20T22:03:27.805917Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -991,11 +991,11 @@
       },
       "starters_current": [
         "8161",
-        "0",
+        "12490",
         "12489",
         "7564",
         "2133",
-        "0",
+        "1466",
         "11646",
         "13545",
         "TB"
@@ -1030,6 +1030,15 @@
           "draft_round": 14
         },
         {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -1055,6 +1064,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "11646",
@@ -1084,15 +1102,6 @@
       ],
       "bench": [
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1109,15 +1118,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "4037",
@@ -2644,84 +2644,84 @@
       "week": 2,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 36.46,
+      "points": 69.8,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 12.2,
+      "points": 49.46,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 2,
       "opponent_roster_id": 11,
-      "points": 49.18,
+      "points": 75.28,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 11,
       "opponent_roster_id": 2,
-      "points": 42.52,
+      "points": 68.52,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 15.1,
-      "result": "L"
+      "points": 63.0,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 10,
       "opponent_roster_id": 3,
-      "points": 28.3,
-      "result": "W"
+      "points": 60.2,
+      "result": "L"
     },
     {
       "week": 2,
       "roster_id": 4,
       "opponent_roster_id": 12,
-      "points": 55.4,
+      "points": 73.54,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 12,
       "opponent_roster_id": 4,
-      "points": 68.62,
+      "points": 88.46,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 5,
       "opponent_roster_id": 6,
-      "points": 39.6,
+      "points": 61.62,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 112.92,
+      "points": 118.42,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 7,
       "opponent_roster_id": 9,
-      "points": 68.8,
+      "points": 88.9,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 9,
       "opponent_roster_id": 7,
-      "points": 49.12,
+      "points": 57.72,
       "result": "L"
     }
   ],
@@ -2733,7 +2733,7 @@
     "player_count": 2853,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-20T19:51:34.118637Z",
-    "stale_after": "2026-09-20T20:51:34.118637Z"
+    "generated_at": "2026-09-20T22:03:27.805917Z",
+    "stale_after": "2026-09-20T23:03:27.805917Z"
   }
 }
