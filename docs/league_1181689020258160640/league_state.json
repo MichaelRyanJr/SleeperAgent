@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:20:52.844858Z",
+  "generated_at": "2026-09-20T11:38:55.757911Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -658,10 +658,10 @@
         "12526",
         "12527",
         "13281",
+        "13285",
         "13305",
         "13417",
         "2747",
-        "4137",
         "4892",
         "7526",
         "7588",
@@ -774,6 +774,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "13285",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "13305",
           "name": "Mike Washington",
           "position": "RB",
@@ -790,15 +799,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "4137",
-          "name": "James Conner",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 16
         },
         {
           "player_id": "4892",
@@ -3428,10 +3428,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2847,
+    "player_count": 2846,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-20T06:20:52.844858Z",
-    "stale_after": "2026-09-20T07:20:52.844858Z"
+    "generated_at": "2026-09-20T11:38:55.757911Z",
+    "stale_after": "2026-09-20T12:38:55.757911Z"
   }
 }

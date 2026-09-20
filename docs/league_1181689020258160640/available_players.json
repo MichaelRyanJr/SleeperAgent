@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T06:20:52.844858Z",
-  "stale_after": "2026-09-20T07:20:52.844858Z",
+  "generated_at": "2026-09-20T11:38:55.757911Z",
+  "stale_after": "2026-09-20T12:38:55.757911Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-20T06:20:51.684299Z",
+    "snapshot_started_at": "2026-09-20T11:38:54.387852Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-20T06:20:51.773580Z"
+      "fetched_at": "2026-09-20T11:38:54.538514Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-20T06:20:51.971673Z"
+      "fetched_at": "2026-09-20T11:38:54.820890Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-20T06:20:52.007956Z"
+        "fetched_at": "2026-09-20T11:38:54.859987Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-20T06:20:52.096588Z"
+      "fetched_at": "2026-09-20T11:38:55.018633Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,9 +51,9 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12228,
-  "default_player_count": 2847,
+  "default_player_count": 2846,
   "all_player_count": 4184,
-  "player_count": 2847,
+  "player_count": 2846,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 562,
     "SS": 1,
     "TE": 548,
-    "WR": 1182
+    "WR": 1181
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -47165,32 +47165,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "13285",
-      "name": "Malachi Fields",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NYG",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1789434908408,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 12
     },
     {
       "player_id": "13329",
