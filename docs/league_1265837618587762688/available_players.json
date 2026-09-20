@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T14:51:47.765471Z",
-  "stale_after": "2026-09-20T15:51:47.765471Z",
+  "generated_at": "2026-09-20T17:49:30.173941Z",
+  "stale_after": "2026-09-20T18:49:30.173941Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-20T14:51:45.925667Z",
+    "snapshot_started_at": "2026-09-20T17:49:29.187179Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-20T14:51:46.130728Z"
+      "fetched_at": "2026-09-20T17:49:29.282766Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-20T14:51:46.632475Z"
+      "fetched_at": "2026-09-20T17:49:29.492976Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-20T14:51:46.780921Z"
+        "fetched_at": "2026-09-20T17:49:29.534357Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-20T14:51:46.990121Z"
+      "fetched_at": "2026-09-20T17:49:29.642994Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 194,
+  "excluded_rostered_count": 195,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12228,
-  "default_player_count": 2854,
-  "all_player_count": 4192,
-  "player_count": 2854,
+  "default_player_count": 2853,
+  "all_player_count": 4191,
+  "player_count": 2853,
   "position_counts": {
     "CB": 1,
     "DEF": 19,
@@ -64,7 +64,7 @@
     "RB": 565,
     "SS": 1,
     "TE": 550,
-    "WR": 1182
+    "WR": 1181
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -46773,32 +46773,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "9504",
-      "name": "Kayshon Boutte",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "HOU",
-      "age": 24,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1789770349789,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 11
     },
     {
       "player_id": "12971",

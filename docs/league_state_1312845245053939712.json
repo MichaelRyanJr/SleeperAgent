@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:51:50.140334Z",
+  "generated_at": "2026-09-20T17:49:31.883530Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1475,9 +1475,9 @@
         "4034",
         "9224",
         "7525",
-        "11635",
-        "10859",
         "12519",
+        "10859",
+        "11635",
         "12711",
         "NE"
       ],
@@ -1537,13 +1537,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
+          "team": "CHI",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "10859",
@@ -1555,13 +1555,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
+          "team": "LAC",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         },
         {
           "player_id": "12711",
@@ -1657,15 +1657,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -1673,6 +1664,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "11646",
@@ -2266,6 +2266,7 @@
       ],
       "players_current": [
         "10232",
+        "11370",
         "11560",
         "11628",
         "12489",
@@ -2374,6 +2375,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "11370",
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11628",
@@ -3342,84 +3351,84 @@
       "week": 2,
       "roster_id": 1,
       "opponent_roster_id": 12,
-      "points": 40.82,
+      "points": 54.12,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 12,
       "opponent_roster_id": 1,
-      "points": -0.1,
+      "points": 18.4,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 2,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 9.7,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 11,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 4.1,
+      "result": "L"
     },
     {
       "week": 2,
       "roster_id": 3,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 19.4,
+      "result": "L"
     },
     {
       "week": 2,
       "roster_id": 5,
       "opponent_roster_id": 3,
-      "points": 0.0,
-      "result": null
+      "points": 21.5,
+      "result": "W"
     },
     {
       "week": 2,
       "roster_id": 4,
       "opponent_roster_id": 7,
-      "points": 0.0,
+      "points": 9.3,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 7,
       "opponent_roster_id": 4,
-      "points": 84.0,
+      "points": 86.8,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 6,
       "opponent_roster_id": 9,
-      "points": 17.2,
+      "points": 38.52,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 0.0,
+      "points": 10.36,
       "result": "L"
     },
     {
       "week": 2,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 32.9,
+      "points": 48.4,
       "result": "W"
     },
     {
       "week": 2,
       "roster_id": 10,
       "opponent_roster_id": 8,
-      "points": 5.3,
+      "points": 13.36,
       "result": "L"
     }
   ],
@@ -3428,10 +3437,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2846,
+    "player_count": 2845,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-20T14:51:50.140334Z",
-    "stale_after": "2026-09-20T15:51:50.140334Z"
+    "generated_at": "2026-09-20T17:49:31.883530Z",
+    "stale_after": "2026-09-20T18:49:31.883530Z"
   }
 }

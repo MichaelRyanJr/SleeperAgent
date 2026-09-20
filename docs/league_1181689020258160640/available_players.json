@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T14:51:50.140334Z",
-  "stale_after": "2026-09-20T15:51:50.140334Z",
+  "generated_at": "2026-09-20T17:49:31.883530Z",
+  "stale_after": "2026-09-20T18:49:31.883530Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-20T14:51:48.408831Z",
+    "snapshot_started_at": "2026-09-20T17:49:30.778097Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-20T14:51:48.599512Z"
+      "fetched_at": "2026-09-20T17:49:30.870128Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-20T14:51:49.001905Z"
+      "fetched_at": "2026-09-20T17:49:31.086068Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-20T14:51:49.152558Z"
+        "fetched_at": "2026-09-20T17:49:31.126707Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-20T14:51:49.279325Z"
+      "fetched_at": "2026-09-20T17:49:31.242164Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 202,
+  "excluded_rostered_count": 203,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12228,
-  "default_player_count": 2846,
-  "all_player_count": 4184,
-  "player_count": 2846,
+  "default_player_count": 2845,
+  "all_player_count": 4183,
+  "player_count": 2845,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -62,7 +62,7 @@
     "K": 139,
     "P": 4,
     "QB": 327,
-    "RB": 562,
+    "RB": 561,
     "SS": 1,
     "TE": 548,
     "WR": 1181
@@ -14916,32 +14916,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788238517361,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11370",
-      "name": "Chris Brooks",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "age": 26,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1789831238382,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
