@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T00:11:56.794984Z",
-  "stale_after": "2026-09-21T01:11:56.794984Z",
+  "generated_at": "2026-09-21T05:00:25.227919Z",
+  "stale_after": "2026-09-21T06:00:25.227919Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-21T00:11:55.411906Z",
+    "snapshot_started_at": "2026-09-21T05:00:23.836780Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-21T00:11:55.554236Z"
+      "fetched_at": "2026-09-21T05:00:23.972919Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-21T00:11:55.847132Z"
+      "fetched_at": "2026-09-21T05:00:24.271950Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-21T00:11:55.885843Z"
+        "fetched_at": "2026-09-21T05:00:24.316228Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-21T00:11:56.048182Z"
+      "fetched_at": "2026-09-21T05:00:24.485424Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
