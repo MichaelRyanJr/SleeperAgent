@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:34:41.741827Z",
+  "generated_at": "2026-09-21T23:34:45.128818Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -382,7 +382,7 @@
         "3163",
         "8150",
         "5892",
-        "9493",
+        "7090",
         "8137",
         "13330",
         "7526",
@@ -394,10 +394,10 @@
         "11786",
         "13330",
         "3163",
-        "4892",
         "5872",
         "5892",
         "6806",
+        "7090",
         "7526",
         "7594",
         "8121",
@@ -436,13 +436,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8137",
@@ -501,15 +500,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
-        },
-        {
           "player_id": "5872",
           "name": "Deebo Samuel",
           "position": "WR",
@@ -553,6 +543,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         }
       ],
       "keepers": []
@@ -2733,7 +2732,7 @@
     "player_count": 2853,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-21T20:34:41.741827Z",
-    "stale_after": "2026-09-21T21:34:41.741827Z"
+    "generated_at": "2026-09-21T23:34:45.128818Z",
+    "stale_after": "2026-09-22T00:34:45.128818Z"
   }
 }

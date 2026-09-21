@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T20:34:41.741827Z",
-  "stale_after": "2026-09-21T21:34:41.741827Z",
+  "generated_at": "2026-09-21T23:34:45.128818Z",
+  "stale_after": "2026-09-22T00:34:45.128818Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-21T20:34:40.591751Z",
+    "snapshot_started_at": "2026-09-21T23:34:43.037932Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-21T20:34:40.672235Z"
+      "fetched_at": "2026-09-21T23:34:43.244119Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-21T20:34:40.905766Z"
+      "fetched_at": "2026-09-21T23:34:43.851135Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-21T20:34:41.069458Z"
+        "fetched_at": "2026-09-21T23:34:44.076625Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-21T20:34:41.173453Z"
+      "fetched_at": "2026-09-21T23:34:44.304433Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,12 +61,12 @@
     "FB": 112,
     "K": 179,
     "P": 5,
-    "QB": 454,
+    "QB": 455,
     "RB": 877,
     "SS": 1,
     "T": 2,
     "TE": 820,
-    "WR": 1719
+    "WR": 1718
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -8530,6 +8530,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "4892",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "TB",
+      "age": 31,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1789970702680,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 14
     },
     {
       "player_id": "13295",
@@ -65817,32 +65843,6 @@
       "depth_chart_order": 5,
       "depth_chart_position": "RWR",
       "news_updated": 1788723332404,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7090",
-      "name": "Darnell Mooney",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NYG",
-      "age": 28,
-      "years_exp": 6,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "SWR",
-      "news_updated": 1789531855484,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

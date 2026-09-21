@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:34:42.170081Z",
+  "generated_at": "2026-09-21T23:34:45.576199Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -586,33 +586,6 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "original_draft_round": 8,
-          "original_draft_pick_no": 89,
-          "original_draft_slot": 8,
-          "original_drafted_by": "1265891026833248256",
-          "original_draft_roster_id": 4,
-          "acquired_via": "trade_or_other",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 8,
-          "keeper_cost_round": 8,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 14,
-          "base_keeper_cost_round": 8,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "5872",
           "name": "Deebo Samuel",
           "position": "WR",
@@ -691,6 +664,33 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 8,
           "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "7090",
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG",
+          "injury_status": null,
+          "original_draft_round": 12,
+          "original_draft_pick_no": 133,
+          "original_draft_slot": 12,
+          "original_drafted_by": "463780035971510272",
+          "original_draft_roster_id": 11,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1407899130327539712",
+          "acquisition_time": "2026-09-21T23:03:39.472000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 12,
+          "keeper_cost_round": 12,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 12,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5483,5 +5483,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-21T20:34:42.217145Z"
+  "rules_updated_at": "2026-09-21T23:34:45.619951Z"
 }
