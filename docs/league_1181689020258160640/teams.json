@@ -125,7 +125,7 @@
         "name": "Malik Nabers",
         "position": "WR",
         "team": "NYG",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 2
       },
@@ -134,7 +134,7 @@
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 14
       },
@@ -275,7 +275,7 @@
         "name": "Jaxson Dart",
         "position": "QB",
         "team": "NYG",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 14
       },
@@ -287,15 +287,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 13
-      },
-      {
-        "player_id": "12533",
-        "name": "Jacory Croskey-Merritt",
-        "position": "RB",
-        "team": "WAS",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 9
       },
       {
         "player_id": "6786",
@@ -332,6 +323,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 5
+      },
+      {
+        "player_id": "12533",
+        "name": "Jacory Croskey-Merritt",
+        "position": "RB",
+        "team": "WAS",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 9
       }
     ]
   },
