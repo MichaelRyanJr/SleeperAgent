@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:31:58.453307Z",
+  "generated_at": "2026-09-22T17:14:14.386307Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -382,10 +382,10 @@
         "3163",
         "8150",
         "5892",
-        "7090",
+        "7526",
         "8137",
         "13330",
-        "7526",
+        "7594",
         "11786",
         "MIN"
       ],
@@ -436,12 +436,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NYG",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "8137",
@@ -462,13 +463,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 6
         },
         {
           "player_id": "11786",
@@ -518,13 +519,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "7090",
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         },
         {
           "player_id": "8121",
@@ -1591,10 +1591,10 @@
         "7523",
         "4034",
         "9224",
-        "4983",
+        "9997",
         "8167",
         "12518",
-        "12533",
+        "13287",
         "11533",
         "KC"
       ],
@@ -1645,13 +1645,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "BUF",
+          "team": "BAL",
           "injury_status": "Out",
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 4
         },
         {
           "player_id": "8167",
@@ -1672,13 +1672,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
           "position": "RB",
-          "team": "WAS",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 3
         },
         {
           "player_id": "11533",
@@ -1718,13 +1718,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "ARI",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 9
         },
         {
           "player_id": "13296",
@@ -1752,13 +1752,13 @@
           "keeper": false
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "4983",
+          "name": "DJ Moore",
           "position": "WR",
-          "team": "BAL",
+          "team": "BUF",
           "injury_status": "Out",
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 6
         }
       ],
       "keepers": []
@@ -2816,7 +2816,7 @@
     "player_count": 2851,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-22T12:31:58.453307Z",
-    "stale_after": "2026-09-22T13:31:58.453307Z"
+    "generated_at": "2026-09-22T17:14:14.386307Z",
+    "stale_after": "2026-09-22T18:14:14.386307Z"
   }
 }

@@ -147,17 +147,17 @@
         "injury_status": null
       },
       {
-        "player_id": "10229",
-        "name": "Rashee Rice",
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
         "position": "WR",
-        "team": "KC",
+        "team": "DEN",
         "injury_status": null
       },
       {
-        "player_id": "12526",
-        "name": "Tetairoa McMillan",
+        "player_id": "9487",
+        "name": "Parker Washington",
         "position": "WR",
-        "team": "CAR",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -168,10 +168,10 @@
         "injury_status": null
       },
       {
-        "player_id": "7588",
-        "name": "Javonte Williams",
-        "position": "RB",
-        "team": "DAL",
+        "player_id": "12526",
+        "name": "Tetairoa McMillan",
+        "position": "WR",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -190,6 +190,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "10229",
+        "name": "Rashee Rice",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": null
+      },
       {
         "player_id": "12487",
         "name": "Terrance Ferguson",
@@ -233,10 +240,10 @@
         "injury_status": null
       },
       {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
-        "position": "WR",
-        "team": "DEN",
+        "player_id": "7588",
+        "name": "Javonte Williams",
+        "position": "RB",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -244,13 +251,6 @@
         "name": "Tyler Allgeier",
         "position": "RB",
         "team": "ARI",
-        "injury_status": null
-      },
-      {
-        "player_id": "9487",
-        "name": "Parker Washington",
-        "position": "WR",
-        "team": "JAX",
         "injury_status": null
       }
     ]
@@ -261,10 +261,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "11564",
-        "name": "Drake Maye",
+        "player_id": "7523",
+        "name": "Trevor Lawrence",
         "position": "QB",
-        "team": "NE",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -282,11 +282,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "8121",
-        "name": "Romeo Doubs",
+        "player_id": "9493",
+        "name": "Puka Nacua",
         "position": "WR",
-        "team": "NE",
-        "injury_status": null
+        "team": "LAR",
+        "injury_status": "Out"
       },
       {
         "player_id": "11632",
@@ -296,18 +296,18 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "7002",
-        "name": "Juwan Johnson",
+        "player_id": "11604",
+        "name": "Brock Bowers",
         "position": "TE",
-        "team": "NO",
-        "injury_status": null
+        "team": "LV",
+        "injury_status": "Out"
       },
       {
-        "player_id": "9493",
-        "name": "Puka Nacua",
+        "player_id": "8121",
+        "name": "Romeo Doubs",
         "position": "WR",
-        "team": "LAR",
-        "injury_status": "Out"
+        "team": "NE",
+        "injury_status": null
       },
       {
         "player_id": "11792",
@@ -326,18 +326,18 @@
     ],
     "bench": [
       {
+        "player_id": "11564",
+        "name": "Drake Maye",
+        "position": "QB",
+        "team": "NE",
+        "injury_status": null
+      },
+      {
         "player_id": "11576",
         "name": "Braelon Allen",
         "position": "RB",
         "team": "NYJ",
         "injury_status": null
-      },
-      {
-        "player_id": "11604",
-        "name": "Brock Bowers",
-        "position": "TE",
-        "team": "LV",
-        "injury_status": "Out"
       },
       {
         "player_id": "11631",
@@ -368,10 +368,10 @@
         "injury_status": null
       },
       {
-        "player_id": "7523",
-        "name": "Trevor Lawrence",
-        "position": "QB",
-        "team": "JAX",
+        "player_id": "7002",
+        "name": "Juwan Johnson",
+        "position": "TE",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -780,13 +780,6 @@
         "injury_status": null
       },
       {
-        "player_id": "8150",
-        "name": "Kyren Williams",
-        "position": "RB",
-        "team": "LAR",
-        "injury_status": null
-      },
-      {
         "player_id": "8151",
         "name": "Kenneth Walker",
         "position": "RB",
@@ -794,9 +787,9 @@
         "injury_status": null
       },
       {
-        "player_id": "2133",
-        "name": "Davante Adams",
-        "position": "WR",
+        "player_id": "8150",
+        "name": "Kyren Williams",
+        "position": "RB",
         "team": "LAR",
         "injury_status": null
       },
@@ -808,18 +801,25 @@
         "injury_status": null
       },
       {
-        "player_id": "12518",
-        "name": "Tyler Warren",
-        "position": "TE",
-        "team": "IND",
+        "player_id": "2133",
+        "name": "Davante Adams",
+        "position": "WR",
+        "team": "LAR",
         "injury_status": null
       },
       {
-        "player_id": "7543",
-        "name": "Travis Etienne",
-        "position": "RB",
-        "team": "NO",
+        "player_id": "4217",
+        "name": "George Kittle",
+        "position": "TE",
+        "team": "SF",
         "injury_status": null
+      },
+      {
+        "player_id": "7569",
+        "name": "Nico Collins",
+        "position": "WR",
+        "team": "HOU",
+        "injury_status": "Out"
       },
       {
         "player_id": "4227",
@@ -859,6 +859,13 @@
         "injury_status": null
       },
       {
+        "player_id": "12518",
+        "name": "Tyler Warren",
+        "position": "TE",
+        "team": "IND",
+        "injury_status": null
+      },
+      {
         "player_id": "13293",
         "name": "Ja'Kobi Lane",
         "position": "WR",
@@ -880,13 +887,6 @@
         "injury_status": null
       },
       {
-        "player_id": "4217",
-        "name": "George Kittle",
-        "position": "TE",
-        "team": "SF",
-        "injury_status": null
-      },
-      {
         "player_id": "5859",
         "name": "A.J. Brown",
         "position": "WR",
@@ -894,11 +894,11 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "7569",
-        "name": "Nico Collins",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": "Out"
+        "player_id": "7543",
+        "name": "Travis Etienne",
+        "position": "RB",
+        "team": "NO",
+        "injury_status": null
       }
     ]
   },
