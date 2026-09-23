@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:59:47.828844Z",
+  "generated_at": "2026-09-23T01:25:35.557653Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -103,9 +103,9 @@
         "8228",
         "5892",
         "9488",
-        "12514",
-        "12506",
         "8167",
+        "12506",
+        "12529",
         "11786",
         "MIN"
       ],
@@ -165,13 +165,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "TB",
+          "team": "GB",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12506",
@@ -183,13 +183,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 1
         },
         {
           "player_id": "11786",
@@ -229,13 +229,13 @@
           "draft_round": 16
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "3163",
@@ -312,15 +312,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
@@ -328,6 +319,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "5927",
@@ -3524,7 +3524,7 @@
     "player_count": 2843,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-22T22:59:47.828844Z",
-    "stale_after": "2026-09-22T23:59:47.828844Z"
+    "generated_at": "2026-09-23T01:25:35.557653Z",
+    "stale_after": "2026-09-23T02:25:35.557653Z"
   }
 }

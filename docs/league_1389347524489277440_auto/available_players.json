@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T22:59:46.134571Z",
-  "stale_after": "2026-09-22T23:59:46.134571Z",
+  "generated_at": "2026-09-23T01:25:32.382966Z",
+  "stale_after": "2026-09-23T02:25:32.382966Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-22T22:59:45.086692Z",
+    "snapshot_started_at": "2026-09-23T01:25:29.796128Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-22T22:59:45.151367Z"
+      "fetched_at": "2026-09-23T01:25:30.000519Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-22T22:59:45.336861Z"
+      "fetched_at": "2026-09-23T01:25:30.524291Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-22T22:59:45.465027Z"
+        "fetched_at": "2026-09-23T01:25:30.739650Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-22T22:59:45.543392Z"
+      "fetched_at": "2026-09-23T01:25:30.971411Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,12 +47,12 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 195,
+  "excluded_rostered_count": 194,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12228,
   "default_player_count": 2851,
-  "all_player_count": 4191,
+  "all_player_count": 4192,
   "player_count": 2851,
   "position_counts": {
     "CB": 1,

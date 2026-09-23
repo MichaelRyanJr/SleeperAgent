@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:59:46.134571Z",
+  "generated_at": "2026-09-23T01:25:32.382966Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1988,7 +1988,7 @@
         "12517",
         "13286",
         "11539",
-        "JAX"
+        "HOU"
       ],
       "players_current": [
         "10232",
@@ -1998,7 +1998,6 @@
         "12517",
         "13286",
         "13311",
-        "13417",
         "6797",
         "8132",
         "8138",
@@ -2082,13 +2081,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "JAX",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 16
+          "draft_round": 11
         }
       ],
       "bench": [
@@ -2119,15 +2118,6 @@
           "keeper": false
         },
         {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 9
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -2146,13 +2136,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "JAX",
+          "name": "Jacksonville",
           "position": "DEF",
-          "team": "HOU",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 16
         }
       ],
       "keepers": []
@@ -2816,7 +2806,7 @@
     "player_count": 2851,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-22T22:59:46.134571Z",
-    "stale_after": "2026-09-22T23:59:46.134571Z"
+    "generated_at": "2026-09-23T01:25:32.382966Z",
+    "stale_after": "2026-09-23T02:25:32.382966Z"
   }
 }
