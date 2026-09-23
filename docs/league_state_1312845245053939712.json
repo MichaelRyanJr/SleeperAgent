@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:52:37.096101Z",
+  "generated_at": "2026-09-23T22:37:18.920072Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -2749,9 +2749,9 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6797",
+        "5849",
         "6813",
-        "6806",
+        "12474",
         "8144",
         "5045",
         "9484",
@@ -2780,13 +2780,13 @@
       ],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "LAC",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "6813",
@@ -2798,13 +2798,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "DEN",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "8144",
@@ -2871,15 +2871,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "12492",
           "name": "Pat Bryant",
           "position": "WR",
@@ -2905,13 +2896,22 @@
           "keeper": false
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "6797",
+          "name": "Justin Herbert",
           "position": "QB",
-          "team": "MIN",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "8131",
@@ -2933,15 +2933,6 @@
       ],
       "keepers": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "6813",
           "name": "Jonathan Taylor",
           "position": "RB",
@@ -2949,15 +2940,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
         },
         {
           "player_id": "8144",
@@ -2985,6 +2967,24 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         }
       ]
     },
@@ -3512,7 +3512,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-23T19:52:37.096101Z",
-    "stale_after": "2026-09-23T20:52:37.096101Z"
+    "generated_at": "2026-09-23T22:37:18.920072Z",
+    "stale_after": "2026-09-23T23:37:18.920072Z"
   }
 }

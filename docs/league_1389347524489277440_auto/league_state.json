@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:52:34.290887Z",
+  "generated_at": "2026-09-23T22:37:15.825383Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -989,22 +989,21 @@
       },
       "starters_current": [
         "8161",
-        "12490",
-        "12489",
+        "7021",
+        "5967",
         "7564",
         "2133",
         "1466",
         "11646",
-        "13545",
-        "TB"
+        "12185",
+        "NO"
       ],
       "players_current": [
         "11646",
+        "12185",
         "12489",
         "12490",
         "12501",
-        "13305",
-        "13545",
         "1466",
         "2133",
         "4037",
@@ -1015,7 +1014,7 @@
         "7564",
         "7571",
         "8161",
-        "TB"
+        "NO"
       ],
       "starters": [
         {
@@ -1028,22 +1027,22 @@
           "draft_round": 14
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
+          "team": "PIT",
           "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 7
+        },
+        {
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "7564",
@@ -1082,23 +1081,41 @@
           "draft_round": 11
         },
         {
-          "player_id": "13545",
-          "name": "Trey Smack",
+          "player_id": "12185",
+          "name": "Spencer Shrader",
           "position": "K",
-          "team": "GB",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "TB",
-          "name": "Tampa Bay",
+          "player_id": "NO",
+          "name": "New Orleans",
           "position": "DEF",
-          "team": "TB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
         {
           "player_id": "12501",
           "name": "Matthew Golden",
@@ -1107,15 +1124,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "13305",
-          "name": "Mike Washington",
-          "position": "RB",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         },
         {
           "player_id": "4037",
@@ -1136,15 +1144,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "6770",
           "name": "Joe Burrow",
           "position": "QB",
@@ -1152,15 +1151,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 7
         },
         {
           "player_id": "7571",
@@ -1391,13 +1381,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "421",
+        "12545",
         "9226",
         "6790",
         "7547",
         "12514",
         "8131",
-        "7543",
+        "4199",
         "7839",
         "SF"
       ],
@@ -1406,8 +1396,8 @@
         "11628",
         "12469",
         "12514",
-        "3214",
-        "3257",
+        "12545",
+        "2505",
         "4199",
         "421",
         "6790",
@@ -1421,13 +1411,12 @@
       ],
       "starters": [
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
+          "player_id": "12545",
+          "name": "Tyler Shough",
           "position": "QB",
-          "team": "LAR",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         },
         {
           "player_id": "9226",
@@ -1475,13 +1464,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "NO",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 10
         },
         {
           "player_id": "7839",
@@ -1530,30 +1519,30 @@
           "draft_round": 13
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 10
+          "draft_round": 9
+        },
+        {
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "8188",
@@ -1978,44 +1967,43 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6797",
+        "9228",
         "8138",
         "8151",
         "11635",
         "9487",
-        "12517",
+        "5001",
         "13286",
-        "11539",
+        "0",
         "HOU"
       ],
       "players_current": [
+        "10218",
         "10232",
-        "11539",
         "11635",
         "12508",
         "12517",
         "13286",
-        "13311",
         "13346",
+        "5001",
         "6797",
+        "6828",
         "8132",
         "8138",
         "8151",
         "9225",
         "9228",
         "9487",
-        "HOU",
-        "JAX"
+        "HOU"
       ],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "LAC",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         },
         {
           "player_id": "8138",
@@ -2054,13 +2042,12 @@
           "draft_round": 6
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "5001",
+          "name": "Dalton Schultz",
           "position": "TE",
-          "team": "CHI",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
+          "keeper": false
         },
         {
           "player_id": "13286",
@@ -2070,15 +2057,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "11539",
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
         },
         {
           "player_id": "HOU",
@@ -2091,6 +2069,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "10232",
           "name": "Michael Wilson",
@@ -2110,18 +2096,36 @@
           "draft_round": 10
         },
         {
-          "player_id": "13311",
-          "name": "Chris Bell",
-          "position": "WR",
-          "team": "MIA",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "13346",
           "name": "Denzel Boston",
           "position": "WR",
           "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
+          "player_id": "6828",
+          "name": "AJ Dillon",
+          "position": "RB",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -2142,23 +2146,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "JAX",
-          "name": "Jacksonville",
-          "position": "DEF",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "keepers": []
@@ -2188,8 +2175,8 @@
         "12512",
         "9488",
         "10229",
-        "5012",
-        "8228",
+        "4217",
+        "2078",
         "3451",
         "PHI"
       ],
@@ -2258,22 +2245,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "4217",
+          "name": "George Kittle",
           "position": "TE",
-          "team": "BAL",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 7
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
+          "player_id": "2078",
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 16
         },
         {
           "player_id": "3451",
@@ -2305,22 +2292,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "2078",
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
-        },
-        {
-          "player_id": "4217",
-          "name": "George Kittle",
+          "player_id": "5012",
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": "SF",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 11
         },
         {
           "player_id": "5045",
@@ -2348,6 +2326,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "9754",
@@ -2819,10 +2806,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2848,
+    "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-23T19:52:34.290887Z",
-    "stale_after": "2026-09-23T20:52:34.290887Z"
+    "generated_at": "2026-09-23T22:37:15.825383Z",
+    "stale_after": "2026-09-23T23:37:15.825383Z"
   }
 }

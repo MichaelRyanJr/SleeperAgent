@@ -375,10 +375,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "6797",
-        "name": "Justin Herbert",
+        "player_id": "9228",
+        "name": "Bryce Young",
         "position": "QB",
-        "team": "LAC",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -410,10 +410,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12517",
-        "name": "Colston Loveland",
+        "player_id": "5001",
+        "name": "Dalton Schultz",
         "position": "TE",
-        "team": "CHI",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -424,13 +424,6 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "11539",
-        "name": "Jake Bates",
-        "position": "K",
-        "team": "DET",
-        "injury_status": null
-      },
-      {
         "player_id": "HOU",
         "name": "Houston",
         "position": "DEF",
@@ -439,6 +432,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "10218",
+        "name": "Xavier Hutchinson",
+        "position": "WR",
+        "team": "HOU",
+        "injury_status": null
+      },
       {
         "player_id": "10232",
         "name": "Michael Wilson",
@@ -454,10 +454,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "13311",
-        "name": "Chris Bell",
-        "position": "WR",
-        "team": "MIA",
+        "player_id": "12517",
+        "name": "Colston Loveland",
+        "position": "TE",
+        "team": "CHI",
         "injury_status": null
       },
       {
@@ -465,6 +465,20 @@
         "name": "Denzel Boston",
         "position": "WR",
         "team": "CLE",
+        "injury_status": null
+      },
+      {
+        "player_id": "6797",
+        "name": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
+        "injury_status": null
+      },
+      {
+        "player_id": "6828",
+        "name": "AJ Dillon",
+        "position": "RB",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -479,20 +493,6 @@
         "name": "Tank Bigsby",
         "position": "RB",
         "team": "PHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "9228",
-        "name": "Bryce Young",
-        "position": "QB",
-        "team": "CAR",
-        "injury_status": null
-      },
-      {
-        "player_id": "JAX",
-        "name": "Jacksonville",
-        "position": "DEF",
-        "team": "JAX",
         "injury_status": null
       }
     ]
@@ -759,17 +759,17 @@
         "injury_status": null
       },
       {
-        "player_id": "12490",
-        "name": "Bhayshul Tuten",
+        "player_id": "7021",
+        "name": "Rico Dowdle",
         "position": "RB",
-        "team": "JAX",
-        "injury_status": null
+        "team": "PIT",
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "12489",
-        "name": "RJ Harvey",
+        "player_id": "5967",
+        "name": "Tony Pollard",
         "position": "RB",
-        "team": "DEN",
+        "team": "TEN",
         "injury_status": "Questionable"
       },
       {
@@ -801,33 +801,40 @@
         "injury_status": null
       },
       {
-        "player_id": "13545",
-        "name": "Trey Smack",
+        "player_id": "12185",
+        "name": "Spencer Shrader",
         "position": "K",
-        "team": "GB",
+        "team": "IND",
         "injury_status": null
       },
       {
-        "player_id": "TB",
-        "name": "Tampa Bay",
+        "player_id": "NO",
+        "name": "New Orleans",
         "position": "DEF",
-        "team": "TB",
+        "team": "NO",
         "injury_status": null
       }
     ],
     "bench": [
       {
+        "player_id": "12489",
+        "name": "RJ Harvey",
+        "position": "RB",
+        "team": "DEN",
+        "injury_status": "Questionable"
+      },
+      {
+        "player_id": "12490",
+        "name": "Bhayshul Tuten",
+        "position": "RB",
+        "team": "JAX",
+        "injury_status": null
+      },
+      {
         "player_id": "12501",
         "name": "Matthew Golden",
         "position": "WR",
         "team": "GB",
-        "injury_status": null
-      },
-      {
-        "player_id": "13305",
-        "name": "Mike Washington",
-        "position": "RB",
-        "team": "LV",
         "injury_status": null
       },
       {
@@ -845,25 +852,11 @@
         "injury_status": "Doubtful"
       },
       {
-        "player_id": "5967",
-        "name": "Tony Pollard",
-        "position": "RB",
-        "team": "TEN",
-        "injury_status": "Questionable"
-      },
-      {
         "player_id": "6770",
         "name": "Joe Burrow",
         "position": "QB",
         "team": "CIN",
         "injury_status": null
-      },
-      {
-        "player_id": "7021",
-        "name": "Rico Dowdle",
-        "position": "RB",
-        "team": "PIT",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "7571",
@@ -915,17 +908,17 @@
         "injury_status": null
       },
       {
-        "player_id": "5012",
-        "name": "Mark Andrews",
+        "player_id": "4217",
+        "name": "George Kittle",
         "position": "TE",
-        "team": "BAL",
+        "team": "SF",
         "injury_status": null
       },
       {
-        "player_id": "8228",
-        "name": "Jaylen Warren",
-        "position": "RB",
-        "team": "PIT",
+        "player_id": "2078",
+        "name": "Odell Beckham",
+        "position": "WR",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -952,17 +945,10 @@
         "injury_status": null
       },
       {
-        "player_id": "2078",
-        "name": "Odell Beckham",
-        "position": "WR",
-        "team": "NYG",
-        "injury_status": null
-      },
-      {
-        "player_id": "4217",
-        "name": "George Kittle",
+        "player_id": "5012",
+        "name": "Mark Andrews",
         "position": "TE",
-        "team": "SF",
+        "team": "BAL",
         "injury_status": null
       },
       {
@@ -984,6 +970,13 @@
         "name": "Khalil Shakir",
         "position": "WR",
         "team": "BUF",
+        "injury_status": null
+      },
+      {
+        "player_id": "8228",
+        "name": "Jaylen Warren",
+        "position": "RB",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -1243,10 +1236,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "421",
-        "name": "Matthew Stafford",
+        "player_id": "12545",
+        "name": "Tyler Shough",
         "position": "QB",
-        "team": "LAR",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -1329,17 +1322,17 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "3214",
-        "name": "Hunter Henry",
+        "player_id": "2505",
+        "name": "Darren Waller",
         "position": "TE",
-        "team": "NE",
+        "team": "CAR",
         "injury_status": null
       },
       {
-        "player_id": "3257",
-        "name": "Jacoby Brissett",
+        "player_id": "421",
+        "name": "Matthew Stafford",
         "position": "QB",
-        "team": "ARI",
+        "team": "LAR",
         "injury_status": null
       },
       {
