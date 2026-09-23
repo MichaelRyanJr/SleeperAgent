@@ -282,11 +282,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "9493",
-        "name": "Puka Nacua",
+        "player_id": "8121",
+        "name": "Romeo Doubs",
         "position": "WR",
-        "team": "LAR",
-        "injury_status": "Out"
+        "team": "NE",
+        "injury_status": null
       },
       {
         "player_id": "11632",
@@ -300,13 +300,13 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "8121",
-        "name": "Romeo Doubs",
-        "position": "WR",
-        "team": "NE",
+        "player_id": "7002",
+        "name": "Juwan Johnson",
+        "position": "TE",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -368,18 +368,18 @@
         "injury_status": null
       },
       {
-        "player_id": "7002",
-        "name": "Juwan Johnson",
-        "position": "TE",
-        "team": "NO",
-        "injury_status": null
-      },
-      {
         "player_id": "8408",
         "name": "Jordan Mason",
         "position": "RB",
         "team": "MIN",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "9493",
+        "name": "Puka Nacua",
+        "position": "WR",
+        "team": "LAR",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9753",
@@ -414,7 +414,7 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7547",
@@ -468,6 +468,13 @@
         "injury_status": null
       },
       {
+        "player_id": "11625",
+        "name": "Adonai Mitchell",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": null
+      },
+      {
         "player_id": "13269",
         "name": "Fernando Mendoza",
         "position": "QB",
@@ -501,13 +508,6 @@
         "position": "RB",
         "team": "GB",
         "injury_status": "NA"
-      },
-      {
-        "player_id": "6819",
-        "name": "Michael Pittman",
-        "position": "WR",
-        "team": "PIT",
-        "injury_status": "Out"
       }
     ]
   },
@@ -535,7 +535,7 @@
         "name": "Tony Pollard",
         "position": "RB",
         "team": "TEN",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "6786",
@@ -670,7 +670,7 @@
         "name": "DJ Moore",
         "position": "WR",
         "team": "BUF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2216",
@@ -819,7 +819,7 @@
         "name": "Nico Collins",
         "position": "WR",
         "team": "HOU",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4227",
@@ -984,7 +984,7 @@
         "name": "Caleb Williams",
         "position": "QB",
         "team": "CHI",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "11628",
@@ -998,7 +998,7 @@
         "name": "RJ Harvey",
         "position": "RB",
         "team": "DEN",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "13276",
@@ -1026,7 +1026,7 @@
         "name": "Brian Robinson",
         "position": "RB",
         "team": "ATL",
-        "injury_status": "Questionable"
+        "injury_status": null
       }
     ]
   },
@@ -1203,7 +1203,7 @@
         "name": "Aaron Jones",
         "position": "RB",
         "team": "MIN",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7839",
@@ -1226,7 +1226,7 @@
         "name": "Jayden Reed",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "11610",
@@ -1289,7 +1289,7 @@
         "name": "Jayden Daniels",
         "position": "QB",
         "team": "WAS",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "8138",
@@ -1324,7 +1324,7 @@
         "name": "Dallas Goedert",
         "position": "TE",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "7594",
@@ -1403,7 +1403,7 @@
         "name": "Zay Flowers",
         "position": "WR",
         "team": "BAL",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -1482,7 +1482,7 @@
         "name": "Jonathon Brooks",
         "position": "RB",
         "team": "CAR",
-        "injury_status": "Questionable"
+        "injury_status": "IR"
       },
       {
         "player_id": "12474",
@@ -1517,13 +1517,20 @@
         "name": "Kyler Murray",
         "position": "QB",
         "team": "MIN",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "8131",
         "name": "Isaiah Likely",
         "position": "TE",
         "team": "NYG",
+        "injury_status": null
+      },
+      {
+        "player_id": "9225",
+        "name": "Tank Bigsby",
+        "position": "RB",
+        "team": "PHI",
         "injury_status": null
       }
     ]

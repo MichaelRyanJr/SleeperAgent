@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:59:05.207223Z",
+  "generated_at": "2026-09-23T16:46:08.909624Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -363,10 +363,10 @@
         "7523",
         "12490",
         "13286",
-        "9493",
+        "8121",
         "11632",
         "11604",
-        "8121",
+        "7002",
         "11792",
         "LAR"
       ],
@@ -419,13 +419,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 14
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "11632",
@@ -441,18 +441,18 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 16
         },
         {
           "player_id": "11792",
@@ -528,15 +528,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
-        },
-        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -544,6 +535,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "9753",
@@ -566,15 +566,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -588,7 +579,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -618,6 +609,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -975,7 +975,7 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -1281,7 +1281,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1418,7 +1418,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1737,6 +1737,7 @@
         "10236",
         "11533",
         "11563",
+        "11625",
         "12501",
         "13269",
         "3294",
@@ -1745,7 +1746,6 @@
         "5012",
         "5846",
         "5850",
-        "6819",
         "7021",
         "7547",
         "9221",
@@ -1775,7 +1775,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1844,6 +1844,14 @@
           "draft_round": 15
         },
         {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13269",
           "name": "Fernando Mendoza",
           "position": "QB",
@@ -1885,15 +1893,6 @@
           "injury_status": "NA",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 8
         }
       ],
       "keepers": [
@@ -1920,7 +1919,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1950,15 +1949,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 8
         }
       ]
     },
@@ -2017,7 +2007,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -2062,7 +2052,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 6
         },
@@ -2162,7 +2152,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         }
@@ -2173,7 +2163,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -2227,7 +2217,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         }
@@ -2288,7 +2278,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -2397,7 +2387,7 @@
           "name": "RJ Harvey",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -2432,7 +2422,7 @@
           "name": "Brian Robinson",
           "position": "RB",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 16
         }
@@ -2443,7 +2433,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -2612,7 +2602,7 @@
           "name": "Aaron Jones",
           "position": "RB",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 8
         },
@@ -2641,7 +2631,7 @@
           "name": "Jayden Reed",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 5
         },
@@ -2783,6 +2773,7 @@
         "6813",
         "8131",
         "8144",
+        "9225",
         "9484",
         "9500",
         "LAC"
@@ -2875,7 +2866,7 @@
           "name": "Jonathon Brooks",
           "position": "RB",
           "team": "CAR",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
         },
@@ -2918,7 +2909,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
@@ -2930,6 +2921,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "9225",
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -3071,7 +3070,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -3510,10 +3509,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2843,
+    "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-23T11:59:05.207223Z",
-    "stale_after": "2026-09-23T12:59:05.207223Z"
+    "generated_at": "2026-09-23T16:46:08.909624Z",
+    "stale_after": "2026-09-23T17:46:08.909624Z"
   }
 }
