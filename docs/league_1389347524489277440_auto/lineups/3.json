@@ -47,10 +47,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13279",
-        "name": "Carnell Tate",
+        "player_id": "10213",
+        "name": "Tre Tucker",
         "position": "WR",
-        "team": "TEN",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -70,13 +70,6 @@
     ],
     "bench": [
       {
-        "player_id": "10213",
-        "name": "Tre Tucker",
-        "position": "WR",
-        "team": "LV",
-        "injury_status": null
-      },
-      {
         "player_id": "11603",
         "name": "AJ Barner",
         "position": "TE",
@@ -84,10 +77,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12530",
-        "name": "Travis Hunter",
-        "position": "DB",
-        "team": "JAX",
+        "player_id": "11625",
+        "name": "Adonai Mitchell",
+        "position": "WR",
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -95,6 +88,13 @@
         "name": "Kyle Monangai",
         "position": "RB",
         "team": "CHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "13279",
+        "name": "Carnell Tate",
+        "position": "WR",
+        "team": "TEN",
         "injury_status": null
       },
       {
@@ -326,6 +326,13 @@
         "injury_status": null
       },
       {
+        "player_id": "2307",
+        "name": "Marcus Mariota",
+        "position": "QB",
+        "team": "WAS",
+        "injury_status": null
+      },
+      {
         "player_id": "5872",
         "name": "Deebo Samuel",
         "position": "WR",
@@ -338,13 +345,6 @@
         "position": "RB",
         "team": "DEN",
         "injury_status": "Questionable"
-      },
-      {
-        "player_id": "7090",
-        "name": "Darnell Mooney",
-        "position": "WR",
-        "team": "NYG",
-        "injury_status": null
       },
       {
         "player_id": "8121",
@@ -461,6 +461,13 @@
         "injury_status": null
       },
       {
+        "player_id": "13346",
+        "name": "Denzel Boston",
+        "position": "WR",
+        "team": "CLE",
+        "injury_status": null
+      },
+      {
         "player_id": "8132",
         "name": "Tyler Allgeier",
         "position": "RB",
@@ -472,6 +479,13 @@
         "name": "Tank Bigsby",
         "position": "RB",
         "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "9228",
+        "name": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -615,41 +629,12 @@
     "roster_id": 12,
     "opponent_roster_id": 3,
     "points": 0.0,
-    "starters": [],
-    "bench": [
+    "starters": [
       {
-        "player_id": "10236",
-        "name": "Dalton Kincaid",
-        "position": "TE",
-        "team": "BUF",
-        "injury_status": null
-      },
-      {
-        "player_id": "11563",
-        "name": "Bo Nix",
+        "player_id": "6904",
+        "name": "Jalen Hurts",
         "position": "QB",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "12015",
-        "name": "Harrison Mevis",
-        "position": "K",
-        "team": "LAR",
-        "injury_status": null
-      },
-      {
-        "player_id": "2449",
-        "name": "Stefon Diggs",
-        "position": "WR",
-        "team": "WAS",
-        "injury_status": null
-      },
-      {
-        "player_id": "3198",
-        "name": "Derrick Henry",
-        "position": "RB",
-        "team": "BAL",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -660,10 +645,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
-        "position": "QB",
-        "team": "PHI",
+        "player_id": "3198",
+        "name": "Derrick Henry",
+        "position": "RB",
+        "team": "BAL",
         "injury_status": null
       },
       {
@@ -674,6 +659,20 @@
         "injury_status": null
       },
       {
+        "player_id": "8148",
+        "name": "Jameson Williams",
+        "position": "WR",
+        "team": "DET",
+        "injury_status": null
+      },
+      {
+        "player_id": "10236",
+        "name": "Dalton Kincaid",
+        "position": "TE",
+        "team": "BUF",
+        "injury_status": null
+      },
+      {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
@@ -681,17 +680,40 @@
         "injury_status": null
       },
       {
-        "player_id": "8136",
-        "name": "Rachaad White",
-        "position": "RB",
+        "player_id": "12015",
+        "name": "Harrison Mevis",
+        "position": "K",
+        "team": "LAR",
+        "injury_status": null
+      },
+      {
+        "player_id": "DEN",
+        "name": "Denver",
+        "position": "DEF",
+        "team": "DEN",
+        "injury_status": null
+      }
+    ],
+    "bench": [
+      {
+        "player_id": "11563",
+        "name": "Bo Nix",
+        "position": "QB",
+        "team": "DEN",
+        "injury_status": null
+      },
+      {
+        "player_id": "2449",
+        "name": "Stefon Diggs",
+        "position": "WR",
         "team": "WAS",
         "injury_status": null
       },
       {
-        "player_id": "8148",
-        "name": "Jameson Williams",
-        "position": "WR",
-        "team": "DET",
+        "player_id": "8136",
+        "name": "Rachaad White",
+        "position": "RB",
+        "team": "WAS",
         "injury_status": null
       },
       {
@@ -720,13 +742,6 @@
         "name": "Jordan Addison",
         "position": "WR",
         "team": "MIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "DEN",
-        "name": "Denver",
-        "position": "DEF",
-        "team": "DEN",
         "injury_status": null
       }
     ]
@@ -984,57 +999,7 @@
     "roster_id": 6,
     "opponent_roster_id": 9,
     "points": 0.0,
-    "starters": [],
-    "bench": [
-      {
-        "player_id": "11584",
-        "name": "Bucky Irving",
-        "position": "RB",
-        "team": "TB",
-        "injury_status": null
-      },
-      {
-        "player_id": "11586",
-        "name": "Blake Corum",
-        "position": "RB",
-        "team": "LAR",
-        "injury_status": null
-      },
-      {
-        "player_id": "11624",
-        "name": "Xavier Worthy",
-        "position": "WR",
-        "team": "KC",
-        "injury_status": null
-      },
-      {
-        "player_id": "12506",
-        "name": "Harold Fannin",
-        "position": "TE",
-        "team": "CLE",
-        "injury_status": null
-      },
-      {
-        "player_id": "2216",
-        "name": "Mike Evans",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": "Questionable"
-      },
-      {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
-        "position": "RB",
-        "team": "NO",
-        "injury_status": null
-      },
-      {
-        "player_id": "4227",
-        "name": "Harrison Butker",
-        "position": "K",
-        "team": "KC",
-        "injury_status": null
-      },
+    "starters": [
       {
         "player_id": "4984",
         "name": "Josh Allen",
@@ -1043,17 +1008,17 @@
         "injury_status": null
       },
       {
-        "player_id": "5849",
-        "name": "Kyler Murray",
-        "position": "QB",
-        "team": "MIN",
-        "injury_status": "Out"
+        "player_id": "9221",
+        "name": "Jahmyr Gibbs",
+        "position": "RB",
+        "team": "DET",
+        "injury_status": null
       },
       {
-        "player_id": "5947",
-        "name": "Jakobi Meyers",
-        "position": "WR",
-        "team": "JAX",
+        "player_id": "11584",
+        "name": "Bucky Irving",
+        "position": "RB",
+        "team": "TB",
         "injury_status": null
       },
       {
@@ -1071,10 +1036,68 @@
         "injury_status": null
       },
       {
-        "player_id": "9221",
-        "name": "Jahmyr Gibbs",
+        "player_id": "12506",
+        "name": "Harold Fannin",
+        "position": "TE",
+        "team": "CLE",
+        "injury_status": null
+      },
+      {
+        "player_id": "2216",
+        "name": "Mike Evans",
+        "position": "WR",
+        "team": "SF",
+        "injury_status": "Questionable"
+      },
+      {
+        "player_id": "4227",
+        "name": "Harrison Butker",
+        "position": "K",
+        "team": "KC",
+        "injury_status": null
+      },
+      {
+        "player_id": "BAL",
+        "name": "Baltimore",
+        "position": "DEF",
+        "team": "BAL",
+        "injury_status": null
+      }
+    ],
+    "bench": [
+      {
+        "player_id": "11586",
+        "name": "Blake Corum",
         "position": "RB",
-        "team": "DET",
+        "team": "LAR",
+        "injury_status": null
+      },
+      {
+        "player_id": "11624",
+        "name": "Xavier Worthy",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": null
+      },
+      {
+        "player_id": "4035",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "injury_status": null
+      },
+      {
+        "player_id": "5849",
+        "name": "Kyler Murray",
+        "position": "QB",
+        "team": "MIN",
+        "injury_status": "Out"
+      },
+      {
+        "player_id": "5947",
+        "name": "Jakobi Meyers",
+        "position": "WR",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -1089,13 +1112,6 @@
         "name": "Tyjae Spears",
         "position": "RB",
         "team": "TEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "BAL",
-        "name": "Baltimore",
-        "position": "DEF",
-        "team": "BAL",
         "injury_status": null
       }
     ]
@@ -1313,13 +1329,6 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "13276",
-        "name": "Omar Cooper",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "IR"
-      },
-      {
         "player_id": "3214",
         "name": "Hunter Henry",
         "position": "TE",
@@ -1338,6 +1347,13 @@
         "name": "Travis Etienne",
         "position": "RB",
         "team": "NO",
+        "injury_status": null
+      },
+      {
+        "player_id": "8188",
+        "name": "Tyquan Thornton",
+        "position": "WR",
+        "team": "KC",
         "injury_status": null
       }
     ]

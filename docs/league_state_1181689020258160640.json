@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:25:35.876486Z",
+  "generated_at": "2026-09-23T11:59:05.207223Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -356,7 +356,7 @@
       "points_for": 178.82,
       "points_against": 193.94,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -637,7 +637,7 @@
       "points_for": 282.32,
       "points_against": 293.92,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -919,11 +919,11 @@
       "points_for": 173.8,
       "points_against": 302.52,
       "waiver": {
-        "position": 11,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
-        "12508",
+        "9228",
         "9226",
         "5967",
         "6786",
@@ -944,23 +944,22 @@
         "5967",
         "6786",
         "6801",
+        "7600",
         "8134",
         "9226",
+        "9228",
         "9502",
         "9508",
-        "DET",
-        "SF",
-        "TB"
+        "SF"
       ],
       "starters": [
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "NYG",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 14
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9226",
@@ -1054,6 +1053,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1061,6 +1069,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8134",
@@ -1087,34 +1103,9 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "DET",
-          "name": "Detroit",
-          "position": "DEF",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "TB",
-          "name": "Tampa Bay",
-          "position": "DEF",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
-        {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 14
-        },
         {
           "player_id": "9226",
           "name": "De'Von Achane",
@@ -1161,6 +1152,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1187,7 +1187,7 @@
       "points_for": 306.96,
       "points_against": 291.96,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -1467,7 +1467,7 @@
       "points_for": 264.68,
       "points_against": 248.26,
       "waiver": {
-        "position": 6,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -1719,7 +1719,7 @@
       "points_for": 280.16,
       "points_against": 199.16,
       "waiver": {
-        "position": 2,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1741,6 +1741,7 @@
         "13269",
         "3294",
         "3321",
+        "4035",
         "5012",
         "5846",
         "5850",
@@ -1748,7 +1749,6 @@
         "7021",
         "7547",
         "9221",
-        "HOU",
         "KC"
       ],
       "starters": [
@@ -1861,6 +1861,14 @@
           "keeper": false
         },
         {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -1886,15 +1894,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 8
-        },
-        {
-          "player_id": "HOU",
-          "name": "Houston",
-          "position": "DEF",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
         }
       ],
       "keepers": [
@@ -1979,7 +1978,7 @@
       "points_for": 237.44,
       "points_against": 229.14,
       "waiver": {
-        "position": 4,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -2250,7 +2249,7 @@
       "points_for": 248.68,
       "points_against": 275.56,
       "waiver": {
-        "position": 10,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2266,7 +2265,7 @@
       ],
       "players_current": [
         "10232",
-        "11370",
+        "11435",
         "11560",
         "11628",
         "12489",
@@ -2377,10 +2376,10 @@
           "draft_round": 13
         },
         {
-          "player_id": "11370",
-          "name": "Chris Brooks",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "GB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
@@ -2520,7 +2519,7 @@
       "points_for": 158.14,
       "points_against": 206.74,
       "waiver": {
-        "position": 5,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -2756,7 +2755,7 @@
       "points_for": 206.94,
       "points_against": 201.02,
       "waiver": {
-        "position": 12,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -3006,7 +3005,7 @@
       "points_for": 291.46,
       "points_against": 297.38,
       "waiver": {
-        "position": 9,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -3032,10 +3031,10 @@
         "4046",
         "4983",
         "6804",
-        "7567",
         "8136",
         "8155",
         "8205",
+        "9486",
         "9754",
         "DEN"
       ],
@@ -3159,15 +3158,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 11
-        },
-        {
           "player_id": "8136",
           "name": "Rachaad White",
           "position": "RB",
@@ -3184,6 +3174,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9754",
@@ -3240,15 +3238,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 11
         },
         {
           "player_id": "8136",
@@ -3524,7 +3513,7 @@
     "player_count": 2843,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-23T06:25:35.876486Z",
-    "stale_after": "2026-09-23T07:25:35.876486Z"
+    "generated_at": "2026-09-23T11:59:05.207223Z",
+    "stale_after": "2026-09-23T12:59:05.207223Z"
   }
 }

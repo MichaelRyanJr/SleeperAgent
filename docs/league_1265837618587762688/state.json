@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:25:34.313327Z",
+  "generated_at": "2026-09-23T11:59:03.095821Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 194.26,
       "points_against": 209.98,
       "waiver": {
-        "position": 9,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -188,17 +188,17 @@
         "6794",
         "12526",
         "8130",
-        "13279",
+        "10213",
         "8259",
         "LAR"
       ],
       "players_current": [
         "10213",
         "11603",
+        "11625",
         "12481",
         "12507",
         "12526",
-        "12530",
         "12534",
         "13279",
         "13294",
@@ -266,13 +266,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "TEN",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         },
         {
           "player_id": "8259",
@@ -295,14 +294,6 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -312,13 +303,12 @@
           "draft_round": 16
         },
         {
-          "player_id": "12530",
-          "name": "Travis Hunter",
-          "position": "DB",
-          "team": "JAX",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
           "player_id": "12534",
@@ -328,6 +318,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "13294",
@@ -375,7 +374,7 @@
       "points_for": 204.22,
       "points_against": 250.18,
       "waiver": {
-        "position": 4,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -393,11 +392,11 @@
         "11631",
         "11786",
         "13330",
+        "2307",
         "3163",
         "5872",
         "5892",
         "6806",
-        "7090",
         "7526",
         "7594",
         "8121",
@@ -501,6 +500,14 @@
           "draft_round": 7
         },
         {
+          "player_id": "2307",
+          "name": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5872",
           "name": "Deebo Samuel",
           "position": "WR",
@@ -517,14 +524,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8121",
@@ -572,7 +571,7 @@
       "points_for": 192.96,
       "points_against": 187.9,
       "waiver": {
-        "position": 10,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -778,7 +777,7 @@
       "points_for": 201.1,
       "points_against": 235.52,
       "waiver": {
-        "position": 7,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -985,7 +984,7 @@
       "points_for": 229.14,
       "points_against": 258.22,
       "waiver": {
-        "position": 6,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -1190,7 +1189,7 @@
       "points_for": 290.68,
       "points_against": 227.72,
       "waiver": {
-        "position": 8,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -1407,7 +1406,6 @@
         "11628",
         "12469",
         "12514",
-        "13276",
         "3214",
         "3257",
         "4199",
@@ -1417,6 +1415,7 @@
         "7547",
         "7839",
         "8131",
+        "8188",
         "9226",
         "SF"
       ],
@@ -1531,15 +1530,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "13276",
-          "name": "Omar Cooper",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 14
-        },
-        {
           "player_id": "3214",
           "name": "Hunter Henry",
           "position": "TE",
@@ -1564,6 +1554,14 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "8188",
+          "name": "Tyquan Thornton",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1584,7 +1582,7 @@
       "points_for": 211.76,
       "points_against": 172.76,
       "waiver": {
-        "position": 12,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1779,7 +1777,7 @@
       "points_for": 141.78,
       "points_against": 250.08,
       "waiver": {
-        "position": 5,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -1976,7 +1974,7 @@
       "points_for": 196.64,
       "points_against": 230.62,
       "waiver": {
-        "position": 1,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1998,11 +1996,13 @@
         "12517",
         "13286",
         "13311",
+        "13346",
         "6797",
         "8132",
         "8138",
         "8151",
         "9225",
+        "9228",
         "9487",
         "HOU",
         "JAX"
@@ -2118,6 +2118,14 @@
           "keeper": false
         },
         {
+          "player_id": "13346",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -2134,6 +2142,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "JAX",
@@ -2163,7 +2179,7 @@
       "points_for": 206.84,
       "points_against": 189.58,
       "waiver": {
-        "position": 2,
+        "position": 1,
         "budget_used": 0
       },
       "starters_current": [
@@ -2361,7 +2377,7 @@
       "points_for": 247.58,
       "points_against": 183.3,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -2803,10 +2819,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2851,
+    "player_count": 2848,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-23T06:25:34.313327Z",
-    "stale_after": "2026-09-23T07:25:34.313327Z"
+    "generated_at": "2026-09-23T11:59:03.095821Z",
+    "stale_after": "2026-09-23T12:59:03.095821Z"
   }
 }
