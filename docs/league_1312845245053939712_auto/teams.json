@@ -32,7 +32,7 @@
         "name": "Jaylen Warren",
         "position": "RB",
         "team": "PIT",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 13
       },
@@ -112,15 +112,6 @@
         "draft_round": 10
       },
       {
-        "player_id": "9493",
-        "name": "Puka Nacua",
-        "position": "WR",
-        "team": "LAR",
-        "injury_status": "Questionable",
-        "keeper": true,
-        "draft_round": 14
-      },
-      {
         "player_id": "11632",
         "name": "Malik Nabers",
         "position": "WR",
@@ -161,9 +152,18 @@
         "name": "Kyle Monangai",
         "position": "RB",
         "team": "CHI",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 13
+      },
+      {
+        "player_id": "9493",
+        "name": "Puka Nacua",
+        "position": "WR",
+        "team": "LAR",
+        "injury_status": "Questionable",
+        "keeper": true,
+        "draft_round": 14
       }
     ]
   },
@@ -413,7 +413,7 @@
         "name": "Travis Etienne",
         "position": "RB",
         "team": "NO",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 5
       }
@@ -461,7 +461,7 @@
         "name": "Jalen Coker",
         "position": "WR",
         "team": "CAR",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 14
       },
@@ -488,7 +488,7 @@
         "name": "Jakobi Meyers",
         "position": "WR",
         "team": "JAX",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 7
       }
@@ -593,7 +593,7 @@
         "name": "Jayden Daniels",
         "position": "QB",
         "team": "WAS",
-        "injury_status": "Doubtful",
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 7
       },

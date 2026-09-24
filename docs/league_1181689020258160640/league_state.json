@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:29:07.692844Z",
+  "generated_at": "2026-09-24T19:27:58.619136Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -142,7 +142,7 @@
           "name": "Jaylen Warren",
           "position": "RB",
           "team": "PIT",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -289,7 +289,7 @@
           "name": "Jaylen Warren",
           "position": "RB",
           "team": "PIT",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -363,7 +363,7 @@
         "7523",
         "12490",
         "13286",
-        "9493",
+        "8121",
         "11632",
         "11604",
         "7002",
@@ -419,13 +419,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "11632",
@@ -506,7 +506,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -528,15 +528,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -544,6 +535,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "9753",
@@ -564,15 +564,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 10
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
         },
         {
           "player_id": "11632",
@@ -615,9 +606,18 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -769,7 +769,7 @@
           "name": "Terrance Ferguson",
           "position": "TE",
           "team": "LAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
@@ -1100,7 +1100,7 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         }
@@ -1380,7 +1380,7 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         }
@@ -1445,7 +1445,7 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         }
@@ -1541,7 +1541,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1615,7 +1615,7 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "team": "DEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
@@ -1641,7 +1641,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         }
@@ -1670,7 +1670,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1697,7 +1697,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         }
@@ -2007,7 +2007,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -2163,7 +2163,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -2602,7 +2602,7 @@
           "name": "Aaron Jones",
           "position": "RB",
           "team": "MIN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
@@ -2631,7 +2631,7 @@
           "name": "Jayden Reed",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 5
         },
@@ -3508,10 +3508,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2842,
+    "player_count": 2841,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-24T15:29:07.692844Z",
-    "stale_after": "2026-09-24T16:29:07.692844Z"
+    "generated_at": "2026-09-24T19:27:58.619136Z",
+    "stale_after": "2026-09-24T20:27:58.619136Z"
   }
 }
