@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:52:51.194905Z",
+  "generated_at": "2026-09-24T05:47:32.262189Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -576,12 +576,12 @@
       },
       "starters_current": [
         "3294",
-        "10219",
+        "11435",
         "7588",
         "6786",
-        "10222",
+        "11834",
         "10859",
-        "5927",
+        "5846",
         "2747",
         "SEA"
       ],
@@ -589,12 +589,12 @@
         "10219",
         "10222",
         "10859",
+        "11435",
         "11655",
         "11834",
         "13285",
         "13414",
         "2747",
-        "3286",
         "3294",
         "5844",
         "5846",
@@ -615,13 +615,12 @@
           "draft_round": 7
         },
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "JAX",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         },
         {
           "player_id": "7588",
@@ -642,13 +641,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "10222",
-          "name": "Jayden Reed",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
           "position": "WR",
-          "team": "GB",
-          "injury_status": "Doubtful",
-          "keeper": false,
-          "draft_round": 9
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "10859",
@@ -660,13 +658,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
+          "player_id": "5846",
+          "name": "DK Metcalf",
           "position": "WR",
-          "team": "WAS",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 8
         },
         {
           "player_id": "2747",
@@ -689,6 +687,24 @@
       ],
       "bench": [
         {
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": "Doubtful",
+          "keeper": false,
+          "draft_round": 9
+        },
+        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -696,14 +712,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "13285",
@@ -724,14 +732,6 @@
           "draft_round": 16
         },
         {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Doubtful",
-          "keeper": false
-        },
-        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -741,15 +741,6 @@
           "draft_round": 15
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "5859",
           "name": "A.J. Brown",
           "position": "WR",
@@ -757,6 +748,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         }
       ],
       "keepers": []
@@ -2809,7 +2809,7 @@
     "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-24T00:52:51.194905Z",
-    "stale_after": "2026-09-24T01:52:51.194905Z"
+    "generated_at": "2026-09-24T05:47:32.262189Z",
+    "stale_after": "2026-09-24T06:47:32.262189Z"
   }
 }

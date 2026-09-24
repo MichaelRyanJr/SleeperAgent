@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T00:52:53.077543Z",
-  "stale_after": "2026-09-24T01:52:53.077543Z",
+  "generated_at": "2026-09-24T05:47:34.072267Z",
+  "stale_after": "2026-09-24T06:47:34.072267Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-24T00:52:51.799035Z",
+    "snapshot_started_at": "2026-09-24T05:47:32.853548Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-24T00:52:51.887930Z"
+      "fetched_at": "2026-09-24T05:47:32.933251Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-24T00:52:52.110686Z"
+      "fetched_at": "2026-09-24T05:47:33.158847Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-24T00:52:52.183382Z"
+        "fetched_at": "2026-09-24T05:47:33.228142Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-24T00:52:52.303656Z"
+      "fetched_at": "2026-09-24T05:47:33.329649Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -308,32 +308,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "CIN",
-      "name": "Cincinnati Bengals",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "CIN",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "CLE",
       "name": "Cleveland Browns",
       "position": "DEF",
@@ -514,6 +488,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "LAC",
+      "name": "Los Angeles Chargers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "LAC",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "MIA",

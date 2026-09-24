@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:52:53.077543Z",
+  "generated_at": "2026-09-24T05:47:34.072267Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1725,7 +1725,7 @@
       "starters_current": [
         "3294",
         "9221",
-        "7021",
+        "4035",
         "7547",
         "5846",
         "10236",
@@ -1771,13 +1771,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7547",
@@ -1869,14 +1868,6 @@
           "keeper": false
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -1893,6 +1884,15 @@
           "injury_status": "NA",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ],
       "keepers": [
@@ -1913,15 +1913,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
         },
         {
           "player_id": "7547",
@@ -1949,6 +1940,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -2757,7 +2757,7 @@
         "9484",
         "9500",
         "12185",
-        "LAC"
+        "CIN"
       ],
       "players_current": [
         "11583",
@@ -2776,7 +2776,7 @@
         "9225",
         "9484",
         "9500",
-        "LAC"
+        "CIN"
       ],
       "starters": [
         {
@@ -2851,13 +2851,12 @@
           "keeper": false
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles",
+          "player_id": "CIN",
+          "name": "Cincinnati",
           "position": "DEF",
-          "team": "LAC",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         }
       ],
       "bench": [
@@ -3512,7 +3511,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-24T00:52:53.077543Z",
-    "stale_after": "2026-09-24T01:52:53.077543Z"
+    "generated_at": "2026-09-24T05:47:34.072267Z",
+    "stale_after": "2026-09-24T06:47:34.072267Z"
   }
 }

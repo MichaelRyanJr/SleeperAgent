@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:52:51.621390Z",
+  "generated_at": "2026-09-24T05:47:32.668928Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1008,6 +1008,33 @@
           "keeper_cost_round_is_provisional": true
         },
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1408666230709141504",
+          "acquisition_time": "2026-09-24T01:51:50.456000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -1139,33 +1166,6 @@
           "keeper_cost_source": "undrafted_base_rule",
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 14,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Doubtful",
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "waiver",
-          "acquisition_transaction_id": "1404965797746515968",
-          "acquisition_time": "2026-09-13T20:47:38.486000Z",
-          "acquisition_league_id": "1389347524489277440",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
           "base_keeper_cost_round": 14,
           "keeper_cost_round_is_provisional": true
         },
@@ -5483,5 +5483,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-24T00:52:51.668346Z"
+  "rules_updated_at": "2026-09-24T05:47:32.718447Z"
 }

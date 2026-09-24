@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T00:52:51.194905Z",
-  "stale_after": "2026-09-24T01:52:51.194905Z",
+  "generated_at": "2026-09-24T05:47:32.262189Z",
+  "stale_after": "2026-09-24T06:47:32.262189Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-24T00:52:49.844546Z",
+    "snapshot_started_at": "2026-09-24T05:47:31.073758Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-24T00:52:49.926428Z"
+      "fetched_at": "2026-09-24T05:47:31.160456Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-24T00:52:50.156661Z"
+      "fetched_at": "2026-09-24T05:47:31.360784Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-24T00:52:50.299112Z"
+        "fetched_at": "2026-09-24T05:47:31.445559Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-24T00:52:50.394699Z"
+      "fetched_at": "2026-09-24T05:47:31.536913Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,10 +62,10 @@
     "K": 140,
     "P": 4,
     "QB": 327,
-    "RB": 565,
+    "RB": 564,
     "SS": 1,
     "TE": 548,
-    "WR": 1177
+    "WR": 1178
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -15436,32 +15436,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1642633817596,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11435",
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "SEA",
-      "age": 27,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1790038855149,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -44949,6 +44923,32 @@
       "depth_chart_order": 7,
       "depth_chart_position": "SWR",
       "news_updated": 1777584057525,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "3286",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "age": 32,
+      "years_exp": 10,
+      "status": "Active",
+      "injury_status": "Doubtful",
+      "active": true,
+      "depth_chart_order": 7,
+      "depth_chart_position": "LWR",
+      "news_updated": 1790024427918,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
