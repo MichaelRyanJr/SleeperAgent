@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:32:41.934012Z",
+  "generated_at": "2026-09-24T15:29:07.692844Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -363,7 +363,7 @@
         "7523",
         "12490",
         "13286",
-        "8121",
+        "9493",
         "11632",
         "11604",
         "7002",
@@ -419,13 +419,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "11632",
@@ -528,6 +528,15 @@
           "draft_round": 10
         },
         {
+          "player_id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -535,15 +544,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
         },
         {
           "player_id": "9753",
@@ -564,6 +564,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 10
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "11632",
@@ -609,15 +618,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
         }
       ]
     },
@@ -644,10 +644,10 @@
         "8183",
         "11584",
         "12527",
-        "7526",
+        "12526",
         "9487",
         "8130",
-        "12526",
+        "7526",
         "2747",
         "PIT"
       ],
@@ -700,13 +700,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "DEN",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 3
         },
         {
           "player_id": "9487",
@@ -727,13 +727,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "CAR",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 6
         },
         {
           "player_id": "2747",
@@ -848,13 +848,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "DEN",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 3
         },
         {
           "player_id": "8130",
@@ -866,13 +866,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "CAR",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 6
         },
         {
           "player_id": "10229",
@@ -1474,10 +1474,10 @@
         "6904",
         "4034",
         "9224",
-        "7525",
-        "12519",
-        "10859",
         "11635",
+        "11646",
+        "10859",
+        "7525",
         "12711",
         "NE"
       ],
@@ -1528,22 +1528,22 @@
           "draft_round": 8
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
+          "team": "LAC",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
+        },
+        {
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "10859",
@@ -1555,13 +1555,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "LAC",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "12711",
@@ -1593,15 +1593,6 @@
           "draft_round": 11
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "12512",
           "name": "Quinshon Judkins",
           "position": "RB",
@@ -1609,6 +1600,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
+        },
+        {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "13345",
@@ -1657,15 +1657,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1691,6 +1682,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
+        },
+        {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "5947",
@@ -3511,7 +3511,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-24T10:32:41.934012Z",
-    "stale_after": "2026-09-24T11:32:41.934012Z"
+    "generated_at": "2026-09-24T15:29:07.692844Z",
+    "stale_after": "2026-09-24T16:29:07.692844Z"
   }
 }
