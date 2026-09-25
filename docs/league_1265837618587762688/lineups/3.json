@@ -123,14 +123,14 @@
   {
     "roster_id": 4,
     "opponent_roster_id": 1,
-    "points": 17.9,
+    "points": 38.9,
     "starters": [
       {
-        "player_id": "11566",
-        "name": "Jayden Daniels",
+        "player_id": "8183",
+        "name": "Brock Purdy",
         "position": "QB",
-        "team": "WAS",
-        "injury_status": "Out"
+        "team": "SF",
+        "injury_status": null
       },
       {
         "player_id": "9509",
@@ -168,11 +168,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8142",
-        "name": "Alec Pierce",
+        "player_id": "6819",
+        "name": "Michael Pittman",
         "position": "WR",
-        "team": "IND",
-        "injury_status": "Out"
+        "team": "PIT",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5189",
@@ -191,18 +191,18 @@
     ],
     "bench": [
       {
+        "player_id": "11566",
+        "name": "Jayden Daniels",
+        "position": "QB",
+        "team": "WAS",
+        "injury_status": "Out"
+      },
+      {
         "player_id": "12474",
         "name": "Woody Marks",
         "position": "RB",
         "team": "HOU",
         "injury_status": null
-      },
-      {
-        "player_id": "6819",
-        "name": "Michael Pittman",
-        "position": "WR",
-        "team": "PIT",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "7569",
@@ -219,17 +219,17 @@
         "injury_status": null
       },
       {
+        "player_id": "8142",
+        "name": "Alec Pierce",
+        "position": "WR",
+        "team": "IND",
+        "injury_status": "Out"
+      },
+      {
         "player_id": "8154",
         "name": "Brian Robinson",
         "position": "RB",
         "team": "ATL",
-        "injury_status": null
-      },
-      {
-        "player_id": "8183",
-        "name": "Brock Purdy",
-        "position": "QB",
-        "team": "SF",
         "injury_status": null
       },
       {
@@ -1112,14 +1112,14 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 6,
-    "points": 1.0,
+    "points": 24.9,
     "starters": [
       {
-        "player_id": "11560",
-        "name": "Caleb Williams",
+        "player_id": "4046",
+        "name": "Patrick Mahomes",
         "position": "QB",
-        "team": "CHI",
-        "injury_status": "Doubtful"
+        "team": "KC",
+        "injury_status": null
       },
       {
         "player_id": "4866",
@@ -1180,6 +1180,13 @@
     ],
     "bench": [
       {
+        "player_id": "11560",
+        "name": "Caleb Williams",
+        "position": "QB",
+        "team": "CHI",
+        "injury_status": "Doubtful"
+      },
+      {
         "player_id": "11583",
         "name": "Jonathon Brooks",
         "position": "RB",
@@ -1206,13 +1213,6 @@
         "position": "WR",
         "team": "BAL",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "4046",
-        "name": "Patrick Mahomes",
-        "position": "QB",
-        "team": "KC",
-        "injury_status": null
       },
       {
         "player_id": "8126",
@@ -1354,7 +1354,7 @@
   {
     "roster_id": 8,
     "opponent_roster_id": 7,
-    "points": 6.9,
+    "points": 19.1,
     "starters": [
       {
         "player_id": "7523",

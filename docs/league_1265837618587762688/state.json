@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:53:17.915401Z",
+  "generated_at": "2026-09-25T05:44:28.388511Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -781,13 +781,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11566",
+        "8183",
         "9509",
         "8155",
         "6801",
         "11632",
         "9484",
-        "8142",
+        "6819",
         "5189",
         "NE"
       ],
@@ -812,13 +812,13 @@
       ],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "8183",
+          "name": "Brock Purdy",
           "position": "QB",
-          "team": "WAS",
-          "injury_status": "Out",
+          "team": "SF",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "9509",
@@ -866,13 +866,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8142",
-          "name": "Alec Pierce",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "IND",
-          "injury_status": "Out",
+          "team": "PIT",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 9
         },
         {
           "player_id": "5189",
@@ -895,6 +895,15 @@
       ],
       "bench": [
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -902,15 +911,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "7569",
@@ -931,6 +931,15 @@
           "draft_round": 11
         },
         {
+          "player_id": "8142",
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -938,15 +947,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
-        },
-        {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         },
         {
           "player_id": "8205",
@@ -1770,7 +1770,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11560",
+        "4046",
         "4866",
         "12529",
         "8112",
@@ -1800,13 +1800,13 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "CHI",
-          "injury_status": "Doubtful",
+          "team": "KC",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 11
         },
         {
           "player_id": "4866",
@@ -1882,6 +1882,15 @@
       ],
       "bench": [
         {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "injury_status": "Doubtful",
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -1916,15 +1925,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         },
         {
           "player_id": "8126",
@@ -2727,7 +2727,7 @@
       "week": 3,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 17.9,
+      "points": 38.9,
       "result": "W"
     },
     {
@@ -2783,7 +2783,7 @@
       "week": 3,
       "roster_id": 9,
       "opponent_roster_id": 6,
-      "points": 1.0,
+      "points": 24.9,
       "result": "W"
     },
     {
@@ -2797,7 +2797,7 @@
       "week": 3,
       "roster_id": 8,
       "opponent_roster_id": 7,
-      "points": 6.9,
+      "points": 19.1,
       "result": "W"
     }
   ],
@@ -2809,7 +2809,7 @@
     "player_count": 2848,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-25T00:53:17.915401Z",
-    "stale_after": "2026-09-25T01:53:17.915401Z"
+    "generated_at": "2026-09-25T05:44:28.388511Z",
+    "stale_after": "2026-09-25T06:44:28.388511Z"
   }
 }
