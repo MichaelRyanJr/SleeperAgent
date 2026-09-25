@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T05:44:30.133521Z",
+  "generated_at": "2026-09-25T10:35:43.251179Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -934,7 +934,6 @@
         "SF"
       ],
       "players_current": [
-        "10219",
         "11620",
         "12015",
         "12508",
@@ -950,6 +949,7 @@
         "9228",
         "9502",
         "9508",
+        "HOU",
         "SF"
       ],
       "starters": [
@@ -1034,15 +1034,6 @@
       ],
       "bench": [
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -1103,6 +1094,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston",
+          "position": "DEF",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         }
       ],
       "keepers": [
@@ -3511,7 +3511,7 @@
     "player_count": 2841,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-25T05:44:30.133521Z",
-    "stale_after": "2026-09-25T06:44:30.133521Z"
+    "generated_at": "2026-09-25T10:35:43.251179Z",
+    "stale_after": "2026-09-25T11:35:43.251179Z"
   }
 }
