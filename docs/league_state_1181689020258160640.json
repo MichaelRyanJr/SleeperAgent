@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:35:43.251179Z",
+  "generated_at": "2026-09-25T15:32:42.632635Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -929,9 +929,9 @@
         "6786",
         "8134",
         "7600",
-        "12517",
+        "6819",
         "12015",
-        "SF"
+        "HOU"
       ],
       "players_current": [
         "11620",
@@ -943,6 +943,7 @@
         "5967",
         "6786",
         "6801",
+        "6819",
         "7600",
         "8134",
         "9226",
@@ -1006,13 +1007,13 @@
           "keeper": false
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "12015",
@@ -1024,12 +1025,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "SF",
-          "name": "San Francisco",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "SF",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 7
         }
       ],
       "bench": [
@@ -1050,6 +1052,15 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "12533",
@@ -1096,13 +1107,12 @@
           "draft_round": 12
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "SF",
+          "name": "San Francisco",
           "position": "DEF",
-          "team": "HOU",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1125,15 +1135,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -1150,6 +1151,15 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "12533",
@@ -1197,7 +1207,7 @@
         "7564",
         "2133",
         "4217",
-        "7569",
+        "7543",
         "4227",
         "BAL"
       ],
@@ -1277,13 +1287,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 5
         },
         {
           "player_id": "4227",
@@ -1376,13 +1386,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 14
         }
       ],
       "keepers": [
@@ -1414,13 +1424,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 5
         },
         {
           "player_id": "11586",
@@ -1441,13 +1451,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 14
         }
       ]
     },
@@ -3508,10 +3518,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2841,
+    "player_count": 2840,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-25T10:35:43.251179Z",
-    "stale_after": "2026-09-25T11:35:43.251179Z"
+    "generated_at": "2026-09-25T15:32:42.632635Z",
+    "stale_after": "2026-09-25T16:32:42.632635Z"
   }
 }

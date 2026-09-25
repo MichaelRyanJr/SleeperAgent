@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T10:35:43.251179Z",
-  "stale_after": "2026-09-25T11:35:43.251179Z",
+  "generated_at": "2026-09-25T15:32:42.632635Z",
+  "stale_after": "2026-09-25T16:32:42.632635Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-25T10:35:42.145043Z",
+    "snapshot_started_at": "2026-09-25T15:32:41.207896Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-25T10:35:42.210060Z"
+      "fetched_at": "2026-09-25T15:32:41.311869Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-25T10:35:42.356226Z"
+      "fetched_at": "2026-09-25T15:32:41.580214Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-25T10:35:42.400145Z"
+        "fetched_at": "2026-09-25T15:32:41.669317Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-25T10:35:42.475919Z"
+      "fetched_at": "2026-09-25T15:32:41.769664Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 204,
+  "excluded_rostered_count": 205,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2841,
-  "all_player_count": 4182,
-  "player_count": 4182,
+  "default_player_count": 2840,
+  "all_player_count": 4181,
+  "player_count": 4181,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -67,7 +67,7 @@
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1718
+    "WR": 1717
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -68919,32 +68919,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "6819",
-      "name": "Michael Pittman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "PIT",
-      "age": 28,
-      "years_exp": 6,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1790270437514,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 8
     },
     {
       "player_id": "13645",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:35:41.552856Z",
+  "generated_at": "2026-09-25T15:32:40.578060Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1588,6 +1588,7 @@
       "players_current": [
         "11533",
         "11581",
+        "12487",
         "12492",
         "12518",
         "12533",
@@ -1694,6 +1695,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 16
         },
         {
           "player_id": "12492",
@@ -2806,10 +2816,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2848,
+    "player_count": 2847,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-25T10:35:41.552856Z",
-    "stale_after": "2026-09-25T11:35:41.552856Z"
+    "generated_at": "2026-09-25T15:32:40.578060Z",
+    "stale_after": "2026-09-25T16:32:40.578060Z"
   }
 }

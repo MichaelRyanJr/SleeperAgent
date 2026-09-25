@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:35:43.663398Z",
+  "generated_at": "2026-09-25T15:32:43.090514Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -1498,13 +1498,14 @@
       "owner": "Cillidog",
       "team_name": "Tittsburgh Feelers",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 7,
+        "submitted_keeper_count": 8,
         "max_keepers": 7,
         "assigned_rounds": [
           2,
           4,
           5,
           7,
+          8,
           9,
           13,
           14
@@ -1512,7 +1513,7 @@
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": true
+        "complete": false
       },
       "players": [
         {
@@ -1756,6 +1757,33 @@
           "keeper_round_may_move_for_collision": false,
           "current_draft_round": 4,
           "base_keeper_cost_round": 4,
+          "keeper_cost_round_is_provisional": false
+        },
+        {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "original_draft_round": 8,
+          "original_draft_pick_no": 95,
+          "original_draft_slot": 11,
+          "original_drafted_by": "866098578773393408",
+          "original_draft_roster_id": 7,
+          "acquired_via": "waiver",
+          "acquisition_transaction_id": "1409179674864619520",
+          "acquisition_time": "2026-09-25T11:52:05.082000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 8,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 8,
+          "keeper_cost_round": 8,
+          "keeper_cost_source": "current_submitted_keeper",
+          "keeper_round_may_move_for_collision": false,
+          "current_draft_round": 8,
+          "base_keeper_cost_round": 8,
           "keeper_cost_round_is_provisional": false
         },
         {
@@ -5814,5 +5842,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-25T10:35:43.713710Z"
+  "rules_updated_at": "2026-09-25T15:32:43.144115Z"
 }
