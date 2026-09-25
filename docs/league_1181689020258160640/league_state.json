@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:41:10.763970Z",
+  "generated_at": "2026-09-25T00:53:20.036522Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -642,7 +642,7 @@
       },
       "starters_current": [
         "8183",
-        "11584",
+        "7588",
         "12527",
         "12526",
         "9487",
@@ -682,13 +682,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 7
         },
         {
           "player_id": "12527",
@@ -765,6 +765,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -819,15 +828,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -839,13 +839,13 @@
       ],
       "keepers": [
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "TB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 7
         },
         {
           "player_id": "12526",
@@ -884,6 +884,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "4892",
           "name": "Baker Mayfield",
           "position": "QB",
@@ -891,15 +900,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         }
       ]
     },
@@ -927,9 +927,9 @@
         "9226",
         "5967",
         "6786",
-        "6801",
+        "8134",
+        "7600",
         "12517",
-        "2449",
         "12015",
         "SF"
       ],
@@ -989,13 +989,21 @@
           "draft_round": 2
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "CIN",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12517",
@@ -1005,15 +1013,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "12015",
@@ -1071,21 +1070,22 @@
           "draft_round": 9
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "BUF",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 8
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "9502",
@@ -1125,15 +1125,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1168,6 +1159,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -3422,29 +3422,29 @@
       "week": 3,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 0.0,
-      "result": null
+      "points": 7.4,
+      "result": "W"
     },
     {
       "week": 3,
       "roster_id": 3,
       "opponent_roster_id": 1,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 3,
       "roster_id": 2,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 3,
       "roster_id": 7,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 5.5,
+      "result": "W"
     },
     {
       "week": 3,
@@ -3465,42 +3465,42 @@
       "roster_id": 5,
       "opponent_roster_id": 9,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 3,
       "roster_id": 9,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 16.0,
+      "result": "W"
     },
     {
       "week": 3,
       "roster_id": 6,
       "opponent_roster_id": 10,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 3,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 1.5,
+      "result": "W"
     },
     {
       "week": 3,
       "roster_id": 8,
       "opponent_roster_id": 11,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 3,
       "roster_id": 11,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 3.4,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -3511,7 +3511,7 @@
     "player_count": 2841,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-24T22:41:10.763970Z",
-    "stale_after": "2026-09-24T23:41:10.763970Z"
+    "generated_at": "2026-09-25T00:53:20.036522Z",
+    "stale_after": "2026-09-25T01:53:20.036522Z"
   }
 }
