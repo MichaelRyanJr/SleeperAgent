@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:00:02.094107Z",
+  "generated_at": "2026-09-26T18:30:08.218883Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1983,7 +1983,7 @@
         "11635",
         "9487",
         "5001",
-        "13286",
+        "10218",
         "0",
         "HOU"
       ],
@@ -2060,13 +2060,12 @@
           "keeper": false
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 5
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "HOU",
@@ -2079,14 +2078,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10218",
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "10232",
           "name": "Michael Wilson",
@@ -2113,6 +2104,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "13286",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "13346",
@@ -2819,7 +2819,7 @@
     "player_count": 2847,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-26T15:00:02.094107Z",
-    "stale_after": "2026-09-26T16:00:02.094107Z"
+    "generated_at": "2026-09-26T18:30:08.218883Z",
+    "stale_after": "2026-09-26T19:30:08.218883Z"
   }
 }

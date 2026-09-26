@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:00:04.450744Z",
+  "generated_at": "2026-09-26T18:30:10.592784Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -61,6 +61,33 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": null,
           "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": "Questionable",
+          "original_draft_round": 11,
+          "original_draft_pick_no": 123,
+          "original_draft_slot": 3,
+          "original_drafted_by": "1002296149069467648",
+          "original_draft_roster_id": 10,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1409613950789718016",
+          "acquisition_time": "2026-09-26T16:37:44.530000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 11,
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5842,5 +5869,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-26T15:00:04.501145Z"
+  "rules_updated_at": "2026-09-26T18:30:10.642703Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:00:04.000997Z",
+  "generated_at": "2026-09-26T18:30:10.149863Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -111,6 +111,7 @@
       ],
       "players_current": [
         "10213",
+        "11637",
         "11786",
         "12504",
         "12506",
@@ -217,6 +218,14 @@
           "position": "WR",
           "team": "LV",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -3518,10 +3527,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2840,
+    "player_count": 2839,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-26T15:00:04.000997Z",
-    "stale_after": "2026-09-26T16:00:04.000997Z"
+    "generated_at": "2026-09-26T18:30:10.149863Z",
+    "stale_after": "2026-09-26T19:30:10.149863Z"
   }
 }
