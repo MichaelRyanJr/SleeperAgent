@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T00:56:27.155869Z",
+  "generated_at": "2026-09-26T05:58:42.814556Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -365,8 +365,8 @@
         "13286",
         "8121",
         "11632",
-        "11604",
         "7002",
+        "11604",
         "11792",
         "LAR"
       ],
@@ -437,15 +437,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "7002",
           "name": "Juwan Johnson",
           "position": "TE",
@@ -453,6 +444,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "11792",
@@ -3521,7 +3521,7 @@
     "player_count": 2840,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-26T00:56:27.155869Z",
-    "stale_after": "2026-09-26T01:56:27.155869Z"
+    "generated_at": "2026-09-26T05:58:42.814556Z",
+    "stale_after": "2026-09-26T06:58:42.814556Z"
   }
 }
