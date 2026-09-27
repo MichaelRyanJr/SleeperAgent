@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:19:45.120175Z",
+  "generated_at": "2026-09-27T17:50:37.311022Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1724,33 +1724,6 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 13,
           "base_keeper_cost_round": 10,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": "IR",
-          "original_draft_round": 5,
-          "original_draft_pick_no": 56,
-          "original_draft_slot": 8,
-          "original_drafted_by": "1265891026833248256",
-          "original_draft_roster_id": 4,
-          "acquired_via": "draft",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 5,
-          "keeper_cost_round": 5,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 12,
-          "base_keeper_cost_round": 5,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -4367,6 +4340,33 @@
           "keeper_cost_round_is_provisional": true
         },
         {
+          "player_id": "5095",
+          "name": "Daniel Carlson",
+          "position": "K",
+          "team": "NO",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1409950632281972736",
+          "acquisition_time": "2026-09-27T14:55:35.653000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -4391,33 +4391,6 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 7,
           "base_keeper_cost_round": 9,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "6828",
-          "name": "AJ Dillon",
-          "position": "RB",
-          "team": "CAR",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1408598014536212480",
-          "acquisition_time": "2026-09-23T21:20:46.452000Z",
-          "acquisition_league_id": "1389347524489277440",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 14,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5510,5 +5483,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-27T13:19:45.165219Z"
+  "rules_updated_at": "2026-09-27T17:50:37.354388Z"
 }
