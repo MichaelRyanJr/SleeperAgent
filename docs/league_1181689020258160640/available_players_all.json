@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T01:55:17.415882Z",
-  "stale_after": "2026-09-27T02:55:17.415882Z",
+  "generated_at": "2026-09-27T07:42:53.253857Z",
+  "stale_after": "2026-09-27T08:42:53.253857Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-27T01:55:15.366216Z",
+    "snapshot_started_at": "2026-09-27T07:42:51.932794Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-27T01:55:15.529673Z"
+      "fetched_at": "2026-09-27T07:42:52.027883Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-27T01:55:15.917172Z"
+      "fetched_at": "2026-09-27T07:42:52.262353Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-27T01:55:16.066689Z"
+        "fetched_at": "2026-09-27T07:42:52.314005Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-27T01:55:16.232416Z"
+      "fetched_at": "2026-09-27T07:42:52.429111Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 206,
+  "excluded_rostered_count": 207,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2839,
-  "all_player_count": 4180,
-  "player_count": 4180,
+  "default_player_count": 2838,
+  "all_player_count": 4179,
+  "player_count": 4179,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -67,7 +67,7 @@
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1716
+    "WR": 1715
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -69251,32 +69251,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1789601422820,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7571",
-      "name": "Rashod Bateman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BAL",
-      "age": 26,
-      "years_exp": 5,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "LWR",
-      "news_updated": 1790424926369,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

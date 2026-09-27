@@ -3,6 +3,29 @@
     "status": "complete",
     "type": "free_agent",
     "metadata": null,
+    "created": 1790492896452,
+    "settings": null,
+    "leg": 3,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1409833027349057536",
+    "adds": {
+      "7571": 4
+    },
+    "consenter_ids": [
+      4
+    ],
+    "drops": null,
+    "roster_ids": [
+      4
+    ],
+    "status_updated": 1790492896452,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "free_agent",
+    "metadata": null,
     "created": 1790440664530,
     "settings": null,
     "leg": 3,
@@ -12,10 +35,10 @@
     "adds": {
       "11637": 1
     },
-    "drops": null,
     "consenter_ids": [
       1
     ],
+    "drops": null,
     "roster_ids": [
       1
     ],
@@ -39,10 +62,10 @@
     "adds": {
       "6819": 4
     },
-    "drops": null,
     "consenter_ids": [
       4
     ],
+    "drops": null,
     "roster_ids": [
       4
     ],
@@ -66,14 +89,58 @@
     "adds": {
       "HOU": 4
     },
-    "drops": null,
     "consenter_ids": [
       4
     ],
+    "drops": null,
     "roster_ids": [
       4
     ],
     "status_updated": 1790316826248,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "notes": "Your trade was processed successfully!",
+      "poll_id": "1408918467393912832",
+      "veto_msg_id": "1408918467486236672"
+    },
+    "created": 1790274768698,
+    "settings": null,
+    "leg": 3,
+    "draft_picks": [
+      {
+        "round": 1,
+        "season": "2027",
+        "league_id": null,
+        "roster_id": 10,
+        "owner_id": 4,
+        "previous_owner_id": 10
+      }
+    ],
+    "creator": "1001899210561703936",
+    "transaction_id": "1408918133233737728",
+    "adds": {
+      "2449": 10,
+      "6801": 10,
+      "9756": 4
+    },
+    "consenter_ids": [
+      4,
+      10
+    ],
+    "drops": {
+      "2449": 4,
+      "6801": 4,
+      "9756": 10
+    },
+    "roster_ids": [
+      4,
+      10
+    ],
+    "status_updated": 1790490144512,
     "waiver_budget": []
   },
   {
@@ -89,12 +156,12 @@
     "adds": {
       "CIN": 11
     },
-    "drops": {
-      "LAC": 11
-    },
     "consenter_ids": [
       11
     ],
+    "drops": {
+      "LAC": 11
+    },
     "roster_ids": [
       11
     ],
@@ -114,10 +181,10 @@
     "adds": {
       "9225": 11
     },
-    "drops": null,
     "consenter_ids": [
       11
     ],
+    "drops": null,
     "roster_ids": [
       11
     ],
@@ -137,12 +204,12 @@
     "adds": {
       "11625": 7
     },
-    "drops": {
-      "6819": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "6819": 7
+    },
     "roster_ids": [
       7
     ],
@@ -167,12 +234,12 @@
     "adds": {
       "HOU": 4
     },
-    "drops": {
-      "10219": 4
-    },
     "consenter_ids": [
       4
     ],
+    "drops": {
+      "10219": 4
+    },
     "roster_ids": [
       4
     ],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:55:17.415882Z",
+  "generated_at": "2026-09-27T07:42:53.253857Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -937,8 +937,8 @@
         "5967",
         "6786",
         "8134",
-        "7600",
-        "6819",
+        "12517",
+        "7571",
         "12015",
         "HOU"
       ],
@@ -948,17 +948,17 @@
         "12508",
         "12517",
         "12533",
-        "2449",
         "5967",
         "6786",
-        "6801",
         "6819",
+        "7571",
         "7600",
         "8134",
         "9226",
         "9228",
         "9502",
         "9508",
+        "9756",
         "HOU",
         "SF"
       ],
@@ -1008,21 +1008,21 @@
           "draft_round": 12
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
+          "player_id": "12517",
+          "name": "Colston Loveland",
           "position": "TE",
-          "team": "PIT",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 7
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 8
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12015",
@@ -1063,15 +1063,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1081,22 +1072,21 @@
           "draft_round": 9
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
+          "team": "PIT",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false
         },
         {
           "player_id": "9502",
@@ -1114,6 +1104,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "SF",
@@ -1144,6 +1143,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -1162,15 +1170,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1178,15 +1177,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
         }
       ]
     },
@@ -2549,16 +2539,17 @@
         "13287",
         "13337",
         "13346",
+        "2449",
         "4199",
         "4866",
         "6770",
+        "6801",
         "7553",
         "7839",
         "8126",
         "8148",
         "9480",
         "9511",
-        "9756",
         "PHI"
       ],
       "starters": [
@@ -2682,6 +2673,24 @@
           "draft_round": 10
         },
         {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "8126",
           "name": "Wan'Dale Robinson",
           "position": "WR",
@@ -2707,15 +2716,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
         }
       ],
       "keepers": [
@@ -2736,15 +2736,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
         }
       ]
     },
@@ -3527,10 +3518,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2839,
+    "player_count": 2838,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-27T01:55:17.415882Z",
-    "stale_after": "2026-09-27T02:55:17.415882Z"
+    "generated_at": "2026-09-27T07:42:53.253857Z",
+    "stale_after": "2026-09-27T08:42:53.253857Z"
   }
 }
