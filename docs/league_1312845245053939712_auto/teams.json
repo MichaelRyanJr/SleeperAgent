@@ -103,15 +103,6 @@
     },
     "keepers": [
       {
-        "player_id": "11564",
-        "name": "Drake Maye",
-        "position": "QB",
-        "team": "NE",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 8
-      },
-      {
         "player_id": "12490",
         "name": "Bhayshul Tuten",
         "position": "RB",
@@ -119,6 +110,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 10
+      },
+      {
+        "player_id": "9493",
+        "name": "Puka Nacua",
+        "position": "WR",
+        "team": "LAR",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 14
       },
       {
         "player_id": "11632",
@@ -139,6 +139,15 @@
         "draft_round": 5
       },
       {
+        "player_id": "11564",
+        "name": "Drake Maye",
+        "position": "QB",
+        "team": "NE",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 8
+      },
+      {
         "player_id": "11631",
         "name": "Brian Thomas",
         "position": "WR",
@@ -155,15 +164,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 13
-      },
-      {
-        "player_id": "9493",
-        "name": "Puka Nacua",
-        "position": "WR",
-        "team": "LAR",
-        "injury_status": "Out",
-        "keeper": true,
-        "draft_round": 14
       }
     ]
   },
@@ -271,13 +271,13 @@
     },
     "keepers": [
       {
-        "player_id": "9226",
-        "name": "De'Von Achane",
+        "player_id": "12533",
+        "name": "Jacory Croskey-Merritt",
         "position": "RB",
-        "team": "MIA",
-        "injury_status": "IR",
+        "team": "WAS",
+        "injury_status": null,
         "keeper": true,
-        "draft_round": 13
+        "draft_round": 9
       },
       {
         "player_id": "6786",
@@ -316,13 +316,13 @@
         "draft_round": 14
       },
       {
-        "player_id": "12533",
-        "name": "Jacory Croskey-Merritt",
+        "player_id": "9226",
+        "name": "De'Von Achane",
         "position": "RB",
-        "team": "WAS",
-        "injury_status": null,
+        "team": "MIA",
+        "injury_status": "IR",
         "keeper": true,
-        "draft_round": 9
+        "draft_round": 13
       }
     ]
   },
@@ -862,13 +862,13 @@
     },
     "keepers": [
       {
-        "player_id": "8155",
-        "name": "Breece Hall",
+        "player_id": "12481",
+        "name": "Cam Skattebo",
         "position": "RB",
-        "team": "NYJ",
-        "injury_status": "Out",
+        "team": "NYG",
+        "injury_status": null,
         "keeper": true,
-        "draft_round": 3
+        "draft_round": 4
       },
       {
         "player_id": "2216",
@@ -878,15 +878,6 @@
         "injury_status": "Out",
         "keeper": true,
         "draft_round": 6
-      },
-      {
-        "player_id": "12481",
-        "name": "Cam Skattebo",
-        "position": "RB",
-        "team": "NYG",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 4
       },
       {
         "player_id": "3451",
@@ -914,6 +905,15 @@
         "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 12
+      },
+      {
+        "player_id": "8155",
+        "name": "Breece Hall",
+        "position": "RB",
+        "team": "NYJ",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 3
       }
     ]
   }
