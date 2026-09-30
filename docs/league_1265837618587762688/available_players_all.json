@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T20:06:09.012870Z",
-  "stale_after": "2026-09-30T21:06:09.012870Z",
+  "generated_at": "2026-09-30T23:45:48.390044Z",
+  "stale_after": "2026-10-01T00:45:48.390044Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-30T20:06:06.605114Z",
+    "snapshot_started_at": "2026-09-30T23:45:46.915113Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-30T20:06:06.762967Z"
+      "fetched_at": "2026-09-30T23:45:46.990174Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-30T20:06:07.106095Z"
+      "fetched_at": "2026-09-30T23:45:47.225196Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-30T20:06:07.278423Z"
+        "fetched_at": "2026-09-30T23:45:47.304720Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-30T20:06:07.454590Z"
+      "fetched_at": "2026-09-30T23:45:47.385294Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 194,
+  "excluded_rostered_count": 195,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2846,
-  "all_player_count": 4192,
-  "player_count": 4192,
+  "default_player_count": 2845,
+  "all_player_count": 4191,
+  "player_count": 4191,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 180,
     "P": 5,
     "QB": 453,
-    "RB": 876,
+    "RB": 875,
     "SS": 1,
     "T": 2,
     "TE": 818,
@@ -22228,32 +22228,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788309624516,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NO",
-      "age": 24,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1790625907083,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:06:09.522048Z",
+  "generated_at": "2026-09-30T23:45:48.657382Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1806,6 +1806,33 @@
           "current_draft_round": 1,
           "base_keeper_cost_round": null,
           "keeper_cost_round_is_provisional": false
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1411156826711408640",
+          "acquisition_time": "2026-09-30T22:48:34.816000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "NE",
@@ -5456,5 +5483,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-09-30T20:06:09.570652Z"
+  "rules_updated_at": "2026-09-30T23:45:48.685170Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:06:09.012870Z",
+  "generated_at": "2026-09-30T23:45:48.390044Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -781,11 +781,11 @@
       "starters_current": [
         "8183",
         "9509",
-        "8155",
-        "6801",
+        "12474",
+        "7569",
         "11632",
         "9484",
-        "6819",
+        "6801",
         "5189",
         "NE"
       ],
@@ -805,6 +805,7 @@
         "9482",
         "9484",
         "9509",
+        "9757",
         "NE"
       ],
       "starters": [
@@ -827,22 +828,22 @@
           "draft_round": 1
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 4
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 10
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "11632",
@@ -863,13 +864,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "PIT",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 5
         },
         {
           "player_id": "5189",
@@ -901,22 +902,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 10
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 2
+          "draft_round": 9
         },
         {
           "player_id": "8110",
@@ -946,10 +938,27 @@
           "draft_round": 14
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "9482",
           "name": "Michael Mayer",
           "position": "TE",
           "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -2877,10 +2886,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2846,
+    "player_count": 2845,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T20:06:09.012870Z",
-    "stale_after": "2026-09-30T21:06:09.012870Z"
+    "generated_at": "2026-09-30T23:45:48.390044Z",
+    "stale_after": "2026-10-01T00:45:48.390044Z"
   }
 }
