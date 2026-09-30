@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:14:08.302508Z",
+  "generated_at": "2026-09-30T20:06:12.041656Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -105,7 +105,7 @@
         "9488",
         "8167",
         "12506",
-        "12529",
+        "5927",
         "11786",
         "MIN"
       ],
@@ -184,13 +184,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "11786",
@@ -247,6 +247,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -263,15 +272,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
         },
         {
           "player_id": "8142",
@@ -330,15 +330,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "5927",
           "name": "Terry McLaurin",
           "position": "WR",
@@ -346,6 +337,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
+        },
+        {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         }
       ]
     },
@@ -389,8 +389,8 @@
         "12490",
         "12534",
         "13286",
-        "13347",
         "13414",
+        "1479",
         "7002",
         "7523",
         "8121",
@@ -520,14 +520,6 @@
           "draft_round": 1
         },
         {
-          "player_id": "13347",
-          "name": "Demond Claiborne",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "13414",
           "name": "Kaelon Black",
           "position": "RB",
@@ -535,6 +527,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8121",
@@ -1205,7 +1205,7 @@
         "8150",
         "7564",
         "2133",
-        "4217",
+        "12518",
         "7569",
         "4227",
         "BAL"
@@ -1277,13 +1277,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "SF",
+          "team": "IND",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "7569",
@@ -1340,15 +1340,6 @@
           "keeper": false
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "13293",
           "name": "Ja'Kobi Lane",
           "position": "WR",
@@ -1374,6 +1365,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "5859",
@@ -1423,6 +1423,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "7569",
           "name": "Nico Collins",
           "position": "WR",
@@ -1439,15 +1448,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "7543",
@@ -2525,14 +2525,13 @@
         "4866",
         "13287",
         "8148",
-        "13279",
+        "6801",
         "7553",
         "4199",
         "7839",
         "PHI"
       ],
       "players_current": [
-        "10222",
         "11610",
         "13279",
         "13287",
@@ -2548,7 +2547,6 @@
         "8126",
         "8148",
         "9480",
-        "9511",
         "PHI"
       ],
       "starters": [
@@ -2589,13 +2587,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "TEN",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 4
         },
         {
           "player_id": "7553",
@@ -2636,15 +2634,6 @@
       ],
       "bench": [
         {
-          "player_id": "10222",
-          "name": "Jayden Reed",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "11610",
           "name": "Malik Washington",
           "position": "WR",
@@ -2652,6 +2641,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "13337",
@@ -2681,15 +2679,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
-        },
-        {
           "player_id": "8126",
           "name": "Wan'Dale Robinson",
           "position": "WR",
@@ -2706,15 +2695,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "keepers": [
@@ -2766,7 +2746,7 @@
         "9484",
         "9500",
         "12185",
-        "CIN"
+        "CLE"
       ],
       "players_current": [
         "11583",
@@ -2785,7 +2765,7 @@
         "9225",
         "9484",
         "9500",
-        "CIN"
+        "CLE"
       ],
       "starters": [
         {
@@ -2860,12 +2840,13 @@
           "keeper": false
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati",
+          "player_id": "CLE",
+          "name": "Cleveland",
           "position": "DEF",
-          "team": "CIN",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "bench": [
@@ -3601,10 +3582,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2837,
+    "player_count": 2839,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T15:14:08.302508Z",
-    "stale_after": "2026-09-30T16:14:08.302508Z"
+    "generated_at": "2026-09-30T20:06:12.041656Z",
+    "stale_after": "2026-09-30T21:06:12.041656Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T15:14:08.302508Z",
-  "stale_after": "2026-09-30T16:14:08.302508Z",
+  "generated_at": "2026-09-30T20:06:12.041656Z",
+  "stale_after": "2026-09-30T21:06:12.041656Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-30T15:14:06.898005Z",
+    "snapshot_started_at": "2026-09-30T20:06:09.709935Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-30T15:14:06.981131Z"
+      "fetched_at": "2026-09-30T20:06:09.878032Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-30T15:14:07.179885Z"
+      "fetched_at": "2026-09-30T20:06:10.228350Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-30T15:14:07.218818Z"
+        "fetched_at": "2026-09-30T20:06:10.316541Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-30T15:14:07.331466Z"
+      "fetched_at": "2026-09-30T20:06:10.508996Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 207,
+  "excluded_rostered_count": 205,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2837,
-  "all_player_count": 4179,
-  "player_count": 4179,
+  "default_player_count": 2839,
+  "all_player_count": 4181,
+  "player_count": 4181,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 179,
     "P": 5,
     "QB": 453,
-    "RB": 872,
+    "RB": 874,
     "SS": 1,
     "T": 2,
     "TE": 817,
@@ -308,8 +308,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
+      "player_id": "CIN",
+      "name": "Cincinnati Bengals",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -317,7 +317,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "CLE",
+      "team": "CIN",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -331,7 +331,7 @@
       "waiver_status": "unknown",
       "claim_deadline": null,
       "can_add_now": null,
-      "current_season_draft_round": 16
+      "current_season_draft_round": null
     },
     {
       "player_id": "DAL",
@@ -21040,6 +21040,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "13347",
+      "name": "Demond Claiborne",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "MIN",
+      "age": 22,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1790723105883,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12476",
       "name": "Devin Neal",
       "position": "RB",
@@ -22078,6 +22104,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9511",
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1790647509130,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
     },
     {
       "player_id": "11649",
@@ -67335,6 +67387,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "10222",
+      "name": "Jayden Reed",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "GB",
+      "age": 26,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 4,
+      "depth_chart_position": "SWR",
+      "news_updated": 1790630107356,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 5
+    },
+    {
       "player_id": "12641",
       "name": "Jaylin Lane",
       "position": "WR",
@@ -68108,32 +68186,6 @@
       "depth_chart_position": "LWR",
       "news_updated": 1789515653971,
       "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "age": 34,
-      "years_exp": 13,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1790604904177,
-      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
