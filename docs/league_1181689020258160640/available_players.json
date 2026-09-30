@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T02:07:35.863652Z",
-  "stale_after": "2026-09-30T03:07:35.863652Z",
+  "generated_at": "2026-09-30T08:31:05.581837Z",
+  "stale_after": "2026-09-30T09:31:05.581837Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-30T02:07:32.903928Z",
+    "snapshot_started_at": "2026-09-30T08:31:03.966241Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-30T02:07:33.110093Z"
+      "fetched_at": "2026-09-30T08:31:04.061470Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-30T02:07:33.538431Z"
+      "fetched_at": "2026-09-30T08:31:04.294107Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-30T02:07:33.821746Z"
+        "fetched_at": "2026-09-30T08:31:04.372618Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-30T02:07:33.969660Z"
+      "fetched_at": "2026-09-30T08:31:04.485376Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,8 +61,8 @@
     "FB": 65,
     "K": 139,
     "P": 4,
-    "QB": 326,
-    "RB": 561,
+    "QB": 327,
+    "RB": 560,
     "SS": 1,
     "TE": 546,
     "WR": 1174
@@ -6758,6 +6758,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "13269",
+      "name": "Fernando Mendoza",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "LV",
+      "age": 22,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "QB",
+      "news_updated": 1790038854406,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 10
     },
     {
       "player_id": "6011",
@@ -15392,6 +15418,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "SEA",
+      "age": 27,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1790626807052,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "11199",
       "name": "Emari Demercado",
       "position": "RB",
@@ -15964,32 +16016,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11643",
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": "Out",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1790631907420,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "8143",
       "name": "Jerome Ford",
       "position": "RB",
@@ -16242,32 +16268,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788309624516,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NO",
-      "age": 24,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1790625907083,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -16666,32 +16666,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "12495",
-      "name": "Ollie Gordon",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "age": 22,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1790633108887,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "12738",
       "name": "Phil Mafah",
       "position": "RB",
@@ -16736,6 +16710,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1789580444061,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "12472",
+      "name": "Raheim Sanders",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "CLE",
+      "age": 24,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1790600705243,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T02:07:32.244939Z",
+  "generated_at": "2026-09-30T08:31:03.345496Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 270.5,
       "points_against": 318.56,
       "waiver": {
-        "position": 10,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -194,20 +194,20 @@
       ],
       "players_current": [
         "10213",
+        "11576",
         "11603",
         "11625",
         "12481",
+        "12495",
         "12507",
         "12526",
         "12534",
         "13279",
         "13294",
         "4881",
-        "5850",
         "6794",
         "8130",
         "8259",
-        "9504",
         "LAR"
       ],
       "starters": [
@@ -294,6 +294,14 @@
       ],
       "bench": [
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -308,6 +316,14 @@
           "position": "WR",
           "team": "NYJ",
           "injury_status": "Out",
+          "keeper": false
+        },
+        {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -336,24 +352,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": "NA",
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         }
       ],
       "keepers": []
@@ -374,7 +372,7 @@
       "points_for": 321.28,
       "points_against": 348.12,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -571,7 +569,7 @@
       "points_for": 282.9,
       "points_against": 281.52,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -777,7 +775,7 @@
       "points_for": 309.68,
       "points_against": 311.76,
       "waiver": {
-        "position": 5,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -974,7 +972,7 @@
       "points_for": 339.64,
       "points_against": 350.94,
       "waiver": {
-        "position": 4,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -1169,7 +1167,7 @@
       "points_for": 427.14,
       "points_against": 339.66,
       "waiver": {
-        "position": 6,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -1367,7 +1365,7 @@
       "points_for": 318.08,
       "points_against": 282.06,
       "waiver": {
-        "position": 11,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1561,7 +1559,7 @@
       "points_for": 334.34,
       "points_against": 252.46,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1766,7 +1764,7 @@
       "points_for": 253.72,
       "points_against": 386.54,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -1963,7 +1961,7 @@
       "points_for": 294.58,
       "points_against": 347.68,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1974,18 +1972,18 @@
         "9487",
         "12517",
         "13286",
-        "5095",
+        "0",
         "HOU"
       ],
       "players_current": [
         "10218",
         "10232",
         "11635",
+        "11643",
         "12517",
         "13286",
         "13346",
         "5001",
-        "5095",
         "6797",
         "8132",
         "8138",
@@ -2059,14 +2057,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "5095",
-          "name": "Daniel Carlson",
-          "position": "K",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "HOU",
           "name": "Houston",
           "position": "DEF",
@@ -2093,6 +2083,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "11643",
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA",
+          "injury_status": "Out",
+          "keeper": false
         },
         {
           "player_id": "13346",
@@ -2156,7 +2154,7 @@
       "points_for": 299.56,
       "points_against": 300.08,
       "waiver": {
-        "position": 1,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2173,6 +2171,7 @@
       "players_current": [
         "10229",
         "11564",
+        "1166",
         "12512",
         "12527",
         "13345",
@@ -2272,6 +2271,14 @@
       ],
       "bench": [
         {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13345",
           "name": "Jonah Coleman",
           "position": "RB",
@@ -2344,7 +2351,7 @@
       "points_for": 341.2,
       "points_against": 273.24,
       "waiver": {
-        "position": 2,
+        "position": 1,
         "budget_used": 0
       },
       "starters_current": [
@@ -2870,10 +2877,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2847,
+    "player_count": 2846,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T02:07:32.244939Z",
-    "stale_after": "2026-09-30T03:07:32.244939Z"
+    "generated_at": "2026-09-30T08:31:03.345496Z",
+    "stale_after": "2026-09-30T09:31:03.345496Z"
   }
 }

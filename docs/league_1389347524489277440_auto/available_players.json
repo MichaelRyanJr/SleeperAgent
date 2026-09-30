@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T02:07:32.244939Z",
-  "stale_after": "2026-09-30T03:07:32.244939Z",
+  "generated_at": "2026-09-30T08:31:03.345496Z",
+  "stale_after": "2026-09-30T09:31:03.345496Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-30T02:07:28.561332Z",
+    "snapshot_started_at": "2026-09-30T08:31:01.578751Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-09-30T02:07:28.769377Z"
+      "fetched_at": "2026-09-30T08:31:01.669633Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-09-30T02:07:29.284241Z"
+      "fetched_at": "2026-09-30T08:31:01.909441Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-09-30T02:07:29.427511Z"
+        "fetched_at": "2026-09-30T08:31:01.991401Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-09-30T02:07:29.651357Z"
+      "fetched_at": "2026-09-30T08:31:02.093700Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-09-30T02:07:32.067932Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -47,25 +47,25 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 193,
+  "excluded_rostered_count": 194,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2847,
-  "all_player_count": 4193,
-  "player_count": 2847,
+  "default_player_count": 2846,
+  "all_player_count": 4192,
+  "player_count": 2846,
   "position_counts": {
     "CB": 1,
     "DB": 1,
     "DEF": 20,
     "FB": 65,
-    "K": 139,
+    "K": 140,
     "P": 4,
-    "QB": 327,
-    "RB": 565,
+    "QB": 326,
+    "RB": 563,
     "SS": 1,
     "TE": 547,
-    "WR": 1177
+    "WR": 1178
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -2559,6 +2559,32 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1790558758453,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "5095",
+      "name": "Daniel Carlson",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "NO",
+      "age": 31,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1790638508719,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -7454,32 +7480,6 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1789921855947,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "1166",
-      "name": "Kirk Cousins",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "LV",
-      "age": 38,
-      "years_exp": 14,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1790714104780,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -14846,32 +14846,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11576",
-      "name": "Braelon Allen",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NYJ",
-      "age": 22,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1790628607827,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "12455",
       "name": "Brashard Smith",
       "position": "RB",
@@ -16068,32 +16042,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11643",
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": "Out",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1790631907420,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "8143",
       "name": "Jerome Ford",
       "position": "RB",
@@ -16196,6 +16144,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "5850",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "age": 28,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": "NA",
+      "active": true,
+      "depth_chart_order": 4,
+      "depth_chart_position": "RB",
+      "news_updated": 1790517351781,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 3
     },
     {
       "player_id": "12787",
@@ -16788,32 +16762,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788271219331,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12495",
-      "name": "Ollie Gordon",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "age": 22,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1790633108887,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46775,6 +46723,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9504",
+      "name": "Kayshon Boutte",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RWR",
+      "news_updated": 1790732411787,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
     },
     {
       "player_id": "12971",

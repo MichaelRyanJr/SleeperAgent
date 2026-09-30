@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T02:07:35.863652Z",
+  "generated_at": "2026-09-30T08:31:05.581837Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -365,7 +365,7 @@
       "points_for": 292.18,
       "points_against": 330.18,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -928,7 +928,7 @@
       "points_for": 270.34,
       "points_against": 420.86,
       "waiver": {
-        "position": 12,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1196,7 +1196,7 @@
       "points_for": 465.2,
       "points_against": 475.16,
       "waiver": {
-        "position": 6,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1213,7 +1213,7 @@
       "players_current": [
         "10218",
         "11586",
-        "12472",
+        "12495",
         "12518",
         "13293",
         "13294",
@@ -1332,11 +1332,11 @@
           "draft_round": 12
         },
         {
-          "player_id": "12472",
-          "name": "Raheim Sanders",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": null,
+          "team": "MIA",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1728,7 +1728,7 @@
       "points_for": 416.4,
       "points_against": 312.52,
       "waiver": {
-        "position": 9,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1748,7 +1748,6 @@
         "11563",
         "11625",
         "12501",
-        "13269",
         "3294",
         "3321",
         "4035",
@@ -1758,6 +1757,7 @@
         "7021",
         "7547",
         "9221",
+        "9757",
         "KC"
       ],
       "starters": [
@@ -1860,15 +1860,6 @@
           "keeper": false
         },
         {
-          "player_id": "13269",
-          "name": "Fernando Mendoza",
-          "position": "QB",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -1902,6 +1893,14 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2248,7 +2247,7 @@
       "points_for": 431.88,
       "points_against": 433.8,
       "waiver": {
-        "position": 11,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -2264,9 +2263,9 @@
       ],
       "players_current": [
         "10232",
-        "11435",
         "11560",
         "11628",
+        "11643",
         "12489",
         "12545",
         "13276",
@@ -2375,14 +2374,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11628",
           "name": "Marvin Harrison",
           "position": "WR",
@@ -2390,6 +2381,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "11643",
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA",
+          "injury_status": "Out",
+          "keeper": false
         },
         {
           "player_id": "12489",
@@ -2755,7 +2754,7 @@
       "points_for": 303.46,
       "points_against": 318.82,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -3013,7 +3012,7 @@
       "points_for": 409.8,
       "points_against": 393.92,
       "waiver": {
-        "position": 10,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -3605,7 +3604,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T02:07:35.863652Z",
-    "stale_after": "2026-09-30T03:07:35.863652Z"
+    "generated_at": "2026-09-30T08:31:05.581837Z",
+    "stale_after": "2026-09-30T09:31:05.581837Z"
   }
 }
