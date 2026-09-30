@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:31:03.345496Z",
+  "generated_at": "2026-09-30T15:14:06.374426Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -183,7 +183,7 @@
       },
       "starters_current": [
         "4881",
-        "12507",
+        "11576",
         "12481",
         "6794",
         "12526",
@@ -221,13 +221,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "LAC",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
+          "keeper": false
         },
         {
           "player_id": "12481",
@@ -294,14 +293,6 @@
       ],
       "bench": [
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -325,6 +316,15 @@
           "team": "MIA",
           "injury_status": "Questionable",
           "keeper": false
+        },
+        {
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "12534",
@@ -2880,7 +2880,7 @@
     "player_count": 2846,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T08:31:03.345496Z",
-    "stale_after": "2026-09-30T09:31:03.345496Z"
+    "generated_at": "2026-09-30T15:14:06.374426Z",
+    "stale_after": "2026-09-30T16:14:06.374426Z"
   }
 }

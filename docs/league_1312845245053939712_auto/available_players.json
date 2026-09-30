@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T08:31:05.581837Z",
-  "stale_after": "2026-09-30T09:31:05.581837Z",
+  "generated_at": "2026-09-30T15:14:08.302508Z",
+  "stale_after": "2026-09-30T16:14:08.302508Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-09-30T08:31:03.966241Z",
+    "snapshot_started_at": "2026-09-30T15:14:06.898005Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-09-30T08:31:04.061470Z"
+      "fetched_at": "2026-09-30T15:14:06.981131Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-09-30T08:31:04.294107Z"
+      "fetched_at": "2026-09-30T15:14:07.179885Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-09-30T08:31:04.372618Z"
+        "fetched_at": "2026-09-30T15:14:07.218818Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-09-30T08:31:04.485376Z"
+      "fetched_at": "2026-09-30T15:14:07.331466Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -331,8 +331,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
+      "player_id": "IND",
+      "name": "Indianapolis Colts",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -340,7 +340,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "GB",
+      "team": "IND",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -357,8 +357,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "IND",
-      "name": "Indianapolis Colts",
+      "player_id": "KC",
+      "name": "Kansas City Chiefs",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -366,7 +366,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "IND",
+      "team": "KC",
       "age": null,
       "years_exp": null,
       "status": null,

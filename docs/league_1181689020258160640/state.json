@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:31:05.581837Z",
+  "generated_at": "2026-09-30T15:14:08.302508Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1206,7 +1206,7 @@
         "7564",
         "2133",
         "4217",
-        "7543",
+        "7569",
         "4227",
         "BAL"
       ],
@@ -1286,13 +1286,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": "Out",
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 14
         },
         {
           "player_id": "4227",
@@ -1385,13 +1385,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
           "injury_status": "Out",
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 5
         }
       ],
       "keepers": [
@@ -1423,13 +1423,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "injury_status": "Out",
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 14
         },
         {
           "player_id": "11586",
@@ -1450,13 +1450,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
           "injury_status": "Out",
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 5
         }
       ]
     },
@@ -1736,11 +1736,11 @@
         "9221",
         "4035",
         "7547",
-        "5846",
-        "10236",
         "12501",
+        "10236",
+        "5846",
         "11533",
-        "KC"
+        "GB"
       ],
       "players_current": [
         "10236",
@@ -1758,7 +1758,7 @@
         "7547",
         "9221",
         "9757",
-        "KC"
+        "GB"
       ],
       "starters": [
         {
@@ -1797,13 +1797,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "PIT",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 5
         },
         {
           "player_id": "10236",
@@ -1815,13 +1815,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "5846",
+          "name": "DK Metcalf",
           "position": "WR",
-          "team": "GB",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 3
         },
         {
           "player_id": "11533",
@@ -1833,10 +1833,10 @@
           "draft_round": 11
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City",
+          "player_id": "GB",
+          "name": "Green Bay",
           "position": "DEF",
-          "team": "KC",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         }
@@ -3604,7 +3604,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-09-30T08:31:05.581837Z",
-    "stale_after": "2026-09-30T09:31:05.581837Z"
+    "generated_at": "2026-09-30T15:14:08.302508Z",
+    "stale_after": "2026-09-30T16:14:08.302508Z"
   }
 }
