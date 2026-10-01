@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T02:30:00.451269Z",
-  "stale_after": "2026-10-01T03:30:00.451269Z",
+  "generated_at": "2026-10-01T09:22:53.841921Z",
+  "stale_after": "2026-10-01T10:22:53.841921Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-01T02:29:58.417743Z",
+    "snapshot_started_at": "2026-10-01T09:22:51.061984Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-01T02:29:58.489434Z"
+      "fetched_at": "2026-10-01T09:22:51.301539Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-01T02:29:58.706632Z"
+      "fetched_at": "2026-10-01T09:22:51.803709Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-01T02:29:58.779744Z"
+        "fetched_at": "2026-10-01T09:22:51.949282Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-01T02:29:58.869616Z"
+      "fetched_at": "2026-10-01T09:22:52.165653Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-10-01T02:30:00.336414Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 195,
+  "excluded_rostered_count": 194,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2849,
-  "all_player_count": 4192,
-  "player_count": 2849,
+  "default_player_count": 2850,
+  "all_player_count": 4193,
+  "player_count": 2850,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 564,
     "SS": 1,
     "TE": 547,
-    "WR": 1180
+    "WR": 1181
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -44117,6 +44117,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1789106724115,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "13296",
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "MIA",
+      "age": 23,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RWR",
+      "news_updated": 1790787919437,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
