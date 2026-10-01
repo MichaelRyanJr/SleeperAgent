@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:22:53.841921Z",
+  "generated_at": "2026-10-01T16:36:26.176880Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -379,7 +379,7 @@
         "3163",
         "8150",
         "5892",
-        "7526",
+        "9493",
         "8137",
         "13330",
         "7594",
@@ -433,13 +433,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
+          "team": "LAR",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 1
         },
         {
           "player_id": "8137",
@@ -524,6 +524,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
@@ -540,15 +549,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
         }
       ],
       "keepers": []
@@ -577,9 +577,9 @@
         "11435",
         "7588",
         "6786",
-        "11834",
-        "10859",
         "5846",
+        "10859",
+        "5927",
         "2747",
         "SEA"
       ],
@@ -639,12 +639,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
+          "player_id": "5846",
+          "name": "DK Metcalf",
           "position": "WR",
-          "team": "NO",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "10859",
@@ -656,13 +657,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "PIT",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 6
         },
         {
           "player_id": "2747",
@@ -712,6 +713,14 @@
           "draft_round": 10
         },
         {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -746,15 +755,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
         }
       ],
       "keepers": []
@@ -2880,7 +2880,7 @@
     "player_count": 2850,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-01T09:22:53.841921Z",
-    "stale_after": "2026-10-01T10:22:53.841921Z"
+    "generated_at": "2026-10-01T16:36:26.176880Z",
+    "stale_after": "2026-10-01T17:36:26.176880Z"
   }
 }
