@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T16:36:29.550634Z",
-  "stale_after": "2026-10-01T17:36:29.550634Z",
+  "generated_at": "2026-10-01T21:20:19.656810Z",
+  "stale_after": "2026-10-01T22:20:19.656810Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-01T16:36:26.798710Z",
+    "snapshot_started_at": "2026-10-01T21:20:17.145482Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-01T16:36:26.887700Z"
+      "fetched_at": "2026-10-01T21:20:17.326047Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-01T16:36:28.350544Z"
+      "fetched_at": "2026-10-01T21:20:17.704295Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-01T16:36:28.426855Z"
+        "fetched_at": "2026-10-01T21:20:17.788303Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-01T16:36:28.528073Z"
+      "fetched_at": "2026-10-01T21:20:17.984061Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -64241,6 +64241,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11625",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "NYJ",
+      "age": 23,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": "Doubtful",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RWR",
+      "news_updated": 1790789719668,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12865",
       "name": "AJ Henning",
       "position": "WR",
@@ -68055,32 +68081,6 @@
       "depth_chart_order": 6,
       "depth_chart_position": "SWR",
       "news_updated": 1787899857819,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "3634",
-      "name": "Kalif Raymond",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "CHI",
-      "age": 32,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "SWR",
-      "news_updated": 1790691002365,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
