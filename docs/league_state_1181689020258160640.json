@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:39:03.775557Z",
+  "generated_at": "2026-10-02T22:33:56.896468Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -372,30 +372,30 @@
         "7523",
         "12490",
         "11576",
-        "9493",
-        "11632",
+        "6786",
+        "11631",
         "7002",
         "11604",
         "11792",
         "LAR"
       ],
       "players_current": [
+        "11435",
         "11564",
         "11576",
         "11604",
         "11631",
-        "11632",
         "11792",
         "12490",
         "12534",
         "13286",
         "13414",
         "1479",
+        "6786",
         "7002",
         "7523",
         "8121",
         "8408",
-        "9493",
         "9753",
         "LAR"
       ],
@@ -428,22 +428,22 @@
           "draft_round": 15
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "NYG",
+          "team": "JAX",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 2
+          "draft_round": 7
         },
         {
           "player_id": "7002",
@@ -484,6 +484,14 @@
       ],
       "bench": [
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -491,15 +499,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 8
-        },
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "12534",
@@ -575,22 +574,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
+          "team": "JAX",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 2
+          "draft_round": 7
         },
         {
           "player_id": "11604",
@@ -609,15 +599,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 8
-        },
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "12534",
@@ -925,27 +906,28 @@
         "9228",
         "12533",
         "5967",
-        "11620",
-        "9756",
+        "9493",
+        "11632",
         "12517",
-        "8134",
+        "9756",
         "12015",
         "HOU"
       ],
       "players_current": [
         "11620",
+        "11632",
         "12015",
         "12508",
         "12517",
         "12533",
         "13269",
         "5967",
-        "6786",
         "6819",
         "7600",
         "8134",
         "9226",
         "9228",
+        "9493",
         "9502",
         "9756",
         "HOU",
@@ -979,22 +961,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 14
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
+          "player_id": "11632",
+          "name": "Malik Nabers",
           "position": "WR",
-          "team": "MIN",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 2
         },
         {
           "player_id": "12517",
@@ -1006,13 +988,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "9756",
+          "name": "Jordan Addison",
           "position": "WR",
-          "team": "BUF",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 6
         },
         {
           "player_id": "12015",
@@ -1035,6 +1017,15 @@
       ],
       "bench": [
         {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1053,15 +1044,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 2
-        },
-        {
           "player_id": "6819",
           "name": "Michael Pittman",
           "position": "WR",
@@ -1077,6 +1059,15 @@
           "team": "PIT",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "9226",
@@ -1115,15 +1106,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1133,6 +1115,15 @@
           "draft_round": 7
         },
         {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1140,15 +1131,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 2
         },
         {
           "player_id": "9226",
@@ -1742,12 +1724,12 @@
         "3634",
         "4035",
         "5012",
+        "5045",
         "5846",
         "5850",
         "7021",
         "7547",
         "9221",
-        "9757",
         "GB"
       ],
       "starters": [
@@ -1867,6 +1849,15 @@
           "draft_round": 12
         },
         {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -1883,14 +1874,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2730,7 +2713,7 @@
       "starters_current": [
         "5849",
         "6813",
-        "6806",
+        "12474",
         "8144",
         "7526",
         "9484",
@@ -2745,7 +2728,6 @@
         "12492",
         "13296",
         "13301",
-        "5045",
         "5849",
         "6797",
         "6806",
@@ -2777,13 +2759,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "DEN",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "8144",
@@ -2850,15 +2832,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "12492",
           "name": "Pat Bryant",
           "position": "WR",
@@ -2884,15 +2857,6 @@
           "keeper": false
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2900,6 +2864,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "8131",
@@ -2922,15 +2895,6 @@
           "draft_round": 3
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
@@ -2949,15 +2913,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2965,6 +2920,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         }
       ]
     },
@@ -3576,7 +3540,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-02T18:39:03.775557Z",
-    "stale_after": "2026-10-02T19:39:03.775557Z"
+    "generated_at": "2026-10-02T22:33:56.896468Z",
+    "stale_after": "2026-10-02T23:33:56.896468Z"
   }
 }
