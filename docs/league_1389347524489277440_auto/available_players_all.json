@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T21:20:16.458891Z",
-  "stale_after": "2026-10-01T22:20:16.458891Z",
+  "generated_at": "2026-10-02T00:56:59.169985Z",
+  "stale_after": "2026-10-02T01:56:59.169985Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-01T21:20:13.914531Z",
+    "snapshot_started_at": "2026-10-02T00:56:57.513917Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-01T21:20:14.115633Z"
+      "fetched_at": "2026-10-02T00:56:57.607827Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-01T21:20:14.473629Z"
+      "fetched_at": "2026-10-02T00:56:57.821197Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-01T21:20:14.673915Z"
+        "fetched_at": "2026-10-02T00:56:57.861836Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-01T21:20:14.833149Z"
+      "fetched_at": "2026-10-02T00:56:57.960397Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 194,
+  "excluded_rostered_count": 193,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
   "default_player_count": 2850,
-  "all_player_count": 4193,
-  "player_count": 4193,
+  "all_player_count": 4194,
+  "player_count": 4194,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 180,
     "P": 5,
     "QB": 453,
-    "RB": 876,
+    "RB": 877,
     "SS": 1,
     "T": 2,
     "TE": 818,
@@ -266,32 +266,6 @@
         "DEF"
       ],
       "team": "CAR",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "CHI",
-      "name": "Chicago Bears",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "CHI",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -604,6 +578,32 @@
         "DEF"
       ],
       "team": "NYJ",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "SF",
+      "name": "San Francisco 49ers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "SF",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -20986,6 +20986,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9226",
+      "name": "De'Von Achane",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "MIA",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 4,
+      "depth_chart_position": "RB",
+      "news_updated": 1790626507704,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 2
     },
     {
       "player_id": "13438",
@@ -68219,32 +68245,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "3634",
-      "name": "Kalif Raymond",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "CHI",
-      "age": 32,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "SWR",
-      "news_updated": 1790691002365,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "11994",
       "name": "Kameron Johnson",
       "position": "WR",
@@ -69127,6 +69127,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "11628",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "ARI",
+      "age": 24,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LWR",
+      "news_updated": 1790781917024,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 7
     },
     {
       "player_id": "9494",
@@ -70551,6 +70577,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1790777118259,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "8188",
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "KC",
+      "age": 26,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LWR",
+      "news_updated": 1790734812342,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -108052,32 +108104,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1566570631867,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "3321",
-      "name": "Tyreek Hill",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": null,
-      "age": 31,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": "",
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1790733910702,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
