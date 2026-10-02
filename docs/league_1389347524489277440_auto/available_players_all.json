@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T13:27:18.587963Z",
-  "stale_after": "2026-10-02T14:27:18.587963Z",
+  "generated_at": "2026-10-02T18:39:00.614416Z",
+  "stale_after": "2026-10-02T19:39:00.614416Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-02T13:27:17.399211Z",
+    "snapshot_started_at": "2026-10-02T18:38:58.164201Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-02T13:27:17.460570Z"
+      "fetched_at": "2026-10-02T18:38:58.334769Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-02T13:27:17.639494Z"
+      "fetched_at": "2026-10-02T18:38:58.667109Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-02T13:27:17.692564Z"
+        "fetched_at": "2026-10-02T18:38:58.871913Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-02T13:27:17.757320Z"
+      "fetched_at": "2026-10-02T18:38:59.030649Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,7 +51,7 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2850,
+  "default_player_count": 2849,
   "all_player_count": 4194,
   "player_count": 4194,
   "position_counts": {
@@ -66399,32 +66399,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "9486",
-      "name": "Dontayvion Wicks",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "PHI",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1790722806269,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "5282",
       "name": "Duplicate Player",
       "position": "WR",
@@ -67385,6 +67359,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "11618",
+      "name": "Jalen McMillan",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "TB",
+      "age": 24,
+      "years_exp": 2,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 7,
+      "depth_chart_position": "LWR",
+      "news_updated": 1790786117490,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 14
     },
     {
       "player_id": "8180",

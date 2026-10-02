@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:27:18.587963Z",
+  "generated_at": "2026-10-02T18:39:00.614416Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1771,7 +1771,6 @@
         "11560",
         "11583",
         "11604",
-        "11618",
         "11792",
         "12519",
         "12529",
@@ -1782,6 +1781,7 @@
         "7553",
         "8112",
         "8126",
+        "9486",
         "9502",
         "PIT"
       ],
@@ -1887,15 +1887,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "11618",
-          "name": "Jalen McMillan",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 14
-        },
-        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -1921,6 +1912,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9502",
@@ -2865,10 +2864,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2850,
+    "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-02T13:27:18.587963Z",
-    "stale_after": "2026-10-02T14:27:18.587963Z"
+    "generated_at": "2026-10-02T18:39:00.614416Z",
+    "stale_after": "2026-10-02T19:39:00.614416Z"
   }
 }
