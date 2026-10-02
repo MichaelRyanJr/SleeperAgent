@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:57:01.330311Z",
+  "generated_at": "2026-10-02T06:52:27.932755Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -533,7 +533,7 @@
           "name": "Keenan Allen",
           "position": "WR",
           "team": "IND",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -672,7 +672,6 @@
         "13417",
         "2747",
         "4892",
-        "7526",
         "7588",
         "8130",
         "8132",
@@ -828,15 +827,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -900,15 +890,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
         }
       ]
     },
@@ -928,17 +909,17 @@
       "points_for": 270.34,
       "points_against": 420.86,
       "waiver": {
-        "position": 9,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
         "9228",
         "12533",
         "5967",
-        "6786",
+        "11620",
         "9756",
         "12517",
-        "7571",
+        "8134",
         "12015",
         "HOU"
       ],
@@ -948,16 +929,15 @@
         "12508",
         "12517",
         "12533",
+        "13269",
         "5967",
         "6786",
         "6819",
-        "7571",
         "7600",
         "8134",
         "9226",
         "9228",
         "9502",
-        "9508",
         "9756",
         "HOU",
         "SF"
@@ -985,18 +965,18 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "DAL",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 2
+          "draft_round": 5
         },
         {
           "player_id": "9756",
@@ -1017,12 +997,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "BAL",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "12015",
@@ -1045,15 +1026,6 @@
       ],
       "bench": [
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1061,6 +1033,24 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "13269",
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
+        },
+        {
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "6819",
@@ -1080,15 +1070,6 @@
           "keeper": false
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "9226",
           "name": "De'Von Achane",
           "position": "RB",
@@ -1104,15 +1085,6 @@
           "team": "HOU",
           "injury_status": "IR",
           "keeper": false
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "SF",
@@ -1134,13 +1106,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "DAL",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 2
+          "draft_round": 5
         },
         {
           "player_id": "12517",
@@ -1152,15 +1124,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1168,6 +1131,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "9226",
@@ -1196,7 +1168,7 @@
       "points_for": 465.2,
       "points_against": 475.16,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1236,7 +1208,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 3
         },
@@ -1389,7 +1361,7 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
         }
@@ -1400,7 +1372,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 3
         },
@@ -1454,7 +1426,7 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
         }
@@ -1486,9 +1458,9 @@
         "11635",
         "11646",
         "10859",
-        "7525",
+        "12519",
         "12711",
-        "NE"
+        "BUF"
       ],
       "players_current": [
         "10859",
@@ -1506,6 +1478,7 @@
         "6904",
         "7525",
         "9224",
+        "BUF",
         "NE"
       ],
       "starters": [
@@ -1564,13 +1537,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 2
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "12711",
@@ -1582,13 +1555,12 @@
           "draft_round": 16
         },
         {
-          "player_id": "NE",
-          "name": "New England",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "NE",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         }
       ],
       "bench": [
@@ -1609,15 +1581,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         },
         {
           "player_id": "13345",
@@ -1653,6 +1616,24 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
+          "player_id": "NE",
+          "name": "New England",
+          "position": "DEF",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": [
@@ -1684,15 +1665,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -1700,6 +1672,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "5947",
@@ -1728,7 +1709,7 @@
       "points_for": 416.4,
       "points_against": 312.52,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1983,7 +1964,7 @@
         "421",
         "8138",
         "12507",
-        "6794",
+        "9997",
         "8137",
         "3214",
         "7594",
@@ -2038,13 +2019,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "8137",
@@ -2138,6 +2119,15 @@
           "keeper": false
         },
         {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "8676",
           "name": "Rashid Shaheed",
           "position": "WR",
@@ -2154,15 +2144,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
         }
       ],
       "keepers": [
@@ -2183,6 +2164,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "8137",
@@ -2219,15 +2209,6 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
         }
       ]
     },
@@ -2247,7 +2228,7 @@
       "points_for": 431.88,
       "points_against": 433.8,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2340,7 +2321,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -2387,7 +2368,7 @@
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2486,7 +2467,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -2742,7 +2723,7 @@
         "6813",
         "6806",
         "8144",
-        "5045",
+        "7526",
         "9484",
         "9500",
         "12185",
@@ -2760,9 +2741,9 @@
         "6797",
         "6806",
         "6813",
+        "7526",
         "8131",
         "8144",
-        "9225",
         "9484",
         "9500",
         "CLE"
@@ -2805,13 +2786,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
           "team": "DEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "9484",
@@ -2894,6 +2875,15 @@
           "keeper": false
         },
         {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2910,14 +2900,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2949,15 +2931,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
@@ -2965,6 +2938,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "6797",
@@ -3123,7 +3105,7 @@
           "name": "Chris Godwin",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -3496,7 +3478,7 @@
       "week": 4,
       "roster_id": 1,
       "opponent_roster_id": 9,
-      "points": 6.9,
+      "points": 27.3,
       "result": "W"
     },
     {
@@ -3524,7 +3506,7 @@
       "week": 4,
       "roster_id": 3,
       "opponent_roster_id": 4,
-      "points": 10.0,
+      "points": 8.0,
       "result": "W"
     },
     {
@@ -3559,14 +3541,14 @@
       "week": 4,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 5.0,
+      "points": 9.0,
       "result": "W"
     },
     {
       "week": 4,
       "roster_id": 7,
       "opponent_roster_id": 12,
-      "points": 4.2,
+      "points": 19.5,
       "result": "W"
     },
     {
@@ -3582,10 +3564,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2841,
+    "player_count": 2843,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-02T00:57:01.330311Z",
-    "stale_after": "2026-10-02T01:57:01.330311Z"
+    "generated_at": "2026-10-02T06:52:27.932755Z",
+    "stale_after": "2026-10-02T07:52:27.932755Z"
   }
 }

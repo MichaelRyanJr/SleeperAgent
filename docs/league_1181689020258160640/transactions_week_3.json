@@ -27,6 +27,46 @@
     "waiver_budget": []
   },
   {
+    "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "notes": "Your trade was processed successfully!",
+      "poll_id": "1410683289051607040",
+      "veto_msg_id": "1410683289118703616"
+    },
+    "created": 1790695385905,
+    "settings": null,
+    "leg": 3,
+    "draft_picks": [
+      {
+        "round": 2,
+        "season": "2027",
+        "league_id": null,
+        "roster_id": 11,
+        "owner_id": 3,
+        "previous_owner_id": 11
+      }
+    ],
+    "creator": "1002420063170924544",
+    "transaction_id": "1410682329667543040",
+    "adds": {
+      "7526": 11
+    },
+    "drops": {
+      "7526": 3
+    },
+    "consenter_ids": [
+      3,
+      11
+    ],
+    "roster_ids": [
+      3,
+      11
+    ],
+    "status_updated": 1790922163358,
+    "waiver_budget": []
+  },
+  {
     "status": "failed",
     "type": "waiver",
     "metadata": {
