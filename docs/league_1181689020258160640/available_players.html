@@ -3,7 +3,7 @@
 <title>Available players - Grub from the Fantasy</title>
 <style>body{font:16px/1.5 system-ui;margin:2em;max-width:1200px}table{border-collapse:collapse;width:100%}th,td{padding:.45em;text-align:left;border-bottom:1px solid #ccc}th{position:sticky;top:0;background:white}input,select{font:inherit;padding:.35em}small{display:block}.notice{border:2px solid;padding:1em}#stale{font-weight:bold}</style>
 <h1>Available players - Grub from the Fantasy</h1><p><strong>UNROSTERED SNAPSHOT</strong> | Season 2026 | League 1312845245053939712</p>
-<p>Snapshot: <time>2026-10-02T06:52:27.932755Z</time><small>Catalog metadata fetched: 2026-10-02T06:52:25.953173Z</small></p>
+<p>Snapshot: <time>2026-10-02T13:27:20.362813Z</time><small>Catalog metadata fetched: 2026-10-02T06:52:25.953173Z</small></p>
 <p id="stale" role="status"></p><div class="notice">
 <p>Unrostered does not mean immediately claimable. The public API does not provide an authoritative per-player waiver/free-agent lock, claim deadline, or private pending claim list. Confirm acquisition in the Sleeper app.</p>
 </div><p><a href="available_players.json">JSON</a> | <a href="available_players.csv">CSV</a> | <a href="available_players_all.json">All eligible unrostered catalog entries (includes inactive players)</a></p>
@@ -1874,7 +1874,6 @@
 <tr data-pos="WR"><td>Tim Jones<small>8013</small></td><td>WR</td><td>JAX</td><td>28</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Tom Kennedy<small>6588</small></td><td>WR</td><td>DET</td><td>30</td><td></td><td>Active</td><td>5</td><td></td></tr>
 <tr data-pos="WR"><td>Tory Horton<small>12497</small></td><td>WR</td><td>SEA</td><td>23</td><td></td><td>Active</td><td>4</td><td></td></tr>
-<tr data-pos="WR"><td>Tre&#x27; Harris<small>12509</small></td><td>WR</td><td>LAC</td><td>24</td><td></td><td>Active</td><td>3</td><td></td></tr>
 <tr data-pos="WR"><td>Trebor Pena<small>13356</small></td><td>WR</td><td>JAX</td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Trent Sherfield<small>5154</small></td><td>WR</td><td>BUF</td><td>30</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Trey Palmer<small>9492</small></td><td>WR</td><td>NO</td><td>25</td><td></td><td>Active</td><td></td><td></td></tr>
@@ -2861,7 +2860,7 @@
 <tr data-pos="WR"><td>Zimari Manning<small>7211</small></td><td>WR</td><td></td><td>26</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Zion Bowens<small>11159</small></td><td>WR</td><td></td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
 </tbody></table></div><script>
-const expiry = "2026-10-02T07:52:27.932755Z";
+const expiry = "2026-10-02T14:27:20.362813Z";
 const rows = Array.from(document.querySelectorAll('tbody tr'));
 function filter(){const q=document.getElementById('q').value.toLowerCase();const p=document.getElementById('pos').value;let count=0;rows.forEach(r=>{r.hidden=!(r.textContent.toLowerCase().includes(q)&&(!p||r.dataset.pos.split(' ').includes(p)));if(!r.hidden)count++;});document.getElementById('count').textContent=count+' of '+rows.length+' players shown';}
 function age(){document.getElementById('stale').textContent=Date.now()>Date.parse(expiry)?'STALE SNAPSHOT: more than one hour old. Recheck the next sync or Sleeper before acting.':'';}

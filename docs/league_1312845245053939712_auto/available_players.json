@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T06:52:27.932755Z",
-  "stale_after": "2026-10-02T07:52:27.932755Z",
+  "generated_at": "2026-10-02T13:27:20.362813Z",
+  "stale_after": "2026-10-02T14:27:20.362813Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-02T06:52:26.493777Z",
+    "snapshot_started_at": "2026-10-02T13:27:19.184727Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-02T06:52:26.570934Z"
+      "fetched_at": "2026-10-02T13:27:19.248051Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-02T06:52:26.763909Z"
+      "fetched_at": "2026-10-02T13:27:19.417088Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-02T06:52:26.834548Z"
+        "fetched_at": "2026-10-02T13:27:19.463071Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-02T06:52:26.926909Z"
+      "fetched_at": "2026-10-02T13:27:19.539442Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 204,
+  "excluded_rostered_count": 205,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2843,
-  "all_player_count": 4183,
-  "player_count": 2843,
+  "default_player_count": 2842,
+  "all_player_count": 4182,
+  "player_count": 2842,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 566,
     "SS": 1,
     "TE": 547,
-    "WR": 1175
+    "WR": 1174
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -48355,32 +48355,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1790727610038,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12509",
-      "name": "Tre' Harris",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "LAC",
-      "age": 24,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RWR",
-      "news_updated": 1790650809213,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
