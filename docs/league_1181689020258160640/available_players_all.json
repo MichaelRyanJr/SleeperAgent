@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:33:56.896468Z",
-  "stale_after": "2026-10-02T23:33:56.896468Z",
+  "generated_at": "2026-10-03T01:24:24.746009Z",
+  "stale_after": "2026-10-03T02:24:24.746009Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-02T22:33:54.808081Z",
+    "snapshot_started_at": "2026-10-03T01:24:23.153765Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-02T22:33:54.942990Z"
+      "fetched_at": "2026-10-03T01:24:23.240508Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-02T22:33:55.235393Z"
+      "fetched_at": "2026-10-03T01:24:23.479000Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-02T22:33:55.274433Z"
+        "fetched_at": "2026-10-03T01:24:23.551456Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-02T22:33:55.453601Z"
+      "fetched_at": "2026-10-03T01:24:23.671677Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,12 +62,12 @@
     "FB": 112,
     "K": 179,
     "P": 5,
-    "QB": 452,
+    "QB": 453,
     "RB": 877,
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1715
+    "WR": 1714
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -8506,6 +8506,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "4892",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "TB",
+      "age": 31,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "QB",
+      "news_updated": 1790620806635,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 13
     },
     {
       "player_id": "13295",
@@ -67379,32 +67405,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1790130611143,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7049",
-      "name": "Jauan Jennings",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "MIN",
-      "age": 29,
-      "years_exp": 6,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "SWR",
-      "news_updated": 1790657710483,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
