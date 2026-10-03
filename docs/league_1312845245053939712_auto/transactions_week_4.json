@@ -12,12 +12,12 @@
     "adds": {
       "7049": 3
     },
-    "drops": {
-      "4892": 3
-    },
     "consenter_ids": [
       3
     ],
+    "drops": {
+      "4892": 3
+    },
     "roster_ids": [
       3
     ],
@@ -37,10 +37,10 @@
     "adds": {
       "11435": 2
     },
-    "drops": null,
     "consenter_ids": [
       2
     ],
+    "drops": null,
     "roster_ids": [
       2
     ],
@@ -58,12 +58,12 @@
     "creator": "866098578773393408",
     "transaction_id": "1411856857319878656",
     "adds": null,
-    "drops": {
-      "9757": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "9757": 7
+    },
     "roster_ids": [
       7
     ],
@@ -83,10 +83,10 @@
     "adds": {
       "12509": 3
     },
-    "drops": null,
     "consenter_ids": [
       3
     ],
+    "drops": null,
     "roster_ids": [
       3
     ],
@@ -104,12 +104,12 @@
     "creator": "1002420063170924544",
     "transaction_id": "1411633695265234944",
     "adds": null,
-    "drops": {
-      "9225": 11
-    },
     "consenter_ids": [
       11
     ],
+    "drops": {
+      "9225": 11
+    },
     "roster_ids": [
       11
     ],
@@ -127,12 +127,12 @@
     "creator": "1001899210561703936",
     "transaction_id": "1411612807559921664",
     "adds": null,
-    "drops": {
-      "7571": 4
-    },
     "consenter_ids": [
       4
     ],
+    "drops": {
+      "7571": 4
+    },
     "roster_ids": [
       4
     ],
@@ -152,14 +152,41 @@
     "adds": {
       "BUF": 6
     },
-    "drops": null,
     "consenter_ids": [
       6
     ],
+    "drops": null,
     "roster_ids": [
       6
     ],
     "status_updated": 1790904665440,
+    "waiver_budget": []
+  },
+  {
+    "status": "failed",
+    "type": "waiver",
+    "metadata": {
+      "notes": "One of the players you are trying to drop has already started playing."
+    },
+    "created": 1790895806038,
+    "settings": {
+      "seq": 0
+    },
+    "leg": 4,
+    "draft_picks": [],
+    "creator": "1001899210561703936",
+    "transaction_id": "1411522952633049088",
+    "adds": {
+      "11625": 4
+    },
+    "consenter_ids": [
+      4
+    ],
+    "drops": null,
+    "roster_ids": [
+      4
+    ],
+    "status_updated": 1791050028525,
     "waiver_budget": []
   },
   {
@@ -175,12 +202,12 @@
     "adds": {
       "3634": 7
     },
-    "drops": {
-      "11625": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "11625": 7
+    },
     "roster_ids": [
       7
     ],
@@ -200,12 +227,12 @@
     "adds": {
       "CLE": 11
     },
-    "drops": {
-      "CIN": 11
-    },
     "consenter_ids": [
       11
     ],
+    "drops": {
+      "CIN": 11
+    },
     "roster_ids": [
       11
     ],
@@ -223,12 +250,12 @@
     "creator": "1002296149069467648",
     "transaction_id": "1411099681886322688",
     "adds": null,
-    "drops": {
-      "10222": 10
-    },
     "consenter_ids": [
       10
     ],
+    "drops": {
+      "10222": 10
+    },
     "roster_ids": [
       10
     ],
@@ -246,12 +273,12 @@
     "creator": "1002296149069467648",
     "transaction_id": "1411099553616162816",
     "adds": null,
-    "drops": {
-      "9511": 10
-    },
     "consenter_ids": [
       10
     ],
+    "drops": {
+      "9511": 10
+    },
     "roster_ids": [
       10
     ],
@@ -271,12 +298,12 @@
     "adds": {
       "1479": 2
     },
-    "drops": {
-      "13347": 2
-    },
     "consenter_ids": [
       2
     ],
+    "drops": {
+      "13347": 2
+    },
     "roster_ids": [
       2
     ],
@@ -312,15 +339,15 @@
       "6786": 2,
       "9493": 4
     },
+    "consenter_ids": [
+      2,
+      4
+    ],
     "drops": {
       "11632": 2,
       "6786": 4,
       "9493": 2
     },
-    "consenter_ids": [
-      2,
-      4
-    ],
     "roster_ids": [
       2,
       4
@@ -341,12 +368,12 @@
     "adds": {
       "GB": 7
     },
-    "drops": {
-      "KC": 7
-    },
     "consenter_ids": [
       7
     ],
+    "drops": {
+      "KC": 7
+    },
     "roster_ids": [
       7
     ],
@@ -388,13 +415,13 @@
     "adds": {
       "5045": 7
     },
-    "drops": {
-      "5045": 11
-    },
     "consenter_ids": [
       7,
       11
     ],
+    "drops": {
+      "5045": 11
+    },
     "roster_ids": [
       7,
       11
@@ -419,12 +446,12 @@
     "adds": {
       "13269": 4
     },
-    "drops": {
-      "9508": 4
-    },
     "consenter_ids": [
       4
     ],
+    "drops": {
+      "9508": 4
+    },
     "roster_ids": [
       4
     ],
