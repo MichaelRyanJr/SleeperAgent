@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:24:22.488091Z",
+  "generated_at": "2026-10-03T06:52:02.014001Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1959,7 +1959,7 @@
         "10232",
         "9487",
         "12517",
-        "0",
+        "11635",
         "0",
         "HOU"
       ],
@@ -2036,6 +2036,15 @@
           "draft_round": 4
         },
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
           "player_id": "HOU",
           "name": "Houston",
           "position": "DEF",
@@ -2053,15 +2062,6 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "11643",
@@ -2867,7 +2867,7 @@
     "player_count": 2849,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-03T01:24:22.488091Z",
-    "stale_after": "2026-10-03T02:24:22.488091Z"
+    "generated_at": "2026-10-03T06:52:02.014001Z",
+    "stale_after": "2026-10-03T07:52:02.014001Z"
   }
 }

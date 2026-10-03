@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:24:24.746009Z",
+  "generated_at": "2026-10-03T06:52:04.286941Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -373,7 +373,7 @@
         "12490",
         "11576",
         "6786",
-        "11631",
+        "1479",
         "7002",
         "11604",
         "11792",
@@ -437,13 +437,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "team": "IND",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "7002",
@@ -501,6 +500,15 @@
           "draft_round": 8
         },
         {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "12534",
           "name": "Kyle Monangai",
           "position": "RB",
@@ -526,14 +534,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": "Questionable",
-          "keeper": false
         },
         {
           "player_id": "8121",
@@ -574,15 +574,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "11604",
           "name": "Brock Bowers",
           "position": "TE",
@@ -599,6 +590,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 8
+        },
+        {
+          "player_id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "12534",
@@ -3530,7 +3530,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-03T01:24:24.746009Z",
-    "stale_after": "2026-10-03T02:24:24.746009Z"
+    "generated_at": "2026-10-03T06:52:04.286941Z",
+    "stale_after": "2026-10-03T07:52:04.286941Z"
   }
 }
