@@ -2,7 +2,7 @@
   {
     "roster_id": 1,
     "opponent_roster_id": 7,
-    "points": 0.0,
+    "points": 10.0,
     "starters": [
       {
         "player_id": "4881",
@@ -26,11 +26,11 @@
         "injury_status": null
       },
       {
-        "player_id": "6794",
-        "name": "Justin Jefferson",
+        "player_id": "13294",
+        "name": "Makai Lemon",
         "position": "WR",
-        "team": "MIN",
-        "injury_status": "Out"
+        "team": "PHI",
+        "injury_status": null
       },
       {
         "player_id": "12526",
@@ -47,10 +47,10 @@
         "injury_status": null
       },
       {
-        "player_id": "10213",
-        "name": "Tre Tucker",
-        "position": "WR",
-        "team": "LV",
+        "player_id": "12507",
+        "name": "Omarion Hampton",
+        "position": "RB",
+        "team": "LAC",
         "injury_status": null
       },
       {
@@ -69,6 +69,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "10213",
+        "name": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
+        "injury_status": null
+      },
       {
         "player_id": "11603",
         "name": "AJ Barner",
@@ -91,13 +98,6 @@
         "injury_status": null
       },
       {
-        "player_id": "12507",
-        "name": "Omarion Hampton",
-        "position": "RB",
-        "team": "LAC",
-        "injury_status": null
-      },
-      {
         "player_id": "12534",
         "name": "Kyle Monangai",
         "position": "RB",
@@ -112,18 +112,18 @@
         "injury_status": null
       },
       {
-        "player_id": "13294",
-        "name": "Makai Lemon",
+        "player_id": "6794",
+        "name": "Justin Jefferson",
         "position": "WR",
-        "team": "PHI",
-        "injury_status": null
+        "team": "MIN",
+        "injury_status": "Out"
       }
     ]
   },
   {
     "roster_id": 7,
     "opponent_roster_id": 1,
-    "points": 0.0,
+    "points": 10.1,
     "starters": [
       {
         "player_id": "12545",
@@ -358,13 +358,13 @@
   {
     "roster_id": 12,
     "opponent_roster_id": 2,
-    "points": 0.0,
+    "points": 32.2,
     "starters": [
       {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
+        "player_id": "11563",
+        "name": "Bo Nix",
         "position": "QB",
-        "team": "PHI",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -426,17 +426,17 @@
     ],
     "bench": [
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
         "player_id": "2449",
         "name": "Stefon Diggs",
         "position": "WR",
         "team": "WAS",
+        "injury_status": null
+      },
+      {
+        "player_id": "6904",
+        "name": "Jalen Hurts",
+        "position": "QB",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -666,10 +666,10 @@
         "injury_status": null
       },
       {
-        "player_id": "NE",
-        "name": "New England",
+        "player_id": "SF",
+        "name": "San Francisco",
         "position": "DEF",
-        "team": "NE",
+        "team": "SF",
         "injury_status": null
       }
     ],
@@ -735,7 +735,7 @@
   {
     "roster_id": 5,
     "opponent_roster_id": 10,
-    "points": 0.0,
+    "points": 17.4,
     "starters": [
       {
         "player_id": "8161",
@@ -856,7 +856,7 @@
   {
     "roster_id": 10,
     "opponent_roster_id": 5,
-    "points": 0.0,
+    "points": 10.0,
     "starters": [
       {
         "player_id": "9228",
@@ -913,16 +913,16 @@
         "position": "K",
         "team": "DET",
         "injury_status": null
+      },
+      {
+        "player_id": "BUF",
+        "name": "Buffalo",
+        "position": "DEF",
+        "team": "BUF",
+        "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "10218",
-        "name": "Xavier Hutchinson",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": null
-      },
       {
         "player_id": "11635",
         "name": "Ladd McConkey",
@@ -984,7 +984,7 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 8,
-    "points": 10.2,
+    "points": 23.3,
     "starters": [
       {
         "player_id": "4984",
@@ -1105,7 +1105,7 @@
   {
     "roster_id": 8,
     "opponent_roster_id": 6,
-    "points": 0.0,
+    "points": 6.6,
     "starters": [
       {
         "player_id": "7523",
@@ -1220,6 +1220,13 @@
         "position": "RB",
         "team": "GB",
         "injury_status": "NA"
+      },
+      {
+        "player_id": "9753",
+        "name": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
+        "injury_status": "PUP"
       }
     ]
   },
@@ -1347,7 +1354,7 @@
   {
     "roster_id": 11,
     "opponent_roster_id": 9,
-    "points": 32.7,
+    "points": 42.7,
     "starters": [
       {
         "player_id": "11564",

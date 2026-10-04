@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:43:30.190552Z",
+  "generated_at": "2026-10-04T17:04:29.414181Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -185,10 +185,10 @@
         "4881",
         "11576",
         "12481",
-        "6794",
+        "13294",
         "12526",
         "8130",
-        "10213",
+        "12507",
         "8259",
         "LAR"
       ],
@@ -238,13 +238,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "13294",
+          "name": "Makai Lemon",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": "Out",
+          "team": "PHI",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 8
         },
         {
           "player_id": "12526",
@@ -265,12 +265,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "8259",
@@ -292,6 +293,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "11603",
           "name": "AJ Barner",
@@ -318,15 +327,6 @@
           "keeper": false
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "12534",
           "name": "Kyle Monangai",
           "position": "RB",
@@ -345,13 +345,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "PHI",
-          "injury_status": null,
+          "team": "MIN",
+          "injury_status": "Out",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 1
         }
       ],
       "keepers": []
@@ -787,7 +787,7 @@
         "9484",
         "7569",
         "5189",
-        "NE"
+        "SF"
       ],
       "players_current": [
         "11566",
@@ -806,7 +806,7 @@
         "9484",
         "9509",
         "9757",
-        "NE"
+        "SF"
       ],
       "starters": [
         {
@@ -882,13 +882,12 @@
           "draft_round": 16
         },
         {
-          "player_id": "NE",
-          "name": "New England",
+          "player_id": "SF",
+          "name": "San Francisco",
           "position": "DEF",
-          "team": "NE",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         }
       ],
       "bench": [
@@ -1586,6 +1585,7 @@
         "7523",
         "8167",
         "9224",
+        "9753",
         "9997",
         "KC"
       ],
@@ -1733,6 +1733,15 @@
           "injury_status": "NA",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "PUP",
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": []
@@ -1961,10 +1970,9 @@
         "12517",
         "7002",
         "11539",
-        "0"
+        "BUF"
       ],
       "players_current": [
-        "10218",
         "10232",
         "11539",
         "11635",
@@ -1980,6 +1988,7 @@
         "9225",
         "9228",
         "9487",
+        "BUF",
         "LV"
       ],
       "starters": [
@@ -2052,17 +2061,17 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
+        },
+        {
+          "player_id": "BUF",
+          "name": "Buffalo",
+          "position": "DEF",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "10218",
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
@@ -2351,7 +2360,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6904",
+        "11563",
         "6813",
         "3198",
         "9756",
@@ -2381,13 +2390,13 @@
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "PHI",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 12
         },
         {
           "player_id": "6813",
@@ -2463,15 +2472,6 @@
       ],
       "bench": [
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "2449",
           "name": "Stefon Diggs",
           "position": "WR",
@@ -2479,6 +2479,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "7525",
@@ -2786,29 +2795,29 @@
       "week": 4,
       "roster_id": 1,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 10.0,
+      "result": "L"
     },
     {
       "week": 4,
       "roster_id": 7,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 10.1,
+      "result": "W"
     },
     {
       "week": 4,
       "roster_id": 2,
       "opponent_roster_id": 12,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 4,
       "roster_id": 12,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 32.2,
+      "result": "W"
     },
     {
       "week": 4,
@@ -2828,28 +2837,28 @@
       "week": 4,
       "roster_id": 5,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 17.4,
+      "result": "W"
     },
     {
       "week": 4,
       "roster_id": 10,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 10.0,
+      "result": "L"
     },
     {
       "week": 4,
       "roster_id": 6,
       "opponent_roster_id": 8,
-      "points": 10.2,
+      "points": 23.3,
       "result": "W"
     },
     {
       "week": 4,
       "roster_id": 8,
       "opponent_roster_id": 6,
-      "points": 0.0,
+      "points": 6.6,
       "result": "L"
     },
     {
@@ -2863,7 +2872,7 @@
       "week": 4,
       "roster_id": 11,
       "opponent_roster_id": 9,
-      "points": 32.7,
+      "points": 42.7,
       "result": "W"
     }
   ],
@@ -2875,7 +2884,7 @@
     "player_count": 2846,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-04T12:43:30.190552Z",
-    "stale_after": "2026-10-04T13:43:30.190552Z"
+    "generated_at": "2026-10-04T17:04:29.414181Z",
+    "stale_after": "2026-10-04T18:04:29.414181Z"
   }
 }

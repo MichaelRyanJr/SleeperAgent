@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T12:43:30.190552Z",
-  "stale_after": "2026-10-04T13:43:30.190552Z",
+  "generated_at": "2026-10-04T17:04:29.414181Z",
+  "stale_after": "2026-10-04T18:04:29.414181Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-04T12:43:27.191847Z",
+    "snapshot_started_at": "2026-10-04T17:04:27.609956Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-04T12:43:27.324775Z"
+      "fetched_at": "2026-10-04T17:04:27.700519Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-04T12:43:27.664678Z"
+      "fetched_at": "2026-10-04T17:04:27.911720Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-04T12:43:27.796551Z"
+        "fetched_at": "2026-10-04T17:04:27.962481Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-04T12:43:27.949877Z"
+      "fetched_at": "2026-10-04T17:04:28.107735Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-10-04T12:43:30.035714Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -47,17 +47,17 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 194,
+  "excluded_rostered_count": 195,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
   "default_player_count": 2846,
-  "all_player_count": 4193,
+  "all_player_count": 4192,
   "player_count": 2846,
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 20,
+    "DEF": 19,
     "FB": 65,
     "K": 139,
     "P": 4,
@@ -65,7 +65,7 @@
     "RB": 562,
     "SS": 1,
     "TE": 547,
-    "WR": 1179
+    "WR": 1180
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -159,32 +159,6 @@
         "DEF"
       ],
       "team": "ATL",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "BUF",
-      "name": "Buffalo Bills",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "BUF",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -487,6 +461,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "NE",
+      "name": "New England Patriots",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "NE",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
+    },
+    {
       "player_id": "NYG",
       "name": "New York Giants",
       "position": "DEF",
@@ -523,32 +523,6 @@
         "DEF"
       ],
       "team": "NYJ",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "SF",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -49005,6 +48979,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788304823012,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10218",
+      "name": "Xavier Hutchinson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "age": 26,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LWR",
+      "news_updated": 1791033919653,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
