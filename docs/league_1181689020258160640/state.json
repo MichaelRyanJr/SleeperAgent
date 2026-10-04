@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:42:33.737770Z",
+  "generated_at": "2026-10-04T06:23:57.291034Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -889,7 +889,7 @@
       "points_for": 270.34,
       "points_against": 420.86,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1149,7 +1149,7 @@
       "points_for": 465.2,
       "points_against": 475.16,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1690,7 +1690,7 @@
       "points_for": 416.4,
       "points_against": 312.52,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2210,7 +2210,7 @@
       "points_for": 431.88,
       "points_against": 433.8,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2697,7 +2697,7 @@
       "points_for": 303.46,
       "points_against": 318.82,
       "waiver": {
-        "position": 7,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -2727,6 +2727,7 @@
         "8144",
         "9484",
         "9500",
+        "9508",
         "CLE"
       ],
       "starters": [
@@ -2872,6 +2873,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
         }
       ],
       "keepers": [
@@ -2938,7 +2948,7 @@
       "points_for": 409.8,
       "points_against": 393.92,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -3527,10 +3537,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2841,
+    "player_count": 2840,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-04T00:42:33.737770Z",
-    "stale_after": "2026-10-04T01:42:33.737770Z"
+    "generated_at": "2026-10-04T06:23:57.291034Z",
+    "stale_after": "2026-10-04T07:23:57.291034Z"
   }
 }

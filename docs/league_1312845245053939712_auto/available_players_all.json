@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T00:42:33.737770Z",
-  "stale_after": "2026-10-04T01:42:33.737770Z",
+  "generated_at": "2026-10-04T06:23:57.291034Z",
+  "stale_after": "2026-10-04T07:23:57.291034Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-04T00:42:32.197957Z",
+    "snapshot_started_at": "2026-10-04T06:23:55.645723Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-04T00:42:32.279074Z"
+      "fetched_at": "2026-10-04T06:23:55.737551Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-04T00:42:32.523689Z"
+      "fetched_at": "2026-10-04T06:23:55.960864Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-04T00:42:32.603974Z"
+        "fetched_at": "2026-10-04T06:23:56.097592Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-04T00:42:32.699506Z"
+      "fetched_at": "2026-10-04T06:23:56.210729Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 205,
+  "excluded_rostered_count": 206,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2841,
-  "all_player_count": 4182,
-  "player_count": 4182,
+  "default_player_count": 2840,
+  "all_player_count": 4181,
+  "player_count": 4181,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 179,
     "P": 5,
     "QB": 453,
-    "RB": 877,
+    "RB": 876,
     "SS": 1,
     "T": 2,
     "TE": 817,
@@ -23300,32 +23300,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "TEN",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1791010817739,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 12
     },
     {
       "player_id": "8208",

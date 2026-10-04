@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:42:34.019554Z",
+  "generated_at": "2026-10-04T06:23:57.740526Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -5329,6 +5329,33 @@
           "keeper_cost_round_is_provisional": false
         },
         {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "injury_status": "Questionable",
+          "original_draft_round": 10,
+          "original_draft_pick_no": 118,
+          "original_draft_slot": 10,
+          "original_drafted_by": "1002276479373369344",
+          "original_draft_roster_id": 9,
+          "acquired_via": "waiver",
+          "acquisition_transaction_id": "1411830318691799040",
+          "acquisition_time": "2026-10-02T19:24:47.817000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 10,
+          "keeper_cost_round": 10,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": 12,
+          "base_keeper_cost_round": 10,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "CLE",
           "name": "Cleveland",
           "position": "DEF",
@@ -5841,5 +5868,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-04T00:42:34.047122Z"
+  "rules_updated_at": "2026-10-04T06:23:57.787179Z"
 }
