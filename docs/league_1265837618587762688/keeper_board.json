@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:23:55.469260Z",
+  "generated_at": "2026-10-04T12:43:30.669207Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1282,7 +1282,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "original_draft_round": 3,
           "original_draft_pick_no": 35,
           "original_draft_slot": 11,
@@ -4263,7 +4263,7 @@
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "original_draft_round": null,
           "original_draft_pick_no": null,
           "original_draft_slot": null,
@@ -4529,30 +4529,30 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "LV",
+          "name": "Las Vegas",
           "position": "DEF",
-          "team": "HOU",
+          "team": "LV",
           "injury_status": null,
-          "original_draft_round": 16,
-          "original_draft_pick_no": 191,
-          "original_draft_slot": 2,
-          "original_drafted_by": "733489057216184320",
-          "original_draft_roster_id": 7,
-          "acquired_via": "trade_or_other",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1412452036313657344",
+          "acquisition_time": "2026-10-04T12:35:16.849000Z",
+          "acquisition_league_id": "1389347524489277440",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 16,
-          "keeper_cost_round": 16,
-          "keeper_cost_source": "previous_draft",
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
           "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 11,
-          "base_keeper_cost_round": 16,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
           "keeper_cost_round_is_provisional": true
         }
       ]
@@ -5456,5 +5456,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-04T06:23:55.515869Z"
+  "rules_updated_at": "2026-10-04T12:43:30.712897Z"
 }

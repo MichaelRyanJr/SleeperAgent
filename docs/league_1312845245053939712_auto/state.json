@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:23:57.291034Z",
+  "generated_at": "2026-10-04T12:43:33.502812Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -105,7 +105,7 @@
         "9488",
         "8167",
         "12506",
-        "5927",
+        "12529",
         "11786",
         "MIN"
       ],
@@ -184,13 +184,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "11786",
@@ -247,15 +247,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -272,6 +263,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "8142",
@@ -330,15 +330,6 @@
           "draft_round": 14
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -346,6 +337,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -371,7 +371,7 @@
       "starters_current": [
         "7523",
         "12490",
-        "11576",
+        "11435",
         "6786",
         "8121",
         "7002",
@@ -419,13 +419,12 @@
           "draft_round": 10
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "NYJ",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         },
         {
           "player_id": "6786",
@@ -484,14 +483,6 @@
       ],
       "bench": [
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -499,6 +490,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 8
+        },
+        {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "11631",
@@ -523,7 +523,7 @@
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 1
         },
@@ -541,7 +541,7 @@
           "name": "Keenan Allen",
           "position": "WR",
           "team": "IND",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -3537,10 +3537,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2840,
+    "player_count": 2839,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-04T06:23:57.291034Z",
-    "stale_after": "2026-10-04T07:23:57.291034Z"
+    "generated_at": "2026-10-04T12:43:33.502812Z",
+    "stale_after": "2026-10-04T13:43:33.502812Z"
   }
 }
