@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T23:20:58.484012Z",
-  "stale_after": "2026-10-06T00:20:58.484012Z",
+  "generated_at": "2026-10-06T03:09:57.801835Z",
+  "stale_after": "2026-10-06T04:09:57.801835Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-05T23:20:56.919523Z",
+    "snapshot_started_at": "2026-10-06T03:09:56.458915Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-05T23:20:57.011918Z"
+      "fetched_at": "2026-10-06T03:09:56.545852Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-05T23:20:57.242367Z"
+      "fetched_at": "2026-10-06T03:09:56.756659Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-05T23:20:57.395823Z"
+        "fetched_at": "2026-10-06T03:09:56.809352Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-05T23:20:57.493610Z"
+      "fetched_at": "2026-10-06T03:09:56.902960Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 194,
+  "excluded_rostered_count": 193,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2845,
-  "all_player_count": 4193,
-  "player_count": 2845,
+  "default_player_count": 2846,
+  "all_player_count": 4194,
+  "player_count": 2846,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -62,7 +62,7 @@
     "K": 139,
     "P": 4,
     "QB": 327,
-    "RB": 562,
+    "RB": 563,
     "SS": 1,
     "TE": 547,
     "WR": 1179
@@ -17106,6 +17106,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9225",
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1791216920852,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "7103",
