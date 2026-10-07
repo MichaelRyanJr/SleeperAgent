@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:50:55.673125Z",
+  "generated_at": "2026-10-07T14:03:01.386892Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -365,7 +365,7 @@
       "points_for": 468.96,
       "points_against": 481.86,
       "waiver": {
-        "position": 6,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -388,9 +388,9 @@
         "11792",
         "12490",
         "12534",
+        "13264",
         "13286",
         "13414",
-        "1479",
         "6786",
         "7002",
         "7523",
@@ -519,6 +519,14 @@
           "draft_round": 13
         },
         {
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -535,14 +543,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": "Out",
-          "keeper": false
         },
         {
           "player_id": "8408",
@@ -889,11 +889,11 @@
       "points_for": 403.5,
       "points_against": 538.48,
       "waiver": {
-        "position": 11,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
-        "9228",
+        "3257",
         "12533",
         "5967",
         "9493",
@@ -905,30 +905,30 @@
       ],
       "players_current": [
         "11620",
+        "11630",
         "11632",
         "12015",
         "12508",
         "12517",
         "12533",
         "13269",
+        "3257",
         "5967",
         "6819",
-        "7600",
         "8134",
         "9226",
         "9228",
         "9493",
         "9502",
         "9756",
-        "HOU",
-        "SF"
+        "HOU"
       ],
       "starters": [
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "CAR",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -1016,6 +1016,14 @@
           "draft_round": 5
         },
         {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1043,14 +1051,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8134",
           "name": "Khalil Shakir",
           "position": "WR",
@@ -1069,19 +1069,19 @@
           "draft_round": 13
         },
         {
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "9502",
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
           "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco",
-          "position": "DEF",
-          "team": "SF",
-          "injury_status": null,
           "keeper": false
         }
       ],
@@ -1149,22 +1149,21 @@
       "points_for": 625.48,
       "points_against": 598.78,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
-        "4881",
-        "8151",
+        "4943",
+        "12495",
         "8150",
-        "7564",
+        "7569",
         "2133",
         "12518",
-        "7569",
-        "4227",
+        "7564",
+        "650",
         "BAL"
       ],
       "players_current": [
-        "10218",
         "11586",
         "12495",
         "12518",
@@ -1173,9 +1172,10 @@
         "13298",
         "2133",
         "4217",
-        "4227",
         "4881",
+        "4943",
         "5859",
+        "650",
         "7543",
         "7564",
         "7569",
@@ -1185,22 +1185,21 @@
       ],
       "starters": [
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
+          "player_id": "4943",
+          "name": "Sam Darnold",
           "position": "QB",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "KC",
+          "team": "MIA",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false
         },
         {
           "player_id": "8150",
@@ -1212,13 +1211,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "CIN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 1
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "2133",
@@ -1239,22 +1238,21 @@
           "draft_round": 7
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "team": "CIN",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 1
         },
         {
-          "player_id": "4227",
-          "name": "Harrison Butker",
+          "player_id": "650",
+          "name": "Nick Folk",
           "position": "K",
-          "team": "KC",
+          "team": "ATL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         },
         {
           "player_id": "BAL",
@@ -1268,14 +1266,6 @@
       ],
       "bench": [
         {
-          "player_id": "10218",
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1283,14 +1273,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "13293",
@@ -1329,6 +1311,15 @@
           "draft_round": 9
         },
         {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "5859",
           "name": "A.J. Brown",
           "position": "WR",
@@ -1345,17 +1336,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
-        }
-      ],
-      "keepers": [
-        {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
         },
         {
           "player_id": "8151",
@@ -1365,7 +1345,9 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -1374,15 +1356,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "7569",
@@ -1394,6 +1367,15 @@
           "draft_round": 14
         },
         {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1403,6 +1385,15 @@
           "draft_round": 12
         },
         {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "7543",
           "name": "Travis Etienne",
           "position": "RB",
@@ -1410,6 +1401,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -1690,7 +1690,7 @@
       "points_for": 545.4,
       "points_against": 408.22,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -2210,7 +2210,7 @@
       "points_for": 548.72,
       "points_against": 532.42,
       "waiver": {
-        "position": 10,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2228,7 +2228,6 @@
         "10232",
         "11560",
         "11628",
-        "11643",
         "12489",
         "12545",
         "13276",
@@ -2241,6 +2240,7 @@
         "8154",
         "8259",
         "9509",
+        "CIN",
         "SEA"
       ],
       "starters": [
@@ -2345,14 +2345,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "11643",
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -2396,6 +2388,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "CIN",
+          "name": "Cincinnati",
+          "position": "DEF",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2697,7 +2697,7 @@
       "points_for": 429.04,
       "points_against": 419.54,
       "waiver": {
-        "position": 12,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2948,7 +2948,7 @@
       "points_for": 505.5,
       "points_against": 522.92,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -3624,7 +3624,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-07T06:50:55.673125Z",
-    "stale_after": "2026-10-07T07:50:55.673125Z"
+    "generated_at": "2026-10-07T14:03:01.386892Z",
+    "stale_after": "2026-10-07T15:03:01.386892Z"
   }
 }

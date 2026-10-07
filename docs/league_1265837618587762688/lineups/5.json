@@ -5,17 +5,17 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
+        "player_id": "6804",
+        "name": "Jordan Love",
         "position": "QB",
-        "team": "BAL",
-        "injury_status": "Questionable"
+        "team": "GB",
+        "injury_status": null
       },
       {
-        "player_id": "12507",
-        "name": "Omarion Hampton",
+        "player_id": "12495",
+        "name": "Ollie Gordon",
         "position": "RB",
-        "team": "LAC",
+        "team": "MIA",
         "injury_status": null
       },
       {
@@ -26,10 +26,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13294",
-        "name": "Makai Lemon",
+        "player_id": "13279",
+        "name": "Carnell Tate",
         "position": "WR",
-        "team": "PHI",
+        "team": "TEN",
         "injury_status": null
       },
       {
@@ -47,10 +47,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13279",
-        "name": "Carnell Tate",
-        "position": "WR",
-        "team": "TEN",
+        "player_id": "11576",
+        "name": "Braelon Allen",
+        "position": "RB",
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -77,13 +77,6 @@
         "injury_status": null
       },
       {
-        "player_id": "11576",
-        "name": "Braelon Allen",
-        "position": "RB",
-        "team": "NYJ",
-        "injury_status": null
-      },
-      {
         "player_id": "11603",
         "name": "AJ Barner",
         "position": "TE",
@@ -91,17 +84,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11625",
-        "name": "Adonai Mitchell",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "Out"
-      },
-      {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
+        "player_id": "12507",
+        "name": "Omarion Hampton",
         "position": "RB",
-        "team": "MIA",
+        "team": "LAC",
         "injury_status": null
       },
       {
@@ -116,6 +102,20 @@
         "name": "Kyle Monangai",
         "position": "RB",
         "team": "CHI",
+        "injury_status": "Questionable"
+      },
+      {
+        "player_id": "13294",
+        "name": "Makai Lemon",
+        "position": "WR",
+        "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
         "injury_status": "Questionable"
       }
     ]
@@ -503,10 +503,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "8161",
-        "name": "Malik Willis",
+        "player_id": "6770",
+        "name": "Joe Burrow",
         "position": "QB",
-        "team": "MIA",
+        "team": "CIN",
         "injury_status": null
       },
       {
@@ -538,18 +538,18 @@
         "injury_status": null
       },
       {
-        "player_id": "1466",
-        "name": "Travis Kelce",
+        "player_id": "3214",
+        "name": "Hunter Henry",
         "position": "TE",
-        "team": "KC",
+        "team": "NE",
         "injury_status": null
       },
       {
-        "player_id": "11646",
-        "name": "Jalen Coker",
-        "position": "WR",
-        "team": "CAR",
-        "injury_status": "Out"
+        "player_id": "12489",
+        "name": "RJ Harvey",
+        "position": "RB",
+        "team": "DEN",
+        "injury_status": null
       },
       {
         "player_id": "12185",
@@ -559,20 +559,20 @@
         "injury_status": null
       },
       {
-        "player_id": "NO",
-        "name": "New Orleans",
+        "player_id": "JAX",
+        "name": "Jacksonville",
         "position": "DEF",
-        "team": "NO",
+        "team": "JAX",
         "injury_status": null
       }
     ],
     "bench": [
       {
-        "player_id": "12489",
-        "name": "RJ Harvey",
-        "position": "RB",
-        "team": "DEN",
-        "injury_status": null
+        "player_id": "11646",
+        "name": "Jalen Coker",
+        "position": "WR",
+        "team": "CAR",
+        "injury_status": "Out"
       },
       {
         "player_id": "12501",
@@ -582,24 +582,17 @@
         "injury_status": null
       },
       {
+        "player_id": "1466",
+        "name": "Travis Kelce",
+        "position": "TE",
+        "team": "KC",
+        "injury_status": null
+      },
+      {
         "player_id": "4037",
         "name": "Chris Godwin",
         "position": "WR",
         "team": "TB",
-        "injury_status": null
-      },
-      {
-        "player_id": "5022",
-        "name": "Dallas Goedert",
-        "position": "TE",
-        "team": "PHI",
-        "injury_status": "Out"
-      },
-      {
-        "player_id": "6770",
-        "name": "Joe Burrow",
-        "position": "QB",
-        "team": "CIN",
         "injury_status": null
       },
       {
@@ -614,6 +607,13 @@
         "name": "Rashod Bateman",
         "position": "WR",
         "team": "BAL",
+        "injury_status": null
+      },
+      {
+        "player_id": "8161",
+        "name": "Malik Willis",
+        "position": "QB",
+        "team": "MIA",
         "injury_status": null
       }
     ]
@@ -931,6 +931,13 @@
     ],
     "bench": [
       {
+        "player_id": "11637",
+        "name": "Keon Coleman",
+        "position": "WR",
+        "team": "BUF",
+        "injury_status": null
+      },
+      {
         "player_id": "2505",
         "name": "Darren Waller",
         "position": "TE",
@@ -1029,27 +1036,27 @@
         "injury_status": null
       },
       {
-        "player_id": "KC",
-        "name": "Kansas City",
+        "player_id": "HOU",
+        "name": "Houston",
         "position": "DEF",
-        "team": "KC",
+        "team": "HOU",
         "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "11628",
+        "name": "Marvin Harrison",
+        "position": "WR",
+        "team": "ARI",
+        "injury_status": null
+      },
       {
         "player_id": "12487",
         "name": "Terrance Ferguson",
         "position": "TE",
         "team": "LAR",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "12492",
-        "name": "Pat Bryant",
-        "position": "WR",
-        "team": "DEN",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "12533",
@@ -1343,10 +1350,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "9228",
-        "name": "Bryce Young",
+        "player_id": "3257",
+        "name": "Jacoby Brissett",
         "position": "QB",
-        "team": "CAR",
+        "team": "ARI",
         "injury_status": null
       },
       {
@@ -1399,10 +1406,10 @@
         "injury_status": null
       },
       {
-        "player_id": "BUF",
-        "name": "Buffalo",
+        "player_id": "LV",
+        "name": "Las Vegas",
         "position": "DEF",
-        "team": "BUF",
+        "team": "LV",
         "injury_status": null
       }
     ],
@@ -1450,10 +1457,10 @@
         "injury_status": null
       },
       {
-        "player_id": "LV",
-        "name": "Las Vegas",
-        "position": "DEF",
-        "team": "LV",
+        "player_id": "9228",
+        "name": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
         "injury_status": null
       }
     ]
