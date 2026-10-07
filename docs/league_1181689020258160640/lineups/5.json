@@ -282,17 +282,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8121",
-        "name": "Romeo Doubs",
+        "player_id": "13264",
+        "name": "Dohnte Meyers",
         "position": "WR",
-        "team": "NE",
-        "injury_status": null
-      },
-      {
-        "player_id": "7002",
-        "name": "Juwan Johnson",
-        "position": "TE",
-        "team": "NO",
+        "team": "CIN",
         "injury_status": null
       },
       {
@@ -301,6 +294,13 @@
         "position": "TE",
         "team": "LV",
         "injury_status": null
+      },
+      {
+        "player_id": "12534",
+        "name": "Kyle Monangai",
+        "position": "RB",
+        "team": "CHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11792",
@@ -333,20 +333,6 @@
         "injury_status": null
       },
       {
-        "player_id": "12534",
-        "name": "Kyle Monangai",
-        "position": "RB",
-        "team": "CHI",
-        "injury_status": "Questionable"
-      },
-      {
-        "player_id": "13264",
-        "name": "Dohnte Meyers",
-        "position": "WR",
-        "team": "CIN",
-        "injury_status": null
-      },
-      {
         "player_id": "13286",
         "name": "Jadarian Price",
         "position": "RB",
@@ -361,10 +347,24 @@
         "injury_status": null
       },
       {
+        "player_id": "7002",
+        "name": "Juwan Johnson",
+        "position": "TE",
+        "team": "NO",
+        "injury_status": null
+      },
+      {
         "player_id": "7523",
         "name": "Trevor Lawrence",
         "position": "QB",
         "team": "JAX",
+        "injury_status": null
+      },
+      {
+        "player_id": "8121",
+        "name": "Romeo Doubs",
+        "position": "WR",
+        "team": "NE",
         "injury_status": null
       },
       {
@@ -845,17 +845,17 @@
     ],
     "bench": [
       {
+        "player_id": "10226",
+        "name": "Andrei Iosivas",
+        "position": "WR",
+        "team": "CIN",
+        "injury_status": "IR"
+      },
+      {
         "player_id": "11620",
         "name": "Rome Odunze",
         "position": "WR",
         "team": "CHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "11630",
-        "name": "Roman Wilson",
-        "position": "WR",
-        "team": "PIT",
         "injury_status": null
       },
       {
@@ -971,10 +971,10 @@
         "injury_status": null
       },
       {
-        "player_id": "SEA",
-        "name": "Seattle",
+        "player_id": "CIN",
+        "name": "Cincinnati",
         "position": "DEF",
-        "team": "SEA",
+        "team": "CIN",
         "injury_status": null
       }
     ],
@@ -1029,10 +1029,10 @@
         "injury_status": null
       },
       {
-        "player_id": "CIN",
-        "name": "Cincinnati",
+        "player_id": "SEA",
+        "name": "Seattle",
         "position": "DEF",
-        "team": "CIN",
+        "team": "SEA",
         "injury_status": null
       }
     ]

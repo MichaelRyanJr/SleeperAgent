@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:03:01.386892Z",
+  "generated_at": "2026-10-07T19:55:56.284287Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -369,13 +369,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7523",
+        "11564",
         "12490",
         "11435",
         "6786",
-        "8121",
-        "7002",
+        "13264",
         "11604",
+        "12534",
         "11792",
         "LAR"
       ],
@@ -401,13 +401,13 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "11564",
+          "name": "Drake Maye",
           "position": "QB",
-          "team": "JAX",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "12490",
@@ -436,22 +436,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
           "position": "WR",
-          "team": "NE",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         },
         {
           "player_id": "11604",
@@ -461,6 +451,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "11792",
@@ -483,15 +482,6 @@
       ],
       "bench": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
-        },
-        {
           "player_id": "11576",
           "name": "Braelon Allen",
           "position": "RB",
@@ -510,23 +500,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
-          "player_id": "13264",
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -543,6 +516,33 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
+        },
+        {
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
+          "player_id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "8408",
@@ -565,6 +565,15 @@
       ],
       "keepers": [
         {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -583,13 +592,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 8
+          "draft_round": 13
         },
         {
           "player_id": "11631",
@@ -599,15 +608,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
         }
       ]
     },
@@ -904,8 +904,8 @@
         "HOU"
       ],
       "players_current": [
+        "10226",
         "11620",
-        "11630",
         "11632",
         "12015",
         "12508",
@@ -1007,6 +1007,14 @@
       ],
       "bench": [
         {
+          "player_id": "10226",
+          "name": "Andrei Iosivas",
+          "position": "WR",
+          "team": "CIN",
+          "injury_status": "IR",
+          "keeper": false
+        },
+        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -1014,14 +1022,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "11630",
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "12508",
@@ -2222,7 +2222,7 @@
         "8110",
         "8146",
         "8259",
-        "SEA"
+        "CIN"
       ],
       "players_current": [
         "10232",
@@ -2316,13 +2316,12 @@
           "draft_round": 10
         },
         {
-          "player_id": "SEA",
-          "name": "Seattle",
+          "player_id": "CIN",
+          "name": "Cincinnati",
           "position": "DEF",
-          "team": "SEA",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
+          "keeper": false
         }
       ],
       "bench": [
@@ -2390,12 +2389,13 @@
           "draft_round": 16
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati",
+          "player_id": "SEA",
+          "name": "Seattle",
           "position": "DEF",
-          "team": "CIN",
+          "team": "SEA",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 8
         }
       ],
       "keepers": [
@@ -3621,10 +3621,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2836,
+    "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-07T14:03:01.386892Z",
-    "stale_after": "2026-10-07T15:03:01.386892Z"
+    "generated_at": "2026-10-07T19:55:56.284287Z",
+    "stale_after": "2026-10-07T20:55:56.284287Z"
   }
 }
