@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T00:03:49.434020Z",
-  "stale_after": "2026-10-08T01:03:49.434020Z",
+  "generated_at": "2026-10-08T05:54:44.695313Z",
+  "stale_after": "2026-10-08T06:54:44.695313Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-08T00:03:47.507645Z",
+    "snapshot_started_at": "2026-10-08T05:54:41.709008Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-08T00:03:47.591485Z"
+      "fetched_at": "2026-10-08T05:54:41.848160Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-08T00:03:47.838921Z"
+      "fetched_at": "2026-10-08T05:54:42.224243Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-08T00:03:47.924639Z"
+        "fetched_at": "2026-10-08T05:54:42.371749Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-08T00:03:48.016189Z"
+      "fetched_at": "2026-10-08T05:54:42.535336Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -6032,32 +6032,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "96",
-      "name": "Aaron Rodgers",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "age": 42,
-      "years_exp": 21,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1791336601910,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "10866",
       "name": "Aidan O'Connell",
       "position": "QB",
@@ -6960,6 +6934,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "news_updated": 1790292046669,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "3257",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "ARI",
+      "age": 33,
+      "years_exp": 10,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1791300944943,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:03:49.434020Z",
+  "generated_at": "2026-10-08T05:54:44.695313Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -893,7 +893,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
+        "96",
         "12533",
         "5967",
         "9493",
@@ -912,7 +912,6 @@
         "12517",
         "12533",
         "13269",
-        "3257",
         "5967",
         "6819",
         "8134",
@@ -920,15 +919,16 @@
         "9228",
         "9493",
         "9502",
+        "96",
         "9756",
         "HOU"
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "ARI",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -2485,12 +2485,12 @@
       },
       "starters_current": [
         "6770",
-        "4866",
+        "4199",
         "13287",
         "8148",
         "6801",
         "7553",
-        "4199",
+        "13279",
         "7839",
         "PHI"
       ],
@@ -2523,13 +2523,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "PHI",
-          "injury_status": "Questionable",
+          "team": "MIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 8
         },
         {
           "player_id": "13287",
@@ -2568,13 +2568,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 2
         },
         {
           "player_id": "7839",
@@ -2606,15 +2606,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "13337",
           "name": "Emmett Johnson",
           "position": "RB",
@@ -2640,6 +2631,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "8126",
@@ -3624,7 +3624,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-08T00:03:49.434020Z",
-    "stale_after": "2026-10-08T01:03:49.434020Z"
+    "generated_at": "2026-10-08T05:54:44.695313Z",
+    "stale_after": "2026-10-08T06:54:44.695313Z"
   }
 }

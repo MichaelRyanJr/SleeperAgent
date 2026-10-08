@@ -3,7 +3,7 @@
 <title>Available players - Grub from the Fantasy</title>
 <style>body{font:16px/1.5 system-ui;margin:2em;max-width:1200px}table{border-collapse:collapse;width:100%}th,td{padding:.45em;text-align:left;border-bottom:1px solid #ccc}th{position:sticky;top:0;background:white}input,select{font:inherit;padding:.35em}small{display:block}.notice{border:2px solid;padding:1em}#stale{font-weight:bold}</style>
 <h1>Available players - Grub from the Fantasy</h1><p><strong>UNROSTERED SNAPSHOT</strong> | Season 2026 | League 1312845245053939712</p>
-<p>Snapshot: <time>2026-10-08T00:03:49.434020Z</time><small>Catalog metadata fetched: 2026-10-08T00:03:47.012460Z</small></p>
+<p>Snapshot: <time>2026-10-08T05:54:44.695313Z</time><small>Catalog metadata fetched: 2026-10-08T00:03:47.012460Z</small></p>
 <p id="stale" role="status"></p><div class="notice">
 <p>Unrostered does not mean immediately claimable. The public API does not provide an authoritative per-player waiver/free-agent lock, claim deadline, or private pending claim list. Confirm acquisition in the Sleeper app.</p>
 </div><p><a href="available_players.json">JSON</a> | <a href="available_players.csv">CSV</a> | <a href="available_players_all.json">All eligible unrostered catalog entries (includes inactive players)</a></p>
@@ -246,7 +246,6 @@
 <tr data-pos="K"><td>Michael Palardy<small>2818</small></td><td>P</td><td></td><td>32</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="K"><td>Ty Long<small>2650</small></td><td>P</td><td></td><td>29</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="QB"><td>Aaron Bailey<small>4683</small></td><td>QB</td><td>BAL</td><td></td><td></td><td>Active</td><td>4</td><td></td></tr>
-<tr data-pos="QB"><td>Aaron Rodgers<small>96</small></td><td>QB</td><td>PIT</td><td>42</td><td></td><td>Active</td><td>1</td><td></td></tr>
 <tr data-pos="QB"><td>Aidan O&#x27;Connell<small>10866</small></td><td>QB</td><td>LV</td><td>28</td><td></td><td>Active</td><td>2</td><td></td></tr>
 <tr data-pos="QB"><td>Andy Dalton<small>829</small></td><td>QB</td><td>PHI</td><td>38</td><td></td><td>Active</td><td>2</td><td></td></tr>
 <tr data-pos="QB"><td>Anthony Richardson<small>9229</small></td><td>QB</td><td>IND</td><td>24</td><td></td><td>Active</td><td>2</td><td></td></tr>
@@ -282,6 +281,7 @@
 <tr data-pos="QB"><td>Hendon Hooker<small>9998</small></td><td>QB</td><td>TEN</td><td>28</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="QB"><td>J.J. McCarthy<small>11565</small></td><td>QB</td><td>NYG</td><td>23</td><td></td><td>Active</td><td>3</td><td></td></tr>
 <tr data-pos="QB"><td>Jack Strand<small>13602</small></td><td>QB</td><td>ATL</td><td>22</td><td></td><td>Active</td><td>4</td><td></td></tr>
+<tr data-pos="QB"><td>Jacoby Brissett<small>3257</small></td><td>QB</td><td>ARI</td><td>33</td><td></td><td>Active</td><td>1</td><td></td></tr>
 <tr data-pos="QB"><td>Jake Haener<small>10215</small></td><td>QB</td><td>NYG</td><td>27</td><td></td><td>Active</td><td>2</td><td></td></tr>
 <tr data-pos="QB"><td>Jalen Milroe<small>12510</small></td><td>QB</td><td>SEA</td><td>23</td><td></td><td>Active</td><td>3</td><td></td></tr>
 <tr data-pos="QB"><td>Jalen Morton<small>7262</small></td><td>QB</td><td>IND</td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
@@ -2855,7 +2855,7 @@
 <tr data-pos="WR"><td>Zimari Manning<small>7211</small></td><td>WR</td><td></td><td>26</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Zion Bowens<small>11159</small></td><td>WR</td><td></td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
 </tbody></table></div><script>
-const expiry = "2026-10-08T01:03:49.434020Z";
+const expiry = "2026-10-08T06:54:44.695313Z";
 const rows = Array.from(document.querySelectorAll('tbody tr'));
 function filter(){const q=document.getElementById('q').value.toLowerCase();const p=document.getElementById('pos').value;let count=0;rows.forEach(r=>{r.hidden=!(r.textContent.toLowerCase().includes(q)&&(!p||r.dataset.pos.split(' ').includes(p)));if(!r.hidden)count++;});document.getElementById('count').textContent=count+' of '+rows.length+' players shown';}
 function age(){document.getElementById('stale').textContent=Date.now()>Date.parse(expiry)?'STALE SNAPSHOT: more than one hour old. Recheck the next sync or Sleeper before acting.':'';}
