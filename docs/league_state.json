@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T19:09:59.256867Z",
+  "generated_at": "2026-10-08T23:44:46.047844Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2166,12 +2166,12 @@
         "11564",
         "12527",
         "12512",
+        "5045",
         "9488",
-        "10229",
         "4217",
         "8228",
         "3451",
-        "PHI"
+        "CLE"
       ],
       "players_current": [
         "10229",
@@ -2189,7 +2189,7 @@
         "8228",
         "9488",
         "9754",
-        "PHI"
+        "CLE"
       ],
       "starters": [
         {
@@ -2220,6 +2220,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "9488",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -2227,15 +2236,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "4217",
@@ -2265,16 +2265,24 @@
           "draft_round": 14
         },
         {
-          "player_id": "PHI",
-          "name": "Philadelphia",
+          "player_id": "CLE",
+          "name": "Cleveland",
           "position": "DEF",
-          "team": "PHI",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 3
+        },
         {
           "player_id": "1166",
           "name": "Kirk Cousins",
@@ -2300,15 +2308,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "7567",
@@ -2968,7 +2967,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-08T19:09:59.256867Z",
-    "stale_after": "2026-10-08T20:09:59.256867Z"
+    "generated_at": "2026-10-08T23:44:46.047844Z",
+    "stale_after": "2026-10-09T00:44:46.047844Z"
   }
 }
