@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:54:56.763743Z",
+  "generated_at": "2026-10-08T19:10:01.914403Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1702,16 +1702,16 @@
         "10236",
         "5846",
         "11533",
-        "GB"
+        "0"
       ],
       "players_current": [
         "10236",
         "11533",
         "11563",
+        "11577",
         "12501",
         "3294",
         "3321",
-        "3634",
         "4035",
         "5012",
         "5045",
@@ -1720,7 +1720,7 @@
         "7021",
         "7547",
         "9221",
-        "GB"
+        "DAL"
       ],
       "starters": [
         {
@@ -1793,14 +1793,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
-        },
-        {
-          "player_id": "GB",
-          "name": "Green Bay",
-          "position": "DEF",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1814,19 +1806,19 @@
           "draft_round": 15
         },
         {
+          "player_id": "11577",
+          "name": "Will Shipley",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
           "injury_status": "",
-          "keeper": false
-        },
-        {
-          "player_id": "3634",
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
           "keeper": false
         },
         {
@@ -1864,6 +1856,14 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "DAL",
+          "name": "Dallas",
+          "position": "DEF",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -3624,7 +3624,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-08T12:54:56.763743Z",
-    "stale_after": "2026-10-08T13:54:56.763743Z"
+    "generated_at": "2026-10-08T19:10:01.914403Z",
+    "stale_after": "2026-10-08T20:10:01.914403Z"
   }
 }

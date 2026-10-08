@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T12:54:56.763743Z",
-  "stale_after": "2026-10-08T13:54:56.763743Z",
+  "generated_at": "2026-10-08T19:10:01.914403Z",
+  "stale_after": "2026-10-08T20:10:01.914403Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-08T12:54:54.117636Z",
+    "snapshot_started_at": "2026-10-08T19:09:59.900808Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-08T12:54:54.248337Z"
+      "fetched_at": "2026-10-08T19:09:59.989619Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-08T12:54:54.586788Z"
+      "fetched_at": "2026-10-08T19:10:00.212736Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-08T12:54:54.655646Z"
+        "fetched_at": "2026-10-08T19:10:00.366385Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-08T12:54:54.814584Z"
+      "fetched_at": "2026-10-08T19:10:00.488870Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,10 +62,10 @@
     "K": 139,
     "P": 4,
     "QB": 325,
-    "RB": 564,
+    "RB": 563,
     "SS": 1,
     "TE": 547,
-    "WR": 1172
+    "WR": 1173
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -227,8 +227,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "DAL",
-      "name": "Dallas Cowboys",
+      "player_id": "DET",
+      "name": "Detroit Lions",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -236,7 +236,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "DAL",
+      "team": "DET",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -253,8 +253,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "DET",
-      "name": "Detroit Lions",
+      "player_id": "GB",
+      "name": "Green Bay Packers",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -262,7 +262,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "DET",
+      "team": "GB",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -17282,32 +17282,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1641276961310,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11577",
-      "name": "Will Shipley",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "age": 24,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1791250239446,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46509,6 +46483,32 @@
       "depth_chart_order": 6,
       "depth_chart_position": "SWR",
       "news_updated": 1787899857819,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "3634",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "CHI",
+      "age": 32,
+      "years_exp": 10,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "SWR",
+      "news_updated": 1791308145805,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
