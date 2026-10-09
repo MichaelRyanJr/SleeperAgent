@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:09:49.537004Z",
+  "generated_at": "2026-10-09T21:41:08.055892Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1989,6 +1989,7 @@
         "11643",
         "12517",
         "13286",
+        "13301",
         "13346",
         "3257",
         "5001",
@@ -2106,6 +2107,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "13301",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5001",
@@ -2964,10 +2973,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2842,
+    "player_count": 2841,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-09T17:09:49.537004Z",
-    "stale_after": "2026-10-09T18:09:49.537004Z"
+    "generated_at": "2026-10-09T21:41:08.055892Z",
+    "stale_after": "2026-10-09T22:41:08.055892Z"
   }
 }
