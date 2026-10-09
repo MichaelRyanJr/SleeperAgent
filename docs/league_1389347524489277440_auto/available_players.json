@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T10:30:31.500421Z",
-  "stale_after": "2026-10-09T11:30:31.500421Z",
+  "generated_at": "2026-10-09T17:09:49.537004Z",
+  "stale_after": "2026-10-09T18:09:49.537004Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-09T10:30:27.651227Z",
+    "snapshot_started_at": "2026-10-09T17:09:46.837417Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-09T10:30:27.882438Z"
+      "fetched_at": "2026-10-09T17:09:46.978855Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-09T10:30:28.485330Z"
+      "fetched_at": "2026-10-09T17:09:47.421411Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-09T10:30:28.799292Z"
+        "fetched_at": "2026-10-09T17:09:47.600849Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-09T10:30:29.041202Z"
+      "fetched_at": "2026-10-09T17:09:47.756929Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -46595,6 +46595,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "3634",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "CHI",
+      "age": 32,
+      "years_exp": 10,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "SWR",
+      "news_updated": 1791308145805,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "11994",
       "name": "Kameron Johnson",
       "position": "WR",
@@ -47321,32 +47347,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "11610",
-      "name": "Malik Washington",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "MIA",
-      "age": 25,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "SWR",
-      "news_updated": 1791304245375,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 13
     },
     {
       "player_id": "5086",

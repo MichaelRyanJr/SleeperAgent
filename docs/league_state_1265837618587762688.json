@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:30:31.500421Z",
+  "generated_at": "2026-10-09T17:09:49.537004Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1377,17 +1377,18 @@
         "budget_used": 0
       },
       "starters_current": [
-        "12545",
+        "421",
         "4199",
         "6790",
         "7547",
-        "3634",
-        "8131",
         "12514",
+        "8131",
+        "11620",
         "7839",
         "CHI"
       ],
       "players_current": [
+        "11610",
         "11620",
         "11637",
         "12469",
@@ -1395,7 +1396,6 @@
         "12545",
         "2505",
         "3321",
-        "3634",
         "4199",
         "421",
         "6790",
@@ -1407,12 +1407,13 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
+          "player_id": "421",
+          "name": "Matthew Stafford",
           "position": "QB",
-          "team": "NO",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "4199",
@@ -1442,12 +1443,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "3634",
-          "name": "Kalif Raymond",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "CHI",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "8131",
@@ -1459,13 +1461,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "TB",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 6
         },
         {
           "player_id": "7839",
@@ -1487,13 +1489,13 @@
       ],
       "bench": [
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "CHI",
+          "team": "MIA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "11637",
@@ -1513,6 +1515,14 @@
           "draft_round": 13
         },
         {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
@@ -1527,15 +1537,6 @@
           "team": null,
           "injury_status": "",
           "keeper": false
-        },
-        {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "7543",
@@ -2966,7 +2967,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-09T10:30:31.500421Z",
-    "stale_after": "2026-10-09T11:30:31.500421Z"
+    "generated_at": "2026-10-09T17:09:49.537004Z",
+    "stale_after": "2026-10-09T18:09:49.537004Z"
   }
 }
