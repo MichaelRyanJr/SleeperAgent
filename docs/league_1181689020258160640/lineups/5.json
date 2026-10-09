@@ -179,7 +179,7 @@
         "name": "Carnell Tate",
         "position": "WR",
         "team": "TEN",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7839",
@@ -251,7 +251,7 @@
   {
     "roster_id": 2,
     "opponent_roster_id": 6,
-    "points": 0.0,
+    "points": 2.9,
     "starters": [
       {
         "player_id": "11564",
@@ -293,7 +293,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "12534",
@@ -344,7 +344,7 @@
         "name": "Kaelon Black",
         "position": "RB",
         "team": "SF",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7002",
@@ -445,10 +445,10 @@
         "injury_status": null
       },
       {
-        "player_id": "BUF",
-        "name": "Buffalo",
+        "player_id": "NE",
+        "name": "New England",
         "position": "DEF",
-        "team": "BUF",
+        "team": "NE",
         "injury_status": null
       }
     ],
@@ -503,10 +503,10 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "NE",
-        "name": "New England",
+        "player_id": "BUF",
+        "name": "Buffalo",
         "position": "DEF",
-        "team": "NE",
+        "team": "BUF",
         "injury_status": null
       }
     ]
@@ -514,7 +514,7 @@
   {
     "roster_id": 3,
     "opponent_roster_id": 12,
-    "points": 0.0,
+    "points": 48.5,
     "starters": [
       {
         "player_id": "8183",
@@ -563,7 +563,7 @@
         "name": "Ashton Jeanty",
         "position": "RB",
         "team": "LV",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2747",
@@ -687,10 +687,10 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "12493",
-        "name": "Oronde Gadsden",
+        "player_id": "4993",
+        "name": "Mike Gesicki",
         "position": "TE",
-        "team": "LAC",
+        "team": "CIN",
         "injury_status": null
       },
       {
@@ -716,6 +716,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "12493",
+        "name": "Oronde Gadsden",
+        "position": "TE",
+        "team": "LAC",
+        "injury_status": null
+      },
       {
         "player_id": "1466",
         "name": "Travis Kelce",
@@ -763,13 +770,6 @@
         "name": "Dontayvion Wicks",
         "position": "WR",
         "team": "PHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "9754",
-        "name": "Quentin Johnston",
-        "position": "WR",
-        "team": "LAC",
         "injury_status": "Questionable"
       }
     ]
@@ -798,7 +798,7 @@
         "name": "Tony Pollard",
         "position": "RB",
         "team": "TEN",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9493",
@@ -877,7 +877,7 @@
         "name": "Michael Pittman",
         "position": "WR",
         "team": "PIT",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "8134",
@@ -919,7 +919,7 @@
         "name": "Tyler Shough",
         "position": "QB",
         "team": "NO",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9509",
@@ -1203,7 +1203,7 @@
         "name": "Chris Olave",
         "position": "WR",
         "team": "NO",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7526",
@@ -1303,7 +1303,7 @@
   {
     "roster_id": 7,
     "opponent_roster_id": 8,
-    "points": 0.0,
+    "points": 19.2,
     "starters": [
       {
         "player_id": "3294",
@@ -1424,7 +1424,7 @@
   {
     "roster_id": 8,
     "opponent_roster_id": 7,
-    "points": 0.0,
+    "points": 27.3,
     "starters": [
       {
         "player_id": "421",
@@ -1520,13 +1520,6 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "6130",
-        "name": "Devin Singletary",
-        "position": "RB",
-        "team": "NYG",
-        "injury_status": null
-      },
-      {
         "player_id": "7594",
         "name": "Chuba Hubbard",
         "position": "RB",
@@ -1545,6 +1538,13 @@
         "name": "Kayshon Boutte",
         "position": "WR",
         "team": "HOU",
+        "injury_status": null
+      },
+      {
+        "player_id": "9511",
+        "name": "Keaton Mitchell",
+        "position": "RB",
+        "team": "LAC",
         "injury_status": null
       }
     ]

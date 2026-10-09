@@ -125,7 +125,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 5
       },
@@ -764,7 +764,7 @@
         "name": "Chris Olave",
         "position": "WR",
         "team": "NO",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 6
       },
@@ -808,6 +808,15 @@
     },
     "keepers": [
       {
+        "player_id": "6804",
+        "name": "Jordan Love",
+        "position": "QB",
+        "team": "GB",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 14
+      },
+      {
         "player_id": "12481",
         "name": "Cam Skattebo",
         "position": "RB",
@@ -833,15 +842,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 13
-      },
-      {
-        "player_id": "6804",
-        "name": "Jordan Love",
-        "position": "QB",
-        "team": "GB",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 14
       },
       {
         "player_id": "8136",

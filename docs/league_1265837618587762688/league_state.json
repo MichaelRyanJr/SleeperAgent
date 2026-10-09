@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T23:44:46.047844Z",
+  "generated_at": "2026-10-09T03:08:05.842657Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -241,7 +241,7 @@
           "name": "Carnell Tate",
           "position": "WR",
           "team": "TEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -725,7 +725,7 @@
           "name": "Kaelon Black",
           "position": "RB",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 16
         },
@@ -905,7 +905,7 @@
           "name": "Michael Pittman",
           "position": "WR",
           "team": "PIT",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 9
         },
@@ -1036,7 +1036,7 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -1145,7 +1145,7 @@
           "name": "Rashod Bateman",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1187,7 +1187,7 @@
         "8146",
         "12506",
         "9500",
-        "4227",
+        "6083",
         "BAL"
       ],
       "players_current": [
@@ -1197,10 +1197,10 @@
         "12506",
         "2216",
         "4035",
-        "4227",
         "4984",
         "5849",
         "5947",
+        "6083",
         "8144",
         "8146",
         "9221",
@@ -1241,7 +1241,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1273,13 +1273,12 @@
           "draft_round": 9
         },
         {
-          "player_id": "4227",
-          "name": "Harrison Butker",
+          "player_id": "6083",
+          "name": "Matt Gay",
           "position": "K",
-          "team": "KC",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         },
         {
           "player_id": "BAL",
@@ -1412,7 +1411,7 @@
           "name": "Tyler Shough",
           "position": "QB",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1865,7 +1864,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 2
         },
@@ -1937,7 +1936,7 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2095,7 +2094,7 @@
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2206,7 +2205,7 @@
           "name": "Ashton Jeanty",
           "position": "RB",
           "team": "LV",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -2879,28 +2878,28 @@
       "roster_id": 1,
       "opponent_roster_id": 3,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 27.1,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 20.8,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 2,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 5,
@@ -2920,29 +2919,29 @@
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 28.5,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 14.2,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 5.1,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 8,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 5,
@@ -2967,7 +2966,7 @@
     "player_count": 2842,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-08T23:44:46.047844Z",
-    "stale_after": "2026-10-09T00:44:46.047844Z"
+    "generated_at": "2026-10-09T03:08:05.842657Z",
+    "stale_after": "2026-10-09T04:08:05.842657Z"
   }
 }
