@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T21:41:10.587863Z",
-  "stale_after": "2026-10-09T22:41:10.587863Z",
+  "generated_at": "2026-10-10T01:17:40.731318Z",
+  "stale_after": "2026-10-10T02:17:40.731318Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-09T21:41:08.669741Z",
+    "snapshot_started_at": "2026-10-10T01:17:38.193046Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-09T21:41:08.763626Z"
+      "fetched_at": "2026-10-10T01:17:38.360476Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-09T21:41:09.039239Z"
+      "fetched_at": "2026-10-10T01:17:38.654095Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-09T21:41:09.129670Z"
+        "fetched_at": "2026-10-10T01:17:38.751213Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-09T21:41:09.235952Z"
+      "fetched_at": "2026-10-10T01:17:38.911269Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,27 +47,27 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 206,
+  "excluded_rostered_count": 207,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2837,
-  "all_player_count": 4181,
-  "player_count": 4181,
+  "default_player_count": 2836,
+  "all_player_count": 4180,
+  "player_count": 4180,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 19,
     "FB": 112,
     "K": 179,
     "P": 5,
-    "QB": 451,
+    "QB": 450,
     "RB": 877,
     "SS": 1,
     "T": 2,
     "TE": 816,
-    "WR": 1716
+    "WR": 1715
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -566,6 +566,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "SEA",
+      "name": "Seattle Seahawks",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "SEA",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 8
     },
     {
       "player_id": "TB",
@@ -9332,32 +9358,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "news_updated": 1790292046669,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "3257",
-      "name": "Jacoby Brissett",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "ARI",
-      "age": 33,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1791300944943,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -69589,32 +69589,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788409238233,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11630",
-      "name": "Roman Wilson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "PIT",
-      "age": 25,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "SWR",
-      "news_updated": 1791483043509,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

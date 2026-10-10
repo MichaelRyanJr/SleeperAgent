@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:41:10.587863Z",
+  "generated_at": "2026-10-10T01:17:40.731318Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -889,7 +889,7 @@
       "points_for": 403.5,
       "points_against": 538.48,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2211,7 +2211,7 @@
       "points_for": 548.72,
       "points_against": 532.42,
       "waiver": {
-        "position": 11,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -2233,6 +2233,7 @@
         "12545",
         "13276",
         "13330",
+        "3257",
         "6790",
         "7611",
         "8110",
@@ -2241,8 +2242,7 @@
         "8154",
         "8259",
         "9509",
-        "CIN",
-        "SEA"
+        "CIN"
       ],
       "starters": [
         {
@@ -2363,6 +2363,14 @@
           "draft_round": 15
         },
         {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -2388,15 +2396,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
-        },
-        {
-          "player_id": "SEA",
-          "name": "Seattle",
-          "position": "DEF",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         }
       ],
       "keepers": [
@@ -2714,6 +2713,7 @@
       ],
       "players_current": [
         "11583",
+        "11630",
         "12185",
         "12474",
         "12492",
@@ -2822,6 +2822,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12474",
@@ -3621,10 +3629,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2837,
+    "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-09T21:41:10.587863Z",
-    "stale_after": "2026-10-09T22:41:10.587863Z"
+    "generated_at": "2026-10-10T01:17:40.731318Z",
+    "stale_after": "2026-10-10T02:17:40.731318Z"
   }
 }
