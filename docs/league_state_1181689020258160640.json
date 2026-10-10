@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:17:36.511533Z",
+  "generated_at": "2026-10-10T13:51:45.100159Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -633,11 +633,11 @@
       "starters_current": [
         "8183",
         "11584",
-        "12527",
-        "12526",
+        "7588",
+        "12509",
         "9487",
         "8130",
-        "10229",
+        "12527",
         "2747",
         "PIT"
       ],
@@ -681,22 +681,21 @@
           "draft_round": 15
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "LV",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 7
+        },
+        {
+          "player_id": "12509",
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9487",
@@ -717,13 +716,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
           "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "2747",
@@ -746,6 +745,15 @@
       ],
       "bench": [
         {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -755,12 +763,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "12509",
-          "name": "Tre' Harris",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "LAC",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "13281",
@@ -807,15 +816,6 @@
           "keeper": false
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -836,13 +836,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
+          "player_id": "7588",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 7
         },
         {
           "player_id": "8130",
@@ -863,13 +863,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 3
         }
       ]
     },
@@ -3632,7 +3632,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-10T07:17:36.511533Z",
-    "stale_after": "2026-10-10T08:17:36.511533Z"
+    "generated_at": "2026-10-10T13:51:45.100159Z",
+    "stale_after": "2026-10-10T14:51:45.100159Z"
   }
 }
