@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:17:40.731318Z",
+  "generated_at": "2026-10-10T07:17:36.511533Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -375,7 +375,7 @@
         "6786",
         "13264",
         "11604",
-        "12534",
+        "11576",
         "11792",
         "LAR"
       ],
@@ -431,7 +431,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -453,13 +453,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "11792",
@@ -482,15 +482,6 @@
       ],
       "bench": [
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas",
           "position": "WR",
@@ -498,6 +489,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "13286",
@@ -592,15 +592,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas",
           "position": "WR",
@@ -608,6 +599,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 13
         }
       ]
     },
@@ -937,7 +937,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 9
         },
@@ -964,7 +964,7 @@
           "name": "Malik Nabers",
           "position": "WR",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 2
         },
@@ -1091,7 +1091,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 9
         },
@@ -1315,7 +1315,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 3
         },
@@ -1389,7 +1389,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 3
         },
@@ -1604,7 +1604,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
         },
@@ -2088,7 +2088,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 6
         },
@@ -2267,7 +2267,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 5
         },
@@ -2331,7 +2331,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2404,7 +2404,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 5
         },
@@ -2440,7 +2440,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2536,7 +2536,7 @@
           "name": "Jeremiyah Love",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -2628,7 +2628,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 8
         },
@@ -2637,7 +2637,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 1
         },
@@ -2764,7 +2764,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -2845,7 +2845,7 @@
           "name": "Pat Bryant",
           "position": "WR",
           "team": "DEN",
-          "injury_status": "Doubtful",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -2853,7 +2853,7 @@
           "name": "Caleb Douglas",
           "position": "WR",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 16
         },
@@ -2879,7 +2879,7 @@
           "name": "Isaiah Likely",
           "position": "TE",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 11
         },
@@ -2917,7 +2917,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -3014,7 +3014,7 @@
           "name": "Cam Skattebo",
           "position": "RB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 4
         },
@@ -3032,7 +3032,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -3113,7 +3113,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 12
         },
@@ -3122,7 +3122,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 3
         },
@@ -3140,7 +3140,7 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         }
       ],
@@ -3159,7 +3159,7 @@
           "name": "Cam Skattebo",
           "position": "RB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 4
         },
@@ -3168,7 +3168,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -3186,7 +3186,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 12
         },
@@ -3195,7 +3195,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 3
         }
@@ -3632,7 +3632,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-10T01:17:40.731318Z",
-    "stale_after": "2026-10-10T02:17:40.731318Z"
+    "generated_at": "2026-10-10T07:17:36.511533Z",
+    "stale_after": "2026-10-10T08:17:36.511533Z"
   }
 }
