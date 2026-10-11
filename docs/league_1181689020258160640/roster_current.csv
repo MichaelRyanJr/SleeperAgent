@@ -58,11 +58,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,4,9493,Puka Nacua,WR,LAR,,1,0
 4,5,11632,Malik Nabers,WR,NYG,,1,0
 4,6,12517,Colston Loveland,TE,CHI,,1,1
-4,7,9756,Jordan Addison,WR,MIN,Questionable,1,0
+4,7,11620,Rome Odunze,WR,CHI,,1,1
 4,8,12015,Harrison Mevis,K,LAR,,1,0
 4,9,HOU,Houston,DEF,HOU,,1,0
 4,,10226,Andrei Iosivas,WR,CIN,IR,0,0
-4,,11620,Rome Odunze,WR,CHI,,0,1
 4,,12508,Jaxson Dart,QB,NYG,IR,0,1
 4,,13269,Fernando Mendoza,QB,LV,,0,0
 4,,6819,Michael Pittman,WR,PIT,IR,0,0
@@ -70,6 +69,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 4,,9226,De'Von Achane,RB,MIA,IR,0,1
 4,,9228,Bryce Young,QB,CAR,,0,0
 4,,9502,Tank Dell,WR,HOU,IR,0,0
+4,,9756,Jordan Addison,WR,MIN,Questionable,0,0
 5,1,4943,Sam Darnold,QB,SEA,,1,0
 5,2,12495,Ollie Gordon,RB,MIA,,1,0
 5,3,8150,Kyren Williams,RB,LAR,,1,1
@@ -124,10 +124,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,1,421,Matthew Stafford,QB,LAR,,1,1
 8,2,8138,James Cook,RB,BUF,,1,1
 8,3,12507,Omarion Hampton,RB,LAC,,1,0
-8,4,9997,Zay Flowers,WR,BAL,Questionable,1,1
+8,4,6794,Justin Jefferson,WR,MIN,Questionable,1,0
 8,5,8137,George Pickens,WR,DAL,,1,1
 8,6,3214,Hunter Henry,TE,NE,,1,1
-8,7,6794,Justin Jefferson,WR,MIN,Questionable,1,0
+8,7,9997,Zay Flowers,WR,BAL,Questionable,1,1
 8,8,11539,Jake Bates,K,DET,,1,0
 8,9,JAX,Jacksonville,DEF,JAX,,1,0
 8,,11566,Jayden Daniels,QB,WAS,,0,1
@@ -176,7 +176,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,3,6806,J.K. Dobbins,RB,DEN,,1,1
 11,4,8144,Chris Olave,WR,NO,,1,1
 11,5,7526,Jaylen Waddle,WR,DEN,,1,0
-11,6,9484,Tucker Kraft,TE,GB,,1,0
+11,6,8131,Isaiah Likely,TE,NYG,,1,0
 11,7,9500,Josh Downs,WR,IND,,1,1
 11,8,12185,Spencer Shrader,K,IND,,1,0
 11,9,CLE,Cleveland,DEF,CLE,,1,0
@@ -187,7 +187,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,,13296,Caleb Douglas,WR,MIA,Out,0,0
 11,,13301,Antonio Williams,WR,WAS,,0,0
 11,,6797,Justin Herbert,QB,LAC,,0,1
-11,,8131,Isaiah Likely,TE,NYG,,0,0
+11,,9484,Tucker Kraft,TE,GB,,0,0
 11,,9508,Tyjae Spears,RB,TEN,,0,0
 12,1,6804,Jordan Love,QB,GB,,1,1
 12,2,3198,Derrick Henry,RB,BAL,,1,0

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:11:57.475282Z",
+  "generated_at": "2026-10-11T18:06:32.543123Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2371,16 +2371,17 @@
         "11563",
         "6813",
         "3198",
-        "2449",
+        "11630",
         "8148",
         "10236",
         "7611",
         "12015",
-        "GB"
+        "WAS"
       ],
       "players_current": [
         "10236",
         "11563",
+        "11630",
         "12015",
         "2449",
         "3198",
@@ -2394,7 +2395,7 @@
         "9480",
         "9511",
         "9756",
-        "GB"
+        "WAS"
       ],
       "starters": [
         {
@@ -2425,13 +2426,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "11630",
+          "name": "Roman Wilson",
           "position": "WR",
-          "team": "WAS",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 9
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8148",
@@ -2470,15 +2470,24 @@
           "draft_round": 16
         },
         {
-          "player_id": "GB",
-          "name": "Green Bay",
+          "player_id": "WAS",
+          "name": "Washington",
           "position": "DEF",
-          "team": "GB",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 9
+        },
         {
           "player_id": "6904",
           "name": "Jalen Hurts",
@@ -2887,85 +2896,85 @@
       "week": 5,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 0.0,
+      "points": 26.3,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 1,
-      "points": 27.74,
+      "points": 32.54,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 23.5,
+      "points": 44.2,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 0.0,
+      "points": 16.5,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 44.96,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 20.8,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 7,
-      "points": 30.5,
+      "points": 54.1,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 6,
-      "points": 14.2,
+      "points": 38.2,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 11,
-      "points": 5.1,
+      "points": 64.64,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 8,
-      "points": 0.0,
+      "points": 49.92,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 9,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 30.3,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 32.8,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -2973,10 +2982,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2838,
+    "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-11T13:11:57.475282Z",
-    "stale_after": "2026-10-11T14:11:57.475282Z"
+    "generated_at": "2026-10-11T18:06:32.543123Z",
+    "stale_after": "2026-10-11T19:06:32.543123Z"
   }
 }

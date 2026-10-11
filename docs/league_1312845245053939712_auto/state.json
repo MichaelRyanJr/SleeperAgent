@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:11:59.867123Z",
+  "generated_at": "2026-10-11T18:06:35.726971Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -899,7 +899,7 @@
         "9493",
         "11632",
         "12517",
-        "9756",
+        "11620",
         "12015",
         "HOU"
       ],
@@ -978,13 +978,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 6
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "12015",
@@ -1013,15 +1013,6 @@
           "team": "CIN",
           "injury_status": "IR",
           "keeper": false
-        },
-        {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
         },
         {
           "player_id": "12508",
@@ -1083,6 +1074,15 @@
           "team": "HOU",
           "injury_status": "IR",
           "keeper": false
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
         }
       ],
       "keepers": [
@@ -1946,10 +1946,10 @@
         "421",
         "8138",
         "12507",
-        "9997",
+        "6794",
         "8137",
         "3214",
-        "6794",
+        "9997",
         "11539",
         "JAX"
       ],
@@ -2001,13 +2001,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "BAL",
+          "team": "MIN",
           "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "8137",
@@ -2028,13 +2028,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "MIN",
+          "team": "BAL",
           "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "11539",
@@ -2149,15 +2149,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "8137",
           "name": "George Pickens",
           "position": "WR",
@@ -2174,6 +2165,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "11566",
@@ -2706,7 +2706,7 @@
         "6806",
         "8144",
         "7526",
-        "9484",
+        "8131",
         "9500",
         "12185",
         "CLE"
@@ -2778,13 +2778,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
           "position": "TE",
-          "team": "GB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 11
         },
         {
           "player_id": "9500",
@@ -2875,13 +2875,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
           "position": "TE",
-          "team": "NYG",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 13
         },
         {
           "player_id": "9508",
@@ -3543,84 +3543,84 @@
       "week": 5,
       "roster_id": 1,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 47.6,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 28.96,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 6,
-      "points": 2.9,
+      "points": 50.22,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 2,
-      "points": 0.0,
+      "points": 36.3,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 12,
-      "points": 50.7,
+      "points": 89.4,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 3,
-      "points": 0.0,
+      "points": 29.9,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 42.94,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 9,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 36.2,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 5,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 26.4,
+      "result": "L"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 37.18,
+      "result": "W"
     },
     {
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 8,
-      "points": 24.64,
+      "points": 33.94,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 7,
-      "points": 31.0,
+      "points": 39.1,
       "result": "W"
     }
   ],
@@ -3632,7 +3632,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-11T13:11:59.867123Z",
-    "stale_after": "2026-10-11T14:11:59.867123Z"
+    "generated_at": "2026-10-11T18:06:35.726971Z",
+    "stale_after": "2026-10-11T19:06:35.726971Z"
   }
 }
