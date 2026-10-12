@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:54:00.787622Z",
+  "generated_at": "2026-10-12T00:58:55.556430Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -190,7 +190,7 @@
         "8130",
         "11576",
         "8259",
-        "LAR"
+        "0"
       ],
       "players_current": [
         "10213",
@@ -279,15 +279,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
-        },
-        {
-          "player_id": "LAR",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         }
       ],
       "bench": [
@@ -352,6 +343,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "LAR",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         }
       ],
       "keepers": []
@@ -2896,70 +2896,70 @@
       "week": 5,
       "roster_id": 1,
       "opponent_roster_id": 3,
-      "points": 86.98,
+      "points": 104.48,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 3,
       "opponent_roster_id": 1,
-      "points": 75.64,
+      "points": 100.64,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 60.78,
+      "points": 76.04,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 77.94,
+      "points": 99.76,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 94.9,
+      "points": 95.0,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 39.38,
+      "points": 58.02,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 6,
       "opponent_roster_id": 7,
-      "points": 88.5,
+      "points": 113.9,
       "result": "W"
     },
     {
       "week": 5,
       "roster_id": 7,
       "opponent_roster_id": 6,
-      "points": 84.1,
+      "points": 91.6,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 8,
       "opponent_roster_id": 11,
-      "points": 108.04,
+      "points": 115.44,
       "result": "L"
     },
     {
       "week": 5,
       "roster_id": 11,
       "opponent_roster_id": 8,
-      "points": 124.66,
+      "points": 151.86,
       "result": "W"
     },
     {
@@ -2973,7 +2973,7 @@
       "week": 5,
       "roster_id": 10,
       "opponent_roster_id": 9,
-      "points": 48.66,
+      "points": 78.66,
       "result": "W"
     }
   ],
@@ -2985,7 +2985,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-11T21:54:00.787622Z",
-    "stale_after": "2026-10-11T22:54:00.787622Z"
+    "generated_at": "2026-10-12T00:58:55.556430Z",
+    "stale_after": "2026-10-12T01:58:55.556430Z"
   }
 }
