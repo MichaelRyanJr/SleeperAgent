@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T16:48:19.857623Z",
-  "stale_after": "2026-10-12T17:48:19.857623Z",
+  "generated_at": "2026-10-12T23:17:13.855113Z",
+  "stale_after": "2026-10-13T00:17:13.855113Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-12T16:48:16.328111Z",
+    "snapshot_started_at": "2026-10-12T23:17:10.847161Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-12T16:48:16.429188Z"
+      "fetched_at": "2026-10-12T23:17:10.995327Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-12T16:48:16.688623Z"
+      "fetched_at": "2026-10-12T23:17:11.416493Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-12T16:48:16.780336Z"
+        "fetched_at": "2026-10-12T23:17:11.615392Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-12T16:48:16.900306Z"
+      "fetched_at": "2026-10-12T23:17:11.774275Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-10-12T16:48:19.681123Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 197,
+  "excluded_rostered_count": 196,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2837,
-  "all_player_count": 4190,
-  "player_count": 2837,
+  "default_player_count": 2838,
+  "all_player_count": 4191,
+  "player_count": 2838,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -61,7 +61,7 @@
     "FB": 65,
     "K": 139,
     "P": 4,
-    "QB": 324,
+    "QB": 325,
     "RB": 561,
     "SS": 1,
     "TE": 546,
@@ -7532,6 +7532,32 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1790138111924,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "2307",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "WAS",
+      "age": 32,
+      "years_exp": 11,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "QB",
+      "news_updated": 1791582056880,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
