@@ -12,11 +12,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
+        "player_id": "11576",
+        "name": "Braelon Allen",
         "position": "RB",
-        "team": "MIA",
-        "injury_status": "Questionable"
+        "team": "NYJ",
+        "injury_status": null
       },
       {
         "player_id": "12481",
@@ -33,10 +33,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6794",
-        "name": "Justin Jefferson",
+        "player_id": "12526",
+        "name": "Tetairoa McMillan",
         "position": "WR",
-        "team": "MIN",
+        "team": "CAR",
         "injury_status": null
       },
       {
@@ -47,10 +47,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11576",
-        "name": "Braelon Allen",
-        "position": "RB",
-        "team": "NYJ",
+        "player_id": "10213",
+        "name": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -59,16 +59,16 @@
         "position": "K",
         "team": "LAC",
         "injury_status": null
+      },
+      {
+        "player_id": "LAR",
+        "name": "Los Angeles",
+        "position": "DEF",
+        "team": "LAR",
+        "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "10213",
-        "name": "Tre Tucker",
-        "position": "WR",
-        "team": "LV",
-        "injury_status": null
-      },
       {
         "player_id": "11603",
         "name": "AJ Barner",
@@ -77,17 +77,17 @@
         "injury_status": null
       },
       {
+        "player_id": "12495",
+        "name": "Ollie Gordon",
+        "position": "RB",
+        "team": "MIA",
+        "injury_status": "Questionable"
+      },
+      {
         "player_id": "12507",
         "name": "Omarion Hampton",
         "position": "RB",
         "team": "LAC",
-        "injury_status": null
-      },
-      {
-        "player_id": "12526",
-        "name": "Tetairoa McMillan",
-        "position": "WR",
-        "team": "CAR",
         "injury_status": null
       },
       {
@@ -112,10 +112,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "LAR",
-        "name": "Los Angeles",
-        "position": "DEF",
-        "team": "LAR",
+        "player_id": "6794",
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "team": "MIN",
         "injury_status": null
       }
     ]
@@ -133,10 +133,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9221",
-        "name": "Jahmyr Gibbs",
+        "player_id": "4035",
+        "name": "Alvin Kamara",
         "position": "RB",
-        "team": "DET",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -168,10 +168,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9500",
-        "name": "Josh Downs",
+        "player_id": "2216",
+        "name": "Mike Evans",
         "position": "WR",
-        "team": "IND",
+        "team": "SF",
         "injury_status": null
       },
       {
@@ -205,20 +205,6 @@
         "injury_status": null
       },
       {
-        "player_id": "2216",
-        "name": "Mike Evans",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": null
-      },
-      {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
-        "position": "RB",
-        "team": "NO",
-        "injury_status": null
-      },
-      {
         "player_id": "5849",
         "name": "Kyler Murray",
         "position": "QB",
@@ -230,6 +216,20 @@
         "name": "Jakobi Meyers",
         "position": "WR",
         "team": "JAX",
+        "injury_status": null
+      },
+      {
+        "player_id": "9221",
+        "name": "Jahmyr Gibbs",
+        "position": "RB",
+        "team": "DET",
+        "injury_status": null
+      },
+      {
+        "player_id": "9500",
+        "name": "Josh Downs",
+        "position": "WR",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -891,7 +891,7 @@
         "name": "Jaxon Smith-Njigba",
         "position": "WR",
         "team": "SEA",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4217",
@@ -1084,7 +1084,7 @@
         "name": "DJ Moore",
         "position": "WR",
         "team": "BUF",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "5850",

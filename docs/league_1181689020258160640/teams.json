@@ -50,7 +50,7 @@
         "name": "Jaxon Smith-Njigba",
         "position": "WR",
         "team": "SEA",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 8
       },
@@ -619,42 +619,6 @@
     },
     "keepers": [
       {
-        "player_id": "6790",
-        "name": "D'Andre Swift",
-        "position": "RB",
-        "team": "CHI",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 5
-      },
-      {
-        "player_id": "8112",
-        "name": "Drake London",
-        "position": "WR",
-        "team": "ATL",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 6
-      },
-      {
-        "player_id": "10232",
-        "name": "Michael Wilson",
-        "position": "WR",
-        "team": "ARI",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 13
-      },
-      {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 2
-      },
-      {
         "player_id": "11560",
         "name": "Caleb Williams",
         "position": "QB",
@@ -673,6 +637,24 @@
         "draft_round": 9
       },
       {
+        "player_id": "8112",
+        "name": "Drake London",
+        "position": "WR",
+        "team": "ATL",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 6
+      },
+      {
+        "player_id": "8146",
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 2
+      },
+      {
         "player_id": "8110",
         "name": "Jake Ferguson",
         "position": "TE",
@@ -680,6 +662,24 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 14
+      },
+      {
+        "player_id": "6790",
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "team": "CHI",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 5
+      },
+      {
+        "player_id": "10232",
+        "name": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 13
       }
     ]
   },

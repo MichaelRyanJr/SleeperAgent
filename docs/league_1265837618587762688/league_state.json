@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:07:37.396988Z",
+  "generated_at": "2026-10-13T18:16:40.851892Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -183,14 +183,14 @@
       },
       "starters_current": [
         "6804",
-        "12495",
+        "11576",
         "12481",
         "13279",
-        "6794",
+        "12526",
         "8130",
-        "11576",
+        "10213",
         "8259",
-        "0"
+        "LAR"
       ],
       "players_current": [
         "10213",
@@ -220,11 +220,11 @@
           "keeper": false
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "MIA",
-          "injury_status": "Questionable",
+          "team": "NYJ",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -246,13 +246,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "MIN",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 3
         },
         {
           "player_id": "8130",
@@ -264,10 +264,10 @@
           "draft_round": 2
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         },
@@ -279,17 +279,18 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
+        },
+        {
+          "player_id": "LAR",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         }
       ],
       "bench": [
-        {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11603",
           "name": "AJ Barner",
@@ -300,6 +301,14 @@
           "draft_round": 16
         },
         {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "injury_status": "Questionable",
+          "keeper": false
+        },
+        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -307,15 +316,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "12534",
@@ -345,13 +345,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAR",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 1
         }
       ],
       "keepers": []
@@ -1172,12 +1172,12 @@
       },
       "starters_current": [
         "4984",
-        "9221",
+        "4035",
         "11584",
         "8144",
         "8146",
         "12506",
-        "9500",
+        "2216",
         "6083",
         "BAL"
       ],
@@ -1210,13 +1210,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "DET",
+          "team": "NO",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 12
         },
         {
           "player_id": "11584",
@@ -1255,13 +1255,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "IND",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 7
         },
         {
           "player_id": "6083",
@@ -1301,24 +1301,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "5849",
           "name": "Kyler Murray",
           "position": "QB",
@@ -1335,6 +1317,24 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "9508",
@@ -1723,7 +1723,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
         },
@@ -2233,7 +2233,7 @@
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -3060,7 +3060,7 @@
     "player_count": 2838,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-13T11:07:37.396988Z",
-    "stale_after": "2026-10-13T12:07:37.396988Z"
+    "generated_at": "2026-10-13T18:16:40.851892Z",
+    "stale_after": "2026-10-13T19:16:40.851892Z"
   }
 }
