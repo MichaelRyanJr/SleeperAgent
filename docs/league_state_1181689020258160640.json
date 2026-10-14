@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:39:41.378696Z",
+  "generated_at": "2026-10-14T06:42:44.372332Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -2966,7 +2966,7 @@
         "12481",
         "4983",
         "2216",
-        "4993",
+        "1466",
         "11834",
         "3451",
         "DEN"
@@ -3037,12 +3037,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "CIN",
+          "team": "KC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "11834",
@@ -3082,15 +3083,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "position": "WR",
@@ -3107,6 +3099,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8136",
@@ -3716,7 +3716,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-14T01:39:41.378696Z",
-    "stale_after": "2026-10-14T02:39:41.378696Z"
+    "generated_at": "2026-10-14T06:42:44.372332Z",
+    "stale_after": "2026-10-14T07:42:44.372332Z"
   }
 }
