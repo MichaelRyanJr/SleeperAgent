@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:30:37.521173Z",
+  "generated_at": "2026-10-14T20:56:03.538362Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -224,7 +224,7 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 1
         },
@@ -251,7 +251,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -334,7 +334,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 7
         },
@@ -496,7 +496,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -605,7 +605,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         }
@@ -1297,7 +1297,7 @@
           "name": "KC Concepcion",
           "position": "WR",
           "team": "CLE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -1315,7 +1315,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         },
@@ -1389,7 +1389,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         },
@@ -1577,7 +1577,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 14
         },
@@ -1604,7 +1604,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1668,7 +1668,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 14
         }
@@ -1745,7 +1745,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1818,7 +1818,7 @@
           "name": "Will Shipley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false
         },
         {
@@ -1881,7 +1881,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -2250,7 +2250,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2340,7 +2340,7 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 4
         },
@@ -2375,7 +2375,7 @@
           "name": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -2403,7 +2403,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2483,11 +2483,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6770",
-        "4199",
+        "1166",
+        "4866",
         "13287",
-        "8148",
-        "6801",
+        "2449",
+        "8126",
         "7553",
         "13279",
         "7839",
@@ -2495,9 +2495,9 @@
       ],
       "players_current": [
         "11610",
+        "1166",
         "13279",
         "13287",
-        "13337",
         "13346",
         "2449",
         "4199",
@@ -2513,22 +2513,21 @@
       ],
       "starters": [
         {
-          "player_id": "6770",
-          "name": "Joe Burrow",
+          "player_id": "1166",
+          "name": "Kirk Cousins",
           "position": "QB",
-          "team": "CIN",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "MIN",
+          "team": "PHI",
           "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 1
         },
         {
           "player_id": "13287",
@@ -2540,19 +2539,19 @@
           "draft_round": 1
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 8
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "CIN",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
@@ -2605,15 +2604,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "position": "WR",
@@ -2623,31 +2613,40 @@
           "draft_round": 10
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "Out",
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "Out",
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 3
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "TEN",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "9480",
@@ -2661,15 +2660,6 @@
       ],
       "keepers": [
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
           "player_id": "7553",
           "name": "Kyle Pitts",
           "position": "TE",
@@ -2677,6 +2667,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         }
       ]
     },
@@ -2702,7 +2701,7 @@
       "starters_current": [
         "9758",
         "6813",
-        "6806",
+        "12474",
         "8144",
         "7526",
         "8131",
@@ -2749,20 +2748,20 @@
           "draft_round": 3
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "DEN",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2789,7 +2788,7 @@
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -2820,15 +2819,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "12492",
@@ -2874,6 +2864,15 @@
           "draft_round": 7
         },
         {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
+        },
+        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -2887,7 +2886,7 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         }
@@ -2903,20 +2902,11 @@
           "draft_round": 3
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -2925,7 +2915,7 @@
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -2937,6 +2927,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         }
       ]
     },
@@ -3022,7 +3021,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -3049,7 +3048,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 3
         },
@@ -3176,7 +3175,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": true,
           "draft_round": 3
         },
@@ -3712,10 +3711,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-14T17:30:37.521173Z",
-    "stale_after": "2026-10-14T18:30:37.521173Z"
+    "generated_at": "2026-10-14T20:56:03.538362Z",
+    "stale_after": "2026-10-14T21:56:03.538362Z"
   }
 }
