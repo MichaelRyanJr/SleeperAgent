@@ -133,10 +133,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "5849",
-        "name": "Kyler Murray",
+        "player_id": "9758",
+        "name": "C.J. Stroud",
         "position": "QB",
-        "team": "MIN",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -205,13 +205,6 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "11630",
-        "name": "Roman Wilson",
-        "position": "WR",
-        "team": "PIT",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "12474",
         "name": "Woody Marks",
         "position": "RB",
@@ -237,6 +230,13 @@
         "name": "Antonio Williams",
         "position": "WR",
         "team": "WAS",
+        "injury_status": null
+      },
+      {
+        "player_id": "5849",
+        "name": "Kyler Murray",
+        "position": "QB",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -680,10 +680,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9221",
-        "name": "Jahmyr Gibbs",
+        "player_id": "4035",
+        "name": "Alvin Kamara",
         "position": "RB",
-        "team": "DET",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -694,10 +694,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "5045",
-        "name": "Courtland Sutton",
+        "player_id": "5846",
+        "name": "DK Metcalf",
         "position": "WR",
-        "team": "DEN",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -715,10 +715,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5846",
-        "name": "DK Metcalf",
-        "position": "WR",
-        "team": "PIT",
+        "player_id": "5012",
+        "name": "Mark Andrews",
+        "position": "TE",
+        "team": "BAL",
         "injury_status": null
       },
       {
@@ -726,6 +726,13 @@
         "name": "Brandon Aubrey",
         "position": "K",
         "team": "DAL",
+        "injury_status": null
+      },
+      {
+        "player_id": "IND",
+        "name": "Indianapolis",
+        "position": "DEF",
+        "team": "IND",
         "injury_status": null
       }
     ],
@@ -752,17 +759,10 @@
         "injury_status": ""
       },
       {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
-        "position": "RB",
-        "team": "NO",
-        "injury_status": null
-      },
-      {
-        "player_id": "5012",
-        "name": "Mark Andrews",
-        "position": "TE",
-        "team": "BAL",
+        "player_id": "5045",
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -780,10 +780,10 @@
         "injury_status": null
       },
       {
-        "player_id": "IND",
-        "name": "Indianapolis",
-        "position": "DEF",
-        "team": "IND",
+        "player_id": "9221",
+        "name": "Jahmyr Gibbs",
+        "position": "RB",
+        "team": "DET",
         "injury_status": null
       }
     ]
@@ -843,6 +843,13 @@
         "injury_status": null
       },
       {
+        "player_id": "1945",
+        "name": "Chris Boswell",
+        "position": "K",
+        "team": "PIT",
+        "injury_status": null
+      },
+      {
         "player_id": "HOU",
         "name": "Houston",
         "position": "DEF",
@@ -870,13 +877,6 @@
         "name": "Fernando Mendoza",
         "position": "QB",
         "team": "LV",
-        "injury_status": null
-      },
-      {
-        "player_id": "1945",
-        "name": "Chris Boswell",
-        "position": "K",
-        "team": "PIT",
         "injury_status": null
       },
       {
@@ -1355,10 +1355,17 @@
         "injury_status": null
       },
       {
-        "player_id": "CIN",
-        "name": "Cincinnati",
+        "player_id": "6083",
+        "name": "Matt Gay",
+        "position": "K",
+        "team": "LV",
+        "injury_status": null
+      },
+      {
+        "player_id": "SF",
+        "name": "San Francisco",
         "position": "DEF",
-        "team": "CIN",
+        "team": "SF",
         "injury_status": null
       }
     ],
@@ -1404,13 +1411,6 @@
         "position": "TE",
         "team": "NYJ",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "6083",
-        "name": "Matt Gay",
-        "position": "K",
-        "team": "LV",
-        "injury_status": null
       },
       {
         "player_id": "8129",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T12:26:54.604630Z",
-  "stale_after": "2026-10-14T13:26:54.604630Z",
+  "generated_at": "2026-10-14T17:30:37.521173Z",
+  "stale_after": "2026-10-14T18:30:37.521173Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-14T12:26:52.436864Z",
+    "snapshot_started_at": "2026-10-14T17:30:34.390469Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-14T12:26:52.527413Z"
+      "fetched_at": "2026-10-14T17:30:34.534167Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-14T12:26:52.769621Z"
+      "fetched_at": "2026-10-14T17:30:34.879648Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-14T12:26:52.897112Z"
+        "fetched_at": "2026-10-14T17:30:34.938905Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-14T12:26:53.014911Z"
+      "fetched_at": "2026-10-14T17:30:35.123966Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,11 +61,11 @@
     "FB": 65,
     "K": 139,
     "P": 4,
-    "QB": 324,
+    "QB": 323,
     "RB": 560,
     "SS": 1,
     "TE": 546,
-    "WR": 1174
+    "WR": 1175
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -237,6 +237,32 @@
         "DEF"
       ],
       "team": "CHI",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "CIN",
+      "name": "Cincinnati Bengals",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "CIN",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -471,32 +497,6 @@
         "DEF"
       ],
       "team": "NYJ",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "SF",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -6258,32 +6258,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1790748014952,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9758",
-      "name": "C.J. Stroud",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "HOU",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1791854705134,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -47757,6 +47731,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788409238233,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11630",
+      "name": "Roman Wilson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "PIT",
+      "age": 25,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "SWR",
+      "news_updated": 1791834903246,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
