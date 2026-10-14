@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:42:44.372332Z",
+  "generated_at": "2026-10-14T12:26:54.604630Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,19 +101,17 @@
       "starters_current": [
         "4984",
         "8228",
-        "5892",
+        "7567",
         "9488",
         "8167",
         "12506",
-        "12529",
+        "12514",
         "11786",
-        "MIN"
+        "KC"
       ],
       "players_current": [
-        "10213",
         "11637",
         "11786",
-        "12504",
         "12506",
         "12514",
         "12529",
@@ -122,10 +120,12 @@
         "5844",
         "5892",
         "5927",
+        "7567",
         "8142",
         "8167",
         "8228",
         "9488",
+        "KC",
         "MIN"
       ],
       "starters": [
@@ -148,13 +148,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "9488",
@@ -184,13 +184,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 1
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "11786",
@@ -202,24 +202,15 @@
           "draft_round": 9
         },
         {
-          "player_id": "MIN",
-          "name": "Minnesota",
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "MIN",
+          "team": "KC",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11637",
           "name": "Keon Coleman",
@@ -229,22 +220,13 @@
           "keeper": false
         },
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "GB",
-          "injury_status": null,
+          "team": "NE",
+          "injury_status": "Out",
           "keeper": false,
-          "draft_round": 16
-        },
-        {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "draft_round": 1
         },
         {
           "player_id": "3163",
@@ -265,6 +247,15 @@
           "draft_round": 15
         },
         {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "5927",
           "name": "Terry McLaurin",
           "position": "WR",
@@ -281,6 +272,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "MIN",
+          "name": "Minnesota",
+          "position": "DEF",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "keepers": [
@@ -301,15 +301,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "9488",
@@ -339,6 +330,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
           "player_id": "5927",
           "name": "Terry McLaurin",
           "position": "WR",
@@ -365,7 +365,7 @@
       "points_for": 611.32,
       "points_against": 583.56,
       "waiver": {
-        "position": 10,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -627,14 +627,14 @@
       "points_for": 676.58,
       "points_against": 726.58,
       "waiver": {
-        "position": 2,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
         "8183",
         "11584",
         "7588",
-        "12509",
+        "0",
         "9487",
         "8130",
         "12527",
@@ -645,9 +645,9 @@
         "10229",
         "11584",
         "12487",
-        "12509",
         "12526",
         "12527",
+        "13274",
         "13281",
         "13285",
         "13305",
@@ -688,14 +688,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "12509",
-          "name": "Tre' Harris",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": false
         },
         {
           "player_id": "9487",
@@ -770,6 +762,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
+        },
+        {
+          "player_id": "13274",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13281",
@@ -900,20 +900,19 @@
         "11632",
         "12517",
         "11620",
-        "12015",
+        "0",
         "HOU"
       ],
       "players_current": [
         "10226",
         "11620",
         "11632",
-        "12015",
         "12508",
         "12517",
         "12533",
         "13269",
+        "1945",
         "5967",
-        "6819",
         "8134",
         "9226",
         "9228",
@@ -921,7 +920,8 @@
         "9502",
         "96",
         "9756",
-        "HOU"
+        "HOU",
+        "SEA"
       ],
       "starters": [
         {
@@ -987,15 +987,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "12015",
-          "name": "Harrison Mevis",
-          "position": "K",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
           "player_id": "HOU",
           "name": "Houston",
           "position": "DEF",
@@ -1033,13 +1024,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
-          "position": "WR",
+          "player_id": "1945",
+          "name": "Chris Boswell",
+          "position": "K",
           "team": "PIT",
-          "injury_status": "IR",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 10
         },
         {
           "player_id": "8134",
@@ -1083,6 +1074,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "SEA",
+          "name": "Seattle",
+          "position": "DEF",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
         }
       ],
       "keepers": [
@@ -1149,7 +1149,7 @@
       "points_for": 762.98,
       "points_against": 731.14,
       "waiver": {
-        "position": 7,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -1429,7 +1429,7 @@
       "points_for": 556.52,
       "points_against": 618.08,
       "waiver": {
-        "position": 5,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1459,7 +1459,7 @@
         "6904",
         "7525",
         "9224",
-        "BUF",
+        "9757",
         "NE"
       ],
       "starters": [
@@ -1609,10 +1609,10 @@
           "draft_round": 2
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo",
-          "position": "DEF",
-          "team": "BUF",
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -1690,19 +1690,19 @@
       "points_for": 660.54,
       "points_against": 562.04,
       "waiver": {
-        "position": 8,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
         "3294",
         "9221",
-        "4035",
-        "7547",
+        "7021",
+        "5045",
         "12501",
         "10236",
         "5846",
         "11533",
-        "DAL"
+        "0"
       ],
       "players_current": [
         "10236",
@@ -1720,7 +1720,7 @@
         "7021",
         "7547",
         "9221",
-        "DAL"
+        "IND"
       ],
       "starters": [
         {
@@ -1742,21 +1742,22 @@
           "draft_round": 4
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
+          "team": "PIT",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 14
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "DET",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 2
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "12501",
@@ -1793,14 +1794,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
-        },
-        {
-          "player_id": "DAL",
-          "name": "Dallas",
-          "position": "DEF",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1830,6 +1823,14 @@
           "keeper": false
         },
         {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -1837,15 +1838,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
         },
         {
           "player_id": "5850",
@@ -1857,13 +1849,21 @@
           "draft_round": 2
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Out",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 2
+        },
+        {
+          "player_id": "IND",
+          "name": "Indianapolis",
+          "position": "DEF",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1886,13 +1886,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": "Out",
           "keeper": true,
-          "draft_round": 2
+          "draft_round": 14
         },
         {
           "player_id": "11533",
@@ -1913,13 +1913,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Out",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 2
         }
       ]
     },
@@ -1939,7 +1939,7 @@
       "points_for": 660.74,
       "points_against": 617.58,
       "waiver": {
-        "position": 3,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -2222,7 +2222,7 @@
         "8146",
         "8110",
         "6790",
-        "8259",
+        "0",
         "CIN"
       ],
       "players_current": [
@@ -2233,14 +2233,14 @@
         "12545",
         "13276",
         "13330",
-        "3257",
+        "6083",
         "6790",
         "7611",
         "8110",
         "8112",
+        "8129",
         "8146",
         "8154",
-        "8259",
         "9509",
         "CIN"
       ],
@@ -2309,15 +2309,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "8259",
-          "name": "Cameron Dicker",
-          "position": "K",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "CIN",
           "name": "Cincinnati",
           "position": "DEF",
@@ -2381,10 +2372,18 @@
           "draft_round": 11
         },
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
+          "player_id": "6083",
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8129",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false
         },
@@ -2480,7 +2479,7 @@
       "points_for": 487.84,
       "points_against": 622.14,
       "waiver": {
-        "position": 4,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -2697,7 +2696,7 @@
       "points_for": 561.4,
       "points_against": 557.04,
       "waiver": {
-        "position": 9,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -2957,7 +2956,7 @@
       "points_for": 643.18,
       "points_against": 684.08,
       "waiver": {
-        "position": 6,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2967,7 +2966,7 @@
         "4983",
         "2216",
         "1466",
-        "11834",
+        "8155",
         "3451",
         "DEN"
       ],
@@ -2982,8 +2981,8 @@
         "4037",
         "4046",
         "4983",
-        "4993",
         "6804",
+        "7600",
         "8136",
         "8155",
         "8205",
@@ -3046,12 +3045,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "3451",
@@ -3073,6 +3073,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "12493",
           "name": "Oronde Gadsden",
@@ -3101,10 +3109,10 @@
           "draft_round": 9
         },
         {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
           "position": "TE",
-          "team": "CIN",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         },
@@ -3116,15 +3124,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 3
         },
         {
           "player_id": "8205",
@@ -3173,6 +3172,15 @@
           "draft_round": 6
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "3451",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -3189,15 +3197,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     }
@@ -3713,10 +3712,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-14T06:42:44.372332Z",
-    "stale_after": "2026-10-14T07:42:44.372332Z"
+    "generated_at": "2026-10-14T12:26:54.604630Z",
+    "stale_after": "2026-10-14T13:26:54.604630Z"
   }
 }

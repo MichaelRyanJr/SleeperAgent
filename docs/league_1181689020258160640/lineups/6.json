@@ -19,11 +19,11 @@
         "injury_status": null
       },
       {
-        "player_id": "5892",
-        "name": "David Montgomery",
+        "player_id": "7567",
+        "name": "Kenny Gainwell",
         "position": "RB",
-        "team": "HOU",
-        "injury_status": "Out"
+        "team": "TB",
+        "injury_status": null
       },
       {
         "player_id": "9488",
@@ -47,11 +47,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12529",
-        "name": "TreVeyon Henderson",
-        "position": "RB",
-        "team": "NE",
-        "injury_status": "Out"
+        "player_id": "12514",
+        "name": "Emeka Egbuka",
+        "position": "WR",
+        "team": "TB",
+        "injury_status": null
       },
       {
         "player_id": "11786",
@@ -61,21 +61,14 @@
         "injury_status": null
       },
       {
-        "player_id": "MIN",
-        "name": "Minnesota",
+        "player_id": "KC",
+        "name": "Kansas City",
         "position": "DEF",
-        "team": "MIN",
+        "team": "KC",
         "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "10213",
-        "name": "Tre Tucker",
-        "position": "WR",
-        "team": "LV",
-        "injury_status": null
-      },
       {
         "player_id": "11637",
         "name": "Keon Coleman",
@@ -84,18 +77,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12504",
-        "name": "Kaleb Johnson",
+        "player_id": "12529",
+        "name": "TreVeyon Henderson",
         "position": "RB",
-        "team": "GB",
-        "injury_status": null
-      },
-      {
-        "player_id": "12514",
-        "name": "Emeka Egbuka",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": null
+        "team": "NE",
+        "injury_status": "Out"
       },
       {
         "player_id": "3163",
@@ -112,6 +98,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "5892",
+        "name": "David Montgomery",
+        "position": "RB",
+        "team": "HOU",
+        "injury_status": "Out"
+      },
+      {
         "player_id": "5927",
         "name": "Terry McLaurin",
         "position": "WR",
@@ -124,6 +117,13 @@
         "position": "WR",
         "team": "IND",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "MIN",
+        "name": "Minnesota",
+        "position": "DEF",
+        "team": "MIN",
+        "injury_status": null
       }
     ]
   },
@@ -617,11 +617,11 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "12509",
-        "name": "Tre' Harris",
+        "player_id": "13274",
+        "name": "Germie Bernard",
         "position": "WR",
-        "team": "LAC",
-        "injury_status": "Questionable"
+        "team": "PIT",
+        "injury_status": null
       },
       {
         "player_id": "13281",
@@ -687,17 +687,17 @@
         "injury_status": null
       },
       {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
+        "player_id": "7021",
+        "name": "Rico Dowdle",
         "position": "RB",
-        "team": "NO",
-        "injury_status": null
+        "team": "PIT",
+        "injury_status": "Out"
       },
       {
-        "player_id": "7547",
-        "name": "Amon-Ra St. Brown",
+        "player_id": "5045",
+        "name": "Courtland Sutton",
         "position": "WR",
-        "team": "DET",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -727,13 +727,6 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
-      },
-      {
-        "player_id": "DAL",
-        "name": "Dallas",
-        "position": "DEF",
-        "team": "DAL",
-        "injury_status": null
       }
     ],
     "bench": [
@@ -759,17 +752,17 @@
         "injury_status": ""
       },
       {
+        "player_id": "4035",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "injury_status": null
+      },
+      {
         "player_id": "5012",
         "name": "Mark Andrews",
         "position": "TE",
         "team": "BAL",
-        "injury_status": null
-      },
-      {
-        "player_id": "5045",
-        "name": "Courtland Sutton",
-        "position": "WR",
-        "team": "DEN",
         "injury_status": null
       },
       {
@@ -780,11 +773,18 @@
         "injury_status": "NA"
       },
       {
-        "player_id": "7021",
-        "name": "Rico Dowdle",
-        "position": "RB",
-        "team": "PIT",
-        "injury_status": "Out"
+        "player_id": "7547",
+        "name": "Amon-Ra St. Brown",
+        "position": "WR",
+        "team": "DET",
+        "injury_status": null
+      },
+      {
+        "player_id": "IND",
+        "name": "Indianapolis",
+        "position": "DEF",
+        "team": "IND",
+        "injury_status": null
       }
     ]
   },
@@ -843,13 +843,6 @@
         "injury_status": null
       },
       {
-        "player_id": "12015",
-        "name": "Harrison Mevis",
-        "position": "K",
-        "team": "LAR",
-        "injury_status": null
-      },
-      {
         "player_id": "HOU",
         "name": "Houston",
         "position": "DEF",
@@ -880,11 +873,11 @@
         "injury_status": null
       },
       {
-        "player_id": "6819",
-        "name": "Michael Pittman",
-        "position": "WR",
+        "player_id": "1945",
+        "name": "Chris Boswell",
+        "position": "K",
         "team": "PIT",
-        "injury_status": "IR"
+        "injury_status": null
       },
       {
         "player_id": "8134",
@@ -920,6 +913,13 @@
         "position": "WR",
         "team": "MIN",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "SEA",
+        "name": "Seattle",
+        "position": "DEF",
+        "team": "SEA",
+        "injury_status": null
       }
     ]
   },
@@ -1164,10 +1164,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "BUF",
-        "name": "Buffalo",
-        "position": "DEF",
-        "team": "BUF",
+        "player_id": "9757",
+        "name": "Kendre Miller",
+        "position": "RB",
+        "team": "NO",
         "injury_status": null
       }
     ]
@@ -1355,13 +1355,6 @@
         "injury_status": null
       },
       {
-        "player_id": "8259",
-        "name": "Cameron Dicker",
-        "position": "K",
-        "team": "LAC",
-        "injury_status": null
-      },
-      {
         "player_id": "CIN",
         "name": "Cincinnati",
         "position": "DEF",
@@ -1413,10 +1406,17 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "3257",
-        "name": "Jacoby Brissett",
-        "position": "QB",
-        "team": "ARI",
+        "player_id": "6083",
+        "name": "Matt Gay",
+        "position": "K",
+        "team": "LV",
+        "injury_status": null
+      },
+      {
+        "player_id": "8129",
+        "name": "Dameon Pierce",
+        "position": "RB",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -1476,11 +1476,11 @@
         "injury_status": null
       },
       {
-        "player_id": "11834",
-        "name": "Devaughn Vele",
-        "position": "WR",
-        "team": "NO",
-        "injury_status": null
+        "player_id": "8155",
+        "name": "Breece Hall",
+        "position": "RB",
+        "team": "NYJ",
+        "injury_status": "Out"
       },
       {
         "player_id": "3451",
@@ -1498,6 +1498,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "11834",
+        "name": "Devaughn Vele",
+        "position": "WR",
+        "team": "NO",
+        "injury_status": null
+      },
       {
         "player_id": "12493",
         "name": "Oronde Gadsden",
@@ -1520,10 +1527,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4993",
-        "name": "Mike Gesicki",
+        "player_id": "7600",
+        "name": "Pat Freiermuth",
         "position": "TE",
-        "team": "CIN",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -1532,13 +1539,6 @@
         "position": "RB",
         "team": "WAS",
         "injury_status": null
-      },
-      {
-        "player_id": "8155",
-        "name": "Breece Hall",
-        "position": "RB",
-        "team": "NYJ",
-        "injury_status": "Out"
       },
       {
         "player_id": "8205",

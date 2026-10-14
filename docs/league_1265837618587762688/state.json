@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:42:41.627418Z",
+  "generated_at": "2026-10-14T12:26:51.961031Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,12 +178,12 @@
       "points_for": 491.46,
       "points_against": 495.74,
       "waiver": {
-        "position": 9,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
         "6804",
-        "11576",
+        "11581",
         "12481",
         "13279",
         "12526",
@@ -195,7 +195,7 @@
       "players_current": [
         "10213",
         "11576",
-        "11603",
+        "11581",
         "12481",
         "12495",
         "12507",
@@ -220,12 +220,13 @@
           "keeper": false
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "11581",
+          "name": "MarShawn Lloyd",
           "position": "RB",
-          "team": "NYJ",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "12481",
@@ -292,13 +293,12 @@
       ],
       "bench": [
         {
-          "player_id": "11603",
-          "name": "AJ Barner",
-          "position": "TE",
-          "team": "SEA",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
+          "keeper": false
         },
         {
           "player_id": "12495",
@@ -372,11 +372,11 @@
       "points_for": 581.4,
       "points_against": 564.04,
       "waiver": {
-        "position": 7,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
-        "0",
+        "5870",
         "8150",
         "7594",
         "9493",
@@ -384,13 +384,14 @@
         "13330",
         "8121",
         "11786",
-        "0"
+        "IND"
       ],
       "players_current": [
         "11631",
         "11786",
         "13330",
         "3163",
+        "5870",
         "5872",
         "5892",
         "6806",
@@ -401,9 +402,18 @@
         "8150",
         "8408",
         "9493",
+        "IND",
         "MIN"
       ],
       "starters": [
+        {
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -466,6 +476,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "IND",
+          "name": "Indianapolis",
+          "position": "DEF",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1381,7 +1399,6 @@
       "players_current": [
         "11610",
         "11620",
-        "11637",
         "12469",
         "12514",
         "12545",
@@ -1389,6 +1406,7 @@
         "3321",
         "4199",
         "421",
+        "4454",
         "6790",
         "7543",
         "7547",
@@ -1489,14 +1507,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12469",
           "name": "Dylan Sampson",
           "position": "RB",
@@ -1530,6 +1540,14 @@
           "keeper": false
         },
         {
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "7543",
           "name": "Travis Etienne",
           "position": "RB",
@@ -1557,7 +1575,7 @@
       "points_for": 550.16,
       "points_against": 491.54,
       "waiver": {
-        "position": 10,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1959,7 +1977,7 @@
       "points_for": 514.2,
       "points_against": 471.68,
       "waiver": {
-        "position": 11,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2159,7 +2177,7 @@
       "points_for": 570.38,
       "points_against": 516.22,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -3057,10 +3075,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2838,
+    "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-14T06:42:41.627418Z",
-    "stale_after": "2026-10-14T07:42:41.627418Z"
+    "generated_at": "2026-10-14T12:26:51.961031Z",
+    "stale_after": "2026-10-14T13:26:51.961031Z"
   }
 }
