@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T20:56:03.538362Z",
-  "stale_after": "2026-10-14T21:56:03.538362Z",
+  "generated_at": "2026-10-14T23:46:43.792260Z",
+  "stale_after": "2026-10-15T00:46:43.792260Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-14T20:55:59.785584Z",
+    "snapshot_started_at": "2026-10-14T23:46:34.260435Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-14T20:55:59.927971Z"
+      "fetched_at": "2026-10-14T23:46:41.134732Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-14T20:56:00.332199Z"
+      "fetched_at": "2026-10-14T23:46:41.434930Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-14T20:56:00.497611Z"
+        "fetched_at": "2026-10-14T23:46:41.485901Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-14T20:56:00.671473Z"
+      "fetched_at": "2026-10-14T23:46:41.673870Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -60,14 +60,14 @@
     "DB": 1,
     "DEF": 18,
     "FB": 112,
-    "K": 179,
+    "K": 178,
     "P": 5,
     "QB": 449,
     "RB": 876,
     "SS": 1,
     "T": 2,
     "TE": 816,
-    "WR": 1718
+    "WR": 1719
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -3896,32 +3896,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "4227",
-      "name": "Harrison Butker",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "KC",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1791172515728,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "4195",
@@ -65957,6 +65931,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "13264",
+      "name": "Dohnte Meyers",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "CIN",
+      "age": 26,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "SWR",
+      "news_updated": 1791946233997,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12732",
       "name": "Dominic Lovett",
       "position": "WR",
@@ -68063,32 +68063,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "4454",
-      "name": "Kendrick Bourne",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "ARI",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1791836703343,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13412",
       "name": "Kendrick Law",
       "position": "WR",
@@ -69491,6 +69465,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "8121",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "NE",
+      "age": 26,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "RWR",
+      "news_updated": 1791774322055,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 12
     },
     {
       "player_id": "11783",
