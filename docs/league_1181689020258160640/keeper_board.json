@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:20:45.150074Z",
+  "generated_at": "2026-10-15T20:26:16.408894Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -2296,33 +2296,6 @@
           "keeper_cost_round_is_provisional": false
         },
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1413560349327630337",
-          "acquisition_time": "2026-10-07T13:59:19.262000Z",
-          "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 16,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "5859",
           "name": "A.J. Brown",
           "position": "WR",
@@ -2546,12 +2519,11 @@
       "owner": "mikeryan65",
       "team_name": "The Ladds",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 6,
+        "submitted_keeper_count": 5,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
           6,
-          7,
           8,
           13,
           14
@@ -2779,6 +2751,33 @@
           "keeper_cost_round_is_provisional": true
         },
         {
+          "player_id": "2306",
+          "name": "Jameis Winston",
+          "position": "QB",
+          "team": "NYG",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1416521354919882752",
+          "acquisition_time": "2026-10-15T18:05:18.008000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "4034",
           "name": "Christian McCaffrey",
           "position": "RB",
@@ -2858,33 +2857,6 @@
           "current_draft_round": 10,
           "base_keeper_cost_round": 8,
           "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "original_draft_round": 7,
-          "original_draft_pick_no": 76,
-          "original_draft_slot": 4,
-          "original_drafted_by": "1002070687789600768",
-          "original_draft_roster_id": 6,
-          "acquired_via": "draft",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": true,
-          "keeper_submitted_round": 7,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 7,
-          "keeper_cost_round": 7,
-          "keeper_cost_source": "current_submitted_keeper",
-          "keeper_round_may_move_for_collision": false,
-          "current_draft_round": 7,
-          "base_keeper_cost_round": 7,
-          "keeper_cost_round_is_provisional": false
         },
         {
           "player_id": "6904",
@@ -5895,5 +5867,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-15T17:20:45.198297Z"
+  "rules_updated_at": "2026-10-15T20:26:16.455764Z"
 }

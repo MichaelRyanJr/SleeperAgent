@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:20:44.698758Z",
+  "generated_at": "2026-10-15T20:26:15.916376Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1153,7 +1153,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4943",
+        "0",
         "12495",
         "8150",
         "7569",
@@ -1173,7 +1173,6 @@
         "2133",
         "4217",
         "4881",
-        "4943",
         "5859",
         "650",
         "7543",
@@ -1184,15 +1183,6 @@
         "BAL"
       ],
       "starters": [
-        {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
-        },
         {
           "player_id": "12495",
           "name": "Ollie Gordon",
@@ -1433,11 +1423,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "6904",
+        "2306",
         "4034",
         "9757",
         "12519",
-        "5947",
+        "11624",
         "5001",
         "11646",
         "12711",
@@ -1452,10 +1442,10 @@
         "12519",
         "12711",
         "13345",
+        "2306",
         "4034",
         "5001",
         "5872",
-        "5947",
         "6904",
         "7525",
         "9224",
@@ -1464,13 +1454,12 @@
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "2306",
+          "name": "Jameis Winston",
           "position": "QB",
-          "team": "PHI",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
+          "keeper": false
         },
         {
           "player_id": "4034",
@@ -1499,13 +1488,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
           "position": "WR",
-          "team": "JAX",
+          "team": "KC",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "5001",
@@ -1554,15 +1543,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1599,6 +1579,15 @@
           "draft_round": 10
         },
         {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -1626,15 +1615,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
         },
         {
           "player_id": "11646",
@@ -3711,10 +3691,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-15T17:20:44.698758Z",
-    "stale_after": "2026-10-15T18:20:44.698758Z"
+    "generated_at": "2026-10-15T20:26:15.916376Z",
+    "stale_after": "2026-10-15T21:26:15.916376Z"
   }
 }
