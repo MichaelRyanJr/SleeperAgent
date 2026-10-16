@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T06:08:56.567216Z",
-  "stale_after": "2026-10-16T07:08:56.567216Z",
+  "generated_at": "2026-10-16T11:22:49.605827Z",
+  "stale_after": "2026-10-16T12:22:49.605827Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-16T06:08:54.306463Z",
+    "snapshot_started_at": "2026-10-16T11:22:46.922877Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-16T06:08:54.415150Z"
+      "fetched_at": "2026-10-16T11:22:47.053575Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-16T06:08:54.649585Z"
+      "fetched_at": "2026-10-16T11:22:47.363213Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-16T06:08:54.738974Z"
+        "fetched_at": "2026-10-16T11:22:47.407493Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-16T06:08:54.850238Z"
+      "fetched_at": "2026-10-16T11:22:47.568743Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,10 +62,10 @@
     "K": 137,
     "P": 4,
     "QB": 322,
-    "RB": 560,
+    "RB": 561,
     "SS": 1,
     "TE": 546,
-    "WR": 1180
+    "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -17152,6 +17152,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1641276961310,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11577",
+      "name": "Will Shipley",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "age": 24,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": "Doubtful",
+      "active": true,
+      "depth_chart_order": 5,
+      "depth_chart_position": "RB",
+      "news_updated": 1792101632112,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -48277,32 +48303,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1791855305999,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "10213",
-      "name": "Tre Tucker",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "LV",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "LWR",
-      "news_updated": 1791858305498,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

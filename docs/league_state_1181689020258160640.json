@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:08:56.567216Z",
+  "generated_at": "2026-10-16T11:22:49.605827Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -365,7 +365,7 @@
       "points_for": 611.32,
       "points_against": 583.56,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -627,7 +627,7 @@
       "points_for": 676.58,
       "points_against": 726.58,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -889,7 +889,7 @@
       "points_for": 544.6,
       "points_against": 669.64,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1419,7 +1419,7 @@
       "points_for": 556.52,
       "points_against": 618.08,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1670,7 +1670,7 @@
       "points_for": 660.54,
       "points_against": 562.04,
       "waiver": {
-        "position": 5,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1685,10 +1685,10 @@
         "IND"
       ],
       "players_current": [
+        "10213",
         "10236",
         "11533",
         "11563",
-        "11577",
         "12501",
         "3294",
         "3321",
@@ -1785,6 +1785,14 @@
       ],
       "bench": [
         {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11563",
           "name": "Bo Nix",
           "position": "QB",
@@ -1792,14 +1800,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
-        },
-        {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "Doubtful",
-          "keeper": false
         },
         {
           "player_id": "3321",
@@ -2190,7 +2190,7 @@
       "points_for": 679.88,
       "points_against": 673.52,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -2674,7 +2674,7 @@
       "points_for": 561.4,
       "points_against": 557.04,
       "waiver": {
-        "position": 6,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -2934,7 +2934,7 @@
       "points_for": 643.18,
       "points_against": 684.08,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -3693,7 +3693,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-16T06:08:56.567216Z",
-    "stale_after": "2026-10-16T07:08:56.567216Z"
+    "generated_at": "2026-10-16T11:22:49.605827Z",
+    "stale_after": "2026-10-16T12:22:49.605827Z"
   }
 }
