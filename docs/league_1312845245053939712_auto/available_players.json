@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T18:56:08.911744Z",
-  "stale_after": "2026-10-16T19:56:08.911744Z",
+  "generated_at": "2026-10-16T21:57:52.726122Z",
+  "stale_after": "2026-10-16T22:57:52.726122Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-16T18:56:06.619434Z",
+    "snapshot_started_at": "2026-10-16T21:57:50.215559Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-16T18:56:06.733094Z"
+      "fetched_at": "2026-10-16T21:57:50.330872Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-16T18:56:06.968522Z"
+      "fetched_at": "2026-10-16T21:57:50.627924Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-16T18:56:07.013683Z"
+        "fetched_at": "2026-10-16T21:57:50.790045Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-16T18:56:07.131533Z"
+      "fetched_at": "2026-10-16T21:57:50.914347Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,9 +51,9 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
+  "default_player_count": 2832,
   "all_player_count": 4180,
-  "player_count": 2833,
+  "player_count": 2832,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -61,7 +61,7 @@
     "FB": 64,
     "K": 137,
     "P": 4,
-    "QB": 322,
+    "QB": 321,
     "RB": 560,
     "SS": 1,
     "TE": 546,
@@ -6804,32 +6804,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "news_updated": 1790292046669,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "3257",
-      "name": "Jacoby Brissett",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "ARI",
-      "age": 33,
-      "years_exp": 10,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1791988238038,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

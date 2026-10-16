@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:56:08.911744Z",
+  "generated_at": "2026-10-16T21:57:52.726122Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1153,13 +1153,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4881",
+        "3257",
         "8151",
         "8150",
         "7569",
         "2133",
-        "12518",
         "4217",
+        "12518",
         "650",
         "BAL"
       ],
@@ -1167,11 +1167,11 @@
         "11586",
         "12495",
         "12518",
-        "13293",
         "13294",
         "13298",
         "13337",
         "2133",
+        "3257",
         "4217",
         "4881",
         "5859",
@@ -1185,13 +1185,12 @@
       ],
       "starters": [
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8151",
@@ -1230,15 +1229,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "4217",
           "name": "George Kittle",
           "position": "TE",
@@ -1246,6 +1236,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "650",
@@ -1284,15 +1283,6 @@
           "keeper": false
         },
         {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
@@ -1318,6 +1308,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "5859",
@@ -1348,15 +1347,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
-        },
         {
           "player_id": "8151",
           "name": "Kenneth Walker",
@@ -1401,6 +1391,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
+        },
+        {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "7543",
@@ -3700,10 +3699,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-16T18:56:08.911744Z",
-    "stale_after": "2026-10-16T19:56:08.911744Z"
+    "generated_at": "2026-10-16T21:57:52.726122Z",
+    "stale_after": "2026-10-16T22:57:52.726122Z"
   }
 }
