@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T15:26:09.837516Z",
-  "stale_after": "2026-10-16T16:26:09.837516Z",
+  "generated_at": "2026-10-16T18:56:08.911744Z",
+  "stale_after": "2026-10-16T19:56:08.911744Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-16T15:26:08.226274Z",
+    "snapshot_started_at": "2026-10-16T18:56:06.619434Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-16T15:26:08.295022Z"
+      "fetched_at": "2026-10-16T18:56:06.733094Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-16T15:26:08.468072Z"
+      "fetched_at": "2026-10-16T18:56:06.968522Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-16T15:26:08.531283Z"
+        "fetched_at": "2026-10-16T18:56:07.013683Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-16T15:26:08.625481Z"
+      "fetched_at": "2026-10-16T18:56:07.131533Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 206,
+  "excluded_rostered_count": 207,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2834,
-  "all_player_count": 4181,
-  "player_count": 4181,
+  "default_player_count": 2833,
+  "all_player_count": 4180,
+  "player_count": 4180,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 177,
     "P": 5,
     "QB": 449,
-    "RB": 877,
+    "RB": 876,
     "SS": 1,
     "T": 2,
     "TE": 816,
@@ -21116,32 +21116,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "13337",
-      "name": "Emmett Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "KC",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1791837903661,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "9220",
