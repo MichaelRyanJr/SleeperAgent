@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T23:12:13.013141Z",
-  "stale_after": "2026-10-16T00:12:13.013141Z",
+  "generated_at": "2026-10-16T01:24:31.418779Z",
+  "stale_after": "2026-10-16T02:24:31.418779Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-15T23:12:09.533401Z",
+    "snapshot_started_at": "2026-10-16T01:24:28.168631Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-15T23:12:09.671387Z"
+      "fetched_at": "2026-10-16T01:24:28.311205Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-15T23:12:10.052164Z"
+      "fetched_at": "2026-10-16T01:24:28.676546Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-15T23:12:10.200832Z"
+        "fetched_at": "2026-10-16T01:24:28.748048Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-15T23:12:10.376624Z"
+      "fetched_at": "2026-10-16T01:24:28.905237Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -59,13 +59,13 @@
     "DB": 1,
     "DEF": 18,
     "FB": 64,
-    "K": 138,
+    "K": 137,
     "P": 4,
     "QB": 322,
     "RB": 560,
     "SS": 1,
     "TE": 546,
-    "WR": 1179
+    "WR": 1180
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -2793,32 +2793,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1791817829663,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7042",
-      "name": "Tyler Bass",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "BUF",
-      "age": 29,
-      "years_exp": 6,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1791885009578,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46411,6 +46385,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9504",
+      "name": "Kayshon Boutte",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 5,
+      "depth_chart_position": "RWR",
+      "news_updated": 1791855912521,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "12971",

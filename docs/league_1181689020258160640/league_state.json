@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:12:13.013141Z",
+  "generated_at": "2026-10-16T01:24:31.418779Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1930,7 +1930,7 @@
         "8137",
         "3214",
         "7594",
-        "11539",
+        "7042",
         "JAX"
       ],
       "players_current": [
@@ -1943,11 +1943,11 @@
         "421",
         "5022",
         "6794",
+        "7042",
         "7594",
         "8137",
         "8138",
         "8676",
-        "9504",
         "9511",
         "9997",
         "JAX"
@@ -2017,13 +2017,12 @@
           "draft_round": 10
         },
         {
-          "player_id": "11539",
-          "name": "Jake Bates",
+          "player_id": "7042",
+          "name": "Tyler Bass",
           "position": "K",
-          "team": "DET",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         },
         {
           "player_id": "JAX",
@@ -2036,6 +2035,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
         {
           "player_id": "11566",
           "name": "Jayden Daniels",
@@ -2089,15 +2097,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
-        },
-        {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "9511",
@@ -3605,57 +3604,57 @@
       "week": 6,
       "roster_id": 1,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 3.1,
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 3.5,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 2,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 3.0,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 5,
       "opponent_roster_id": 2,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 3,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 5.0,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 7,
       "opponent_roster_id": 3,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 4,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 1.0,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 10,
       "opponent_roster_id": 4,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
@@ -3676,14 +3675,14 @@
       "roster_id": 9,
       "opponent_roster_id": 12,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 12.0,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -3694,7 +3693,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-15T23:12:13.013141Z",
-    "stale_after": "2026-10-16T00:12:13.013141Z"
+    "generated_at": "2026-10-16T01:24:31.418779Z",
+    "stale_after": "2026-10-16T02:24:31.418779Z"
   }
 }

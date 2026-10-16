@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:12:13.504766Z",
+  "generated_at": "2026-10-16T01:24:31.848969Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -3719,6 +3719,33 @@
           "keeper_cost_round_is_provisional": false
         },
         {
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "injury_status": null,
+          "original_draft_round": 16,
+          "original_draft_pick_no": 189,
+          "original_draft_slot": 9,
+          "original_drafted_by": "992551957615198208",
+          "original_draft_roster_id": 1,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1416601072662745088",
+          "acquisition_time": "2026-10-15T23:22:04.199000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 16,
+          "keeper_cost_round": 16,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 16,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "7594",
           "name": "Chuba Hubbard",
           "position": "RB",
@@ -3824,33 +3851,6 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 9,
           "base_keeper_cost_round": 12,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1286773345911570432",
-          "acquisition_time": "2025-10-22T17:13:02.059000Z",
-          "acquisition_league_id": "1181689020258160640",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 15,
-          "base_keeper_cost_round": 14,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5867,5 +5867,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-15T23:12:13.547708Z"
+  "rules_updated_at": "2026-10-16T01:24:31.888736Z"
 }
