@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T01:24:27.580519Z",
+  "generated_at": "2026-10-16T06:08:53.681096Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1386,19 +1386,20 @@
       },
       "starters_current": [
         "421",
-        "4199",
+        "11647",
         "6790",
-        "7547",
+        "4454",
         "12514",
         "8131",
         "11620",
-        "7839",
-        "CHI"
+        "11058",
+        "KC"
       ],
       "players_current": [
+        "11058",
         "11610",
         "11620",
-        "12469",
+        "11647",
         "12514",
         "12545",
         "2505",
@@ -1411,7 +1412,7 @@
         "7547",
         "7839",
         "8131",
-        "CHI"
+        "KC"
       ],
       "starters": [
         {
@@ -1424,13 +1425,12 @@
           "draft_round": 9
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 10
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "6790",
@@ -1442,13 +1442,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
           "position": "WR",
-          "team": "DET",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": false
         },
         {
           "player_id": "12514",
@@ -1478,19 +1477,18 @@
           "draft_round": 6
         },
         {
-          "player_id": "7839",
-          "name": "Evan McPherson",
+          "player_id": "11058",
+          "name": "Blake Grupe",
           "position": "K",
-          "team": "CIN",
+          "team": "LAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": false
         },
         {
-          "player_id": "CHI",
-          "name": "Chicago",
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "CHI",
+          "team": "KC",
           "injury_status": null,
           "keeper": false
         }
@@ -1502,15 +1500,6 @@
           "position": "WR",
           "team": "MIA",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
-        },
-        {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "injury_status": "IR",
           "keeper": false,
           "draft_round": 13
         },
@@ -1539,12 +1528,13 @@
           "keeper": false
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "7543",
@@ -1554,6 +1544,24 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": []
@@ -3005,7 +3013,7 @@
       "week": 6,
       "roster_id": 3,
       "opponent_roster_id": 2,
-      "points": 12.5,
+      "points": 19.1,
       "result": "W"
     },
     {
@@ -3019,7 +3027,7 @@
       "week": 6,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 11.6,
+      "points": 13.1,
       "result": "W"
     },
     {
@@ -3033,7 +3041,7 @@
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 7,
-      "points": 2.1,
+      "points": 19.4,
       "result": "W"
     },
     {
@@ -3061,7 +3069,7 @@
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 9,
-      "points": 2.96,
+      "points": 4.48,
       "result": "W"
     }
   ],
@@ -3070,10 +3078,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-16T01:24:27.580519Z",
-    "stale_after": "2026-10-16T02:24:27.580519Z"
+    "generated_at": "2026-10-16T06:08:53.681096Z",
+    "stale_after": "2026-10-16T07:08:53.681096Z"
   }
 }
