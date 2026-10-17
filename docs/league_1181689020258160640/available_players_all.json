@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T18:09:40.327594Z",
-  "stale_after": "2026-10-17T19:09:40.327594Z",
+  "generated_at": "2026-10-17T20:36:49.652409Z",
+  "stale_after": "2026-10-17T21:36:49.652409Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-17T18:09:37.409348Z",
+    "snapshot_started_at": "2026-10-17T20:36:46.781262Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-17T18:09:37.546146Z"
+      "fetched_at": "2026-10-17T20:36:46.914394Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-17T18:09:37.886925Z"
+      "fetched_at": "2026-10-17T20:36:47.208823Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-17T18:09:37.950931Z"
+        "fetched_at": "2026-10-17T20:36:47.254329Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-17T18:09:38.107331Z"
+      "fetched_at": "2026-10-17T20:36:47.413551Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 207,
+  "excluded_rostered_count": 208,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2830,
-  "all_player_count": 4180,
-  "player_count": 4180,
+  "default_player_count": 2829,
+  "all_player_count": 4179,
+  "player_count": 4179,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -63,7 +63,7 @@
     "K": 177,
     "P": 5,
     "QB": 448,
-    "RB": 875,
+    "RB": 874,
     "SS": 1,
     "T": 2,
     "TE": 816,
@@ -22801,32 +22801,6 @@
       "depth_chart_position": "RB",
       "news_updated": 1790209532478,
       "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "10235",
-      "name": "Roschon Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "CHI",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RB",
-      "news_updated": 1791920148270,
-      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,

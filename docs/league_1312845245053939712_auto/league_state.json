@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:09:40.327594Z",
+  "generated_at": "2026-10-17T20:36:49.652409Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -895,7 +895,7 @@
       "starters_current": [
         "96",
         "11647",
-        "5967",
+        "10235",
         "9493",
         "11632",
         "12517",
@@ -904,6 +904,7 @@
         "SEA"
       ],
       "players_current": [
+        "10235",
         "11620",
         "11632",
         "11647",
@@ -912,7 +913,6 @@
         "12533",
         "13269",
         "1945",
-        "5967",
         "8134",
         "9226",
         "9228",
@@ -941,13 +941,12 @@
           "keeper": false
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "10235",
+          "name": "Roschon Johnson",
           "position": "RB",
-          "team": "TEN",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "9493",
@@ -1436,9 +1435,9 @@
         "4034",
         "9757",
         "12519",
-        "11624",
-        "5001",
         "11646",
+        "5001",
+        "11624",
         "12711",
         "NE"
       ],
@@ -1497,13 +1496,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "11646",
+          "name": "Jalen Coker",
           "position": "WR",
-          "team": "KC",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "5001",
@@ -1514,13 +1513,13 @@
           "keeper": false
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
           "position": "WR",
-          "team": "CAR",
+          "team": "KC",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "12711",
@@ -1706,6 +1705,7 @@
         "5045",
         "5846",
         "5850",
+        "5967",
         "7021",
         "7547",
         "9221",
@@ -1835,6 +1835,15 @@
           "injury_status": "NA",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "7547",
@@ -3699,10 +3708,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2830,
+    "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-17T18:09:40.327594Z",
-    "stale_after": "2026-10-17T19:09:40.327594Z"
+    "generated_at": "2026-10-17T20:36:49.652409Z",
+    "stale_after": "2026-10-17T21:36:49.652409Z"
   }
 }
