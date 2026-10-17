@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T20:36:49.652409Z",
-  "stale_after": "2026-10-17T21:36:49.652409Z",
+  "generated_at": "2026-10-17T22:39:40.844579Z",
+  "stale_after": "2026-10-17T23:39:40.844579Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-17T20:36:46.781262Z",
+    "snapshot_started_at": "2026-10-17T22:39:38.488827Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-17T20:36:46.914394Z"
+      "fetched_at": "2026-10-17T22:39:38.582380Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-17T20:36:47.208823Z"
+      "fetched_at": "2026-10-17T22:39:38.848678Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-17T20:36:47.254329Z"
+        "fetched_at": "2026-10-17T22:39:39.001975Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-17T20:36:47.413551Z"
+      "fetched_at": "2026-10-17T22:39:39.122534Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 208,
+  "excluded_rostered_count": 207,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2829,
-  "all_player_count": 4179,
-  "player_count": 2829,
+  "default_player_count": 2830,
+  "all_player_count": 4180,
+  "player_count": 2830,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -64,7 +64,7 @@
     "QB": 321,
     "RB": 558,
     "SS": 1,
-    "TE": 546,
+    "TE": 547,
     "WR": 1178
   },
   "view": "active_or_nfl_affiliated_candidates",
@@ -31227,6 +31227,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "BAL",
+      "age": 31,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1792116333243,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 12
+    },
+    {
       "player_id": "13013",
       "name": "Mark Redman",
       "position": "TE",
@@ -46335,32 +46361,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "age": 34,
-      "years_exp": 13,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1792095632809,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "8200",
       "name": "Kevin Austin",
       "position": "WR",
@@ -48147,6 +48147,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1791855305999,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "LV",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "LWR",
+      "news_updated": 1792186542015,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

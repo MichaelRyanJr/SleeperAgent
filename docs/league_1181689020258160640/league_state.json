@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:36:49.652409Z",
+  "generated_at": "2026-10-17T22:39:40.844579Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1684,24 +1684,23 @@
       "starters_current": [
         "3294",
         "4035",
-        "7021",
+        "5967",
         "5846",
         "12501",
         "10236",
-        "5012",
+        "1479",
         "11533",
         "IND"
       ],
       "players_current": [
-        "10213",
         "10236",
         "11533",
         "11563",
         "12501",
+        "1479",
         "3294",
         "3321",
         "4035",
-        "5012",
         "5045",
         "5846",
         "5850",
@@ -1730,13 +1729,13 @@
           "keeper": false
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "5846",
@@ -1766,13 +1765,12 @@
           "draft_round": 6
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
         },
         {
           "player_id": "11533",
@@ -1793,14 +1791,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11563",
           "name": "Bo Nix",
@@ -1837,13 +1827,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
           "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "7547",
@@ -1875,15 +1865,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "11533",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1900,6 +1881,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "7547",
@@ -3708,10 +3698,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2829,
+    "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-17T20:36:49.652409Z",
-    "stale_after": "2026-10-17T21:36:49.652409Z"
+    "generated_at": "2026-10-17T22:39:40.844579Z",
+    "stale_after": "2026-10-17T23:39:40.844579Z"
   }
 }
