@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:17:10.646361Z",
+  "generated_at": "2026-10-17T04:41:09.622282Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2383,7 +2383,7 @@
         "11563",
         "6813",
         "3198",
-        "13150",
+        "7525",
         "2449",
         "10236",
         "7611",
@@ -2438,12 +2438,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "13150",
-          "name": "Darius Cooper",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "2449",
@@ -2500,6 +2501,14 @@
           "keeper": false
         },
         {
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "6904",
           "name": "Jalen Hurts",
           "position": "QB",
@@ -2507,15 +2516,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "8136",
@@ -3080,7 +3080,7 @@
     "player_count": 2831,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-17T00:17:10.646361Z",
-    "stale_after": "2026-10-17T01:17:10.646361Z"
+    "generated_at": "2026-10-17T04:41:09.622282Z",
+    "stale_after": "2026-10-17T05:41:09.622282Z"
   }
 }
