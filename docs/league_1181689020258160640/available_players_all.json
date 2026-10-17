@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T15:53:52.566433Z",
-  "stale_after": "2026-10-17T16:53:52.566433Z",
+  "generated_at": "2026-10-17T18:09:40.327594Z",
+  "stale_after": "2026-10-17T19:09:40.327594Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-17T15:53:50.502347Z",
+    "snapshot_started_at": "2026-10-17T18:09:37.409348Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-17T15:53:50.596209Z"
+      "fetched_at": "2026-10-17T18:09:37.546146Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-17T15:53:50.798371Z"
+      "fetched_at": "2026-10-17T18:09:37.886925Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-17T15:53:50.842693Z"
+        "fetched_at": "2026-10-17T18:09:37.950931Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-17T15:53:50.944679Z"
+      "fetched_at": "2026-10-17T18:09:38.107331Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,7 +51,7 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2831,
+  "default_player_count": 2830,
   "all_player_count": 4180,
   "player_count": 4180,
   "position_counts": {
@@ -63,11 +63,11 @@
     "K": 177,
     "P": 5,
     "QB": 448,
-    "RB": 876,
+    "RB": 875,
     "SS": 1,
     "T": 2,
     "TE": 816,
-    "WR": 1721
+    "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -22176,32 +22176,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1789595122374,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11647",
-      "name": "Kimani Vidal",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "LAC",
-      "age": 25,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RB",
-      "news_updated": 1791914147560,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64156,6 +64130,32 @@
       "depth_chart_position": null,
       "news_updated": 1648138821772,
       "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10226",
+      "name": "Andrei Iosivas",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "CIN",
+      "age": 27,
+      "years_exp": 3,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 5,
+      "depth_chart_position": "SWR",
+      "news_updated": 1790454629604,
+      "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,

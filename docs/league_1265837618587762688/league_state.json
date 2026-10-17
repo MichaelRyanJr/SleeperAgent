@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:53:49.868502Z",
+  "generated_at": "2026-10-17T18:09:36.843589Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1587,7 +1587,7 @@
       "starters_current": [
         "7523",
         "4034",
-        "12533",
+        "0",
         "9997",
         "4983",
         "12518",
@@ -1632,15 +1632,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "9997",
@@ -1715,6 +1706,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "13287",
@@ -3080,7 +3080,7 @@
     "player_count": 2831,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-17T15:53:49.868502Z",
-    "stale_after": "2026-10-17T16:53:49.868502Z"
+    "generated_at": "2026-10-17T18:09:36.843589Z",
+    "stale_after": "2026-10-17T19:09:36.843589Z"
   }
 }

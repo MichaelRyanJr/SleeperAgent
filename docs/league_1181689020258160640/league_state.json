@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:53:52.566433Z",
+  "generated_at": "2026-10-17T18:09:40.327594Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -894,7 +894,7 @@
       },
       "starters_current": [
         "96",
-        "12533",
+        "11647",
         "5967",
         "9493",
         "11632",
@@ -904,9 +904,9 @@
         "SEA"
       ],
       "players_current": [
-        "10226",
         "11620",
         "11632",
+        "11647",
         "12508",
         "12517",
         "12533",
@@ -933,13 +933,12 @@
           "keeper": false
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5967",
@@ -1007,14 +1006,6 @@
       ],
       "bench": [
         {
-          "player_id": "10226",
-          "name": "Andrei Iosivas",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1022,6 +1013,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "13269",
@@ -1087,15 +1087,6 @@
       ],
       "keepers": [
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1121,6 +1112,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "9226",
@@ -3699,10 +3699,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2831,
+    "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-17T15:53:52.566433Z",
-    "stale_after": "2026-10-17T16:53:52.566433Z"
+    "generated_at": "2026-10-17T18:09:40.327594Z",
+    "stale_after": "2026-10-17T19:09:40.327594Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:53:53.020692Z",
+  "generated_at": "2026-10-17T18:09:40.757522Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -1542,33 +1542,6 @@
       },
       "players": [
         {
-          "player_id": "10226",
-          "name": "Andrei Iosivas",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": "IR",
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1413639735699660800",
-          "acquisition_time": "2026-10-07T19:14:46.449000Z",
-          "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "position": "WR",
@@ -1621,6 +1594,33 @@
           "current_draft_round": 2,
           "base_keeper_cost_round": 2,
           "keeper_cost_round_is_provisional": false
+        },
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1417232776243019776",
+          "acquisition_time": "2026-10-17T17:12:14.070000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "12508",
@@ -5894,5 +5894,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-17T15:53:53.069287Z"
+  "rules_updated_at": "2026-10-17T18:09:40.796542Z"
 }
