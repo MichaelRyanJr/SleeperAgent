@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T00:21:12.289569Z",
-  "stale_after": "2026-10-18T01:21:12.289569Z",
+  "generated_at": "2026-10-18T04:51:08.549638Z",
+  "stale_after": "2026-10-18T05:51:08.549638Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T00:21:10.083894Z",
+    "snapshot_started_at": "2026-10-18T04:51:06.474394Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-18T00:21:10.212605Z"
+      "fetched_at": "2026-10-18T04:51:06.566089Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-18T00:21:10.440433Z"
+      "fetched_at": "2026-10-18T04:51:06.788298Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-18T00:21:10.548215Z"
+        "fetched_at": "2026-10-18T04:51:06.846048Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-18T00:21:10.659968Z"
+      "fetched_at": "2026-10-18T04:51:06.948916Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -20494,32 +20494,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "10219",
-      "name": "Chris Rodriguez",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "JAX",
-      "age": 27,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1792266346402,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 11
-    },
-    {
       "player_id": "13277",
       "name": "CJ Donaldson",
       "position": "RB",
@@ -22801,6 +22775,32 @@
       "depth_chart_position": "RB",
       "news_updated": 1790209532478,
       "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10235",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "CHI",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1791920148270,
+      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
