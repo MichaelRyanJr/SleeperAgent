@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:14:07.934084Z",
+  "generated_at": "2026-10-18T13:21:20.239576Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -183,12 +183,12 @@
       },
       "starters_current": [
         "6804",
-        "11581",
+        "11576",
         "12481",
         "13279",
         "12526",
         "8130",
-        "10213",
+        "11581",
         "8259",
         "LAR"
       ],
@@ -220,13 +220,12 @@
           "keeper": false
         },
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "GB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
           "player_id": "12481",
@@ -265,12 +264,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
+          "player_id": "11581",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "8259",
@@ -293,10 +293,10 @@
       ],
       "bench": [
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         },
@@ -2001,8 +2001,8 @@
         "9487",
         "7002",
         "13346",
-        "0",
-        "LV"
+        "4227",
+        "NO"
       ],
       "players_current": [
         "10232",
@@ -2012,6 +2012,7 @@
         "13301",
         "13346",
         "3257",
+        "4227",
         "5001",
         "7002",
         "8129",
@@ -2020,7 +2021,7 @@
         "8151",
         "9228",
         "9487",
-        "LV"
+        "NO"
       ],
       "starters": [
         {
@@ -2084,10 +2085,19 @@
           "keeper": false
         },
         {
-          "player_id": "LV",
-          "name": "Las Vegas",
+          "player_id": "4227",
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
+        },
+        {
+          "player_id": "NO",
+          "name": "New Orleans",
           "position": "DEF",
-          "team": "LV",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -3077,10 +3087,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-18T09:14:07.934084Z",
-    "stale_after": "2026-10-18T10:14:07.934084Z"
+    "generated_at": "2026-10-18T13:21:20.239576Z",
+    "stale_after": "2026-10-18T14:21:20.239576Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T09:14:11.351720Z",
-  "stale_after": "2026-10-18T10:14:11.351720Z",
+  "generated_at": "2026-10-18T13:21:23.858228Z",
+  "stale_after": "2026-10-18T14:21:23.858228Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T09:14:08.609158Z",
+    "snapshot_started_at": "2026-10-18T13:21:20.909934Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-18T09:14:08.734419Z"
+      "fetched_at": "2026-10-18T13:21:21.071512Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-18T09:14:09.018599Z"
+      "fetched_at": "2026-10-18T13:21:21.443688Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-18T09:14:09.116959Z"
+        "fetched_at": "2026-10-18T13:21:21.541496Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-18T09:14:09.281777Z"
+      "fetched_at": "2026-10-18T13:21:21.710178Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 207,
+  "excluded_rostered_count": 206,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2832,
-  "all_player_count": 4180,
-  "player_count": 2832,
+  "default_player_count": 2833,
+  "all_player_count": 4181,
+  "player_count": 2833,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -62,7 +62,7 @@
     "K": 137,
     "P": 4,
     "QB": 321,
-    "RB": 558,
+    "RB": 559,
     "SS": 1,
     "TE": 548,
     "WR": 1179
@@ -14786,6 +14786,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1791250839951,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "8129",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "age": 26,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "RB",
+      "news_updated": 1792195838082,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T09:14:07.934084Z",
-  "stale_after": "2026-10-18T10:14:07.934084Z",
+  "generated_at": "2026-10-18T13:21:20.239576Z",
+  "stale_after": "2026-10-18T14:21:20.239576Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T09:14:05.135333Z",
+    "snapshot_started_at": "2026-10-18T13:21:17.169533Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-18T09:14:05.255891Z"
+      "fetched_at": "2026-10-18T13:21:17.337155Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-18T09:14:05.507367Z"
+      "fetched_at": "2026-10-18T13:21:17.679208Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-18T09:14:05.665638Z"
+        "fetched_at": "2026-10-18T13:21:17.762949Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-18T09:14:05.773902Z"
+      "fetched_at": "2026-10-18T13:21:17.925857Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,19 +47,19 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 199,
+  "excluded_rostered_count": 200,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2835,
-  "all_player_count": 4188,
-  "player_count": 2835,
+  "default_player_count": 2834,
+  "all_player_count": 4187,
+  "player_count": 2834,
   "position_counts": {
     "CB": 1,
     "DB": 1,
     "DEF": 19,
     "FB": 64,
-    "K": 138,
+    "K": 137,
     "P": 4,
     "QB": 324,
     "RB": 557,
@@ -383,6 +383,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "LV",
+      "name": "Las Vegas Raiders",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "LV",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "LAC",
       "name": "Los Angeles Chargers",
       "position": "DEF",
@@ -419,32 +445,6 @@
         "DEF"
       ],
       "team": "MIA",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "NO",
-      "name": "New Orleans Saints",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "NO",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -2565,32 +2565,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "4227",
-      "name": "Harrison Butker",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "KC",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1792182641423,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 16
     },
     {
       "player_id": "11539",
