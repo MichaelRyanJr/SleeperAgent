@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T13:21:20.239576Z",
-  "stale_after": "2026-10-18T14:21:20.239576Z",
+  "generated_at": "2026-10-18T16:39:10.054186Z",
+  "stale_after": "2026-10-18T17:39:10.054186Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T13:21:17.169533Z",
+    "snapshot_started_at": "2026-10-18T16:39:07.125205Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-18T13:21:17.337155Z"
+      "fetched_at": "2026-10-18T16:39:07.272321Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-18T13:21:17.679208Z"
+      "fetched_at": "2026-10-18T16:39:07.640487Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-18T13:21:17.762949Z"
+        "fetched_at": "2026-10-18T16:39:07.701827Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-18T13:21:17.925857Z"
+      "fetched_at": "2026-10-18T16:39:07.863859Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,7 +51,7 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2834,
+  "default_player_count": 2833,
   "all_player_count": 4187,
   "player_count": 4187,
   "position_counts": {
@@ -68297,32 +68297,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "age": 34,
-      "years_exp": 13,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1792228241763,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
-    },
-    {
       "player_id": "13412",
       "name": "Kendrick Law",
       "position": "WR",
@@ -69153,6 +69127,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "6819",
+      "name": "Michael Pittman",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "PIT",
+      "age": 29,
+      "years_exp": 6,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 4,
+      "depth_chart_position": null,
+      "news_updated": 1791681909934,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 9
     },
     {
       "player_id": "13645",

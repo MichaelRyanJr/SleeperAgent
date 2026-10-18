@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:21:20.239576Z",
+  "generated_at": "2026-10-18T16:39:10.054186Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -790,7 +790,7 @@
         "8183",
         "9509",
         "12474",
-        "6801",
+        "1479",
         "11632",
         "9484",
         "7569",
@@ -801,9 +801,9 @@
         "11566",
         "11632",
         "12474",
+        "1479",
         "5189",
         "6801",
-        "6819",
         "7569",
         "8110",
         "8142",
@@ -845,13 +845,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "CIN",
+          "team": "IND",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 15
         },
         {
           "player_id": "11632",
@@ -909,13 +909,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "PIT",
-          "injury_status": "IR",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 5
         },
         {
           "player_id": "8110",
@@ -1587,7 +1587,7 @@
       "starters_current": [
         "7523",
         "4034",
-        "0",
+        "13337",
         "9997",
         "4983",
         "12518",
@@ -1632,6 +1632,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 1
+        },
+        {
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9997",
@@ -1733,14 +1741,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "5850",
@@ -3015,7 +3015,7 @@
       "week": 6,
       "roster_id": 2,
       "opponent_roster_id": 3,
-      "points": 0.0,
+      "points": 10.0,
       "result": "L"
     },
     {
@@ -3029,14 +3029,14 @@
       "week": 6,
       "roster_id": 4,
       "opponent_roster_id": 5,
-      "points": 0.0,
+      "points": 14.6,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 13.1,
+      "points": 35.8,
       "result": "W"
     },
     {
@@ -3050,22 +3050,22 @@
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 7,
-      "points": 19.4,
+      "points": 25.9,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 25.34,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 10,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 8.4,
+      "result": "L"
     },
     {
       "week": 6,
@@ -3087,10 +3087,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-18T13:21:20.239576Z",
-    "stale_after": "2026-10-18T14:21:20.239576Z"
+    "generated_at": "2026-10-18T16:39:10.054186Z",
+    "stale_after": "2026-10-18T17:39:10.054186Z"
   }
 }
