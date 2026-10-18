@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T18:57:11.990674Z",
-  "stale_after": "2026-10-18T19:57:11.990674Z",
+  "generated_at": "2026-10-18T21:21:46.553845Z",
+  "stale_after": "2026-10-18T22:21:46.553845Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T18:57:08.820332Z",
+    "snapshot_started_at": "2026-10-18T21:21:43.506677Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-18T18:57:08.956711Z"
+      "fetched_at": "2026-10-18T21:21:43.672749Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-18T18:57:09.344023Z"
+      "fetched_at": "2026-10-18T21:21:44.031587Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-18T18:57:09.412559Z"
+        "fetched_at": "2026-10-18T21:21:44.088239Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-18T18:57:09.584482Z"
+      "fetched_at": "2026-10-18T21:21:44.313041Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -66,8 +66,8 @@
     "RB": 875,
     "SS": 1,
     "T": 2,
-    "TE": 817,
-    "WR": 1723
+    "TE": 818,
+    "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -46344,6 +46344,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "12493",
+      "name": "Oronde Gadsden",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "LAC",
+      "age": 23,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1792256445102,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 10
+    },
+    {
       "player_id": "13319",
       "name": "Oscar Delp",
       "position": "TE",
@@ -69595,32 +69621,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": 12
-    },
-    {
-      "player_id": "11783",
-      "name": "Ryan Flournoy",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "DAL",
-      "age": 26,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "SWR",
-      "news_updated": 1792227041666,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
     },
     {
       "player_id": "12482",

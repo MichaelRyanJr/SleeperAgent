@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T18:57:08.232710Z",
-  "stale_after": "2026-10-18T19:57:08.232710Z",
+  "generated_at": "2026-10-18T21:21:42.768990Z",
+  "stale_after": "2026-10-18T22:21:42.768990Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T18:57:05.043421Z",
+    "snapshot_started_at": "2026-10-18T21:21:39.720267Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-18T18:57:05.186238Z"
+      "fetched_at": "2026-10-18T21:21:39.886964Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-18T18:57:05.570984Z"
+      "fetched_at": "2026-10-18T21:21:40.267346Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-18T18:57:05.640414Z"
+        "fetched_at": "2026-10-18T21:21:40.330851Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-18T18:57:05.788067Z"
+      "fetched_at": "2026-10-18T21:21:40.483850Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,9 +51,9 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
+  "default_player_count": 2832,
   "all_player_count": 4187,
-  "player_count": 2833,
+  "player_count": 2832,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 557,
     "SS": 1,
     "TE": 548,
-    "WR": 1177
+    "WR": 1176
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -46483,32 +46483,6 @@
       "depth_chart_order": 9,
       "depth_chart_position": "LWR",
       "news_updated": 1792200938831,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "LWR",
-      "news_updated": 1792252244568,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:57:08.232710Z",
+  "generated_at": "2026-10-18T21:21:42.768990Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1193,7 +1193,7 @@
         "8144",
         "8146",
         "12506",
-        "2216",
+        "11624",
         "6083",
         "BAL"
       ],
@@ -1271,13 +1271,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
           "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
+          "team": "KC",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 13
         },
         {
           "player_id": "6083",
@@ -1308,13 +1308,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "KC",
-          "injury_status": null,
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 7
         },
         {
           "player_id": "5849",
@@ -1589,16 +1589,16 @@
         "4034",
         "13337",
         "9997",
-        "4983",
-        "12518",
         "8167",
+        "12518",
+        "11637",
         "11533",
         "HOU"
       ],
       "players_current": [
         "11533",
         "11628",
-        "12487",
+        "11637",
         "12518",
         "12533",
         "13287",
@@ -1651,13 +1651,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "BUF",
-          "injury_status": "Questionable",
+          "team": "GB",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 7
         },
         {
           "player_id": "12518",
@@ -1669,13 +1669,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "GB",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         },
         {
           "player_id": "11533",
@@ -1707,15 +1706,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 16
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1741,6 +1731,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "5850",
@@ -3001,84 +3000,84 @@
       "week": 6,
       "roster_id": 1,
       "opponent_roster_id": 6,
-      "points": 25.1,
+      "points": 55.0,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 6,
       "opponent_roster_id": 1,
-      "points": 32.4,
+      "points": 67.96,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 2,
       "opponent_roster_id": 3,
-      "points": 44.58,
+      "points": 64.66,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 3,
       "opponent_roster_id": 2,
-      "points": 25.7,
+      "points": 39.6,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 4,
       "opponent_roster_id": 5,
-      "points": 38.8,
+      "points": 59.5,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 5,
       "opponent_roster_id": 4,
-      "points": 51.36,
+      "points": 77.0,
       "result": "W"
     },
     {
       "week": 6,
       "roster_id": 7,
       "opponent_roster_id": 11,
-      "points": 43.3,
-      "result": "L"
+      "points": 91.08,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 11,
       "opponent_roster_id": 7,
-      "points": 56.58,
-      "result": "W"
+      "points": 90.6,
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 8,
       "opponent_roster_id": 10,
-      "points": 31.44,
-      "result": "W"
+      "points": 38.94,
+      "result": "L"
     },
     {
       "week": 6,
       "roster_id": 10,
       "opponent_roster_id": 8,
-      "points": 31.24,
-      "result": "L"
+      "points": 62.84,
+      "result": "W"
     },
     {
       "week": 6,
       "roster_id": 9,
       "opponent_roster_id": 12,
-      "points": 24.8,
+      "points": 40.84,
       "result": "L"
     },
     {
       "week": 6,
       "roster_id": 12,
       "opponent_roster_id": 9,
-      "points": 32.88,
+      "points": 60.28,
       "result": "W"
     }
   ],
@@ -3087,10 +3086,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-18T18:57:08.232710Z",
-    "stale_after": "2026-10-18T19:57:08.232710Z"
+    "generated_at": "2026-10-18T21:21:42.768990Z",
+    "stale_after": "2026-10-18T22:21:42.768990Z"
   }
 }

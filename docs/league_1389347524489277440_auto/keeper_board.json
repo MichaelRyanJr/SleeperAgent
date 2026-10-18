@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:57:08.672645Z",
+  "generated_at": "2026-10-18T21:21:43.327181Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -3334,30 +3334,30 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "injury_status": "IR",
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "original_draft_round": 9,
+          "original_draft_pick_no": 97,
+          "original_draft_slot": 1,
+          "original_drafted_by": "1266635324683976704",
+          "original_draft_roster_id": 10,
           "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1409228638745907200",
-          "acquisition_time": "2026-09-25T15:06:38.980000Z",
+          "acquisition_transaction_id": "1417622601156571136",
+          "acquisition_time": "2026-10-18T19:01:15.571000Z",
           "acquisition_league_id": "1389347524489277440",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 9,
+          "keeper_cost_round": 9,
+          "keeper_cost_source": "previous_draft",
           "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 16,
-          "base_keeper_cost_round": 14,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5618,5 +5618,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-18T18:57:08.712005Z"
+  "rules_updated_at": "2026-10-18T21:21:43.375372Z"
 }

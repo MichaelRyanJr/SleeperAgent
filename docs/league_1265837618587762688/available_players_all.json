@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T18:57:08.232710Z",
-  "stale_after": "2026-10-18T19:57:08.232710Z",
+  "generated_at": "2026-10-18T21:21:42.768990Z",
+  "stale_after": "2026-10-18T22:21:42.768990Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-18T18:57:05.043421Z",
+    "snapshot_started_at": "2026-10-18T21:21:39.720267Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-18T18:57:05.186238Z"
+      "fetched_at": "2026-10-18T21:21:39.886964Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-18T18:57:05.570984Z"
+      "fetched_at": "2026-10-18T21:21:40.267346Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-18T18:57:05.640414Z"
+        "fetched_at": "2026-10-18T21:21:40.330851Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-18T18:57:05.788067Z"
+      "fetched_at": "2026-10-18T21:21:40.483850Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,7 +51,7 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
+  "default_player_count": 2832,
   "all_player_count": 4187,
   "player_count": 4187,
   "position_counts": {
@@ -66,8 +66,8 @@
     "RB": 877,
     "SS": 1,
     "T": 2,
-    "TE": 817,
-    "WR": 1721
+    "TE": 818,
+    "WR": 1720
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -47046,6 +47046,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "12487",
+      "name": "Terrance Ferguson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "LAR",
+      "age": 23,
+      "years_exp": 1,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 5,
+      "depth_chart_position": "TE",
+      "news_updated": 1792206038783,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
+    },
+    {
       "player_id": "11597",
       "name": "Theo Johnson",
       "position": "TE",
@@ -68316,32 +68342,6 @@
       "depth_chart_position": null,
       "news_updated": 1781769316050,
       "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "LWR",
-      "news_updated": 1792252244568,
-      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
