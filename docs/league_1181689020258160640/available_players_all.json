@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T12:26:00.133050Z",
-  "stale_after": "2026-10-20T13:26:00.133050Z",
+  "generated_at": "2026-10-20T17:26:16.420027Z",
+  "stale_after": "2026-10-20T18:26:16.420027Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-20T12:25:57.166660Z",
+    "snapshot_started_at": "2026-10-20T17:26:14.034397Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-20T12:25:57.297200Z"
+      "fetched_at": "2026-10-20T17:26:14.169222Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-20T12:25:57.570950Z"
+      "fetched_at": "2026-10-20T17:26:14.412501Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-20T12:25:57.617324Z"
+        "fetched_at": "2026-10-20T17:26:14.505902Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-20T12:25:57.807490Z"
+      "fetched_at": "2026-10-20T17:26:14.622542Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,18 +47,18 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 205,
+  "excluded_rostered_count": 204,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2832,
-  "all_player_count": 4182,
-  "player_count": 4182,
+  "default_player_count": 2833,
+  "all_player_count": 4183,
+  "player_count": 4183,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 19,
     "FB": 112,
     "K": 177,
     "P": 5,
@@ -552,6 +552,32 @@
         "DEF"
       ],
       "team": "NYJ",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "SF",
+      "name": "San Francisco 49ers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "SF",
       "age": null,
       "years_exp": null,
       "status": null,

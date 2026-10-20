@@ -385,6 +385,15 @@
     },
     "keepers": [
       {
+        "player_id": "9224",
+        "name": "Chase Brown",
+        "position": "RB",
+        "team": "CIN",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 8
+      },
+      {
         "player_id": "12519",
         "name": "Luther Burden",
         "position": "WR",
@@ -419,15 +428,6 @@
         "injury_status": "Out",
         "keeper": true,
         "draft_round": 3
-      },
-      {
-        "player_id": "9224",
-        "name": "Chase Brown",
-        "position": "RB",
-        "team": "CIN",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 8
       }
     ]
   },
@@ -619,13 +619,13 @@
         "draft_round": 7
       },
       {
-        "player_id": "7611",
-        "name": "Rhamondre Stevenson",
+        "player_id": "6790",
+        "name": "D'Andre Swift",
         "position": "RB",
-        "team": "NE",
+        "team": "CHI",
         "injury_status": null,
         "keeper": true,
-        "draft_round": 9
+        "draft_round": 5
       },
       {
         "player_id": "8112",
@@ -646,24 +646,6 @@
         "draft_round": 2
       },
       {
-        "player_id": "8110",
-        "name": "Jake Ferguson",
-        "position": "TE",
-        "team": "DAL",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 14
-      },
-      {
-        "player_id": "6790",
-        "name": "D'Andre Swift",
-        "position": "RB",
-        "team": "CHI",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 5
-      },
-      {
         "player_id": "10232",
         "name": "Michael Wilson",
         "position": "WR",
@@ -671,6 +653,24 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 13
+      },
+      {
+        "player_id": "7611",
+        "name": "Rhamondre Stevenson",
+        "position": "RB",
+        "team": "NE",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 9
+      },
+      {
+        "player_id": "8110",
+        "name": "Jake Ferguson",
+        "position": "TE",
+        "team": "DAL",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 14
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:25:56.488518Z",
+  "generated_at": "2026-10-20T17:26:13.369505Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -789,11 +789,11 @@
       "starters_current": [
         "8183",
         "9509",
-        "12474",
-        "1479",
+        "8155",
+        "7569",
         "11632",
         "9484",
-        "7569",
+        "6801",
         "5189",
         "SF"
       ],
@@ -836,22 +836,22 @@
           "draft_round": 1
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
           "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 10
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "draft_round": 2
         },
         {
           "player_id": "11632",
@@ -872,13 +872,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "HOU",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 5
         },
         {
           "player_id": "5189",
@@ -909,13 +909,22 @@
           "draft_round": 6
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 10
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "8110",
@@ -943,15 +952,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 14
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 4
         },
         {
           "player_id": "9482",
@@ -1187,8 +1187,8 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4984",
-        "4035",
+        "5849",
+        "9221",
         "11584",
         "8144",
         "8146",
@@ -1217,22 +1217,22 @@
       ],
       "starters": [
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "BUF",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 15
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
           "position": "RB",
-          "team": "NO",
-          "injury_status": "Questionable",
+          "team": "DET",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 1
         },
         {
           "player_id": "11584",
@@ -1317,13 +1317,22 @@
           "draft_round": 7
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
+          "player_id": "4984",
+          "name": "Josh Allen",
           "position": "QB",
-          "team": "MIN",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 3
         },
         {
           "player_id": "5947",
@@ -1333,15 +1342,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "9500",
@@ -3173,7 +3173,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-20T12:25:56.488518Z",
-    "stale_after": "2026-10-20T13:25:56.488518Z"
+    "generated_at": "2026-10-20T17:26:13.369505Z",
+    "stale_after": "2026-10-20T18:26:13.369505Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:26:00.133050Z",
+  "generated_at": "2026-10-20T17:26:16.420027Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1424,11 +1424,11 @@
       "starters_current": [
         "2306",
         "4034",
-        "9757",
+        "9224",
         "12519",
         "11646",
         "5001",
-        "11624",
+        "7525",
         "12711",
         "NE"
       ],
@@ -1470,12 +1470,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "9757",
-          "name": "Kendre Miller",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "NO",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "12519",
@@ -1504,13 +1505,13 @@
           "keeper": false
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "KC",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 2
         },
         {
           "player_id": "12711",
@@ -1540,6 +1541,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "11635",
@@ -1587,14 +1597,15 @@
           "draft_round": 4
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
+          "keeper": false
+        }
+      ],
+      "keepers": [
         {
           "player_id": "9224",
           "name": "Chase Brown",
@@ -1603,9 +1614,7 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 8
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "12519",
           "name": "Luther Burden",
@@ -1641,15 +1650,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         }
       ]
     },
@@ -2195,13 +2195,13 @@
       "starters_current": [
         "11560",
         "9509",
-        "7611",
+        "6790",
         "8112",
         "8146",
-        "8110",
-        "6790",
+        "13330",
+        "12489",
         "6083",
-        "SF"
+        "0"
       ],
       "players_current": [
         "10232",
@@ -2218,8 +2218,7 @@
         "8112",
         "8146",
         "8154",
-        "9509",
-        "SF"
+        "9509"
       ],
       "starters": [
         {
@@ -2241,13 +2240,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "NE",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 9
+          "draft_round": 5
         },
         {
           "player_id": "8112",
@@ -2268,36 +2267,28 @@
           "draft_round": 2
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
           "position": "TE",
-          "team": "DAL",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 11
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "CHI",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "6083",
           "name": "Matt Gay",
           "position": "K",
           "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco",
-          "position": "DEF",
-          "team": "SF",
           "injury_status": null,
           "keeper": false
         }
@@ -2322,15 +2313,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
@@ -2348,13 +2330,22 @@
           "draft_round": 15
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
-          "position": "TE",
-          "team": "NYJ",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": true,
+          "draft_round": 9
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "8154",
@@ -2377,13 +2368,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "NE",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 9
+          "draft_round": 5
         },
         {
           "player_id": "8112",
@@ -2404,24 +2395,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "10232",
           "name": "Michael Wilson",
           "position": "WR",
@@ -2429,6 +2402,24 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -3763,10 +3754,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2832,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-20T12:26:00.133050Z",
-    "stale_after": "2026-10-20T13:26:00.133050Z"
+    "generated_at": "2026-10-20T17:26:16.420027Z",
+    "stale_after": "2026-10-20T18:26:16.420027Z"
   }
 }
