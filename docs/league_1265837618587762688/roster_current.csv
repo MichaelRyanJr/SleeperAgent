@@ -21,7 +21,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,4,9493,Puka Nacua,WR,LAR,,1,0
 2,5,8137,George Pickens,WR,DAL,,1,0
 2,6,13330,Kenyon Sadiq,TE,NYJ,,1,0
-2,7,8121,Romeo Doubs,WR,NE,Out,1,0
+2,7,8121,Romeo Doubs,WR,NE,IR,1,0
 2,8,11786,Cam Little,K,JAX,,1,0
 2,9,IND,Indianapolis,DEF,IND,,1,0
 2,,11631,Brian Thomas,WR,JAX,,0,0
@@ -47,8 +47,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,11655,Tyrone Tracy,RB,NYG,,0,0
 3,,13285,Malachi Fields,WR,NYG,,0,0
 3,,13414,Kaelon Black,RB,SF,,0,0
-3,,5859,A.J. Brown,WR,NE,,0,0
-3,,5927,Terry McLaurin,WR,WAS,,0,0
+3,,5859,A.J. Brown,WR,NE,Questionable,0,0
+3,,5927,Terry McLaurin,WR,WAS,Out,0,0
 4,1,8183,Brock Purdy,QB,SF,,1,0
 4,2,9509,Bijan Robinson,RB,ATL,,1,0
 4,3,12474,Woody Marks,RB,HOU,,1,0
@@ -70,7 +70,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,2,12490,Bhayshul Tuten,RB,JAX,,1,0
 5,3,5967,Tony Pollard,RB,TEN,,1,0
 5,4,12501,Matthew Golden,WR,GB,,1,0
-5,5,2133,Davante Adams,WR,LAR,,1,0
+5,5,2133,Davante Adams,WR,LAR,Out,1,0
 5,6,3214,Hunter Henry,TE,NE,,1,0
 5,7,12489,RJ Harvey,RB,DEN,,1,0
 5,8,12185,Spencer Shrader,K,IND,,1,0
@@ -105,7 +105,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 7,5,12514,Emeka Egbuka,WR,TB,,1,0
 7,6,8131,Isaiah Likely,TE,NYG,,1,0
 7,7,11620,Rome Odunze,WR,CHI,,1,0
-7,8,11058,Blake Grupe,K,LAR,Questionable,1,0
+7,8,11058,Blake Grupe,K,LAR,IR,1,0
 7,9,KC,Kansas City,DEF,KC,,1,0
 7,,11610,Malik Washington,WR,MIA,,0,0
 7,,12545,Tyler Shough,QB,NO,,0,0
@@ -125,7 +125,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,8,11533,Brandon Aubrey,K,DAL,,1,0
 8,9,HOU,Houston,DEF,HOU,,1,0
 8,,11628,Marvin Harrison,WR,HOU,,0,0
-8,,12533,Jacory Croskey-Merritt,RB,WAS,Out,0,0
+8,,12533,Jacory Croskey-Merritt,RB,WAS,IR,0,0
 8,,13287,Jeremiyah Love,RB,ARI,Out,0,0
 8,,13298,KC Concepcion,WR,CLE,,0,0
 8,,4983,DJ Moore,WR,BUF,Out,0,0
@@ -186,7 +186,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,2,6813,Jonathan Taylor,RB,IND,,1,0
 12,3,3198,Derrick Henry,RB,BAL,,1,0
 12,4,7525,DeVonta Smith,WR,PHI,,1,0
-12,5,2449,Stefon Diggs,WR,WAS,Questionable,1,0
+12,5,2449,Stefon Diggs,WR,WAS,,1,0
 12,6,10236,Dalton Kincaid,TE,BUF,Questionable,1,0
 12,7,7611,Rhamondre Stevenson,RB,NE,,1,0
 12,8,650,Nick Folk,K,ATL,,1,0
