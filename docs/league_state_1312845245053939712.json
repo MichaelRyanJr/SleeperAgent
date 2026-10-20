@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T20:47:39.395464Z",
+  "generated_at": "2026-10-20T23:29:37.478189Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -634,8 +634,8 @@
         "8183",
         "11584",
         "7588",
-        "0",
-        "9487",
+        "12526",
+        "13274",
         "8130",
         "12527",
         "2747",
@@ -690,13 +690,21 @@
           "draft_round": 7
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "JAX",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
+          "player_id": "13274",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8130",
@@ -755,23 +763,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
-          "player_id": "13274",
-          "name": "Germie Bernard",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -823,6 +814,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         }
       ],
       "keepers": [
@@ -845,6 +845,15 @@
           "draft_round": 7
         },
         {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "8130",
           "name": "Trey McBride",
           "position": "TE",
@@ -861,15 +870,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     },
@@ -1153,11 +1153,11 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
+        "4881",
         "8151",
         "8150",
         "7569",
-        "2133",
+        "7564",
         "4217",
         "5859",
         "650",
@@ -1184,12 +1184,13 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
+          "team": "BAL",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "8151",
@@ -1219,13 +1220,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Out",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 1
         },
         {
           "player_id": "4217",
@@ -1309,13 +1310,21 @@
           "draft_round": 15
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
           "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 3
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7543",
@@ -1325,18 +1334,18 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         }
       ],
       "keepers": [
+        {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 3
+        },
         {
           "player_id": "8151",
           "name": "Kenneth Walker",
@@ -1381,15 +1390,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 3
         },
         {
           "player_id": "7543",
@@ -1674,12 +1674,12 @@
       },
       "starters_current": [
         "3294",
-        "4035",
-        "5967",
+        "5850",
+        "9221",
         "5846",
-        "12501",
+        "7547",
         "10236",
-        "1479",
+        "12501",
         "11533",
         "IND"
       ],
@@ -1712,21 +1712,22 @@
           "draft_round": 9
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "NO",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "GB",
+          "injury_status": "NA",
+          "keeper": false,
+          "draft_round": 2
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
           "position": "RB",
-          "team": "TEN",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "5846",
@@ -1738,13 +1739,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "GB",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "10236",
@@ -1756,12 +1757,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "IND",
+          "team": "GB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "11533",
@@ -1792,11 +1794,27 @@
           "draft_round": 15
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
           "injury_status": "",
+          "keeper": false
+        },
+        {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1809,13 +1827,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "GB",
-          "injury_status": "NA",
+          "team": "TEN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 3
         },
         {
           "player_id": "7021",
@@ -1825,24 +1843,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 2
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
         }
       ],
       "keepers": [
@@ -1854,6 +1854,24 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
+        },
+        {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "11533",
@@ -1881,24 +1899,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 2
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 4
         }
       ]
     },
@@ -3757,7 +3757,7 @@
     "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-20T20:47:39.395464Z",
-    "stale_after": "2026-10-20T21:47:39.395464Z"
+    "generated_at": "2026-10-20T23:29:37.478189Z",
+    "stale_after": "2026-10-21T00:29:37.478189Z"
   }
 }

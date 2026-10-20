@@ -296,11 +296,11 @@
         "injury_status": null
       },
       {
-        "player_id": "10229",
-        "name": "Rashee Rice",
+        "player_id": "13274",
+        "name": "Germie Bernard",
         "position": "WR",
-        "team": "KC",
-        "injury_status": "Out"
+        "team": "PIT",
+        "injury_status": null
       },
       {
         "player_id": "8130",
@@ -333,18 +333,18 @@
     ],
     "bench": [
       {
+        "player_id": "10229",
+        "name": "Rashee Rice",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": "Out"
+      },
+      {
         "player_id": "12487",
         "name": "Terrance Ferguson",
         "position": "TE",
         "team": "LAR",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "13274",
-        "name": "Germie Bernard",
-        "position": "WR",
-        "team": "PIT",
-        "injury_status": null
       },
       {
         "player_id": "13281",
@@ -794,11 +794,11 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "3257",
-        "name": "Jacoby Brissett",
+        "player_id": "4881",
+        "name": "Lamar Jackson",
         "position": "QB",
-        "team": "ARI",
-        "injury_status": null
+        "team": "BAL",
+        "injury_status": "Out"
       },
       {
         "player_id": "8151",
@@ -822,11 +822,11 @@
         "injury_status": null
       },
       {
-        "player_id": "2133",
-        "name": "Davante Adams",
+        "player_id": "7564",
+        "name": "Ja'Marr Chase",
         "position": "WR",
-        "team": "LAR",
-        "injury_status": "Out"
+        "team": "CIN",
+        "injury_status": null
       },
       {
         "player_id": "4217",
@@ -894,11 +894,18 @@
         "injury_status": null
       },
       {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "position": "QB",
-        "team": "BAL",
+        "player_id": "2133",
+        "name": "Davante Adams",
+        "position": "WR",
+        "team": "LAR",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "3257",
+        "name": "Jacoby Brissett",
+        "position": "QB",
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "7543",
@@ -906,13 +913,6 @@
         "position": "RB",
         "team": "NO",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "7564",
-        "name": "Ja'Marr Chase",
-        "position": "WR",
-        "team": "CIN",
-        "injury_status": null
       }
     ]
   },
@@ -1185,17 +1185,17 @@
         "injury_status": null
       },
       {
-        "player_id": "4035",
-        "name": "Alvin Kamara",
+        "player_id": "5850",
+        "name": "Josh Jacobs",
         "position": "RB",
-        "team": "NO",
-        "injury_status": "Questionable"
+        "team": "GB",
+        "injury_status": "NA"
       },
       {
-        "player_id": "5967",
-        "name": "Tony Pollard",
+        "player_id": "9221",
+        "name": "Jahmyr Gibbs",
         "position": "RB",
-        "team": "TEN",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -1206,10 +1206,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12501",
-        "name": "Matthew Golden",
+        "player_id": "7547",
+        "name": "Amon-Ra St. Brown",
         "position": "WR",
-        "team": "GB",
+        "team": "DET",
         "injury_status": null
       },
       {
@@ -1220,10 +1220,10 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "1479",
-        "name": "Keenan Allen",
+        "player_id": "12501",
+        "name": "Matthew Golden",
         "position": "WR",
-        "team": "IND",
+        "team": "GB",
         "injury_status": null
       },
       {
@@ -1250,11 +1250,25 @@
         "injury_status": null
       },
       {
+        "player_id": "1479",
+        "name": "Keenan Allen",
+        "position": "WR",
+        "team": "IND",
+        "injury_status": null
+      },
+      {
         "player_id": "3321",
         "name": "Tyreek Hill",
         "position": "WR",
         "team": null,
         "injury_status": ""
+      },
+      {
+        "player_id": "4035",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5045",
@@ -1264,31 +1278,17 @@
         "injury_status": null
       },
       {
-        "player_id": "5850",
-        "name": "Josh Jacobs",
+        "player_id": "5967",
+        "name": "Tony Pollard",
         "position": "RB",
-        "team": "GB",
-        "injury_status": "NA"
+        "team": "TEN",
+        "injury_status": null
       },
       {
         "player_id": "7021",
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "injury_status": null
-      },
-      {
-        "player_id": "7547",
-        "name": "Amon-Ra St. Brown",
-        "position": "WR",
-        "team": "DET",
-        "injury_status": null
-      },
-      {
-        "player_id": "9221",
-        "name": "Jahmyr Gibbs",
-        "position": "RB",
-        "team": "DET",
         "injury_status": null
       }
     ]
