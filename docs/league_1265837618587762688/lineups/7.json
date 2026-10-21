@@ -1055,23 +1055,9 @@
         "position": "K",
         "team": "CIN",
         "injury_status": null
-      },
-      {
-        "player_id": "KC",
-        "name": "Kansas City",
-        "position": "DEF",
-        "team": "KC",
-        "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "11058",
-        "name": "Blake Grupe",
-        "position": "K",
-        "team": "LAR",
-        "injury_status": "IR"
-      },
       {
         "player_id": "11610",
         "name": "Malik Washington",
@@ -1091,6 +1077,13 @@
         "name": "Tyler Shough",
         "position": "QB",
         "team": "NO",
+        "injury_status": null
+      },
+      {
+        "player_id": "13276",
+        "name": "Omar Cooper",
+        "position": "WR",
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -1120,6 +1113,13 @@
         "position": "RB",
         "team": "NO",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "CLE",
+        "name": "Cleveland",
+        "position": "DEF",
+        "team": "CLE",
+        "injury_status": null
       }
     ]
   },
@@ -1271,11 +1271,11 @@
         "injury_status": null
       },
       {
-        "player_id": "13337",
-        "name": "Emmett Johnson",
+        "player_id": "5850",
+        "name": "Josh Jacobs",
         "position": "RB",
-        "team": "KC",
-        "injury_status": null
+        "team": "GB",
+        "injury_status": "NA"
       },
       {
         "player_id": "9997",
@@ -1297,13 +1297,6 @@
         "position": "TE",
         "team": "IND",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "11637",
-        "name": "Keon Coleman",
-        "position": "WR",
-        "team": "BUF",
-        "injury_status": null
       },
       {
         "player_id": "11533",
@@ -1350,18 +1343,18 @@
         "injury_status": null
       },
       {
+        "player_id": "13337",
+        "name": "Emmett Johnson",
+        "position": "RB",
+        "team": "KC",
+        "injury_status": null
+      },
+      {
         "player_id": "4983",
         "name": "DJ Moore",
         "position": "WR",
         "team": "BUF",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "5850",
-        "name": "Josh Jacobs",
-        "position": "RB",
-        "team": "GB",
-        "injury_status": "NA"
       },
       {
         "player_id": "9224",
@@ -1376,6 +1369,13 @@
         "position": "RB",
         "team": "SEA",
         "injury_status": "PUP"
+      },
+      {
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "injury_status": null
       }
     ]
   },

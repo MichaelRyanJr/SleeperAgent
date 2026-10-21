@@ -1,6 +1,114 @@
 [
   {
     "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1792552556550,
+    "settings": {
+      "seq": 0
+    },
+    "leg": 6,
+    "draft_picks": [],
+    "creator": "656964656237232128",
+    "transaction_id": "1418471867936706560",
+    "adds": {
+      "9758": 8
+    },
+    "drops": null,
+    "consenter_ids": [
+      8
+    ],
+    "roster_ids": [
+      8
+    ],
+    "status_updated": 1792566937202,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "free_agent",
+    "metadata": null,
+    "created": 1792552545927,
+    "settings": null,
+    "leg": 6,
+    "draft_picks": [],
+    "creator": "656964656237232128",
+    "transaction_id": "1418471823380680704",
+    "adds": null,
+    "drops": {
+      "11637": 8
+    },
+    "consenter_ids": [
+      8
+    ],
+    "roster_ids": [
+      8
+    ],
+    "status_updated": 1792552545927,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1792468271844,
+    "settings": {
+      "seq": 2
+    },
+    "leg": 6,
+    "draft_picks": [],
+    "creator": "733489057216184320",
+    "transaction_id": "1418118352253001728",
+    "adds": {
+      "13276": 7
+    },
+    "drops": {
+      "11058": 7
+    },
+    "consenter_ids": [
+      7
+    ],
+    "roster_ids": [
+      7
+    ],
+    "status_updated": 1792566937202,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
+    "type": "waiver",
+    "metadata": {
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    "created": 1792468212377,
+    "settings": {
+      "seq": 1
+    },
+    "leg": 6,
+    "draft_picks": [],
+    "creator": "733489057216184320",
+    "transaction_id": "1418118102834483200",
+    "adds": {
+      "CLE": 7
+    },
+    "drops": {
+      "KC": 7
+    },
+    "consenter_ids": [
+      7
+    ],
+    "roster_ids": [
+      7
+    ],
+    "status_updated": 1792566937202,
+    "waiver_budget": []
+  },
+  {
+    "status": "complete",
     "type": "free_agent",
     "metadata": null,
     "created": 1792350075571,

@@ -19,11 +19,11 @@
         "injury_status": null
       },
       {
-        "player_id": "7567",
-        "name": "Kenny Gainwell",
+        "player_id": "5892",
+        "name": "David Montgomery",
         "position": "RB",
-        "team": "TB",
-        "injury_status": null
+        "team": "HOU",
+        "injury_status": "Out"
       },
       {
         "player_id": "9488",
@@ -61,10 +61,10 @@
         "injury_status": null
       },
       {
-        "player_id": "KC",
-        "name": "Kansas City",
+        "player_id": "MIN",
+        "name": "Minnesota",
         "position": "DEF",
-        "team": "KC",
+        "team": "MIN",
         "injury_status": null
       }
     ],
@@ -98,18 +98,18 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "5892",
-        "name": "David Montgomery",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "5927",
         "name": "Terry McLaurin",
         "position": "WR",
         "team": "WAS",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "7567",
+        "name": "Kenny Gainwell",
+        "position": "RB",
+        "team": "TB",
+        "injury_status": null
       },
       {
         "player_id": "8142",
@@ -119,10 +119,10 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "MIN",
-        "name": "Minnesota",
+        "player_id": "KC",
+        "name": "Kansas City",
         "position": "DEF",
-        "team": "MIN",
+        "team": "KC",
         "injury_status": null
       }
     ]
@@ -158,13 +158,6 @@
         "name": "CeeDee Lamb",
         "position": "WR",
         "team": "DAL",
-        "injury_status": null
-      },
-      {
-        "player_id": "4454",
-        "name": "Kendrick Bourne",
-        "position": "WR",
-        "team": "ARI",
         "injury_status": null
       },
       {
@@ -219,6 +212,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "12536",
+        "name": "Jaylin Noel",
+        "position": "WR",
+        "team": "HOU",
+        "injury_status": null
+      },
+      {
         "player_id": "13286",
         "name": "Jadarian Price",
         "position": "RB",
@@ -226,17 +226,17 @@
         "injury_status": "IR"
       },
       {
+        "player_id": "13293",
+        "name": "Ja'Kobi Lane",
+        "position": "WR",
+        "team": "BAL",
+        "injury_status": null
+      },
+      {
         "player_id": "13414",
         "name": "Kaelon Black",
         "position": "RB",
         "team": "SF",
-        "injury_status": null
-      },
-      {
-        "player_id": "4227",
-        "name": "Harrison Butker",
-        "position": "K",
-        "team": "KC",
         "injury_status": null
       },
       {
@@ -457,13 +457,6 @@
         "position": "K",
         "team": "LV",
         "injury_status": null
-      },
-      {
-        "player_id": "SF",
-        "name": "San Francisco",
-        "position": "DEF",
-        "team": "SF",
-        "injury_status": null
       }
     ],
     "bench": [
@@ -514,6 +507,13 @@
         "name": "Brian Robinson",
         "position": "RB",
         "team": "ATL",
+        "injury_status": null
+      },
+      {
+        "player_id": "NYJ",
+        "name": "New York",
+        "position": "DEF",
+        "team": "NYJ",
         "injury_status": null
       }
     ]
@@ -1232,13 +1232,6 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
-      },
-      {
-        "player_id": "IND",
-        "name": "Indianapolis",
-        "position": "DEF",
-        "team": "IND",
-        "injury_status": null
       }
     ],
     "bench": [
@@ -1247,13 +1240,6 @@
         "name": "Bo Nix",
         "position": "QB",
         "team": "DEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "1479",
-        "name": "Keenan Allen",
-        "position": "WR",
-        "team": "IND",
         "injury_status": null
       },
       {
@@ -1269,6 +1255,13 @@
         "position": "RB",
         "team": "NO",
         "injury_status": "Questionable"
+      },
+      {
+        "player_id": "5012",
+        "name": "Mark Andrews",
+        "position": "TE",
+        "team": "BAL",
+        "injury_status": null
       },
       {
         "player_id": "5045",
@@ -1289,6 +1282,13 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
+        "injury_status": null
+      },
+      {
+        "player_id": "TEN",
+        "name": "Tennessee",
+        "position": "DEF",
+        "team": "TEN",
         "injury_status": null
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:57:01.460842Z",
+  "generated_at": "2026-10-21T07:23:11.020873Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 568.8,
       "points_against": 586.24,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -372,7 +372,7 @@
       "points_for": 670.66,
       "points_against": 640.36,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1391,16 +1391,16 @@
         "12514",
         "8131",
         "11620",
-        "11058",
-        "KC"
+        "0",
+        "0"
       ],
       "players_current": [
-        "11058",
         "11610",
         "11620",
         "11647",
         "12514",
         "12545",
+        "13276",
         "2505",
         "3321",
         "4199",
@@ -1411,7 +1411,7 @@
         "7547",
         "7839",
         "8131",
-        "KC"
+        "CLE"
       ],
       "starters": [
         {
@@ -1474,22 +1474,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
-        },
-        {
-          "player_id": "11058",
-          "name": "Blake Grupe",
-          "position": "K",
-          "team": "LAR",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1509,6 +1493,15 @@
           "team": "NO",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "13276",
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 14
         },
         {
           "player_id": "2505",
@@ -1561,6 +1554,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1581,24 +1582,23 @@
       "points_for": 637.6,
       "points_against": 595.08,
       "waiver": {
-        "position": 8,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
         "7523",
         "4034",
-        "13337",
+        "5850",
         "9997",
         "8167",
         "12518",
-        "11637",
+        "0",
         "11533",
         "HOU"
       ],
       "players_current": [
         "11533",
         "11628",
-        "11637",
         "12518",
         "12533",
         "13287",
@@ -1611,6 +1611,7 @@
         "8167",
         "9224",
         "9753",
+        "9758",
         "9997",
         "HOU"
       ],
@@ -1634,12 +1635,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
+          "team": "GB",
+          "injury_status": "NA",
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "9997",
@@ -1667,14 +1669,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "11533",
@@ -1733,6 +1727,14 @@
           "draft_round": 8
         },
         {
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4983",
           "name": "DJ Moore",
           "position": "WR",
@@ -1740,15 +1742,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
-        },
-        {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": "NA",
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "9224",
@@ -1767,6 +1760,14 @@
           "injury_status": "PUP",
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1989,7 +1990,7 @@
       "points_for": 617.74,
       "points_against": 559.12,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -3170,10 +3171,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T01:57:01.460842Z",
-    "stale_after": "2026-10-21T02:57:01.460842Z"
+    "generated_at": "2026-10-21T07:23:11.020873Z",
+    "stale_after": "2026-10-21T08:23:11.020873Z"
   }
 }
