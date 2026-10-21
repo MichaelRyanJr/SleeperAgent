@@ -54,10 +54,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11786",
-        "name": "Cam Little",
+        "player_id": "5189",
+        "name": "Eddy Pineiro",
         "position": "K",
-        "team": "JAX",
+        "team": "SF",
         "injury_status": null
       },
       {
@@ -74,6 +74,13 @@
         "name": "Keon Coleman",
         "position": "WR",
         "team": "BUF",
+        "injury_status": null
+      },
+      {
+        "player_id": "11786",
+        "name": "Cam Little",
+        "position": "K",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -105,10 +112,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "7567",
-        "name": "Kenny Gainwell",
+        "player_id": "8129",
+        "name": "Dameon Pierce",
         "position": "RB",
-        "team": "TB",
+        "team": "PHI",
         "injury_status": null
       },
       {
@@ -117,13 +124,6 @@
         "position": "WR",
         "team": "IND",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "KC",
-        "name": "Kansas City",
-        "position": "DEF",
-        "team": "KC",
-        "injury_status": null
       }
     ]
   },
@@ -438,10 +438,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13330",
-        "name": "Kenyon Sadiq",
+        "player_id": "8110",
+        "name": "Jake Ferguson",
         "position": "TE",
-        "team": "NYJ",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -456,6 +456,13 @@
         "name": "Matt Gay",
         "position": "K",
         "team": "LV",
+        "injury_status": null
+      },
+      {
+        "player_id": "NYJ",
+        "name": "New York",
+        "position": "DEF",
+        "team": "NYJ",
         "injury_status": null
       }
     ],
@@ -489,6 +496,13 @@
         "injury_status": null
       },
       {
+        "player_id": "13330",
+        "name": "Kenyon Sadiq",
+        "position": "TE",
+        "team": "NYJ",
+        "injury_status": null
+      },
+      {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
@@ -496,24 +510,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8110",
-        "name": "Jake Ferguson",
-        "position": "TE",
-        "team": "DAL",
-        "injury_status": null
-      },
-      {
         "player_id": "8154",
         "name": "Brian Robinson",
         "position": "RB",
         "team": "ATL",
-        "injury_status": null
-      },
-      {
-        "player_id": "NYJ",
-        "name": "New York",
-        "position": "DEF",
-        "team": "NYJ",
         "injury_status": null
       }
     ]
@@ -1213,11 +1213,11 @@
         "injury_status": null
       },
       {
-        "player_id": "10236",
-        "name": "Dalton Kincaid",
+        "player_id": "5012",
+        "name": "Mark Andrews",
         "position": "TE",
-        "team": "BUF",
-        "injury_status": "Questionable"
+        "team": "BAL",
+        "injury_status": null
       },
       {
         "player_id": "12501",
@@ -1232,9 +1232,23 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
+      },
+      {
+        "player_id": "TEN",
+        "name": "Tennessee",
+        "position": "DEF",
+        "team": "TEN",
+        "injury_status": null
       }
     ],
     "bench": [
+      {
+        "player_id": "10236",
+        "name": "Dalton Kincaid",
+        "position": "TE",
+        "team": "BUF",
+        "injury_status": "Questionable"
+      },
       {
         "player_id": "11563",
         "name": "Bo Nix",
@@ -1257,13 +1271,6 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "5012",
-        "name": "Mark Andrews",
-        "position": "TE",
-        "team": "BAL",
-        "injury_status": null
-      },
-      {
         "player_id": "5045",
         "name": "Courtland Sutton",
         "position": "WR",
@@ -1282,13 +1289,6 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "injury_status": null
-      },
-      {
-        "player_id": "TEN",
-        "name": "Tennessee",
-        "position": "DEF",
-        "team": "TEN",
         "injury_status": null
       }
     ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T07:23:13.913931Z",
-  "stale_after": "2026-10-21T08:23:13.913931Z",
+  "generated_at": "2026-10-21T13:03:21.215851Z",
+  "stale_after": "2026-10-21T14:03:21.215851Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-21T07:23:11.643039Z",
+    "snapshot_started_at": "2026-10-21T13:03:18.786409Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-21T07:23:11.733366Z"
+      "fetched_at": "2026-10-21T13:03:18.883430Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-21T07:23:11.969813Z"
+      "fetched_at": "2026-10-21T13:03:19.100484Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-21T07:23:12.055621Z"
+        "fetched_at": "2026-10-21T13:03:19.188509Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-21T07:23:12.161977Z"
+      "fetched_at": "2026-10-21T13:03:19.304515Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -58,9 +58,9 @@
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 19,
     "FB": 112,
-    "K": 178,
+    "K": 177,
     "P": 5,
     "QB": 448,
     "RB": 874,
@@ -422,6 +422,32 @@
         "DEF"
       ],
       "team": "IND",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "KC",
+      "name": "Kansas City Chiefs",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "KC",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -3890,32 +3916,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1792546247926,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "5189",
-      "name": "Eddy Pineiro",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "SF",
-      "age": 31,
-      "years_exp": 8,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1792545647789,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20624,32 +20624,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "8129",
-      "name": "Dameon Pierce",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "age": 26,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1792422307759,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13949",
       "name": "Damon Bankston",
       "position": "RB",
@@ -22078,6 +22052,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "7567",
+      "name": "Kenny Gainwell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "TB",
+      "age": 27,
+      "years_exp": 5,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1792390805299,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
     },
     {
       "player_id": "13436",

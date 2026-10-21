@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:23:14.364522Z",
+  "generated_at": "2026-10-21T13:03:21.693138Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -19,7 +19,7 @@
       "owner": "BG82",
       "team_name": "Njigbas in Paris ",
       "submitted_keeper_rule_check": {
-        "submitted_keeper_count": 8,
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           2,
@@ -27,14 +27,13 @@
           5,
           7,
           8,
-          11,
           13,
           14
         ],
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": false
+        "complete": true
       },
       "players": [
         {
@@ -227,6 +226,33 @@
           "keeper_cost_round_is_provisional": false
         },
         {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1418586130521079808",
+          "acquisition_time": "2026-10-21T10:49:58.874000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -308,10 +334,10 @@
           "keeper_cost_round_is_provisional": false
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
+          "player_id": "8129",
+          "name": "Dameon Pierce",
           "position": "RB",
-          "team": "TB",
+          "team": "PHI",
           "injury_status": null,
           "original_draft_round": null,
           "original_draft_pick_no": null,
@@ -319,20 +345,20 @@
           "original_drafted_by": null,
           "original_draft_roster_id": null,
           "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1416039479306629120",
-          "acquisition_time": "2026-10-14T10:10:29.909000Z",
+          "acquisition_transaction_id": "1418586962993958912",
+          "acquisition_time": "2026-10-21T10:53:17.350000Z",
           "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": true,
-          "keeper_submitted_round": 11,
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
           "keeper_eligible": true,
           "eligibility_reason": "undrafted_base_round_14",
           "keeper_base_round": 14,
-          "keeper_cost_round": 11,
-          "keeper_cost_source": "current_submitted_keeper",
-          "keeper_round_may_move_for_collision": false,
-          "current_draft_round": 11,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
           "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": false
+          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "8142",
@@ -441,33 +467,6 @@
           "current_draft_round": 8,
           "base_keeper_cost_round": 8,
           "keeper_cost_round_is_provisional": false
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "original_draft_round": 12,
-          "original_draft_pick_no": 141,
-          "original_draft_slot": 9,
-          "original_drafted_by": "992551957615198208",
-          "original_draft_roster_id": 1,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1416038794779525120",
-          "acquisition_time": "2026-10-14T10:07:46.705000Z",
-          "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 12,
-          "keeper_cost_round": 12,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 12,
-          "keeper_cost_round_is_provisional": true
         },
         {
           "player_id": "MIN",
@@ -5840,5 +5839,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-21T07:23:14.410794Z"
+  "rules_updated_at": "2026-10-21T13:03:21.740602Z"
 }

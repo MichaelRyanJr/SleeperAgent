@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T07:23:11.020873Z",
-  "stale_after": "2026-10-21T08:23:11.020873Z",
+  "generated_at": "2026-10-21T13:03:18.134255Z",
+  "stale_after": "2026-10-21T14:03:18.134255Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-21T07:23:08.715999Z",
+    "snapshot_started_at": "2026-10-21T13:03:15.794871Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-21T07:23:08.805209Z"
+      "fetched_at": "2026-10-21T13:03:15.890916Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-21T07:23:09.034852Z"
+      "fetched_at": "2026-10-21T13:03:16.122282Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-21T07:23:09.111236Z"
+        "fetched_at": "2026-10-21T13:03:16.169231Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-21T07:23:09.209707Z"
+      "fetched_at": "2026-10-21T13:03:16.268103Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -2411,6 +2411,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "8259",
+      "name": "Cameron Dicker",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "LAC",
+      "age": 26,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1792465534431,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 14
+    },
+    {
       "player_id": "10955",
       "name": "Chad Ryland",
       "position": "K",
@@ -2461,32 +2487,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "6650",
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "TB",
-      "age": 30,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1792461634331,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "1945",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:23:13.913931Z",
+  "generated_at": "2026-10-21T13:03:21.215851Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -106,7 +106,7 @@
         "8167",
         "12506",
         "12514",
-        "11786",
+        "5189",
         "MIN"
       ],
       "players_current": [
@@ -117,15 +117,15 @@
         "12529",
         "3163",
         "4984",
+        "5189",
         "5844",
         "5892",
         "5927",
-        "7567",
+        "8129",
         "8142",
         "8167",
         "8228",
         "9488",
-        "KC",
         "MIN"
       ],
       "starters": [
@@ -193,13 +193,12 @@
           "draft_round": 5
         },
         {
-          "player_id": "11786",
-          "name": "Cam Little",
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
           "position": "K",
-          "team": "JAX",
+          "team": "SF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         },
         {
           "player_id": "MIN",
@@ -219,6 +218,15 @@
           "team": "BUF",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "11786",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "12529",
@@ -257,13 +265,12 @@
           "draft_round": 4
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
+          "player_id": "8129",
+          "name": "Dameon Pierce",
           "position": "RB",
-          "team": "TB",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         },
         {
           "player_id": "8142",
@@ -273,14 +280,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -1678,10 +1677,10 @@
         "9221",
         "5846",
         "7547",
-        "10236",
+        "5012",
         "12501",
         "11533",
-        "0"
+        "TEN"
       ],
       "players_current": [
         "10236",
@@ -1748,13 +1747,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
+          "player_id": "5012",
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": "BUF",
-          "injury_status": "Questionable",
+          "team": "BAL",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 12
         },
         {
           "player_id": "12501",
@@ -1773,9 +1772,26 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
+        },
+        {
+          "player_id": "TEN",
+          "name": "Tennessee",
+          "position": "DEF",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
+        },
         {
           "player_id": "11563",
           "name": "Bo Nix",
@@ -1800,15 +1816,6 @@
           "team": "NO",
           "injury_status": "Questionable",
           "keeper": false
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "5045",
@@ -1836,14 +1843,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "TEN",
-          "name": "Tennessee",
-          "position": "DEF",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2199,10 +2198,10 @@
         "6790",
         "8112",
         "8146",
-        "13330",
+        "8110",
         "12489",
         "6083",
-        "0"
+        "NYJ"
       ],
       "players_current": [
         "10232",
@@ -2269,13 +2268,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
           "position": "TE",
-          "team": "NYJ",
+          "team": "DAL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "12489",
@@ -2291,6 +2290,14 @@
           "name": "Matt Gay",
           "position": "K",
           "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "NYJ",
+          "name": "New York",
+          "position": "DEF",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false
         }
@@ -2332,6 +2339,15 @@
           "draft_round": 15
         },
         {
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -2341,15 +2357,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -2357,14 +2364,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
-        },
-        {
-          "player_id": "NYJ",
-          "name": "New York",
-          "position": "DEF",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -2405,6 +2404,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
           "player_id": "10232",
           "name": "Michael Wilson",
           "position": "WR",
@@ -2421,15 +2429,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
-        },
-        {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
         }
       ]
     },
@@ -3767,7 +3766,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T07:23:13.913931Z",
-    "stale_after": "2026-10-21T08:23:13.913931Z"
+    "generated_at": "2026-10-21T13:03:21.215851Z",
+    "stale_after": "2026-10-21T14:03:21.215851Z"
   }
 }

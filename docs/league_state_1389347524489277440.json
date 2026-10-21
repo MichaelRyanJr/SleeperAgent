@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:23:11.020873Z",
+  "generated_at": "2026-10-21T13:03:18.134255Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -184,12 +184,12 @@
       "starters_current": [
         "6804",
         "11576",
-        "12481",
+        "12495",
         "13279",
         "12526",
         "8130",
-        "11581",
-        "8259",
+        "6794",
+        "6650",
         "LAR"
       ],
       "players_current": [
@@ -204,10 +204,10 @@
         "13279",
         "13294",
         "4881",
+        "6650",
         "6794",
         "6804",
         "8130",
-        "8259",
         "LAR"
       ],
       "starters": [
@@ -228,13 +228,12 @@
           "keeper": false
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "team": "MIA",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "13279",
@@ -264,22 +263,22 @@
           "draft_round": 2
         },
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 1
         },
         {
-          "player_id": "8259",
-          "name": "Cameron Dicker",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "LAC",
+          "team": "TB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 14
+          "draft_round": 15
         },
         {
           "player_id": "LAR",
@@ -301,12 +300,22 @@
           "keeper": false
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "11581",
+          "name": "MarShawn Lloyd",
           "position": "RB",
-          "team": "MIA",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12507",
@@ -343,15 +352,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         }
       ],
       "keepers": []
@@ -3174,7 +3174,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T07:23:11.020873Z",
-    "stale_after": "2026-10-21T08:23:11.020873Z"
+    "generated_at": "2026-10-21T13:03:18.134255Z",
+    "stale_after": "2026-10-21T14:03:18.134255Z"
   }
 }
