@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:03:21.215851Z",
-  "stale_after": "2026-10-21T14:03:21.215851Z",
+  "generated_at": "2026-10-21T17:59:41.771340Z",
+  "stale_after": "2026-10-21T18:59:41.771340Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-21T13:03:18.786409Z",
+    "snapshot_started_at": "2026-10-21T17:59:39.399428Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-21T13:03:18.883430Z"
+      "fetched_at": "2026-10-21T17:59:39.503920Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-21T13:03:19.100484Z"
+      "fetched_at": "2026-10-21T17:59:39.723347Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-21T13:03:19.188509Z"
+        "fetched_at": "2026-10-21T17:59:39.774552Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-21T13:03:19.304515Z"
+      "fetched_at": "2026-10-21T17:59:39.888457Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 205,
+  "excluded_rostered_count": 206,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2835,
-  "all_player_count": 4182,
-  "player_count": 2835,
+  "default_player_count": 2834,
+  "all_player_count": 4181,
+  "player_count": 2834,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 560,
     "SS": 1,
     "TE": 548,
-    "WR": 1179
+    "WR": 1178
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -15184,6 +15184,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "SEA",
+      "age": 27,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "RB",
+      "news_updated": 1792374902926,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "11199",
       "name": "Emari Demercado",
       "position": "RB",
@@ -16250,6 +16276,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11647",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "age": 25,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RB",
+      "news_updated": 1792458933660,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12969",
       "name": "Lan Larison",
       "position": "RB",
@@ -16770,32 +16822,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "13424",
-      "name": "Seth McGowan",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "IND",
-      "age": 24,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1792544447698,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "8220",
       "name": "Sincere McCormick",
       "position": "RB",
@@ -17028,32 +17054,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "11655",
-      "name": "Tyrone Tracy",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NYG",
-      "age": 26,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1792425008123,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "3309",
@@ -44281,6 +44281,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "5045",
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "DEN",
+      "age": 31,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LWR",
+      "news_updated": 1792377604481,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 5
+    },
+    {
       "player_id": "13413",
       "name": "Cyrus Allen",
       "position": "WR",
@@ -46673,32 +46699,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "12718",
-      "name": "Konata Mumpfield",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "LAR",
-      "age": 23,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "SWR",
-      "news_updated": 1792545047729,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13830",
       "name": "Kyle Dixon",
       "position": "WR",
@@ -48329,32 +48329,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1792253745281,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "10213",
-      "name": "Tre Tucker",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "LV",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "LWR",
-      "news_updated": 1792432809264,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

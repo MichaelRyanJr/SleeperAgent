@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:03:21.215851Z",
+  "generated_at": "2026-10-21T17:59:41.771340Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -369,17 +369,16 @@
       },
       "starters_current": [
         "11564",
-        "12490",
-        "11435",
-        "6786",
-        "0",
-        "11604",
         "11576",
-        "0",
+        "13424",
+        "6786",
+        "13293",
+        "11604",
+        "7002",
+        "11792",
         "LAR"
       ],
       "players_current": [
-        "11435",
         "11564",
         "11576",
         "11604",
@@ -391,6 +390,7 @@
         "13286",
         "13293",
         "13414",
+        "13424",
         "6786",
         "7002",
         "7523",
@@ -409,19 +409,19 @@
           "draft_round": 8
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "JAX",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
+          "keeper": false,
+          "draft_round": 15
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
+          "player_id": "13424",
+          "name": "Seth McGowan",
           "position": "RB",
-          "team": "SEA",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -435,6 +435,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "13293",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "11604",
           "name": "Brock Bowers",
           "position": "TE",
@@ -444,13 +453,22 @@
           "draft_round": 5
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 16
+        },
+        {
+          "player_id": "11792",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "LAR",
@@ -473,13 +491,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "11792",
-          "name": "Will Reichard",
-          "position": "K",
-          "team": "MIN",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": true,
+          "draft_round": 10
         },
         {
           "player_id": "12534",
@@ -508,15 +526,6 @@
           "draft_round": 1
         },
         {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "13414",
           "name": "Kaelon Black",
           "position": "RB",
@@ -524,15 +533,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         },
         {
           "player_id": "7523",
@@ -573,15 +573,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 10
-        },
-        {
           "player_id": "11604",
           "name": "Brock Bowers",
           "position": "TE",
@@ -598,6 +589,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 10
         },
         {
           "player_id": "12534",
@@ -893,20 +893,20 @@
       },
       "starters_current": [
         "96",
-        "11647",
+        "11655",
         "10219",
         "9493",
         "11632",
         "12517",
         "11620",
         "1945",
-        "SEA"
+        "HOU"
       ],
       "players_current": [
         "10219",
         "11620",
         "11632",
-        "11647",
+        "11655",
         "12508",
         "12517",
         "12533",
@@ -932,12 +932,13 @@
           "keeper": false
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
           "position": "RB",
-          "team": "LAC",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "10219",
@@ -994,13 +995,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "SEA",
-          "name": "Seattle",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "SEA",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 7
         }
       ],
       "bench": [
@@ -1075,13 +1076,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "SEA",
+          "name": "Seattle",
           "position": "DEF",
-          "team": "HOU",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 8
         }
       ],
       "keepers": [
@@ -1166,6 +1167,7 @@
         "11586",
         "12495",
         "12518",
+        "12718",
         "13298",
         "13337",
         "2133",
@@ -1289,6 +1291,14 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13298",
@@ -1675,14 +1685,15 @@
         "3294",
         "5850",
         "9221",
-        "5846",
         "7547",
-        "5012",
         "12501",
+        "5012",
+        "5846",
         "11533",
         "TEN"
       ],
       "players_current": [
+        "10213",
         "10236",
         "11533",
         "11563",
@@ -1691,7 +1702,6 @@
         "3321",
         "4035",
         "5012",
-        "5045",
         "5846",
         "5850",
         "5967",
@@ -1729,15 +1739,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
           "player_id": "7547",
           "name": "Amon-Ra St. Brown",
           "position": "WR",
@@ -1745,6 +1746,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 2
+        },
+        {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "5012",
@@ -1756,13 +1766,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "5846",
+          "name": "DK Metcalf",
           "position": "WR",
-          "team": "GB",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 3
         },
         {
           "player_id": "11533",
@@ -1783,6 +1793,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
         {
           "player_id": "10236",
           "name": "Dalton Kincaid",
@@ -1816,15 +1834,6 @@
           "team": "NO",
           "injury_status": "Questionable",
           "keeper": false
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
         },
         {
           "player_id": "5967",
@@ -3763,10 +3772,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T13:03:21.215851Z",
-    "stale_after": "2026-10-21T14:03:21.215851Z"
+    "generated_at": "2026-10-21T17:59:41.771340Z",
+    "stale_after": "2026-10-21T18:59:41.771340Z"
   }
 }

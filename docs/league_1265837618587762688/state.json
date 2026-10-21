@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:03:18.134255Z",
+  "generated_at": "2026-10-21T17:59:38.701939Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1385,14 +1385,14 @@
       },
       "starters_current": [
         "421",
-        "11647",
+        "4199",
         "6790",
-        "4454",
+        "7547",
         "12514",
         "8131",
         "11620",
-        "0",
-        "0"
+        "7839",
+        "CLE"
       ],
       "players_current": [
         "11610",
@@ -1424,12 +1424,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false
+          "team": "MIN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "6790",
@@ -1441,12 +1442,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "ARI",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "12514",
@@ -1474,6 +1476,23 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
+        },
+        {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1485,6 +1504,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12545",
@@ -1520,13 +1547,12 @@
           "keeper": false
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 10
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7543",
@@ -1536,32 +1562,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
-          "player_id": "7839",
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -1586,13 +1586,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7523",
+        "9758",
         "4034",
         "5850",
         "9997",
         "8167",
         "12518",
-        "0",
+        "9224",
         "11533",
         "HOU"
       ],
@@ -1600,12 +1600,12 @@
         "11533",
         "11628",
         "12518",
-        "12533",
         "13287",
         "13298",
         "13337",
         "4034",
         "4983",
+        "5022",
         "5850",
         "7523",
         "8167",
@@ -1617,13 +1617,12 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "9758",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "team": "JAX",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
+          "keeper": false
         },
         {
           "player_id": "4034",
@@ -1671,6 +1670,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
           "player_id": "11533",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1698,15 +1706,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
-        },
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "13287",
@@ -1744,13 +1743,22 @@
           "draft_round": 6
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 12
+        },
+        {
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "9753",
@@ -1760,14 +1768,6 @@
           "injury_status": "PUP",
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -3171,10 +3171,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T13:03:18.134255Z",
-    "stale_after": "2026-10-21T14:03:18.134255Z"
+    "generated_at": "2026-10-21T17:59:38.701939Z",
+    "stale_after": "2026-10-21T18:59:38.701939Z"
   }
 }

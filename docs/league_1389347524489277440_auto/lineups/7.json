@@ -1055,6 +1055,13 @@
         "position": "K",
         "team": "CIN",
         "injury_status": null
+      },
+      {
+        "player_id": "CLE",
+        "name": "Cleveland",
+        "position": "DEF",
+        "team": "CLE",
+        "injury_status": null
       }
     ],
     "bench": [
@@ -1113,13 +1120,6 @@
         "position": "RB",
         "team": "NO",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "CLE",
-        "name": "Cleveland",
-        "position": "DEF",
-        "team": "CLE",
-        "injury_status": null
       }
     ]
   },
@@ -1257,10 +1257,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "7523",
-        "name": "Trevor Lawrence",
+        "player_id": "9758",
+        "name": "C.J. Stroud",
         "position": "QB",
-        "team": "JAX",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -1299,6 +1299,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "9224",
+        "name": "Chase Brown",
+        "position": "RB",
+        "team": "CIN",
+        "injury_status": null
+      },
+      {
         "player_id": "11533",
         "name": "Brandon Aubrey",
         "position": "K",
@@ -1320,13 +1327,6 @@
         "position": "WR",
         "team": "HOU",
         "injury_status": null
-      },
-      {
-        "player_id": "12533",
-        "name": "Jacory Croskey-Merritt",
-        "position": "RB",
-        "team": "WAS",
-        "injury_status": "IR"
       },
       {
         "player_id": "13287",
@@ -1357,10 +1357,17 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "9224",
-        "name": "Chase Brown",
-        "position": "RB",
-        "team": "CIN",
+        "player_id": "5022",
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "7523",
+        "name": "Trevor Lawrence",
+        "position": "QB",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -1369,13 +1376,6 @@
         "position": "RB",
         "team": "SEA",
         "injury_status": "PUP"
-      },
-      {
-        "player_id": "9758",
-        "name": "C.J. Stroud",
-        "position": "QB",
-        "team": "HOU",
-        "injury_status": null
       }
     ]
   },
