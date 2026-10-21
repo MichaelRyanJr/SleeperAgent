@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:29:33.487297Z",
+  "generated_at": "2026-10-21T01:57:01.460842Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1061,7 +1061,7 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
         },
@@ -1312,7 +1312,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 7
         },
@@ -1843,7 +1843,7 @@
           "player_id": "7528",
           "name": "Najee Harris",
           "position": "RB",
-          "team": "NYG",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
@@ -3170,10 +3170,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2832,
+    "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-20T23:29:33.487297Z",
-    "stale_after": "2026-10-21T00:29:33.487297Z"
+    "generated_at": "2026-10-21T01:57:01.460842Z",
+    "stale_after": "2026-10-21T02:57:01.460842Z"
   }
 }
