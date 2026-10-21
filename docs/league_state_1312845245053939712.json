@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:59:41.771340Z",
+  "generated_at": "2026-10-21T21:33:38.881063Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1932,13 +1932,13 @@
       },
       "starters_current": [
         "421",
-        "8138",
+        "11581",
         "7594",
         "9997",
         "8137",
         "3214",
-        "11581",
-        "7042",
+        "6794",
+        "11539",
         "JAX"
       ],
       "players_current": [
@@ -1971,13 +1971,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "8138",
-          "name": "James Cook",
+          "player_id": "11581",
+          "name": "MarShawn Lloyd",
           "position": "RB",
-          "team": "BUF",
+          "team": "GB",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "7594",
@@ -2016,21 +2016,22 @@
           "draft_round": 14
         },
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 1
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
+          "player_id": "11539",
+          "name": "Jake Bates",
           "position": "K",
-          "team": "BUF",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "JAX",
@@ -2043,15 +2044,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11539",
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
         {
           "player_id": "11566",
           "name": "Jayden Daniels",
@@ -2089,13 +2081,21 @@
           "draft_round": 6
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": false
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "8676",
@@ -2125,15 +2125,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "8138",
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
         },
         {
           "player_id": "7594",
@@ -2179,6 +2170,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         }
       ]
     },
@@ -3775,7 +3775,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T17:59:41.771340Z",
-    "stale_after": "2026-10-21T18:59:41.771340Z"
+    "generated_at": "2026-10-21T21:33:38.881063Z",
+    "stale_after": "2026-10-21T22:33:38.881063Z"
   }
 }
