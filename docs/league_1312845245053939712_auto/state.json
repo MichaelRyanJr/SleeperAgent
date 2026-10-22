@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:41:49.751347Z",
+  "generated_at": "2026-10-22T18:52:18.449642Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1430,18 +1430,19 @@
         "budget_used": 0
       },
       "starters_current": [
-        "2306",
+        "11559",
         "4034",
         "9224",
         "12519",
         "11646",
-        "5001",
+        "10859",
         "7525",
         "12711",
         "NE"
       ],
       "players_current": [
         "10859",
+        "11559",
         "11624",
         "11635",
         "11646",
@@ -1449,7 +1450,6 @@
         "12519",
         "12711",
         "13345",
-        "2306",
         "4034",
         "5001",
         "5872",
@@ -1461,10 +1461,10 @@
       ],
       "starters": [
         {
-          "player_id": "2306",
-          "name": "Jameis Winston",
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
           "position": "QB",
-          "team": "NYG",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false
         },
@@ -1505,12 +1505,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "10859",
+          "name": "Sam LaPorta",
           "position": "TE",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": false
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "7525",
@@ -1541,15 +1542,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
         {
           "player_id": "11624",
           "name": "Xavier Worthy",
@@ -1585,6 +1577,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "5872",
@@ -1682,8 +1682,8 @@
       },
       "starters_current": [
         "3294",
-        "5850",
         "9221",
+        "5850",
         "7547",
         "12501",
         "5012",
@@ -1720,15 +1720,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "9221",
           "name": "Jahmyr Gibbs",
           "position": "RB",
@@ -1736,6 +1727,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 4
+        },
+        {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "7547",
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-22T14:41:49.751347Z",
-    "stale_after": "2026-10-22T15:41:49.751347Z"
+    "generated_at": "2026-10-22T18:52:18.449642Z",
+    "stale_after": "2026-10-22T19:52:18.449642Z"
   }
 }

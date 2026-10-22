@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T14:41:49.751347Z",
-  "stale_after": "2026-10-22T15:41:49.751347Z",
+  "generated_at": "2026-10-22T18:52:18.449642Z",
+  "stale_after": "2026-10-22T19:52:18.449642Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-22T14:41:47.324586Z",
+    "snapshot_started_at": "2026-10-22T18:52:16.056257Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-22T14:41:47.432049Z"
+      "fetched_at": "2026-10-22T18:52:16.153422Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-22T14:41:47.688079Z"
+      "fetched_at": "2026-10-22T18:52:16.392577Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-22T14:41:47.776736Z"
+        "fetched_at": "2026-10-22T18:52:16.473869Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-22T14:41:47.889720Z"
+      "fetched_at": "2026-10-22T18:52:16.592574Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -6968,6 +6968,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "2306",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "NYG",
+      "age": 32,
+      "years_exp": 11,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1792600853889,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "6136",
       "name": "Jarrett Stidham",
       "position": "QB",
@@ -7480,32 +7506,6 @@
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "news_updated": 1791736516818,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11559",
-      "name": "Michael Penix Jr.",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "ATL",
-      "age": 26,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1792536046185,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
