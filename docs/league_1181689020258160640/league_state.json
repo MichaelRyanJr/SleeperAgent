@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:41:41.999331Z",
+  "generated_at": "2026-10-22T14:41:49.751347Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -894,7 +894,7 @@
       "starters_current": [
         "96",
         "11655",
-        "10219",
+        "10235",
         "9493",
         "11632",
         "12517",
@@ -903,7 +903,7 @@
         "HOU"
       ],
       "players_current": [
-        "10219",
+        "10235",
         "11620",
         "11632",
         "11655",
@@ -911,8 +911,8 @@
         "12517",
         "12533",
         "13269",
+        "13294",
         "1945",
-        "8134",
         "9226",
         "9228",
         "9493",
@@ -941,13 +941,12 @@
           "draft_round": 15
         },
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez Jr.",
+          "player_id": "10235",
+          "name": "Roschon Johnson",
           "position": "RB",
-          "team": "JAX",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         },
         {
           "player_id": "9493",
@@ -1033,13 +1032,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "13294",
+          "name": "Makai Lemon",
           "position": "WR",
-          "team": "BUF",
+          "team": "PHI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 4
         },
         {
           "player_id": "9226",
@@ -2465,7 +2464,7 @@
         "4866",
         "4199",
         "6801",
-        "8126",
+        "8148",
         "7553",
         "13279",
         "7839",
@@ -2527,13 +2526,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
+          "player_id": "8148",
+          "name": "Jameson Williams",
           "position": "WR",
-          "team": "TEN",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "7553",
@@ -2618,13 +2617,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
           "position": "WR",
-          "team": "DET",
+          "team": "TEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "9480",
@@ -2638,15 +2637,6 @@
       ],
       "keepers": [
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts Sr.",
-          "position": "TE",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "8148",
           "name": "Jameson Williams",
           "position": "WR",
@@ -2654,6 +2644,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 9
+        },
+        {
+          "player_id": "7553",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         }
       ]
     },
@@ -3775,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-22T09:41:41.999331Z",
-    "stale_after": "2026-10-22T10:41:41.999331Z"
+    "generated_at": "2026-10-22T14:41:49.751347Z",
+    "stale_after": "2026-10-22T15:41:49.751347Z"
   }
 }
