@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:52:18.449642Z",
+  "generated_at": "2026-10-22T22:01:42.598086Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1155,10 +1155,10 @@
         "4881",
         "8151",
         "8150",
-        "7569",
+        "5859",
         "7564",
         "4217",
-        "5859",
+        "7569",
         "650",
         "BAL"
       ],
@@ -1211,13 +1211,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "HOU",
+          "team": "NE",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7564",
@@ -1238,13 +1238,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "NE",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "650",
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-22T18:52:18.449642Z",
-    "stale_after": "2026-10-22T19:52:18.449642Z"
+    "generated_at": "2026-10-22T22:01:42.598086Z",
+    "stale_after": "2026-10-22T23:01:42.598086Z"
   }
 }
