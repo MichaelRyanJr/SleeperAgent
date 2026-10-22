@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:33:38.881063Z",
+  "generated_at": "2026-10-22T00:10:23.597515Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,7 +101,7 @@
       "starters_current": [
         "3163",
         "8228",
-        "5892",
+        "12529",
         "9488",
         "8167",
         "12506",
@@ -148,13 +148,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "9488",
@@ -229,15 +229,6 @@
           "draft_round": 9
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -254,6 +245,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "5927",
@@ -293,15 +293,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "9488",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -336,6 +327,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 2
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "5927",
@@ -3775,7 +3775,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-21T21:33:38.881063Z",
-    "stale_after": "2026-10-21T22:33:38.881063Z"
+    "generated_at": "2026-10-22T00:10:23.597515Z",
+    "stale_after": "2026-10-22T01:10:23.597515Z"
   }
 }
