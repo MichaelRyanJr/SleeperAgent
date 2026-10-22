@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T00:10:20.726120Z",
-  "stale_after": "2026-10-22T01:10:20.726120Z",
+  "generated_at": "2026-10-22T04:48:22.778089Z",
+  "stale_after": "2026-10-22T05:48:22.778089Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-22T00:10:18.339835Z",
+    "snapshot_started_at": "2026-10-22T04:48:20.057417Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-22T00:10:18.442559Z"
+      "fetched_at": "2026-10-22T04:48:20.174281Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-22T00:10:18.686784Z"
+      "fetched_at": "2026-10-22T04:48:20.372988Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-22T00:10:18.789523Z"
+        "fetched_at": "2026-10-22T04:48:20.411680Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-22T00:10:18.899286Z"
+      "fetched_at": "2026-10-22T04:48:20.496590Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
-      "fetched_at": "2026-10-21T01:57:01.276473Z",
-      "cache_hit": true,
+      "fetched_at": "2026-10-22T04:48:22.623111Z",
+      "cache_hit": false,
       "max_age_seconds": 86400
     }
   },
@@ -3679,7 +3679,7 @@
       "status": "Inactive",
       "injury_status": "IR",
       "active": true,
-      "depth_chart_order": 2,
+      "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1792448411206,
       "in_default_view": false,
@@ -3705,7 +3705,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "depth_chart_order": 1,
+      "depth_chart_order": 2,
       "depth_chart_position": "K",
       "news_updated": 1792532747763,
       "in_default_view": true,
@@ -8417,7 +8417,7 @@
       "age": 28,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
@@ -8447,7 +8447,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
-      "news_updated": 1792431610453,
+      "news_updated": 1792624851979,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -8457,7 +8457,7 @@
     },
     {
       "player_id": "9229",
-      "name": "Anthony Richardson",
+      "name": "Anthony Richardson Sr.",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -8521,11 +8521,11 @@
       "age": 31,
       "years_exp": 8,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
-      "news_updated": 1792503937909,
+      "news_updated": 1792614654501,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -8547,7 +8547,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -8729,11 +8729,11 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
-      "news_updated": 1792349458210,
+      "news_updated": 1792630852994,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -8781,7 +8781,7 @@
       "age": 38,
       "years_exp": 14,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
@@ -8963,7 +8963,7 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
@@ -8989,11 +8989,11 @@
       "age": 29,
       "years_exp": 7,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
-      "news_updated": 1792020009168,
+      "news_updated": 1792630553005,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9081,7 +9081,7 @@
     },
     {
       "player_id": "6011",
-      "name": "Gardner Minshew",
+      "name": "Gardner Minshew II",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -9145,7 +9145,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -9175,7 +9175,7 @@
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
-      "news_updated": 1792398606680,
+      "news_updated": 1792547747403,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9223,7 +9223,7 @@
       "age": 25,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -9279,7 +9279,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
-      "news_updated": 1792513538930,
+      "news_updated": 1792610454769,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9301,7 +9301,7 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
@@ -9353,7 +9353,7 @@
       "age": 27,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
@@ -9379,7 +9379,7 @@
       "age": 23,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -9461,7 +9461,7 @@
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
-      "news_updated": 1792388105248,
+      "news_updated": 1792600853889,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9587,7 +9587,7 @@
       "age": 26,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -9721,7 +9721,7 @@
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
-      "news_updated": 1792373102832,
+      "news_updated": 1792599352939,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9795,7 +9795,7 @@
       "age": 25,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -9875,7 +9875,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "depth_chart_order": null,
+      "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1792536646721,
       "in_default_view": true,
@@ -9896,7 +9896,7 @@
         "QB"
       ],
       "team": "DET",
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "status": "Active",
       "injury_status": null,
@@ -9955,7 +9955,7 @@
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
-      "news_updated": 1792437309691,
+      "news_updated": 1792616150902,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -9982,32 +9982,6 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1792307152786,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13816",
-      "name": "Mark Gronowski",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "HOU",
-      "age": 25,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792539647039,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -10081,7 +10055,7 @@
       "age": 25,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -10095,7 +10069,7 @@
     },
     {
       "player_id": "11559",
-      "name": "Michael Penix",
+      "name": "Michael Penix Jr.",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -10107,7 +10081,7 @@
       "age": 26,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
@@ -10263,7 +10237,7 @@
       "age": 24,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -10315,7 +10289,7 @@
       "age": 28,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -10369,7 +10343,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "depth_chart_order": 2,
+      "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "news_updated": 1788304523035,
       "in_default_view": true,
@@ -10537,7 +10511,7 @@
     },
     {
       "player_id": "10857",
-      "name": "Stetson Bennett",
+      "name": "Stetson Bennett IV",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -10575,7 +10549,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
@@ -10679,7 +10653,7 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -10783,7 +10757,7 @@
       "age": 25,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
@@ -10861,7 +10835,7 @@
       "age": 27,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
@@ -16750,6 +16724,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "13816",
+      "name": "Mark Gronowski",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": null,
+      "age": 25,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792539647039,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "350",
       "name": "Mark Sanchez",
       "position": "QB",
@@ -20169,11 +20169,11 @@
       "age": 28,
       "years_exp": 6,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
-      "news_updated": 1792184142265,
+      "news_updated": 1792625752153,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20287,7 +20287,7 @@
     },
     {
       "player_id": "12939",
-      "name": "Anthony Tyus",
+      "name": "Anthony Tyus III",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -20301,8 +20301,8 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 6,
+      "depth_chart_position": "RB",
       "news_updated": 1792539347173,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
@@ -20355,7 +20355,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
-      "news_updated": 1792538446965,
+      "news_updated": 1792550447623,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20521,7 +20521,7 @@
     },
     {
       "player_id": "11186",
-      "name": "Carlos Washington",
+      "name": "Carlos Washington Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -20538,32 +20538,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1791860706851,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11582",
-      "name": "Carson Steele",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": "Out",
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792540546639,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20637,11 +20611,11 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
-      "news_updated": 1792541146923,
+      "news_updated": 1792643755672,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20746,32 +20720,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1791250839951,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13949",
-      "name": "Damon Bankston",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792539047175,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -21031,7 +20979,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
-      "news_updated": 1792460733860,
+      "news_updated": 1792547447407,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -21135,7 +21083,7 @@
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "RB",
-      "news_updated": 1792518939368,
+      "news_updated": 1792617651105,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -21157,7 +21105,7 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RB",
@@ -21209,7 +21157,7 @@
       "age": 28,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -21235,7 +21183,7 @@
       "age": 27,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RB",
@@ -21275,7 +21223,7 @@
     },
     {
       "player_id": "11573",
-      "name": "Frank Gore",
+      "name": "Frank Gore Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -21370,32 +21318,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788316225422,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12036",
-      "name": "Ian Wheeler",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "age": 25,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792539647039,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -21833,11 +21755,11 @@
       "age": 27,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792460433998,
+      "depth_chart_order": 5,
+      "depth_chart_position": "RB",
+      "news_updated": 1792608653899,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -21872,32 +21794,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "12457",
-      "name": "Jaydon Blue",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "age": 22,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792532747446,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "11643",
       "name": "Jaylen Wright",
       "position": "RB",
@@ -21911,11 +21807,11 @@
       "age": 23,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
-      "news_updated": 1791816329550,
+      "news_updated": 1792641656199,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -22249,7 +22145,7 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RB",
@@ -22301,11 +22197,11 @@
       "age": 28,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "RB",
-      "news_updated": 1790971841654,
+      "news_updated": 1792627852206,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -22419,7 +22315,7 @@
     },
     {
       "player_id": "12544",
-      "name": "LeQuint Allen",
+      "name": "LeQuint Allen Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -22575,7 +22471,7 @@
     },
     {
       "player_id": "13305",
-      "name": "Mike Washington",
+      "name": "Mike Washington Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -22587,11 +22483,11 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
-      "news_updated": 1792535746276,
+      "news_updated": 1792640454965,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -22643,7 +22539,7 @@
       "active": true,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "news_updated": 1788313825009,
+      "news_updated": 1792625152066,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -22665,7 +22561,7 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RB",
@@ -22757,7 +22653,7 @@
     },
     {
       "player_id": "8116",
-      "name": "Pierre Strong",
+      "name": "Pierre Strong Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -22939,7 +22835,7 @@
     },
     {
       "player_id": "13418",
-      "name": "Robert Henry",
+      "name": "Robert Henry Jr.",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -22951,7 +22847,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 9,
       "depth_chart_position": "RB",
@@ -23107,11 +23003,11 @@
       "age": 24,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
-      "news_updated": 1792340756773,
+      "news_updated": 1792626952336,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -23239,7 +23135,7 @@
       "status": "Inactive",
       "injury_status": "IR",
       "active": true,
-      "depth_chart_order": 3,
+      "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "news_updated": 1791345302570,
       "in_default_view": false,
@@ -23345,7 +23241,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
-      "news_updated": 1792340456743,
+      "news_updated": 1792611655587,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -23475,7 +23371,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
-      "news_updated": 1792114533810,
+      "news_updated": 1792628452506,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -23551,7 +23447,7 @@
       "status": "Inactive",
       "injury_status": "IR",
       "active": true,
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "depth_chart_position": "RB",
       "news_updated": 1792185642256,
       "in_default_view": false,
@@ -26136,6 +26032,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11582",
+      "name": "Carson Steele",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": null,
+      "age": 23,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792540546639,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "13595",
       "name": "Cash Jones",
       "position": "RB",
@@ -27429,6 +27351,32 @@
       "depth_chart_position": null,
       "news_updated": 1699626644086,
       "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "13949",
+      "name": "Damon Bankston",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": null,
+      "age": 23,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792539047175,
+      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
@@ -30634,6 +30582,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "12036",
+      "name": "Ian Wheeler",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": null,
+      "age": 25,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792539647039,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "11431",
       "name": "Isaiah Bowser",
       "position": "RB",
@@ -31900,6 +31874,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1577139357921,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "12457",
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": null,
+      "age": 22,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792532747446,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -43293,7 +43293,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
-      "news_updated": 1789439708828,
+      "news_updated": 1792595452653,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -43709,7 +43709,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
-      "news_updated": 1792413608336,
+      "news_updated": 1792598153033,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -43809,7 +43809,7 @@
       "age": 25,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "TE",
@@ -44056,32 +44056,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11820",
-      "name": "Devin Culp",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "CLE",
-      "age": 26,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792535146537,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13355",
       "name": "DJ Rogers",
       "position": "TE",
@@ -44173,11 +44147,11 @@
       "age": 28,
       "years_exp": 4,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
-      "news_updated": 1789338958022,
+      "news_updated": 1792627852198,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -44281,7 +44255,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
-      "news_updated": 1791995738873,
+      "news_updated": 1792548347744,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -44421,7 +44395,7 @@
     },
     {
       "player_id": "11592",
-      "name": "Erick All",
+      "name": "Erick All Jr.",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -44823,7 +44797,7 @@
       "age": 23,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "TE",
@@ -44875,7 +44849,7 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "TE",
@@ -45005,7 +44979,7 @@
       "age": 23,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "TE",
@@ -45135,7 +45109,7 @@
       "age": 25,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "TE",
@@ -45603,11 +45577,11 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "TE",
-      "news_updated": 1791600359139,
+      "news_updated": 1792629052483,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -45759,7 +45733,7 @@
       "age": 28,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
@@ -45993,7 +45967,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "TE",
@@ -46071,11 +46045,11 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "TE",
-      "news_updated": 1792196438140,
+      "news_updated": 1792628452550,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46725,7 +46699,7 @@
       "active": true,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "news_updated": 1791932132577,
+      "news_updated": 1792624251841,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46929,11 +46903,11 @@
       "age": 29,
       "years_exp": 7,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
-      "news_updated": 1791829803840,
+      "news_updated": 1792641055014,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46955,7 +46929,7 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "TE",
@@ -47137,11 +47111,11 @@
       "age": 25,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
-      "news_updated": 1792192537695,
+      "news_updated": 1792642555433,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -47151,7 +47125,7 @@
     },
     {
       "player_id": "12715",
-      "name": "Thomas Fidone",
+      "name": "Thomas Fidone II",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -47323,7 +47297,7 @@
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
-      "news_updated": 1792382104767,
+      "news_updated": 1792548947597,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -47475,11 +47449,11 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
-      "news_updated": 1791636303566,
+      "news_updated": 1792641656187,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -52526,6 +52500,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1724286037293,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11820",
+      "name": "Devin Culp",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": null,
+      "age": 26,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792535146537,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64254,11 +64254,11 @@
       "age": 24,
       "years_exp": 2,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 7,
       "depth_chart_position": "RWR",
-      "news_updated": 1792164939719,
+      "news_updated": 1792641656168,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64466,7 +64466,7 @@
       "active": true,
       "depth_chart_order": 5,
       "depth_chart_position": "SWR",
-      "news_updated": 1792349458231,
+      "news_updated": 1792615256037,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64502,7 +64502,7 @@
     },
     {
       "player_id": "12460",
-      "name": "Antwane Wells",
+      "name": "Antwane Wells Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -64566,11 +64566,11 @@
       "age": 29,
       "years_exp": 7,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
-      "depth_chart_order": 6,
+      "depth_chart_order": 7,
       "depth_chart_position": "SWR",
-      "news_updated": 1792194337939,
+      "news_updated": 1792627252333,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64670,11 +64670,11 @@
       "age": 29,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 7,
       "depth_chart_position": "RWR",
-      "news_updated": 1791843306012,
+      "news_updated": 1792643155494,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64696,11 +64696,11 @@
       "age": 27,
       "years_exp": 4,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "RWR",
-      "news_updated": 1791753620475,
+      "news_updated": 1792630553670,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -64726,7 +64726,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
-      "news_updated": 1792490137846,
+      "news_updated": 1792589151910,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65034,11 +65034,11 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 9,
       "depth_chart_position": "RWR",
-      "news_updated": 1792504537862,
+      "news_updated": 1792641055210,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65074,7 +65074,7 @@
     },
     {
       "player_id": "8125",
-      "name": "Calvin Austin",
+      "name": "Calvin Austin III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -65112,11 +65112,11 @@
       "age": 31,
       "years_exp": 8,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "LWR",
-      "news_updated": 1792463734189,
+      "news_updated": 1792616452074,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65138,7 +65138,7 @@
       "age": 22,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RWR",
@@ -65294,11 +65294,11 @@
       "age": 27,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "LWR",
-      "news_updated": 1790726410830,
+      "news_updated": 1792642555422,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65386,7 +65386,7 @@
     },
     {
       "player_id": "13353",
-      "name": "Chris Brazzell",
+      "name": "Chris Brazzell II",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -65454,7 +65454,7 @@
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "SWR",
-      "news_updated": 1792536646224,
+      "news_updated": 1792642555681,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65476,7 +65476,7 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 8,
       "depth_chart_position": "LWR",
@@ -65554,11 +65554,11 @@
       "age": 24,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "LWR",
-      "news_updated": 1791737117010,
+      "news_updated": 1792628452537,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65619,32 +65619,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "13898",
-      "name": "Corey Rucker",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "LV",
-      "age": 24,
-      "years_exp": 0,
-      "status": "Inactive",
-      "injury_status": "IR",
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792540547334,
-      "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13413",
       "name": "Cyrus Allen",
       "position": "WR",
@@ -65662,7 +65636,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
-      "news_updated": 1792510538590,
+      "news_updated": 1792626053910,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65686,7 +65660,7 @@
       "status": "Inactive",
       "injury_status": "IR",
       "active": true,
-      "depth_chart_order": 7,
+      "depth_chart_order": 8,
       "depth_chart_position": null,
       "news_updated": 1788196813756,
       "in_default_view": false,
@@ -65788,11 +65762,11 @@
       "age": 28,
       "years_exp": 6,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
-      "news_updated": 1792389004549,
+      "news_updated": 1792620051520,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65828,7 +65802,7 @@
     },
     {
       "player_id": "6154",
-      "name": "David Sills",
+      "name": "David Sills V",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -65844,7 +65818,7 @@
       "active": true,
       "depth_chart_order": 6,
       "depth_chart_position": "RWR",
-      "news_updated": 1792200038616,
+      "news_updated": 1792611355613,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -65880,7 +65854,7 @@
     },
     {
       "player_id": "14020",
-      "name": "Dean Patterson",
+      "name": "Dean Patterson IV",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66218,7 +66192,7 @@
     },
     {
       "player_id": "12541",
-      "name": "Dont'e Thornton",
+      "name": "Dont'e Thornton Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66234,7 +66208,7 @@
       "active": true,
       "depth_chart_order": 11,
       "depth_chart_position": "LWR",
-      "news_updated": 1792188937230,
+      "news_updated": 1792640454976,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -66348,7 +66322,7 @@
     },
     {
       "player_id": "12542",
-      "name": "Efton Chism",
+      "name": "Efton Chism III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66364,7 +66338,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
-      "news_updated": 1791941433036,
+      "news_updated": 1792589452094,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -66391,32 +66365,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1533507902281,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12909",
-      "name": "Eli Pancol",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "age": 26,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792534846483,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -66490,7 +66438,7 @@
       "age": 23,
       "years_exp": 0,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 7,
       "depth_chart_position": "LWR",
@@ -66504,7 +66452,7 @@
     },
     {
       "player_id": "13313",
-      "name": "Emmanuel Henderson",
+      "name": "Emmanuel Henderson Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66530,7 +66478,7 @@
     },
     {
       "player_id": "13316",
-      "name": "Eric Rivers",
+      "name": "Eric Rivers Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66712,7 +66660,7 @@
     },
     {
       "player_id": "13670",
-      "name": "Harrison Wallace",
+      "name": "Harrison Wallace III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -66806,7 +66754,7 @@
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "LWR",
-      "news_updated": 1791945033881,
+      "news_updated": 1792596352704,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -67560,7 +67508,7 @@
       "active": true,
       "depth_chart_order": 8,
       "depth_chart_position": null,
-      "news_updated": 1791328503006,
+      "news_updated": 1792630252992,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -67613,32 +67561,6 @@
       "depth_chart_order": 10,
       "depth_chart_position": null,
       "news_updated": 1787699741662,
-      "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13124",
-      "name": "Jeremiah Webb",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NE",
-      "age": 25,
-      "years_exp": 1,
-      "status": "Inactive",
-      "injury_status": "IR",
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792540247123,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -67726,7 +67648,7 @@
     },
     {
       "player_id": "12523",
-      "name": "Jimmy Horn",
+      "name": "Jimmy Horn Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -67778,7 +67700,7 @@
     },
     {
       "player_id": "8147",
-      "name": "John Metchie",
+      "name": "John Metchie III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -67976,7 +67898,7 @@
       "active": true,
       "depth_chart_order": 10,
       "depth_chart_position": "LWR",
-      "news_updated": 1792431008896,
+      "news_updated": 1792590054731,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -68258,7 +68180,7 @@
       "age": 30,
       "years_exp": 4,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "SWR",
@@ -68401,34 +68323,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "8200",
-      "name": "Kevin Austin",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NO",
-      "age": 26,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1792540847336,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "13338",
-      "name": "Kevin Coleman",
+      "name": "Kevin Coleman Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -68962,9 +68858,9 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "depth_chart_order": 7,
-      "depth_chart_position": "LWR",
-      "news_updated": 1792451411787,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792547748278,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -69012,7 +68908,7 @@
       "age": 29,
       "years_exp": 7,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 7,
       "depth_chart_position": "SWR",
@@ -69026,7 +68922,7 @@
     },
     {
       "player_id": "9494",
-      "name": "Marvin Mims",
+      "name": "Marvin Mims Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69078,7 +68974,7 @@
     },
     {
       "player_id": "5917",
-      "name": "Mecole Hardman",
+      "name": "Mecole Hardman Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69182,7 +69078,7 @@
     },
     {
       "player_id": "6819",
-      "name": "Michael Pittman",
+      "name": "Michael Pittman Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69197,7 +69093,7 @@
       "injury_status": "IR",
       "active": true,
       "depth_chart_order": 5,
-      "depth_chart_position": null,
+      "depth_chart_position": "RWR",
       "news_updated": 1791681909934,
       "in_default_view": false,
       "availability": "unrostered_at_snapshot",
@@ -69260,7 +69156,7 @@
     },
     {
       "player_id": "13199",
-      "name": "Montorie Foster",
+      "name": "Montorie Foster Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69272,7 +69168,7 @@
       "age": 25,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 8,
       "depth_chart_position": "SWR",
@@ -69468,7 +69364,7 @@
     },
     {
       "player_id": "2078",
-      "name": "Odell Beckham",
+      "name": "Odell Beckham Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69480,7 +69376,7 @@
       "age": 33,
       "years_exp": 12,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -69506,11 +69402,11 @@
       "age": 29,
       "years_exp": 7,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
-      "news_updated": 1792361160464,
+      "news_updated": 1792631153446,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -69572,7 +69468,7 @@
     },
     {
       "player_id": "2334",
-      "name": "Phillip Dorsett",
+      "name": "Phillip Dorsett II",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69650,7 +69546,7 @@
     },
     {
       "player_id": "12884",
-      "name": "Quincy Skinner",
+      "name": "Quincy Skinner Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69688,11 +69584,11 @@
       "age": 28,
       "years_exp": 4,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 2,
       "depth_chart_position": "RWR",
-      "news_updated": 1792375502723,
+      "news_updated": 1792628153307,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -69754,7 +69650,7 @@
     },
     {
       "player_id": "12475",
-      "name": "Ricky White",
+      "name": "Ricky White III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -69844,11 +69740,11 @@
       "age": 24,
       "years_exp": 1,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "SWR",
-      "news_updated": 1792505738022,
+      "news_updated": 1792630553631,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -70023,7 +69919,7 @@
         "WR"
       ],
       "team": "BUF",
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "status": "Active",
       "injury_status": null,
@@ -70118,7 +70014,7 @@
     },
     {
       "player_id": "13317",
-      "name": "Ted Hurst",
+      "name": "Ted Hurst III",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -70170,7 +70066,7 @@
     },
     {
       "player_id": "12860",
-      "name": "Theo Wease",
+      "name": "Theo Wease Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -70378,7 +70274,7 @@
     },
     {
       "player_id": "5154",
-      "name": "Trent Sherfield",
+      "name": "Trent Sherfield Sr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -70468,7 +70364,7 @@
       "age": 27,
       "years_exp": 5,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": null,
       "active": true,
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
@@ -70520,11 +70416,11 @@
       "age": 25,
       "years_exp": 3,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "active": true,
       "depth_chart_order": 8,
       "depth_chart_position": null,
-      "news_updated": 1791847806517,
+      "news_updated": 1792641954238,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -70638,7 +70534,7 @@
     },
     {
       "player_id": "8223",
-      "name": "Velus Jones",
+      "name": "Velus Jones Jr.",
       "position": "WR",
       "fantasy_positions": [
         "RB"
@@ -70664,7 +70560,7 @@
     },
     {
       "player_id": "13343",
-      "name": "Vinny Anthony",
+      "name": "Vinny Anthony II",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -77608,6 +77504,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "13898",
+      "name": "Corey Rucker",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": null,
+      "age": 24,
+      "years_exp": 0,
+      "status": "Inactive",
+      "injury_status": "Questionable",
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792540547334,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "8438",
       "name": "Corey Sutton",
       "position": "WR",
@@ -83172,6 +83094,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "12909",
+      "name": "Eli Pancol",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": null,
+      "age": 26,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792534846483,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "2980",
       "name": "Eli Rogers",
       "position": "WR",
@@ -88580,6 +88528,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "13124",
+      "name": "Jeremiah Webb",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": null,
+      "age": 25,
+      "years_exp": 1,
+      "status": "Inactive",
+      "injury_status": "Questionable",
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792540247123,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "1865",
       "name": "Jeremy Butler",
       "position": "WR",
@@ -93697,6 +93671,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1756174206697,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "8200",
+      "name": "Kevin Austin",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": null,
+      "age": 26,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1792540847336,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
