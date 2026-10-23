@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:12:00.513902Z",
+  "generated_at": "2026-10-23T19:17:27.356782Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1681,7 +1681,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3294",
+        "11563",
         "9221",
         "5850",
         "7547",
@@ -1711,13 +1711,13 @@
       ],
       "starters": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "DAL",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 9
+          "draft_round": 15
         },
         {
           "player_id": "9221",
@@ -1802,21 +1802,21 @@
           "draft_round": 6
         },
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
-        {
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
           "team": "IND",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "3321",
@@ -1855,13 +1855,13 @@
       ],
       "keepers": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "DAL",
+          "team": "DEN",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 9
+          "draft_round": 15
         },
         {
           "player_id": "9221",
@@ -1891,13 +1891,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
+          "player_id": "3294",
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "DEN",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 15
+          "draft_round": 9
         },
         {
           "player_id": "7021",
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-23T15:12:00.513902Z",
-    "stale_after": "2026-10-23T16:12:00.513902Z"
+    "generated_at": "2026-10-23T19:17:27.356782Z",
+    "stale_after": "2026-10-23T20:17:27.356782Z"
   }
 }
