@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:01:38.274789Z",
+  "generated_at": "2026-10-23T00:35:02.944588Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -185,10 +185,10 @@
         "6804",
         "11576",
         "12495",
-        "13279",
+        "6794",
         "12526",
         "8130",
-        "6794",
+        "13279",
         "6650",
         "LAR"
       ],
@@ -236,13 +236,13 @@
           "keeper": false
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
+          "team": "MIN",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 1
         },
         {
           "player_id": "12526",
@@ -263,13 +263,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "13279",
+          "name": "Carnell Tate",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": "Questionable",
+          "team": "TEN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 6
         },
         {
           "player_id": "6650",
@@ -376,17 +376,18 @@
         "budget_used": 0
       },
       "starters_current": [
-        "5870",
+        "3163",
         "8150",
         "7594",
         "9493",
         "8137",
         "13330",
-        "8121",
-        "11786",
-        "IND"
+        "7526",
+        "11539",
+        "MIN"
       ],
       "players_current": [
+        "11539",
         "11631",
         "11786",
         "13330",
@@ -402,17 +403,17 @@
         "8150",
         "8408",
         "9493",
-        "IND",
         "MIN"
       ],
       "starters": [
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "IND",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "8150",
@@ -460,30 +461,31 @@
           "draft_round": 13
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NE",
-          "injury_status": "IR",
+          "team": "DEN",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 10
+          "draft_round": 5
         },
         {
-          "player_id": "11786",
-          "name": "Cam Little",
+          "player_id": "11539",
+          "name": "Jake Bates",
           "position": "K",
-          "team": "JAX",
+          "team": "DET",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 14
         },
         {
-          "player_id": "IND",
-          "name": "Indianapolis",
+          "player_id": "MIN",
+          "name": "Minnesota",
           "position": "DEF",
-          "team": "IND",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "bench": [
@@ -497,13 +499,21 @@
           "draft_round": 7
         },
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
+          "player_id": "11786",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 15
+        },
+        {
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5872",
@@ -533,13 +543,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "DEN",
-          "injury_status": "Questionable",
+          "team": "NE",
+          "injury_status": "IR",
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 10
         },
         {
           "player_id": "8408",
@@ -549,15 +559,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 9
-        },
-        {
-          "player_id": "MIN",
-          "name": "Minnesota",
-          "position": "DEF",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "keepers": []
@@ -2196,16 +2197,17 @@
       "starters_current": [
         "11564",
         "12527",
-        "12512",
-        "8134",
+        "8228",
+        "5045",
         "9488",
         "4217",
-        "8228",
+        "10235",
         "3451",
         "CAR"
       ],
       "players_current": [
         "10229",
+        "10235",
         "11564",
         "1166",
         "12512",
@@ -2242,22 +2244,22 @@
           "draft_round": 2
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
           "position": "RB",
-          "team": "CLE",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 6
+        },
+        {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
         },
         {
           "player_id": "9488",
@@ -2278,13 +2280,12 @@
           "draft_round": 7
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "10235",
+          "name": "Roschon Johnson",
           "position": "RB",
-          "team": "PIT",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         },
         {
           "player_id": "3451",
@@ -2323,6 +2324,15 @@
           "keeper": false
         },
         {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
           "player_id": "13345",
           "name": "Jonah Coleman",
           "position": "RB",
@@ -2341,15 +2351,6 @@
           "draft_round": 11
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "position": "RB",
@@ -2357,6 +2358,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "9754",
@@ -3114,56 +3124,56 @@
       "roster_id": 4,
       "opponent_roster_id": 9,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 9,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 3.1,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 6,
       "opponent_roster_id": 11,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 11,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 1.32,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 7,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 0.3,
+      "result": "W"
     },
     {
       "week": 7,
       "roster_id": 10,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 12,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 7,
       "roster_id": 12,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 11.5,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -3171,10 +3181,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-22T22:01:38.274789Z",
-    "stale_after": "2026-10-22T23:01:38.274789Z"
+    "generated_at": "2026-10-23T00:35:02.944588Z",
+    "stale_after": "2026-10-23T01:35:02.944588Z"
   }
 }
