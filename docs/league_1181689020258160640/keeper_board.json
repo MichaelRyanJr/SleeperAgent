@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:19:51.428078Z",
+  "generated_at": "2026-10-23T10:15:47.748010Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -3044,33 +3044,6 @@
       },
       "players": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1418651711597268992",
-          "acquisition_time": "2026-10-21T15:10:34.620000Z",
-          "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "10236",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -3176,6 +3149,33 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 5,
           "base_keeper_cost_round": 5,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "original_draft_round": 9,
+          "original_draft_pick_no": 104,
+          "original_draft_slot": 8,
+          "original_drafted_by": "866098578773393408",
+          "original_draft_roster_id": 7,
+          "acquired_via": "waiver",
+          "acquisition_transaction_id": "1418989220415979520",
+          "acquisition_time": "2026-10-22T13:31:42.994000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 9,
+          "keeper_cost_round": 9,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 9,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5865,5 +5865,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-23T05:19:51.462584Z"
+  "rules_updated_at": "2026-10-23T10:15:47.797151Z"
 }

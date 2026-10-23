@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:19:51.093339Z",
+  "generated_at": "2026-10-23T10:15:47.268996Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1692,11 +1692,11 @@
         "TEN"
       ],
       "players_current": [
-        "10213",
         "10236",
         "11533",
         "11563",
         "12501",
+        "1479",
         "3294",
         "3321",
         "4035",
@@ -1793,14 +1793,6 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "10236",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1817,6 +1809,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 15
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "3321",
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-23T05:19:51.093339Z",
-    "stale_after": "2026-10-23T06:19:51.093339Z"
+    "generated_at": "2026-10-23T10:15:47.268996Z",
+    "stale_after": "2026-10-23T11:15:47.268996Z"
   }
 }

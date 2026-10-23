@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T05:19:51.093339Z",
-  "stale_after": "2026-10-23T06:19:51.093339Z",
+  "generated_at": "2026-10-23T10:15:47.268996Z",
+  "stale_after": "2026-10-23T11:15:47.268996Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-23T05:19:48.864556Z",
+    "snapshot_started_at": "2026-10-23T10:15:44.967715Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-23T05:19:48.941924Z"
+      "fetched_at": "2026-10-23T10:15:45.054762Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-23T05:19:49.150266Z"
+      "fetched_at": "2026-10-23T10:15:45.265193Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-23T05:19:49.275272Z"
+        "fetched_at": "2026-10-23T10:15:45.342528Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-23T05:19:49.384034Z"
+      "fetched_at": "2026-10-23T10:15:45.452935Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -68063,32 +68063,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "age": 34,
-      "years_exp": 13,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1792701314612,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "4454",
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -70057,6 +70031,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1792253745281,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "LV",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "LWR",
+      "news_updated": 1792432809264,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
