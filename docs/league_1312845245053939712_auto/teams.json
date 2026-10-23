@@ -68,7 +68,7 @@
         "name": "David Montgomery",
         "position": "RB",
         "team": "HOU",
-        "injury_status": "Questionable",
+        "injury_status": "Doubtful",
         "keeper": true,
         "draft_round": 7
       },
@@ -116,7 +116,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 5
       },
@@ -557,7 +557,7 @@
         "name": "George Pickens",
         "position": "WR",
         "team": "DAL",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 3
       },
@@ -751,15 +751,6 @@
         "draft_round": 6
       },
       {
-        "player_id": "9500",
-        "name": "Josh Downs",
-        "position": "WR",
-        "team": "IND",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 14
-      },
-      {
         "player_id": "6797",
         "name": "Justin Herbert",
         "position": "QB",
@@ -776,6 +767,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 9
+      },
+      {
+        "player_id": "9500",
+        "name": "Josh Downs",
+        "position": "WR",
+        "team": "IND",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 14
       }
     ]
   },
@@ -803,7 +803,7 @@
         "name": "Jordan Love",
         "position": "QB",
         "team": "GB",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 14
       },

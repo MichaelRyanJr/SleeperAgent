@@ -2,7 +2,7 @@
   {
     "roster_id": 1,
     "opponent_roster_id": 2,
-    "points": 4.0,
+    "points": 4.3,
     "starters": [
       {
         "player_id": "3163",
@@ -102,7 +102,7 @@
         "name": "David Montgomery",
         "position": "RB",
         "team": "HOU",
-        "injury_status": "Questionable"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "5927",
@@ -130,7 +130,7 @@
   {
     "roster_id": 2,
     "opponent_roster_id": 1,
-    "points": 1.32,
+    "points": 32.44,
     "starters": [
       {
         "player_id": "11564",
@@ -147,11 +147,11 @@
         "injury_status": null
       },
       {
-        "player_id": "13424",
-        "name": "Seth McGowan",
+        "player_id": "9753",
+        "name": "Zach Charbonnet",
         "position": "RB",
-        "team": "IND",
-        "injury_status": null
+        "team": "SEA",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "6786",
@@ -172,7 +172,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7002",
@@ -240,6 +240,13 @@
         "injury_status": null
       },
       {
+        "player_id": "13424",
+        "name": "Seth McGowan",
+        "position": "RB",
+        "team": "IND",
+        "injury_status": null
+      },
+      {
         "player_id": "7523",
         "name": "Trevor Lawrence",
         "position": "QB",
@@ -252,13 +259,6 @@
         "position": "RB",
         "team": "MIN",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "9753",
-        "name": "Zach Charbonnet",
-        "position": "RB",
-        "team": "SEA",
-        "injury_status": "PUP"
       }
     ]
   },
@@ -400,7 +400,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 3,
-    "points": 1.34,
+    "points": 45.12,
     "starters": [
       {
         "player_id": "11560",
@@ -521,7 +521,7 @@
   {
     "roster_id": 4,
     "opponent_roster_id": 11,
-    "points": 0.0,
+    "points": 32.1,
     "starters": [
       {
         "player_id": "96",
@@ -549,7 +549,7 @@
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11632",
@@ -701,10 +701,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9500",
-        "name": "Josh Downs",
-        "position": "WR",
-        "team": "IND",
+        "player_id": "9484",
+        "name": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
         "injury_status": null
       },
       {
@@ -773,10 +773,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9484",
-        "name": "Tucker Kraft",
-        "position": "TE",
-        "team": "GB",
+        "player_id": "9500",
+        "name": "Josh Downs",
+        "position": "WR",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -791,7 +791,7 @@
   {
     "roster_id": 5,
     "opponent_roster_id": 8,
-    "points": 0.0,
+    "points": 7.8,
     "starters": [
       {
         "player_id": "4881",
@@ -926,7 +926,7 @@
   {
     "roster_id": 8,
     "opponent_roster_id": 5,
-    "points": 0.0,
+    "points": 14.1,
     "starters": [
       {
         "player_id": "421",
@@ -961,7 +961,7 @@
         "name": "George Pickens",
         "position": "WR",
         "team": "DAL",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "3214",
@@ -975,7 +975,7 @@
         "name": "Justin Jefferson",
         "position": "WR",
         "team": "MIN",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "11539",
@@ -985,10 +985,10 @@
         "injury_status": null
       },
       {
-        "player_id": "JAX",
-        "name": "Jacksonville",
+        "player_id": "SF",
+        "name": "San Francisco",
         "position": "DEF",
-        "team": "JAX",
+        "team": "SF",
         "injury_status": null
       }
     ],
@@ -1019,14 +1019,7 @@
         "name": "Dallas Goedert",
         "position": "TE",
         "team": "PHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "7042",
-        "name": "Tyler Bass",
-        "position": "K",
-        "team": "BUF",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8138",
@@ -1040,7 +1033,7 @@
         "name": "Rashid Shaheed",
         "position": "WR",
         "team": "SEA",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9511",
@@ -1048,13 +1041,20 @@
         "position": "RB",
         "team": "LAC",
         "injury_status": null
+      },
+      {
+        "player_id": "JAX",
+        "name": "Jacksonville",
+        "position": "DEF",
+        "team": "JAX",
+        "injury_status": null
       }
     ]
   },
   {
     "roster_id": 6,
     "opponent_roster_id": 7,
-    "points": 10.6,
+    "points": 28.7,
     "starters": [
       {
         "player_id": "11559",
@@ -1103,7 +1103,7 @@
         "name": "DeVonta Smith",
         "position": "WR",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12711",
@@ -1431,7 +1431,7 @@
         "name": "Jordan Love",
         "position": "QB",
         "team": "GB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "3198",
@@ -1545,7 +1545,7 @@
         "name": "Dontayvion Wicks",
         "position": "WR",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       }
     ]
   }
