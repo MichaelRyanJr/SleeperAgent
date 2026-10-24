@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T09:38:27.602723Z",
-  "stale_after": "2026-10-24T10:38:27.602723Z",
+  "generated_at": "2026-10-24T13:35:41.600207Z",
+  "stale_after": "2026-10-24T14:35:41.600207Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-24T09:38:25.306127Z",
+    "snapshot_started_at": "2026-10-24T13:35:39.373654Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-24T09:38:25.390331Z"
+      "fetched_at": "2026-10-24T13:35:39.435081Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-24T09:38:25.609269Z"
+      "fetched_at": "2026-10-24T13:35:39.626062Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-24T09:38:25.732117Z"
+        "fetched_at": "2026-10-24T13:35:39.680020Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-24T09:38:25.829269Z"
+      "fetched_at": "2026-10-24T13:35:39.749117Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,10 +62,10 @@
     "K": 138,
     "P": 4,
     "QB": 321,
-    "RB": 560,
+    "RB": 562,
     "SS": 1,
     "TE": 546,
-    "WR": 1179
+    "WR": 1177
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -14378,6 +14378,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "4035",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NO",
+      "age": 31,
+      "years_exp": 9,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1792808752851,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12928",
       "name": "Amar Johnson",
       "position": "RB",
@@ -14500,6 +14526,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "news_updated": 1792539346590,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "4663",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "WAS",
+      "age": 31,
+      "years_exp": 9,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1792550447623,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46543,32 +46595,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "8134",
-      "name": "Khalil Shakir",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "age": 26,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "SWR",
-      "news_updated": 1792426509543,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 12
-    },
-    {
       "player_id": "6866",
       "name": "KJ Hill",
       "position": "WR",
@@ -48069,32 +48095,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "LWR",
       "news_updated": 1788618917601,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13317",
-      "name": "Ted Hurst III",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "TB",
-      "age": 22,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1792790451944,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
