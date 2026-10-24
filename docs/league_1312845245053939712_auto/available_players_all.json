@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T00:53:06.783387Z",
-  "stale_after": "2026-10-24T01:53:06.783387Z",
+  "generated_at": "2026-10-24T05:19:43.518194Z",
+  "stale_after": "2026-10-24T06:19:43.518194Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-24T00:53:03.558597Z",
+    "snapshot_started_at": "2026-10-24T05:19:40.098889Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-24T00:53:03.676239Z"
+      "fetched_at": "2026-10-24T05:19:40.253104Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-24T00:53:04.001037Z"
+      "fetched_at": "2026-10-24T05:19:40.627512Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-24T00:53:04.062515Z"
+        "fetched_at": "2026-10-24T05:19:40.719229Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-24T00:53:04.190251Z"
+      "fetched_at": "2026-10-24T05:19:40.898301Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -21014,32 +21014,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11435",
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "SEA",
-      "age": 27,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1792374902926,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "11199",
       "name": "Emari Demercado",
       "position": "RB",
@@ -22800,6 +22774,32 @@
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "news_updated": 1792699214387,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "13424",
+      "name": "Seth McGowan",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "IND",
+      "age": 25,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1792544447698,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

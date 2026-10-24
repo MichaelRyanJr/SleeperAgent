@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:53:06.783387Z",
+  "generated_at": "2026-10-24T05:19:43.518194Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -370,7 +370,7 @@
       "starters_current": [
         "11564",
         "11576",
-        "9753",
+        "11435",
         "6786",
         "13293",
         "11604",
@@ -379,6 +379,7 @@
         "LAR"
       ],
       "players_current": [
+        "11435",
         "11564",
         "11576",
         "11604",
@@ -390,7 +391,6 @@
         "13286",
         "13293",
         "13414",
-        "13424",
         "6786",
         "7002",
         "7523",
@@ -418,13 +418,12 @@
           "draft_round": 15
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
           "team": "SEA",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 4
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "6786",
@@ -536,14 +535,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "13424",
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "7523",
           "name": "Trevor Lawrence",
           "position": "QB",
@@ -560,6 +551,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 4
         }
       ],
       "keepers": [
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-24T00:53:06.783387Z",
-    "stale_after": "2026-10-24T01:53:06.783387Z"
+    "generated_at": "2026-10-24T05:19:43.518194Z",
+    "stale_after": "2026-10-24T06:19:43.518194Z"
   }
 }
