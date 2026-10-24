@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:22:01.011669Z",
+  "generated_at": "2026-10-24T00:53:06.783387Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -105,7 +105,7 @@
         "9488",
         "8167",
         "12506",
-        "12514",
+        "5844",
         "5189",
         "MIN"
       ],
@@ -184,13 +184,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "5189",
@@ -229,6 +229,15 @@
           "draft_round": 9
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -236,15 +245,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 2
-        },
-        {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "5892",
@@ -3774,7 +3774,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-23T22:22:01.011669Z",
-    "stale_after": "2026-10-23T23:22:01.011669Z"
+    "generated_at": "2026-10-24T00:53:06.783387Z",
+    "stale_after": "2026-10-24T01:53:06.783387Z"
   }
 }
