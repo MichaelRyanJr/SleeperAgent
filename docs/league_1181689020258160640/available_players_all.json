@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T13:35:41.600207Z",
-  "stale_after": "2026-10-24T14:35:41.600207Z",
+  "generated_at": "2026-10-24T16:56:17.774056Z",
+  "stale_after": "2026-10-24T17:56:17.774056Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-24T13:35:39.373654Z",
+    "snapshot_started_at": "2026-10-24T16:56:15.592863Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-24T13:35:39.435081Z"
+      "fetched_at": "2026-10-24T16:56:15.677987Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-24T13:35:39.626062Z"
+      "fetched_at": "2026-10-24T16:56:15.912625Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-24T13:35:39.680020Z"
+        "fetched_at": "2026-10-24T16:56:15.971775Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-24T13:35:39.749117Z"
+      "fetched_at": "2026-10-24T16:56:16.065336Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -8456,32 +8456,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "4892",
-      "name": "Baker Mayfield",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "TB",
-      "age": 31,
-      "years_exp": 8,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1792783223499,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 13
-    },
-    {
       "player_id": "13295",
       "name": "Behren Morton",
       "position": "QB",
@@ -9254,6 +9228,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "news_updated": 1790292046669,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "3257",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "ARI",
+      "age": 33,
+      "years_exp": 10,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1792519539463,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:35:41.600207Z",
+  "generated_at": "2026-10-24T16:56:17.774056Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1170,9 +1170,9 @@
         "13298",
         "13337",
         "2133",
-        "3257",
         "4217",
         "4881",
+        "4892",
         "5859",
         "650",
         "7543",
@@ -1327,12 +1327,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "7543",
@@ -3775,7 +3776,7 @@
     "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-24T13:35:41.600207Z",
-    "stale_after": "2026-10-24T14:35:41.600207Z"
+    "generated_at": "2026-10-24T16:56:17.774056Z",
+    "stale_after": "2026-10-24T17:56:17.774056Z"
   }
 }
