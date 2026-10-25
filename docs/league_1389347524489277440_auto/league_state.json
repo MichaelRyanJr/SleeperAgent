@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:59:08.737787Z",
+  "generated_at": "2026-10-25T12:30:03.196040Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -183,7 +183,7 @@
       },
       "starters_current": [
         "6804",
-        "11576",
+        "12481",
         "12495",
         "6794",
         "12526",
@@ -220,12 +220,13 @@
           "keeper": false
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "12481",
+          "name": "Cam Skattebo",
           "position": "RB",
-          "team": "NYJ",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12495",
@@ -300,6 +301,14 @@
           "keeper": false
         },
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -307,15 +316,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "12507",
@@ -349,7 +349,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
         }
@@ -556,7 +556,7 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
-          "injury_status": "IR",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         }
@@ -1144,7 +1144,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -1748,7 +1748,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -1960,7 +1960,7 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1968,7 +1968,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "IR",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 13
         }
@@ -2337,7 +2337,7 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "IR",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         },
@@ -2462,7 +2462,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
         },
@@ -3183,7 +3183,7 @@
     "player_count": 2831,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-25T06:59:08.737787Z",
-    "stale_after": "2026-10-25T07:59:08.737787Z"
+    "generated_at": "2026-10-25T12:30:03.196040Z",
+    "stale_after": "2026-10-25T13:30:03.196040Z"
   }
 }
