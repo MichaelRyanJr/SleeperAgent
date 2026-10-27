@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:15:39.409836Z",
+  "generated_at": "2026-10-27T20:47:03.400303Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -269,7 +269,7 @@
           "name": "Dameon Pierce",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -882,15 +882,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "96",
+        "9228",
         "11655",
         "10235",
         "9493",
-        "11632",
+        "9756",
         "12517",
         "11620",
         "1945",
-        "HOU"
+        "SEA"
       ],
       "players_current": [
         "10235",
@@ -914,10 +914,10 @@
       ],
       "starters": [
         {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "PIT",
+          "team": "CAR",
           "injury_status": null,
           "keeper": false
         },
@@ -926,7 +926,7 @@
           "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 15
         },
@@ -948,13 +948,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
+          "player_id": "9756",
+          "name": "Jordan Addison",
           "position": "WR",
-          "team": "NYG",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 6
         },
         {
           "player_id": "12517",
@@ -984,16 +984,25 @@
           "draft_round": 10
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "SEA",
+          "name": "Seattle",
           "position": "DEF",
-          "team": "HOU",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 8
         }
       ],
       "bench": [
+        {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 2
+        },
         {
           "player_id": "12508",
           "name": "Jaxson Dart",
@@ -1040,14 +1049,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9502",
           "name": "Tank Dell",
           "position": "WR",
@@ -1056,22 +1057,21 @@
           "keeper": false
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         },
         {
-          "player_id": "SEA",
-          "name": "Seattle",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "SEA",
+          "team": "HOU",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 7
         }
       ],
       "keepers": [
@@ -1491,7 +1491,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1637,7 +1637,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 14
         },
@@ -1733,7 +1733,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 2
         },
@@ -1742,7 +1742,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -1869,7 +1869,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 2
         },
@@ -3847,10 +3847,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-27T16:15:39.409836Z",
-    "stale_after": "2026-10-27T17:15:39.409836Z"
+    "generated_at": "2026-10-27T20:47:03.400303Z",
+    "stale_after": "2026-10-27T21:47:03.400303Z"
   }
 }

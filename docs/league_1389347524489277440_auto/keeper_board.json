@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:15:36.159677Z",
+  "generated_at": "2026-10-27T20:46:59.743038Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1066,7 +1066,7 @@
           "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "original_draft_round": 8,
           "original_draft_pick_no": 88,
           "original_draft_slot": 9,
@@ -1910,7 +1910,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "original_draft_round": null,
           "original_draft_pick_no": null,
           "original_draft_slot": null,
@@ -2018,7 +2018,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "original_draft_round": 8,
           "original_draft_pick_no": 85,
           "original_draft_slot": 12,
@@ -3159,7 +3159,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "original_draft_round": 1,
           "original_draft_pick_no": 8,
           "original_draft_slot": 8,
@@ -3655,33 +3655,6 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 15,
           "base_keeper_cost_round": 9,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "injury_status": null,
-          "original_draft_round": 10,
-          "original_draft_pick_no": 111,
-          "original_draft_slot": 10,
-          "original_drafted_by": "1126919541247942656",
-          "original_draft_roster_id": 2,
-          "acquired_via": "waiver",
-          "acquisition_transaction_id": "1418471867936706560",
-          "acquisition_time": "2026-10-21T03:15:56.550000Z",
-          "acquisition_league_id": "1389347524489277440",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 10,
-          "keeper_cost_round": 10,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 10,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -4479,7 +4452,7 @@
           "name": "Dameon Pierce",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "original_draft_round": null,
           "original_draft_pick_no": null,
           "original_draft_slot": null,
@@ -5618,5 +5591,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-27T16:15:36.210034Z"
+  "rules_updated_at": "2026-10-27T20:46:59.787933Z"
 }
