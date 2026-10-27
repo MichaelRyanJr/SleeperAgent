@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:55:46.082493Z",
+  "generated_at": "2026-10-27T16:15:35.699540Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1587,15 +1587,15 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9758",
-        "4034",
+        "7523",
+        "9224",
         "5850",
         "9997",
         "8167",
         "5022",
-        "9224",
+        "13298",
         "11533",
-        "HOU"
+        "0"
       ],
       "players_current": [
         "11533",
@@ -1618,21 +1618,22 @@
       ],
       "starters": [
         {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "HOU",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 10
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "SF",
-          "injury_status": "Questionable",
+          "team": "CIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 2
         },
         {
           "player_id": "5850",
@@ -1671,28 +1672,19 @@
           "draft_round": 12
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
+          "player_id": "13298",
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 8
         },
         {
           "player_id": "11533",
           "name": "Brandon Aubrey",
           "position": "K",
           "team": "DAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
-          "player_id": "HOU",
-          "name": "Houston",
-          "position": "DEF",
-          "team": "HOU",
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
@@ -1727,21 +1719,21 @@
           "draft_round": 3
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion Jr.",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "13337",
           "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "4983",
@@ -1753,15 +1745,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "9753",
           "name": "Zach Charbonnet",
           "position": "RB",
@@ -1769,6 +1752,23 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston",
+          "position": "DEF",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "keepers": []
@@ -1986,13 +1986,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9228",
-        "8132",
+        "3257",
+        "8138",
         "8151",
         "10232",
         "13346",
         "12517",
-        "12718",
+        "9487",
         "11261",
         "NYJ"
       ],
@@ -2017,21 +2017,21 @@
       ],
       "starters": [
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "CAR",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "8138",
+          "name": "James Cook III",
           "position": "RB",
-          "team": "ARI",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 1
         },
         {
           "player_id": "8151",
@@ -2069,12 +2069,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "LAR",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "11261",
@@ -2104,6 +2105,14 @@
           "draft_round": 3
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -2117,14 +2126,6 @@
           "name": "Antonio Williams",
           "position": "WR",
           "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
           "injury_status": null,
           "keeper": false
         },
@@ -2145,22 +2146,21 @@
           "keeper": false
         },
         {
-          "player_id": "8138",
-          "name": "James Cook III",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "BUF",
+          "team": "ARI",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 12
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         }
       ],
       "keepers": []
@@ -3257,7 +3257,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-27T10:55:46.082493Z",
-    "stale_after": "2026-10-27T11:55:46.082493Z"
+    "generated_at": "2026-10-27T16:15:35.699540Z",
+    "stale_after": "2026-10-27T17:15:35.699540Z"
   }
 }
