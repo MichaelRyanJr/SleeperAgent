@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T05:33:27.367535Z",
-  "stale_after": "2026-10-27T06:33:27.367535Z",
+  "generated_at": "2026-10-27T10:55:49.216334Z",
+  "stale_after": "2026-10-27T11:55:49.216334Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-27T05:33:24.991932Z",
+    "snapshot_started_at": "2026-10-27T10:55:46.659397Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-27T05:33:25.067268Z"
+      "fetched_at": "2026-10-27T10:55:46.738375Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-27T05:33:25.268717Z"
+      "fetched_at": "2026-10-27T10:55:46.966502Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-27T05:33:25.311635Z"
+        "fetched_at": "2026-10-27T10:55:47.046265Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-27T05:33:25.404374Z"
+      "fetched_at": "2026-10-27T10:55:47.148008Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 206,
+  "excluded_rostered_count": 205,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2832,
-  "all_player_count": 4181,
-  "player_count": 4181,
+  "default_player_count": 2833,
+  "all_player_count": 4182,
+  "player_count": 4182,
   "position_counts": {
     "ATH": 1,
     "CB": 2,
@@ -66,7 +66,7 @@
     "RB": 876,
     "SS": 1,
     "T": 2,
-    "TE": 817,
+    "TE": 818,
     "WR": 1720
   },
   "view": "all_eligible_unrostered_including_inactive",
@@ -45458,6 +45458,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "7002",
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "NO",
+      "age": 30,
+      "years_exp": 6,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1792985113549,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
     },
     {
       "player_id": "8088",
