@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T05:32:17.637268Z",
+  "generated_at": "2026-10-28T11:35:25.568196Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 673.46,
       "points_against": 687.96,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -372,7 +372,7 @@
       "points_for": 772.38,
       "points_against": 745.02,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1381,7 +1381,7 @@
       "points_for": 701.52,
       "points_against": 707.66,
       "waiver": {
-        "position": 12,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -1613,7 +1613,7 @@
         "9224",
         "9753",
         "9997",
-        "HOU"
+        "KC"
       ],
       "starters": [
         {
@@ -1753,13 +1753,12 @@
           "draft_round": 15
         },
         {
-          "player_id": "HOU",
-          "name": "Houston",
+          "player_id": "KC",
+          "name": "Kansas City",
           "position": "DEF",
-          "team": "HOU",
+          "team": "KC",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1973,7 +1972,7 @@
       "points_for": 676.46,
       "points_against": 637.52,
       "waiver": {
-        "position": 8,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1985,18 +1984,18 @@
         "12517",
         "9487",
         "11261",
-        "NYJ"
+        "0"
       ],
       "players_current": [
         "10232",
         "11261",
         "11635",
         "12517",
-        "12718",
         "13286",
         "13301",
         "13346",
         "3257",
+        "6130",
         "7002",
         "8129",
         "8132",
@@ -2004,7 +2003,7 @@
         "8151",
         "9228",
         "9487",
-        "NYJ"
+        "JAX"
       ],
       "starters": [
         {
@@ -2075,14 +2074,6 @@
           "team": "CLE",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "NYJ",
-          "name": "New York",
-          "position": "DEF",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -2094,14 +2085,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
-        },
-        {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "position": "WR",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "13286",
@@ -2117,6 +2100,14 @@
           "name": "Antonio Williams",
           "position": "WR",
           "team": "WAS",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -2152,6 +2143,15 @@
           "team": "CAR",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "keepers": []
@@ -3248,7 +3248,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-28T05:32:17.637268Z",
-    "stale_after": "2026-10-28T06:32:17.637268Z"
+    "generated_at": "2026-10-28T11:35:25.568196Z",
+    "stale_after": "2026-10-28T12:35:25.568196Z"
   }
 }

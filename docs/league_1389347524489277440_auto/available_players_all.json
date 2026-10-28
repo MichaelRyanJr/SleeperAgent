@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T05:32:17.637268Z",
-  "stale_after": "2026-10-28T06:32:17.637268Z",
+  "generated_at": "2026-10-28T11:35:25.568196Z",
+  "stale_after": "2026-10-28T12:35:25.568196Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-28T05:32:15.129374Z",
+    "snapshot_started_at": "2026-10-28T11:35:19.677149Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-28T05:32:15.226123Z"
+      "fetched_at": "2026-10-28T11:35:19.786684Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-28T05:32:15.453487Z"
+      "fetched_at": "2026-10-28T11:35:19.998232Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-28T05:32:15.588008Z"
+        "fetched_at": "2026-10-28T11:35:21.896043Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-28T05:32:15.686838Z"
+      "fetched_at": "2026-10-28T11:35:22.858080Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,11 +63,11 @@
     "K": 177,
     "P": 5,
     "QB": 452,
-    "RB": 877,
+    "RB": 876,
     "SS": 1,
     "T": 2,
     "TE": 818,
-    "WR": 1720
+    "WR": 1721
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -386,6 +386,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "HOU",
+      "name": "Houston Texans",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "HOU",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
+    },
+    {
       "player_id": "IND",
       "name": "Indianapolis Colts",
       "position": "DEF",
@@ -396,58 +422,6 @@
         "DEF"
       ],
       "team": "IND",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "JAX",
-      "name": "Jacksonville Jaguars",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "JAX",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 16
-    },
-    {
-      "player_id": "KC",
-      "name": "Kansas City Chiefs",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "KC",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -578,6 +552,32 @@
         "DEF"
       ],
       "team": "NYG",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "NYJ",
+      "name": "New York Jets",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "NYJ",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -21006,32 +21006,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1791922849188,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "6130",
-      "name": "Devin Singletary",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "NYG",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RB",
-      "news_updated": 1793037917578,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -68445,6 +68419,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1790644209337,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "12718",
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "LAR",
+      "age": 24,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "SWR",
+      "news_updated": 1793109903140,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -91,10 +91,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5189",
-        "name": "Eddy Pineiro",
-        "position": "K",
-        "team": "SF",
+        "player_id": "4035",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -133,17 +133,17 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "421",
-        "name": "Matthew Stafford",
+        "player_id": "11566",
+        "name": "Jayden Daniels",
         "position": "QB",
-        "team": "LAR",
+        "team": "WAS",
         "injury_status": null
       },
       {
-        "player_id": "11581",
-        "name": "MarShawn Lloyd",
+        "player_id": "8138",
+        "name": "James Cook III",
         "position": "RB",
-        "team": "GB",
+        "team": "BUF",
         "injury_status": null
       },
       {
@@ -189,19 +189,19 @@
         "injury_status": null
       },
       {
-        "player_id": "SF",
-        "name": "San Francisco",
+        "player_id": "CIN",
+        "name": "Cincinnati",
         "position": "DEF",
-        "team": "SF",
+        "team": "CIN",
         "injury_status": null
       }
     ],
     "bench": [
       {
-        "player_id": "11566",
-        "name": "Jayden Daniels",
-        "position": "QB",
-        "team": "WAS",
+        "player_id": "11581",
+        "name": "MarShawn Lloyd",
+        "position": "RB",
+        "team": "GB",
         "injury_status": null
       },
       {
@@ -219,17 +219,17 @@
         "injury_status": null
       },
       {
+        "player_id": "421",
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "team": "LAR",
+        "injury_status": null
+      },
+      {
         "player_id": "5022",
         "name": "Dallas Goedert",
         "position": "TE",
         "team": "PHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "8138",
-        "name": "James Cook III",
-        "position": "RB",
-        "team": "BUF",
         "injury_status": null
       },
       {
@@ -319,6 +319,13 @@
     ],
     "bench": [
       {
+        "player_id": "10213",
+        "name": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
+        "injury_status": null
+      },
+      {
         "player_id": "11631",
         "name": "Brian Thomas Jr.",
         "position": "WR",
@@ -331,13 +338,6 @@
         "position": "RB",
         "team": "CHI",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "12536",
-        "name": "Jaylin Noel",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "13286",
@@ -482,6 +482,13 @@
         "injury_status": null
       },
       {
+        "player_id": "13424",
+        "name": "Seth McGowan",
+        "position": "RB",
+        "team": "IND",
+        "injury_status": null
+      },
+      {
         "player_id": "9226",
         "name": "De'Von Achane",
         "position": "RB",
@@ -493,13 +500,6 @@
         "name": "Tank Dell",
         "position": "WR",
         "team": "HOU",
-        "injury_status": null
-      },
-      {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
-        "position": "QB",
-        "team": "PIT",
         "injury_status": null
       },
       {
@@ -517,10 +517,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "8183",
-        "name": "Brock Purdy",
+        "player_id": "3257",
+        "name": "Jacoby Brissett",
         "position": "QB",
-        "team": "SF",
+        "team": "ARI",
         "injury_status": null
       },
       {
@@ -624,13 +624,6 @@
         "injury_status": null
       },
       {
-        "player_id": "13317",
-        "name": "Ted Hurst III",
-        "position": "WR",
-        "team": "TB",
-        "injury_status": null
-      },
-      {
         "player_id": "13417",
         "name": "De'Zhaun Stribling",
         "position": "WR",
@@ -642,6 +635,13 @@
         "name": "Tyler Allgeier",
         "position": "RB",
         "team": "ARI",
+        "injury_status": null
+      },
+      {
+        "player_id": "8183",
+        "name": "Brock Purdy",
+        "position": "QB",
+        "team": "SF",
         "injury_status": null
       }
     ]
@@ -773,11 +773,11 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "4892",
-        "name": "Baker Mayfield",
+        "player_id": "4881",
+        "name": "Lamar Jackson",
         "position": "QB",
-        "team": "TB",
-        "injury_status": null
+        "team": "BAL",
+        "injury_status": "Out"
       },
       {
         "player_id": "8151",
@@ -829,10 +829,10 @@
         "injury_status": null
       },
       {
-        "player_id": "BAL",
-        "name": "Baltimore",
+        "player_id": "KC",
+        "name": "Kansas City",
         "position": "DEF",
-        "team": "BAL",
+        "team": "KC",
         "injury_status": null
       }
     ],
@@ -880,11 +880,11 @@
         "injury_status": null
       },
       {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
+        "player_id": "4892",
+        "name": "Baker Mayfield",
         "position": "QB",
-        "team": "BAL",
-        "injury_status": "Out"
+        "team": "TB",
+        "injury_status": null
       },
       {
         "player_id": "7543",
@@ -1090,13 +1090,6 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
-      },
-      {
-        "player_id": "TEN",
-        "name": "Tennessee",
-        "position": "DEF",
-        "team": "TEN",
-        "injury_status": null
       }
     ],
     "bench": [
@@ -1147,6 +1140,13 @@
         "name": "Khalil Shakir",
         "position": "WR",
         "team": "BUF",
+        "injury_status": null
+      },
+      {
+        "player_id": "TB",
+        "name": "Tampa Bay",
+        "position": "DEF",
+        "team": "TB",
         "injury_status": null
       }
     ]
@@ -1462,10 +1462,10 @@
         "injury_status": null
       },
       {
-        "player_id": "3451",
-        "name": "Ka'imi Fairbairn",
+        "player_id": "6650",
+        "name": "Chase McLaughlin",
         "position": "K",
-        "team": "HOU",
+        "team": "TB",
         "injury_status": null
       },
       {
@@ -1499,6 +1499,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "3451",
+        "name": "Ka'imi Fairbairn",
+        "position": "K",
+        "team": "HOU",
+        "injury_status": null
+      },
+      {
         "player_id": "4046",
         "name": "Patrick Mahomes",
         "position": "QB",
@@ -1525,13 +1532,6 @@
         "position": "RB",
         "team": "DET",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "9486",
-        "name": "Dontayvion Wicks",
-        "position": "WR",
-        "team": "PHI",
-        "injury_status": "Out"
       }
     ]
   }
