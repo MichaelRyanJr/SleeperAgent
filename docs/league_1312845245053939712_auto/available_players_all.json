@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T11:35:31.407210Z",
-  "stale_after": "2026-10-28T12:35:31.407210Z",
+  "generated_at": "2026-10-28T17:22:12.969638Z",
+  "stale_after": "2026-10-28T18:22:12.969638Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-28T11:35:26.233089Z",
+    "snapshot_started_at": "2026-10-28T17:22:10.962946Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-10-28T11:35:26.328161Z"
+      "fetched_at": "2026-10-28T17:22:11.024114Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-10-28T11:35:26.565325Z"
+      "fetched_at": "2026-10-28T17:22:11.197457Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-10-28T11:35:26.659335Z"
+        "fetched_at": "2026-10-28T17:22:11.250330Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-10-28T11:35:26.772911Z"
+      "fetched_at": "2026-10-28T17:22:11.334436Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,7 +51,7 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2837,
+  "default_player_count": 2836,
   "all_player_count": 4183,
   "player_count": 4183,
   "position_counts": {
@@ -21690,32 +21690,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11643",
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1792966210766,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "4219",
       "name": "Jeremy McNichols",
       "position": "RB",
@@ -23248,6 +23222,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "11655",
+      "name": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NYG",
+      "age": 26,
+      "years_exp": 2,
+      "status": "Inactive",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1793124605030,
+      "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "3309",

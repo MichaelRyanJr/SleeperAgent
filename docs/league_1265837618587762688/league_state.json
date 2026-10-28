@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:35:25.568196Z",
+  "generated_at": "2026-10-28T17:22:10.336476Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -589,7 +589,7 @@
         "6786",
         "5846",
         "3271",
-        "11834",
+        "10219",
         "2747",
         "SEA"
       ],
@@ -666,12 +666,13 @@
           "keeper": false
         },
         {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
+          "player_id": "10219",
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "2747",
@@ -693,15 +694,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10219",
-          "name": "Chris Rodriguez Jr.",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
         {
           "player_id": "10222",
           "name": "Jayden Reed",
@@ -728,6 +720,14 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13285",
@@ -1595,15 +1595,15 @@
         "5022",
         "13298",
         "11533",
-        "0"
+        "KC"
       ],
       "players_current": [
         "11533",
-        "11628",
         "12518",
         "13287",
         "13298",
         "13337",
+        "13424",
         "4034",
         "4983",
         "5022",
@@ -1687,18 +1687,17 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City",
+          "position": "DEF",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
         {
           "player_id": "12518",
           "name": "Tyler Warren",
@@ -1722,6 +1721,14 @@
           "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -1751,14 +1758,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "KC",
-          "name": "Kansas City",
-          "position": "DEF",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": []
@@ -3248,7 +3247,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-28T11:35:25.568196Z",
-    "stale_after": "2026-10-28T12:35:25.568196Z"
+    "generated_at": "2026-10-28T17:22:10.336476Z",
+    "stale_after": "2026-10-28T18:22:10.336476Z"
   }
 }

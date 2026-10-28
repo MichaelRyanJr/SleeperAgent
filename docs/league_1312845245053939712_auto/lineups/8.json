@@ -282,10 +282,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13293",
-        "name": "Ja'Kobi Lane",
+        "player_id": "10213",
+        "name": "Tre Tucker",
         "position": "WR",
-        "team": "BAL",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -296,10 +296,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11435",
-        "name": "Emanuel Wilson",
+        "player_id": "8408",
+        "name": "Jordan Mason",
         "position": "RB",
-        "team": "SEA",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -319,10 +319,10 @@
     ],
     "bench": [
       {
-        "player_id": "10213",
-        "name": "Tre Tucker",
-        "position": "WR",
-        "team": "LV",
+        "player_id": "11435",
+        "name": "Emanuel Wilson",
+        "position": "RB",
+        "team": "SEA",
         "injury_status": null
       },
       {
@@ -347,6 +347,13 @@
         "injury_status": "IR"
       },
       {
+        "player_id": "13293",
+        "name": "Ja'Kobi Lane",
+        "position": "WR",
+        "team": "BAL",
+        "injury_status": null
+      },
+      {
         "player_id": "13414",
         "name": "Kaelon Black",
         "position": "RB",
@@ -358,13 +365,6 @@
         "name": "Trevor Lawrence",
         "position": "QB",
         "team": "JAX",
-        "injury_status": null
-      },
-      {
-        "player_id": "8408",
-        "name": "Jordan Mason",
-        "position": "RB",
-        "team": "MIN",
         "injury_status": null
       },
       {
@@ -389,18 +389,18 @@
         "injury_status": null
       },
       {
-        "player_id": "11655",
-        "name": "Tyrone Tracy Jr.",
+        "player_id": "13424",
+        "name": "Seth McGowan",
         "position": "RB",
-        "team": "NYG",
-        "injury_status": "Out"
+        "team": "IND",
+        "injury_status": null
       },
       {
-        "player_id": "10235",
-        "name": "Roschon Johnson",
+        "player_id": "11643",
+        "name": "Jaylen Wright",
         "position": "RB",
-        "team": "CHI",
-        "injury_status": null
+        "team": "MIA",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9493",
@@ -447,6 +447,13 @@
     ],
     "bench": [
       {
+        "player_id": "10235",
+        "name": "Roschon Johnson",
+        "position": "RB",
+        "team": "CHI",
+        "injury_status": null
+      },
+      {
         "player_id": "11632",
         "name": "Malik Nabers",
         "position": "WR",
@@ -479,13 +486,6 @@
         "name": "Makai Lemon",
         "position": "WR",
         "team": "PHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "13424",
-        "name": "Seth McGowan",
-        "position": "RB",
-        "team": "IND",
         "injury_status": null
       },
       {
@@ -1090,6 +1090,13 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
+      },
+      {
+        "player_id": "TB",
+        "name": "Tampa Bay",
+        "position": "DEF",
+        "team": "TB",
+        "injury_status": null
       }
     ],
     "bench": [
@@ -1140,13 +1147,6 @@
         "name": "Khalil Shakir",
         "position": "WR",
         "team": "BUF",
-        "injury_status": null
-      },
-      {
-        "player_id": "TB",
-        "name": "Tampa Bay",
-        "position": "DEF",
-        "team": "TB",
         "injury_status": null
       }
     ]

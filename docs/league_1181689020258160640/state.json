@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:35:31.407210Z",
+  "generated_at": "2026-10-28T17:22:12.969638Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -372,9 +372,9 @@
         "11576",
         "12490",
         "6786",
-        "13293",
+        "10213",
         "11604",
-        "11435",
+        "8408",
         "11792",
         "LAR"
       ],
@@ -435,13 +435,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "BAL",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
+          "keeper": false
         },
         {
           "player_id": "11604",
@@ -453,12 +452,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "SEA",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "11792",
@@ -481,10 +481,10 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false
         },
@@ -516,6 +516,15 @@
           "draft_round": 1
         },
         {
+          "player_id": "13293",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "13414",
           "name": "Kaelon Black",
           "position": "RB",
@@ -532,15 +541,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 6
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "9753",
@@ -883,8 +883,8 @@
       },
       "starters_current": [
         "9228",
-        "11655",
-        "10235",
+        "13424",
+        "11643",
         "9493",
         "9756",
         "12517",
@@ -896,7 +896,7 @@
         "10235",
         "11620",
         "11632",
-        "11655",
+        "11643",
         "12508",
         "12517",
         "12533",
@@ -922,20 +922,19 @@
           "keeper": false
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy Jr.",
+          "player_id": "13424",
+          "name": "Seth McGowan",
           "position": "RB",
-          "team": "NYG",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 15
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         },
         {
-          "player_id": "10235",
-          "name": "Roschon Johnson",
+          "player_id": "11643",
+          "name": "Jaylen Wright",
           "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
+          "team": "MIA",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -995,6 +994,14 @@
       ],
       "bench": [
         {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11632",
           "name": "Malik Nabers",
           "position": "WR",
@@ -1038,14 +1045,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "13424",
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "9226",
@@ -1679,7 +1678,7 @@
         "5012",
         "5846",
         "11533",
-        "0"
+        "TB"
       ],
       "players_current": [
         "10236",
@@ -1771,6 +1770,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
+        },
+        {
+          "player_id": "TB",
+          "name": "Tampa Bay",
+          "position": "DEF",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1834,14 +1841,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "TB",
-          "name": "Tampa Bay",
-          "position": "DEF",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -3836,10 +3835,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2837,
+    "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-28T11:35:31.407210Z",
-    "stale_after": "2026-10-28T12:35:31.407210Z"
+    "generated_at": "2026-10-28T17:22:12.969638Z",
+    "stale_after": "2026-10-28T18:22:12.969638Z"
   }
 }
