@@ -125,7 +125,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 5
       },
@@ -464,7 +464,7 @@
         "name": "Jahmyr Gibbs",
         "position": "RB",
         "team": "DET",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 4
       },
@@ -473,7 +473,7 @@
         "name": "Amon-Ra St. Brown",
         "position": "WR",
         "team": "DET",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 2
       },
@@ -566,7 +566,7 @@
         "name": "George Pickens",
         "position": "WR",
         "team": "DAL",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 3
       },
@@ -659,7 +659,7 @@
         "name": "Michael Wilson",
         "position": "WR",
         "team": "ARI",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 13
       },
@@ -751,15 +751,6 @@
         "draft_round": 9
       },
       {
-        "player_id": "8144",
-        "name": "Chris Olave",
-        "position": "WR",
-        "team": "NO",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 6
-      },
-      {
         "player_id": "9500",
         "name": "Josh Downs",
         "position": "WR",
@@ -776,6 +767,15 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 7
+      },
+      {
+        "player_id": "8144",
+        "name": "Chris Olave",
+        "position": "WR",
+        "team": "NO",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 6
       }
     ]
   },
