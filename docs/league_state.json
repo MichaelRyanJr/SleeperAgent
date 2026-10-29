@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:18:33.119122Z",
+  "generated_at": "2026-10-29T07:15:29.160249Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1982,21 +1982,21 @@
         "13346",
         "12517",
         "9487",
-        "11261",
-        "0"
+        "1945",
+        "JAX"
       ],
       "players_current": [
         "10232",
-        "11261",
         "11635",
+        "11637",
         "12517",
+        "13281",
         "13286",
         "13301",
         "13346",
+        "1945",
         "3257",
         "6130",
-        "7002",
-        "8129",
         "8132",
         "8138",
         "8151",
@@ -2067,12 +2067,21 @@
           "draft_round": 6
         },
         {
-          "player_id": "11261",
-          "name": "Andre Szmyt",
+          "player_id": "1945",
+          "name": "Chris Boswell",
           "position": "K",
-          "team": "CLE",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 16
         }
       ],
       "bench": [
@@ -2084,6 +2093,23 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "13286",
@@ -2111,22 +2137,6 @@
           "keeper": false
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8129",
-          "name": "Dameon Pierce",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": "IR",
-          "keeper": false
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -2142,15 +2152,6 @@
           "team": "CAR",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "JAX",
-          "name": "Jacksonville",
-          "position": "DEF",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "keepers": []
@@ -3247,7 +3248,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-29T01:18:33.119122Z",
-    "stale_after": "2026-10-29T02:18:33.119122Z"
+    "generated_at": "2026-10-29T07:15:29.160249Z",
+    "stale_after": "2026-10-29T08:15:29.160249Z"
   }
 }

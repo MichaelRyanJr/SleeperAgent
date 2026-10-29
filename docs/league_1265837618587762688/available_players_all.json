@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T01:18:33.119122Z",
-  "stale_after": "2026-10-29T02:18:33.119122Z",
+  "generated_at": "2026-10-29T07:15:29.160249Z",
+  "stale_after": "2026-10-29T08:15:29.160249Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-10-29T01:18:30.204569Z",
+    "snapshot_started_at": "2026-10-29T07:15:26.610389Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-10-29T01:18:30.315311Z"
+      "fetched_at": "2026-10-29T07:15:26.699542Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-10-29T01:18:30.603259Z"
+      "fetched_at": "2026-10-29T07:15:26.924552Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-10-29T01:18:30.700132Z"
+        "fetched_at": "2026-10-29T07:15:27.057224Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-10-29T01:18:30.813725Z"
+      "fetched_at": "2026-10-29T07:15:27.152092Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,11 +63,11 @@
     "K": 177,
     "P": 5,
     "QB": 452,
-    "RB": 875,
+    "RB": 876,
     "SS": 1,
     "T": 2,
-    "TE": 818,
-    "WR": 1722
+    "TE": 819,
+    "WR": 1720
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -3638,6 +3638,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11261",
+      "name": "Andre Szmyt",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "CLE",
+      "age": 28,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1792986013602,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12713",
       "name": "Andy Borregales",
       "position": "K",
@@ -3812,32 +3838,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788217213386,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "1945",
-      "name": "Chris Boswell",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "PIT",
-      "age": 35,
-      "years_exp": 12,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1792983013319,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -20773,6 +20773,32 @@
       "depth_chart_position": null,
       "news_updated": 1791250839951,
       "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "8129",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "age": 26,
+      "years_exp": 4,
+      "status": "Inactive",
+      "injury_status": "IR",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1793222726285,
+      "in_default_view": false,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
@@ -45564,6 +45590,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "7002",
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "NO",
+      "age": 30,
+      "years_exp": 6,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1793198121822,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "8088",
       "name": "Kalif Jackson",
       "position": "TE",
@@ -67855,32 +67907,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "13281",
-      "name": "Jordyn Tyson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NO",
-      "age": 22,
-      "years_exp": 0,
-      "status": "Inactive",
-      "injury_status": "IR",
-      "active": true,
-      "depth_chart_order": 9,
-      "depth_chart_position": "LWR",
-      "news_updated": 1793023216004,
-      "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 9
-    },
-    {
       "player_id": "13394",
       "name": "Josh Cameron",
       "position": "WR",
@@ -68264,32 +68290,6 @@
       "depth_chart_position": null,
       "news_updated": 1781769316050,
       "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "age": 23,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "LWR",
-      "news_updated": 1793110503260,
-      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
