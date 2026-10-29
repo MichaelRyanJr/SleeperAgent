@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:15:29.160249Z",
+  "generated_at": "2026-10-29T14:28:11.343570Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1784,12 +1784,12 @@
       "starters_current": [
         "4046",
         "4866",
-        "8122",
+        "12529",
         "8112",
         "12519",
         "11604",
-        "8126",
-        "13545",
+        "7553",
+        "11792",
         "PIT"
       ],
       "players_current": [
@@ -1830,12 +1830,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "ARI",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "8112",
@@ -1865,21 +1866,22 @@
           "draft_round": 2
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "7553",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "team": "ATL",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 10
+          "draft_round": 6
         },
         {
-          "player_id": "13545",
-          "name": "Trey Smack",
+          "player_id": "11792",
+          "name": "Will Reichard",
           "position": "K",
-          "team": "GB",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 16
         },
         {
           "player_id": "PIT",
@@ -1901,24 +1903,6 @@
           "draft_round": 7
         },
         {
-          "player_id": "11792",
-          "name": "Will Reichard",
-          "position": "K",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
-        },
-        {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 4
-        },
-        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -1927,13 +1911,29 @@
           "keeper": false
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts Sr.",
-          "position": "TE",
-          "team": "ATL",
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 10
         },
         {
           "player_id": "9486",
@@ -1979,7 +1979,7 @@
         "8138",
         "8151",
         "10232",
-        "13346",
+        "13301",
         "12517",
         "9487",
         "1945",
@@ -2041,10 +2041,10 @@
           "draft_round": 8
         },
         {
-          "player_id": "13346",
-          "name": "Denzel Boston",
+          "player_id": "13301",
+          "name": "Antonio Williams",
           "position": "WR",
-          "team": "CLE",
+          "team": "WAS",
           "injury_status": null,
           "keeper": false
         },
@@ -2121,10 +2121,10 @@
           "draft_round": 5
         },
         {
-          "player_id": "13301",
-          "name": "Antonio Williams",
+          "player_id": "13346",
+          "name": "Denzel Boston",
           "position": "WR",
-          "team": "WAS",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         },
@@ -3248,7 +3248,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-29T07:15:29.160249Z",
-    "stale_after": "2026-10-29T08:15:29.160249Z"
+    "generated_at": "2026-10-29T14:28:11.343570Z",
+    "stale_after": "2026-10-29T15:28:11.343570Z"
   }
 }
