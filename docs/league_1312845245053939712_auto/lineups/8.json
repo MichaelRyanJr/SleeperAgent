@@ -1078,11 +1078,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "5012",
-        "name": "Mark Andrews",
+        "player_id": "10236",
+        "name": "Dalton Kincaid",
         "position": "TE",
-        "team": "BAL",
-        "injury_status": null
+        "team": "BUF",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5846",
@@ -1108,13 +1108,6 @@
     ],
     "bench": [
       {
-        "player_id": "10236",
-        "name": "Dalton Kincaid",
-        "position": "TE",
-        "team": "BUF",
-        "injury_status": "Questionable"
-      },
-      {
         "player_id": "11563",
         "name": "Bo Nix",
         "position": "QB",
@@ -1134,6 +1127,13 @@
         "position": "WR",
         "team": null,
         "injury_status": "Questionable"
+      },
+      {
+        "player_id": "5012",
+        "name": "Mark Andrews",
+        "position": "TE",
+        "team": "BAL",
+        "injury_status": null
       },
       {
         "player_id": "5967",
@@ -1285,10 +1285,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "9758",
-        "name": "C.J. Stroud",
+        "player_id": "5849",
+        "name": "Kyler Murray",
         "position": "QB",
-        "team": "HOU",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -1299,11 +1299,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12474",
-        "name": "Woody Marks",
+        "player_id": "6806",
+        "name": "J.K. Dobbins",
         "position": "RB",
-        "team": "HOU",
-        "injury_status": "Questionable"
+        "team": "DEN",
+        "injury_status": null
       },
       {
         "player_id": "8144",
@@ -1320,17 +1320,17 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "8131",
-        "name": "Isaiah Likely",
-        "position": "TE",
-        "team": "NYG",
-        "injury_status": null
-      },
-      {
         "player_id": "9484",
         "name": "Tucker Kraft",
         "position": "TE",
         "team": "GB",
+        "injury_status": null
+      },
+      {
+        "player_id": "9500",
+        "name": "Josh Downs",
+        "position": "WR",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -1357,6 +1357,13 @@
         "injury_status": "IR"
       },
       {
+        "player_id": "12474",
+        "name": "Woody Marks",
+        "position": "RB",
+        "team": "HOU",
+        "injury_status": "Questionable"
+      },
+      {
         "player_id": "12492",
         "name": "Pat Bryant",
         "position": "WR",
@@ -1378,13 +1385,6 @@
         "injury_status": null
       },
       {
-        "player_id": "5849",
-        "name": "Kyler Murray",
-        "position": "QB",
-        "team": "MIN",
-        "injury_status": null
-      },
-      {
         "player_id": "6797",
         "name": "Justin Herbert",
         "position": "QB",
@@ -1392,17 +1392,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6806",
-        "name": "J.K. Dobbins",
-        "position": "RB",
-        "team": "DEN",
-        "injury_status": null
-      },
-      {
-        "player_id": "9500",
-        "name": "Josh Downs",
-        "position": "WR",
-        "team": "IND",
+        "player_id": "8131",
+        "name": "Isaiah Likely",
+        "position": "TE",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -1411,6 +1404,13 @@
         "position": "RB",
         "team": "TEN",
         "injury_status": "Questionable"
+      },
+      {
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "injury_status": null
       }
     ]
   },

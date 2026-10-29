@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:47:58.982048Z",
+  "generated_at": "2026-10-29T01:18:36.701581Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1685,7 +1685,7 @@
         "5850",
         "7547",
         "12501",
-        "5012",
+        "10236",
         "5846",
         "11533",
         "TB"
@@ -1755,13 +1755,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "team": "BAL",
-          "injury_status": null,
+          "team": "BUF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 6
         },
         {
           "player_id": "5846",
@@ -1792,15 +1792,6 @@
       ],
       "bench": [
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "11563",
           "name": "Bo Nix",
           "position": "QB",
@@ -1824,6 +1815,15 @@
           "team": null,
           "injury_status": "Questionable",
           "keeper": false
+        },
+        {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "5967",
@@ -2666,13 +2666,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "9758",
+        "5849",
         "6813",
-        "12474",
+        "6806",
         "8144",
         "7526",
-        "8131",
         "9484",
+        "9500",
         "12185",
         "CLE"
       ],
@@ -2698,12 +2698,13 @@
       ],
       "starters": [
         {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "HOU",
+          "team": "MIN",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "6813",
@@ -2715,13 +2716,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 10
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "8144",
@@ -2742,15 +2743,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "9484",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -2758,6 +2750,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "12185",
@@ -2788,6 +2789,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 10
+        },
+        {
           "player_id": "12492",
           "name": "Pat Bryant",
           "position": "WR",
@@ -2813,15 +2823,6 @@
           "keeper": false
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2831,22 +2832,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 11
         },
         {
           "player_id": "9508",
@@ -2856,6 +2848,14 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2869,24 +2869,6 @@
           "draft_round": 3
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -2896,6 +2878,15 @@
           "draft_round": 9
         },
         {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
@@ -2903,6 +2894,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
         }
       ]
     },
@@ -3724,7 +3724,7 @@
       "week": 7,
       "roster_id": 8,
       "opponent_roster_id": 5,
-      "points": 110.9,
+      "points": 111.9,
       "result": "W"
     },
     {
@@ -3848,7 +3848,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-28T21:47:58.982048Z",
-    "stale_after": "2026-10-28T22:47:58.982048Z"
+    "generated_at": "2026-10-29T01:18:36.701581Z",
+    "stale_after": "2026-10-29T02:18:36.701581Z"
   }
 }
