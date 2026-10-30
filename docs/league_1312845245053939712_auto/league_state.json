@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:25:38.518419Z",
+  "generated_at": "2026-10-30T20:58:45.100271Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -105,7 +105,7 @@
         "9488",
         "8167",
         "12506",
-        "12514",
+        "5844",
         "11786",
         "MIN"
       ],
@@ -185,13 +185,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 5
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "11786",
@@ -222,6 +222,15 @@
           "keeper": false
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -237,15 +246,6 @@
           "team": "NO",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "5892",
@@ -1686,7 +1686,7 @@
         "7547",
         "12501",
         "10236",
-        "5846",
+        "5967",
         "11533",
         "TB"
       ],
@@ -1764,10 +1764,10 @@
           "draft_round": 6
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
@@ -1826,10 +1826,10 @@
           "draft_round": 12
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
@@ -3848,7 +3848,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-30T16:25:38.518419Z",
-    "stale_after": "2026-10-30T17:25:38.518419Z"
+    "generated_at": "2026-10-30T20:58:45.100271Z",
+    "stale_after": "2026-10-30T21:58:45.100271Z"
   }
 }
