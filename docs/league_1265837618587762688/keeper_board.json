@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:39:31.042537Z",
+  "generated_at": "2026-10-30T02:58:28.054152Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -4259,6 +4259,33 @@
           "keeper_cost_round_is_provisional": true
         },
         {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "original_draft_round": 11,
+          "original_draft_pick_no": 125,
+          "original_draft_slot": 5,
+          "original_drafted_by": "870159599997792256",
+          "original_draft_roster_id": 9,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1421704565459300352",
+          "acquisition_time": "2026-10-30T01:21:31.700000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 11,
+          "keeper_cost_round": 11,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 11,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -4472,33 +4499,6 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": null,
           "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "original_draft_round": 11,
-          "original_draft_pick_no": 121,
-          "original_draft_slot": 1,
-          "original_drafted_by": "1266635324683976704",
-          "original_draft_roster_id": 10,
-          "acquired_via": "draft",
-          "acquisition_transaction_id": null,
-          "acquisition_time": null,
-          "acquisition_league_id": null,
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 11,
-          "keeper_cost_round": 11,
-          "keeper_cost_source": "previous_draft",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 12,
-          "base_keeper_cost_round": 11,
           "keeper_cost_round_is_provisional": true
         },
         {
@@ -5564,5 +5564,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-10-29T23:39:31.088938Z"
+  "rules_updated_at": "2026-10-30T02:58:28.100712Z"
 }

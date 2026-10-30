@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:39:30.599571Z",
+  "generated_at": "2026-10-30T02:58:27.608631Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1988,6 +1988,7 @@
         "10232",
         "11635",
         "11637",
+        "12457",
         "12517",
         "13281",
         "13286",
@@ -1996,7 +1997,6 @@
         "1945",
         "3257",
         "6130",
-        "8132",
         "8138",
         "8151",
         "9228",
@@ -2102,6 +2102,14 @@
           "keeper": false
         },
         {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -2134,15 +2142,6 @@
           "team": "NYG",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "9228",
@@ -2374,7 +2373,7 @@
         "11563",
         "6813",
         "3198",
-        "13150",
+        "2449",
         "8148",
         "6865",
         "7611",
@@ -2429,12 +2428,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "13150",
-          "name": "Darius Cooper",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "PHI",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "8148",
@@ -2499,13 +2499,12 @@
           "keeper": false
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "13150",
+          "name": "Darius Cooper",
           "position": "WR",
-          "team": "WAS",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         },
         {
           "player_id": "6904",
@@ -3149,29 +3148,29 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 28.54,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 1,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 21.3,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 5,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 18.8,
+      "result": "L"
     },
     {
       "week": 8,
@@ -3191,15 +3190,15 @@
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 14.3,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": null
+      "points": 30.7,
+      "result": "W"
     },
     {
       "week": 8,
@@ -3238,7 +3237,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-29T23:39:30.599571Z",
-    "stale_after": "2026-10-30T00:39:30.599571Z"
+    "generated_at": "2026-10-30T02:58:27.608631Z",
+    "stale_after": "2026-10-30T03:58:27.608631Z"
   }
 }

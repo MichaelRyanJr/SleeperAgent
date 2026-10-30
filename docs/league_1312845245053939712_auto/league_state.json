@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:39:34.147606Z",
+  "generated_at": "2026-10-30T02:58:30.852334Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -374,7 +374,7 @@
       "points_for": 868.36,
       "points_against": 816.1,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -626,7 +626,7 @@
       "points_for": 935.86,
       "points_against": 947.32,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -888,7 +888,7 @@
       "points_for": 775.8,
       "points_against": 851.78,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1676,7 +1676,7 @@
       "points_for": 910.34,
       "points_against": 766.12,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1926,7 +1926,7 @@
       "points_for": 897.72,
       "points_against": 814.42,
       "waiver": {
-        "position": 7,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -2186,7 +2186,7 @@
       "points_for": 884.7,
       "points_against": 922.58,
       "waiver": {
-        "position": 6,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -2198,7 +2198,7 @@
         "8110",
         "12489",
         "6083",
-        "NYJ"
+        "0"
       ],
       "players_current": [
         "10232",
@@ -2216,7 +2216,7 @@
         "8146",
         "8154",
         "9509",
-        "NYJ"
+        "JAX"
       ],
       "starters": [
         {
@@ -2289,14 +2289,6 @@
           "team": "LV",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "NYJ",
-          "name": "New York",
-          "position": "DEF",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -2361,6 +2353,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville",
+          "position": "DEF",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "keepers": [
@@ -2921,7 +2922,7 @@
       "points_for": 845.78,
       "points_against": 906.96,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -3758,85 +3759,85 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 0.0,
-      "result": null
+      "points": 18.6,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 24.8,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 4,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 5.36,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 10.0,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 3,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 5,
       "opponent_roster_id": 6,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 1.9,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 42.0,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 9,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 17.3,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 22.04,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -3847,7 +3848,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-29T23:39:34.147606Z",
-    "stale_after": "2026-10-30T00:39:34.147606Z"
+    "generated_at": "2026-10-30T02:58:30.852334Z",
+    "stale_after": "2026-10-30T03:58:30.852334Z"
   }
 }
