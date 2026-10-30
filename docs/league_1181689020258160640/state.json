@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:58:30.852334Z",
+  "generated_at": "2026-10-30T09:52:22.429050Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -104,7 +104,7 @@
         "12529",
         "9488",
         "8167",
-        "5844",
+        "12506",
         "12514",
         "11786",
         "MIN"
@@ -176,13 +176,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "12506",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
-          "team": "MIN",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "12514",
@@ -222,15 +222,6 @@
           "keeper": false
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -246,6 +237,15 @@
           "team": "NO",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "5892",
@@ -321,15 +321,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "12506",
           "name": "Harold Fannin Jr.",
           "position": "TE",
@@ -337,6 +328,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "5892",
@@ -3759,14 +3759,14 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 18.6,
+      "points": 20.3,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 24.8,
+      "points": 24.9,
       "result": "W"
     },
     {
@@ -3780,14 +3780,14 @@
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 5.36,
+      "points": 11.36,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 10.0,
+      "points": 11.8,
       "result": "W"
     },
     {
@@ -3808,14 +3808,14 @@
       "week": 8,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 1.9,
+      "points": 9.6,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 9,
-      "points": 42.0,
+      "points": 44.1,
       "result": "W"
     },
     {
@@ -3836,7 +3836,7 @@
       "week": 8,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 22.04,
+      "points": 22.52,
       "result": "W"
     }
   ],
@@ -3848,7 +3848,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-30T02:58:30.852334Z",
-    "stale_after": "2026-10-30T03:58:30.852334Z"
+    "generated_at": "2026-10-30T09:52:22.429050Z",
+    "stale_after": "2026-10-30T10:52:22.429050Z"
   }
 }
