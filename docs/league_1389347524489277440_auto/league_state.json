@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:40:04.645809Z",
+  "generated_at": "2026-10-31T06:19:09.263350Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1978,7 +1978,7 @@
         "8138",
         "8151",
         "10232",
-        "13301",
+        "11635",
         "12517",
         "9487",
         "1945",
@@ -2040,12 +2040,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "13301",
-          "name": "Antonio Williams",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "WAS",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12517",
@@ -2085,15 +2086,6 @@
       ],
       "bench": [
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -2126,6 +2118,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "13301",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13346",
@@ -3237,7 +3237,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-31T00:40:04.645809Z",
-    "stale_after": "2026-10-31T01:40:04.645809Z"
+    "generated_at": "2026-10-31T06:19:09.263350Z",
+    "stale_after": "2026-10-31T07:19:09.263350Z"
   }
 }
