@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:35:16.948170Z",
+  "generated_at": "2026-10-31T23:42:58.215433Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -188,7 +188,7 @@
         "6794",
         "12526",
         "8130",
-        "13279",
+        "10213",
         "6650",
         "LAR"
       ],
@@ -263,13 +263,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 6
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "6650",
@@ -291,14 +290,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
@@ -334,6 +325,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "13294",
@@ -3236,7 +3236,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-31T20:35:16.948170Z",
-    "stale_after": "2026-10-31T21:35:16.948170Z"
+    "generated_at": "2026-10-31T23:42:58.215433Z",
+    "stale_after": "2026-11-01T00:42:58.215433Z"
   }
 }
