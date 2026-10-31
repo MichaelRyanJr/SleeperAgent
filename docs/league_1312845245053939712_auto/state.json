@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:50:06.273374Z",
+  "generated_at": "2026-10-31T17:24:31.065586Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,7 +101,7 @@
       "starters_current": [
         "4984",
         "8228",
-        "12529",
+        "4147",
         "9488",
         "8167",
         "12506",
@@ -117,11 +117,11 @@
         "12529",
         "3163",
         "4035",
+        "4147",
         "4984",
         "5844",
         "5892",
         "5927",
-        "5947",
         "6130",
         "8142",
         "8167",
@@ -149,13 +149,12 @@
           "draft_round": 13
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "4147",
+          "name": "Samaje Perine",
           "position": "RB",
-          "team": "NE",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9488",
@@ -231,6 +230,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -264,15 +272,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 4
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 7
         },
         {
           "player_id": "6130",
@@ -378,7 +377,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11564",
+        "7523",
         "12490",
         "8408",
         "6786",
@@ -409,13 +408,13 @@
       ],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "NE",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "12490",
@@ -499,6 +498,15 @@
           "keeper": false
         },
         {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
           "position": "WR",
@@ -544,15 +552,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "9753",
           "name": "Zach Charbonnet",
           "position": "RB",
@@ -563,15 +562,6 @@
         }
       ],
       "keepers": [
-        {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
-        },
         {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
@@ -589,6 +579,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "11631",
@@ -1154,7 +1153,7 @@
         "4881",
         "8151",
         "8150",
-        "5859",
+        "13298",
         "7564",
         "12518",
         "12495",
@@ -1210,13 +1209,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "13298",
+          "name": "KC Concepcion Jr.",
           "position": "WR",
-          "team": "NE",
-          "injury_status": "Questionable",
+          "team": "CLE",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 6
         },
         {
           "player_id": "7564",
@@ -1280,15 +1279,6 @@
           "keeper": false
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion Jr.",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "13337",
           "name": "Emmett Johnson",
           "position": "RB",
@@ -1323,6 +1313,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7543",
@@ -3848,7 +3847,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-10-31T12:50:06.273374Z",
-    "stale_after": "2026-10-31T13:50:06.273374Z"
+    "generated_at": "2026-10-31T17:24:31.065586Z",
+    "stale_after": "2026-10-31T18:24:31.065586Z"
   }
 }
