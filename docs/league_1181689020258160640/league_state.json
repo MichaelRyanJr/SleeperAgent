@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:27:54.128710Z",
+  "generated_at": "2026-11-01T20:45:11.834825Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -115,7 +115,7 @@
         "12506",
         "12514",
         "12529",
-        "3163",
+        "4034",
         "4035",
         "4147",
         "4984",
@@ -239,13 +239,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
-          "injury_status": null,
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 1
         },
         {
           "player_id": "4035",
@@ -1428,13 +1428,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11559",
+        "3163",
         "12512",
         "9224",
         "12519",
         "11646",
         "10859",
-        "11624",
+        "13345",
         "12711",
         "NE"
       ],
@@ -1448,7 +1448,7 @@
         "12519",
         "12711",
         "13345",
-        "4034",
+        "3163",
         "5001",
         "5872",
         "6904",
@@ -1459,12 +1459,13 @@
       ],
       "starters": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix Jr.",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "ATL",
+          "team": "DET",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "12512",
@@ -1512,13 +1513,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 9
         },
         {
           "player_id": "12711",
@@ -1541,6 +1542,23 @@
       ],
       "bench": [
         {
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1548,24 +1566,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 6
-        },
-        {
-          "player_id": "13345",
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
-        },
-        {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
-          "position": "RB",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "5001",
@@ -2935,7 +2935,7 @@
       "starters_current": [
         "6804",
         "3198",
-        "8155",
+        "8136",
         "4983",
         "11783",
         "1466",
@@ -2982,13 +2982,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Questionable",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 12
         },
         {
           "player_id": "4983",
@@ -3097,13 +3097,13 @@
           "keeper": false
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "WAS",
-          "injury_status": null,
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 12
+          "draft_round": 3
         },
         {
           "player_id": "8205",
@@ -3126,13 +3126,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Questionable",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 12
         },
         {
           "player_id": "12481",
@@ -3162,13 +3162,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "WAS",
-          "injury_status": null,
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 12
+          "draft_round": 3
         }
       ]
     }
@@ -3766,84 +3766,84 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 8,
-      "points": 20.3,
-      "result": "L"
+      "points": 107.48,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 1,
-      "points": 24.9,
-      "result": "W"
+      "points": 77.2,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": "L"
+      "points": 125.3,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 2,
-      "points": 11.36,
-      "result": "W"
+      "points": 30.46,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 10,
-      "points": 11.8,
+      "points": 84.96,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 3,
-      "points": 0.0,
+      "points": 66.72,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 5,
       "opponent_roster_id": 6,
-      "points": 0.0,
+      "points": 29.8,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 6,
       "opponent_roster_id": 5,
-      "points": 9.6,
+      "points": 45.06,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 9,
-      "points": 44.1,
+      "points": 123.06,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 9,
       "opponent_roster_id": 7,
-      "points": 0.0,
+      "points": 77.6,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 17.3,
+      "points": 55.72,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 22.52,
+      "points": 68.02,
       "result": "W"
     }
   ],
@@ -3855,7 +3855,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-01T16:27:54.128710Z",
-    "stale_after": "2026-11-01T17:27:54.128710Z"
+    "generated_at": "2026-11-01T20:45:11.834825Z",
+    "stale_after": "2026-11-01T21:45:11.834825Z"
   }
 }

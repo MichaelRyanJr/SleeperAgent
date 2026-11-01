@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:27:50.771798Z",
+  "generated_at": "2026-11-01T20:45:08.190255Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1782,7 +1782,7 @@
       "starters_current": [
         "4046",
         "4866",
-        "12529",
+        "12491",
         "8112",
         "12519",
         "11604",
@@ -1794,6 +1794,7 @@
         "11560",
         "11604",
         "11792",
+        "12491",
         "12519",
         "12529",
         "13274",
@@ -1804,7 +1805,6 @@
         "8112",
         "8122",
         "8126",
-        "9486",
         "9502",
         "PIT"
       ],
@@ -1828,13 +1828,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "12491",
+          "name": "Corey Kiner",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 4
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8112",
@@ -1901,6 +1900,15 @@
           "draft_round": 7
         },
         {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -1932,14 +1940,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "9486",
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "injury_status": "Out",
-          "keeper": false
         },
         {
           "player_id": "9502",
@@ -1977,7 +1977,7 @@
         "8138",
         "8151",
         "10232",
-        "11635",
+        "13301",
         "12517",
         "9487",
         "1945",
@@ -2039,13 +2039,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "13301",
+          "name": "Antonio Williams",
           "position": "WR",
-          "team": "LAC",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "12517",
@@ -2085,6 +2084,15 @@
       ],
       "bench": [
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -2117,14 +2125,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "13301",
-          "name": "Antonio Williams",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "13346",
@@ -3146,85 +3146,85 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 11,
-      "points": 30.32,
+      "points": 80.62,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 1,
-      "points": 0.0,
+      "points": 29.8,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 5,
-      "points": 21.4,
+      "points": 50.66,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 5,
       "opponent_roster_id": 2,
-      "points": 26.0,
+      "points": 80.62,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 3,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 46.86,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 9,
       "opponent_roster_id": 3,
-      "points": 0.0,
-      "result": null
+      "points": 43.6,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 8,
-      "points": 14.3,
+      "points": 73.5,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 4,
-      "points": 33.5,
+      "points": 74.8,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 6,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 106.98,
+      "result": "W"
     },
     {
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 56.66,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 7,
       "opponent_roster_id": 12,
-      "points": 1.6,
-      "result": "W"
+      "points": 21.7,
+      "result": "L"
     },
     {
       "week": 8,
       "roster_id": 12,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": "L"
+      "points": 23.8,
+      "result": "W"
     }
   ],
   "available_players": {
@@ -3235,7 +3235,7 @@
     "player_count": 2838,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-01T16:27:50.771798Z",
-    "stale_after": "2026-11-01T17:27:50.771798Z"
+    "generated_at": "2026-11-01T20:45:08.190255Z",
+    "stale_after": "2026-11-01T21:45:08.190255Z"
   }
 }
