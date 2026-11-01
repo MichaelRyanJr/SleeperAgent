@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T20:45:08.190255Z",
-  "stale_after": "2026-11-01T21:45:08.190255Z",
+  "generated_at": "2026-11-01T23:56:29.217838Z",
+  "stale_after": "2026-11-02T00:56:29.217838Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-01T20:45:05.087740Z",
+    "snapshot_started_at": "2026-11-01T23:56:25.472826Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-01T20:45:05.200546Z"
+      "fetched_at": "2026-11-01T23:56:25.612324Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-01T20:45:05.465567Z"
+      "fetched_at": "2026-11-01T23:56:25.948008Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-01T20:45:05.560958Z"
+        "fetched_at": "2026-11-01T23:56:26.070116Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-01T20:45:05.709458Z"
+      "fetched_at": "2026-11-01T23:56:26.240108Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,8 +61,8 @@
     "FB": 64,
     "K": 136,
     "P": 4,
-    "QB": 326,
-    "RB": 554,
+    "QB": 325,
+    "RB": 555,
     "SS": 1,
     "TE": 551,
     "WR": 1180
@@ -7800,32 +7800,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "4943",
-      "name": "Sam Darnold",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "SEA",
-      "age": 29,
-      "years_exp": 8,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1793485825833,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "7583",
       "name": "Sam Ehlinger",
       "position": "QB",
@@ -15072,6 +15046,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1791922849188,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "6130",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NYG",
+      "age": 29,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RB",
+      "news_updated": 1793229624568,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
