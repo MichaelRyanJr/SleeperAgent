@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:44:31.740091Z",
+  "generated_at": "2026-11-01T16:27:50.771798Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -790,7 +790,7 @@
       "starters_current": [
         "11566",
         "9509",
-        "8155",
+        "4147",
         "6801",
         "1479",
         "9484",
@@ -803,6 +803,7 @@
         "11632",
         "12474",
         "1479",
+        "4147",
         "6801",
         "7042",
         "7569",
@@ -811,7 +812,6 @@
         "8154",
         "8155",
         "8183",
-        "9482",
         "9484",
         "9509",
         "9757",
@@ -837,13 +837,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "4147",
+          "name": "Samaje Perine",
           "position": "RB",
-          "team": "NYJ",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 4
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "6801",
@@ -945,6 +944,15 @@
           "draft_round": 14
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "8183",
           "name": "Brock Purdy",
           "position": "QB",
@@ -952,14 +960,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "9757",
@@ -1193,7 +1193,7 @@
         "9500",
         "8146",
         "12506",
-        "11624",
+        "11586",
         "6083",
         "TB"
       ],
@@ -1271,13 +1271,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 8
         },
         {
           "player_id": "6083",
@@ -1298,13 +1298,13 @@
       ],
       "bench": [
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 13
         },
         {
           "player_id": "2216",
@@ -1591,7 +1591,7 @@
         "9997",
         "8167",
         "5022",
-        "13298",
+        "4983",
         "11533",
         "KC"
       ],
@@ -1669,13 +1669,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion Jr.",
+          "player_id": "4983",
+          "name": "DJ Moore",
           "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
+          "team": "BUF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 6
         },
         {
           "player_id": "11533",
@@ -1715,6 +1715,15 @@
           "draft_round": 3
         },
         {
+          "player_id": "13298",
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "13337",
           "name": "Emmett Johnson",
           "position": "RB",
@@ -1738,15 +1747,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 6
         },
         {
           "player_id": "9753",
@@ -2186,6 +2186,7 @@
       "players_current": [
         "10229",
         "11564",
+        "11783",
         "12512",
         "12527",
         "13345",
@@ -2198,7 +2199,6 @@
         "8134",
         "8228",
         "9488",
-        "9754",
         "WAS"
       ],
       "starters": [
@@ -2284,6 +2284,14 @@
       ],
       "bench": [
         {
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12512",
           "name": "Quinshon Judkins",
           "position": "RB",
@@ -2336,15 +2344,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         }
       ],
       "keepers": []
@@ -3236,7 +3235,7 @@
     "player_count": 2838,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-01T09:44:31.740091Z",
-    "stale_after": "2026-11-01T10:44:31.740091Z"
+    "generated_at": "2026-11-01T16:27:50.771798Z",
+    "stale_after": "2026-11-01T17:27:50.771798Z"
   }
 }

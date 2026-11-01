@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:44:34.511525Z",
+  "generated_at": "2026-11-01T16:27:54.128710Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1685,7 +1685,7 @@
         "7547",
         "12501",
         "10236",
-        "5967",
+        "5846",
         "11533",
         "TB"
       ],
@@ -1763,10 +1763,10 @@
           "draft_round": 6
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
@@ -1816,10 +1816,10 @@
           "keeper": false
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
@@ -2189,12 +2189,12 @@
         "budget_used": 0
       },
       "starters_current": [
-        "11560",
+        "1373",
         "9509",
-        "6790",
+        "7611",
         "8112",
         "8146",
-        "8110",
+        "12498",
         "10232",
         "6083",
         "JAX"
@@ -2204,28 +2204,28 @@
         "11560",
         "11628",
         "12489",
+        "12498",
         "12545",
         "13276",
         "13330",
+        "1373",
         "6083",
         "6790",
         "7611",
         "8110",
         "8112",
         "8146",
-        "8154",
         "9509",
         "JAX"
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "1373",
+          "name": "Geno Smith",
           "position": "QB",
-          "team": "CHI",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "keeper": false
         },
         {
           "player_id": "9509",
@@ -2237,13 +2237,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
-          "team": "CHI",
+          "team": "NE",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 9
         },
         {
           "player_id": "8112",
@@ -2264,13 +2264,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
-          "team": "DAL",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false
         },
         {
           "player_id": "10232",
@@ -2300,6 +2299,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
         {
           "player_id": "11628",
           "name": "Marvin Harrison Jr.",
@@ -2345,35 +2353,6 @@
           "draft_round": 11
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
-          "player_id": "8154",
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "team": "ATL",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 16
-        }
-      ],
-      "keepers": [
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "6790",
           "name": "D'Andre Swift",
           "position": "RB",
@@ -2381,6 +2360,26 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
+        }
+      ],
+      "keepers": [
+        {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "8112",
@@ -2401,15 +2400,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "10232",
           "name": "Michael Wilson",
           "position": "WR",
@@ -2419,13 +2409,31 @@
           "draft_round": 13
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 9
+          "draft_round": 7
+        },
+        {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         }
       ]
     },
@@ -3844,10 +3852,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-01T09:44:34.511525Z",
-    "stale_after": "2026-11-01T10:44:34.511525Z"
+    "generated_at": "2026-11-01T16:27:54.128710Z",
+    "stale_after": "2026-11-01T17:27:54.128710Z"
   }
 }
