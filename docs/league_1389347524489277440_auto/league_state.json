@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:56:29.217838Z",
+  "generated_at": "2026-11-02T05:21:21.919974Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -349,7 +349,7 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
         }
@@ -447,7 +447,7 @@
           "name": "George Pickens",
           "position": "WR",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 2
         },
@@ -465,7 +465,7 @@
           "name": "Jaylen Waddle",
           "position": "WR",
           "team": "DEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 5
         },
@@ -876,7 +876,7 @@
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 11
         },
@@ -948,7 +948,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
         },
@@ -1071,7 +1071,7 @@
           "name": "Hunter Henry",
           "position": "TE",
           "team": "NE",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 12
         },
@@ -1329,7 +1329,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "MIN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -1338,7 +1338,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
@@ -1445,7 +1445,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -1550,7 +1550,7 @@
           "name": "Kendrick Bourne",
           "position": "WR",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -1710,7 +1710,7 @@
           "name": "Jeremiyah Love",
           "position": "RB",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
         },
@@ -1840,7 +1840,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -1929,7 +1929,7 @@
           "name": "Zonovan Knight",
           "position": "RB",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2016,7 +2016,7 @@
           "name": "James Cook III",
           "position": "RB",
           "team": "BUF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -2034,7 +2034,7 @@
           "name": "Michael Wilson",
           "position": "WR",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
@@ -2332,7 +2332,7 @@
           "name": "Kenny Gainwell",
           "position": "RB",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         },
@@ -2448,7 +2448,7 @@
           "name": "Colby Parkinson",
           "position": "TE",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2484,7 +2484,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -3146,28 +3146,28 @@
       "week": 8,
       "roster_id": 1,
       "opponent_roster_id": 11,
-      "points": 108.72,
+      "points": 112.22,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 11,
       "opponent_roster_id": 1,
-      "points": 75.28,
+      "points": 107.26,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 2,
       "opponent_roster_id": 5,
-      "points": 94.44,
+      "points": 96.44,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 5,
       "opponent_roster_id": 2,
-      "points": 123.78,
+      "points": 124.78,
       "result": "W"
     },
     {
@@ -3181,21 +3181,21 @@
       "week": 8,
       "roster_id": 9,
       "opponent_roster_id": 3,
-      "points": 68.06,
+      "points": 84.74,
       "result": "W"
     },
     {
       "week": 8,
       "roster_id": 4,
       "opponent_roster_id": 8,
-      "points": 83.9,
+      "points": 98.88,
       "result": "L"
     },
     {
       "week": 8,
       "roster_id": 8,
       "opponent_roster_id": 4,
-      "points": 99.3,
+      "points": 99.5,
       "result": "W"
     },
     {
@@ -3209,7 +3209,7 @@
       "week": 8,
       "roster_id": 10,
       "opponent_roster_id": 6,
-      "points": 80.36,
+      "points": 93.46,
       "result": "L"
     },
     {
@@ -3223,7 +3223,7 @@
       "week": 8,
       "roster_id": 12,
       "opponent_roster_id": 7,
-      "points": 63.62,
+      "points": 82.78,
       "result": "W"
     }
   ],
@@ -3235,7 +3235,7 @@
     "player_count": 2838,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-01T23:56:29.217838Z",
-    "stale_after": "2026-11-02T00:56:29.217838Z"
+    "generated_at": "2026-11-02T05:21:21.919974Z",
+    "stale_after": "2026-11-02T06:21:21.919974Z"
   }
 }
