@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:21:41.846834Z",
+  "generated_at": "2026-11-03T18:31:54.134285Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -377,19 +377,18 @@
         "budget_used": 0
       },
       "starters_current": [
-        "7523",
+        "11564",
         "12490",
-        "8408",
+        "11576",
         "6786",
         "10213",
         "11604",
-        "11576",
+        "9753",
         "11792",
         "LAR"
       ],
       "players_current": [
         "10213",
-        "11435",
         "11564",
         "11576",
         "11604",
@@ -408,13 +407,13 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "11564",
+          "name": "Drake Maye",
           "position": "QB",
-          "team": "JAX",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "12490",
@@ -426,13 +425,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "MIN",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 15
         },
         {
           "player_id": "6786",
@@ -461,13 +460,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "NYJ",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 4
         },
         {
           "player_id": "11792",
@@ -489,23 +488,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
-        },
         {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
@@ -552,16 +534,34 @@
           "draft_round": 10
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 6
+        },
+        {
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         }
       ],
       "keepers": [
+        {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
+        },
         {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
@@ -579,15 +579,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "11631",
@@ -2189,13 +2180,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "1373",
+        "11560",
         "9509",
         "7611",
         "8112",
         "8146",
         "12498",
-        "10232",
+        "6790",
         "6083",
         "JAX"
       ],
@@ -2220,12 +2211,13 @@
       ],
       "starters": [
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "NYJ",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "9509",
@@ -2272,13 +2264,13 @@
           "keeper": false
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "6083",
@@ -2300,13 +2292,13 @@
       ],
       "bench": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "injury_status": null,
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 13
         },
         {
           "player_id": "11628",
@@ -2353,13 +2345,12 @@
           "draft_round": 11
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false
         },
         {
           "player_id": "8110",
@@ -2372,6 +2363,15 @@
         }
       ],
       "keepers": [
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
         {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
@@ -2400,24 +2400,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 13
-        },
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "6790",
           "name": "D'Andre Swift",
           "position": "RB",
@@ -2425,6 +2407,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "8110",
@@ -3936,10 +3927,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2836,
+    "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-03T11:21:41.846834Z",
-    "stale_after": "2026-11-03T12:21:41.846834Z"
+    "generated_at": "2026-11-03T18:31:54.134285Z",
+    "stale_after": "2026-11-03T19:31:54.134285Z"
   }
 }
