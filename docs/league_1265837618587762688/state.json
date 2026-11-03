@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:31:50.365229Z",
+  "generated_at": "2026-11-03T23:37:55.481469Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -382,7 +382,7 @@
         "9493",
         "8137",
         "13330",
-        "7526",
+        "5872",
         "11539",
         "MIN"
       ],
@@ -461,13 +461,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
+          "team": "SF",
+          "injury_status": "Out",
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 11
         },
         {
           "player_id": "11539",
@@ -516,15 +516,6 @@
           "keeper": false
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -541,6 +532,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "8121",
@@ -3319,7 +3319,7 @@
     "player_count": 2840,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-03T18:31:50.365229Z",
-    "stale_after": "2026-11-03T19:31:50.365229Z"
+    "generated_at": "2026-11-03T23:37:55.481469Z",
+    "stale_after": "2026-11-04T00:37:55.481469Z"
   }
 }
