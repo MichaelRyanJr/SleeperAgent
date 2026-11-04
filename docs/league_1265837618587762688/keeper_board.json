@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:39:18.553910Z",
+  "generated_at": "2026-11-04T23:56:02.903286Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -4843,10 +4843,10 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "13968",
-          "name": "Drew Stevens",
+          "player_id": "2020",
+          "name": "Cairo Santos",
           "position": "K",
-          "team": "WAS",
+          "team": "CHI",
           "injury_status": null,
           "original_draft_round": null,
           "original_draft_pick_no": null,
@@ -4854,8 +4854,8 @@
           "original_drafted_by": null,
           "original_draft_roster_id": null,
           "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1421677051764559872",
-          "acquisition_time": "2026-10-29T23:32:11.925000Z",
+          "acquisition_transaction_id": "1423781351080923136",
+          "acquisition_time": "2026-11-04T18:53:55.977000Z",
           "acquisition_league_id": "1389347524489277440",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
@@ -5086,30 +5086,30 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "WAS",
-          "name": "Washington",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "WAS",
+          "team": "HOU",
           "injury_status": null,
-          "original_draft_round": 15,
-          "original_draft_pick_no": 173,
-          "original_draft_slot": 5,
-          "original_drafted_by": "870159599997792256",
-          "original_draft_roster_id": 9,
+          "original_draft_round": 16,
+          "original_draft_pick_no": 191,
+          "original_draft_slot": 2,
+          "original_drafted_by": "733489057216184320",
+          "original_draft_roster_id": 7,
           "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1421677158643847168",
-          "acquisition_time": "2026-10-29T23:32:37.406000Z",
+          "acquisition_transaction_id": "1423781222601035776",
+          "acquisition_time": "2026-11-04T18:53:25.346000Z",
           "acquisition_league_id": "1389347524489277440",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
           "keeper_eligible": true,
           "eligibility_reason": "original_draft_round_retained",
-          "keeper_base_round": 15,
-          "keeper_cost_round": 15,
+          "keeper_base_round": 16,
+          "keeper_cost_round": 16,
           "keeper_cost_source": "previous_draft",
           "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 15,
+          "current_draft_round": 11,
+          "base_keeper_cost_round": 16,
           "keeper_cost_round_is_provisional": true
         }
       ]
@@ -5591,5 +5591,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-11-04T18:39:18.601147Z"
+  "rules_updated_at": "2026-11-04T23:56:02.943466Z"
 }

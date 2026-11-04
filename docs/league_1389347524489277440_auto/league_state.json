@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:39:18.079277Z",
+  "generated_at": "2026-11-04T23:56:02.477392Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2184,13 +2184,13 @@
       "starters_current": [
         "11564",
         "12527",
-        "8228",
+        "13345",
         "5045",
         "9488",
         "5012",
         "10229",
-        "13968",
-        "WAS"
+        "2020",
+        "HOU"
       ],
       "players_current": [
         "10229",
@@ -2199,7 +2199,7 @@
         "12512",
         "12527",
         "13345",
-        "13968",
+        "2020",
         "3451",
         "4217",
         "5012",
@@ -2208,7 +2208,7 @@
         "8134",
         "8228",
         "9488",
-        "WAS"
+        "HOU"
       ],
       "starters": [
         {
@@ -2230,13 +2230,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
           "position": "RB",
-          "team": "PIT",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 12
         },
         {
           "player_id": "5045",
@@ -2275,20 +2275,21 @@
           "draft_round": 3
         },
         {
-          "player_id": "13968",
-          "name": "Drew Stevens",
+          "player_id": "2020",
+          "name": "Cairo Santos",
           "position": "K",
-          "team": "WAS",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         },
         {
-          "player_id": "WAS",
-          "name": "Washington",
+          "player_id": "HOU",
+          "name": "Houston",
           "position": "DEF",
-          "team": "WAS",
+          "team": "HOU",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "bench": [
@@ -2308,15 +2309,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "13345",
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "3451",
@@ -2353,6 +2345,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         }
       ],
       "keepers": []
@@ -3328,7 +3329,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-04T18:39:18.079277Z",
-    "stale_after": "2026-11-04T19:39:18.079277Z"
+    "generated_at": "2026-11-04T23:56:02.477392Z",
+    "stale_after": "2026-11-05T00:56:02.477392Z"
   }
 }
