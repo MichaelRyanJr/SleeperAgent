@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:11:45.264814Z",
+  "generated_at": "2026-11-04T18:39:18.079277Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -465,7 +465,7 @@
           "name": "Deebo Samuel Sr.",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -519,7 +519,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -751,7 +751,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -875,7 +875,7 @@
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -911,7 +911,7 @@
           "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
@@ -938,7 +938,7 @@
           "name": "Brian Robinson Jr.",
           "position": "RB",
           "team": "ATL",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 14
         },
@@ -947,7 +947,7 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -1070,7 +1070,7 @@
           "name": "Hunter Henry",
           "position": "TE",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         },
@@ -1189,10 +1189,10 @@
         "4984",
         "9221",
         "11584",
-        "9500",
-        "8146",
+        "2216",
+        "8144",
         "12506",
-        "11586",
+        "8146",
         "6083",
         "TB"
       ],
@@ -1243,22 +1243,22 @@
           "draft_round": 5
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "IND",
-          "injury_status": null,
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 7
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "8144",
+          "name": "Chris Olave",
           "position": "WR",
-          "team": "NYJ",
+          "team": "NO",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 2
         },
         {
           "player_id": "12506",
@@ -1270,13 +1270,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 4
         },
         {
           "player_id": "6083",
@@ -1297,6 +1297,15 @@
       ],
       "bench": [
         {
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "position": "WR",
@@ -1304,15 +1313,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 7
         },
         {
           "player_id": "4035",
@@ -1342,13 +1342,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "9500",
+          "name": "Josh Downs",
           "position": "WR",
-          "team": "NO",
+          "team": "IND",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 9
         },
         {
           "player_id": "9508",
@@ -1444,7 +1444,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -1453,7 +1453,7 @@
           "name": "Emeka Egbuka",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -1549,7 +1549,7 @@
           "name": "Kendrick Bourne",
           "position": "WR",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false
         },
         {
@@ -1710,7 +1710,7 @@
           "name": "Jeremiyah Love",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "keeper": false,
           "draft_round": 3
         },
@@ -1848,7 +1848,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
@@ -1912,7 +1912,7 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -1937,7 +1937,7 @@
           "name": "Zonovan Knight",
           "position": "RB",
           "team": "ARI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2016,7 +2016,7 @@
           "name": "James Cook III",
           "position": "RB",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -2457,7 +2457,7 @@
           "name": "Colby Parkinson",
           "position": "TE",
           "team": "LAR",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2527,7 +2527,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -3325,10 +3325,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2839,
+    "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-04T11:11:45.264814Z",
-    "stale_after": "2026-11-04T12:11:45.264814Z"
+    "generated_at": "2026-11-04T18:39:18.079277Z",
+    "stale_after": "2026-11-04T19:39:18.079277Z"
   }
 }

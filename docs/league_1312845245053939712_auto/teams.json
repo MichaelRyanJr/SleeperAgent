@@ -28,13 +28,13 @@
         "draft_round": 2
       },
       {
-        "player_id": "8228",
-        "name": "Jaylen Warren",
+        "player_id": "5892",
+        "name": "David Montgomery",
         "position": "RB",
-        "team": "PIT",
-        "injury_status": null,
+        "team": "HOU",
+        "injury_status": "Questionable",
         "keeper": true,
-        "draft_round": 13
+        "draft_round": 7
       },
       {
         "player_id": "9488",
@@ -59,18 +59,9 @@
         "name": "Emeka Egbuka",
         "position": "WR",
         "team": "TB",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 5
-      },
-      {
-        "player_id": "5892",
-        "name": "David Montgomery",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": "Out",
-        "keeper": true,
-        "draft_round": 7
       },
       {
         "player_id": "5927",
@@ -80,6 +71,15 @@
         "injury_status": "IR",
         "keeper": true,
         "draft_round": 4
+      },
+      {
+        "player_id": "8228",
+        "name": "Jaylen Warren",
+        "position": "RB",
+        "team": "PIT",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 13
       }
     ]
   },
@@ -121,15 +121,6 @@
         "draft_round": 10
       },
       {
-        "player_id": "11631",
-        "name": "Brian Thomas Jr.",
-        "position": "WR",
-        "team": "JAX",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 7
-      },
-      {
         "player_id": "11604",
         "name": "Brock Bowers",
         "position": "TE",
@@ -139,11 +130,20 @@
         "draft_round": 5
       },
       {
+        "player_id": "11631",
+        "name": "Brian Thomas Jr.",
+        "position": "WR",
+        "team": "JAX",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 7
+      },
+      {
         "player_id": "12534",
         "name": "Kyle Monangai",
         "position": "RB",
         "team": "CHI",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 13
       }
@@ -301,15 +301,6 @@
     },
     "keepers": [
       {
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "position": "QB",
-        "team": "BAL",
-        "injury_status": "Out",
-        "keeper": true,
-        "draft_round": 3
-      },
-      {
         "player_id": "8151",
         "name": "Kenneth Walker III",
         "position": "RB",
@@ -328,13 +319,13 @@
         "draft_round": 13
       },
       {
-        "player_id": "12518",
-        "name": "Tyler Warren",
-        "position": "TE",
-        "team": "IND",
+        "player_id": "7569",
+        "name": "Nico Collins",
+        "position": "WR",
+        "team": "HOU",
         "injury_status": null,
         "keeper": true,
-        "draft_round": 7
+        "draft_round": 14
       },
       {
         "player_id": "11586",
@@ -346,6 +337,24 @@
         "draft_round": 12
       },
       {
+        "player_id": "12518",
+        "name": "Tyler Warren",
+        "position": "TE",
+        "team": "IND",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 7
+      },
+      {
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 3
+      },
+      {
         "player_id": "7543",
         "name": "Travis Etienne Jr.",
         "position": "RB",
@@ -353,15 +362,6 @@
         "injury_status": "IR",
         "keeper": true,
         "draft_round": 5
-      },
-      {
-        "player_id": "7569",
-        "name": "Nico Collins",
-        "position": "WR",
-        "team": "HOU",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 14
       }
     ]
   },
@@ -473,7 +473,7 @@
         "name": "Amon-Ra St. Brown",
         "position": "WR",
         "team": "DET",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 2
       },
@@ -539,7 +539,7 @@
         "name": "James Cook III",
         "position": "RB",
         "team": "BUF",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 5
       },
@@ -575,7 +575,7 @@
         "name": "Hunter Henry",
         "position": "TE",
         "team": "NE",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 14
       },
@@ -632,7 +632,7 @@
         "name": "Drake London",
         "position": "WR",
         "team": "ATL",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 6
       },
@@ -641,7 +641,7 @@
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 2
       },
@@ -668,7 +668,7 @@
         "name": "Jake Ferguson",
         "position": "TE",
         "team": "DAL",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 14
       }
@@ -812,7 +812,7 @@
         "name": "Mike Evans",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 6
       },
@@ -848,7 +848,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 3
       }
