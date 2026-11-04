@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:16:51.887298Z",
+  "generated_at": "2026-11-04T11:11:48.476582Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -381,14 +381,13 @@
         "12490",
         "11576",
         "6786",
-        "10213",
+        "11631",
         "11604",
-        "9753",
+        "13414",
         "11792",
         "LAR"
       ],
       "players_current": [
-        "10213",
         "11564",
         "11576",
         "11604",
@@ -399,6 +398,7 @@
         "13286",
         "13293",
         "13414",
+        "5947",
         "6786",
         "7523",
         "8408",
@@ -443,12 +443,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
+          "player_id": "11631",
+          "name": "Brian Thomas Jr.",
           "position": "WR",
-          "team": "LV",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "11604",
@@ -460,13 +461,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "13414",
+          "name": "Kaelon Black",
           "position": "RB",
-          "team": "SEA",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 10
         },
         {
           "player_id": "11792",
@@ -488,15 +489,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
         {
           "player_id": "12534",
           "name": "Kyle Monangai",
@@ -525,13 +517,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "13414",
-          "name": "Kaelon Black",
-          "position": "RB",
-          "team": "SF",
-          "injury_status": null,
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 10
+          "draft_round": 7
         },
         {
           "player_id": "7523",
@@ -550,6 +542,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
         }
       ],
       "keepers": [
@@ -572,15 +573,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
           "position": "WR",
@@ -588,6 +580,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "12534",
@@ -889,7 +890,7 @@
         "9756",
         "12517",
         "11620",
-        "1945",
+        "0",
         "SEA"
       ],
       "players_current": [
@@ -903,7 +904,7 @@
         "13269",
         "13294",
         "13424",
-        "1945",
+        "7042",
         "9226",
         "9228",
         "9493",
@@ -974,15 +975,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "1945",
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "SEA",
           "name": "Seattle",
           "position": "DEF",
@@ -1045,6 +1037,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9226",
@@ -1678,7 +1678,7 @@
         "10236",
         "5846",
         "11533",
-        "TB"
+        "0"
       ],
       "players_current": [
         "10236",
@@ -1696,7 +1696,7 @@
         "7547",
         "8134",
         "9221",
-        "TB"
+        "SF"
       ],
       "starters": [
         {
@@ -1770,14 +1770,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
-        },
-        {
-          "player_id": "TB",
-          "name": "Tampa Bay",
-          "position": "DEF",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1841,6 +1833,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco",
+          "position": "DEF",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -2187,20 +2187,20 @@
         "8146",
         "12498",
         "6790",
-        "6083",
+        "4227",
         "JAX"
       ],
       "players_current": [
         "10232",
         "11560",
+        "11625",
         "11628",
         "12489",
         "12498",
         "12545",
         "13276",
         "13330",
-        "1373",
-        "6083",
+        "4227",
         "6790",
         "7611",
         "8110",
@@ -2273,12 +2273,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
+          "player_id": "4227",
+          "name": "Harrison Butker",
           "position": "K",
-          "team": "LV",
+          "team": "KC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "JAX",
@@ -2299,6 +2300,14 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11628",
@@ -2343,14 +2352,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
-        },
-        {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8110",
@@ -3930,7 +3931,7 @@
     "player_count": 2837,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-04T03:16:51.887298Z",
-    "stale_after": "2026-11-04T04:16:51.887298Z"
+    "generated_at": "2026-11-04T11:11:48.476582Z",
+    "stale_after": "2026-11-04T12:11:48.476582Z"
   }
 }

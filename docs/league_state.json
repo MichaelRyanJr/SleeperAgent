@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:16:46.796065Z",
+  "generated_at": "2026-11-04T11:11:45.264814Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -178,7 +178,7 @@
       "points_for": 785.68,
       "points_against": 816.02,
       "waiver": {
-        "position": 9,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -200,7 +200,6 @@
         "12495",
         "12507",
         "12526",
-        "12534",
         "13279",
         "13294",
         "4881",
@@ -208,6 +207,7 @@
         "6794",
         "6804",
         "8130",
+        "8132",
         "LAR"
       ],
       "starters": [
@@ -318,15 +318,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 10
-        },
-        {
           "player_id": "13279",
           "name": "Carnell Tate",
           "position": "WR",
@@ -352,6 +343,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         }
       ],
       "keepers": []
@@ -372,7 +372,7 @@
       "points_for": 868.82,
       "points_against": 869.8,
       "waiver": {
-        "position": 8,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -388,10 +388,10 @@
       ],
       "players_current": [
         "11539",
-        "11631",
         "11786",
         "13330",
         "3163",
+        "4993",
         "5870",
         "5872",
         "5892",
@@ -490,15 +490,6 @@
       ],
       "bench": [
         {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "11786",
           "name": "Cam Little",
           "position": "K",
@@ -506,6 +497,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5870",
@@ -1379,7 +1378,7 @@
       "points_for": 770.1,
       "points_against": 790.44,
       "waiver": {
-        "position": 10,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -1599,6 +1598,7 @@
         "11533",
         "12518",
         "13287",
+        "13296",
         "13298",
         "13337",
         "13424",
@@ -1713,6 +1713,14 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13298",
@@ -1973,7 +1981,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "3257",
+        "0",
         "8138",
         "8151",
         "10232",
@@ -1992,9 +2000,9 @@
         "13281",
         "13286",
         "13301",
+        "13305",
         "13346",
         "1945",
-        "3257",
         "4943",
         "8138",
         "8151",
@@ -2003,14 +2011,6 @@
         "JAX"
       ],
       "starters": [
-        {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "8138",
           "name": "James Cook III",
@@ -2125,6 +2125,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "13305",
+          "name": "Mike Washington Jr.",
+          "position": "RB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "13346",
@@ -3316,10 +3325,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2840,
+    "player_count": 2839,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-04T03:16:46.796065Z",
-    "stale_after": "2026-11-04T04:16:46.796065Z"
+    "generated_at": "2026-11-04T11:11:45.264814Z",
+    "stale_after": "2026-11-04T12:11:45.264814Z"
   }
 }

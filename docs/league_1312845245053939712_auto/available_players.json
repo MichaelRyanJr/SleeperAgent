@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T03:16:51.887298Z",
-  "stale_after": "2026-11-04T04:16:51.887298Z",
+  "generated_at": "2026-11-04T11:11:48.476582Z",
+  "stale_after": "2026-11-04T12:11:48.476582Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-04T03:16:47.267347Z",
+    "snapshot_started_at": "2026-11-04T11:11:45.877058Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-04T03:16:47.446152Z"
+      "fetched_at": "2026-11-04T11:11:45.958275Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-04T03:16:47.817089Z"
+      "fetched_at": "2026-11-04T11:11:46.152717Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-04T03:16:47.955549Z"
+        "fetched_at": "2026-11-04T11:11:46.216979Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-04T03:16:48.091729Z"
+      "fetched_at": "2026-11-04T11:11:46.318645Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,11 +61,11 @@
     "FB": 64,
     "K": 138,
     "P": 4,
-    "QB": 321,
+    "QB": 322,
     "RB": 559,
     "SS": 1,
     "TE": 549,
-    "WR": 1180
+    "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -539,8 +539,8 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
+      "player_id": "TB",
+      "name": "Tampa Bay Buccaneers",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -548,7 +548,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "SF",
+      "team": "TB",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -2489,6 +2489,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "1945",
+      "name": "Chris Boswell",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "PIT",
+      "age": 35,
+      "years_exp": 12,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1793671850565,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 10
+    },
+    {
       "player_id": "5095",
       "name": "Daniel Carlson",
       "position": "K",
@@ -2591,32 +2617,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "4227",
-      "name": "Harrison Butker",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "KC",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1793665849810,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "4195",
@@ -2827,6 +2827,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "6083",
+      "name": "Matt Gay",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "LV",
+      "age": 32,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1793671250651,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "12961",
       "name": "Ryan Fitzgerald",
       "position": "K",
@@ -2871,32 +2897,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1793370913421,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "7042",
-      "name": "Tyler Bass",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "BUF",
-      "age": 29,
-      "years_exp": 6,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1793670050471,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -6778,6 +6778,32 @@
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "news_updated": 1793565036963,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "1373",
+      "name": "Geno Smith",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "NYJ",
+      "age": 36,
+      "years_exp": 13,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1793575839406,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -43163,32 +43189,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "11625",
-      "name": "Adonai Mitchell",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NYJ",
-      "age": 24,
-      "years_exp": 2,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RWR",
-      "news_updated": 1793598941561,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "12865",
       "name": "AJ Henning",
       "position": "WR",
@@ -45709,32 +45709,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "5947",
-      "name": "Jakobi Meyers",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "JAX",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RWR",
-      "news_updated": 1793673350468,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 7
     },
     {
       "player_id": "11506",
@@ -48355,6 +48329,32 @@
       "depth_chart_order": 3,
       "depth_chart_position": "RWR",
       "news_updated": 1793061926954,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "LV",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "LWR",
+      "news_updated": 1793666449996,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
