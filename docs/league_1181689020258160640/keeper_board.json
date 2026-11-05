@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:56:08.629970Z",
+  "generated_at": "2026-11-05T05:50:44.797615Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -548,6 +548,33 @@
       },
       "players": [
         {
+          "player_id": "10219",
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1423874020708769792",
+          "acquisition_time": "2026-11-05T01:02:10.139000Z",
+          "acquisition_league_id": "1312845245053939712",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": 11,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -760,33 +787,6 @@
           "keeper_cost_source": "undrafted_base_rule",
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 1,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "waiver",
-          "acquisition_transaction_id": "1418113201282842624",
-          "acquisition_time": "2026-10-20T03:30:43.756000Z",
-          "acquisition_league_id": "1312845245053939712",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": 8,
           "base_keeper_cost_round": 14,
           "keeper_cost_round_is_provisional": true
         },
@@ -5840,5 +5840,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-11-04T23:56:08.670306Z"
+  "rules_updated_at": "2026-11-05T05:50:44.849739Z"
 }

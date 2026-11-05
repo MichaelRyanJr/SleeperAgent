@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T23:56:08.191384Z",
-  "stale_after": "2026-11-05T00:56:08.191384Z",
+  "generated_at": "2026-11-05T05:50:44.267520Z",
+  "stale_after": "2026-11-05T06:50:44.267520Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-04T23:56:03.051168Z",
+    "snapshot_started_at": "2026-11-05T05:50:40.359462Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-04T23:56:03.256696Z"
+      "fetched_at": "2026-11-05T05:50:40.493836Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-04T23:56:03.663438Z"
+      "fetched_at": "2026-11-05T05:50:40.783714Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-04T23:56:03.868622Z"
+        "fetched_at": "2026-11-05T05:50:40.949111Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-04T23:56:04.025668Z"
+      "fetched_at": "2026-11-05T05:50:41.101298Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,10 +62,10 @@
     "K": 137,
     "P": 4,
     "QB": 322,
-    "RB": 557,
+    "RB": 556,
     "SS": 1,
     "TE": 549,
-    "WR": 1178
+    "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -14688,32 +14688,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "10219",
-      "name": "Chris Rodriguez Jr.",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "JAX",
-      "age": 27,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1793745028516,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 11
     },
     {
       "player_id": "13277",
@@ -45319,6 +45293,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "13293",
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "BAL",
+      "age": 22,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RWR",
+      "news_updated": 1793676951199,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 8
     },
     {
       "player_id": "13696",

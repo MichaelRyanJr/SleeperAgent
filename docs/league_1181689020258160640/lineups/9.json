@@ -333,6 +333,13 @@
     ],
     "bench": [
       {
+        "player_id": "10219",
+        "name": "Chris Rodriguez Jr.",
+        "position": "RB",
+        "team": "JAX",
+        "injury_status": "Questionable"
+      },
+      {
         "player_id": "11631",
         "name": "Brian Thomas Jr.",
         "position": "WR",
@@ -351,13 +358,6 @@
         "name": "Jadarian Price",
         "position": "RB",
         "team": "SEA",
-        "injury_status": null
-      },
-      {
-        "player_id": "13293",
-        "name": "Ja'Kobi Lane",
-        "position": "WR",
-        "team": "BAL",
         "injury_status": null
       },
       {
@@ -652,11 +652,11 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "5849",
-        "name": "Kyler Murray",
+        "player_id": "9758",
+        "name": "C.J. Stroud",
         "position": "QB",
-        "team": "MIN",
-        "injury_status": "Questionable"
+        "team": "HOU",
+        "injury_status": null
       },
       {
         "player_id": "6813",
@@ -666,17 +666,17 @@
         "injury_status": null
       },
       {
-        "player_id": "6806",
-        "name": "J.K. Dobbins",
+        "player_id": "12474",
+        "name": "Woody Marks",
         "position": "RB",
-        "team": "DEN",
+        "team": "HOU",
         "injury_status": null
       },
       {
-        "player_id": "13301",
-        "name": "Antonio Williams",
+        "player_id": "8144",
+        "name": "Chris Olave",
         "position": "WR",
-        "team": "WAS",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -687,10 +687,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9484",
-        "name": "Tucker Kraft",
+        "player_id": "8131",
+        "name": "Isaiah Likely",
         "position": "TE",
-        "team": "GB",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -724,13 +724,6 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "12474",
-        "name": "Woody Marks",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": null
-      },
-      {
         "player_id": "12492",
         "name": "Pat Bryant",
         "position": "WR",
@@ -745,6 +738,20 @@
         "injury_status": null
       },
       {
+        "player_id": "13301",
+        "name": "Antonio Williams",
+        "position": "WR",
+        "team": "WAS",
+        "injury_status": null
+      },
+      {
+        "player_id": "5849",
+        "name": "Kyler Murray",
+        "position": "QB",
+        "team": "MIN",
+        "injury_status": "Questionable"
+      },
+      {
         "player_id": "6797",
         "name": "Justin Herbert",
         "position": "QB",
@@ -752,17 +759,17 @@
         "injury_status": null
       },
       {
-        "player_id": "8131",
-        "name": "Isaiah Likely",
-        "position": "TE",
-        "team": "NYG",
+        "player_id": "6806",
+        "name": "J.K. Dobbins",
+        "position": "RB",
+        "team": "DEN",
         "injury_status": null
       },
       {
-        "player_id": "8144",
-        "name": "Chris Olave",
-        "position": "WR",
-        "team": "NO",
+        "player_id": "9484",
+        "name": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
         "injury_status": null
       },
       {
@@ -771,13 +778,6 @@
         "position": "RB",
         "team": "TEN",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "9758",
-        "name": "C.J. Stroud",
-        "position": "QB",
-        "team": "HOU",
-        "injury_status": null
       }
     ]
   },
