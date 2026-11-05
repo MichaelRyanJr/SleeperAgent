@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:40:02.283099Z",
+  "generated_at": "2026-11-05T20:50:09.941051Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -447,7 +447,7 @@
           "name": "George Pickens",
           "position": "WR",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -519,7 +519,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
         },
@@ -669,7 +669,7 @@
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -849,7 +849,7 @@
           "name": "Malik Nabers",
           "position": "WR",
           "team": "NYG",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -1116,7 +1116,7 @@
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
@@ -1189,10 +1189,10 @@
         "4984",
         "9221",
         "11584",
-        "2216",
         "8144",
+        "9500",
         "12506",
-        "8146",
+        "11586",
         "6083",
         "TB"
       ],
@@ -1243,15 +1243,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
@@ -1259,6 +1250,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "12506",
@@ -1270,13 +1270,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Questionable",
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 8
         },
         {
           "player_id": "6083",
@@ -1297,15 +1297,6 @@
       ],
       "bench": [
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "position": "WR",
@@ -1315,11 +1306,20 @@
           "draft_round": 13
         },
         {
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 7
+        },
+        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         },
@@ -1337,18 +1337,18 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "IND",
-          "injury_status": null,
+          "team": "NYJ",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 9
+          "draft_round": 4
         },
         {
           "player_id": "9508",
@@ -1417,7 +1417,7 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         },
@@ -1444,7 +1444,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -1831,7 +1831,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -2140,7 +2140,7 @@
           "name": "Denzel Boston",
           "position": "WR",
           "team": "CLE",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2148,7 +2148,7 @@
           "name": "Sam Darnold",
           "position": "QB",
           "team": "SEA",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false
         },
         {
@@ -2270,7 +2270,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -2333,7 +2333,7 @@
           "name": "Kenny Gainwell",
           "position": "RB",
           "team": "TB",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 9
         },
@@ -3326,10 +3326,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-05T13:40:02.283099Z",
-    "stale_after": "2026-11-05T14:40:02.283099Z"
+    "generated_at": "2026-11-05T20:50:09.941051Z",
+    "stale_after": "2026-11-05T21:50:09.941051Z"
   }
 }

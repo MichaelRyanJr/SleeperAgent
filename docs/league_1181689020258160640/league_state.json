@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:40:07.001845Z",
+  "generated_at": "2026-11-05T20:50:15.202633Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -153,7 +153,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -251,7 +251,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -333,7 +333,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -447,7 +447,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 7
         },
@@ -494,7 +494,7 @@
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 11
         },
@@ -693,7 +693,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -839,7 +839,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 13
         },
@@ -887,10 +887,10 @@
         "13424",
         "11643",
         "9493",
-        "9756",
+        "11632",
         "12517",
         "11620",
-        "0",
+        "7042",
         "SEA"
       ],
       "players_current": [
@@ -935,7 +935,7 @@
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -948,13 +948,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "9756",
-          "name": "Jordan Addison",
+          "player_id": "11632",
+          "name": "Malik Nabers",
           "position": "WR",
-          "team": "MIN",
-          "injury_status": null,
+          "team": "NYG",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 2
         },
         {
           "player_id": "12517",
@@ -975,6 +975,14 @@
           "draft_round": 5
         },
         {
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "SEA",
           "name": "Seattle",
           "position": "DEF",
@@ -992,15 +1000,6 @@
           "team": "CHI",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 2
         },
         {
           "player_id": "12508",
@@ -1039,14 +1038,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "9226",
           "name": "De'Von Achane",
           "position": "RB",
@@ -1062,6 +1053,15 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "HOU",
@@ -1730,7 +1730,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 2
         },
@@ -1866,7 +1866,7 @@
           "name": "Amon-Ra St. Brown",
           "position": "WR",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 2
         },
@@ -1989,7 +1989,7 @@
           "name": "George Pickens",
           "position": "WR",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         },
@@ -2062,7 +2062,7 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -2135,7 +2135,7 @@
           "name": "George Pickens",
           "position": "WR",
           "team": "DAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         },
@@ -2153,7 +2153,7 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         }
@@ -2259,7 +2259,7 @@
           "name": "Mason Taylor",
           "position": "TE",
           "team": "NYJ",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2491,7 +2491,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -2582,7 +2582,7 @@
           "name": "Denzel Boston",
           "position": "WR",
           "team": "CLE",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -2690,7 +2690,6 @@
         "8144",
         "9484",
         "9500",
-        "9508",
         "9758",
         "CLE"
       ],
@@ -2845,15 +2844,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 12
         }
       ],
       "keepers": [
@@ -3004,7 +2994,7 @@
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -3927,10 +3917,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2832,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-05T13:40:07.001845Z",
-    "stale_after": "2026-11-05T14:40:07.001845Z"
+    "generated_at": "2026-11-05T20:50:15.202633Z",
+    "stale_after": "2026-11-05T21:50:15.202633Z"
   }
 }
