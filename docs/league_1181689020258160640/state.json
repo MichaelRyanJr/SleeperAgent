@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:50:44.267520Z",
+  "generated_at": "2026-11-05T13:40:07.001845Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,11 +101,11 @@
       "starters_current": [
         "4984",
         "4034",
-        "5892",
+        "4035",
         "9488",
         "8167",
         "12506",
-        "12514",
+        "5844",
         "11786",
         "MIN"
       ],
@@ -149,13 +149,12 @@
           "draft_round": 1
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 7
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9488",
@@ -185,13 +184,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 5
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "11786",
@@ -222,6 +221,15 @@
           "keeper": false
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -229,14 +237,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "4147",
@@ -247,13 +247,13 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "5927",
@@ -302,15 +302,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "9488",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -336,6 +327,15 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "5927",
@@ -3930,7 +3930,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-05T05:50:44.267520Z",
-    "stale_after": "2026-11-05T06:50:44.267520Z"
+    "generated_at": "2026-11-05T13:40:07.001845Z",
+    "stale_after": "2026-11-05T14:40:07.001845Z"
   }
 }
