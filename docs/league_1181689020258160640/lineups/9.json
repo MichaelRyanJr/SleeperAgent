@@ -23,7 +23,7 @@
         "name": "Alvin Kamara",
         "position": "RB",
         "team": "NO",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9488",
@@ -37,7 +37,7 @@
         "name": "Christian Watson",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "12506",
@@ -74,21 +74,14 @@
         "name": "Keon Coleman",
         "position": "WR",
         "team": "BUF",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12529",
         "name": "TreVeyon Henderson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Questionable"
-      },
-      {
-        "player_id": "4147",
-        "name": "Samaje Perine",
-        "position": "RB",
-        "team": "CIN",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "5844",
@@ -124,6 +117,13 @@
         "position": "WR",
         "team": "IND",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "8161",
+        "name": "Malik Willis",
+        "position": "QB",
+        "team": "MIA",
+        "injury_status": null
       },
       {
         "player_id": "8228",
@@ -251,7 +251,7 @@
         "name": "DeVonta Smith",
         "position": "WR",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "9757",
@@ -279,7 +279,7 @@
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "11576",
@@ -417,18 +417,18 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "2216",
-        "name": "Mike Evans",
+        "player_id": "11783",
+        "name": "Ryan Flournoy",
         "position": "WR",
-        "team": "SF",
-        "injury_status": "Questionable"
+        "team": "DAL",
+        "injury_status": null
       },
       {
         "player_id": "1466",
         "name": "Travis Kelce",
         "position": "TE",
         "team": "KC",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8136",
@@ -454,18 +454,18 @@
     ],
     "bench": [
       {
-        "player_id": "11783",
-        "name": "Ryan Flournoy",
-        "position": "WR",
-        "team": "DAL",
-        "injury_status": null
-      },
-      {
         "player_id": "11834",
         "name": "Devaughn Vele",
         "position": "WR",
         "team": "NO",
         "injury_status": null
+      },
+      {
+        "player_id": "2216",
+        "name": "Mike Evans",
+        "position": "WR",
+        "team": "SF",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4037",
@@ -500,7 +500,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8205",
@@ -549,7 +549,7 @@
         "name": "Rashee Rice",
         "position": "WR",
         "team": "KC",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8130",
@@ -984,7 +984,7 @@
         "name": "MarShawn Lloyd",
         "position": "RB",
         "team": "GB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12469",
@@ -1139,7 +1139,7 @@
         "player_id": "3257",
         "name": "Jacoby Brissett",
         "position": "QB",
-        "team": "ARI",
+        "team": "BAL",
         "injury_status": null
       },
       {
@@ -1147,14 +1147,14 @@
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": "Out"
+        "injury_status": "IR"
       },
       {
         "player_id": "5859",
         "name": "A.J. Brown",
         "position": "WR",
         "team": "NE",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "7543",
@@ -1210,7 +1210,7 @@
         "name": "Dalton Kincaid",
         "position": "TE",
         "team": "BUF",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "1479",
@@ -1320,18 +1320,18 @@
         "injury_status": null
       },
       {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
+        "player_id": "13276",
+        "name": "Omar Cooper Jr.",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "12498",
         "name": "Mason Taylor",
         "position": "TE",
         "team": "NYJ",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "6790",
@@ -1392,13 +1392,6 @@
         "injury_status": null
       },
       {
-        "player_id": "13276",
-        "name": "Omar Cooper Jr.",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": null
-      },
-      {
         "player_id": "13330",
         "name": "Kenyon Sadiq",
         "position": "TE",
@@ -1411,6 +1404,13 @@
         "position": "TE",
         "team": "DAL",
         "injury_status": "Questionable"
+      },
+      {
+        "player_id": "8146",
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": "Out"
       }
     ]
   },
@@ -1431,7 +1431,7 @@
         "name": "Saquon Barkley",
         "position": "RB",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "4199",
@@ -1517,7 +1517,7 @@
         "name": "Denzel Boston",
         "position": "WR",
         "team": "CLE",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7553",

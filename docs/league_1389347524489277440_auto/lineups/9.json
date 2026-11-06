@@ -81,7 +81,7 @@
         "name": "MarShawn Lloyd",
         "position": "RB",
         "team": "GB",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12481",
@@ -116,7 +116,7 @@
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": "Out"
+        "injury_status": "IR"
       }
     ]
   },
@@ -195,14 +195,14 @@
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "1466",
         "name": "Travis Kelce",
         "position": "TE",
         "team": "KC",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "2133",
@@ -237,7 +237,7 @@
         "name": "Tanner McKee",
         "position": "QB",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -386,13 +386,13 @@
         "name": "Saquon Barkley",
         "position": "RB",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
-        "player_id": "12491",
-        "name": "Corey Kiner",
+        "player_id": "12469",
+        "name": "Dylan Sampson",
         "position": "RB",
-        "team": "NE",
+        "team": "CLE",
         "injury_status": null
       },
       {
@@ -431,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "PIT",
-        "name": "Pittsburgh",
+        "player_id": "DET",
+        "name": "Detroit",
         "position": "DEF",
-        "team": "PIT",
+        "team": "DET",
         "injury_status": null
       }
     ],
@@ -447,11 +447,18 @@
         "injury_status": null
       },
       {
+        "player_id": "12491",
+        "name": "Corey Kiner",
+        "position": "RB",
+        "team": "NE",
+        "injury_status": null
+      },
+      {
         "player_id": "12529",
         "name": "TreVeyon Henderson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "13274",
@@ -459,20 +466,6 @@
         "position": "WR",
         "team": "PIT",
         "injury_status": null
-      },
-      {
-        "player_id": "13545",
-        "name": "Trey Smack",
-        "position": "K",
-        "team": "GB",
-        "injury_status": null
-      },
-      {
-        "player_id": "8122",
-        "name": "Zonovan Knight",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "8126",
@@ -486,6 +479,13 @@
         "name": "Tank Dell",
         "position": "WR",
         "team": "HOU",
+        "injury_status": null
+      },
+      {
+        "player_id": "PIT",
+        "name": "Pittsburgh",
+        "position": "DEF",
+        "team": "PIT",
         "injury_status": null
       }
     ]
@@ -614,7 +614,7 @@
         "name": "A.J. Brown",
         "position": "WR",
         "team": "NE",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       }
     ]
   },
@@ -656,7 +656,7 @@
         "name": "Christian Watson",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "5022",
@@ -770,7 +770,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "11632",
@@ -863,7 +863,7 @@
         "name": "Brian Robinson Jr.",
         "position": "RB",
         "team": "ATL",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "9757",
@@ -922,10 +922,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11620",
-        "name": "Rome Odunze",
+        "player_id": "11625",
+        "name": "Adonai Mitchell",
         "position": "WR",
-        "team": "CHI",
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -952,11 +952,18 @@
         "injury_status": null
       },
       {
-        "player_id": "11647",
-        "name": "Kimani Vidal",
-        "position": "RB",
-        "team": "LAC",
+        "player_id": "11620",
+        "name": "Rome Odunze",
+        "position": "WR",
+        "team": "CHI",
         "injury_status": null
+      },
+      {
+        "player_id": "12534",
+        "name": "Kyle Monangai",
+        "position": "RB",
+        "team": "CHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12545",
@@ -978,13 +985,6 @@
         "position": "TE",
         "team": "CAR",
         "injury_status": null
-      },
-      {
-        "player_id": "3321",
-        "name": "Tyreek Hill",
-        "position": "WR",
-        "team": null,
-        "injury_status": "Questionable"
       },
       {
         "player_id": "4454",
@@ -1091,7 +1091,7 @@
         "name": "Alvin Kamara",
         "position": "RB",
         "team": "NO",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "5844",
@@ -1119,7 +1119,7 @@
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       }
     ]
   },
@@ -1168,7 +1168,7 @@
         "name": "Dalton Kincaid",
         "position": "TE",
         "team": "BUF",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7611",
@@ -1226,7 +1226,7 @@
         "name": "DeVonta Smith",
         "position": "WR",
         "team": "PHI",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "8136",
@@ -1361,7 +1361,7 @@
         "name": "Denzel Boston",
         "position": "WR",
         "team": "CLE",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "4943",
@@ -1431,7 +1431,7 @@
         "name": "Rashee Rice",
         "position": "WR",
         "team": "KC",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "2020",
@@ -1482,7 +1482,7 @@
         "name": "Kenny Gainwell",
         "position": "RB",
         "team": "TB",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8134",

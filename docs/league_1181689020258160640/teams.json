@@ -116,7 +116,7 @@
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 10
       },
@@ -191,7 +191,7 @@
         "name": "Rashee Rice",
         "position": "WR",
         "team": "KC",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 13
       },
@@ -350,7 +350,7 @@
         "name": "Lamar Jackson",
         "position": "QB",
         "team": "BAL",
-        "injury_status": "Out",
+        "injury_status": "IR",
         "keeper": true,
         "draft_round": 3
       },
@@ -637,15 +637,6 @@
         "draft_round": 6
       },
       {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "Questionable",
-        "keeper": true,
-        "draft_round": 2
-      },
-      {
         "player_id": "6790",
         "name": "D'Andre Swift",
         "position": "RB",
@@ -671,6 +662,15 @@
         "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 14
+      },
+      {
+        "player_id": "8146",
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 2
       }
     ]
   },
@@ -808,15 +808,6 @@
         "draft_round": 4
       },
       {
-        "player_id": "2216",
-        "name": "Mike Evans",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": "Questionable",
-        "keeper": true,
-        "draft_round": 6
-      },
-      {
         "player_id": "8136",
         "name": "Rachaad White",
         "position": "RB",
@@ -835,6 +826,15 @@
         "draft_round": 13
       },
       {
+        "player_id": "2216",
+        "name": "Mike Evans",
+        "position": "WR",
+        "team": "SF",
+        "injury_status": "Questionable",
+        "keeper": true,
+        "draft_round": 6
+      },
+      {
         "player_id": "6804",
         "name": "Jordan Love",
         "position": "QB",
@@ -848,7 +848,7 @@
         "name": "Breece Hall",
         "position": "RB",
         "team": "NYJ",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 3
       }
