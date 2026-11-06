@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:50:15.202633Z",
+  "generated_at": "2026-11-06T01:14:11.238834Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1420,12 +1420,12 @@
       },
       "starters_current": [
         "3163",
-        "12512",
+        "13345",
         "9224",
         "12519",
         "11646",
         "10859",
-        "13345",
+        "12512",
         "2020",
         "NE"
       ],
@@ -1459,13 +1459,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
           "position": "RB",
-          "team": "CLE",
+          "team": "DEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
+          "keeper": false,
+          "draft_round": 9
         },
         {
           "player_id": "9224",
@@ -1504,13 +1504,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "13345",
-          "name": "Jonah Coleman",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "DEN",
+          "team": "CLE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "2020",
@@ -1603,15 +1603,6 @@
       ],
       "keepers": [
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
           "player_id": "9224",
           "name": "Chase Brown",
           "position": "RB",
@@ -1637,6 +1628,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "11635",
@@ -2450,11 +2450,11 @@
       "starters_current": [
         "6770",
         "4866",
-        "13287",
+        "4199",
         "6801",
         "8148",
         "9480",
-        "13279",
+        "2449",
         "7839",
         "PHI"
       ],
@@ -2496,13 +2496,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
+          "player_id": "4199",
+          "name": "Aaron Jones Sr.",
           "position": "RB",
-          "team": "ARI",
-          "injury_status": "IR",
+          "team": "MIN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 8
         },
         {
           "player_id": "6801",
@@ -2532,13 +2532,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": "Out",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 8
         },
         {
           "player_id": "7839",
@@ -2578,6 +2578,24 @@
           "keeper": false
         },
         {
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 2
+        },
+        {
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "position": "WR",
@@ -2585,24 +2603,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
-        },
-        {
-          "player_id": "4199",
-          "name": "Aaron Jones Sr.",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "7553",
@@ -3920,7 +3920,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-05T20:50:15.202633Z",
-    "stale_after": "2026-11-05T21:50:15.202633Z"
+    "generated_at": "2026-11-06T01:14:11.238834Z",
+    "stale_after": "2026-11-06T02:14:11.238834Z"
   }
 }

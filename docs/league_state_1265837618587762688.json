@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:50:09.941051Z",
+  "generated_at": "2026-11-06T01:14:07.650051Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -183,7 +183,7 @@
       },
       "starters_current": [
         "6804",
-        "11576",
+        "8132",
         "12495",
         "6794",
         "12526",
@@ -220,12 +220,13 @@
           "keeper": false
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "NYJ",
+          "team": "ARI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "12495",
@@ -291,6 +292,14 @@
       ],
       "bench": [
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -343,15 +352,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         }
       ],
       "keepers": []
@@ -1204,6 +1204,7 @@
         "2216",
         "4035",
         "4984",
+        "5844",
         "5849",
         "5947",
         "6083",
@@ -1211,7 +1212,6 @@
         "8146",
         "9221",
         "9500",
-        "9508",
         "TB"
       ],
       "starters": [
@@ -1324,6 +1324,15 @@
           "draft_round": 12
         },
         {
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
+        },
+        {
           "player_id": "5849",
           "name": "Kyler Murray",
           "position": "QB",
@@ -1349,15 +1358,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 11
         }
       ],
       "keepers": []
@@ -1981,20 +1981,19 @@
         "budget_used": 0
       },
       "starters_current": [
-        "0",
+        "8161",
         "8138",
         "8151",
-        "10232",
-        "13301",
-        "12517",
         "9487",
+        "11635",
+        "12517",
+        "10232",
         "1945",
         "JAX"
       ],
       "players_current": [
         "10232",
         "11635",
-        "11637",
         "12457",
         "12517",
         "13281",
@@ -2006,11 +2005,21 @@
         "4943",
         "8138",
         "8151",
+        "8161",
         "9228",
         "9487",
         "JAX"
       ],
       "starters": [
+        {
+          "player_id": "8161",
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 14
+        },
         {
           "player_id": "8138",
           "name": "James Cook III",
@@ -2030,21 +2039,22 @@
           "draft_round": 2
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "ARI",
-          "injury_status": "Questionable",
+          "team": "JAX",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 6
         },
         {
-          "player_id": "13301",
-          "name": "Antonio Williams",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "WAS",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "12517",
@@ -2056,13 +2066,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "10232",
+          "name": "Michael Wilson",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
+          "team": "ARI",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 8
         },
         {
           "player_id": "1945",
@@ -2083,23 +2093,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "12457",
           "name": "Jaydon Blue",
@@ -2125,6 +2118,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "13301",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "13305",
@@ -3329,7 +3330,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-05T20:50:09.941051Z",
-    "stale_after": "2026-11-05T21:50:09.941051Z"
+    "generated_at": "2026-11-06T01:14:07.650051Z",
+    "stale_after": "2026-11-06T02:14:07.650051Z"
   }
 }

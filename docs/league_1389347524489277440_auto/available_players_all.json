@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T20:50:09.941051Z",
-  "stale_after": "2026-11-05T21:50:09.941051Z",
+  "generated_at": "2026-11-06T01:14:07.650051Z",
+  "stale_after": "2026-11-06T02:14:07.650051Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-05T20:50:04.518488Z",
+    "snapshot_started_at": "2026-11-06T01:14:04.435751Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-05T20:50:04.711457Z"
+      "fetched_at": "2026-11-06T01:14:04.521107Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-05T20:50:05.139551Z"
+      "fetched_at": "2026-11-06T01:14:05.212253Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-05T20:50:05.232157Z"
+        "fetched_at": "2026-11-06T01:14:05.356507Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-05T20:50:05.542961Z"
+      "fetched_at": "2026-11-06T01:14:05.439856Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-11-05T20:50:09.813219Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -62,12 +62,12 @@
     "FB": 112,
     "K": 176,
     "P": 5,
-    "QB": 453,
-    "RB": 875,
+    "QB": 452,
+    "RB": 876,
     "SS": 1,
     "T": 2,
-    "TE": 819,
-    "WR": 1721
+    "TE": 818,
+    "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -10040,32 +10040,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "8161",
-      "name": "Malik Willis",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "MIA",
-      "age": 27,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1793716855566,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 14
     },
     {
       "player_id": "2307",
@@ -23456,6 +23430,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "9508",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "TEN",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 5,
+      "depth_chart_position": "RB",
+      "news_updated": 1793393716507,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
     },
     {
       "player_id": "8208",
@@ -46890,32 +46890,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "5844",
-      "name": "T.J. Hockenson",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "MIN",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "TE",
-      "news_updated": 1793604342363,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
-    },
-    {
       "player_id": "13827",
       "name": "Tanner Arkin",
       "position": "TE",
@@ -68264,6 +68238,32 @@
       "depth_chart_position": null,
       "news_updated": 1781769316050,
       "in_default_view": false,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11637",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "BUF",
+      "age": 23,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LWR",
+      "news_updated": 1793722856339,
+      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,
