@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:58:04.316607Z",
+  "generated_at": "2026-11-07T13:53:03.289349Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1672,10 +1672,10 @@
         "3294",
         "9221",
         "5850",
-        "7547",
+        "1479",
         "12501",
         "10236",
-        "1479",
+        "7547",
         "11533",
         "CHI"
       ],
@@ -1726,13 +1726,12 @@
           "draft_round": 2
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 2
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "12501",
@@ -1753,12 +1752,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "IND",
-          "injury_status": null,
-          "keeper": false
+          "team": "DET",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 2
         },
         {
           "player_id": "11533",
@@ -3920,7 +3920,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-07T06:58:04.316607Z",
-    "stale_after": "2026-11-07T07:58:04.316607Z"
+    "generated_at": "2026-11-07T13:53:03.289349Z",
+    "stale_after": "2026-11-07T14:53:03.289349Z"
   }
 }
