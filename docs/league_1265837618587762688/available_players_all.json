@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T21:11:10.675099Z",
-  "stale_after": "2026-11-06T22:11:10.675099Z",
+  "generated_at": "2026-11-07T00:57:08.059286Z",
+  "stale_after": "2026-11-07T01:57:08.059286Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-06T21:11:06.875661Z",
+    "snapshot_started_at": "2026-11-07T00:57:03.836976Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-06T21:11:07.029797Z"
+      "fetched_at": "2026-11-07T00:57:03.976715Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-06T21:11:07.261841Z"
+      "fetched_at": "2026-11-07T00:57:04.358700Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-06T21:11:07.353929Z"
+        "fetched_at": "2026-11-07T00:57:04.447905Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-06T21:11:07.470415Z"
+      "fetched_at": "2026-11-07T00:57:04.631765Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-11-06T21:11:10.492536Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -58,12 +58,12 @@
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 19,
+    "DEF": 18,
     "FB": 112,
     "K": 177,
     "P": 5,
     "QB": 451,
-    "RB": 875,
+    "RB": 876,
     "SS": 1,
     "T": 2,
     "TE": 818,
@@ -474,32 +474,6 @@
         "DEF"
       ],
       "team": "MIA",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "NO",
-      "name": "New Orleans Saints",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "NO",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -22982,6 +22956,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788308424202,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "4147",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "CIN",
+      "age": 31,
+      "years_exp": 9,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1793763630624,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:11:11.156891Z",
+  "generated_at": "2026-11-07T00:57:08.576088Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -1538,33 +1538,6 @@
           "keeper_cost_round_is_provisional": true
         },
         {
-          "player_id": "4147",
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN",
-          "injury_status": null,
-          "original_draft_round": null,
-          "original_draft_pick_no": null,
-          "original_draft_slot": null,
-          "original_drafted_by": null,
-          "original_draft_roster_id": null,
-          "acquired_via": "free_agent",
-          "acquisition_transaction_id": "1422631334693597184",
-          "acquisition_time": "2026-11-01T14:44:10.705000Z",
-          "acquisition_league_id": "1389347524489277440",
-          "keeper_submitted": false,
-          "keeper_submitted_round": null,
-          "keeper_eligible": true,
-          "eligibility_reason": "undrafted_base_round_14",
-          "keeper_base_round": 14,
-          "keeper_cost_round": 14,
-          "keeper_cost_source": "undrafted_base_rule",
-          "keeper_round_may_move_for_collision": true,
-          "current_draft_round": null,
-          "base_keeper_cost_round": 14,
-          "keeper_cost_round_is_provisional": true
-        },
-        {
           "player_id": "6801",
           "name": "Tee Higgins",
           "position": "WR",
@@ -1875,6 +1848,33 @@
           "acquired_via": "free_agent",
           "acquisition_transaction_id": "1421629660193644544",
           "acquisition_time": "2026-10-29T20:23:52.893000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "undrafted_base_round_14",
+          "keeper_base_round": 14,
+          "keeper_cost_round": 14,
+          "keeper_cost_source": "undrafted_base_rule",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "NO",
+          "name": "New Orleans",
+          "position": "DEF",
+          "team": "NO",
+          "injury_status": null,
+          "original_draft_round": null,
+          "original_draft_pick_no": null,
+          "original_draft_slot": null,
+          "original_drafted_by": null,
+          "original_draft_roster_id": null,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1424594236837298176",
+          "acquisition_time": "2026-11-07T00:44:03.044000Z",
           "acquisition_league_id": "1389347524489277440",
           "keeper_submitted": false,
           "keeper_submitted_round": null,
@@ -5591,5 +5591,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-11-06T21:11:11.204949Z"
+  "rules_updated_at": "2026-11-07T00:57:08.622344Z"
 }

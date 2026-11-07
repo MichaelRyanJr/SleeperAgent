@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:11:10.675099Z",
+  "generated_at": "2026-11-07T00:57:08.059286Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -801,7 +801,6 @@
         "11632",
         "12474",
         "1479",
-        "4147",
         "6801",
         "7042",
         "7569",
@@ -813,7 +812,8 @@
         "9484",
         "9509",
         "9757",
-        "CIN"
+        "CIN",
+        "NO"
       ],
       "starters": [
         {
@@ -925,14 +925,6 @@
           "draft_round": 15
         },
         {
-          "player_id": "4147",
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8110",
           "name": "Jake Ferguson",
           "position": "TE",
@@ -963,6 +955,14 @@
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "NO",
+          "name": "New Orleans",
+          "position": "DEF",
           "team": "NO",
           "injury_status": null,
           "keeper": false
@@ -3332,7 +3332,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-06T21:11:10.675099Z",
-    "stale_after": "2026-11-06T22:11:10.675099Z"
+    "generated_at": "2026-11-07T00:57:08.059286Z",
+    "stale_after": "2026-11-07T01:57:08.059286Z"
   }
 }

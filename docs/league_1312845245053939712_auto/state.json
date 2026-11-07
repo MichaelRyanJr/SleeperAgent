@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:11:14.633415Z",
+  "generated_at": "2026-11-07T00:57:12.971966Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,7 +101,7 @@
       "starters_current": [
         "4984",
         "4034",
-        "4035",
+        "6130",
         "9488",
         "8167",
         "12506",
@@ -149,10 +149,10 @@
           "draft_round": 1
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
-          "team": "NO",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         },
@@ -230,6 +230,14 @@
           "draft_round": 1
         },
         {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "5844",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -255,14 +263,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 4
-        },
-        {
-          "player_id": "6130",
-          "name": "Devin Singletary",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "8142",
@@ -3920,7 +3920,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-06T21:11:14.633415Z",
-    "stale_after": "2026-11-06T22:11:14.633415Z"
+    "generated_at": "2026-11-07T00:57:12.971966Z",
+    "stale_after": "2026-11-07T01:57:12.971966Z"
   }
 }
