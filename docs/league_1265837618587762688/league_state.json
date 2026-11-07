@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:52:57.680119Z",
+  "generated_at": "2026-11-07T18:26:17.137303Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -190,7 +190,7 @@
         "8130",
         "10213",
         "6650",
-        "LAR"
+        "NYG"
       ],
       "players_current": [
         "10213",
@@ -208,7 +208,8 @@
         "6804",
         "8130",
         "8132",
-        "LAR"
+        "LAR",
+        "NYG"
       ],
       "starters": [
         {
@@ -281,13 +282,12 @@
           "draft_round": 15
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "NYG",
+          "name": "New York",
           "position": "DEF",
-          "team": "LAR",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         }
       ],
       "bench": [
@@ -352,6 +352,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "LAR",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAR",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
         }
       ],
       "keepers": []
@@ -3329,10 +3338,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-07T13:52:57.680119Z",
-    "stale_after": "2026-11-07T14:52:57.680119Z"
+    "generated_at": "2026-11-07T18:26:17.137303Z",
+    "stale_after": "2026-11-07T19:26:17.137303Z"
   }
 }

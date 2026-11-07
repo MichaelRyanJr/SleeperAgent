@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:52:58.135126Z",
+  "generated_at": "2026-11-07T18:26:17.584564Z",
   "league_id": "1389347524489277440",
   "season": "2026",
   "previous_league_id": "1265837618587762688",
@@ -458,6 +458,33 @@
           "keeper_round_may_move_for_collision": true,
           "current_draft_round": 9,
           "base_keeper_cost_round": 14,
+          "keeper_cost_round_is_provisional": true
+        },
+        {
+          "player_id": "NYG",
+          "name": "New York",
+          "position": "DEF",
+          "team": "NYG",
+          "injury_status": null,
+          "original_draft_round": 16,
+          "original_draft_pick_no": 189,
+          "original_draft_slot": 4,
+          "original_drafted_by": "656964656237232128",
+          "original_draft_roster_id": 8,
+          "acquired_via": "free_agent",
+          "acquisition_transaction_id": "1424835793691725824",
+          "acquisition_time": "2026-11-07T16:43:54.687000Z",
+          "acquisition_league_id": "1389347524489277440",
+          "keeper_submitted": false,
+          "keeper_submitted_round": null,
+          "keeper_eligible": true,
+          "eligibility_reason": "original_draft_round_retained",
+          "keeper_base_round": 16,
+          "keeper_cost_round": 16,
+          "keeper_cost_source": "previous_draft",
+          "keeper_round_may_move_for_collision": true,
+          "current_draft_round": null,
+          "base_keeper_cost_round": 16,
           "keeper_cost_round_is_provisional": true
         }
       ]
@@ -5591,5 +5618,5 @@
       ]
     }
   ],
-  "rules_updated_at": "2026-11-07T13:52:58.180352Z"
+  "rules_updated_at": "2026-11-07T18:26:17.629620Z"
 }

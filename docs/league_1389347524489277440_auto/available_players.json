@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:52:57.680119Z",
-  "stale_after": "2026-11-07T14:52:57.680119Z",
+  "generated_at": "2026-11-07T18:26:17.137303Z",
+  "stale_after": "2026-11-07T19:26:17.137303Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-07T13:52:52.870062Z",
+    "snapshot_started_at": "2026-11-07T18:26:14.078298Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-07T13:52:53.064549Z"
+      "fetched_at": "2026-11-07T18:26:14.178408Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-07T13:52:53.613423Z"
+      "fetched_at": "2026-11-07T18:26:14.425449Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-07T13:52:53.799674Z"
+        "fetched_at": "2026-11-07T18:26:14.529957Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-07T13:52:53.984028Z"
+      "fetched_at": "2026-11-07T18:26:14.645933Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,17 +47,17 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 199,
+  "excluded_rostered_count": 200,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2834,
-  "all_player_count": 4188,
-  "player_count": 2834,
+  "default_player_count": 2833,
+  "all_player_count": 4187,
+  "player_count": 2833,
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 17,
     "FB": 64,
     "K": 136,
     "P": 4,
@@ -419,32 +419,6 @@
         "DEF"
       ],
       "team": "MIA",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "NYG",
       "age": null,
       "years_exp": null,
       "status": null,
