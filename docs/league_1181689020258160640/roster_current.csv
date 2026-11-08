@@ -45,7 +45,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,12487,Terrance Ferguson,TE,LAR,IR,0,0
 3,,12526,Tetairoa McMillan,WR,CAR,,0,1
 3,,13274,Germie Bernard,WR,PIT,,0,0
-3,,13281,Jordyn Tyson,WR,NO,Questionable,0,0
+3,,13281,Jordyn Tyson,WR,NO,,0,0
 3,,13285,Malachi Fields,WR,NYG,,0,0
 3,,13305,Mike Washington Jr.,RB,LV,,0,0
 3,,13417,De'Zhaun Stribling,WR,SF,IR,0,0
@@ -53,8 +53,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,PIT,Pittsburgh,DEF,PIT,,0,0
 4,1,9228,Bryce Young,QB,CAR,,1,0
 4,2,13424,Seth McGowan,RB,IND,,1,0
-4,3,11643,Jaylen Wright,RB,MIA,Questionable,1,0
-4,4,9493,Puka Nacua,WR,LAR,,1,0
+4,3,11643,Jaylen Wright,RB,MIA,Out,1,0
+4,4,9493,Puka Nacua,WR,LAR,Questionable,1,0
 4,5,11632,Malik Nabers,WR,NYG,,1,0
 4,6,12517,Colston Loveland,TE,CHI,,1,1
 4,7,11620,Rome Odunze,WR,CHI,,1,1
@@ -80,7 +80,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,9,KC,Kansas City,DEF,KC,,1,0
 5,,11586,Blake Corum,RB,LAR,,0,1
 5,,12518,Tyler Warren,TE,IND,,0,1
-5,,13298,KC Concepcion Jr.,WR,CLE,,0,0
+5,,13298,KC Concepcion Jr.,WR,CLE,Questionable,0,0
 5,,13337,Emmett Johnson,RB,KC,,0,0
 5,,2133,Davante Adams,WR,LAR,IR,0,0
 5,,3257,Jacoby Brissett,QB,BAL,,0,0
@@ -97,20 +97,20 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,8,2020,Cairo Santos,K,CHI,,1,0
 6,9,NE,New England,DEF,NE,,1,0
 6,,11559,Michael Penix Jr.,QB,ATL,,0,0
-6,,11624,Xavier Worthy,WR,KC,,0,0
-6,,11635,Ladd McConkey,WR,LAC,,0,1
+6,,11624,Xavier Worthy,WR,KC,Out,0,0
+6,,11635,Ladd McConkey,WR,LAC,Questionable,0,1
 6,,5001,Dalton Schultz,TE,HOU,,0,0
 6,,5872,Deebo Samuel Sr.,WR,SF,Out,0,0
 6,,6904,Jalen Hurts,QB,PHI,IR,0,0
 6,,7525,DeVonta Smith,WR,PHI,Out,0,0
-6,,9757,Kendre Miller,RB,NO,,0,0
+6,,9757,Kendre Miller,RB,,,0,0
 7,1,3294,Dak Prescott,QB,DAL,,1,1
 7,2,9221,Jahmyr Gibbs,RB,DET,,1,1
-7,3,5850,Josh Jacobs,RB,GB,,1,0
+7,3,5850,Josh Jacobs,RB,GB,Questionable,1,0
 7,4,1479,Keenan Allen,WR,IND,,1,0
 7,5,12501,Matthew Golden,WR,GB,,1,0
 7,6,10236,Dalton Kincaid,TE,BUF,,1,0
-7,7,7547,Amon-Ra St. Brown,WR,DET,Questionable,1,1
+7,7,7547,Amon-Ra St. Brown,WR,DET,,1,1
 7,8,11533,Brandon Aubrey,K,DAL,,1,1
 7,9,CHI,Chicago,DEF,CHI,,1,0
 7,,11563,Bo Nix,QB,DEN,,0,1
@@ -130,10 +130,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,8,11539,Jake Bates,K,DET,,1,0
 8,9,CIN,Cincinnati,DEF,CIN,,1,0
 8,,11566,Jayden Daniels,QB,WAS,,0,1
-8,,11581,MarShawn Lloyd,RB,GB,Questionable,0,0
+8,,11581,MarShawn Lloyd,RB,GB,Out,0,0
 8,,12507,Omarion Hampton,RB,LAC,,0,0
-8,,3214,Hunter Henry,TE,NE,Questionable,0,1
-8,,8137,George Pickens,WR,DAL,Questionable,0,1
+8,,3214,Hunter Henry,TE,NE,,0,1
+8,,8137,George Pickens,WR,DAL,Out,0,1
 8,,9501,DeMario Douglas,WR,NE,,0,0
 8,,9511,Keaton Mitchell,RB,LAC,,0,0
 9,1,11560,Caleb Williams,QB,CHI,,1,1
@@ -173,20 +173,20 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 11,2,6813,Jonathan Taylor,RB,IND,,1,1
 11,3,12474,Woody Marks,RB,HOU,,1,0
 11,4,8144,Chris Olave,WR,NO,,1,1
-11,5,7526,Jaylen Waddle,WR,DEN,,1,0
+11,5,7526,Jaylen Waddle,WR,DEN,Out,1,0
 11,6,8131,Isaiah Likely,TE,NYG,,1,0
 11,7,9500,Josh Downs,WR,IND,,1,1
 11,8,12185,Spencer Shrader,K,IND,,1,0
 11,9,CLE,Cleveland,DEF,CLE,,1,0
 11,,11583,Jonathon Brooks,RB,CAR,IR,0,0
-11,,12492,Pat Bryant,WR,DEN,Questionable,0,0
+11,,12492,Pat Bryant,WR,DEN,,0,0
 11,,13296,Caleb Douglas,WR,MIA,,0,0
 11,,13301,Antonio Williams,WR,WAS,,0,0
 11,,5849,Kyler Murray,QB,MIN,Out,0,0
 11,,6797,Justin Herbert,QB,LAC,,0,1
 11,,6806,J.K. Dobbins,RB,DEN,,0,1
 11,,9484,Tucker Kraft,TE,GB,,0,0
-12,1,4046,Patrick Mahomes,QB,KC,,1,0
+12,1,4046,Patrick Mahomes,QB,KC,Questionable,1,0
 12,2,3198,Derrick Henry,RB,BAL,,1,0
 12,3,8136,Rachaad White,RB,WAS,,1,1
 12,4,4983,DJ Moore,WR,BUF,,1,0
@@ -196,7 +196,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,8,3451,Ka'imi Fairbairn,K,HOU,,1,1
 12,9,DEN,Denver,DEF,DEN,,1,0
 12,,11834,Devaughn Vele,WR,NO,,0,0
-12,,12481,Cam Skattebo,RB,NYG,Doubtful,0,1
+12,,12481,Cam Skattebo,RB,NYG,Out,0,1
 12,,2216,Mike Evans,WR,SF,Out,0,1
 12,,4037,Chris Godwin Jr.,WR,TB,,0,0
 12,,6650,Chase McLaughlin,K,TB,,0,0
