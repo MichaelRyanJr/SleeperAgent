@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:43:46.995728Z",
+  "generated_at": "2026-11-08T19:11:15.106908Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -389,7 +389,7 @@
         "8150",
         "7594",
         "9493",
-        "8137",
+        "7526",
         "13330",
         "6806",
         "11539",
@@ -452,13 +452,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "DAL",
-          "injury_status": "Questionable",
+          "team": "DEN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 5
         },
         {
           "player_id": "13330",
@@ -542,15 +542,6 @@
           "draft_round": 4
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
@@ -558,6 +549,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "8408",
@@ -1000,16 +1000,17 @@
       },
       "starters_current": [
         "6770",
-        "5967",
-        "12489",
+        "11579",
+        "4663",
         "7564",
         "12501",
-        "3214",
+        "1466",
         "11646",
         "12185",
-        "DEN"
+        "BUF"
       ],
       "players_current": [
+        "11579",
         "11646",
         "12185",
         "12489",
@@ -1019,13 +1020,12 @@
         "2133",
         "3214",
         "4037",
-        "5967",
+        "4663",
         "6770",
-        "7021",
         "7564",
         "7571",
         "9230",
-        "DEN"
+        "BUF"
       ],
       "starters": [
         {
@@ -1038,22 +1038,20 @@
           "draft_round": 4
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "11579",
+          "name": "Audric Estime",
           "position": "RB",
-          "team": "TEN",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
+          "keeper": false
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
+          "player_id": "4663",
+          "name": "Austin Ekeler",
           "position": "RB",
-          "team": "DEN",
-          "injury_status": "IR",
-          "keeper": false,
-          "draft_round": 6
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "7564",
@@ -1074,13 +1072,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "NE",
-          "injury_status": "Questionable",
+          "team": "KC",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 9
         },
         {
           "player_id": "11646",
@@ -1100,16 +1098,24 @@
           "keeper": false
         },
         {
-          "player_id": "DEN",
-          "name": "Denver",
+          "player_id": "BUF",
+          "name": "Buffalo",
           "position": "DEF",
-          "team": "DEN",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 14
+          "keeper": false
         }
       ],
       "bench": [
+        {
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 6
+        },
         {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
@@ -1118,15 +1124,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "2133",
@@ -1138,6 +1135,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
           "player_id": "4037",
           "name": "Chris Godwin Jr.",
           "position": "WR",
@@ -1145,15 +1151,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
         },
         {
           "player_id": "7571",
@@ -2006,18 +2003,18 @@
         "10232",
         "11635",
         "11653",
-        "12457",
+        "12471",
         "12517",
         "13281",
         "13286",
         "13301",
         "13305",
         "13346",
+        "3286",
         "4943",
         "8138",
         "8151",
         "8161",
-        "9228",
         "9487",
         "JAX"
       ],
@@ -2105,10 +2102,10 @@
       ],
       "bench": [
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
+          "player_id": "12471",
+          "name": "DJ Giddens",
           "position": "RB",
-          "team": "PHI",
+          "team": "IND",
           "injury_status": null,
           "keeper": false
         },
@@ -2156,19 +2153,19 @@
           "keeper": false
         },
         {
+          "player_id": "3286",
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
           "team": "SEA",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "injury_status": null,
           "keeper": false
         }
       ],
@@ -3252,84 +3249,84 @@
       "week": 9,
       "roster_id": 1,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": null
+      "points": 20.5,
+      "result": "L"
     },
     {
       "week": 9,
       "roster_id": 5,
       "opponent_roster_id": 1,
-      "points": 0.0,
-      "result": null
+      "points": 65.34,
+      "result": "W"
     },
     {
       "week": 9,
       "roster_id": 2,
       "opponent_roster_id": 9,
-      "points": 0.0,
-      "result": null
+      "points": 31.62,
+      "result": "L"
     },
     {
       "week": 9,
       "roster_id": 9,
       "opponent_roster_id": 2,
-      "points": 0.0,
-      "result": null
+      "points": 44.92,
+      "result": "W"
     },
     {
       "week": 9,
       "roster_id": 3,
       "opponent_roster_id": 8,
-      "points": 10.2,
+      "points": 24.84,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 8,
       "opponent_roster_id": 3,
-      "points": 17.38,
+      "points": 42.58,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 4,
       "opponent_roster_id": 7,
-      "points": 5.4,
+      "points": 61.1,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 7,
       "opponent_roster_id": 4,
-      "points": 0.0,
+      "points": 41.56,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 6,
       "opponent_roster_id": 12,
-      "points": 0.0,
+      "points": 7.6,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 12,
       "opponent_roster_id": 6,
-      "points": 6.58,
+      "points": 12.58,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 10,
       "opponent_roster_id": 11,
-      "points": 24.1,
+      "points": 46.54,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 11,
       "opponent_roster_id": 10,
-      "points": 2.9,
+      "points": 17.1,
       "result": "L"
     }
   ],
@@ -3341,7 +3338,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-08T14:43:46.995728Z",
-    "stale_after": "2026-11-08T15:43:46.995728Z"
+    "generated_at": "2026-11-08T19:11:15.106908Z",
+    "stale_after": "2026-11-08T20:11:15.106908Z"
   }
 }
