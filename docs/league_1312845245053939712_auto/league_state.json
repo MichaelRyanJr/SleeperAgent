@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:28:25.956698Z",
+  "generated_at": "2026-11-08T07:53:22.230049Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -2916,11 +2916,11 @@
       "starters_current": [
         "4046",
         "3198",
-        "12481",
+        "8136",
         "4983",
         "11783",
         "1466",
-        "8136",
+        "8155",
         "3451",
         "DEN"
       ],
@@ -2963,13 +2963,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYG",
-          "injury_status": "Doubtful",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 4
+          "draft_round": 12
         },
         {
           "player_id": "4983",
@@ -2998,13 +2998,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "WAS",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 12
+          "draft_round": 3
         },
         {
           "player_id": "3451",
@@ -3033,6 +3033,15 @@
           "team": "NO",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": "Doubtful",
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "2216",
@@ -3078,15 +3087,6 @@
           "keeper": false
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
@@ -3098,15 +3098,6 @@
       ],
       "keepers": [
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG",
-          "injury_status": "Doubtful",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "8136",
           "name": "Rachaad White",
           "position": "RB",
@@ -3116,6 +3107,15 @@
           "draft_round": 12
         },
         {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "3451",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -3123,6 +3123,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "injury_status": "Doubtful",
+          "keeper": true,
+          "draft_round": 4
         },
         {
           "player_id": "2216",
@@ -3141,15 +3150,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     }
@@ -3920,7 +3920,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-08T01:28:25.956698Z",
-    "stale_after": "2026-11-08T02:28:25.956698Z"
+    "generated_at": "2026-11-08T07:53:22.230049Z",
+    "stale_after": "2026-11-08T08:53:22.230049Z"
   }
 }
