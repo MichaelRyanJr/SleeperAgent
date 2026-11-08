@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:53:17.912599Z",
+  "generated_at": "2026-11-08T14:43:46.995728Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -391,7 +391,7 @@
         "9493",
         "8137",
         "13330",
-        "5872",
+        "6806",
         "11539",
         "MIN"
       ],
@@ -470,13 +470,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Out",
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 8
         },
         {
           "player_id": "11539",
@@ -524,6 +524,15 @@
           "keeper": false
         },
         {
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 11
+        },
+        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -531,15 +540,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         },
         {
           "player_id": "7526",
@@ -803,7 +803,7 @@
         "9484",
         "6801",
         "7042",
-        "CIN"
+        "NO"
       ],
       "players_current": [
         "11566",
@@ -897,10 +897,10 @@
           "keeper": false
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati",
+          "player_id": "NO",
+          "name": "New Orleans",
           "position": "DEF",
-          "team": "CIN",
+          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -969,10 +969,10 @@
           "keeper": false
         },
         {
-          "player_id": "NO",
-          "name": "New Orleans",
+          "player_id": "CIN",
+          "name": "Cincinnati",
           "position": "DEF",
-          "team": "NO",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false
         }
@@ -1595,7 +1595,7 @@
       "starters_current": [
         "7523",
         "9224",
-        "5850",
+        "4034",
         "9997",
         "8167",
         "5022",
@@ -1642,13 +1642,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
           "position": "RB",
-          "team": "GB",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 1
         },
         {
           "player_id": "9997",
@@ -1757,13 +1757,13 @@
           "keeper": false
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "SF",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 3
         },
         {
           "player_id": "9753",
@@ -3294,15 +3294,15 @@
       "week": 9,
       "roster_id": 4,
       "opponent_roster_id": 7,
-      "points": 0.0,
-      "result": null
+      "points": 5.4,
+      "result": "W"
     },
     {
       "week": 9,
       "roster_id": 7,
       "opponent_roster_id": 4,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 9,
@@ -3315,7 +3315,7 @@
       "week": 9,
       "roster_id": 12,
       "opponent_roster_id": 6,
-      "points": 5.58,
+      "points": 6.58,
       "result": "W"
     },
     {
@@ -3341,7 +3341,7 @@
     "player_count": 2836,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-08T07:53:17.912599Z",
-    "stale_after": "2026-11-08T08:53:17.912599Z"
+    "generated_at": "2026-11-08T14:43:46.995728Z",
+    "stale_after": "2026-11-08T15:43:46.995728Z"
   }
 }
