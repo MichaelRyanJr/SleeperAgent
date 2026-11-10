@@ -551,6 +551,12 @@ def main() -> int:
                 "owner_id": owner_id,
                 "owner": user.get("display_name"),
                 "team_name": team_name,
+                "submitted_keeper_draft_records": [
+                    {"player_id": pid, "keeper_submitted": True,
+                     "keeper_submitted_round": record.get("round")}
+                    for pid, record in submitted.items()
+                    if str(record.get("roster_id")) == str(roster_id)
+                ],
                 "submitted_keeper_rule_check": submitted_rule_check(
                     player_rows, max_keepers
                 ),

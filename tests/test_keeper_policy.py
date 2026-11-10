@@ -94,6 +94,18 @@ class KeeperPolicyTests(unittest.TestCase):
                 if kind == 1:
                     self.assertIn("round_2_or_3_constraint", data["rules"])
 
+    def test_historical_validation_uses_draft_assignments_not_current_holdings(self):
+        data = board([1])  # current holding was another team's first-round pick
+        data["teams"][0]["submitted_keeper_draft_records"] = [
+            {"player_id": str(i), "keeper_submitted_round": r}
+            for i, r in enumerate([3, 4, 5, 6, 7, 8, 9])]
+        result = annotate_board(data, league())
+        check = result["teams"][0]["submitted_keeper_rule_check"]
+        self.assertTrue(check["complete"])
+        self.assertTrue(check["valid_so_far"])
+        self.assertEqual(check["submitted_keeper_count"], 7)
+        self.assertEqual(check["scope"], "original_draft_roster_assignments")
+
     def test_markdown_hub_rebuilt_from_current_stable_snapshot(self):
         with tempfile.TemporaryDirectory() as tmp:
             docs = Path(tmp)

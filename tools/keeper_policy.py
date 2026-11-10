@@ -50,7 +50,8 @@ def annotate_board(board, league):
     }
     for team in board.get("teams") or []:
         rows = team.get("players") or []
-        submitted = [p for p in rows if p.get("keeper_submitted")]
+        draft_records = team.get("submitted_keeper_draft_records")
+        submitted = draft_records if draft_records is not None else [p for p in rows if p.get("keeper_submitted")]
         rounds = [int(p["keeper_submitted_round"]) for p in submitted
                   if p.get("keeper_submitted_round") is not None]
         max_keepers = board["max_keepers"]
@@ -59,6 +60,7 @@ def annotate_board(board, league):
                   "more_than_one_round_2_or_3_keeper" if season <= 2026 and sum(r in (2, 3) for r in rounds) > 1 else None)
         team["submitted_keeper_rule_check"] = {
             "season": season, "applicable": enabled,
+            "scope": "original_draft_roster_assignments" if draft_records is not None else "current_holdings_only_not_full_historical_submission",
             "submitted_keeper_count": len(submitted), "max_keepers": max_keepers,
             "assigned_rounds": sorted(rounds),
             "round_2_or_3_keeper_count": sum(r in (2, 3) for r in rounds),
