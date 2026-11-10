@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:42:52.783203Z",
+  "generated_at": "2026-11-10T16:45:05.762134Z",
   "league_id": "1312845245053939712",
   "season": "2026",
   "previous_league_id": "1181689020258160640",
@@ -22,9 +22,47 @@
       "owner_id": "992551957615198208",
       "owner": "BG82",
       "team_name": "Njigbas in Paris ",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "4984",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 2
+        },
+        {
+          "player_id": "5927",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "12514",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "5892",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "9488",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 8
+        },
+        {
+          "player_id": "8228",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "12506",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
@@ -679,19 +717,57 @@
       "owner_id": "1001900087896784896",
       "owner": "MikeDaly41",
       "team_name": "Nacua Matata",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "11632",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 2
+        },
+        {
+          "player_id": "11604",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "11631",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "11564",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 8
+        },
+        {
+          "player_id": "12490",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 10
+        },
+        {
+          "player_id": "12534",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "9493",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           2,
           5,
           7,
-          7,
           8,
           10,
-          13
+          13,
+          14
         ],
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
@@ -1266,22 +1342,62 @@
       "owner_id": "985618252640407552",
       "owner": "mdoyle37",
       "team_name": "Rashee's Driving School",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "12526",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "7526",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "7588",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "8130",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 12
+        },
+        {
+          "player_id": "10229",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "4892",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "11584",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 15
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 5,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
+          6,
           7,
           12,
+          13,
           13,
           15
         ],
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": false
+        "complete": true
       },
       "players": [
         {
@@ -1921,25 +2037,62 @@
       "owner_id": "1001899210561703936",
       "owner": "Cillidog",
       "team_name": "Tittsburgh Feelers",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "6786",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 2
+        },
+        {
+          "player_id": "6801",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "11620",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "12517",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "12533",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 9
+        },
+        {
+          "player_id": "9226",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "12508",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 8,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           2,
+          4,
           5,
-          6,
           7,
           9,
           13,
-          14,
           14
         ],
         "round_2_or_3_keeper_count": 1,
-        "valid_so_far": false,
-        "invalid_reason": "too_many_keepers",
-        "complete": false
+        "valid_so_far": true,
+        "invalid_reason": null,
+        "complete": true
       },
       "players": [
         {
@@ -2579,10 +2732,48 @@
       "owner_id": "1002070574866288640",
       "owner": "rippont",
       "team_name": "K9 Unit",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "4881",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "8151",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "7543",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "12518",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "11586",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 12
+        },
+        {
+          "player_id": "8150",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "7569",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 8,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
@@ -2591,13 +2782,12 @@
           7,
           12,
           13,
-          13,
           14
         ],
         "round_2_or_3_keeper_count": 1,
-        "valid_so_far": false,
-        "invalid_reason": "too_many_keepers",
-        "complete": false
+        "valid_so_far": true,
+        "invalid_reason": null,
+        "complete": true
       },
       "players": [
         {
@@ -3237,14 +3427,48 @@
       "owner_id": "1002070687789600768",
       "owner": "mikeryan65",
       "team_name": "The Ladds",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "12512",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "11635",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "5947",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "9224",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 8
+        },
+        {
+          "player_id": "12519",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "11646",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 5,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 6,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
           6,
+          7,
           8,
           13,
           14
@@ -3857,14 +4081,53 @@
       "owner_id": "866098578773393408",
       "owner": "ECast17",
       "team_name": "CeeGeorgePickenDeezSluts",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "7547",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 2
+        },
+        {
+          "player_id": "9221",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "6819",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 8
+        },
+        {
+          "player_id": "3294",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 9
+        },
+        {
+          "player_id": "11533",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 11
+        },
+        {
+          "player_id": "7021",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        },
+        {
+          "player_id": "11563",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 15
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 6,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           2,
           4,
+          8,
           9,
           11,
           14,
@@ -3873,7 +4136,7 @@
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": false
+        "complete": true
       },
       "players": [
         {
@@ -4443,9 +4706,47 @@
       "owner_id": "1002276420074246144",
       "owner": "dealin",
       "team_name": "Staff Infections",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "8137",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "9997",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "8138",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "11566",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "7594",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 10
+        },
+        {
+          "player_id": "421",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "3214",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
@@ -5030,9 +5331,47 @@
       "owner_id": "1002276479373369344",
       "owner": "Mnauta",
       "team_name": "Mnauta",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "8146",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 2
+        },
+        {
+          "player_id": "6790",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "8112",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "11560",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "7611",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 9
+        },
+        {
+          "player_id": "10232",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "8110",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
@@ -5652,13 +5991,31 @@
       "owner_id": "1002296149069467648",
       "owner": "Tullis14",
       "team_name": "Amon Top of Erin",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "9756",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "7553",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "8148",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 9
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 3,
         "max_keepers": 7,
         "assigned_rounds": [
-          4,
+          6,
           7,
           9
         ],
@@ -6235,14 +6592,47 @@
       "owner_id": "1002420063170924544",
       "owner": "Doctahfootball",
       "team_name": "Woody Box Ticklers ",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "6813",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "5045",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 5
+        },
+        {
+          "player_id": "8144",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "6797",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 7
+        },
+        {
+          "player_id": "6806",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 9
+        },
+        {
+          "player_id": "9500",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
+        "scope": "original_draft_roster_assignments",
         "submitted_keeper_count": 6,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
-          6,
+          5,
           6,
           7,
           9,
@@ -6856,15 +7246,54 @@
       "owner_id": "1002747328358502400",
       "owner": "TLops",
       "team_name": "Hard Rock Bottom",
+      "submitted_keeper_draft_records": [
+        {
+          "player_id": "8155",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 3
+        },
+        {
+          "player_id": "12481",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 4
+        },
+        {
+          "player_id": "2216",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 6
+        },
+        {
+          "player_id": "7567",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 11
+        },
+        {
+          "player_id": "8136",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 12
+        },
+        {
+          "player_id": "3451",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 13
+        },
+        {
+          "player_id": "6804",
+          "keeper_submitted": true,
+          "keeper_submitted_round": 14
+        }
+      ],
       "submitted_keeper_rule_check": {
         "season": 2026,
         "applicable": true,
-        "submitted_keeper_count": 6,
+        "scope": "original_draft_roster_assignments",
+        "submitted_keeper_count": 7,
         "max_keepers": 7,
         "assigned_rounds": [
           3,
           4,
           6,
+          11,
           12,
           13,
           14
@@ -6872,7 +7301,7 @@
         "round_2_or_3_keeper_count": 1,
         "valid_so_far": true,
         "invalid_reason": null,
-        "complete": false
+        "complete": true
       },
       "players": [
         {
@@ -7493,5 +7922,5 @@
       "Current submitted keepers belong to the export season, not next season."
     ]
   },
-  "rules_updated_at": "2026-11-10T16:42:52.817199Z"
+  "rules_updated_at": "2026-11-10T16:45:05.815564Z"
 }
