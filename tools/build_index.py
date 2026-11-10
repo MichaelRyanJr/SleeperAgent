@@ -41,6 +41,8 @@ def collect_rows():
 
 def main():
     out = []
+    markdown = ["# SleeperAgent export", "", "Current stable league exports. Check each snapshot timestamp before analysis.", "",
+                "Legacy root keeper_costs files and season-suffixed folders are historical, not current recommendations.", ""]
     out.append(
         '<!doctype html><meta charset="utf-8"><title>SleeperAgent export</title>'
     )
@@ -68,6 +70,9 @@ def main():
             ("available_players.csv", "available players CSV"),
             ("available_players_all.json", "all unrostered catalog entries"),
             ("teams.json", "teams"),
+            ("keeper_board.json", "keeper board (season-scoped)"),
+            ("league.json", "scoring and roster settings"),
+            ("traded_picks.json", "traded picks"),
             ("schedule.json", "schedule"),
             ("transactions.json", "transactions"),
             ("players_min.json", "players_min"),
@@ -95,6 +100,12 @@ def main():
             except (OSError, ValueError, TypeError):
                 details.append("availability metadata unreadable")
 
+        markdown.extend([f"## {name}", "", f"Season {season}; current Sleeper ID {current_id}; stable anchor {anchor_id}.",
+                         f"Snapshot: {generated or 'unknown'}", "",
+                         f"[State]({base_href}state.json) · [Settings]({base_href}league.json) · "
+                         f"[Available players]({base_href}available_players.json) · "
+                         f"[Season-scoped keeper board]({base_href}keeper_board.json) · "
+                         f"[Manifest]({base_href}manifest.json)", ""])
         out.append(
             "  <div>- {} ({}) &mdash; {}</div>".format(
                 html.escape(name),
@@ -103,6 +114,7 @@ def main():
             )
         )
 
+    (DOCS / "index.md").write_text("\n".join(markdown), encoding="utf-8")
     (DOCS / "index.html").write_text("\n".join(out), encoding="utf-8")
 
 

@@ -23,6 +23,12 @@ from pathlib import Path
 from typing import Any, Dict
 
 
+try:
+    from tools.keeper_policy import annotate_board, keeper_enabled
+except ImportError:  # direct CLI invocation
+    from keeper_policy import annotate_board, keeper_enabled
+
+
 def newest_run_dir(out_base: Path, league_id: str) -> Path:
     candidates = [p for p in out_base.glob(f"league_{league_id}_*") if p.is_dir()]
     if not candidates:
@@ -47,8 +53,10 @@ def main() -> int:
         raise FileNotFoundError(f"Missing {path}")
 
     board = load_json(path)
-    max_keepers = int(board.get("max_keepers") or 0)
-    if max_keepers <= 0:
+    league = load_json(run_dir / "league.json")
+    if not keeper_enabled(league) or int(league["season"]) >= 2027:
+        annotate_board(board, league)
+        path.write_text(json.dumps(board, indent=2), encoding="utf-8")
         return 0
 
     board["rules"] = {
@@ -95,6 +103,7 @@ def main() -> int:
                 player["keeper_cost_source"] = base_source
                 player["keeper_cost_round_is_provisional"] = True
 
+    annotate_board(board, league)
     board["rules_updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
     path.write_text(json.dumps(board, indent=2), encoding="utf-8")
     print(f"Applied clarified keeper rules to {path}")

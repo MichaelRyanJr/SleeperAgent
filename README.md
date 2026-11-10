@@ -44,3 +44,29 @@ python -m unittest discover -s tests -v
 The tests use mocked API responses and require no network or additional dependencies. A separate read-only GitHub Actions workflow runs the suite on code changes and pull requests.
 
 API source: https://docs.sleeper.com/
+
+## Season-scoped keeper analysis
+
+`keeper_board.json` explicitly labels `keeper_cost_season`,
+`original_draft_season`, and `current_draft_season`. Existing 2026 cost fields
+refer to the 2026 draft using 2025 evidence; they are **not 2027 keeper prices**.
+The old combined Round 2/3 restriction remains only in historical draft checks
+through 2026. Those checks also reject too many keepers and report missing
+submitted rounds as unknown instead of declaring the set valid.
+
+The owner's November 10, 2026 clarification is recorded separately in
+`next_season_planning`: after the 2026 season, up to eight players may be kept,
+excluding first-round players, with no combined Round 2/3 restriction. Each
+player's `next_season_keeper` uses the export season's draft round as evidence.
+An absent draft round remains unknown, not proof that the player was undrafted.
+Next-season costs stay null: cost escalation, undrafted costs, and collisions
+have not been confirmed for the new policy. A known eligible draft round is
+not a guarantee of an affordable/valid final keeper set. Submitted keepers
+remain scoped to the current draft, never treated as next year's selections.
+
+Redraft leagues (`settings.type=0`) are not keeper leagues even if Sleeper
+retains a nonzero `max_keepers`. Dynasty leagues are also not interpreted using
+this custom keeper policy. The historical root `keeper_costs_*` files and
+season-suffixed directories are archives. Both `docs/index.html` and
+`docs/index.md` are now rebuilt from stable current-season exports each sync;
+follow their league-specific links and inspect snapshot times before analysis.

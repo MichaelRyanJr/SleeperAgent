@@ -30,6 +30,11 @@ import urllib.error
 import urllib.request
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
+try:
+    from tools.keeper_policy import annotate_board, keeper_enabled as is_keeper_enabled
+except ImportError:  # direct CLI invocation
+    from keeper_policy import annotate_board, keeper_enabled as is_keeper_enabled
+
 BASE = "https://api.sleeper.app/v1"
 USER_AGENT = "sleeper-sync/1.4 (keeper-enrichment)"
 UNDRAFTED_BASE_ROUND = 14
@@ -374,7 +379,7 @@ def main() -> int:
 
     user_by_id = {str(u.get("user_id")): u for u in users or []}
     max_keepers = int((league.get("settings") or {}).get("max_keepers") or 0)
-    keeper_enabled = max_keepers > 0
+    keeper_enabled = is_keeper_enabled(league)
 
     previous_league_id = str(league.get("previous_league_id") or "") or None
     previous_picks: List[Dict[str, Any]] = []
@@ -577,6 +582,7 @@ def main() -> int:
         },
         "teams": teams,
     }
+    annotate_board(payload, league)
     (run_dir / "keeper_board.json").write_text(
         json.dumps(payload, indent=2), encoding="utf-8"
     )
