@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:39:50.676641Z",
+  "generated_at": "2026-11-10T02:56:07.925093Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -938,7 +938,7 @@
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 11
         },
@@ -1458,7 +1458,7 @@
           "name": "Emeka Egbuka",
           "position": "WR",
           "team": "TB",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
@@ -1521,7 +1521,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 10
         },
@@ -1758,7 +1758,7 @@
           "name": "Josh Jacobs",
           "position": "RB",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
         },
@@ -1864,7 +1864,7 @@
           "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -2024,7 +2024,7 @@
           "name": "Malik Willis",
           "position": "QB",
           "team": "MIA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 14
         },
@@ -2078,7 +2078,7 @@
           "name": "Michael Wilson",
           "position": "WR",
           "team": "ARI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 8
         },
@@ -2475,7 +2475,7 @@
           "name": "Rhamondre Stevenson",
           "position": "RB",
           "team": "NE",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
         },
@@ -3249,28 +3249,28 @@
       "week": 9,
       "roster_id": 1,
       "opponent_roster_id": 5,
-      "points": 101.98,
+      "points": 106.88,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 5,
       "opponent_roster_id": 1,
-      "points": 139.54,
+      "points": 151.54,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 2,
       "opponent_roster_id": 9,
-      "points": 80.2,
+      "points": 91.2,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 9,
       "opponent_roster_id": 2,
-      "points": 90.08,
+      "points": 99.68,
       "result": "W"
     },
     {
@@ -3284,50 +3284,50 @@
       "week": 9,
       "roster_id": 8,
       "opponent_roster_id": 3,
-      "points": 103.48,
+      "points": 107.48,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 4,
       "opponent_roster_id": 7,
-      "points": 102.58,
+      "points": 107.48,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 7,
       "opponent_roster_id": 4,
-      "points": 67.12,
+      "points": 69.12,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 6,
       "opponent_roster_id": 12,
-      "points": 98.1,
+      "points": 105.58,
       "result": "W"
     },
     {
       "week": 9,
       "roster_id": 12,
       "opponent_roster_id": 6,
-      "points": 47.62,
+      "points": 49.32,
       "result": "L"
     },
     {
       "week": 9,
       "roster_id": 10,
       "opponent_roster_id": 11,
-      "points": 90.12,
-      "result": "L"
+      "points": 93.42,
+      "result": "W"
     },
     {
       "week": 9,
       "roster_id": 11,
       "opponent_roster_id": 10,
       "points": 92.76,
-      "result": "W"
+      "result": "L"
     }
   ],
   "available_players": {
@@ -3335,10 +3335,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2836,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-09T20:39:50.676641Z",
-    "stale_after": "2026-11-09T21:39:50.676641Z"
+    "generated_at": "2026-11-10T02:56:07.925093Z",
+    "stale_after": "2026-11-10T03:56:07.925093Z"
   }
 }
