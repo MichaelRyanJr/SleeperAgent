@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:53:00.038359Z",
+  "generated_at": "2026-11-10T16:42:52.425555Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1141,7 +1141,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "4892",
+        "3257",
         "8151",
         "8150",
         "7569",
@@ -1173,13 +1173,12 @@
       ],
       "starters": [
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "TB",
+          "team": "BAL",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
           "player_id": "8151",
@@ -1298,14 +1297,6 @@
           "draft_round": 2
         },
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -1313,6 +1304,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 3
+        },
+        {
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "5859",
@@ -1422,7 +1422,7 @@
         "3163",
         "13345",
         "9224",
-        "12519",
+        "11635",
         "11646",
         "10859",
         "12512",
@@ -1477,13 +1477,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden III",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "CHI",
+          "team": "LAC",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         },
         {
           "player_id": "11646",
@@ -1549,13 +1549,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "12519",
+          "name": "Luther Burden III",
           "position": "WR",
-          "team": "LAC",
+          "team": "CHI",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 13
         },
         {
           "player_id": "5001",
@@ -1612,13 +1612,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden III",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "CHI",
+          "team": "LAC",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 6
         },
         {
           "player_id": "11646",
@@ -1639,13 +1639,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "12519",
+          "name": "Luther Burden III",
           "position": "WR",
-          "team": "LAC",
+          "team": "CHI",
           "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 6
+          "draft_round": 13
         }
       ]
     },
@@ -4004,7 +4004,7 @@
     "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-10T10:53:00.038359Z",
-    "stale_after": "2026-11-10T11:53:00.038359Z"
+    "generated_at": "2026-11-10T16:42:52.425555Z",
+    "stale_after": "2026-11-10T17:42:52.425555Z"
   }
 }
