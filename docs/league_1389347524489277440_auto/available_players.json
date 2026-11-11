@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T03:01:53.997049Z",
-  "stale_after": "2026-11-11T04:01:53.997049Z",
+  "generated_at": "2026-11-11T10:45:04.753806Z",
+  "stale_after": "2026-11-11T11:45:04.753806Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,29 +10,29 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-11T03:01:49.123538Z",
+    "snapshot_started_at": "2026-11-11T10:45:01.838029Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-11T03:01:49.274551Z"
+      "fetched_at": "2026-11-11T10:45:01.931129Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-11T03:01:49.590086Z"
+      "fetched_at": "2026-11-11T10:45:02.132054Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-11T03:01:49.636206Z"
+        "fetched_at": "2026-11-11T10:45:02.211662Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-11T03:01:49.795108Z"
+      "fetched_at": "2026-11-11T10:45:02.295061Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
       "fetched_at": "2026-11-11T03:01:53.824703Z",
-      "cache_hit": false,
+      "cache_hit": true,
       "max_age_seconds": 86400
     }
   },
@@ -47,25 +47,25 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 197,
+  "excluded_rostered_count": 200,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
-  "all_player_count": 4190,
-  "player_count": 2833,
+  "default_player_count": 2830,
+  "all_player_count": 4187,
+  "player_count": 2830,
   "position_counts": {
     "CB": 1,
     "DB": 1,
     "DEF": 17,
     "FB": 64,
-    "K": 136,
+    "K": 135,
     "P": 4,
-    "QB": 323,
-    "RB": 556,
+    "QB": 322,
+    "RB": 555,
     "SS": 1,
-    "TE": 550,
-    "WR": 1180
+    "TE": 549,
+    "WR": 1181
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -2377,32 +2377,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1794280544949,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "1945",
-      "name": "Chris Boswell",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "PIT",
-      "age": 35,
-      "years_exp": 12,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1793671850565,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -6206,32 +6180,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "news_updated": 1794188124536,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9758",
-      "name": "C.J. Stroud",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "HOU",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1794234029418,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -16768,32 +16716,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "5967",
-      "name": "Tony Pollard",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "TEN",
-      "age": 29,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "RB",
-      "news_updated": 1794354919996,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 7
     },
     {
       "player_id": "6012",
@@ -29399,32 +29321,6 @@
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
       "news_updated": 1794168922287,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "8210",
-      "name": "Chig Okonkwo",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "WAS",
-      "age": 27,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "TE",
-      "news_updated": 1794355220192,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46827,6 +46723,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "13294",
+      "name": "Makai Lemon",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "PHI",
+      "age": 22,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "SWR",
+      "news_updated": 1794233429538,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 8
     },
     {
       "player_id": "11617",

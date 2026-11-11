@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T03:01:58.598229Z",
+  "generated_at": "2026-11-11T10:45:08.205181Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -95,7 +95,7 @@
       "points_for": 1268.66,
       "points_against": 988.8,
       "waiver": {
-        "position": 1,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -112,6 +112,7 @@
       "players_current": [
         "11637",
         "11786",
+        "12491",
         "12506",
         "12514",
         "12529",
@@ -123,7 +124,6 @@
         "5927",
         "6130",
         "8142",
-        "8161",
         "8167",
         "8228",
         "9488",
@@ -221,6 +221,14 @@
           "keeper": false
         },
         {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -272,14 +280,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
-          "injury_status": "IR",
-          "keeper": false
         },
         {
           "player_id": "8228",
@@ -373,7 +373,7 @@
       "points_for": 1149.62,
       "points_against": 1000.52,
       "waiver": {
-        "position": 9,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -617,7 +617,7 @@
       "points_for": 1181.5,
       "points_against": 1211.36,
       "waiver": {
-        "position": 6,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -879,7 +879,7 @@
       "points_for": 992.6,
       "points_against": 1086.8,
       "waiver": {
-        "position": 8,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -894,7 +894,6 @@
         "SEA"
       ],
       "players_current": [
-        "10235",
         "11620",
         "11632",
         "11643",
@@ -903,6 +902,7 @@
         "12533",
         "13269",
         "13294",
+        "13421",
         "13424",
         "7042",
         "9226",
@@ -994,14 +994,6 @@
       ],
       "bench": [
         {
-          "player_id": "10235",
-          "name": "Roschon Johnson",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1036,6 +1028,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "13421",
+          "name": "Eli Raridon",
+          "position": "TE",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "9226",
@@ -1137,7 +1137,7 @@
       "points_for": 1171.88,
       "points_against": 1185.78,
       "waiver": {
-        "position": 12,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1415,7 +1415,7 @@
       "points_for": 948.96,
       "points_against": 1090.3,
       "waiver": {
-        "position": 4,
+        "position": 2,
         "budget_used": 0
       },
       "starters_current": [
@@ -1665,7 +1665,7 @@
       "points_for": 1192.44,
       "points_against": 1028.84,
       "waiver": {
-        "position": 10,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1677,7 +1677,7 @@
         "10236",
         "7547",
         "11533",
-        "CHI"
+        "0"
       ],
       "players_current": [
         "10236",
@@ -1695,7 +1695,7 @@
         "7547",
         "8134",
         "9221",
-        "CHI"
+        "GB"
       ],
       "starters": [
         {
@@ -1768,14 +1768,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
-        },
-        {
-          "player_id": "CHI",
-          "name": "Chicago",
-          "position": "DEF",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "bench": [
@@ -1840,6 +1832,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "GB",
+          "name": "Green Bay",
+          "position": "DEF",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1915,7 +1915,7 @@
       "points_for": 1094.22,
       "points_against": 1103.72,
       "waiver": {
-        "position": 5,
+        "position": 3,
         "budget_used": 0
       },
       "starters_current": [
@@ -2175,7 +2175,7 @@
       "points_for": 1113.16,
       "points_against": 1180.22,
       "waiver": {
-        "position": 11,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -2186,7 +2186,7 @@
         "8146",
         "12498",
         "0",
-        "4227",
+        "0",
         "JAX"
       ],
       "players_current": [
@@ -2199,7 +2199,7 @@
         "12545",
         "13276",
         "13330",
-        "4227",
+        "6083",
         "6790",
         "7611",
         "8110",
@@ -2260,15 +2260,6 @@
           "team": "NYJ",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "4227",
-          "name": "Harrison Butker",
-          "position": "K",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "JAX",
@@ -2342,6 +2333,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "6083",
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "6790",
@@ -2444,7 +2443,7 @@
       "points_for": 945.06,
       "points_against": 1062.14,
       "waiver": {
-        "position": 2,
+        "position": 1,
         "budget_used": 0
       },
       "starters_current": [
@@ -2660,7 +2659,7 @@
       "points_for": 1000.56,
       "points_against": 1028.32,
       "waiver": {
-        "position": 3,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -2675,13 +2674,13 @@
         "CLE"
       ],
       "players_current": [
+        "10213",
         "11583",
         "12185",
         "12474",
         "12492",
         "13296",
         "13301",
-        "5849",
         "6797",
         "6806",
         "6813",
@@ -2776,6 +2775,14 @@
       ],
       "bench": [
         {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -2808,15 +2815,6 @@
           "team": "WAS",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "6797",
@@ -2910,7 +2908,7 @@
       "points_for": 1049.56,
       "points_against": 1141.42,
       "waiver": {
-        "position": 7,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -4001,10 +3999,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2831,
+    "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-11T03:01:58.598229Z",
-    "stale_after": "2026-11-11T04:01:58.598229Z"
+    "generated_at": "2026-11-11T10:45:08.205181Z",
+    "stale_after": "2026-11-11T11:45:08.205181Z"
   }
 }
