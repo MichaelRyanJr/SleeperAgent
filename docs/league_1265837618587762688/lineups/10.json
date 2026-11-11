@@ -12,11 +12,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8132",
-        "name": "Tyler Allgeier",
+        "player_id": "12481",
+        "name": "Cam Skattebo",
         "position": "RB",
-        "team": "ARI",
-        "injury_status": null
+        "team": "NYG",
+        "injury_status": "Out"
       },
       {
         "player_id": "12495",
@@ -47,17 +47,17 @@
         "injury_status": null
       },
       {
-        "player_id": "10213",
-        "name": "Tre Tucker",
+        "player_id": "13279",
+        "name": "Carnell Tate",
         "position": "WR",
-        "team": "LV",
-        "injury_status": null
+        "team": "TEN",
+        "injury_status": "Out"
       },
       {
-        "player_id": "6650",
-        "name": "Chase McLaughlin",
+        "player_id": "1945",
+        "name": "Chris Boswell",
         "position": "K",
-        "team": "TB",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -69,6 +69,13 @@
       }
     ],
     "bench": [
+      {
+        "player_id": "10213",
+        "name": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
+        "injury_status": null
+      },
       {
         "player_id": "11576",
         "name": "Braelon Allen",
@@ -84,31 +91,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "12481",
-        "name": "Cam Skattebo",
-        "position": "RB",
-        "team": "NYG",
-        "injury_status": "Out"
-      },
-      {
         "player_id": "12507",
         "name": "Omarion Hampton",
         "position": "RB",
         "team": "LAC",
-        "injury_status": null
-      },
-      {
-        "player_id": "13279",
-        "name": "Carnell Tate",
-        "position": "WR",
-        "team": "TEN",
-        "injury_status": "Out"
-      },
-      {
-        "player_id": "1945",
-        "name": "Chris Boswell",
-        "position": "K",
-        "team": "PIT",
         "injury_status": null
       },
       {
@@ -117,6 +103,20 @@
         "position": "QB",
         "team": "BAL",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "6650",
+        "name": "Chase McLaughlin",
+        "position": "K",
+        "team": "TB",
+        "injury_status": null
+      },
+      {
+        "player_id": "8132",
+        "name": "Tyler Allgeier",
+        "position": "RB",
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "LAR",
@@ -159,6 +159,13 @@
         "position": "WR",
         "team": "CLE",
         "injury_status": null
+      },
+      {
+        "player_id": "8210",
+        "name": "Chig Okonkwo",
+        "position": "TE",
+        "team": "WAS",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "13286",
@@ -238,13 +245,6 @@
         "position": "RB",
         "team": "TEN",
         "injury_status": null
-      },
-      {
-        "player_id": "8210",
-        "name": "Chig Okonkwo",
-        "position": "TE",
-        "team": "WAS",
-        "injury_status": "Questionable"
       },
       {
         "player_id": "9758",
@@ -424,10 +424,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5022",
-        "name": "Dallas Goedert",
+        "player_id": "12518",
+        "name": "Tyler Warren",
         "position": "TE",
-        "team": "PHI",
+        "team": "IND",
         "injury_status": null
       },
       {
@@ -453,13 +453,6 @@
       }
     ],
     "bench": [
-      {
-        "player_id": "12518",
-        "name": "Tyler Warren",
-        "position": "TE",
-        "team": "IND",
-        "injury_status": null
-      },
       {
         "player_id": "13287",
         "name": "Jeremiyah Love",
@@ -493,6 +486,13 @@
         "name": "Seth McGowan",
         "position": "RB",
         "team": "IND",
+        "injury_status": null
+      },
+      {
+        "player_id": "5022",
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "team": "PHI",
         "injury_status": null
       },
       {

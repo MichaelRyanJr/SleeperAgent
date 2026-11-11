@@ -70,10 +70,10 @@
     ],
     "bench": [
       {
-        "player_id": "11637",
-        "name": "Keon Coleman",
-        "position": "WR",
-        "team": "BUF",
+        "player_id": "11579",
+        "name": "Audric Estime",
+        "position": "RB",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -98,6 +98,13 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "12718",
+        "name": "Konata Mumpfield",
+        "position": "WR",
+        "team": "LAR",
+        "injury_status": null
+      },
+      {
         "player_id": "4035",
         "name": "Alvin Kamara",
         "position": "RB",
@@ -117,13 +124,6 @@
         "position": "WR",
         "team": "WAS",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "6130",
-        "name": "Devin Singletary",
-        "position": "RB",
-        "team": "NYG",
-        "injury_status": null
       },
       {
         "player_id": "8142",
@@ -189,10 +189,10 @@
         "injury_status": null
       },
       {
-        "player_id": "650",
-        "name": "Nick Folk",
+        "player_id": "5119",
+        "name": "Jason Sanders",
         "position": "K",
-        "team": null,
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -531,10 +531,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "9228",
-        "name": "Bryce Young",
+        "player_id": "13269",
+        "name": "Fernando Mendoza",
         "position": "QB",
-        "team": "CAR",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -566,10 +566,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12517",
-        "name": "Colston Loveland",
+        "player_id": "13421",
+        "name": "Eli Raridon",
         "position": "TE",
-        "team": "CHI",
+        "team": "NE",
         "injury_status": null
       },
       {
@@ -610,18 +610,18 @@
         "injury_status": "IR"
       },
       {
+        "player_id": "12517",
+        "name": "Colston Loveland",
+        "position": "TE",
+        "team": "CHI",
+        "injury_status": null
+      },
+      {
         "player_id": "12533",
         "name": "Jacory Croskey-Merritt",
         "position": "RB",
         "team": "WAS",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "13269",
-        "name": "Fernando Mendoza",
-        "position": "QB",
-        "team": "LV",
-        "injury_status": null
       },
       {
         "player_id": "13294",
@@ -631,18 +631,18 @@
         "injury_status": null
       },
       {
-        "player_id": "13421",
-        "name": "Eli Raridon",
-        "position": "TE",
-        "team": "NE",
-        "injury_status": null
-      },
-      {
         "player_id": "9226",
         "name": "De'Von Achane",
         "position": "RB",
         "team": "MIA",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "9228",
+        "name": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
+        "injury_status": null
       },
       {
         "player_id": "9493",
@@ -848,6 +848,13 @@
         "position": "K",
         "team": "DAL",
         "injury_status": null
+      },
+      {
+        "player_id": "GB",
+        "name": "Green Bay",
+        "position": "DEF",
+        "team": "GB",
+        "injury_status": null
       }
     ],
     "bench": [
@@ -898,13 +905,6 @@
         "name": "Khalil Shakir",
         "position": "WR",
         "team": "BUF",
-        "injury_status": null
-      },
-      {
-        "player_id": "GB",
-        "name": "Green Bay",
-        "position": "DEF",
-        "team": "GB",
         "injury_status": null
       }
     ]
@@ -1299,11 +1299,11 @@
         "injury_status": null
       },
       {
-        "player_id": "7611",
-        "name": "Rhamondre Stevenson",
+        "player_id": "5995",
+        "name": "Justice Hill",
         "position": "RB",
-        "team": "NE",
-        "injury_status": "Out"
+        "team": "BAL",
+        "injury_status": null
       },
       {
         "player_id": "8112",
@@ -1324,6 +1324,20 @@
         "name": "Mason Taylor",
         "position": "TE",
         "team": "NYJ",
+        "injury_status": null
+      },
+      {
+        "player_id": "13276",
+        "name": "Omar Cooper Jr.",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": null
+      },
+      {
+        "player_id": "6083",
+        "name": "Matt Gay",
+        "position": "K",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -1371,24 +1385,10 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "13276",
-        "name": "Omar Cooper Jr.",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": null
-      },
-      {
         "player_id": "13330",
         "name": "Kenyon Sadiq",
         "position": "TE",
         "team": "NYJ",
-        "injury_status": null
-      },
-      {
-        "player_id": "6083",
-        "name": "Matt Gay",
-        "position": "K",
-        "team": "LV",
         "injury_status": null
       },
       {
@@ -1397,6 +1397,13 @@
         "position": "RB",
         "team": "CHI",
         "injury_status": null
+      },
+      {
+        "player_id": "7611",
+        "name": "Rhamondre Stevenson",
+        "position": "RB",
+        "team": "NE",
+        "injury_status": "Out"
       },
       {
         "player_id": "8110",
