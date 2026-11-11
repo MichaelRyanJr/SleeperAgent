@@ -610,15 +610,6 @@
     },
     "keepers": [
       {
-        "player_id": "11560",
-        "name": "Caleb Williams",
-        "position": "QB",
-        "team": "CHI",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 7
-      },
-      {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
@@ -637,6 +628,33 @@
         "draft_round": 6
       },
       {
+        "player_id": "8146",
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 2
+      },
+      {
+        "player_id": "10232",
+        "name": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "injury_status": "IR",
+        "keeper": true,
+        "draft_round": 13
+      },
+      {
+        "player_id": "11560",
+        "name": "Caleb Williams",
+        "position": "QB",
+        "team": "CHI",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 7
+      },
+      {
         "player_id": "6790",
         "name": "D'Andre Swift",
         "position": "RB",
@@ -646,15 +664,6 @@
         "draft_round": 5
       },
       {
-        "player_id": "10232",
-        "name": "Michael Wilson",
-        "position": "WR",
-        "team": "ARI",
-        "injury_status": "Out",
-        "keeper": true,
-        "draft_round": 13
-      },
-      {
         "player_id": "8110",
         "name": "Jake Ferguson",
         "position": "TE",
@@ -662,15 +671,6 @@
         "injury_status": "Out",
         "keeper": true,
         "draft_round": 14
-      },
-      {
-        "player_id": "8146",
-        "name": "Garrett Wilson",
-        "position": "WR",
-        "team": "NYJ",
-        "injury_status": "Out",
-        "keeper": true,
-        "draft_round": 2
       }
     ]
   },
@@ -754,7 +754,7 @@
         "player_id": "9500",
         "name": "Josh Downs",
         "position": "WR",
-        "team": "IND",
+        "team": "KC",
         "injury_status": null,
         "keeper": true,
         "draft_round": 14

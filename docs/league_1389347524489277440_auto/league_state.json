@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:38:37.042691Z",
+  "generated_at": "2026-11-11T03:01:53.997049Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -928,7 +928,7 @@
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND",
+          "team": "SF",
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
@@ -964,7 +964,7 @@
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
-          "team": null,
+          "team": "DAL",
           "injury_status": null,
           "keeper": false
         },
@@ -1260,7 +1260,7 @@
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
-          "team": "IND",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
@@ -1989,21 +1989,19 @@
         "budget_used": 0
       },
       "starters_current": [
-        "8161",
+        "0",
         "8138",
         "8151",
         "9487",
-        "11635",
-        "12517",
-        "10232",
+        "13346",
+        "0",
+        "13286",
         "11653",
         "JAX"
       ],
       "players_current": [
-        "10232",
         "11635",
         "11653",
-        "12471",
         "12517",
         "13281",
         "13286",
@@ -2014,20 +2012,10 @@
         "4943",
         "8138",
         "8151",
-        "8161",
         "9487",
         "JAX"
       ],
       "starters": [
-        {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 14
-        },
         {
           "player_id": "8138",
           "name": "James Cook III",
@@ -2056,31 +2044,21 @@
           "draft_round": 6
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "13346",
+          "name": "Denzel Boston",
           "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 3
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
+          "player_id": "13286",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
-        },
-        {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 8
+          "draft_round": 5
         },
         {
           "player_id": "11653",
@@ -2102,12 +2080,22 @@
       ],
       "bench": [
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 4
         },
         {
           "player_id": "13281",
@@ -2117,15 +2105,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
-        },
-        {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
         },
         {
           "player_id": "13301",
@@ -2143,14 +2122,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "13346",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "3286",
@@ -2421,7 +2392,7 @@
           "player_id": "1166",
           "name": "Kirk Cousins",
           "position": "QB",
-          "team": "LV",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false
         },
@@ -2483,7 +2454,7 @@
           "player_id": "650",
           "name": "Nick Folk",
           "position": "K",
-          "team": "ATL",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
@@ -3419,10 +3390,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2834,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-10T23:38:37.042691Z",
-    "stale_after": "2026-11-11T00:38:37.042691Z"
+    "generated_at": "2026-11-11T03:01:53.997049Z",
+    "stale_after": "2026-11-11T04:01:53.997049Z"
   }
 }
