@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:07:59.903247Z",
+  "generated_at": "2026-11-12T00:39:29.414597Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -101,11 +101,11 @@
       "starters_current": [
         "4984",
         "4034",
-        "0",
+        "8228",
         "9488",
         "8167",
         "12506",
-        "12514",
+        "12491",
         "11786",
         "MIN"
       ],
@@ -149,6 +149,15 @@
           "draft_round": 1
         },
         {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
           "player_id": "9488",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -176,13 +185,12 @@
           "draft_round": 14
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false
         },
         {
           "player_id": "11786",
@@ -213,12 +221,13 @@
           "keeper": false
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "12529",
@@ -280,15 +289,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
-        },
-        {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         }
       ],
       "keepers": [
@@ -300,6 +300,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 2
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "9488",
@@ -345,15 +354,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 4
-        },
-        {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 13
         }
       ]
     },
@@ -1675,7 +1675,7 @@
         "7547",
         "12501",
         "10236",
-        "5846",
+        "8134",
         "11533",
         "GB"
       ],
@@ -1753,13 +1753,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "PIT",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 12
         },
         {
           "player_id": "11533",
@@ -1806,6 +1806,15 @@
           "keeper": false
         },
         {
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -1831,15 +1840,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         }
       ],
       "keepers": [
@@ -4011,7 +4011,7 @@
     "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-11T18:07:59.903247Z",
-    "stale_after": "2026-11-11T19:07:59.903247Z"
+    "generated_at": "2026-11-12T00:39:29.414597Z",
+    "stale_after": "2026-11-12T01:39:29.414597Z"
   }
 }
