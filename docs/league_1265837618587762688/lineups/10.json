@@ -16,7 +16,7 @@
         "name": "Cam Skattebo",
         "position": "RB",
         "team": "NYG",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "12495",
@@ -51,7 +51,7 @@
         "name": "Carnell Tate",
         "position": "WR",
         "team": "TEN",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "1945",
@@ -88,7 +88,7 @@
         "name": "MarShawn Lloyd",
         "position": "RB",
         "team": "GB",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "12507",
@@ -133,6 +133,13 @@
     "points": 0.0,
     "starters": [
       {
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "injury_status": null
+      },
+      {
         "player_id": "8138",
         "name": "James Cook III",
         "position": "RB",
@@ -158,14 +165,14 @@
         "name": "Denzel Boston",
         "position": "WR",
         "team": "CLE",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8210",
         "name": "Chig Okonkwo",
         "position": "TE",
         "team": "WAS",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "13286",
@@ -245,13 +252,6 @@
         "position": "RB",
         "team": "TEN",
         "injury_status": null
-      },
-      {
-        "player_id": "9758",
-        "name": "C.J. Stroud",
-        "position": "QB",
-        "team": "HOU",
-        "injury_status": null
       }
     ]
   },
@@ -265,7 +265,7 @@
         "name": "Jared Goff",
         "position": "QB",
         "team": "DET",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8150",
@@ -286,7 +286,7 @@
         "name": "Puka Nacua",
         "position": "WR",
         "team": "LAR",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "7526",
@@ -351,14 +351,14 @@
         "name": "Deebo Samuel Sr.",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5892",
         "name": "David Montgomery",
         "position": "RB",
         "team": "HOU",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8121",
@@ -372,7 +372,7 @@
         "name": "George Pickens",
         "position": "WR",
         "team": "DAL",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8408",
@@ -472,7 +472,7 @@
         "name": "KC Concepcion Jr.",
         "position": "WR",
         "team": "CLE",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "13337",
@@ -563,7 +563,7 @@
         "name": "Chris Rodriguez Jr.",
         "position": "RB",
         "team": "JAX",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2747",
@@ -635,7 +635,7 @@
         "name": "A.J. Brown",
         "position": "WR",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -659,25 +659,25 @@
         "injury_status": null
       },
       {
-        "player_id": "6790",
-        "name": "D'Andre Swift",
+        "player_id": "7543",
+        "name": "Travis Etienne Jr.",
         "position": "RB",
-        "team": "CHI",
-        "injury_status": null
+        "team": "NO",
+        "injury_status": "IR"
       },
       {
         "player_id": "7547",
         "name": "Amon-Ra St. Brown",
         "position": "WR",
         "team": "DET",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
-        "player_id": "12514",
-        "name": "Emeka Egbuka",
+        "player_id": "13276",
+        "name": "Omar Cooper Jr.",
         "position": "WR",
-        "team": "TB",
-        "injury_status": null
+        "team": "NYJ",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8131",
@@ -724,6 +724,13 @@
         "injury_status": null
       },
       {
+        "player_id": "12514",
+        "name": "Emeka Egbuka",
+        "position": "WR",
+        "team": "TB",
+        "injury_status": null
+      },
+      {
         "player_id": "12534",
         "name": "Kyle Monangai",
         "position": "RB",
@@ -735,13 +742,6 @@
         "name": "Tyler Shough",
         "position": "QB",
         "team": "NO",
-        "injury_status": null
-      },
-      {
-        "player_id": "13276",
-        "name": "Omar Cooper Jr.",
-        "position": "WR",
-        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -759,11 +759,11 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "7543",
-        "name": "Travis Etienne Jr.",
+        "player_id": "6790",
+        "name": "D'Andre Swift",
         "position": "RB",
-        "team": "NO",
-        "injury_status": "IR"
+        "team": "CHI",
+        "injury_status": null
       }
     ]
   },
@@ -849,7 +849,7 @@
         "name": "Woody Marks",
         "position": "RB",
         "team": "HOU",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "1479",
@@ -940,7 +940,7 @@
         "name": "Harold Fannin Jr.",
         "position": "TE",
         "team": "CLE",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11584",
@@ -970,49 +970,49 @@
         "name": "Xavier Worthy",
         "position": "WR",
         "team": "KC",
-        "injury_status": "Out"
+        "injury_status": null
       },
       {
         "player_id": "2216",
         "name": "Mike Evans",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4035",
         "name": "Alvin Kamara",
         "position": "RB",
         "team": "NO",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5844",
         "name": "T.J. Hockenson",
         "position": "TE",
         "team": "MIN",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5849",
         "name": "Kyler Murray",
         "position": "QB",
         "team": "MIN",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "5947",
         "name": "Jakobi Meyers",
         "position": "WR",
         "team": "JAX",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8146",
         "name": "Garrett Wilson",
         "position": "WR",
         "team": "NYJ",
-        "injury_status": "Out"
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -1098,7 +1098,7 @@
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "2133",
@@ -1112,7 +1112,7 @@
         "name": "Hunter Henry",
         "position": "TE",
         "team": "NE",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4037",
@@ -1147,7 +1147,7 @@
         "name": "Patrick Mahomes",
         "position": "QB",
         "team": "KC",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "12491",
@@ -1175,7 +1175,7 @@
         "name": "Tank Dell",
         "position": "WR",
         "team": "HOU",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "11604",
@@ -1424,14 +1424,14 @@
         "name": "Dalton Kincaid",
         "position": "TE",
         "team": "BUF",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
         "team": "NE",
-        "injury_status": "Out"
+        "injury_status": "Doubtful"
       },
       {
         "player_id": "650",
@@ -1468,7 +1468,7 @@
         "name": "Colby Parkinson",
         "position": "TE",
         "team": "LAR",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "6904",
