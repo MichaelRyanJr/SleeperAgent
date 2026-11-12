@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:19:27.439728Z",
+  "generated_at": "2026-11-12T22:19:18.366607Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1196,9 +1196,9 @@
         "8144",
         "9500",
         "12506",
-        "11584",
+        "11624",
         "6083",
-        "TB"
+        "GB"
       ],
       "players_current": [
         "11584",
@@ -1209,13 +1209,13 @@
         "4035",
         "4984",
         "5844",
-        "5849",
         "5947",
         "6083",
         "8144",
         "8146",
         "9221",
         "9500",
+        "GB",
         "TB"
       ],
       "starters": [
@@ -1274,13 +1274,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 13
         },
         {
           "player_id": "6083",
@@ -1291,23 +1291,23 @@
           "keeper": false
         },
         {
-          "player_id": "TB",
-          "name": "Tampa Bay",
+          "player_id": "GB",
+          "name": "Green Bay",
           "position": "DEF",
-          "team": "TB",
+          "team": "GB",
           "injury_status": null,
           "keeper": false
         }
       ],
       "bench": [
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "2216",
@@ -1337,15 +1337,6 @@
           "draft_round": 15
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": "Doubtful",
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
           "player_id": "5947",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -1362,6 +1353,14 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "TB",
+          "name": "Tampa Bay",
+          "position": "DEF",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -3420,7 +3419,7 @@
     "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-12T16:19:27.439728Z",
-    "stale_after": "2026-11-12T17:19:27.439728Z"
+    "generated_at": "2026-11-12T22:19:18.366607Z",
+    "stale_after": "2026-11-12T23:19:18.366607Z"
   }
 }

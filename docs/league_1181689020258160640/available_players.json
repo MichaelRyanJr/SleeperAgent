@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T16:19:30.900089Z",
-  "stale_after": "2026-11-12T17:19:30.900089Z",
+  "generated_at": "2026-11-12T22:19:24.276895Z",
+  "stale_after": "2026-11-12T23:19:24.276895Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-12T16:19:28.017744Z",
+    "snapshot_started_at": "2026-11-12T22:19:18.851718Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-12T16:19:28.115873Z"
+      "fetched_at": "2026-11-12T22:19:19.038492Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-12T16:19:28.286291Z"
+      "fetched_at": "2026-11-12T22:19:19.457917Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-12T16:19:28.319978Z"
+        "fetched_at": "2026-11-12T22:19:19.666720Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-12T16:19:28.402718Z"
+      "fetched_at": "2026-11-12T22:19:19.772762Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -57,15 +57,15 @@
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 19,
     "FB": 64,
     "K": 137,
     "P": 4,
     "QB": 320,
-    "RB": 556,
+    "RB": 554,
     "SS": 1,
     "TE": 549,
-    "WR": 1178
+    "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -289,6 +289,32 @@
         "DEF"
       ],
       "team": "DAL",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "DET",
+      "name": "Detroit Lions",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "DET",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -2359,6 +2385,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "2020",
+      "name": "Cairo Santos",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "CHI",
+      "age": 35,
+      "years_exp": 12,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1794279044886,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "8259",
       "name": "Cameron Dicker",
       "position": "K",
@@ -2435,32 +2487,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "1945",
-      "name": "Chris Boswell",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "PIT",
-      "age": 35,
-      "years_exp": 12,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1793671850565,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 10
     },
     {
       "player_id": "13833",
@@ -15756,32 +15782,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "12504",
-      "name": "Kaleb Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "age": 23,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1794339619361,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 16
-    },
-    {
       "player_id": "12516",
       "name": "Kalel Mullings",
       "position": "RB",
@@ -15884,32 +15884,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "7567",
-      "name": "Kenny Gainwell",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "TB",
-      "age": 27,
-      "years_exp": 5,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1794222028335,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 11
     },
     {
       "player_id": "13436",
@@ -46353,6 +46327,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "LWR",
       "news_updated": 1794363021121,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "1479",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "age": 34,
+      "years_exp": 13,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RWR",
+      "news_updated": 1794416126135,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

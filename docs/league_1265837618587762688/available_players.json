@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T16:19:27.439728Z",
-  "stale_after": "2026-11-12T17:19:27.439728Z",
+  "generated_at": "2026-11-12T22:19:18.366607Z",
+  "stale_after": "2026-11-12T23:19:18.366607Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-12T16:19:24.454460Z",
+    "snapshot_started_at": "2026-11-12T22:19:13.179892Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-12T16:19:24.544814Z"
+      "fetched_at": "2026-11-12T22:19:13.371048Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-12T16:19:24.728902Z"
+      "fetched_at": "2026-11-12T22:19:13.839664Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-12T16:19:24.761475Z"
+        "fetched_at": "2026-11-12T22:19:13.968540Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-12T16:19:24.852889Z"
+      "fetched_at": "2026-11-12T22:19:14.154505Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -57,11 +57,11 @@
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 17,
+    "DEF": 16,
     "FB": 64,
     "K": 135,
     "P": 4,
-    "QB": 322,
+    "QB": 323,
     "RB": 555,
     "SS": 1,
     "TE": 549,
@@ -303,32 +303,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": 14
-    },
-    {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "GB",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
     },
     {
       "player_id": "IND",
@@ -7382,6 +7356,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "5849",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "MIN",
+      "age": 29,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": "Doubtful",
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "QB",
+      "news_updated": 1794426028767,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "13314",
