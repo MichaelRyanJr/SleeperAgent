@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T22:19:18.366607Z",
-  "stale_after": "2026-11-12T23:19:18.366607Z",
+  "generated_at": "2026-11-13T02:42:57.180057Z",
+  "stale_after": "2026-11-13T03:42:57.180057Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-12T22:19:13.179892Z",
+    "snapshot_started_at": "2026-11-13T02:42:52.728381Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-12T22:19:13.371048Z"
+      "fetched_at": "2026-11-13T02:42:52.861558Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-12T22:19:13.839664Z"
+      "fetched_at": "2026-11-13T02:42:53.175999Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-12T22:19:13.968540Z"
+        "fetched_at": "2026-11-13T02:42:53.240390Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-12T22:19:14.154505Z"
+      "fetched_at": "2026-11-13T02:42:53.391171Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -305,32 +305,6 @@
       "current_season_draft_round": 14
     },
     {
-      "player_id": "IND",
-      "name": "Indianapolis Colts",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "IND",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "LV",
       "name": "Las Vegas Raiders",
       "position": "DEF",
@@ -407,6 +381,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "NE",
+      "name": "New England Patriots",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "NE",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 15
     },
     {
       "player_id": "NYJ",
@@ -2507,32 +2507,6 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "news_updated": 1794332750019,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "5119",
-      "name": "Jason Sanders",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "NYJ",
-      "age": 30,
-      "years_exp": 8,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1794199825088,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -4823,6 +4797,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1510693201668,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "650",
+      "name": "Nick Folk",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": null,
+      "age": 42,
+      "years_exp": 19,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1794333650178,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

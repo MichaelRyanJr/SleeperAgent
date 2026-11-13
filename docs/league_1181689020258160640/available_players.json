@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T22:19:24.276895Z",
-  "stale_after": "2026-11-12T23:19:24.276895Z",
+  "generated_at": "2026-11-13T02:43:02.211615Z",
+  "stale_after": "2026-11-13T03:43:02.211615Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-12T22:19:18.851718Z",
+    "snapshot_started_at": "2026-11-13T02:42:57.735085Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-12T22:19:19.038492Z"
+      "fetched_at": "2026-11-13T02:42:57.858760Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-12T22:19:19.457917Z"
+      "fetched_at": "2026-11-13T02:42:58.175313Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-12T22:19:19.666720Z"
+        "fetched_at": "2026-11-13T02:42:58.406103Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-12T22:19:19.772762Z"
+      "fetched_at": "2026-11-13T02:42:58.553341Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -57,14 +57,14 @@
   "position_counts": {
     "CB": 1,
     "DB": 1,
-    "DEF": 19,
+    "DEF": 18,
     "FB": 64,
-    "K": 137,
+    "K": 138,
     "P": 4,
     "QB": 320,
-    "RB": 554,
+    "RB": 553,
     "SS": 1,
-    "TE": 549,
+    "TE": 550,
     "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
@@ -199,32 +199,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": 11
-    },
-    {
-      "player_id": "BUF",
-      "name": "Buffalo Bills",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "BUF",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
     },
     {
       "player_id": "CAR",
@@ -2481,6 +2455,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1794286245431,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "6650",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "TB",
+      "age": 30,
+      "years_exp": 7,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1794278444652,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -15020,32 +15020,6 @@
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "news_updated": 1794411925636,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "11199",
-      "name": "Emari Demercado",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "HOU",
-      "age": 27,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RB",
-      "news_updated": 1794277844673,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -29589,32 +29563,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "2505",
-      "name": "Darren Waller",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "CAR",
-      "age": 34,
-      "years_exp": 11,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "TE",
-      "news_updated": 1794282344651,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "12357",
       "name": "David Martin-Robinson",
       "position": "TE",
@@ -30367,6 +30315,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "8110",
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "DAL",
+      "age": 27,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1794432929634,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 14
     },
     {
       "player_id": "8170",
@@ -31167,6 +31141,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788334227816,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "12498",
+      "name": "Mason Taylor",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "NYJ",
+      "age": 22,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1794278444650,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -46725,32 +46725,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "4177",
-      "name": "Mack Hollins",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "NE",
-      "age": 33,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RWR",
-      "news_updated": 1794282044760,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "11617",
       "name": "Malachi Corley",
       "position": "WR",
@@ -48069,6 +48043,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "news_updated": 1794281744953,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "LV",
+      "age": 25,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "LWR",
+      "news_updated": 1794205526472,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
