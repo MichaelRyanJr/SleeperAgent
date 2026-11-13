@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:40:15.322636Z",
+  "generated_at": "2026-11-13T22:53:53.058737Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -622,14 +622,14 @@
       },
       "starters_current": [
         "8183",
-        "11584",
+        "12527",
         "7588",
         "9487",
         "10229",
         "8130",
-        "12527",
+        "12526",
         "2747",
-        "0"
+        "PIT"
       ],
       "players_current": [
         "10229",
@@ -662,13 +662,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
           "position": "RB",
-          "team": "TB",
+          "team": "LV",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7588",
@@ -707,13 +707,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "position": "RB",
-          "team": "LV",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "2747",
@@ -723,9 +723,27 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "PIT",
+          "name": "Pittsburgh",
+          "position": "DEF",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 11
         }
       ],
       "bench": [
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
         {
           "player_id": "12487",
           "name": "Terrance Ferguson",
@@ -743,15 +761,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
         },
         {
           "player_id": "13274",
@@ -805,27 +814,9 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
-          "position": "DEF",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         }
       ],
       "keepers": [
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
         {
           "player_id": "7588",
           "name": "Javonte Williams",
@@ -861,6 +852,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
         }
       ]
     },
@@ -4004,7 +4004,7 @@
     "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-13T17:40:15.322636Z",
-    "stale_after": "2026-11-13T18:40:15.322636Z"
+    "generated_at": "2026-11-13T22:53:53.058737Z",
+    "stale_after": "2026-11-13T23:53:53.058737Z"
   }
 }

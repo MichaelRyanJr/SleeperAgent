@@ -7,13 +7,13 @@ Legacy root keeper_costs files and season-suffixed folders are historical, not c
 ## Grub from the Fantasy
 
 Season 2026; current Sleeper ID 1312845245053939712; stable anchor 1181689020258160640.
-Snapshot: 2026-11-13T17:40:15.322636Z
+Snapshot: 2026-11-13T22:53:53.058737Z
 
 [State](league_1181689020258160640/state.json) · [Settings](league_1181689020258160640/league.json) · [Available players](league_1181689020258160640/available_players.json) · [Season-scoped keeper board](league_1181689020258160640/keeper_board.json) · [Manifest](league_1181689020258160640/manifest.json)
 
 ## Ryan Fantasy Football
 
 Season 2026; current Sleeper ID 1389347524489277440; stable anchor 1265837618587762688.
-Snapshot: 2026-11-13T17:40:09.847684Z
+Snapshot: 2026-11-13T22:53:49.552819Z
 
 [State](league_1265837618587762688/state.json) · [Settings](league_1265837618587762688/league.json) · [Available players](league_1265837618587762688/available_players.json) · [Season-scoped keeper board](league_1265837618587762688/keeper_board.json) · [Manifest](league_1265837618587762688/manifest.json)

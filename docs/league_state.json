@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:40:09.847684Z",
+  "generated_at": "2026-11-13T22:53:49.552819Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -188,7 +188,7 @@
         "6794",
         "12526",
         "8130",
-        "13279",
+        "8132",
         "1945",
         "NYG"
       ],
@@ -265,13 +265,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": "Questionable",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 12
         },
         {
           "player_id": "1945",
@@ -326,6 +326,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -342,15 +351,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
         },
         {
           "player_id": "LAR",
@@ -3418,7 +3418,7 @@
     "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-13T17:40:09.847684Z",
-    "stale_after": "2026-11-13T18:40:09.847684Z"
+    "generated_at": "2026-11-13T22:53:49.552819Z",
+    "stale_after": "2026-11-13T23:53:49.552819Z"
   }
 }
