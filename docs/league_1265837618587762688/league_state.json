@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:42:57.180057Z",
+  "generated_at": "2026-11-13T10:03:31.151717Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -387,8 +387,8 @@
         "3163",
         "8150",
         "7594",
-        "9493",
-        "7526",
+        "8137",
+        "5872",
         "13330",
         "6806",
         "11539",
@@ -419,7 +419,7 @@
           "name": "Jared Goff",
           "position": "QB",
           "team": "DET",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -442,22 +442,22 @@
           "draft_round": 6
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "LAR",
-          "injury_status": "Out",
+          "team": "DAL",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 1
+          "draft_round": 2
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "team": "DEN",
-          "injury_status": "Out",
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 11
         },
         {
           "player_id": "13330",
@@ -523,15 +523,6 @@
           "keeper": false
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -539,6 +530,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 5
         },
         {
           "player_id": "8121",
@@ -550,15 +550,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 2
-        },
-        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -566,6 +557,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 9
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "injury_status": "IR",
+          "keeper": false,
+          "draft_round": 1
         }
       ],
       "keepers": []
@@ -750,7 +750,7 @@
           "name": "Tyler Higbee",
           "position": "TE",
           "team": "LAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1156,7 +1156,7 @@
           "name": "Rashod Bateman",
           "position": "WR",
           "team": "BAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1323,7 +1323,7 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -1861,7 +1861,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 13
         },
@@ -2065,7 +2065,7 @@
           "name": "Chig Okonkwo",
           "position": "TE",
           "team": "WAS",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2161,7 +2161,7 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 7
         }
@@ -2542,7 +2542,7 @@
           "name": "Rhamondre Stevenson",
           "position": "RB",
           "team": "NE",
-          "injury_status": "Doubtful",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -2551,7 +2551,7 @@
           "name": "Keaton Mitchell",
           "position": "RB",
           "team": "LAC",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 13
         },
@@ -3329,14 +3329,14 @@
       "week": 10,
       "roster_id": 1,
       "opponent_roster_id": 10,
-      "points": 20.2,
+      "points": 30.7,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 10,
       "opponent_roster_id": 1,
-      "points": 2.7,
+      "points": 4.4,
       "result": "L"
     },
     {
@@ -3364,14 +3364,14 @@
       "week": 10,
       "roster_id": 7,
       "opponent_roster_id": 3,
-      "points": 6.4,
+      "points": 23.2,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 4,
       "opponent_roster_id": 6,
-      "points": 2.3,
+      "points": 4.9,
       "result": "W"
     },
     {
@@ -3385,7 +3385,7 @@
       "week": 10,
       "roster_id": 5,
       "opponent_roster_id": 9,
-      "points": 3.4,
+      "points": 7.2,
       "result": "W"
     },
     {
@@ -3406,7 +3406,7 @@
       "week": 10,
       "roster_id": 12,
       "opponent_roster_id": 11,
-      "points": 6.4,
+      "points": 23.0,
       "result": "W"
     }
   ],
@@ -3418,7 +3418,7 @@
     "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-13T02:42:57.180057Z",
-    "stale_after": "2026-11-13T03:42:57.180057Z"
+    "generated_at": "2026-11-13T10:03:31.151717Z",
+    "stale_after": "2026-11-13T11:03:31.151717Z"
   }
 }
