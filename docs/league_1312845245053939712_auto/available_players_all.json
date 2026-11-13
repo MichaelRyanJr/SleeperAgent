@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T10:03:34.197895Z",
-  "stale_after": "2026-11-13T11:03:34.197895Z",
+  "generated_at": "2026-11-13T17:40:15.322636Z",
+  "stale_after": "2026-11-13T18:40:15.322636Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-13T10:03:31.551946Z",
+    "snapshot_started_at": "2026-11-13T17:40:10.298292Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-13T10:03:31.622265Z"
+      "fetched_at": "2026-11-13T17:40:10.468076Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-13T10:03:31.798841Z"
+      "fetched_at": "2026-11-13T17:40:10.821216Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-13T10:03:31.869110Z"
+        "fetched_at": "2026-11-13T17:40:10.960263Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-13T10:03:31.950357Z"
+      "fetched_at": "2026-11-13T17:40:11.049921Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,8 +62,8 @@
     "FB": 112,
     "K": 179,
     "P": 5,
-    "QB": 449,
-    "RB": 872,
+    "QB": 450,
+    "RB": 871,
     "SS": 1,
     "T": 2,
     "TE": 817,
@@ -228,32 +228,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "BAL",
-      "name": "Baltimore Ravens",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "BAL",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 11
     },
     {
       "player_id": "CAR",
@@ -540,6 +514,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "PHI",
+      "name": "Philadelphia Eagles",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "PHI",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
     },
     {
       "player_id": "SF",
@@ -9722,6 +9722,32 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1789921855947,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "1166",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "MIN",
+      "age": 38,
+      "years_exp": 14,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1794426927381,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -23321,32 +23347,6 @@
       "depth_chart_position": "RB",
       "news_updated": 1793913946151,
       "in_default_view": false,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "8122",
-      "name": "Zonovan Knight",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "ARI",
-      "age": 25,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1794556528933,
-      "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
       "claim_deadline": null,

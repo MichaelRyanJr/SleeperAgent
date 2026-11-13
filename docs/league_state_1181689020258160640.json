@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:03:34.197895Z",
+  "generated_at": "2026-11-13T17:40:15.322636Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -379,11 +379,11 @@
       "starters_current": [
         "11564",
         "12490",
-        "11576",
+        "9753",
         "6786",
         "5947",
         "11604",
-        "9753",
+        "13286",
         "11792",
         "LAR"
       ],
@@ -425,13 +425,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
           "position": "RB",
-          "team": "NYJ",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 4
         },
         {
           "player_id": "6786",
@@ -461,13 +461,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "13286",
+          "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 1
         },
         {
           "player_id": "11792",
@@ -499,6 +499,15 @@
           "draft_round": 11
         },
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
+        },
+        {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
           "position": "WR",
@@ -515,15 +524,6 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
         },
         {
           "player_id": "13414",
@@ -2450,18 +2450,17 @@
       },
       "starters_current": [
         "6770",
-        "4866",
+        "8122",
         "4199",
         "6801",
         "8148",
         "9480",
         "2449",
         "7839",
-        "PHI"
+        "BAL"
       ],
       "players_current": [
         "11610",
-        "1166",
         "13279",
         "13287",
         "13346",
@@ -2472,10 +2471,11 @@
         "6801",
         "7553",
         "7839",
+        "8122",
         "8126",
         "8148",
         "9480",
-        "PHI"
+        "BAL"
       ],
       "starters": [
         {
@@ -2488,13 +2488,12 @@
           "draft_round": 3
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "team": "ARI",
+          "injury_status": "Questionable",
+          "keeper": false
         },
         {
           "player_id": "4199",
@@ -2551,10 +2550,10 @@
           "draft_round": 14
         },
         {
-          "player_id": "PHI",
-          "name": "Philadelphia",
+          "player_id": "BAL",
+          "name": "Baltimore",
           "position": "DEF",
-          "team": "PHI",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
@@ -2569,14 +2568,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
-        },
-        {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "13279",
@@ -2604,6 +2595,15 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "7553",
@@ -4004,7 +4004,7 @@
     "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-13T10:03:34.197895Z",
-    "stale_after": "2026-11-13T11:03:34.197895Z"
+    "generated_at": "2026-11-13T17:40:15.322636Z",
+    "stale_after": "2026-11-13T18:40:15.322636Z"
   }
 }
