@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:53:49.552819Z",
+  "generated_at": "2026-11-14T02:54:06.747783Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1196,7 +1196,7 @@
         "8144",
         "9500",
         "12506",
-        "11624",
+        "5947",
         "6083",
         "GB"
       ],
@@ -1274,13 +1274,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "KC",
-          "injury_status": null,
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 13
+          "draft_round": 10
         },
         {
           "player_id": "6083",
@@ -1310,6 +1310,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 13
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -1335,15 +1344,6 @@
           "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "8146",
@@ -3418,7 +3418,7 @@
     "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-13T22:53:49.552819Z",
-    "stale_after": "2026-11-13T23:53:49.552819Z"
+    "generated_at": "2026-11-14T02:54:06.747783Z",
+    "stale_after": "2026-11-14T03:54:06.747783Z"
   }
 }
