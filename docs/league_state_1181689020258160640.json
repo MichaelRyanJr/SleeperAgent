@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:10:29.912762Z",
+  "generated_at": "2026-11-14T20:43:37.721470Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1143,7 +1143,7 @@
       },
       "starters_current": [
         "3257",
-        "8151",
+        "13337",
         "8150",
         "7569",
         "7564",
@@ -1182,13 +1182,13 @@
           "keeper": false
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "8150",
@@ -1280,15 +1280,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
           "player_id": "2133",
           "name": "Davante Adams",
           "position": "WR",
@@ -1332,9 +1323,7 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "8151",
           "name": "Kenneth Walker III",
@@ -1343,7 +1332,9 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -1397,6 +1388,15 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 5
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -1423,7 +1423,7 @@
         "3163",
         "12512",
         "9224",
-        "11635",
+        "5872",
         "11646",
         "10859",
         "11624",
@@ -1478,13 +1478,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "11646",
@@ -1542,6 +1542,15 @@
           "keeper": false
         },
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
+        },
+        {
           "player_id": "12519",
           "name": "Luther Burden III",
           "position": "WR",
@@ -1566,15 +1575,6 @@
           "team": "HOU",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "5872",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "6904",
@@ -1623,15 +1623,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
-        },
-        {
           "player_id": "11646",
           "name": "Jalen Coker",
           "position": "WR",
@@ -1639,6 +1630,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 6
         },
         {
           "player_id": "12519",
@@ -4004,7 +4004,7 @@
     "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-14T16:10:29.912762Z",
-    "stale_after": "2026-11-14T17:10:29.912762Z"
+    "generated_at": "2026-11-14T20:43:37.721470Z",
+    "stale_after": "2026-11-14T21:43:37.721470Z"
   }
 }
