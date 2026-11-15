@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T19:56:55.887371Z",
-  "stale_after": "2026-11-15T20:56:55.887371Z",
+  "generated_at": "2026-11-15T23:52:36.475918Z",
+  "stale_after": "2026-11-16T00:52:36.475918Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-15T19:56:51.718289Z",
+    "snapshot_started_at": "2026-11-15T23:52:33.830599Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-15T19:56:51.867303Z"
+      "fetched_at": "2026-11-15T23:52:33.900387Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-15T19:56:52.170040Z"
+      "fetched_at": "2026-11-15T23:52:34.066498Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-15T19:56:52.213628Z"
+        "fetched_at": "2026-11-15T23:52:34.117981Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-15T19:56:52.376037Z"
+      "fetched_at": "2026-11-15T23:52:34.177149Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -58,12 +58,12 @@
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 18,
+    "DEF": 17,
     "FB": 112,
     "K": 179,
     "P": 5,
     "QB": 450,
-    "RB": 871,
+    "RB": 872,
     "SS": 1,
     "T": 2,
     "TE": 817,
@@ -552,32 +552,6 @@
         "DEF"
       ],
       "team": "SF",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "TB",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -21968,6 +21942,32 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1788309624516,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "9757",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "DAL",
+      "age": 24,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": 1794419128195,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T19:56:55.887371Z",
+  "generated_at": "2026-11-15T23:52:36.475918Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -648,7 +648,8 @@
         "8130",
         "8183",
         "9487",
-        "PIT"
+        "PIT",
+        "TB"
       ],
       "starters": [
         {
@@ -804,6 +805,14 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
+        },
+        {
+          "player_id": "TB",
+          "name": "Tampa Bay",
+          "position": "DEF",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -1436,7 +1445,6 @@
         "7525",
         "8132",
         "9224",
-        "9757",
         "NE"
       ],
       "starters": [
@@ -1592,14 +1600,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 8
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "DAL",
-          "injury_status": null,
-          "keeper": false
         }
       ],
       "keepers": [
@@ -3914,84 +3914,84 @@
       "week": 10,
       "roster_id": 1,
       "opponent_roster_id": 5,
-      "points": 55.44,
-      "result": "L"
+      "points": 153.24,
+      "result": "W"
     },
     {
       "week": 10,
       "roster_id": 5,
       "opponent_roster_id": 1,
-      "points": 72.0,
-      "result": "W"
+      "points": 122.6,
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 2,
       "opponent_roster_id": 3,
-      "points": 21.02,
+      "points": 87.72,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 3,
       "opponent_roster_id": 2,
-      "points": 40.0,
+      "points": 103.72,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 4,
       "opponent_roster_id": 6,
-      "points": 28.5,
+      "points": 62.22,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 6,
       "opponent_roster_id": 4,
-      "points": 33.72,
+      "points": 73.32,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 7,
       "opponent_roster_id": 10,
-      "points": 97.3,
+      "points": 146.64,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 10,
       "opponent_roster_id": 7,
-      "points": 40.1,
+      "points": 52.6,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 8,
       "opponent_roster_id": 12,
-      "points": 62.06,
+      "points": 110.66,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 12,
       "opponent_roster_id": 8,
-      "points": 73.66,
+      "points": 122.22,
       "result": "W"
     },
     {
       "week": 10,
       "roster_id": 9,
       "opponent_roster_id": 11,
-      "points": 39.32,
+      "points": 84.08,
       "result": "L"
     },
     {
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 9,
-      "points": 80.7,
+      "points": 114.34,
       "result": "W"
     }
   ],
@@ -4003,7 +4003,7 @@
     "player_count": 2831,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-15T19:56:55.887371Z",
-    "stale_after": "2026-11-15T20:56:55.887371Z"
+    "generated_at": "2026-11-15T23:52:36.475918Z",
+    "stale_after": "2026-11-16T00:52:36.475918Z"
   }
 }
