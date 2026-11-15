@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:55:48.042349Z",
+  "generated_at": "2026-11-15T14:35:22.657068Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -195,7 +195,6 @@
       "players_current": [
         "10213",
         "11576",
-        "11581",
         "12481",
         "12495",
         "12507",
@@ -206,6 +205,7 @@
         "6650",
         "6794",
         "6804",
+        "7021",
         "8130",
         "8132",
         "LAR",
@@ -308,15 +308,6 @@
           "keeper": false
         },
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
-        },
-        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -351,6 +342,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 7
         },
         {
           "player_id": "LAR",
@@ -389,8 +389,8 @@
         "7594",
         "8137",
         "5872",
-        "13330",
-        "6806",
+        "4993",
+        "8408",
         "11539",
         "MIN"
       ],
@@ -460,22 +460,21 @@
           "draft_round": 11
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
+          "player_id": "4993",
+          "name": "Mike Gesicki",
           "position": "TE",
-          "team": "NYJ",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
+          "keeper": false
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "DEN",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 8
+          "draft_round": 9
         },
         {
           "player_id": "11539",
@@ -507,12 +506,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
           "position": "TE",
-          "team": "CIN",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 13
         },
         {
           "player_id": "5870",
@@ -532,6 +532,15 @@
           "draft_round": 4
         },
         {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "7526",
           "name": "Jaylen Waddle",
           "position": "WR",
@@ -548,15 +557,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "9493",
@@ -1594,7 +1594,7 @@
         "9997",
         "8167",
         "12518",
-        "4983",
+        "9753",
         "11533",
         "KC"
       ],
@@ -1672,13 +1672,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 15
         },
         {
           "player_id": "11533",
@@ -1734,6 +1734,15 @@
           "keeper": false
         },
         {
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
+        },
+        {
           "player_id": "5022",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -1759,15 +1768,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         }
       ],
       "keepers": []
@@ -1989,11 +1989,11 @@
       "starters_current": [
         "9758",
         "8138",
-        "8151",
+        "13286",
         "9487",
         "13346",
         "8210",
-        "13286",
+        "13281",
         "11653",
         "JAX"
       ],
@@ -2035,13 +2035,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
+          "player_id": "13286",
+          "name": "Jadarian Price",
           "position": "RB",
-          "team": "KC",
-          "injury_status": "Questionable",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 5
         },
         {
           "player_id": "9487",
@@ -2069,13 +2069,13 @@
           "keeper": false
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 9
         },
         {
           "player_id": "11653",
@@ -2113,15 +2113,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "13281",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
         },
         {
           "player_id": "13301",
@@ -2164,6 +2155,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 2
         }
       ],
       "keepers": []
@@ -3386,20 +3386,20 @@
       "roster_id": 5,
       "opponent_roster_id": 9,
       "points": 7.2,
-      "result": "W"
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 9,
       "opponent_roster_id": 5,
-      "points": 0.0,
-      "result": "L"
+      "points": 10.0,
+      "result": "W"
     },
     {
       "week": 10,
       "roster_id": 11,
       "opponent_roster_id": 12,
-      "points": 0.0,
+      "points": 1.1,
       "result": "L"
     },
     {
@@ -3418,7 +3418,7 @@
     "player_count": 2830,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-15T06:55:48.042349Z",
-    "stale_after": "2026-11-15T07:55:48.042349Z"
+    "generated_at": "2026-11-15T14:35:22.657068Z",
+    "stale_after": "2026-11-15T15:35:22.657068Z"
   }
 }

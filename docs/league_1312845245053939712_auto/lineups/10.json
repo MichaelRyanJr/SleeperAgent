@@ -212,6 +212,13 @@
         "injury_status": null
       },
       {
+        "player_id": "1166",
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "team": "MIN",
+        "injury_status": null
+      },
+      {
         "player_id": "12518",
         "name": "Tyler Warren",
         "position": "TE",
@@ -238,13 +245,6 @@
         "position": "QB",
         "team": "BAL",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "4892",
-        "name": "Baker Mayfield",
-        "position": "QB",
-        "team": "TB",
-        "injury_status": null
       },
       {
         "player_id": "5859",
@@ -515,13 +515,6 @@
         "position": "WR",
         "team": "SF",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "8132",
-        "name": "Tyler Allgeier",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": null
       }
     ]
   },
@@ -663,7 +656,7 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 4,
-    "points": 0.0,
+    "points": 10.0,
     "starters": [
       {
         "player_id": "3163",
@@ -778,6 +771,13 @@
         "position": "WR",
         "team": "PHI",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "8132",
+        "name": "Tyler Allgeier",
+        "position": "RB",
+        "team": "ARI",
+        "injury_status": null
       },
       {
         "player_id": "9757",
@@ -1299,11 +1299,11 @@
         "injury_status": null
       },
       {
-        "player_id": "5995",
-        "name": "Justice Hill",
+        "player_id": "7611",
+        "name": "Rhamondre Stevenson",
         "position": "RB",
-        "team": "BAL",
-        "injury_status": null
+        "team": "NE",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "8112",
@@ -1399,18 +1399,18 @@
         "injury_status": null
       },
       {
+        "player_id": "5995",
+        "name": "Justice Hill",
+        "position": "RB",
+        "team": "BAL",
+        "injury_status": null
+      },
+      {
         "player_id": "6790",
         "name": "D'Andre Swift",
         "position": "RB",
         "team": "CHI",
         "injury_status": null
-      },
-      {
-        "player_id": "7611",
-        "name": "Rhamondre Stevenson",
-        "position": "RB",
-        "team": "NE",
-        "injury_status": "Questionable"
       }
     ]
   },

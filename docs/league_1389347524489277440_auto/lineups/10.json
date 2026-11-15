@@ -84,13 +84,6 @@
         "injury_status": null
       },
       {
-        "player_id": "11581",
-        "name": "MarShawn Lloyd",
-        "position": "RB",
-        "team": "GB",
-        "injury_status": null
-      },
-      {
         "player_id": "12507",
         "name": "Omarion Hampton",
         "position": "RB",
@@ -116,6 +109,13 @@
         "name": "Chase McLaughlin",
         "position": "K",
         "team": "TB",
+        "injury_status": null
+      },
+      {
+        "player_id": "7021",
+        "name": "Rico Dowdle",
+        "position": "RB",
+        "team": "PIT",
         "injury_status": null
       },
       {
@@ -147,11 +147,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8151",
-        "name": "Kenneth Walker III",
+        "player_id": "13286",
+        "name": "Jadarian Price",
         "position": "RB",
-        "team": "KC",
-        "injury_status": "Questionable"
+        "team": "SEA",
+        "injury_status": null
       },
       {
         "player_id": "9487",
@@ -175,10 +175,10 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "13286",
-        "name": "Jadarian Price",
-        "position": "RB",
-        "team": "SEA",
+        "player_id": "13281",
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "team": "NO",
         "injury_status": null
       },
       {
@@ -209,13 +209,6 @@
         "name": "Colston Loveland",
         "position": "TE",
         "team": "CHI",
-        "injury_status": null
-      },
-      {
-        "player_id": "13281",
-        "name": "Jordyn Tyson",
-        "position": "WR",
-        "team": "NO",
         "injury_status": null
       },
       {
@@ -252,6 +245,13 @@
         "position": "RB",
         "team": "TEN",
         "injury_status": null
+      },
+      {
+        "player_id": "8151",
+        "name": "Kenneth Walker III",
+        "position": "RB",
+        "team": "KC",
+        "injury_status": "Questionable"
       }
     ]
   },
@@ -296,17 +296,17 @@
         "injury_status": null
       },
       {
-        "player_id": "13330",
-        "name": "Kenyon Sadiq",
+        "player_id": "4993",
+        "name": "Mike Gesicki",
         "position": "TE",
-        "team": "NYJ",
+        "team": "CIN",
         "injury_status": null
       },
       {
-        "player_id": "6806",
-        "name": "J.K. Dobbins",
+        "player_id": "8408",
+        "name": "Jordan Mason",
         "position": "RB",
-        "team": "DEN",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -333,10 +333,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4993",
-        "name": "Mike Gesicki",
+        "player_id": "13330",
+        "name": "Kenyon Sadiq",
         "position": "TE",
-        "team": "CIN",
+        "team": "NYJ",
         "injury_status": null
       },
       {
@@ -354,6 +354,13 @@
         "injury_status": "Questionable"
       },
       {
+        "player_id": "6806",
+        "name": "J.K. Dobbins",
+        "position": "RB",
+        "team": "DEN",
+        "injury_status": null
+      },
+      {
         "player_id": "7526",
         "name": "Jaylen Waddle",
         "position": "WR",
@@ -366,13 +373,6 @@
         "position": "WR",
         "team": "NE",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "8408",
-        "name": "Jordan Mason",
-        "position": "RB",
-        "team": "MIN",
-        "injury_status": null
       },
       {
         "player_id": "9493",
@@ -431,10 +431,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4983",
-        "name": "DJ Moore",
-        "position": "WR",
-        "team": "BUF",
+        "player_id": "9753",
+        "name": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
         "injury_status": null
       },
       {
@@ -482,6 +482,13 @@
         "injury_status": null
       },
       {
+        "player_id": "4983",
+        "name": "DJ Moore",
+        "position": "WR",
+        "team": "BUF",
+        "injury_status": null
+      },
+      {
         "player_id": "5022",
         "name": "Dallas Goedert",
         "position": "TE",
@@ -500,13 +507,6 @@
         "name": "Chase Brown",
         "position": "RB",
         "team": "CIN",
-        "injury_status": null
-      },
-      {
-        "player_id": "9753",
-        "name": "Zach Charbonnet",
-        "position": "RB",
-        "team": "SEA",
         "injury_status": null
       }
     ]
@@ -1140,7 +1140,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 5,
-    "points": 0.0,
+    "points": 10.0,
     "starters": [
       {
         "player_id": "4046",
@@ -1261,7 +1261,7 @@
   {
     "roster_id": 11,
     "opponent_roster_id": 12,
-    "points": 0.0,
+    "points": 1.1,
     "starters": [
       {
         "player_id": "11564",

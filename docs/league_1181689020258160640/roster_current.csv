@@ -50,7 +50,6 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,13285,Malachi Fields,WR,NYG,,0,0
 3,,13305,Mike Washington Jr.,RB,LV,,0,0
 3,,13417,De'Zhaun Stribling,WR,SF,IR,0,0
-3,,8132,Tyler Allgeier,RB,ARI,,0,0
 4,1,13269,Fernando Mendoza,QB,LV,,1,0
 4,2,13424,Seth McGowan,RB,IND,,1,0
 4,3,11643,Jaylen Wright,RB,MIA,,1,0
@@ -79,11 +78,11 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 5,8,5119,Jason Sanders,K,NYJ,,1,0
 5,9,KC,Kansas City,DEF,KC,,1,0
 5,,11586,Blake Corum,RB,LAR,,0,1
+5,,1166,Kirk Cousins,QB,MIN,,0,0
 5,,12518,Tyler Warren,TE,IND,,0,1
 5,,13298,KC Concepcion Jr.,WR,CLE,,0,0
 5,,2133,Davante Adams,WR,LAR,IR,0,0
 5,,4881,Lamar Jackson,QB,BAL,IR,0,1
-5,,4892,Baker Mayfield,QB,TB,,0,0
 5,,5859,A.J. Brown,WR,NE,Questionable,0,0
 5,,7543,Travis Etienne Jr.,RB,NO,IR,0,1
 5,,8151,Kenneth Walker III,RB,KC,Questionable,0,1
@@ -103,6 +102,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,,5001,Dalton Schultz,TE,HOU,,0,0
 6,,6904,Jalen Hurts,QB,PHI,IR,0,0
 6,,7525,DeVonta Smith,WR,PHI,Out,0,0
+6,,8132,Tyler Allgeier,RB,ARI,,0,0
 6,,9757,Kendre Miller,RB,DAL,,0,0
 7,1,3294,Dak Prescott,QB,DAL,,1,1
 7,2,9221,Jahmyr Gibbs,RB,DET,,1,1
@@ -138,7 +138,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 8,,9511,Keaton Mitchell,RB,LAC,Questionable,0,0
 9,1,12545,Tyler Shough,QB,NO,,1,0
 9,2,9509,Bijan Robinson,RB,ATL,,1,0
-9,3,5995,Justice Hill,RB,BAL,,1,0
+9,3,7611,Rhamondre Stevenson,RB,NE,Questionable,1,1
 9,4,8112,Drake London,WR,ATL,,1,1
 9,5,8146,Garrett Wilson,WR,NYJ,Questionable,1,1
 9,6,2505,Darren Waller,TE,CAR,,1,0
@@ -152,8 +152,8 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,,12489,RJ Harvey,RB,DEN,IR,0,0
 9,,13330,Kenyon Sadiq,TE,NYJ,,0,0
 9,,4177,Mack Hollins,WR,NE,,0,0
+9,,5995,Justice Hill,RB,BAL,,0,0
 9,,6790,D'Andre Swift,RB,CHI,,0,1
-9,,7611,Rhamondre Stevenson,RB,NE,Questionable,0,1
 10,1,6770,Joe Burrow,QB,CIN,,1,0
 10,2,8122,Zonovan Knight,RB,ARI,,1,0
 10,3,4199,Aaron Jones Sr.,RB,MIN,,1,0

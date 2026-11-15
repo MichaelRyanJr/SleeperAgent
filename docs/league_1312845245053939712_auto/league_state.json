@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:55:52.870359Z",
+  "generated_at": "2026-11-15T14:35:27.308274Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -95,7 +95,7 @@
       "points_for": 1268.66,
       "points_against": 988.8,
       "waiver": {
-        "position": 8,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -646,7 +646,6 @@
         "2747",
         "7588",
         "8130",
-        "8132",
         "8183",
         "9487",
         "PIT"
@@ -805,15 +804,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 8
         }
       ],
       "keepers": [
@@ -880,7 +870,7 @@
       "points_for": 992.6,
       "points_against": 1086.8,
       "waiver": {
-        "position": 10,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -1138,7 +1128,7 @@
       "points_for": 1171.88,
       "points_against": 1185.78,
       "waiver": {
-        "position": 7,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -1154,6 +1144,7 @@
       ],
       "players_current": [
         "11586",
+        "1166",
         "12495",
         "12518",
         "13298",
@@ -1162,7 +1153,6 @@
         "3257",
         "4217",
         "4881",
-        "4892",
         "5119",
         "5859",
         "7543",
@@ -1262,6 +1252,14 @@
           "draft_round": 12
         },
         {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "MIN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "12518",
           "name": "Tyler Warren",
           "position": "TE",
@@ -1296,15 +1294,6 @@
           "injury_status": "IR",
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 13
         },
         {
           "player_id": "5859",
@@ -1445,6 +1434,7 @@
         "5872",
         "6904",
         "7525",
+        "8132",
         "9224",
         "9757",
         "NE"
@@ -1595,6 +1585,15 @@
           "draft_round": 2
         },
         {
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 8
+        },
+        {
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
@@ -1667,7 +1666,7 @@
       "points_for": 1192.44,
       "points_against": 1028.84,
       "waiver": {
-        "position": 11,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2178,13 +2177,13 @@
       "points_for": 1113.16,
       "points_against": 1180.22,
       "waiver": {
-        "position": 12,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
         "12545",
         "9509",
-        "5995",
+        "7611",
         "8112",
         "8146",
         "2505",
@@ -2231,12 +2230,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "5995",
-          "name": "Justice Hill",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
+          "team": "NE",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 9
         },
         {
           "player_id": "8112",
@@ -2354,6 +2354,14 @@
           "keeper": false
         },
         {
+          "player_id": "5995",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "6790",
           "name": "D'Andre Swift",
           "position": "RB",
@@ -2361,7 +2369,9 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
@@ -2370,9 +2380,7 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 9
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "8112",
           "name": "Drake London",
@@ -2417,15 +2425,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 9
         }
       ]
     },
@@ -2661,7 +2660,7 @@
       "points_for": 1000.56,
       "points_against": 1028.32,
       "waiver": {
-        "position": 9,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
@@ -3944,14 +3943,14 @@
       "roster_id": 4,
       "opponent_roster_id": 6,
       "points": 7.4,
-      "result": "W"
+      "result": "L"
     },
     {
       "week": 10,
       "roster_id": 6,
       "opponent_roster_id": 4,
-      "points": 0.0,
-      "result": "L"
+      "points": 10.0,
+      "result": "W"
     },
     {
       "week": 10,
@@ -4004,7 +4003,7 @@
     "player_count": 2829,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-15T06:55:52.870359Z",
-    "stale_after": "2026-11-15T07:55:52.870359Z"
+    "generated_at": "2026-11-15T14:35:27.308274Z",
+    "stale_after": "2026-11-15T15:35:27.308274Z"
   }
 }

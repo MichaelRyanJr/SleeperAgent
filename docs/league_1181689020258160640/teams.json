@@ -14,7 +14,7 @@
     "points_for": 1268.66,
     "points_against": 988.8,
     "waiver": {
-      "position": 8,
+      "position": 7,
       "budget_used": 0
     },
     "keepers": [
@@ -230,7 +230,7 @@
     "points_for": 992.6,
     "points_against": 1086.8,
     "waiver": {
-      "position": 10,
+      "position": 9,
       "budget_used": 0
     },
     "keepers": [
@@ -296,7 +296,7 @@
     "points_for": 1171.88,
     "points_against": 1185.78,
     "waiver": {
-      "position": 7,
+      "position": 12,
       "budget_used": 0
     },
     "keepers": [
@@ -446,7 +446,7 @@
     "points_for": 1192.44,
     "points_against": 1028.84,
     "waiver": {
-      "position": 11,
+      "position": 10,
       "budget_used": 0
     },
     "keepers": [
@@ -605,10 +605,19 @@
     "points_for": 1113.16,
     "points_against": 1180.22,
     "waiver": {
-      "position": 12,
+      "position": 11,
       "budget_used": 0
     },
     "keepers": [
+      {
+        "player_id": "7611",
+        "name": "Rhamondre Stevenson",
+        "position": "RB",
+        "team": "NE",
+        "injury_status": "Questionable",
+        "keeper": true,
+        "draft_round": 9
+      },
       {
         "player_id": "8112",
         "name": "Drake London",
@@ -653,15 +662,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 5
-      },
-      {
-        "player_id": "7611",
-        "name": "Rhamondre Stevenson",
-        "position": "RB",
-        "team": "NE",
-        "injury_status": "Questionable",
-        "keeper": true,
-        "draft_round": 9
       }
     ]
   },
@@ -719,7 +719,7 @@
     "points_for": 1000.56,
     "points_against": 1028.32,
     "waiver": {
-      "position": 9,
+      "position": 8,
       "budget_used": 0
     },
     "keepers": [
