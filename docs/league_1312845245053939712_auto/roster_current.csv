@@ -22,7 +22,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 2,3,9753,Zach Charbonnet,RB,SEA,,1,0
 2,4,6786,CeeDee Lamb,WR,DAL,,1,0
 2,5,5947,Jakobi Meyers,WR,JAX,,1,0
-2,6,11604,Brock Bowers,TE,LV,,1,1
+2,6,11604,Brock Bowers,TE,LV,Out,1,1
 2,7,13286,Jadarian Price,RB,SEA,,1,0
 2,8,11792,Will Reichard,K,MIN,,1,0
 2,9,LAR,Los Angeles,DEF,LAR,,1,0
@@ -97,7 +97,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,8,1945,Chris Boswell,K,PIT,,1,0
 6,9,NE,New England,DEF,NE,,1,0
 6,,11559,Michael Penix Jr.,QB,ATL,,0,0
-6,,11635,Ladd McConkey,WR,LAC,Questionable,0,1
+6,,11635,Ladd McConkey,WR,LAC,Out,0,1
 6,,12519,Luther Burden III,WR,CHI,Questionable,0,1
 6,,13345,Jonah Coleman,RB,DEN,,0,0
 6,,5001,Dalton Schultz,TE,HOU,,0,0
@@ -139,10 +139,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,1,12545,Tyler Shough,QB,NO,,1,0
 9,2,9509,Bijan Robinson,RB,ATL,,1,0
 9,3,7611,Rhamondre Stevenson,RB,NE,,1,1
-9,4,8112,Drake London,WR,ATL,,1,1
+9,4,8112,Drake London,WR,ATL,Questionable,1,1
 9,5,8146,Garrett Wilson,WR,NYJ,,1,1
 9,6,2505,Darren Waller,TE,CAR,,1,0
-9,7,13276,Omar Cooper Jr.,WR,NYJ,Questionable,1,0
+9,7,13276,Omar Cooper Jr.,WR,NYJ,Out,1,0
 9,8,6083,Matt Gay,K,LV,,1,0
 9,9,JAX,Jacksonville,DEF,JAX,,1,0
 9,,10232,Michael Wilson,WR,ARI,IR,0,1
@@ -169,10 +169,10 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 10,,13346,Denzel Boston,WR,CLE,,0,0
 10,,4866,Saquon Barkley,RB,PHI,,0,0
 10,,7553,Kyle Pitts Sr.,TE,ATL,,0,1
-10,,8126,Wan'Dale Robinson,WR,TEN,,0,0
+10,,8126,Wan'Dale Robinson,WR,TEN,Questionable,0,0
 11,1,9758,C.J. Stroud,QB,HOU,,1,0
 11,2,6813,Jonathan Taylor,RB,IND,,1,1
-11,3,12474,Woody Marks,RB,HOU,,1,0
+11,3,12474,Woody Marks,RB,HOU,Out,1,0
 11,4,8144,Chris Olave,WR,NO,,1,1
 11,5,7526,Jaylen Waddle,WR,DEN,Out,1,0
 11,6,8131,Isaiah Likely,TE,NYG,,1,0
@@ -200,7 +200,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,,2216,Mike Evans,WR,SF,Out,0,1
 12,,4037,Chris Godwin Jr.,WR,TB,,0,0
 12,,6804,Jordan Love,QB,GB,,0,1
-12,,7600,Pat Freiermuth,TE,PIT,Questionable,0,0
+12,,7600,Pat Freiermuth,TE,PIT,,0,0
 12,,8155,Breece Hall,RB,NYJ,,0,1
 12,,8205,Isiah Pacheco,RB,DET,IR,0,0
 12,,DEN,Denver,DEF,DEN,,0,0
