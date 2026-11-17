@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:50:32.790822Z",
+  "generated_at": "2026-11-17T13:56:42.792676Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -88,12 +88,12 @@
         "team_name": "Njigbas in Paris "
       },
       "record": {
-        "wins": 6,
+        "wins": 7,
         "losses": 3,
         "ties": 0
       },
-      "points_for": 1268.66,
-      "points_against": 988.8,
+      "points_for": 1449.8,
+      "points_against": 1169.3,
       "waiver": {
         "position": 7,
         "budget_used": 0
@@ -103,9 +103,9 @@
         "4034",
         "8228",
         "9488",
-        "8167",
-        "12506",
-        "12491",
+        "12514",
+        "5844",
+        "5892",
         "11786",
         "MIN"
       ],
@@ -167,30 +167,31 @@
           "draft_round": 8
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
-        },
-        {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "team": "CLE",
+          "team": "TB",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 5
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 15
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "11786",
@@ -221,13 +222,21 @@
           "keeper": false
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "12506",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "team": "CLE",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 14
         },
         {
           "player_id": "12529",
@@ -255,24 +264,6 @@
           "keeper": false
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 15
-        },
-        {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
           "player_id": "5927",
           "name": "Terry McLaurin",
           "position": "WR",
@@ -289,6 +280,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         }
       ],
       "keepers": [
@@ -320,15 +320,6 @@
           "draft_round": 8
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -345,6 +336,15 @@
           "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "12506",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "5927",
@@ -367,11 +367,11 @@
       },
       "record": {
         "wins": 7,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
-      "points_for": 1149.62,
-      "points_against": 1000.52,
+      "points_for": 1253.14,
+      "points_against": 1113.88,
       "waiver": {
         "position": 6,
         "budget_used": 0
@@ -610,12 +610,12 @@
         "team_name": "Rashee's Driving School"
       },
       "record": {
-        "wins": 4,
+        "wins": 5,
         "losses": 5,
         "ties": 0
       },
-      "points_for": 1181.5,
-      "points_against": 1211.36,
+      "points_for": 1294.86,
+      "points_against": 1314.88,
       "waiver": {
         "position": 4,
         "budget_used": 0
@@ -873,11 +873,11 @@
       },
       "record": {
         "wins": 5,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       },
-      "points_for": 992.6,
-      "points_against": 1086.8,
+      "points_for": 1054.82,
+      "points_against": 1193.42,
       "waiver": {
         "position": 9,
         "budget_used": 0
@@ -1131,11 +1131,11 @@
       },
       "record": {
         "wins": 4,
-        "losses": 5,
+        "losses": 6,
         "ties": 0
       },
-      "points_for": 1171.88,
-      "points_against": 1185.78,
+      "points_for": 1352.38,
+      "points_against": 1366.92,
       "waiver": {
         "position": 12,
         "budget_used": 0
@@ -1407,12 +1407,12 @@
         "team_name": "The Ladds"
       },
       "record": {
-        "wins": 2,
+        "wins": 3,
         "losses": 7,
         "ties": 0
       },
-      "points_for": 948.96,
-      "points_against": 1090.3,
+      "points_for": 1055.58,
+      "points_against": 1152.52,
       "waiver": {
         "position": 2,
         "budget_used": 0
@@ -1659,12 +1659,12 @@
         "team_name": "CeeGeorgePickenDeezSluts"
       },
       "record": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0
       },
-      "points_for": 1192.44,
-      "points_against": 1028.84,
+      "points_for": 1380.96,
+      "points_against": 1143.2,
       "waiver": {
         "position": 10,
         "budget_used": 0
@@ -1911,11 +1911,11 @@
       },
       "record": {
         "wins": 5,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       },
-      "points_for": 1094.22,
-      "points_against": 1103.72,
+      "points_for": 1221.28,
+      "points_against": 1259.04,
       "waiver": {
         "position": 3,
         "budget_used": 0
@@ -2171,11 +2171,11 @@
       },
       "record": {
         "wins": 4,
-        "losses": 5,
+        "losses": 6,
         "ties": 0
       },
-      "points_for": 1113.16,
-      "points_against": 1180.22,
+      "points_for": 1197.24,
+      "points_against": 1294.56,
       "waiver": {
         "position": 11,
         "budget_used": 0
@@ -2438,11 +2438,11 @@
       },
       "record": {
         "wins": 3,
-        "losses": 6,
+        "losses": 7,
         "ties": 0
       },
-      "points_for": 945.06,
-      "points_against": 1062.14,
+      "points_for": 1059.42,
+      "points_against": 1250.66,
       "waiver": {
         "position": 1,
         "budget_used": 0
@@ -2653,12 +2653,12 @@
         "team_name": "Woody Box Ticklers "
       },
       "record": {
-        "wins": 3,
+        "wins": 4,
         "losses": 6,
         "ties": 0
       },
-      "points_for": 1000.56,
-      "points_against": 1028.32,
+      "points_for": 1114.9,
+      "points_against": 1112.4,
       "waiver": {
         "position": 8,
         "budget_used": 0
@@ -2902,12 +2902,12 @@
         "team_name": "Hard Rock Bottom"
       },
       "record": {
-        "wins": 4,
+        "wins": 5,
         "losses": 5,
         "ties": 0
       },
-      "points_for": 1049.56,
-      "points_against": 1141.42,
+      "points_for": 1204.88,
+      "points_against": 1268.48,
       "waiver": {
         "position": 5,
         "budget_used": 0
@@ -3993,6 +3993,90 @@
       "opponent_roster_id": 9,
       "points": 114.34,
       "result": "W"
+    },
+    {
+      "week": 11,
+      "roster_id": 1,
+      "opponent_roster_id": 7,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 7,
+      "opponent_roster_id": 1,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 2,
+      "opponent_roster_id": 9,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 9,
+      "opponent_roster_id": 2,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 3,
+      "opponent_roster_id": 8,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 8,
+      "opponent_roster_id": 3,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 4,
+      "opponent_roster_id": 5,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 5,
+      "opponent_roster_id": 4,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 6,
+      "opponent_roster_id": 12,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 12,
+      "opponent_roster_id": 6,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 10,
+      "opponent_roster_id": 11,
+      "points": 0.0,
+      "result": null
+    },
+    {
+      "week": 11,
+      "roster_id": 11,
+      "opponent_roster_id": 10,
+      "points": 0.0,
+      "result": null
     }
   ],
   "available_players": {
@@ -4003,7 +4087,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-17T04:50:32.790822Z",
-    "stale_after": "2026-11-17T05:50:32.790822Z"
+    "generated_at": "2026-11-17T13:56:42.792676Z",
+    "stale_after": "2026-11-17T14:56:42.792676Z"
   }
 }
