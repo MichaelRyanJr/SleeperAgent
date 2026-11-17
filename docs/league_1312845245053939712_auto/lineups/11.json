@@ -168,10 +168,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12501",
-        "name": "Matthew Golden",
+        "player_id": "8134",
+        "name": "Khalil Shakir",
         "position": "WR",
-        "team": "GB",
+        "team": "BUF",
         "injury_status": null
       },
       {
@@ -212,6 +212,13 @@
         "injury_status": null
       },
       {
+        "player_id": "12501",
+        "name": "Matthew Golden",
+        "position": "WR",
+        "team": "GB",
+        "injury_status": null
+      },
+      {
         "player_id": "3321",
         "name": "Tyreek Hill",
         "position": "WR",
@@ -245,13 +252,6 @@
         "position": "RB",
         "team": "TB",
         "injury_status": null
-      },
-      {
-        "player_id": "8134",
-        "name": "Khalil Shakir",
-        "position": "WR",
-        "team": "BUF",
-        "injury_status": null
       }
     ]
   },
@@ -275,11 +275,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8408",
-        "name": "Jordan Mason",
+        "player_id": "12534",
+        "name": "Kyle Monangai",
         "position": "RB",
-        "team": "MIN",
-        "injury_status": null
+        "team": "CHI",
+        "injury_status": "Out"
       },
       {
         "player_id": "6786",
@@ -303,11 +303,11 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "12534",
-        "name": "Kyle Monangai",
+        "player_id": "8408",
+        "name": "Jordan Mason",
         "position": "RB",
-        "team": "CHI",
-        "injury_status": "Out"
+        "team": "MIN",
+        "injury_status": null
       },
       {
         "player_id": "11792",
@@ -808,18 +808,18 @@
         "injury_status": null
       },
       {
-        "player_id": "13421",
-        "name": "Eli Raridon",
+        "player_id": "12517",
+        "name": "Colston Loveland",
         "position": "TE",
-        "team": "NE",
+        "team": "CHI",
         "injury_status": null
       },
       {
-        "player_id": "9756",
-        "name": "Jordan Addison",
+        "player_id": "11620",
+        "name": "Rome Odunze",
         "position": "WR",
-        "team": "MIN",
-        "injury_status": "Out"
+        "team": "CHI",
+        "injury_status": null
       },
       {
         "player_id": "7042",
@@ -829,34 +829,20 @@
         "injury_status": null
       },
       {
-        "player_id": "SEA",
-        "name": "Seattle",
+        "player_id": "HOU",
+        "name": "Houston",
         "position": "DEF",
-        "team": "SEA",
+        "team": "HOU",
         "injury_status": null
       }
     ],
     "bench": [
-      {
-        "player_id": "11620",
-        "name": "Rome Odunze",
-        "position": "WR",
-        "team": "CHI",
-        "injury_status": null
-      },
       {
         "player_id": "12508",
         "name": "Jaxson Dart",
         "position": "QB",
         "team": "NYG",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "12517",
-        "name": "Colston Loveland",
-        "position": "TE",
-        "team": "CHI",
-        "injury_status": null
       },
       {
         "player_id": "12533",
@@ -870,6 +856,13 @@
         "name": "Makai Lemon",
         "position": "WR",
         "team": "PHI",
+        "injury_status": null
+      },
+      {
+        "player_id": "13421",
+        "name": "Eli Raridon",
+        "position": "TE",
+        "team": "NE",
         "injury_status": null
       },
       {
@@ -894,10 +887,17 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "HOU",
-        "name": "Houston",
+        "player_id": "9756",
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "injury_status": "Out"
+      },
+      {
+        "player_id": "SEA",
+        "name": "Seattle",
         "position": "DEF",
-        "team": "HOU",
+        "team": "SEA",
         "injury_status": null
       }
     ]
@@ -908,24 +908,24 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "3257",
-        "name": "Jacoby Brissett",
+        "player_id": "1166",
+        "name": "Kirk Cousins",
         "position": "QB",
-        "team": "BAL",
+        "team": "MIN",
         "injury_status": null
       },
       {
-        "player_id": "13337",
-        "name": "Emmett Johnson",
+        "player_id": "8151",
+        "name": "Kenneth Walker III",
         "position": "RB",
         "team": "KC",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
-        "player_id": "8150",
-        "name": "Kyren Williams",
+        "player_id": "12495",
+        "name": "Ollie Gordon II",
         "position": "RB",
-        "team": "LAR",
+        "team": "MIA",
         "injury_status": null
       },
       {
@@ -950,10 +950,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon II",
+        "player_id": "13337",
+        "name": "Emmett Johnson",
         "position": "RB",
-        "team": "MIA",
+        "team": "KC",
         "injury_status": null
       },
       {
@@ -980,13 +980,6 @@
         "injury_status": null
       },
       {
-        "player_id": "1166",
-        "name": "Kirk Cousins",
-        "position": "QB",
-        "team": "MIN",
-        "injury_status": null
-      },
-      {
         "player_id": "12518",
         "name": "Tyler Warren",
         "position": "TE",
@@ -1006,6 +999,13 @@
         "position": "WR",
         "team": "LAR",
         "injury_status": "IR"
+      },
+      {
+        "player_id": "3257",
+        "name": "Jacoby Brissett",
+        "position": "QB",
+        "team": "BAL",
+        "injury_status": null
       },
       {
         "player_id": "4881",
@@ -1029,11 +1029,11 @@
         "injury_status": null
       },
       {
-        "player_id": "8151",
-        "name": "Kenneth Walker III",
+        "player_id": "8150",
+        "name": "Kyren Williams",
         "position": "RB",
-        "team": "KC",
-        "injury_status": "Out"
+        "team": "LAR",
+        "injury_status": null
       }
     ]
   },
@@ -1050,10 +1050,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12512",
-        "name": "Quinshon Judkins",
+        "player_id": "13345",
+        "name": "Jonah Coleman",
         "position": "RB",
-        "team": "CLE",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -1085,10 +1085,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11624",
-        "name": "Xavier Worthy",
-        "position": "WR",
-        "team": "KC",
+        "player_id": "8132",
+        "name": "Tyler Allgeier",
+        "position": "RB",
+        "team": "ARI",
         "injury_status": null
       },
       {
@@ -1115,6 +1115,13 @@
         "injury_status": null
       },
       {
+        "player_id": "11624",
+        "name": "Xavier Worthy",
+        "position": "WR",
+        "team": "KC",
+        "injury_status": null
+      },
+      {
         "player_id": "11635",
         "name": "Ladd McConkey",
         "position": "WR",
@@ -1122,18 +1129,18 @@
         "injury_status": "Out"
       },
       {
+        "player_id": "12512",
+        "name": "Quinshon Judkins",
+        "position": "RB",
+        "team": "CLE",
+        "injury_status": null
+      },
+      {
         "player_id": "12519",
         "name": "Luther Burden III",
         "position": "WR",
         "team": "CHI",
         "injury_status": "Questionable"
-      },
-      {
-        "player_id": "13345",
-        "name": "Jonah Coleman",
-        "position": "RB",
-        "team": "DEN",
-        "injury_status": null
       },
       {
         "player_id": "5001",
@@ -1155,13 +1162,6 @@
         "position": "WR",
         "team": "PHI",
         "injury_status": "Out"
-      },
-      {
-        "player_id": "8132",
-        "name": "Tyler Allgeier",
-        "position": "RB",
-        "team": "ARI",
-        "injury_status": null
       }
     ]
   },
