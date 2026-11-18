@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:17:49.273535Z",
+  "generated_at": "2026-11-18T20:43:22.780279Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -102,7 +102,7 @@
         "4984",
         "4034",
         "8228",
-        "9488",
+        "12499",
         "12514",
         "5844",
         "5892",
@@ -112,6 +112,7 @@
       "players_current": [
         "10218",
         "11786",
+        "12499",
         "12506",
         "12514",
         "12529",
@@ -121,7 +122,6 @@
         "4984",
         "5844",
         "5892",
-        "5927",
         "8142",
         "8167",
         "8228",
@@ -158,13 +158,12 @@
           "draft_round": 13
         },
         {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
           "position": "WR",
-          "team": "SEA",
+          "team": "TEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
+          "keeper": false
         },
         {
           "player_id": "12514",
@@ -256,15 +255,6 @@
           "keeper": false
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": "IR",
-          "keeper": true,
-          "draft_round": 4
-        },
-        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
@@ -289,6 +279,15 @@
           "team": "LV",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 8
         }
       ],
       "keepers": [
@@ -309,15 +308,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        },
-        {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         },
         {
           "player_id": "12514",
@@ -347,13 +337,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
           "position": "WR",
-          "team": "WAS",
-          "injury_status": "IR",
+          "team": "SEA",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 4
+          "draft_round": 8
         }
       ]
     },
@@ -1677,7 +1667,7 @@
         "10236",
         "5846",
         "11533",
-        "GB"
+        "CHI"
       ],
       "players_current": [
         "10236",
@@ -1695,7 +1685,7 @@
         "7567",
         "8134",
         "9221",
-        "GB"
+        "CHI"
       ],
       "starters": [
         {
@@ -1771,10 +1761,10 @@
           "draft_round": 11
         },
         {
-          "player_id": "GB",
-          "name": "Green Bay",
+          "player_id": "CHI",
+          "name": "Chicago",
           "position": "DEF",
-          "team": "GB",
+          "team": "CHI",
           "injury_status": null,
           "keeper": false
         }
@@ -4082,10 +4072,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2833,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-18T12:17:49.273535Z",
-    "stale_after": "2026-11-18T13:17:49.273535Z"
+    "generated_at": "2026-11-18T20:43:22.780279Z",
+    "stale_after": "2026-11-18T21:43:22.780279Z"
   }
 }

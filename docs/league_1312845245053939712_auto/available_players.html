@@ -3,7 +3,7 @@
 <title>Available players - Grub from the Fantasy</title>
 <style>body{font:16px/1.5 system-ui;margin:2em;max-width:1200px}table{border-collapse:collapse;width:100%}th,td{padding:.45em;text-align:left;border-bottom:1px solid #ccc}th{position:sticky;top:0;background:white}input,select{font:inherit;padding:.35em}small{display:block}.notice{border:2px solid;padding:1em}#stale{font-weight:bold}</style>
 <h1>Available players - Grub from the Fantasy</h1><p><strong>UNROSTERED SNAPSHOT</strong> | Season 2026 | League 1312845245053939712</p>
-<p>Snapshot: <time>2026-11-18T12:17:49.273535Z</time><small>Catalog metadata fetched: 2026-11-18T03:41:51.889273Z</small></p>
+<p>Snapshot: <time>2026-11-18T20:43:22.780279Z</time><small>Catalog metadata fetched: 2026-11-18T03:41:51.889273Z</small></p>
 <p id="stale" role="status"></p><div class="notice">
 <p>Unrostered does not mean immediately claimable. The public API does not provide an authoritative per-player waiver/free-agent lock, claim deadline, or private pending claim list. Confirm acquisition in the Sleeper app.</p>
 </div><p><a href="available_players.json">JSON</a> | <a href="available_players.csv">CSV</a> | <a href="available_players_all.json">All eligible unrostered catalog entries (includes inactive players)</a></p>
@@ -22,10 +22,10 @@
 <tr data-pos="DEF"><td>Arizona Cardinals<small>ARI</small></td><td>DEF</td><td>ARI</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Atlanta Falcons<small>ATL</small></td><td>DEF</td><td>ATL</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Carolina Panthers<small>CAR</small></td><td>DEF</td><td>CAR</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr data-pos="DEF"><td>Chicago Bears<small>CHI</small></td><td>DEF</td><td>CHI</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Cleveland Browns<small>CLE</small></td><td>DEF</td><td>CLE</td><td></td><td></td><td></td><td></td><td>16</td></tr>
 <tr data-pos="DEF"><td>Dallas Cowboys<small>DAL</small></td><td>DEF</td><td>DAL</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Detroit Lions<small>DET</small></td><td>DEF</td><td>DET</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr data-pos="DEF"><td>Green Bay Packers<small>GB</small></td><td>DEF</td><td>GB</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Indianapolis Colts<small>IND</small></td><td>DEF</td><td>IND</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Las Vegas Raiders<small>LV</small></td><td>DEF</td><td>LV</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr data-pos="DEF"><td>Miami Dolphins<small>MIA</small></td><td>DEF</td><td>MIA</td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -1738,7 +1738,6 @@
 <tr data-pos="WR"><td>Dylan Drummond<small>11474</small></td><td>WR</td><td>ATL</td><td>26</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Efton Chism III<small>12542</small></td><td>WR</td><td>NE</td><td>25</td><td></td><td>Active</td><td>5</td><td></td></tr>
 <tr data-pos="WR"><td>Eldridge Massington<small>5744</small></td><td>WR</td><td>NO</td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
-<tr data-pos="WR"><td>Elic Ayomanor<small>12499</small></td><td>WR</td><td>TEN</td><td>23</td><td></td><td>Active</td><td>2</td><td></td></tr>
 <tr data-pos="WR"><td>Elijah Moore<small>7596</small></td><td>WR</td><td>PHI</td><td>26</td><td></td><td>Active</td><td>5</td><td></td></tr>
 <tr data-pos="WR"><td>Elijah Sarratt<small>13268</small></td><td>WR</td><td>BAL</td><td>23</td><td>Out</td><td>Active</td><td>7</td><td></td></tr>
 <tr data-pos="WR"><td>Emmanuel Henderson Jr.<small>13313</small></td><td>WR</td><td>SEA</td><td>23</td><td></td><td>Active</td><td></td><td></td></tr>
@@ -2851,7 +2850,7 @@
 <tr data-pos="WR"><td>Zimari Manning<small>7211</small></td><td>WR</td><td></td><td>26</td><td></td><td>Active</td><td></td><td></td></tr>
 <tr data-pos="WR"><td>Zion Bowens<small>11159</small></td><td>WR</td><td></td><td>24</td><td></td><td>Active</td><td></td><td></td></tr>
 </tbody></table></div><script>
-const expiry = "2026-11-18T13:17:49.273535Z";
+const expiry = "2026-11-18T21:43:22.780279Z";
 const rows = Array.from(document.querySelectorAll('tbody tr'));
 function filter(){const q=document.getElementById('q').value.toLowerCase();const p=document.getElementById('pos').value;let count=0;rows.forEach(r=>{r.hidden=!(r.textContent.toLowerCase().includes(q)&&(!p||r.dataset.pos.split(' ').includes(p)));if(!r.hidden)count++;});document.getElementById('count').textContent=count+' of '+rows.length+' players shown';}
 function age(){document.getElementById('stale').textContent=Date.now()>Date.parse(expiry)?'STALE SNAPSHOT: more than one hour old. Recheck the next sync or Sleeper before acting.':'';}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:17:46.903665Z",
+  "generated_at": "2026-11-18T20:43:19.384722Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2001,6 +2001,7 @@
         "11635",
         "12492",
         "12517",
+        "12522",
         "13281",
         "13286",
         "13293",
@@ -2011,7 +2012,6 @@
         "5967",
         "8138",
         "8151",
-        "8210",
         "9487",
         "96",
         "JAX"
@@ -2109,6 +2109,14 @@
           "draft_round": 14
         },
         {
+          "player_id": "12522",
+          "name": "Cam Ward",
+          "position": "QB",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -2157,14 +2165,6 @@
           "position": "QB",
           "team": "SEA",
           "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "8210",
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "team": "WAS",
-          "injury_status": "Questionable",
           "keeper": false
         }
       ],
@@ -3504,7 +3504,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-18T12:17:46.903665Z",
-    "stale_after": "2026-11-18T13:17:46.903665Z"
+    "generated_at": "2026-11-18T20:43:19.384722Z",
+    "stale_after": "2026-11-18T21:43:19.384722Z"
   }
 }

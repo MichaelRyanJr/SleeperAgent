@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T12:17:49.273535Z",
-  "stale_after": "2026-11-18T13:17:49.273535Z",
+  "generated_at": "2026-11-18T20:43:22.780279Z",
+  "stale_after": "2026-11-18T21:43:22.780279Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-18T12:17:47.266962Z",
+    "snapshot_started_at": "2026-11-18T20:43:19.790295Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-18T12:17:47.307479Z"
+      "fetched_at": "2026-11-18T20:43:19.868112Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-18T12:17:47.414067Z"
+      "fetched_at": "2026-11-18T20:43:20.023360Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-18T12:17:47.441925Z"
+        "fetched_at": "2026-11-18T20:43:20.085518Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-18T12:17:47.504595Z"
+      "fetched_at": "2026-11-18T20:43:20.172722Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,9 +51,9 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
+  "default_player_count": 2832,
   "all_player_count": 4183,
-  "player_count": 2833,
+  "player_count": 2832,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -65,7 +65,7 @@
     "RB": 558,
     "SS": 1,
     "TE": 549,
-    "WR": 1180
+    "WR": 1179
   },
   "view": "active_or_nfl_affiliated_candidates",
   "players": [
@@ -201,32 +201,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "CHI",
-      "name": "Chicago Bears",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "CHI",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "CLE",
       "name": "Cleveland Browns",
       "position": "DEF",
@@ -289,6 +263,32 @@
         "DEF"
       ],
       "team": "DET",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "GB",
+      "name": "Green Bay Packers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "GB",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -44819,32 +44819,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1533507902281,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12499",
-      "name": "Elic Ayomanor",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "TEN",
-      "age": 23,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "LWR",
-      "news_updated": 1794843936789,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

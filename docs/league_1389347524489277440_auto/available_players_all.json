@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T12:17:46.903665Z",
-  "stale_after": "2026-11-18T13:17:46.903665Z",
+  "generated_at": "2026-11-18T20:43:19.384722Z",
+  "stale_after": "2026-11-18T21:43:19.384722Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-18T12:17:44.808443Z",
+    "snapshot_started_at": "2026-11-18T20:43:16.701422Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-18T12:17:44.859854Z"
+      "fetched_at": "2026-11-18T20:43:16.769152Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-18T12:17:44.964473Z"
+      "fetched_at": "2026-11-18T20:43:16.918621Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-18T12:17:45.077997Z"
+        "fetched_at": "2026-11-18T20:43:16.981007Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-18T12:17:45.124891Z"
+      "fetched_at": "2026-11-18T20:43:17.067972Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,11 +62,11 @@
     "FB": 112,
     "K": 177,
     "P": 5,
-    "QB": 452,
+    "QB": 451,
     "RB": 876,
     "SS": 1,
     "T": 2,
-    "TE": 817,
+    "TE": 818,
     "WR": 1726
   },
   "view": "all_eligible_unrostered_including_inactive",
@@ -8630,32 +8630,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1793949951335,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "12522",
-      "name": "Cam Ward",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "TEN",
-      "age": 24,
-      "years_exp": 1,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1794933044834,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -43554,6 +43528,32 @@
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
       "news_updated": 1794168922287,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "8210",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "WAS",
+      "age": 27,
+      "years_exp": 4,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1794843936813,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
