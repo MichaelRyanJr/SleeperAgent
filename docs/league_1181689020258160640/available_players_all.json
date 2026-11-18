@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T03:41:57.000451Z",
-  "stale_after": "2026-11-18T04:41:57.000451Z",
+  "generated_at": "2026-11-18T12:17:49.273535Z",
+  "stale_after": "2026-11-18T13:17:49.273535Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-18T03:41:52.710291Z",
+    "snapshot_started_at": "2026-11-18T12:17:47.266962Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-18T03:41:52.842783Z"
+      "fetched_at": "2026-11-18T12:17:47.307479Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-18T03:41:53.128237Z"
+      "fetched_at": "2026-11-18T12:17:47.414067Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-18T03:41:53.169274Z"
+        "fetched_at": "2026-11-18T12:17:47.441925Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-18T03:41:53.313816Z"
+      "fetched_at": "2026-11-18T12:17:47.504595Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,11 +63,11 @@
     "K": 179,
     "P": 5,
     "QB": 450,
-    "RB": 872,
+    "RB": 875,
     "SS": 1,
     "T": 2,
-    "TE": 817,
-    "WR": 1724
+    "TE": 816,
+    "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -282,6 +282,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "CLE",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
+    },
+    {
       "player_id": "DAL",
       "name": "Dallas Cowboys",
       "position": "DEF",
@@ -384,32 +410,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
-    },
-    {
-      "player_id": "LAC",
-      "name": "Los Angeles Chargers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "LAC",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 15
     },
     {
       "player_id": "MIA",
@@ -3768,32 +3768,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "6650",
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "eligible_positions": [
-        "K"
-      ],
-      "team": "TB",
-      "age": 30,
-      "years_exp": 7,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "K",
-      "news_updated": 1794278444652,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "5095",
       "name": "Daniel Carlson",
       "position": "K",
@@ -4000,6 +3974,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "2747",
+      "name": "Jason Myers",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "eligible_positions": [
+        "K"
+      ],
+      "team": "SEA",
+      "age": 35,
+      "years_exp": 11,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
+      "news_updated": 1794888341222,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 10
     },
     {
       "player_id": "6528",
@@ -20260,6 +20260,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11579",
+      "name": "Audric Estime",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NO",
+      "age": 23,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RB",
+      "news_updated": 1794969348146,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "4663",
       "name": "Austin Ekeler",
       "position": "RB",
@@ -20546,6 +20572,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "10219",
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "JAX",
+      "age": 27,
+      "years_exp": 3,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1794844836717,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
+    },
+    {
       "player_id": "13277",
       "name": "CJ Donaldson",
       "position": "RB",
@@ -20616,6 +20668,32 @@
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "news_updated": 1792975812426,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "12491",
+      "name": "Corey Kiner",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NE",
+      "age": 24,
+      "years_exp": 1,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1794796233798,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -45382,6 +45460,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "7002",
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "eligible_positions": [
+        "TE"
+      ],
+      "team": "NO",
+      "age": 30,
+      "years_exp": 6,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "TE",
+      "news_updated": 1794803733405,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 16
+    },
+    {
       "player_id": "8088",
       "name": "Kalif Jackson",
       "position": "TE",
@@ -45746,32 +45850,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "5012",
-      "name": "Mark Andrews",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "BAL",
-      "age": 31,
-      "years_exp": 8,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "TE",
-      "news_updated": 1794921345315,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": 12
-    },
-    {
       "player_id": "13013",
       "name": "Mark Redman",
       "position": "TE",
@@ -45972,32 +46050,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "TE",
       "news_updated": 1790805920173,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9482",
-      "name": "Michael Mayer",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "LV",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "TE",
-      "news_updated": 1794865238545,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -68063,32 +68115,6 @@
       "current_season_draft_round": null
     },
     {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "SF",
-      "age": 34,
-      "years_exp": 13,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 3,
-      "depth_chart_position": "RWR",
-      "news_updated": 1794803433323,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
       "player_id": "4454",
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -70603,32 +70629,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1793753129533,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "10218",
-      "name": "Xavier Hutchinson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "HOU",
-      "age": 26,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "LWR",
-      "news_updated": 1794843036652,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

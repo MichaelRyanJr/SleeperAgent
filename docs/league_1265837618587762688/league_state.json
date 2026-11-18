@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:41:52.067742Z",
+  "generated_at": "2026-11-18T12:17:46.903665Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -193,7 +193,6 @@
         "NYG"
       ],
       "players_current": [
-        "10213",
         "11576",
         "12481",
         "12495",
@@ -208,6 +207,7 @@
         "7021",
         "8130",
         "8132",
+        "9758",
         "LAR",
         "NYG"
       ],
@@ -292,14 +292,6 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11576",
           "name": "Braelon Allen",
           "position": "RB",
@@ -351,6 +343,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "LAR",
@@ -1592,9 +1592,9 @@
         "13337",
         "4034",
         "9997",
-        "8167",
+        "4983",
         "12518",
-        "9753",
+        "9224",
         "11533",
         "KC"
       ],
@@ -1654,13 +1654,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "4983",
+          "name": "DJ Moore",
           "position": "WR",
-          "team": "GB",
+          "team": "BUF",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 7
+          "draft_round": 6
         },
         {
           "player_id": "12518",
@@ -1672,13 +1672,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "SEA",
+          "team": "CIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 2
         },
         {
           "player_id": "11533",
@@ -1734,15 +1734,6 @@
           "keeper": false
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
           "player_id": "5022",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -1761,13 +1752,22 @@
           "draft_round": 3
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 7
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": []
@@ -1989,24 +1989,24 @@
       "starters_current": [
         "96",
         "8138",
-        "13286",
+        "5967",
         "9487",
-        "13346",
-        "8210",
         "13281",
-        "11653",
+        "12517",
+        "8151",
+        "0",
         "JAX"
       ],
       "players_current": [
         "11635",
-        "11653",
+        "12492",
         "12517",
         "13281",
         "13286",
+        "13293",
         "13301",
         "13305",
         "13346",
-        "3286",
         "4943",
         "5967",
         "8138",
@@ -2035,13 +2035,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "SEA",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 7
         },
         {
           "player_id": "9487",
@@ -2053,22 +2053,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "13346",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "8210",
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "team": "WAS",
-          "injury_status": "Questionable",
-          "keeper": false
-        },
-        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -2078,12 +2062,22 @@
           "draft_round": 9
         },
         {
-          "player_id": "11653",
-          "name": "Charlie Smyth",
-          "position": "K",
-          "team": "NO",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 2
         },
         {
           "player_id": "JAX",
@@ -2106,13 +2100,31 @@
           "draft_round": 3
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI",
+          "player_id": "12492",
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 14
+        },
+        {
+          "player_id": "13286",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
+          "player_id": "13293",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "13301",
@@ -2132,10 +2144,10 @@
           "draft_round": 13
         },
         {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
+          "player_id": "13346",
+          "name": "Denzel Boston",
           "position": "WR",
-          "team": "SF",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false
         },
@@ -2148,22 +2160,12 @@
           "keeper": false
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 2
+          "player_id": "8210",
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "team": "WAS",
+          "injury_status": "Questionable",
+          "keeper": false
         }
       ],
       "keepers": []
@@ -3502,7 +3504,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-18T03:41:52.067742Z",
-    "stale_after": "2026-11-18T04:41:52.067742Z"
+    "generated_at": "2026-11-18T12:17:46.903665Z",
+    "stale_after": "2026-11-18T13:17:46.903665Z"
   }
 }

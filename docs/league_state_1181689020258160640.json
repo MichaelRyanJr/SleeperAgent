@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:41:57.000451Z",
+  "generated_at": "2026-11-18T12:17:49.273535Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -95,7 +95,7 @@
       "points_for": 1449.8,
       "points_against": 1169.3,
       "waiver": {
-        "position": 7,
+        "position": 12,
         "budget_used": 0
       },
       "starters_current": [
@@ -110,9 +110,8 @@
         "MIN"
       ],
       "players_current": [
-        "11579",
+        "10218",
         "11786",
-        "12491",
         "12506",
         "12514",
         "12529",
@@ -126,6 +125,7 @@
         "8142",
         "8167",
         "8228",
+        "9482",
         "9488",
         "MIN"
       ],
@@ -214,19 +214,11 @@
       ],
       "bench": [
         {
-          "player_id": "11579",
-          "name": "Audric Estime",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -289,6 +281,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": [
@@ -373,7 +373,7 @@
       "points_for": 1253.14,
       "points_against": 1113.88,
       "waiver": {
-        "position": 6,
+        "position": 9,
         "budget_used": 0
       },
       "starters_current": [
@@ -388,7 +388,6 @@
         "LAR"
       ],
       "players_current": [
-        "10219",
         "11564",
         "11576",
         "11604",
@@ -398,6 +397,7 @@
         "12534",
         "13286",
         "13414",
+        "5012",
         "5947",
         "6786",
         "7523",
@@ -490,15 +490,6 @@
       ],
       "bench": [
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez Jr.",
-          "position": "RB",
-          "team": "JAX",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
-        },
-        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -542,6 +533,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 10
+        },
+        {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "9753",
@@ -617,18 +617,18 @@
       "points_for": 1294.86,
       "points_against": 1314.88,
       "waiver": {
-        "position": 4,
+        "position": 8,
         "budget_used": 0
       },
       "starters_current": [
         "8183",
-        "12527",
+        "11584",
         "7588",
         "9487",
         "10229",
         "8130",
         "12526",
-        "2747",
+        "6650",
         "PIT"
       ],
       "players_current": [
@@ -643,7 +643,7 @@
         "13285",
         "13305",
         "13417",
-        "2747",
+        "6650",
         "7588",
         "8130",
         "8183",
@@ -662,13 +662,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "LV",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 15
         },
         {
           "player_id": "7588",
@@ -716,13 +716,12 @@
           "draft_round": 3
         },
         {
-          "player_id": "2747",
-          "name": "Jason Myers",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "SEA",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 10
+          "keeper": false
         },
         {
           "player_id": "PIT",
@@ -735,15 +734,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
-        },
         {
           "player_id": "12487",
           "name": "Terrance Ferguson",
@@ -761,6 +751,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "13274",
@@ -817,6 +816,15 @@
       ],
       "keepers": [
         {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 15
+        },
+        {
           "player_id": "7588",
           "name": "Javonte Williams",
           "position": "RB",
@@ -851,15 +859,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 3
-        },
-        {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 15
         }
       ]
     },
@@ -879,7 +878,7 @@
       "points_for": 1054.82,
       "points_against": 1193.42,
       "waiver": {
-        "position": 9,
+        "position": 5,
         "budget_used": 0
       },
       "starters_current": [
@@ -1137,7 +1136,7 @@
       "points_for": 1352.38,
       "points_against": 1366.92,
       "waiver": {
-        "position": 12,
+        "position": 7,
         "budget_used": 0
       },
       "starters_current": [
@@ -1666,7 +1665,7 @@
       "points_for": 1380.96,
       "points_against": 1143.2,
       "waiver": {
-        "position": 10,
+        "position": 11,
         "budget_used": 0
       },
       "starters_current": [
@@ -1685,12 +1684,12 @@
         "11533",
         "11563",
         "12501",
+        "1479",
         "3294",
         "3321",
         "5846",
         "5850",
         "5967",
-        "7002",
         "7021",
         "7547",
         "7567",
@@ -1800,6 +1799,14 @@
           "draft_round": 5
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "SF",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -1815,15 +1822,6 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         },
         {
           "player_id": "7021",
@@ -2177,7 +2175,7 @@
       "points_for": 1197.24,
       "points_against": 1294.56,
       "waiver": {
-        "position": 11,
+        "position": 6,
         "budget_used": 0
       },
       "starters_current": [
@@ -2660,7 +2658,7 @@
       "points_for": 1114.9,
       "points_against": 1112.4,
       "waiver": {
-        "position": 8,
+        "position": 10,
         "budget_used": 0
       },
       "starters_current": [
@@ -2672,7 +2670,7 @@
         "8131",
         "9500",
         "12185",
-        "CLE"
+        "0"
       ],
       "players_current": [
         "11199",
@@ -2691,7 +2689,7 @@
         "9484",
         "9500",
         "9758",
-        "CLE"
+        "LAC"
       ],
       "starters": [
         {
@@ -2763,15 +2761,6 @@
           "team": "IND",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "CLE",
-          "name": "Cleveland",
-          "position": "DEF",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 16
         }
       ],
       "bench": [
@@ -2843,6 +2832,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": [
@@ -2909,7 +2907,7 @@
       "points_for": 1204.88,
       "points_against": 1268.48,
       "waiver": {
-        "position": 5,
+        "position": 4,
         "budget_used": 0
       },
       "starters_current": [
@@ -4087,7 +4085,7 @@
     "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-18T03:41:57.000451Z",
-    "stale_after": "2026-11-18T04:41:57.000451Z"
+    "generated_at": "2026-11-18T12:17:49.273535Z",
+    "stale_after": "2026-11-18T13:17:49.273535Z"
   }
 }
