@@ -50,7 +50,7 @@
         "name": "David Montgomery",
         "position": "RB",
         "team": "HOU",
-        "injury_status": "Out",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 7
       },
@@ -98,7 +98,7 @@
         "name": "Bhayshul Tuten",
         "position": "RB",
         "team": "JAX",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 10
       },
@@ -107,7 +107,7 @@
         "name": "Kyle Monangai",
         "position": "RB",
         "team": "CHI",
-        "injury_status": "Out",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 13
       },
@@ -116,7 +116,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 5
       },
@@ -296,7 +296,7 @@
         "name": "Kenneth Walker III",
         "position": "RB",
         "team": "KC",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 4
       },
@@ -398,7 +398,7 @@
         "name": "Ladd McConkey",
         "position": "WR",
         "team": "LAC",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 6
       },
@@ -416,7 +416,7 @@
         "name": "Luther Burden III",
         "position": "WR",
         "team": "CHI",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 13
       }
@@ -544,13 +544,13 @@
         "draft_round": 10
       },
       {
-        "player_id": "9997",
-        "name": "Zay Flowers",
+        "player_id": "8137",
+        "name": "George Pickens",
         "position": "WR",
-        "team": "BAL",
+        "team": "DAL",
         "injury_status": null,
         "keeper": true,
-        "draft_round": 4
+        "draft_round": 3
       },
       {
         "player_id": "3214",
@@ -571,13 +571,13 @@
         "draft_round": 13
       },
       {
-        "player_id": "8137",
-        "name": "George Pickens",
+        "player_id": "9997",
+        "name": "Zay Flowers",
         "position": "WR",
-        "team": "DAL",
+        "team": "BAL",
         "injury_status": null,
         "keeper": true,
-        "draft_round": 3
+        "draft_round": 4
       }
     ]
   },
@@ -812,7 +812,7 @@
         "name": "Mike Evans",
         "position": "WR",
         "team": "SF",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 6
       },

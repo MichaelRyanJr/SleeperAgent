@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:03:22.684655Z",
+  "generated_at": "2026-11-19T10:12:13.281072Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -179,7 +179,7 @@
           "name": "T.J. Hockenson",
           "position": "TE",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -188,7 +188,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 7
         },
@@ -217,7 +217,7 @@
           "name": "Xavier Hutchinson",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -323,7 +323,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 7
         },
@@ -372,8 +372,8 @@
         "12534",
         "6786",
         "5947",
+        "5012",
         "11604",
-        "8408",
         "11792",
         "LAR"
       ],
@@ -410,7 +410,7 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 10
         },
@@ -419,7 +419,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -437,27 +437,27 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 7
+        },
+        {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "11604",
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "11792",
@@ -525,13 +525,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 3
         },
         {
           "player_id": "9753",
@@ -549,7 +549,7 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 10
         },
@@ -558,7 +558,7 @@
           "name": "Kyle Monangai",
           "position": "RB",
           "team": "CHI",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -567,7 +567,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -764,7 +764,7 @@
           "name": "Jordyn Tyson",
           "position": "WR",
           "team": "NO",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -1174,7 +1174,7 @@
           "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         },
@@ -1327,7 +1327,7 @@
           "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         },
@@ -1542,7 +1542,7 @@
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -1560,7 +1560,7 @@
           "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -1586,7 +1586,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         }
@@ -1615,7 +1615,7 @@
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -1633,7 +1633,7 @@
           "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         }
@@ -1738,7 +1738,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -1801,7 +1801,7 @@
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
-          "injury_status": "",
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1912,10 +1912,10 @@
         "11566",
         "8138",
         "7594",
-        "9997",
+        "8137",
         "6794",
-        "3214",
-        "9501",
+        "5022",
+        "12507",
         "11539",
         "CIN"
       ],
@@ -1966,13 +1966,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "BAL",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 4
+          "draft_round": 3
         },
         {
           "player_id": "6794",
@@ -1984,21 +1984,22 @@
           "draft_round": 1
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
           "position": "TE",
-          "team": "NE",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false,
+          "draft_round": 6
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "11539",
@@ -2038,13 +2039,13 @@
           "draft_round": 16
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "421",
@@ -2056,22 +2057,12 @@
           "draft_round": 13
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "9501",
+          "name": "DeMario Douglas",
           "position": "WR",
-          "team": "DAL",
+          "team": "NE",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "9511",
@@ -2081,6 +2072,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 16
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 4
         }
       ],
       "keepers": [
@@ -2112,13 +2112,13 @@
           "draft_round": 10
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "BAL",
+          "team": "DAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 4
+          "draft_round": 3
         },
         {
           "player_id": "3214",
@@ -2139,13 +2139,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "DAL",
+          "team": "BAL",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 4
         }
       ]
     },
@@ -2249,7 +2249,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2257,7 +2257,7 @@
           "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -2266,7 +2266,7 @@
           "name": "Matt Gay",
           "position": "K",
           "team": "LV",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2561,7 +2561,7 @@
           "name": "Carnell Tate",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -2721,7 +2721,7 @@
           "name": "Jaylen Waddle",
           "position": "WR",
           "team": "DEN",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -2793,7 +2793,7 @@
           "name": "Caleb Douglas",
           "position": "WR",
           "team": "MIA",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 16
         },
@@ -2980,7 +2980,7 @@
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 5
         },
@@ -3025,7 +3025,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -3116,7 +3116,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -4075,7 +4075,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-19T02:03:22.684655Z",
-    "stale_after": "2026-11-19T03:03:22.684655Z"
+    "generated_at": "2026-11-19T10:12:13.281072Z",
+    "stale_after": "2026-11-19T11:12:13.281072Z"
   }
 }
