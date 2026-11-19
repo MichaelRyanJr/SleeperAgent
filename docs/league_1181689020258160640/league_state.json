@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:43:22.780279Z",
+  "generated_at": "2026-11-19T02:03:22.684655Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -2654,13 +2654,13 @@
       "starters_current": [
         "9758",
         "6813",
-        "12474",
+        "11199",
         "8144",
         "7526",
         "8131",
         "9500",
         "12185",
-        "0"
+        "LAC"
       ],
       "players_current": [
         "11199",
@@ -2700,13 +2700,12 @@
           "draft_round": 3
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "11199",
+          "name": "Emari Demercado",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 10
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8144",
@@ -2751,17 +2750,18 @@
           "team": "IND",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles",
+          "position": "DEF",
+          "team": "LAC",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "bench": [
-        {
-          "player_id": "11199",
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
-          "keeper": false
-        },
         {
           "player_id": "11583",
           "name": "Jonathon Brooks",
@@ -2770,6 +2770,15 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "12492",
@@ -2822,15 +2831,6 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 13
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles",
-          "position": "DEF",
-          "team": "LAC",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         }
       ],
       "keepers": [
@@ -2907,7 +2907,7 @@
         "4983",
         "11783",
         "1466",
-        "8136",
+        "8155",
         "3451",
         "BUF"
       ],
@@ -2985,13 +2985,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "WAS",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 12
+          "draft_round": 3
         },
         {
           "player_id": "3451",
@@ -3056,13 +3056,13 @@
           "keeper": false
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYJ",
+          "team": "WAS",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 12
         },
         {
           "player_id": "8205",
@@ -3094,13 +3094,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "8155",
+          "name": "Breece Hall",
           "position": "RB",
-          "team": "WAS",
+          "team": "NYJ",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 12
+          "draft_round": 3
         },
         {
           "player_id": "3451",
@@ -3130,13 +3130,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "NYJ",
+          "team": "WAS",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 12
         }
       ]
     }
@@ -4075,7 +4075,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-18T20:43:22.780279Z",
-    "stale_after": "2026-11-18T21:43:22.780279Z"
+    "generated_at": "2026-11-19T02:03:22.684655Z",
+    "stale_after": "2026-11-19T03:03:22.684655Z"
   }
 }
