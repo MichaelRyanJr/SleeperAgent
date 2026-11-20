@@ -5,10 +5,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "6804",
-        "name": "Jordan Love",
+        "player_id": "9758",
+        "name": "C.J. Stroud",
         "position": "QB",
-        "team": "GB",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -61,10 +61,10 @@
         "injury_status": null
       },
       {
-        "player_id": "NYG",
-        "name": "New York",
+        "player_id": "DEN",
+        "name": "Denver",
         "position": "DEF",
-        "team": "NYG",
+        "team": "DEN",
         "injury_status": null
       }
     ],
@@ -98,6 +98,13 @@
         "injury_status": null
       },
       {
+        "player_id": "6804",
+        "name": "Jordan Love",
+        "position": "QB",
+        "team": "GB",
+        "injury_status": null
+      },
+      {
         "player_id": "7021",
         "name": "Rico Dowdle",
         "position": "RB",
@@ -109,13 +116,6 @@
         "name": "Tyler Allgeier",
         "position": "RB",
         "team": "ARI",
-        "injury_status": null
-      },
-      {
-        "player_id": "9758",
-        "name": "C.J. Stroud",
-        "position": "QB",
-        "team": "HOU",
         "injury_status": null
       },
       {
@@ -261,10 +261,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6806",
-        "name": "J.K. Dobbins",
+        "player_id": "5892",
+        "name": "David Montgomery",
         "position": "RB",
-        "team": "DEN",
+        "team": "HOU",
         "injury_status": null
       },
       {
@@ -340,10 +340,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5892",
-        "name": "David Montgomery",
+        "player_id": "6806",
+        "name": "J.K. Dobbins",
         "position": "RB",
-        "team": "HOU",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -652,10 +652,10 @@
         "injury_status": null
       },
       {
-        "player_id": "11586",
-        "name": "Blake Corum",
+        "player_id": "11584",
+        "name": "Bucky Irving",
         "position": "RB",
-        "team": "LAR",
+        "team": "TB",
         "injury_status": null
       },
       {
@@ -673,11 +673,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12506",
-        "name": "Harold Fannin Jr.",
+        "player_id": "5844",
+        "name": "T.J. Hockenson",
         "position": "TE",
-        "team": "CLE",
-        "injury_status": null
+        "team": "MIN",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5947",
@@ -694,19 +694,19 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "GB",
-        "name": "Green Bay",
+        "player_id": "TB",
+        "name": "Tampa Bay",
         "position": "DEF",
-        "team": "GB",
+        "team": "TB",
         "injury_status": null
       }
     ],
     "bench": [
       {
-        "player_id": "11584",
-        "name": "Bucky Irving",
+        "player_id": "11586",
+        "name": "Blake Corum",
         "position": "RB",
-        "team": "TB",
+        "team": "LAR",
         "injury_status": null
       },
       {
@@ -714,6 +714,13 @@
         "name": "Xavier Worthy",
         "position": "WR",
         "team": "KC",
+        "injury_status": null
+      },
+      {
+        "player_id": "12506",
+        "name": "Harold Fannin Jr.",
+        "position": "TE",
+        "team": "CLE",
         "injury_status": null
       },
       {
@@ -731,13 +738,6 @@
         "injury_status": null
       },
       {
-        "player_id": "5844",
-        "name": "T.J. Hockenson",
-        "position": "TE",
-        "team": "MIN",
-        "injury_status": "Questionable"
-      },
-      {
         "player_id": "9500",
         "name": "Josh Downs",
         "position": "WR",
@@ -745,10 +745,10 @@
         "injury_status": null
       },
       {
-        "player_id": "TB",
-        "name": "Tampa Bay",
+        "player_id": "GB",
+        "name": "Green Bay",
         "position": "DEF",
-        "team": "TB",
+        "team": "GB",
         "injury_status": null
       }
     ]
@@ -887,11 +887,11 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "11564",
-        "name": "Drake Maye",
+        "player_id": "13269",
+        "name": "Fernando Mendoza",
         "position": "QB",
-        "team": "NE",
-        "injury_status": "Out"
+        "team": "LV",
+        "injury_status": null
       },
       {
         "player_id": "8228",
@@ -915,10 +915,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9488",
-        "name": "Jaxon Smith-Njigba",
+        "player_id": "11783",
+        "name": "Ryan Flournoy",
         "position": "WR",
-        "team": "SEA",
+        "team": "DAL",
         "injury_status": null
       },
       {
@@ -952,17 +952,10 @@
     ],
     "bench": [
       {
-        "player_id": "11783",
-        "name": "Ryan Flournoy",
-        "position": "WR",
-        "team": "DAL",
-        "injury_status": null
-      },
-      {
-        "player_id": "12512",
-        "name": "Quinshon Judkins",
+        "player_id": "13305",
+        "name": "Mike Washington Jr.",
         "position": "RB",
-        "team": "CLE",
+        "team": "LV",
         "injury_status": null
       },
       {
@@ -970,6 +963,13 @@
         "name": "Jonah Coleman",
         "position": "RB",
         "team": "DEN",
+        "injury_status": null
+      },
+      {
+        "player_id": "13346",
+        "name": "Denzel Boston",
+        "position": "WR",
+        "team": "CLE",
         "injury_status": null
       },
       {
@@ -999,6 +999,13 @@
         "position": "RB",
         "team": "TB",
         "injury_status": null
+      },
+      {
+        "player_id": "9488",
+        "name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "team": "SEA",
+        "injury_status": null
       }
     ]
   },
@@ -1015,18 +1022,18 @@
         "injury_status": null
       },
       {
-        "player_id": "11579",
-        "name": "Audric Estime",
-        "position": "RB",
-        "team": "NO",
-        "injury_status": null
-      },
-      {
-        "player_id": "4663",
-        "name": "Austin Ekeler",
+        "player_id": "12533",
+        "name": "Jacory Croskey-Merritt",
         "position": "RB",
         "team": "WAS",
-        "injury_status": null
+        "injury_status": "IR"
+      },
+      {
+        "player_id": "12490",
+        "name": "Bhayshul Tuten",
+        "position": "RB",
+        "team": "JAX",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7564",
@@ -1036,10 +1043,10 @@
         "injury_status": null
       },
       {
-        "player_id": "12501",
-        "name": "Matthew Golden",
+        "player_id": "4037",
+        "name": "Chris Godwin Jr.",
         "position": "WR",
-        "team": "GB",
+        "team": "TB",
         "injury_status": null
       },
       {
@@ -1080,11 +1087,11 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "12490",
-        "name": "Bhayshul Tuten",
-        "position": "RB",
-        "team": "JAX",
-        "injury_status": "Questionable"
+        "player_id": "12501",
+        "name": "Matthew Golden",
+        "position": "WR",
+        "team": "GB",
+        "injury_status": null
       },
       {
         "player_id": "2133",
@@ -1101,10 +1108,10 @@
         "injury_status": null
       },
       {
-        "player_id": "4037",
-        "name": "Chris Godwin Jr.",
-        "position": "WR",
-        "team": "TB",
+        "player_id": "4663",
+        "name": "Austin Ekeler",
+        "position": "RB",
+        "team": "WAS",
         "injury_status": null
       },
       {
@@ -1329,6 +1336,13 @@
         "injury_status": null
       },
       {
+        "player_id": "12512",
+        "name": "Quinshon Judkins",
+        "position": "RB",
+        "team": "CLE",
+        "injury_status": null
+      },
+      {
         "player_id": "12522",
         "name": "Cam Ward",
         "position": "QB",
@@ -1357,20 +1371,6 @@
         "injury_status": null
       },
       {
-        "player_id": "13305",
-        "name": "Mike Washington Jr.",
-        "position": "RB",
-        "team": "LV",
-        "injury_status": null
-      },
-      {
-        "player_id": "13346",
-        "name": "Denzel Boston",
-        "position": "WR",
-        "team": "CLE",
-        "injury_status": null
-      },
-      {
         "player_id": "4943",
         "name": "Sam Darnold",
         "position": "QB",
@@ -1385,10 +1385,10 @@
     "points": 0.0,
     "starters": [
       {
-        "player_id": "1166",
-        "name": "Kirk Cousins",
+        "player_id": "11563",
+        "name": "Bo Nix",
         "position": "QB",
-        "team": "MIN",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -1427,11 +1427,11 @@
         "injury_status": "Questionable"
       },
       {
-        "player_id": "8136",
-        "name": "Rachaad White",
-        "position": "RB",
-        "team": "WAS",
-        "injury_status": null
+        "player_id": "7525",
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "team": "PHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5119",
@@ -1441,19 +1441,19 @@
         "injury_status": null
       },
       {
-        "player_id": "IND",
-        "name": "Indianapolis",
+        "player_id": "SF",
+        "name": "San Francisco",
         "position": "DEF",
-        "team": "IND",
+        "team": "SF",
         "injury_status": null
       }
     ],
     "bench": [
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
+        "player_id": "1166",
+        "name": "Kirk Cousins",
         "position": "QB",
-        "team": "DEN",
+        "team": "MIN",
         "injury_status": null
       },
       {
@@ -1478,17 +1478,17 @@
         "injury_status": "IR"
       },
       {
-        "player_id": "7525",
-        "name": "DeVonta Smith",
-        "position": "WR",
-        "team": "PHI",
-        "injury_status": "Questionable"
-      },
-      {
         "player_id": "7611",
         "name": "Rhamondre Stevenson",
         "position": "RB",
         "team": "NE",
+        "injury_status": null
+      },
+      {
+        "player_id": "8136",
+        "name": "Rachaad White",
+        "position": "RB",
+        "team": "WAS",
         "injury_status": null
       },
       {

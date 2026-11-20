@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T19:00:07.861314Z",
-  "stale_after": "2026-11-19T20:00:07.861314Z",
+  "generated_at": "2026-11-20T01:11:42.242416Z",
+  "stale_after": "2026-11-20T02:11:42.242416Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-19T19:00:02.948640Z",
+    "snapshot_started_at": "2026-11-20T01:11:37.700732Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-19T19:00:03.115649Z"
+      "fetched_at": "2026-11-20T01:11:37.848785Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-19T19:00:03.450147Z"
+      "fetched_at": "2026-11-20T01:11:38.166207Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-19T19:00:03.685527Z"
+        "fetched_at": "2026-11-20T01:11:38.206253Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-19T19:00:03.851732Z"
+      "fetched_at": "2026-11-20T01:11:38.388281Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -51,9 +51,9 @@
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2834,
+  "default_player_count": 2835,
   "all_player_count": 4188,
-  "player_count": 2834,
+  "player_count": 2835,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -62,7 +62,7 @@
     "K": 136,
     "P": 4,
     "QB": 321,
-    "RB": 558,
+    "RB": 559,
     "SS": 1,
     "TE": 549,
     "WR": 1184
@@ -279,8 +279,8 @@
       "current_season_draft_round": 16
     },
     {
-      "player_id": "DEN",
-      "name": "Denver Broncos",
+      "player_id": "IND",
+      "name": "Indianapolis Colts",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -288,7 +288,7 @@
       "eligible_positions": [
         "DEF"
       ],
-      "team": "DEN",
+      "team": "IND",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -302,7 +302,7 @@
       "waiver_status": "unknown",
       "claim_deadline": null,
       "can_add_now": null,
-      "current_season_draft_round": 14
+      "current_season_draft_round": null
     },
     {
       "player_id": "LV",
@@ -409,6 +409,32 @@
       "current_season_draft_round": 15
     },
     {
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "NYG",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "NYJ",
       "name": "New York Jets",
       "position": "DEF",
@@ -459,32 +485,6 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": 13
-    },
-    {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "SF",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
     },
     {
       "player_id": "TEN",
@@ -6448,6 +6448,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "11564",
+      "name": "Drake Maye",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "NE",
+      "age": 24,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 1,
+      "depth_chart_position": "QB",
+      "news_updated": 1794958247056,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 4
+    },
+    {
       "player_id": "13289",
       "name": "Drew Allar",
       "position": "QB",
@@ -6544,32 +6570,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "news_updated": 1794864938646,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13269",
-      "name": "Fernando Mendoza",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "LV",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1794932745063,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -14370,6 +14370,32 @@
       "depth_chart_order": 6,
       "depth_chart_position": "RB",
       "news_updated": 1792978812129,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "11579",
+      "name": "Audric Estime",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "NO",
+      "age": 23,
+      "years_exp": 2,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RB",
+      "news_updated": 1794969348146,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
