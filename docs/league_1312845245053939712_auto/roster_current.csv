@@ -52,7 +52,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 3,,13417,De'Zhaun Stribling,WR,SF,IR,0,0
 3,,TB,Tampa Bay,DEF,TB,,0,0
 4,1,13269,Fernando Mendoza,QB,LV,,1,0
-4,2,13424,Seth McGowan,RB,IND,,1,0
+4,2,13424,Seth McGowan,RB,IND,Out,1,0
 4,3,11643,Jaylen Wright,RB,MIA,,1,0
 4,4,9502,Tank Dell,WR,HOU,,1,0
 4,5,11632,Malik Nabers,WR,NYG,,1,0
@@ -93,7 +93,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 6,4,12519,Luther Burden III,WR,CHI,,1,1
 6,5,11646,Jalen Coker,WR,CAR,,1,1
 6,6,10859,Sam LaPorta,TE,DET,,1,0
-6,7,7525,DeVonta Smith,WR,PHI,Questionable,1,0
+6,7,7525,DeVonta Smith,WR,PHI,,1,0
 6,8,1945,Chris Boswell,K,PIT,,1,0
 6,9,SF,San Francisco,DEF,SF,,1,0
 6,,11559,Michael Penix Jr.,QB,ATL,,0,0
@@ -142,7 +142,7 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 9,4,8112,Drake London,WR,ATL,Questionable,1,1
 9,5,8146,Garrett Wilson,WR,NYJ,,1,1
 9,6,2505,Darren Waller,TE,CAR,Questionable,1,0
-9,7,13276,Omar Cooper Jr.,WR,NYJ,Questionable,1,0
+9,7,13276,Omar Cooper Jr.,WR,NYJ,Out,1,0
 9,8,6083,Matt Gay,K,LV,Questionable,1,0
 9,9,JAX,Jacksonville,DEF,JAX,,1,0
 9,,10232,Michael Wilson,WR,ARI,IR,0,1
@@ -191,13 +191,13 @@ roster_id,slot,player_id,name,position,team,injury_status,is_starter,keeper
 12,2,3198,Derrick Henry,RB,BAL,,1,0
 12,3,12481,Cam Skattebo,RB,NYG,,1,1
 12,4,4983,DJ Moore,WR,BUF,,1,0
-12,5,11783,Ryan Flournoy,WR,DAL,,1,0
+12,5,2216,Mike Evans,WR,SF,Questionable,1,1
 12,6,1466,Travis Kelce,TE,KC,,1,0
 12,7,8155,Breece Hall,RB,NYJ,,1,1
 12,8,3451,Ka'imi Fairbairn,K,HOU,,1,1
 12,9,BUF,Buffalo,DEF,BUF,,1,0
+12,,11783,Ryan Flournoy,WR,DAL,,0,0
 12,,11834,Devaughn Vele,WR,NO,,0,0
-12,,2216,Mike Evans,WR,SF,Questionable,0,1
 12,,4037,Chris Godwin Jr.,WR,TB,,0,0
 12,,6804,Jordan Love,QB,GB,,0,1
 12,,7600,Pat Freiermuth,TE,PIT,,0,0
