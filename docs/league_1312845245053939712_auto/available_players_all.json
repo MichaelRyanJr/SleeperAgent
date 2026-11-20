@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T17:15:39.861382Z",
-  "stale_after": "2026-11-20T18:15:39.861382Z",
+  "generated_at": "2026-11-20T23:10:43.657637Z",
+  "stale_after": "2026-11-21T00:10:43.657637Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-20T17:15:35.426407Z",
+    "snapshot_started_at": "2026-11-20T23:10:38.865475Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-20T17:15:35.549211Z"
+      "fetched_at": "2026-11-20T23:10:38.992151Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-20T17:15:35.870755Z"
+      "fetched_at": "2026-11-20T23:10:39.317922Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-20T17:15:35.949733Z"
+        "fetched_at": "2026-11-20T23:10:39.510456Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-20T17:15:36.096362Z"
+      "fetched_at": "2026-11-20T23:10:39.660702Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,10 +63,10 @@
     "K": 179,
     "P": 5,
     "QB": 450,
-    "RB": 875,
+    "RB": 876,
     "SS": 1,
     "T": 2,
-    "TE": 816,
+    "TE": 815,
     "WR": 1722
   },
   "view": "all_eligible_unrostered_including_inactive",
@@ -22106,6 +22106,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "7567",
+      "name": "Kenny Gainwell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "eligible_positions": [
+        "RB"
+      ],
+      "team": "TB",
+      "age": 27,
+      "years_exp": 5,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "news_updated": 1794842136600,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
+    },
+    {
       "player_id": "13436",
       "name": "Kentrel Bullock",
       "position": "RB",
@@ -43528,32 +43554,6 @@
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
       "news_updated": 1794168922287,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "8210",
-      "name": "Chig Okonkwo",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "WAS",
-      "age": 27,
-      "years_exp": 4,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "TE",
-      "news_updated": 1794843936813,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

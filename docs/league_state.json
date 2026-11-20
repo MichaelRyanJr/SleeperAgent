@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:15:35.007880Z",
+  "generated_at": "2026-11-20T23:10:38.283603Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -794,7 +794,7 @@
       },
       "starters_current": [
         "8183",
-        "9509",
+        "4147",
         "8155",
         "11632",
         "7569",
@@ -808,6 +808,7 @@
         "11632",
         "12474",
         "1479",
+        "4147",
         "6801",
         "7042",
         "7569",
@@ -819,8 +820,7 @@
         "9484",
         "9509",
         "9757",
-        "CIN",
-        "NO"
+        "CIN"
       ],
       "starters": [
         {
@@ -833,13 +833,12 @@
           "draft_round": 13
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
+          "player_id": "4147",
+          "name": "Samaje Perine",
           "position": "RB",
-          "team": "ATL",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
+          "keeper": false
         },
         {
           "player_id": "8155",
@@ -958,18 +957,19 @@
           "draft_round": 7
         },
         {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        },
+        {
           "player_id": "9757",
           "name": "Kendre Miller",
           "position": "RB",
           "team": "DAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "NO",
-          "name": "New Orleans",
-          "position": "DEF",
-          "team": "NO",
           "injury_status": null,
           "keeper": false
         }
@@ -1992,7 +1992,7 @@
         "9487",
         "13281",
         "12517",
-        "8151",
+        "13293",
         "0",
         "JAX"
       ],
@@ -2069,13 +2069,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "team": "KC",
-          "injury_status": "Questionable",
+          "player_id": "13293",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 2
+          "draft_round": 12
         },
         {
           "player_id": "JAX",
@@ -2133,15 +2133,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "13301",
           "name": "Antonio Williams",
           "position": "WR",
@@ -2156,6 +2147,15 @@
           "team": "SEA",
           "injury_status": "Out",
           "keeper": false
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 2
         }
       ],
       "keepers": []
@@ -3502,7 +3502,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-20T17:15:35.007880Z",
-    "stale_after": "2026-11-20T18:15:35.007880Z"
+    "generated_at": "2026-11-20T23:10:38.283603Z",
+    "stale_after": "2026-11-21T00:10:38.283603Z"
   }
 }

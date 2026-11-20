@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:15:39.861382Z",
+  "generated_at": "2026-11-20T23:10:43.657637Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1131,12 +1131,12 @@
       },
       "starters_current": [
         "1166",
-        "8151",
+        "13337",
         "12495",
         "7569",
         "7564",
         "4217",
-        "13337",
+        "7543",
         "5119",
         "KC"
       ],
@@ -1170,13 +1170,13 @@
           "keeper": false
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 4
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "12495",
@@ -1214,13 +1214,13 @@
           "draft_round": 9
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
-          "team": "KC",
+          "team": "NO",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "5119",
@@ -1303,15 +1303,6 @@
           "draft_round": 1
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "8150",
           "name": "Kyren Williams",
           "position": "RB",
@@ -1319,9 +1310,7 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
-        }
-      ],
-      "keepers": [
+        },
         {
           "player_id": "8151",
           "name": "Kenneth Walker III",
@@ -1330,7 +1319,9 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
-        },
+        }
+      ],
+      "keepers": [
         {
           "player_id": "7569",
           "name": "Nico Collins",
@@ -1339,6 +1330,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
+        },
+        {
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "11586",
@@ -1368,15 +1368,6 @@
           "draft_round": 3
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        },
-        {
           "player_id": "8150",
           "name": "Kyren Williams",
           "position": "RB",
@@ -1384,6 +1375,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 13
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 4
         }
       ]
     },
@@ -1663,7 +1663,7 @@
         "5967",
         "7547",
         "8134",
-        "10236",
+        "8210",
         "5846",
         "11533",
         "CHI"
@@ -1681,8 +1681,8 @@
         "5967",
         "7021",
         "7547",
-        "7567",
         "8134",
+        "8210",
         "9221",
         "CHI"
       ],
@@ -1733,13 +1733,12 @@
           "draft_round": 12
         },
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
+          "player_id": "8210",
+          "name": "Chig Okonkwo",
           "position": "TE",
-          "team": "BUF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 6
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "5846",
@@ -1769,6 +1768,15 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
+        },
         {
           "player_id": "11563",
           "name": "Bo Nix",
@@ -1820,15 +1828,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 11
         }
       ],
       "keepers": [
@@ -2168,13 +2167,13 @@
         "budget_used": 0
       },
       "starters_current": [
-        "12545",
-        "9509",
-        "7611",
-        "8112",
+        "11560",
+        "6790",
+        "5995",
         "8146",
+        "11625",
         "2505",
-        "13276",
+        "13330",
         "6083",
         "JAX"
       ],
@@ -2200,39 +2199,30 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "NO",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
+        },
+        {
+          "player_id": "5995",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
           "injury_status": null,
           "keeper": false
-        },
-        {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 9
-        },
-        {
-          "player_id": "8112",
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 6
         },
         {
           "player_id": "8146",
@@ -2244,6 +2234,14 @@
           "draft_round": 2
         },
         {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
@@ -2252,13 +2250,13 @@
           "keeper": false
         },
         {
-          "player_id": "13276",
-          "name": "Omar Cooper Jr.",
-          "position": "WR",
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 11
         },
         {
           "player_id": "6083",
@@ -2289,23 +2287,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
-        },
-        {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "11628",
           "name": "Marvin Harrison Jr.",
           "position": "WR",
@@ -2324,13 +2305,21 @@
           "draft_round": 3
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
-          "position": "TE",
-          "team": "NYJ",
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
           "injury_status": null,
+          "keeper": false
+        },
+        {
+          "player_id": "13276",
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Out",
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 15
         },
         {
           "player_id": "4177",
@@ -2340,25 +2329,6 @@
           "injury_status": null,
           "keeper": false
         },
-        {
-          "player_id": "5995",
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
-        }
-      ],
-      "keepers": [
         {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
@@ -2376,6 +2346,35 @@
           "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
+        },
+        {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 1
+        }
+      ],
+      "keepers": [
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 7
+        },
+        {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 5
         },
         {
           "player_id": "8146",
@@ -2396,22 +2395,22 @@
           "draft_round": 13
         },
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 7
+          "draft_round": 9
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "injury_status": null,
+          "player_id": "8112",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "injury_status": "Questionable",
           "keeper": true,
-          "draft_round": 5
+          "draft_round": 6
         }
       ]
     },
@@ -4074,7 +4073,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-20T17:15:39.861382Z",
-    "stale_after": "2026-11-20T18:15:39.861382Z"
+    "generated_at": "2026-11-20T23:10:43.657637Z",
+    "stale_after": "2026-11-21T00:10:43.657637Z"
   }
 }
