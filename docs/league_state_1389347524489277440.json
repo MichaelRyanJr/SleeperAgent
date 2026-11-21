@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T23:10:38.283603Z",
+  "generated_at": "2026-11-21T03:59:09.164103Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1015,13 +1015,13 @@
         "12533",
         "1466",
         "2133",
-        "3214",
         "4037",
         "4663",
         "6770",
         "7564",
         "7571",
         "9230",
+        "9480",
         "BUF"
       ],
       "starters": [
@@ -1134,15 +1134,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "4663",
           "name": "Austin Ekeler",
           "position": "RB",
@@ -1165,6 +1156,15 @@
           "team": "PHI",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 15
         }
       ],
       "keepers": []
@@ -3502,7 +3502,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-20T23:10:38.283603Z",
-    "stale_after": "2026-11-21T00:10:38.283603Z"
+    "generated_at": "2026-11-21T03:59:09.164103Z",
+    "stale_after": "2026-11-21T04:59:09.164103Z"
   }
 }
