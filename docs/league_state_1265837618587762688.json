@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:27:30.350371Z",
+  "generated_at": "2026-11-21T19:41:30.992229Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -519,7 +519,7 @@
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
-          "team": "IND",
+          "team": null,
           "injury_status": null,
           "keeper": false
         },
@@ -537,7 +537,7 @@
           "name": "Jaylen Waddle",
           "position": "WR",
           "team": "DEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 5
         },
@@ -635,7 +635,7 @@
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 12
         },
@@ -1048,7 +1048,7 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 5
         },
@@ -1268,7 +1268,7 @@
           "name": "T.J. Hockenson",
           "position": "TE",
           "team": "MIN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 15
         },
@@ -1277,7 +1277,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
@@ -1712,7 +1712,7 @@
           "name": "Caleb Douglas",
           "position": "WR",
           "team": "MIA",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -2055,7 +2055,7 @@
           "name": "Jordyn Tyson",
           "position": "WR",
           "team": "NO",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         },
@@ -2153,7 +2153,7 @@
           "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
         }
@@ -2464,7 +2464,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 7
         },
@@ -2542,7 +2542,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -3499,10 +3499,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2835,
+    "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-21T12:27:30.350371Z",
-    "stale_after": "2026-11-21T13:27:30.350371Z"
+    "generated_at": "2026-11-21T19:41:30.992229Z",
+    "stale_after": "2026-11-21T20:41:30.992229Z"
   }
 }
