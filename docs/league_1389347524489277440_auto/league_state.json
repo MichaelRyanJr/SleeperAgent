@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:59:09.164103Z",
+  "generated_at": "2026-11-21T12:27:30.350371Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1388,9 +1388,9 @@
         "12534",
         "6790",
         "7547",
-        "13276",
-        "8131",
         "11620",
+        "8131",
+        "11625",
         "7839",
         "CAR"
       ],
@@ -1450,13 +1450,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "13276",
-          "name": "Omar Cooper Jr.",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "NYJ",
-          "injury_status": "Out",
+          "team": "CHI",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 14
+          "draft_round": 6
         },
         {
           "player_id": "8131",
@@ -1468,13 +1468,12 @@
           "draft_round": 8
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "CHI",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 6
+          "keeper": false
         },
         {
           "player_id": "7839",
@@ -1505,14 +1504,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -1520,6 +1511,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 3
+        },
+        {
+          "player_id": "13276",
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "team": "NYJ",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 14
         },
         {
           "player_id": "2505",
@@ -3502,7 +3502,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-21T03:59:09.164103Z",
-    "stale_after": "2026-11-21T04:59:09.164103Z"
+    "generated_at": "2026-11-21T12:27:30.350371Z",
+    "stale_after": "2026-11-21T13:27:30.350371Z"
   }
 }
