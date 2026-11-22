@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T23:56:47.604607Z",
+  "generated_at": "2026-11-22T06:00:13.539195Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -2006,10 +2006,10 @@
         "13286",
         "13293",
         "13301",
-        "4943",
         "5967",
         "8138",
         "8151",
+        "9482",
         "9487",
         "96",
         "JAX"
@@ -2141,14 +2141,6 @@
           "keeper": false
         },
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker III",
           "position": "RB",
@@ -2156,6 +2148,14 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -3502,7 +3502,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-21T23:56:47.604607Z",
-    "stale_after": "2026-11-22T00:56:47.604607Z"
+    "generated_at": "2026-11-22T06:00:13.539195Z",
+    "stale_after": "2026-11-22T07:00:13.539195Z"
   }
 }

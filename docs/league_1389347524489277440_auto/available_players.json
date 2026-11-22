@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T23:56:47.604607Z",
-  "stale_after": "2026-11-22T00:56:47.604607Z",
+  "generated_at": "2026-11-22T06:00:13.539195Z",
+  "stale_after": "2026-11-22T07:00:13.539195Z",
   "league_id": "1389347524489277440",
   "league_name": "Ryan Fantasy Football",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-21T23:56:43.282925Z",
+    "snapshot_started_at": "2026-11-22T06:00:09.208177Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440",
-      "fetched_at": "2026-11-21T23:56:43.422139Z"
+      "fetched_at": "2026-11-22T06:00:09.354890Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/drafts",
-      "fetched_at": "2026-11-21T23:56:43.724354Z"
+      "fetched_at": "2026-11-22T06:00:09.646201Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1389347524489277441/picks",
-        "fetched_at": "2026-11-21T23:56:43.915634Z"
+        "fetched_at": "2026-11-22T06:00:09.685379Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1389347524489277440/rosters",
-      "fetched_at": "2026-11-21T23:56:44.054666Z"
+      "fetched_at": "2026-11-22T06:00:09.819186Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -61,10 +61,10 @@
     "FB": 63,
     "K": 136,
     "P": 4,
-    "QB": 321,
+    "QB": 322,
     "RB": 557,
     "SS": 1,
-    "TE": 549,
+    "TE": 548,
     "WR": 1184
   },
   "view": "active_or_nfl_affiliated_candidates",
@@ -7662,6 +7662,32 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "news_updated": 1795206960291,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "4943",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "eligible_positions": [
+        "QB"
+      ],
+      "team": "SEA",
+      "age": 29,
+      "years_exp": 8,
+      "status": "Active",
+      "injury_status": "Out",
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "QB",
+      "news_updated": 1794956146945,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -31453,32 +31479,6 @@
       "depth_chart_order": 4,
       "depth_chart_position": "TE",
       "news_updated": 1795022753080,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "9482",
-      "name": "Michael Mayer",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "eligible_positions": [
-        "TE"
-      ],
-      "team": "LV",
-      "age": 25,
-      "years_exp": 3,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "TE",
-      "news_updated": 1795245352962,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
