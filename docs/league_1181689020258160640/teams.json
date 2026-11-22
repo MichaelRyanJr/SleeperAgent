@@ -112,15 +112,6 @@
         "draft_round": 13
       },
       {
-        "player_id": "11604",
-        "name": "Brock Bowers",
-        "position": "TE",
-        "team": "LV",
-        "injury_status": "Questionable",
-        "keeper": true,
-        "draft_round": 5
-      },
-      {
         "player_id": "11564",
         "name": "Drake Maye",
         "position": "QB",
@@ -128,6 +119,15 @@
         "injury_status": "Out",
         "keeper": true,
         "draft_round": 8
+      },
+      {
+        "player_id": "11604",
+        "name": "Brock Bowers",
+        "position": "TE",
+        "team": "LV",
+        "injury_status": "Out",
+        "keeper": true,
+        "draft_round": 5
       },
       {
         "player_id": "11631",
@@ -341,7 +341,7 @@
         "name": "Kyren Williams",
         "position": "RB",
         "team": "LAR",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 13
       },
@@ -407,7 +407,7 @@
         "name": "Ladd McConkey",
         "position": "WR",
         "team": "LAC",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 6
       },

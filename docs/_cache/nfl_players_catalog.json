@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-21T19:41:30.865610Z",
+  "fetched_at": "2026-11-22T20:48:42.395792Z",
   "players": {
     "6462": {
       "full_name": "Ellis Richardson",
@@ -286,7 +286,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "number": 17,
-      "news_updated": 1794884140783
+      "news_updated": 1795291257730
     },
     "2508": {
       "full_name": "Amarlo Herrera",
@@ -1006,10 +1006,10 @@
       "active": true,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "RB",
       "number": 36,
-      "news_updated": 1794887140676
+      "news_updated": 1795306859701
     },
     "6137": {
       "full_name": "Tommy Sweeney",
@@ -1121,8 +1121,8 @@
       "active": true,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "FS",
       "number": 36,
       "news_updated": 1787014838335
     },
@@ -1266,7 +1266,7 @@
       "fantasy_positions": [
         "LB"
       ],
-      "team": "GB",
+      "team": null,
       "status": "Active",
       "injury_status": null,
       "active": true,
@@ -1313,7 +1313,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 7,
-      "news_updated": 1795204259796
+      "news_updated": 1795378508132
     },
     "1195": {
       "full_name": "Doug Martin",
@@ -1633,7 +1633,7 @@
       "active": true,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_order": 10,
+      "depth_chart_order": 9,
       "depth_chart_position": "SWR",
       "number": 4,
       "news_updated": 1794970548430
@@ -2446,14 +2446,14 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "depth_chart_position": "RB",
       "number": 23,
-      "news_updated": 1795029653943
+      "news_updated": 1795365906635
     },
     "11450": {
       "full_name": "Tyler Beach",
@@ -2581,10 +2581,10 @@
       "active": true,
       "age": 32,
       "years_exp": 11,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LILB",
       "number": 54,
-      "news_updated": 1770142538463
+      "news_updated": 1795297259867
     },
     "1609": {
       "full_name": "Chris Pantale",
@@ -2812,7 +2812,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "NB",
       "number": 22,
-      "news_updated": 1795222851356
+      "news_updated": 1795307459623
     },
     "5396": {
       "full_name": "Sergio Bailey II",
@@ -2927,7 +2927,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "ROLB",
       "number": 42,
-      "news_updated": 1795136704300
+      "news_updated": 1795291259286
     },
     "13295": {
       "full_name": "Behren Morton",
@@ -3486,7 +3486,7 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -3790,7 +3790,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 3,
@@ -4626,15 +4626,15 @@
         "OL"
       ],
       "team": "DET",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "active": true,
       "age": 27,
       "years_exp": 4,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 64,
-      "news_updated": 1794965747930
+      "news_updated": 1795309260197
     },
     "10940": {
       "full_name": "Nick Herbig",
@@ -4968,14 +4968,14 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 27,
       "years_exp": 3,
       "depth_chart_order": 3,
       "depth_chart_position": "RDE",
       "number": 93,
-      "news_updated": 1726417212901
+      "news_updated": 1795367407004
     },
     "11756": {
       "full_name": "Hunter Nourzad",
@@ -7051,7 +7051,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "OL",
       "number": 68,
       "news_updated": null
     },
@@ -7731,14 +7731,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 28,
       "years_exp": 7,
       "depth_chart_order": 1,
       "depth_chart_position": "RDE",
       "number": 91,
-      "news_updated": 1795287657448
+      "news_updated": 1795367406973
     },
     "8366": {
       "full_name": "Isaiah Graham-Mobley",
@@ -8034,7 +8034,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": null,
+      "team": "GB",
       "status": "Active",
       "injury_status": null,
       "active": true,
@@ -8043,7 +8043,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 22,
-      "news_updated": 1795142704208
+      "news_updated": 1795306259481
     },
     "2518": {
       "full_name": "Hayes Pullard",
@@ -8572,14 +8572,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 28,
       "years_exp": 5,
       "depth_chart_order": 2,
       "depth_chart_position": "FS",
       "number": 3,
-      "news_updated": 1795213250272
+      "news_updated": 1795368307053
     },
     "8931": {
       "full_name": "Josh Ali",
@@ -8959,7 +8959,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RDE",
       "number": 57,
-      "news_updated": 1793479226522
+      "news_updated": 1795334703780
     },
     "5021": {
       "full_name": "Lorenzo Carter",
@@ -9410,14 +9410,14 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 2,
-      "depth_chart_order": 3,
+      "depth_chart_order": 6,
       "depth_chart_position": "RB",
-      "number": 36,
-      "news_updated": 1794969348146
+      "number": 30,
+      "news_updated": 1795366208005
     },
     "12584": {
       "full_name": "Darien Porter",
@@ -9970,7 +9970,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "LWR",
       "number": 14,
-      "news_updated": 1795189808596
+      "news_updated": 1795327201760
     },
     "7274": {
       "full_name": "Tyler Simmons",
@@ -10724,7 +10724,7 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 27,
       "years_exp": 5,
@@ -13249,10 +13249,10 @@
       "active": true,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "number": 30,
-      "news_updated": 1793845840081
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
+      "number": 36,
+      "news_updated": 1795306259471
     },
     "3223": {
       "full_name": "Su'a Cravens",
@@ -13417,7 +13417,7 @@
         "DB"
       ],
       "team": "DAL",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "active": true,
       "age": 27,
@@ -13425,7 +13425,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "LCB",
       "number": 26,
-      "news_updated": 1795208761659
+      "news_updated": 1795305959358
     },
     "409": {
       "full_name": "King Dunlap",
@@ -14675,7 +14675,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 1,
-      "news_updated": 1795284057221
+      "news_updated": 1795334104182
     },
     "6496": {
       "full_name": "Cole Hedlund",
@@ -15727,7 +15727,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 2,
@@ -15765,7 +15765,7 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
@@ -17552,7 +17552,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -18199,7 +18199,7 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -18757,7 +18757,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 49,
-      "news_updated": 1794894342732
+      "news_updated": 1795335004529
     },
     "5808": {
       "full_name": "Connor Jessop",
@@ -20083,14 +20083,14 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 31,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "LDT",
       "number": 94,
-      "news_updated": 1795221351251
+      "news_updated": 1795378508469
     },
     "6176": {
       "full_name": "Cameron Smith",
@@ -20659,7 +20659,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RWR",
       "number": 17,
-      "news_updated": 1795212649805
+      "news_updated": 1795319101526
     },
     "6738": {
       "full_name": "Cedric Benson",
@@ -20749,8 +20749,8 @@
       "active": true,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LCB",
       "number": 34,
       "news_updated": 1778480106470
     },
@@ -21064,14 +21064,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 2,
       "depth_chart_order": 1,
       "depth_chart_position": "LCB",
       "number": 4,
-      "news_updated": 1795221051317
+      "news_updated": 1795377309111
     },
     "8929": {
       "full_name": "Nate Wieland",
@@ -21747,14 +21747,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_order": 6,
+      "depth_chart_order": 9,
       "depth_chart_position": "SWR",
       "number": 89,
-      "news_updated": 1795219850931
+      "news_updated": 1795377008336
     },
     "6214": {
       "full_name": "Quincy Williams",
@@ -22218,15 +22218,15 @@
         "DB"
       ],
       "team": "CAR",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "active": true,
       "age": 29,
       "years_exp": 7,
       "depth_chart_order": 1,
       "depth_chart_position": "LCB",
       "number": 2,
-      "news_updated": 1795203609596
+      "news_updated": 1795368907098
     },
     "6820": {
       "full_name": "Clyde Edwards-Helaire",
@@ -22352,7 +22352,7 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
@@ -22785,16 +22785,16 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "SF",
+      "team": null,
       "status": "Active",
       "injury_status": null,
       "active": true,
       "age": 33,
       "years_exp": 12,
-      "depth_chart_order": 6,
-      "depth_chart_position": "LWR",
+      "depth_chart_order": null,
+      "depth_chart_position": null,
       "number": 84,
-      "news_updated": 1794774930187
+      "news_updated": 1795304759139
     },
     "645": {
       "full_name": "Dwan Edwards",
@@ -23002,7 +23002,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 17,
-      "news_updated": 1795199409203
+      "news_updated": 1795364108071
     },
     "457": {
       "full_name": "Colin Cole",
@@ -24078,7 +24078,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 5,
@@ -25086,14 +25086,14 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
       "depth_chart_order": 2,
       "depth_chart_position": "RDT",
       "number": 55,
-      "news_updated": 1795223451142
+      "news_updated": 1795368007139
     },
     "1017": {
       "full_name": "Tom Johnson",
@@ -25521,7 +25521,7 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 3,
@@ -25823,14 +25823,14 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
       "depth_chart_order": 7,
       "depth_chart_position": "LWR",
       "number": 13,
-      "news_updated": 1792942807115
+      "news_updated": 1795365906677
     },
     "1650": {
       "full_name": "Cameron Marshall",
@@ -26534,7 +26534,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 26,
-      "news_updated": 1795106401150
+      "news_updated": 1795326002044
     },
     "5187": {
       "full_name": "Mike Hughes",
@@ -27383,14 +27383,14 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 5,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 11,
-      "news_updated": 1794763529231
+      "news_updated": 1795366206778
     },
     "2769": {
       "full_name": "Larry Pinkard",
@@ -28386,7 +28386,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -28403,14 +28403,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 2,
       "depth_chart_order": 1,
       "depth_chart_position": "SWR",
       "number": 15,
-      "news_updated": 1795282556867
+      "news_updated": 1795377609520
     },
     "11463": {
       "full_name": "Brock Martin",
@@ -29577,11 +29577,11 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "depth_chart_position": "RB",
       "number": 47,
       "news_updated": 1789521355303
@@ -30016,14 +30016,14 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 5,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 4,
-      "news_updated": 1794156619411
+      "news_updated": 1795378508472
     },
     "12422": {
       "full_name": "Shayne Simon",
@@ -30572,7 +30572,7 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": 2,
+      "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "number": 30,
       "news_updated": 1794844238195
@@ -32451,14 +32451,14 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 32,
       "years_exp": 7,
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "number": 14,
-      "news_updated": 1795241452423
+      "news_updated": 1795377908387
     },
     "11553": {
       "full_name": "Chad Cota",
@@ -33719,7 +33719,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "number": 34,
-      "news_updated": 1794619819792
+      "news_updated": 1795291557752
     },
     "7249": {
       "full_name": "Solomon Ajayi",
@@ -35306,7 +35306,7 @@
       "active": true,
       "age": 30,
       "years_exp": 7,
-      "depth_chart_order": 2,
+      "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 88,
       "news_updated": 1795279256436
@@ -36019,14 +36019,14 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 2,
       "depth_chart_order": 2,
       "depth_chart_position": "LCB",
       "number": 2,
-      "news_updated": 1793412917368
+      "news_updated": 1795368607513
     },
     "2497": {
       "full_name": "Randall Evans",
@@ -36273,10 +36273,10 @@
       "active": true,
       "age": 40,
       "years_exp": 18,
-      "depth_chart_order": 2,
+      "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 9,
-      "news_updated": 1795256454058
+      "news_updated": 1795360506093
     },
     "8113": {
       "full_name": "Player Invalid",
@@ -37470,7 +37470,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 27,
+      "age": 28,
       "years_exp": 3,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -38190,15 +38190,15 @@
         "DL"
       ],
       "team": "SF",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "active": true,
       "age": 24,
       "years_exp": 1,
       "depth_chart_order": 2,
       "depth_chart_position": "LDT",
       "number": 90,
-      "news_updated": 1795222851356
+      "news_updated": 1795307159635
     },
     "1305": {
       "full_name": "Patrick DiMarco",
@@ -38272,7 +38272,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "OL",
       "number": 67,
       "news_updated": 1785455725351
     },
@@ -39877,10 +39877,10 @@
       "active": true,
       "age": 28,
       "years_exp": 7,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "SS",
       "number": 30,
-      "news_updated": 1794119716744
+      "news_updated": 1795309260180
     },
     "2407": {
       "full_name": "Daryl Williams",
@@ -40232,7 +40232,7 @@
       "fantasy_positions": null,
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -40747,7 +40747,7 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 6,
@@ -40868,7 +40868,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
       "number": 31,
-      "news_updated": 1795049155625
+      "news_updated": 1795365607922
     },
     "1814": {
       "full_name": "Cyrus Kouandjio",
@@ -40983,7 +40983,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 9,
-      "news_updated": 1795215051653
+      "news_updated": 1795290657591
     },
     "484": {
       "full_name": "Steve Weatherford",
@@ -41166,7 +41166,7 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 4,
@@ -42730,7 +42730,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "number": 2,
-      "news_updated": 1794887741061
+      "news_updated": 1795328701914
     },
     "13468": {
       "full_name": "Chris McClellan",
@@ -43391,14 +43391,14 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 27,
       "years_exp": 3,
       "depth_chart_order": 1,
       "depth_chart_position": "ROLB",
       "number": 0,
-      "news_updated": 1795219251086
+      "news_updated": 1795368307052
     },
     "11657": {
       "full_name": "Tyler Guyton",
@@ -44043,7 +44043,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RWR",
       "number": 5,
-      "news_updated": 1795124103041
+      "news_updated": 1795323001269
     },
     "2516": {
       "full_name": "Cody Wichmann",
@@ -44233,7 +44233,7 @@
       "years_exp": 2,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 51,
+      "number": 50,
       "news_updated": 1793854841655
     },
     "13950": {
@@ -46509,7 +46509,7 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -47039,7 +47039,7 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 2,
@@ -47800,14 +47800,14 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 38,
       "years_exp": 14,
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "number": 11,
-      "news_updated": 1794182722861
+      "news_updated": 1795366807340
     },
     "5443": {
       "full_name": "Jeff Holland",
@@ -47938,7 +47938,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 47,
-      "news_updated": 1727912450565
+      "news_updated": 1795335004497
     },
     "3722": {
       "full_name": "Don Jackson",
@@ -47976,7 +47976,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "ROLB",
       "number": 98,
-      "news_updated": 1795053656520
+      "news_updated": 1795334703828
     },
     "3172": {
       "full_name": "DeForest Buckner",
@@ -48843,15 +48843,15 @@
         "WR"
       ],
       "team": "PHI",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "active": true,
       "age": 25,
       "years_exp": 3,
       "depth_chart_order": 6,
       "depth_chart_position": "RWR",
       "number": 13,
-      "news_updated": 1795213549935
+      "news_updated": 1795297558351
     },
     "7122": {
       "full_name": "Broderick Washington Jr.",
@@ -49226,7 +49226,7 @@
       "active": true,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_order": 5,
+      "depth_chart_order": 6,
       "depth_chart_position": "RB",
       "number": 24,
       "news_updated": 1792865458825
@@ -49911,14 +49911,14 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 31,
       "years_exp": 9,
       "depth_chart_order": 1,
       "depth_chart_position": "ROLB",
       "number": 91,
-      "news_updated": 1793743229519
+      "news_updated": 1795379409439
     },
     "12867": {
       "full_name": "Addison West",
@@ -50633,7 +50633,7 @@
       "depth_chart_order": 6,
       "depth_chart_position": "LWR",
       "number": 17,
-      "news_updated": 1795216850501
+      "news_updated": 1795358705516
     },
     "96": {
       "full_name": "Aaron Rodgers",
@@ -50709,7 +50709,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "SWR",
       "number": 19,
-      "news_updated": 1795255854102
+      "news_updated": 1795358405648
     },
     "476": {
       "full_name": "Rashad Johnson",
@@ -51256,10 +51256,10 @@
       "active": true,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RCB",
       "number": 15,
-      "news_updated": 1794696314478
+      "news_updated": 1795290058976
     },
     "5355": {
       "full_name": "Nick Sharga",
@@ -51744,14 +51744,14 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 31,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 6,
-      "news_updated": 1795279557982
+      "news_updated": 1795366806882
     },
     "4532": {
       "full_name": "Sojourn Shelton",
@@ -52581,14 +52581,14 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
       "number": 22,
-      "news_updated": 1795219850945
+      "news_updated": 1795378508508
     },
     "6749": {
       "full_name": "Jordan Holland",
@@ -53915,10 +53915,10 @@
       "active": true,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RB",
       "number": 35,
-      "news_updated": 1795287959269
+      "news_updated": 1795292457917
     },
     "5642": {
       "full_name": "Trayvon Henderson",
@@ -54350,14 +54350,14 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 29,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "ROLB",
       "number": 56,
-      "news_updated": 1780551607961
+      "news_updated": 1795377008323
     },
     "13885": {
       "full_name": "JonDarius Morgan",
@@ -54411,10 +54411,10 @@
       "active": true,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RB",
       "number": 35,
-      "news_updated": 1794880540341
+      "news_updated": 1795307759615
     },
     "55": {
       "full_name": "Visanthe Shiancoe",
@@ -54899,7 +54899,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -56305,7 +56305,7 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -56670,10 +56670,10 @@
       "active": true,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_order": 1,
+      "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 19,
-      "news_updated": 1795289457601
+      "news_updated": 1795293057963
     },
     "8272": {
       "full_name": "Channing Tindall",
@@ -58344,7 +58344,7 @@
       "active": true,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_order": 11,
+      "depth_chart_order": 10,
       "depth_chart_position": null,
       "number": 1,
       "news_updated": 1791081638912
@@ -59327,7 +59327,7 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 5,
@@ -59763,14 +59763,14 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 22,
       "years_exp": 1,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 71,
-      "news_updated": 1792633853389
+      "news_updated": 1795377608689
     },
     "4225": {
       "full_name": "Tanner Vallejo",
@@ -60811,7 +60811,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 0,
@@ -61041,14 +61041,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 28,
       "years_exp": 5,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 75,
-      "news_updated": 1784236833943
+      "news_updated": 1795380008604
     },
     "5766": {
       "full_name": "Sam Beal",
@@ -61505,7 +61505,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RWR",
       "number": 7,
-      "news_updated": 1795277756416
+      "news_updated": 1795361407099
     },
     "6263": {
       "full_name": "Trevor Wood",
@@ -61918,15 +61918,15 @@
         "WR"
       ],
       "team": "PIT",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_order": 8,
+      "depth_chart_order": 2,
       "depth_chart_position": "SWR",
       "number": 14,
-      "news_updated": 1795272655775
+      "news_updated": 1795366806886
     },
     "1606": {
       "full_name": "Jumal Rolle",
@@ -62905,14 +62905,14 @@
       ],
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 26,
       "years_exp": 4,
       "depth_chart_order": 3,
       "depth_chart_position": "RWR",
       "number": 13,
-      "news_updated": 1795279858448
+      "news_updated": 1795334104167
     },
     "8683": {
       "full_name": "Joey Blount",
@@ -63019,14 +63019,14 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 26,
       "years_exp": 5,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
       "number": 82,
-      "news_updated": 1795217750645
+      "news_updated": 1795366206766
     },
     "8656": {
       "full_name": "Tyshaun James",
@@ -63823,7 +63823,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 22,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -64449,14 +64449,14 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 22,
       "years_exp": 0,
       "depth_chart_order": 3,
       "depth_chart_position": "LWR",
       "number": 18,
-      "news_updated": 1795260654564
+      "news_updated": 1795379108247
     },
     "13560": {
       "full_name": "Uar Bernard",
@@ -64904,14 +64904,14 @@
       ],
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 28,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "RCB",
       "number": 2,
-      "news_updated": 1795279557971
+      "news_updated": 1795307459638
     },
     "6795": {
       "full_name": "Ross Blacklock",
@@ -65606,8 +65606,8 @@
       "fantasy_positions": [
         "OL"
       ],
-      "team": null,
-      "status": "Inactive",
+      "team": "LAR",
+      "status": "Active",
       "injury_status": null,
       "active": true,
       "age": 28,
@@ -66005,14 +66005,14 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 7,
       "depth_chart_order": 6,
       "depth_chart_position": "LWR",
       "number": 5,
-      "news_updated": 1794157219527
+      "news_updated": 1795378808450
     },
     "1300": {
       "full_name": "Kaelin Burnett",
@@ -66043,14 +66043,14 @@
       ],
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 24,
       "years_exp": 1,
       "depth_chart_order": 2,
       "depth_chart_position": "LILB",
       "number": 0,
-      "news_updated": 1795056356439
+      "news_updated": 1795378208380
     },
     "8252": {
       "full_name": "Travell Harris",
@@ -66710,14 +66710,14 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 29,
       "years_exp": 6,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 55,
-      "news_updated": 1795224351581
+      "news_updated": 1795368007094
     },
     "11346": {
       "full_name": "Zach Morton",
@@ -67380,10 +67380,10 @@
       "active": true,
       "age": 27,
       "years_exp": 2,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 6,
+      "depth_chart_position": "RB",
       "number": 25,
-      "news_updated": 1794283245358
+      "news_updated": 1795323901407
     },
     "6465": {
       "full_name": "Thomas Ives",
@@ -68289,14 +68289,14 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 0,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 16,
-      "news_updated": 1794763829454
+      "news_updated": 1795367406988
     },
     "7069": {
       "full_name": "Alohi Gilman",
@@ -68346,14 +68346,14 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 31,
       "years_exp": 7,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 16,
-      "news_updated": 1794864938646
+      "news_updated": 1795368007107
     },
     "12224": {
       "full_name": "David White",
@@ -68752,7 +68752,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "LWR",
       "number": 5,
-      "news_updated": 1795255554212
+      "news_updated": 1795370707586
     },
     "6682": {
       "full_name": "Kareem Orr",
@@ -69661,7 +69661,7 @@
       "active": true,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_order": 5,
+      "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "number": 36,
       "news_updated": 1795016752588
@@ -70652,7 +70652,7 @@
       "depth_chart_order": 3,
       "depth_chart_position": "LCB",
       "number": 29,
-      "news_updated": 1794435328315
+      "news_updated": 1795335304023
     },
     "7998": {
       "full_name": "Riley Cole",
@@ -70721,7 +70721,7 @@
       ],
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 3,
@@ -71011,7 +71011,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "NB",
       "number": 22,
-      "news_updated": 1795054256389
+      "news_updated": 1795367707079
     },
     "2988": {
       "full_name": "Tevin Mitchel",
@@ -71160,10 +71160,10 @@
       "active": true,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LCB",
       "number": 27,
-      "news_updated": 1792453532793
+      "news_updated": 1795297259850
     },
     "2700": {
       "full_name": "Levi Norwood",
@@ -71386,14 +71386,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 1,
       "depth_chart_order": 1,
       "depth_chart_position": "LDE",
       "number": 98,
-      "news_updated": 1791506147360
+      "news_updated": 1795367407002
     },
     "12365": {
       "full_name": "Jordan Strachan",
@@ -71731,7 +71731,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
@@ -72149,7 +72149,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -72166,7 +72166,7 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -72602,7 +72602,7 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 29,
       "years_exp": 7,
@@ -73554,7 +73554,7 @@
       "years_exp": 4,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 47,
+      "number": 56,
       "news_updated": 1794468333060
     },
     "672": {
@@ -74375,7 +74375,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RILB",
       "number": 44,
-      "news_updated": 1794762329043
+      "news_updated": 1795308059840
     },
     "12569": {
       "full_name": "Kelvin Banks Jr.",
@@ -75245,14 +75245,14 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "number": 18,
-      "news_updated": 1793055911735
+      "news_updated": 1795365906623
     },
     "11400": {
       "full_name": "Ezekiel Vandenburgh",
@@ -75936,7 +75936,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 1,
-      "news_updated": 1794933044834
+      "news_updated": 1795329002120
     },
     "7687": {
       "full_name": "Nahshon Wright",
@@ -76371,7 +76371,7 @@
       "active": true,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_order": 3,
+      "depth_chart_order": 4,
       "depth_chart_position": "LWR",
       "number": 13,
       "news_updated": 1794878141501
@@ -77259,15 +77259,15 @@
         "WR"
       ],
       "team": "LAR",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "active": true,
       "age": 25,
       "years_exp": 3,
       "depth_chart_order": 8,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": null,
       "number": 12,
-      "news_updated": 1795270555550
+      "news_updated": 1795352104788
     },
     "106": {
       "full_name": "Jo-Lonn Dunbar",
@@ -77628,7 +77628,7 @@
       "depth_chart_order": 6,
       "depth_chart_position": "SWR",
       "number": 80,
-      "news_updated": 1795124404262
+      "news_updated": 1795334104478
     },
     "12177": {
       "full_name": "Michael Bertoia",
@@ -78761,7 +78761,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "OL",
       "number": 50,
       "news_updated": null
     },
@@ -78970,7 +78970,7 @@
       "active": true,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_order": 3,
+      "depth_chart_order": 2,
       "depth_chart_position": "TE",
       "number": 83,
       "news_updated": 1794363621110
@@ -80245,7 +80245,7 @@
       "active": true,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_order": 12,
+      "depth_chart_order": 11,
       "depth_chart_position": "SWR",
       "number": 7,
       "news_updated": 1795038954646
@@ -80960,15 +80960,15 @@
         "RB"
       ],
       "team": "PHI",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "active": true,
       "age": 24,
       "years_exp": 2,
-      "depth_chart_order": 5,
+      "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 28,
-      "news_updated": 1795227651145
+      "news_updated": 1795368607096
     },
     "12540": {
       "full_name": "Chimere Dike",
@@ -80987,7 +80987,7 @@
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
       "number": 17,
-      "news_updated": 1794892841668
+      "news_updated": 1795293358322
     },
     "2622": {
       "full_name": "Warren Herring",
@@ -81215,7 +81215,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RCB",
       "number": 2,
-      "news_updated": 1794900343287
+      "news_updated": 1795308059839
     },
     "3978": {
       "full_name": "Jacob Huesman",
@@ -81650,10 +81650,10 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "MLB",
       "number": 51,
-      "news_updated": 1794733217583
+      "news_updated": 1795301160406
     },
     "6699": {
       "full_name": "Gunner Olszewski",
@@ -85147,7 +85147,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -86063,7 +86063,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 20,
-      "news_updated": 1795210851138
+      "news_updated": 1795291557785
     },
     "12714": {
       "full_name": "Bilhal Kone",
@@ -86557,7 +86557,7 @@
       "years_exp": 3,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 51,
+      "number": 50,
       "news_updated": 1793769632898
     },
     "11790": {
@@ -86949,7 +86949,7 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 33,
       "years_exp": 10,
@@ -87711,7 +87711,7 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 2,
@@ -87732,7 +87732,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 26,
+      "age": 27,
       "years_exp": 4,
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
@@ -88173,7 +88173,7 @@
       "depth_chart_order": 9,
       "depth_chart_position": "LWR",
       "number": 14,
-      "news_updated": 1794420327664
+      "news_updated": 1795355106431
     },
     "621": {
       "full_name": "Sam Bradford",
@@ -89139,14 +89139,14 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 2,
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "number": 18,
-      "news_updated": 1794874539868
+      "news_updated": 1795365607368
     },
     "7754": {
       "full_name": "Marquiss Spencer",
@@ -91468,7 +91468,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 1,
-      "news_updated": 1794332450057
+      "news_updated": 1795320600851
     },
     "1225": {
       "full_name": "LaMichael James",
@@ -91580,7 +91580,7 @@
       "active": true,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "depth_chart_position": "LWR",
       "number": 83,
       "news_updated": 1795013752250
@@ -91660,7 +91660,7 @@
       "depth_chart_order": 7,
       "depth_chart_position": "RB",
       "number": 22,
-      "news_updated": 1795288857394
+      "news_updated": 1795334104199
     },
     "12448": {
       "full_name": "Camron Peterson",
@@ -93772,7 +93772,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 18,
-      "news_updated": 1794848737269
+      "news_updated": 1795289757582
     },
     "11057": {
       "full_name": "Duplicate Player",
@@ -94374,7 +94374,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RWR",
       "number": 88,
-      "news_updated": 1794888640611
+      "news_updated": 1795325101466
     },
     "6271": {
       "full_name": "Olamide Zaccheaus",
@@ -96544,7 +96544,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 24,
-      "news_updated": 1795210851164
+      "news_updated": 1795294257990
     },
     "10933": {
       "full_name": "DeMarvion Overshown",
@@ -96712,7 +96712,7 @@
       "active": true,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_order": 4,
+      "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "number": 43,
       "news_updated": 1795050056064
@@ -97237,14 +97237,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 29,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "LWR",
       "number": 2,
-      "news_updated": 1795275656060
+      "news_updated": 1795376708092
     },
     "12460": {
       "full_name": "Antwane Wells Jr.",
@@ -97652,15 +97652,15 @@
         "DB"
       ],
       "team": "LAC",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "active": true,
       "age": 24,
       "years_exp": 0,
       "depth_chart_order": 3,
       "depth_chart_position": "LCB",
       "number": 24,
-      "news_updated": 1795224951361
+      "news_updated": 1795308959727
     },
     "12181": {
       "full_name": "Peter Bowden",
@@ -99453,14 +99453,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 25,
       "years_exp": 4,
       "depth_chart_order": 1,
       "depth_chart_position": "RCB",
       "number": 18,
-      "news_updated": 1792019709306
+      "news_updated": 1795376408361
     },
     "1689": {
       "full_name": "Adam Thielen",
@@ -99984,15 +99984,15 @@
         "LB"
       ],
       "team": "CAR",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "active": true,
       "age": 28,
       "years_exp": 6,
       "depth_chart_order": 2,
       "depth_chart_position": "FS",
       "number": 27,
-      "news_updated": 1795222851381
+      "news_updated": 1795309260203
     },
     "465": {
       "full_name": "Brandon Pettigrew",
@@ -100617,7 +100617,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RDE",
       "number": 98,
-      "news_updated": 1792182343174
+      "news_updated": 1795365607372
     },
     "8292": {
       "full_name": "Darrian Beavers",
@@ -100915,7 +100915,7 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -101547,7 +101547,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "LDT",
       "number": 90,
-      "news_updated": 1794587730765
+      "news_updated": 1795356906083
     },
     "4497": {
       "full_name": "Tony Stevens",
@@ -101956,7 +101956,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 3,
@@ -103851,7 +103851,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 5,
@@ -104042,14 +104042,14 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 5,
       "depth_chart_order": 1,
       "depth_chart_position": "RILB",
       "number": 20,
-      "news_updated": 1795212350437
+      "news_updated": 1795366206759
     },
     "8614": {
       "full_name": "Kevin Atkins",
@@ -104213,7 +104213,7 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 1,
@@ -105295,14 +105295,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 21,
       "years_exp": 0,
       "depth_chart_order": 1,
       "depth_chart_position": "RWR",
       "number": 14,
-      "news_updated": 1795280756603
+      "news_updated": 1795366506733
     },
     "2265": {
       "full_name": "Shayne Skov",
@@ -105454,7 +105454,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 88,
-      "news_updated": 1794860438182
+      "news_updated": 1795328101978
     },
     "8805": {
       "full_name": "Mika Tafua",
@@ -106062,7 +106062,7 @@
       "years_exp": 4,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 72,
+      "number": 79,
       "news_updated": 1788495617655
     },
     "8911": {
@@ -107050,7 +107050,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "SS",
       "number": 34,
-      "news_updated": 1795214750449
+      "news_updated": 1795335304015
     },
     "7621": {
       "full_name": "J.T. Ibe",
@@ -107349,7 +107349,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 22,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -108201,7 +108201,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 28,
+      "age": 29,
       "years_exp": 6,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
@@ -108602,7 +108602,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -109286,14 +109286,14 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 1,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 18,
-      "news_updated": 1794788431958
+      "news_updated": 1795366507756
     },
     "7831": {
       "full_name": "Brenden Jaimes",
@@ -110207,7 +110207,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 33,
-      "news_updated": 1795277756417
+      "news_updated": 1795366206640
     },
     "3585": {
       "full_name": "Isiah Cage",
@@ -110584,7 +110584,7 @@
       "active": true,
       "age": 22,
       "years_exp": 1,
-      "depth_chart_order": 2,
+      "depth_chart_order": 5,
       "depth_chart_position": "RB",
       "number": 30,
       "news_updated": 1794963647762
@@ -112129,7 +112129,7 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 0,
@@ -112231,7 +112231,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "LWR",
       "number": 1,
-      "news_updated": 1795193109317
+      "news_updated": 1795290057627
     },
     "6658": {
       "full_name": "Austin Maloata",
@@ -113423,7 +113423,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -113870,7 +113870,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 9,
-      "news_updated": 1795210549771
+      "news_updated": 1795315860300
     },
     "1274": {
       "full_name": "Gerell Robinson",
@@ -114420,8 +114420,8 @@
       "active": true,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 2,
+      "depth_chart_position": "LDE",
       "number": 96,
       "news_updated": 1769195122678
     },
@@ -115163,7 +115163,7 @@
       "years_exp": 7,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 8,
+      "number": 16,
       "news_updated": 1794894342744
     },
     "5357": {
@@ -115221,7 +115221,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "LWR",
       "number": 5,
-      "news_updated": 1794843936789
+      "news_updated": 1795359305610
     },
     "6061": {
       "full_name": "Drew Lewis",
@@ -115354,7 +115354,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "LCB",
       "number": 23,
-      "news_updated": 1795284359206
+      "news_updated": 1795306859701
     },
     "5457": {
       "full_name": "Christian LaCouture",
@@ -117334,7 +117334,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "ROLB",
       "number": 1,
-      "news_updated": 1795282556923
+      "news_updated": 1795359305608
     },
     "11777": {
       "full_name": "Jaylon Carlies",
@@ -118812,7 +118812,7 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 4,
@@ -119078,14 +119078,14 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 22,
       "years_exp": 1,
       "depth_chart_order": 1,
       "depth_chart_position": "RCB",
       "number": 25,
-      "news_updated": 1793934948699
+      "news_updated": 1795376708063
     },
     "2578": {
       "full_name": "John Harris",
@@ -120733,7 +120733,7 @@
       "active": true,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_order": 5,
+      "depth_chart_order": 4,
       "depth_chart_position": "TE",
       "number": 81,
       "news_updated": 1774205754255
@@ -121276,7 +121276,7 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
@@ -122575,7 +122575,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 25,
-      "news_updated": 1795047355760
+      "news_updated": 1795334703794
     },
     "11265": {
       "full_name": "Robert Haskins",
@@ -123445,14 +123445,14 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 31,
       "years_exp": 8,
       "depth_chart_order": 3,
       "depth_chart_position": "LDT",
       "number": 93,
-      "news_updated": 1771290027832
+      "news_updated": 1795378208379
     },
     "7747": {
       "full_name": "Joe Sculthorpe",
@@ -123867,10 +123867,10 @@
       "active": true,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "TE",
       "number": 87,
-      "news_updated": 1794966647969
+      "news_updated": 1795306559432
     },
     "14032": {
       "full_name": "Xavier Holmes",
@@ -124858,9 +124858,9 @@
       "active": true,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "number": 53,
+      "depth_chart_order": 4,
+      "depth_chart_position": "RDT",
+      "number": 72,
       "news_updated": 1789500962042
     },
     "7491": {
@@ -126223,8 +126223,8 @@
       "active": true,
       "age": 29,
       "years_exp": 2,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LDE",
       "number": 65,
       "news_updated": null
     },
@@ -127975,7 +127975,7 @@
       ],
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 2,
@@ -128990,10 +128990,10 @@
       "active": true,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
       "number": 39,
-      "news_updated": 1795280156959
+      "news_updated": 1795292157657
     },
     "7514": {
       "full_name": "Michael Pinckney",
@@ -129880,14 +129880,14 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 1,
       "depth_chart_order": 5,
       "depth_chart_position": "LWR",
       "number": 10,
-      "news_updated": 1795052456379
+      "news_updated": 1795378508501
     },
     "2913": {
       "full_name": "Gavin Lutman",
@@ -132643,7 +132643,7 @@
       "depth_chart_order": null,
       "depth_chart_position": "DL",
       "number": 92,
-      "news_updated": 1786946721985
+      "news_updated": 1795357805467
     },
     "12919": {
       "full_name": "Elijah Simmons",
@@ -133212,7 +133212,7 @@
       "active": true,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_order": 3,
+      "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "number": 9,
       "news_updated": 1795205762012
@@ -133360,14 +133360,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "active": true,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_order": 1,
+      "depth_chart_order": 4,
       "depth_chart_position": "TE",
       "number": 86,
-      "news_updated": 1795200910927
+      "news_updated": 1795365607931
     },
     "12275": {
       "full_name": "Donny Ventrelli",
@@ -133512,7 +133512,7 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -133615,7 +133615,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 48,
-      "news_updated": 1794733217623
+      "news_updated": 1795335304038
     },
     "2977": {
       "full_name": "Collin Rahrig",
@@ -134212,7 +134212,7 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -134371,7 +134371,7 @@
       "years_exp": 3,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 58,
+      "number": 59,
       "news_updated": 1792520439197
     },
     "13720": {
@@ -135266,8 +135266,8 @@
       "active": true,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "ROLB",
       "number": 96,
       "news_updated": 1794115516587
     },
@@ -135515,7 +135515,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
       "number": 0,
-      "news_updated": 1794587130700
+      "news_updated": 1795356906074
     },
     "2972": {
       "full_name": "Darrian Miller",
@@ -136159,7 +136159,7 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 2,
@@ -136603,7 +136603,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "TE",
       "number": 88,
-      "news_updated": 1792722315610
+      "news_updated": 1795356605855
     },
     "4885": {
       "full_name": "Brian Gutekunst",
@@ -137506,14 +137506,14 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 26,
       "years_exp": 3,
       "depth_chart_order": 1,
       "depth_chart_position": "LILB",
       "number": 53,
-      "news_updated": 1794171621529
+      "news_updated": 1795380008626
     },
     "13115": {
       "full_name": "Will Brooks",
@@ -137979,7 +137979,7 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
@@ -138596,7 +138596,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "LWR",
       "number": 0,
-      "news_updated": 1795218050390
+      "news_updated": 1795358105461
     },
     "8437": {
       "full_name": "Thomas Hennigan",
@@ -139274,10 +139274,10 @@
       "active": true,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "LWR",
       "number": 7,
-      "news_updated": 1794878740187
+      "news_updated": 1795306859712
     },
     "6999": {
       "full_name": "Benito Jones",
@@ -139315,7 +139315,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 34,
-      "news_updated": 1794876940273
+      "news_updated": 1795324801529
     },
     "13052": {
       "full_name": "Eli Cox",
@@ -139332,7 +139332,7 @@
       "age": 26,
       "years_exp": 1,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "OL",
       "number": 66,
       "news_updated": 1753567860222
     },
@@ -139572,14 +139572,14 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 27,
       "years_exp": 4,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 64,
-      "news_updated": 1795224051553
+      "news_updated": 1795377008370
     },
     "4997": {
       "full_name": "Mark Walton",
@@ -139785,7 +139785,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -141133,14 +141133,14 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 29,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "SS",
       "number": 25,
-      "news_updated": 1795212950255
+      "news_updated": 1795366807353
     },
     "7958": {
       "full_name": "Greg Eiland",
@@ -141370,7 +141370,7 @@
       "depth_chart_order": 3,
       "depth_chart_position": "SWR",
       "number": 13,
-      "news_updated": 1795190708621
+      "news_updated": 1795318800832
     },
     "6257": {
       "full_name": "Roderic Teamer",
@@ -142064,14 +142064,14 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 2,
       "depth_chart_order": 2,
       "depth_chart_position": "RCB",
       "number": 32,
-      "news_updated": 1795224651348
+      "news_updated": 1795368907097
     },
     "1401": {
       "full_name": "Martin Wallace",
@@ -142426,14 +142426,14 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 27,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "LILB",
       "number": 6,
-      "news_updated": 1795212950241
+      "news_updated": 1795367106876
     },
     "8867": {
       "full_name": "Curtis Blackwell",
@@ -142940,7 +142940,7 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -143246,7 +143246,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 25,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -144098,7 +144098,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -144655,7 +144655,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 10,
-      "news_updated": 1794938745422
+      "news_updated": 1795307459367
     },
     "2449": {
       "full_name": "Stefon Diggs",
@@ -144788,7 +144788,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 3,
-      "news_updated": 1795217450307
+      "news_updated": 1795366506733
     },
     "12217": {
       "full_name": "Shawn Bowman",
@@ -145605,7 +145605,7 @@
       "active": true,
       "age": 29,
       "years_exp": 5,
-      "depth_chart_order": 3,
+      "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "number": 15,
       "news_updated": 1794444029351
@@ -147451,10 +147451,10 @@
       "active": true,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_order": 2,
+      "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "number": 2,
-      "news_updated": 1795287959284
+      "news_updated": 1795293358322
     },
     "11570": {
       "full_name": "Rasheen Ali",
@@ -152033,7 +152033,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_order": 3,
       "depth_chart_position": "RWR",
@@ -152305,7 +152305,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "number": 25,
-      "news_updated": 1795238752220
+      "news_updated": 1795298158583
     },
     "13710": {
       "full_name": "Gabriel Plascencia",
@@ -152776,15 +152776,15 @@
         "OT"
       ],
       "team": "LAC",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "active": true,
       "age": 30,
       "years_exp": 7,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 79,
-      "news_updated": 1794873039559
+      "news_updated": 1795378208410
     },
     "207": {
       "full_name": "Donald Penn",
@@ -152968,7 +152968,7 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -153560,7 +153560,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -153617,14 +153617,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 28,
       "years_exp": 6,
       "depth_chart_order": 2,
       "depth_chart_position": "FS",
       "number": 38,
-      "news_updated": 1788235215843
+      "news_updated": 1795379708498
     },
     "3748": {
       "full_name": "Pace Murphy",
@@ -153864,7 +153864,7 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 2,
@@ -153910,7 +153910,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "QB",
       "number": 10,
-      "news_updated": 1795218350727
+      "news_updated": 1795367106887
     },
     "12737": {
       "full_name": "Jay Toia",
@@ -154360,7 +154360,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 4,
@@ -155146,7 +155146,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 84,
-      "news_updated": 1794887740635
+      "news_updated": 1795293057964
     },
     "3305": {
       "full_name": "Caleb Benenoch",
@@ -155578,14 +155578,14 @@
       ],
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 33,
       "years_exp": 10,
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 63,
-      "news_updated": 1795141205171
+      "news_updated": 1795309260245
     },
     "2328": {
       "full_name": "Shane Ray",
@@ -156059,7 +156059,7 @@
       "years_exp": 10,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 53,
+      "number": 52,
       "news_updated": 1792541147495
     },
     "12210": {
@@ -156076,7 +156076,7 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": 9,
+      "depth_chart_order": 8,
       "depth_chart_position": null,
       "number": 85,
       "news_updated": 1785977142507
@@ -156091,7 +156091,7 @@
       ],
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 0,
@@ -157541,7 +157541,7 @@
       "active": true,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_order": 7,
+      "depth_chart_order": 6,
       "depth_chart_position": "SWR",
       "number": 3,
       "news_updated": 1795107903146
@@ -158018,7 +158018,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "SWR",
       "number": 18,
-      "news_updated": 1795238752227
+      "news_updated": 1795359605689
     },
     "7832": {
       "full_name": "Daviyon Nixon",
@@ -158563,7 +158563,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 44,
-      "news_updated": 1795124104323
+      "news_updated": 1795315860299
     },
     "3621": {
       "full_name": "Jordan Williams-Lambert",
@@ -160761,14 +160761,14 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 22,
       "years_exp": 0,
       "depth_chart_order": 4,
       "depth_chart_position": "SWR",
       "number": 13,
-      "news_updated": 1795207860441
+      "news_updated": 1795366206795
     },
     "2319": {
       "full_name": "DeVante Parker",
@@ -161797,7 +161797,7 @@
       "years_exp": 3,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 5,
+      "number": 31,
       "news_updated": 1794419128195
     },
     "7670": {
@@ -161814,7 +161814,7 @@
       "active": true,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_order": 8,
+      "depth_chart_order": 7,
       "depth_chart_position": "RWR",
       "number": 5,
       "news_updated": 1794376823461
@@ -162304,7 +162304,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
@@ -163689,14 +163689,14 @@
       ],
       "team": "LAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 26,
       "years_exp": 4,
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 23,
-      "news_updated": 1794812134954
+      "news_updated": 1795301760416
     },
     "PHI": {
       "full_name": null,
@@ -163879,14 +163879,14 @@
       ],
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 26,
       "years_exp": 3,
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
       "number": 20,
-      "news_updated": 1795136405840
+      "news_updated": 1795307459637
     },
     "8455": {
       "full_name": "Joshua Ezeudu",
@@ -165039,7 +165039,7 @@
       "active": true,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_order": 7,
+      "depth_chart_order": 6,
       "depth_chart_position": "RWR",
       "number": 82,
       "news_updated": 1791681009072
@@ -165583,14 +165583,14 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 2,
       "depth_chart_order": 3,
       "depth_chart_position": "RILB",
       "number": 49,
-      "news_updated": 1795215650579
+      "news_updated": 1795376708091
     },
     "12456": {
       "full_name": "Player Invalid",
@@ -166190,14 +166190,14 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 2,
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 33,
-      "news_updated": 1795275056144
+      "news_updated": 1795366807824
     },
     "11483": {
       "full_name": "Ellis Merriweather",
@@ -166480,7 +166480,7 @@
       "active": true,
       "age": 28,
       "years_exp": 4,
-      "depth_chart_order": 5,
+      "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "number": 32,
       "news_updated": 1787697641245
@@ -166611,7 +166611,7 @@
       "active": true,
       "age": 30,
       "years_exp": 7,
-      "depth_chart_order": 3,
+      "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "number": 15,
       "news_updated": 1795011952083
@@ -167915,7 +167915,7 @@
       "fantasy_positions": [
         "LS"
       ],
-      "team": "LAR",
+      "team": null,
       "status": "Active",
       "injury_status": null,
       "active": true,
@@ -168431,7 +168431,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -169024,7 +169024,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 30,
-      "news_updated": 1795189208260
+      "news_updated": 1795324201261
     },
     "5352": {
       "full_name": "Ryan Green",
@@ -170103,14 +170103,14 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
       "depth_chart_order": 3,
       "depth_chart_position": "QB",
       "number": 19,
-      "news_updated": 1794762029003
+      "news_updated": 1795366507752
     },
     "5093": {
       "full_name": "Sam Jones",
@@ -171422,7 +171422,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RWR",
       "number": 14,
-      "news_updated": 1795025753658
+      "news_updated": 1795367707077
     },
     "13942": {
       "full_name": "Jaren Kump",
@@ -172174,7 +172174,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 3,
@@ -172269,7 +172269,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 2,
@@ -172533,14 +172533,14 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 2,
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "depth_chart_position": "TE",
       "number": 0,
-      "news_updated": 1794763229212
+      "news_updated": 1795368607514
     },
     "4475": {
       "full_name": "Sefo Liufau",
@@ -174276,14 +174276,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_order": 3,
+      "depth_chart_order": 6,
       "depth_chart_position": "RB",
       "number": 32,
-      "news_updated": 1794761128913
+      "news_updated": 1795366807325
     },
     "2752": {
       "full_name": "Trent Steelman",
@@ -174767,7 +174767,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 4,
@@ -175057,7 +175057,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "OL",
       "number": 72,
       "news_updated": null
     },
@@ -175851,15 +175851,15 @@
         "LB"
       ],
       "team": "PHI",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "active": true,
       "age": 29,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "LILB",
       "number": 53,
-      "news_updated": 1795220450970
+      "news_updated": 1795306859688
     },
     "326": {
       "full_name": "Darren McFadden",
@@ -176011,7 +176011,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RWR",
       "number": 15,
-      "news_updated": 1795276856228
+      "news_updated": 1795357205333
     },
     "4767": {
       "full_name": "Dane Evans",
@@ -176193,7 +176193,7 @@
       ],
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 31,
       "years_exp": 10,
@@ -176822,7 +176822,7 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 1,
@@ -176883,7 +176883,7 @@
       "active": true,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_order": 2,
+      "depth_chart_order": 3,
       "depth_chart_position": "RWR",
       "number": 17,
       "news_updated": 1795225251117
@@ -177207,10 +177207,10 @@
       "active": true,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LOLB",
       "number": 57,
-      "news_updated": 1791330601846
+      "news_updated": 1795291259232
     },
     "11430": {
       "full_name": "Jeremy Banks",
@@ -177640,14 +177640,14 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 30,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "RDE",
       "number": 97,
-      "news_updated": 1795224051556
+      "news_updated": 1795376708090
     },
     "11763": {
       "full_name": "Kitan Oladapo",
@@ -178862,10 +178862,10 @@
       "active": true,
       "age": 26,
       "years_exp": 1,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RILB",
       "number": 47,
-      "news_updated": 1793056812008
+      "news_updated": 1795301160480
     },
     "12938": {
       "full_name": "Jackson Meeks",
@@ -180292,7 +180292,7 @@
       "depth_chart_order": 3,
       "depth_chart_position": "LCB",
       "number": 30,
-      "news_updated": 1763865325914
+      "news_updated": 1795374908095
     },
     "11130": {
       "full_name": "Pokey Wilson",
@@ -180669,7 +180669,7 @@
       "active": true,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_order": 9,
+      "depth_chart_order": 8,
       "depth_chart_position": null,
       "number": 11,
       "news_updated": 1795027555125
@@ -181014,7 +181014,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "SWR",
       "number": 4,
-      "news_updated": 1794921045092
+      "news_updated": 1795299658585
     },
     "4512": {
       "full_name": "Francis Kallon",
@@ -182203,7 +182203,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": null,
+      "age": 26,
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
@@ -182323,7 +182323,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 82,
-      "news_updated": 1795139104308
+      "news_updated": 1795335004515
     },
     "6135": {
       "full_name": "D'Andre Walker",
@@ -182449,7 +182449,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 3,
@@ -182850,10 +182850,10 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "LCB",
       "number": 38,
-      "news_updated": 1794120316623
+      "news_updated": 1795301160740
     },
     "12667": {
       "full_name": "Smael Mondon Jr.",
@@ -182865,14 +182865,14 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 1,
       "depth_chart_order": 2,
       "depth_chart_position": "LILB",
       "number": 42,
-      "news_updated": 1753828826082
+      "news_updated": 1795365906651
     },
     "13509": {
       "full_name": "Lorenzo Styles",
@@ -183385,7 +183385,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 20,
-      "news_updated": 1794937845302
+      "news_updated": 1795317600629
     },
     "11168": {
       "full_name": "Xavier Smith",
@@ -184043,7 +184043,7 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 1,
@@ -184138,14 +184138,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 1,
       "depth_chart_order": 3,
       "depth_chart_position": "RCB",
       "number": 37,
-      "news_updated": 1795225551774
+      "news_updated": 1795377309096
     },
     "1735": {
       "full_name": "Andy Mulumba",
@@ -185266,7 +185266,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "K",
       "number": 6,
-      "news_updated": 1794883541142
+      "news_updated": 1795294257992
     },
     "1368": {
       "full_name": "Oday Aboushi",
@@ -185361,7 +185361,7 @@
       "years_exp": 4,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 46,
+      "number": 10,
       "news_updated": 1794894342702
     },
     "13122": {
@@ -185378,10 +185378,10 @@
       "active": true,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "TE",
       "number": 84,
-      "news_updated": 1794881740653
+      "news_updated": 1795306859685
     },
     "8512": {
       "full_name": "Andre Anthony",
@@ -185419,7 +185419,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "SWR",
       "number": 23,
-      "news_updated": 1794900043496
+      "news_updated": 1795307759625
     },
     "1285": {
       "full_name": "Josh Kaddu",
@@ -185774,7 +185774,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 26,
       "years_exp": 5,
@@ -185838,7 +185838,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "LWR",
       "number": 14,
-      "news_updated": 1794942645644
+      "news_updated": 1795319701407
     },
     "1893": {
       "full_name": "Trey Hopkins",
@@ -188122,7 +188122,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 21,
       "years_exp": 0,
@@ -188821,14 +188821,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 21,
       "years_exp": 0,
       "depth_chart_order": 1,
       "depth_chart_position": "LOLB",
       "number": 53,
-      "news_updated": 1795215350519
+      "news_updated": 1795366206779
     },
     "3348": {
       "full_name": "Kolby Listenbee",
@@ -188923,7 +188923,7 @@
       "years_exp": 6,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 46,
+      "number": 83,
       "news_updated": 1794856537981
     },
     "6483": {
@@ -189036,9 +189036,9 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "number": 49,
+      "depth_chart_order": 3,
+      "depth_chart_position": "LILB",
+      "number": 45,
       "news_updated": 1791332103044
     },
     "3166": {
@@ -189334,14 +189334,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_order": 6,
+      "depth_chart_order": 9,
       "depth_chart_position": "SWR",
       "number": 13,
-      "news_updated": 1792217140240
+      "news_updated": 1795366807324
     },
     "6644": {
       "full_name": "Curtis Akins",
@@ -189391,14 +189391,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 27,
       "years_exp": 4,
       "depth_chart_order": 3,
       "depth_chart_position": "TE",
       "number": 88,
-      "news_updated": 1795215651734
+      "news_updated": 1795377008322
     },
     "5969": {
       "full_name": "Chuma Edoga",
@@ -189756,10 +189756,10 @@
       "active": true,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 5,
+      "depth_chart_position": "SWR",
       "number": 87,
-      "news_updated": 1791250539901
+      "news_updated": 1795291259220
     },
     "4089": {
       "full_name": "Gerald Everett",
@@ -190442,7 +190442,7 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "number": 15,
-      "news_updated": 1795221651253
+      "news_updated": 1795335304055
     },
     "11536": {
       "full_name": "Milton Wright",
@@ -191269,7 +191269,7 @@
       "fantasy_positions": null,
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
@@ -191752,7 +191752,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
       "number": 87,
-      "news_updated": 1795245352962
+      "news_updated": 1795378508517
     },
     "264": {
       "full_name": "Greg Jennings",
@@ -193515,14 +193515,14 @@
       ],
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 22,
       "years_exp": 1,
       "depth_chart_order": 2,
       "depth_chart_position": "RCB",
       "number": 21,
-      "news_updated": 1792626652119
+      "news_updated": 1795379108583
     },
     "12803": {
       "full_name": "Luke Grimm",
@@ -193684,14 +193684,14 @@
       ],
       "team": "KC",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 21,
       "years_exp": 0,
       "depth_chart_order": 2,
       "depth_chart_position": "LDT",
       "number": 99,
-      "news_updated": 1795054256372
+      "news_updated": 1795368007092
     },
     "6833": {
       "full_name": "Bryce Hall",
@@ -193726,10 +193726,10 @@
       "active": true,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "ROLB",
       "number": 39,
-      "news_updated": 1790217933179
+      "news_updated": 1795301160466
     },
     "5200": {
       "full_name": "Dee Liner",
@@ -194195,14 +194195,14 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 3,
       "depth_chart_order": 3,
       "depth_chart_position": "RB",
       "number": 23,
-      "news_updated": 1794360321002
+      "news_updated": 1795377608714
     },
     "4337": {
       "full_name": "Ethan Cooper",
@@ -195364,7 +195364,7 @@
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 66,
-      "news_updated": 1795141205171
+      "news_updated": 1795308359858
     },
     "5803": {
       "full_name": "Jacob Judd",
@@ -197369,9 +197369,9 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "P",
       "number": 31,
-      "news_updated": 1784787310475
+      "news_updated": 1795291259245
     },
     "13609": {
       "full_name": "Tristan Leigh",
@@ -198026,7 +198026,7 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 24,
       "years_exp": 2,
@@ -198083,7 +198083,7 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -198204,7 +198204,7 @@
       "years_exp": 3,
       "depth_chart_order": 5,
       "depth_chart_position": "SWR",
-      "number": 81,
+      "number": 88,
       "news_updated": 1794608418562
     },
     "11766": {
@@ -198217,7 +198217,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 2,
@@ -199036,7 +199036,7 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 1,
@@ -200122,7 +200122,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RDE",
       "number": 92,
-      "news_updated": 1795288858792
+      "news_updated": 1795308659805
     },
     "5641": {
       "full_name": "Chris Worley",
@@ -200476,14 +200476,14 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 28,
       "years_exp": 3,
       "depth_chart_order": 2,
       "depth_chart_position": "TE",
       "number": 86,
-      "news_updated": 1795214450518
+      "news_updated": 1795366206753
     },
     "7344": {
       "full_name": "Jonah Williams",
@@ -204132,7 +204132,7 @@
       "active": true,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_order": 4,
+      "depth_chart_order": 3,
       "depth_chart_position": "SWR",
       "number": 4,
       "news_updated": 1794930944789
@@ -205339,7 +205339,7 @@
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 67,
-      "news_updated": 1788219915591
+      "news_updated": 1795307459620
     },
     "11886": {
       "full_name": "Tulu Griffin",
@@ -206867,7 +206867,7 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
@@ -206966,10 +206966,10 @@
       "active": true,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 1,
+      "depth_chart_position": "K",
       "number": 38,
-      "news_updated": 1794961548742
+      "news_updated": 1795291259259
     },
     "1849": {
       "full_name": "Jace Amaro",
@@ -207604,14 +207604,14 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 34,
       "years_exp": 11,
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 88,
-      "news_updated": 1795226151101
+      "news_updated": 1795367406846
     },
     "2422": {
       "full_name": "Blake Bell",
@@ -207754,7 +207754,7 @@
       "status": "Active",
       "injury_status": null,
       "active": true,
-      "age": 26,
+      "age": 27,
       "years_exp": 5,
       "depth_chart_order": 1,
       "depth_chart_position": "RILB",
@@ -208435,14 +208435,14 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 25,
       "years_exp": 1,
       "depth_chart_order": 5,
       "depth_chart_position": "LWR",
       "number": 84,
-      "news_updated": 1794363021121
+      "news_updated": 1795377008338
     },
     "428": {
       "full_name": "Jasper Brinkley",
@@ -208931,14 +208931,14 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 30,
       "years_exp": 8,
       "depth_chart_order": 1,
       "depth_chart_position": "RCB",
       "number": 4,
-      "news_updated": 1795214750432
+      "news_updated": 1795367406985
     },
     "7260": {
       "full_name": "Jeremiah Dinson",
@@ -209293,14 +209293,14 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 1,
       "depth_chart_order": 1,
       "depth_chart_position": "SS",
       "number": 11,
-      "news_updated": 1795202109522
+      "news_updated": 1795367406976
     },
     "7894": {
       "full_name": "Lamont Wade",
@@ -209529,7 +209529,7 @@
       "depth_chart_order": 8,
       "depth_chart_position": "RWR",
       "number": 82,
-      "news_updated": 1795213850256
+      "news_updated": 1795334703813
     },
     "2873": {
       "full_name": "Derrick Wells",
@@ -210840,7 +210840,7 @@
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 70,
-      "news_updated": 1794685212156
+      "news_updated": 1795309260221
     },
     "11092": {
       "full_name": "B.T. Potter",
@@ -210909,14 +210909,14 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 27,
       "years_exp": 4,
       "depth_chart_order": 1,
       "depth_chart_position": "SS",
       "number": 29,
-      "news_updated": 1795288258849
+      "news_updated": 1795373707824
     },
     "3780": {
       "full_name": "Cedric O'Neal",
@@ -211184,7 +211184,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "FS",
       "number": 31,
-      "news_updated": 1795218950918
+      "news_updated": 1795367408692
     },
     "3280": {
       "full_name": "Tyler Ervin",
@@ -211637,7 +211637,7 @@
       "depth_chart_order": 4,
       "depth_chart_position": "RB",
       "number": 8,
-      "news_updated": 1795286157257
+      "news_updated": 1795371607325
     },
     "4086": {
       "full_name": "DeMarcus Walker",
@@ -212968,7 +212968,7 @@
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 46,
+      "number": 88,
       "news_updated": 1794382224270
     },
     "11411": {
@@ -213512,14 +213512,14 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_order": 4,
+      "depth_chart_order": 10,
       "depth_chart_position": "SWR",
       "number": 10,
-      "news_updated": 1787899857819
+      "news_updated": 1795368307041
     },
     "7157": {
       "full_name": "Josh Love",
@@ -213550,7 +213550,7 @@
       ],
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
@@ -213605,7 +213605,7 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 0,
@@ -213777,14 +213777,14 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 23,
       "years_exp": 2,
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 89,
-      "news_updated": 1795222850787
+      "news_updated": 1795378208224
     },
     "4908": {
       "full_name": "Steve Keim",
@@ -214519,7 +214519,7 @@
       ],
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 1,
@@ -214941,8 +214941,8 @@
       "active": true,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 4,
+      "depth_chart_position": "LCB",
       "number": 36,
       "news_updated": 1793727328040
     },
@@ -215571,7 +215571,7 @@
       "depth_chart_order": null,
       "depth_chart_position": "OL",
       "number": 73,
-      "news_updated": 1794622820445
+      "news_updated": 1795309559836
     },
     "12094": {
       "full_name": "Alex Johnson",
@@ -216667,14 +216667,14 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_order": 4,
+      "depth_chart_order": 3,
       "depth_chart_position": "TE",
       "number": 85,
-      "news_updated": 1795213250270
+      "news_updated": 1795366807354
     },
     "679": {
       "full_name": "Rex Grossman",
@@ -218342,7 +218342,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RDE",
       "number": 91,
-      "news_updated": 1792625452181
+      "news_updated": 1795307159634
     },
     "9756": {
       "full_name": "Jordan Addison",
@@ -221023,7 +221023,7 @@
       "depth_chart_order": 6,
       "depth_chart_position": "RWR",
       "number": 11,
-      "news_updated": 1795271755748
+      "news_updated": 1795293958094
     },
     "6124": {
       "full_name": "Montez Sweat",
@@ -221508,14 +221508,14 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 30,
       "years_exp": 6,
       "depth_chart_order": 1,
       "depth_chart_position": "TE",
       "number": 83,
-      "news_updated": 1795271155648
+      "news_updated": 1795379708440
     },
     "11889": {
       "full_name": "Tyler Smith",
@@ -222099,10 +222099,10 @@
       "active": true,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
+      "depth_chart_order": 6,
+      "depth_chart_position": "RB",
       "number": 36,
-      "news_updated": 1794286245446
+      "news_updated": 1795307759629
     },
     "6387": {
       "full_name": "Nsimba Webster",
@@ -222268,14 +222268,14 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "active": true,
       "age": 22,
       "years_exp": 0,
       "depth_chart_order": 2,
       "depth_chart_position": "LILB",
       "number": 55,
-      "news_updated": 1787013338077
+      "news_updated": 1795368007107
     },
     "3153": {
       "full_name": "Amy Adams-Strunk",
@@ -222729,7 +222729,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "LWR",
       "number": 4,
-      "news_updated": 1795223750873
+      "news_updated": 1795379708524
     },
     "2176": {
       "full_name": "Yawin Smallwood",
@@ -222901,7 +222901,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "RB",
       "number": 20,
-      "news_updated": 1795278656346
+      "news_updated": 1795363506238
     },
     "8175": {
       "full_name": "Reggie Roberson",
@@ -223653,14 +223653,14 @@
       ],
       "team": "CIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "active": true,
       "age": 30,
       "years_exp": 6,
       "depth_chart_order": 2,
       "depth_chart_position": "SS",
       "number": 29,
-      "news_updated": 1795284359193
+      "news_updated": 1795309260177
     },
     "1626": {
       "full_name": "Will Compton",
@@ -223716,7 +223716,7 @@
       "years_exp": 2,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 96,
+      "number": 90,
       "news_updated": 1793949650886
     },
     "583": {
@@ -224342,10 +224342,10 @@
       "active": true,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_order": 10,
+      "depth_chart_order": 9,
       "depth_chart_position": "SWR",
       "number": 84,
-      "news_updated": 1795047355723
+      "news_updated": 1795306259466
     },
     "7783": {
       "full_name": "Quincy Roche",
@@ -225161,7 +225161,7 @@
       "years_exp": 0,
       "depth_chart_order": null,
       "depth_chart_position": null,
-      "number": 35,
+      "number": 34,
       "news_updated": 1794468333073
     },
     "5921": {
@@ -225935,7 +225935,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "active": true,
       "age": 28,
       "years_exp": 6,
@@ -226076,7 +226076,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "RB",
       "number": 27,
-      "news_updated": 1794970848002
+      "news_updated": 1795318200817
     },
     "3944": {
       "full_name": "Khaynin Mosley-Smith",
@@ -226419,7 +226419,7 @@
       "depth_chart_order": 1,
       "depth_chart_position": "QB",
       "number": 10,
-      "news_updated": 1795203009678
+      "news_updated": 1795364108084
     },
     "12550": {
       "full_name": "T.J. Maguranyanga",
@@ -226509,7 +226509,7 @@
       "status": "Active",
       "injury_status": "Out",
       "active": true,
-      "age": null,
+      "age": 22,
       "years_exp": 0,
       "depth_chart_order": 8,
       "depth_chart_position": "TE",
@@ -226775,7 +226775,7 @@
       ],
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 28,
       "years_exp": 6,
@@ -228143,7 +228143,7 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "active": true,
       "age": 26,
       "years_exp": 2,
@@ -229957,7 +229957,7 @@
       "depth_chart_order": 2,
       "depth_chart_position": "SWR",
       "number": 9,
-      "news_updated": 1795221950811
+      "news_updated": 1795328101980
     },
     "8036": {
       "full_name": "Zeandae Johnson",

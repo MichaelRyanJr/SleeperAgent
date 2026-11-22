@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:27:34.276485Z",
+  "generated_at": "2026-11-22T20:48:42.573167Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -305,7 +305,7 @@
           "name": "Carnell Tate",
           "position": "WR",
           "team": "TEN",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 6
         },
@@ -555,7 +555,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "team": "LAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
@@ -1195,8 +1195,8 @@
         "8144",
         "8146",
         "5844",
-        "5947",
-        "6083",
+        "2216",
+        "13968",
         "TB"
       ],
       "players_current": [
@@ -1204,12 +1204,12 @@
         "11586",
         "11624",
         "12506",
+        "13968",
         "2216",
         "4035",
         "4984",
         "5844",
         "5947",
-        "6083",
         "8144",
         "8146",
         "9221",
@@ -1273,20 +1273,20 @@
           "draft_round": 15
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
+          "player_id": "2216",
+          "name": "Mike Evans",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": null,
+          "team": "SF",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 10
+          "draft_round": 7
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
+          "player_id": "13968",
+          "name": "Drew Stevens",
           "position": "K",
-          "team": "LV",
-          "injury_status": "Questionable",
+          "team": "WAS",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1327,15 +1327,6 @@
           "draft_round": 6
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
@@ -1343,6 +1334,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 12
+        },
+        {
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "9500",
@@ -1526,7 +1526,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false
         },
         {
@@ -1657,7 +1657,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "BUF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -1870,7 +1870,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
         },
@@ -1986,14 +1986,14 @@
         "budget_used": 0
       },
       "starters_current": [
-        "96",
+        "12522",
         "8138",
         "5967",
         "9487",
         "13281",
         "12517",
-        "13293",
-        "0",
+        "9482",
+        "6528",
         "JAX"
       ],
       "players_current": [
@@ -2007,6 +2007,7 @@
         "13293",
         "13301",
         "5967",
+        "6528",
         "8138",
         "8151",
         "9482",
@@ -2016,10 +2017,10 @@
       ],
       "starters": [
         {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "PIT",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false
         },
@@ -2069,13 +2070,20 @@
           "draft_round": 4
         },
         {
-          "player_id": "13293",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
+          "keeper": false
+        },
+        {
+          "player_id": "6528",
+          "name": "Joey Slye",
+          "position": "K",
+          "team": "TEN",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "JAX",
@@ -2093,7 +2101,7 @@
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 3
         },
@@ -2116,14 +2124,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -2131,6 +2131,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 5
+        },
+        {
+          "player_id": "13293",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "13301",
@@ -2150,10 +2159,10 @@
           "draft_round": 2
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
           "injury_status": null,
           "keeper": false
         }
@@ -2464,7 +2473,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 7
         },
@@ -3413,85 +3422,85 @@
       "week": 11,
       "roster_id": 1,
       "opponent_roster_id": 9,
-      "points": 20.46,
+      "points": 63.26,
       "result": "W"
     },
     {
       "week": 11,
       "roster_id": 9,
       "opponent_roster_id": 1,
-      "points": 4.2,
+      "points": 51.96,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 2,
       "opponent_roster_id": 7,
-      "points": 13.9,
+      "points": 86.56,
       "result": "W"
     },
     {
       "week": 11,
       "roster_id": 7,
       "opponent_roster_id": 2,
-      "points": 0.0,
+      "points": 49.98,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 3,
       "opponent_roster_id": 6,
-      "points": 0.0,
-      "result": null
+      "points": 106.7,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 0.0,
-      "result": null
+      "points": 55.62,
+      "result": "L"
     },
     {
       "week": 11,
       "roster_id": 4,
       "opponent_roster_id": 11,
-      "points": 13.3,
+      "points": 28.0,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 11,
       "opponent_roster_id": 4,
-      "points": 20.7,
+      "points": 46.2,
       "result": "W"
     },
     {
       "week": 11,
       "roster_id": 5,
       "opponent_roster_id": 8,
-      "points": 1.4,
+      "points": 41.7,
       "result": "L"
     },
     {
       "week": 11,
       "roster_id": 8,
       "opponent_roster_id": 5,
-      "points": 2.7,
+      "points": 72.6,
       "result": "W"
     },
     {
       "week": 11,
       "roster_id": 10,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": "L"
+      "points": 67.72,
+      "result": "W"
     },
     {
       "week": 11,
       "roster_id": 12,
       "opponent_roster_id": 10,
-      "points": 4.7,
-      "result": "W"
+      "points": 35.8,
+      "result": "L"
     }
   ],
   "available_players": {
@@ -3502,7 +3511,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-22T14:27:34.276485Z",
-    "stale_after": "2026-11-22T15:27:34.276485Z"
+    "generated_at": "2026-11-22T20:48:42.573167Z",
+    "stale_after": "2026-11-22T21:48:42.573167Z"
   }
 }
