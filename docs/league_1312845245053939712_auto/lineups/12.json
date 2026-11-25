@@ -794,11 +794,11 @@
         "injury_status": null
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon II",
+        "player_id": "8150",
+        "name": "Kyren Williams",
         "position": "RB",
-        "team": "MIA",
-        "injury_status": null
+        "team": "LAR",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "7569",
@@ -822,10 +822,10 @@
         "injury_status": null
       },
       {
-        "player_id": "7543",
-        "name": "Travis Etienne Jr.",
+        "player_id": "12495",
+        "name": "Ollie Gordon II",
         "position": "RB",
-        "team": "NO",
+        "team": "MIA",
         "injury_status": null
       },
       {
@@ -836,10 +836,10 @@
         "injury_status": null
       },
       {
-        "player_id": "KC",
-        "name": "Kansas City",
+        "player_id": "NYG",
+        "name": "New York",
         "position": "DEF",
-        "team": "KC",
+        "team": "NYG",
         "injury_status": null
       }
     ],
@@ -894,11 +894,11 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "8150",
-        "name": "Kyren Williams",
+        "player_id": "7543",
+        "name": "Travis Etienne Jr.",
         "position": "RB",
-        "team": "LAR",
-        "injury_status": "Questionable"
+        "team": "NO",
+        "injury_status": null
       },
       {
         "player_id": "8151",
@@ -1071,10 +1071,10 @@
         "injury_status": null
       },
       {
-        "player_id": "8134",
-        "name": "Khalil Shakir",
+        "player_id": "12501",
+        "name": "Matthew Golden",
         "position": "WR",
-        "team": "BUF",
+        "team": "GB",
         "injury_status": null
       },
       {
@@ -1085,10 +1085,10 @@
         "injury_status": null
       },
       {
-        "player_id": "5846",
-        "name": "DK Metcalf",
-        "position": "WR",
-        "team": "PIT",
+        "player_id": "4147",
+        "name": "Samaje Perine",
+        "position": "RB",
+        "team": "CIN",
         "injury_status": null
       },
       {
@@ -1096,6 +1096,13 @@
         "name": "Brandon Aubrey",
         "position": "K",
         "team": "DAL",
+        "injury_status": null
+      },
+      {
+        "player_id": "WAS",
+        "name": "Washington",
+        "position": "DEF",
+        "team": "WAS",
         "injury_status": null
       }
     ],
@@ -1115,25 +1122,18 @@
         "injury_status": null
       },
       {
-        "player_id": "12501",
-        "name": "Matthew Golden",
-        "position": "WR",
-        "team": "GB",
-        "injury_status": null
-      },
-      {
-        "player_id": "1479",
-        "name": "Keenan Allen",
-        "position": "WR",
-        "team": "SF",
-        "injury_status": null
-      },
-      {
         "player_id": "3321",
         "name": "Tyreek Hill",
         "position": "WR",
         "team": null,
         "injury_status": "Questionable"
+      },
+      {
+        "player_id": "5846",
+        "name": "DK Metcalf",
+        "position": "WR",
+        "team": "PIT",
+        "injury_status": null
       },
       {
         "player_id": "5850",
@@ -1150,10 +1150,10 @@
         "injury_status": null
       },
       {
-        "player_id": "WAS",
-        "name": "Washington",
-        "position": "DEF",
-        "team": "WAS",
+        "player_id": "8134",
+        "name": "Khalil Shakir",
+        "position": "WR",
+        "team": "BUF",
         "injury_status": null
       }
     ]
@@ -1178,11 +1178,11 @@
         "injury_status": null
       },
       {
-        "player_id": "11199",
-        "name": "Emari Demercado",
+        "player_id": "12474",
+        "name": "Woody Marks",
         "position": "RB",
         "team": "HOU",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "8144",
@@ -1229,18 +1229,18 @@
     ],
     "bench": [
       {
+        "player_id": "11199",
+        "name": "Emari Demercado",
+        "position": "RB",
+        "team": "HOU",
+        "injury_status": null
+      },
+      {
         "player_id": "11583",
         "name": "Jonathon Brooks",
         "position": "RB",
         "team": "CAR",
         "injury_status": "IR"
-      },
-      {
-        "player_id": "12474",
-        "name": "Woody Marks",
-        "position": "RB",
-        "team": "HOU",
-        "injury_status": "Out"
       },
       {
         "player_id": "12492",

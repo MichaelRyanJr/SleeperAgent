@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:07:43.922117Z",
+  "generated_at": "2026-11-25T19:13:17.977063Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -1132,13 +1132,13 @@
       "starters_current": [
         "1166",
         "13337",
-        "12495",
+        "8150",
         "7569",
         "7564",
         "4217",
-        "7543",
+        "12495",
         "5119",
-        "KC"
+        "NYG"
       ],
       "players_current": [
         "11586",
@@ -1158,7 +1158,7 @@
         "7569",
         "8150",
         "8151",
-        "KC"
+        "NYG"
       ],
       "starters": [
         {
@@ -1179,12 +1179,13 @@
           "draft_round": 15
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon II",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "MIA",
-          "injury_status": null,
-          "keeper": false
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
         },
         {
           "player_id": "7569",
@@ -1214,13 +1215,12 @@
           "draft_round": 9
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
+          "player_id": "12495",
+          "name": "Ollie Gordon II",
           "position": "RB",
-          "team": "NO",
+          "team": "MIA",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
+          "keeper": false
         },
         {
           "player_id": "5119",
@@ -1231,10 +1231,10 @@
           "keeper": false
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City",
+          "player_id": "NYG",
+          "name": "New York",
           "position": "DEF",
-          "team": "KC",
+          "team": "NYG",
           "injury_status": null,
           "keeper": false
         }
@@ -1303,13 +1303,13 @@
           "draft_round": 1
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
-          "team": "LAR",
-          "injury_status": "Questionable",
+          "team": "NO",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "8151",
@@ -1323,6 +1323,15 @@
       ],
       "keepers": [
         {
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 13
+        },
+        {
           "player_id": "7569",
           "name": "Nico Collins",
           "position": "WR",
@@ -1330,15 +1339,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 14
-        },
-        {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
-          "position": "RB",
-          "team": "NO",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 5
         },
         {
           "player_id": "11586",
@@ -1368,13 +1368,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
-          "team": "LAR",
-          "injury_status": "Questionable",
+          "team": "NO",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 13
+          "draft_round": 5
         },
         {
           "player_id": "8151",
@@ -1662,20 +1662,20 @@
         "9221",
         "5967",
         "7547",
-        "8134",
+        "12501",
         "8210",
-        "5846",
+        "4147",
         "11533",
-        "0"
+        "WAS"
       ],
       "players_current": [
         "10236",
         "11533",
         "11563",
         "12501",
-        "1479",
         "3294",
         "3321",
+        "4147",
         "5846",
         "5850",
         "5967",
@@ -1724,13 +1724,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "BUF",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 5
         },
         {
           "player_id": "8210",
@@ -1741,13 +1741,12 @@
           "keeper": false
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "11533",
@@ -1757,6 +1756,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 11
+        },
+        {
+          "player_id": "WAS",
+          "name": "Washington",
+          "position": "DEF",
+          "team": "WAS",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "bench": [
@@ -1779,29 +1786,21 @@
           "draft_round": 15
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 5
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "SF",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
           "injury_status": "Questionable",
           "keeper": false
+        },
+        {
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "5850",
@@ -1822,12 +1821,13 @@
           "draft_round": 14
         },
         {
-          "player_id": "WAS",
-          "name": "Washington",
-          "position": "DEF",
-          "team": "WAS",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 12
         }
       ],
       "keepers": [
@@ -2652,7 +2652,7 @@
       "starters_current": [
         "9758",
         "6813",
-        "11199",
+        "12474",
         "8144",
         "7526",
         "8131",
@@ -2698,12 +2698,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "11199",
-          "name": "Emari Demercado",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
-          "injury_status": null,
-          "keeper": false
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 10
         },
         {
           "player_id": "8144",
@@ -2761,6 +2762,14 @@
       ],
       "bench": [
         {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -2768,15 +2777,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 2
-        },
-        {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 10
         },
         {
           "player_id": "12492",
@@ -4157,7 +4157,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-25T09:07:43.922117Z",
-    "stale_after": "2026-11-25T10:07:43.922117Z"
+    "generated_at": "2026-11-25T19:13:17.977063Z",
+    "stale_after": "2026-11-25T20:13:17.977063Z"
   }
 }

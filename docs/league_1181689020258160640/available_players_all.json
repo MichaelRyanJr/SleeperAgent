@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T09:07:43.922117Z",
-  "stale_after": "2026-11-25T10:07:43.922117Z",
+  "generated_at": "2026-11-25T19:13:17.977063Z",
+  "stale_after": "2026-11-25T20:13:17.977063Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-25T09:07:40.754218Z",
+    "snapshot_started_at": "2026-11-25T19:13:15.044386Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-25T09:07:40.822538Z"
+      "fetched_at": "2026-11-25T19:13:15.119157Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-25T09:07:40.978227Z"
+      "fetched_at": "2026-11-25T19:13:15.286003Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-25T09:07:41.092303Z"
+        "fetched_at": "2026-11-25T19:13:15.319025Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-25T09:07:41.178189Z"
+      "fetched_at": "2026-11-25T19:13:15.412281Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -63,11 +63,11 @@
     "K": 179,
     "P": 5,
     "QB": 450,
-    "RB": 874,
+    "RB": 873,
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1722
+    "WR": 1723
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -412,6 +412,32 @@
       "current_season_draft_round": null
     },
     {
+      "player_id": "KC",
+      "name": "Kansas City Chiefs",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "KC",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
       "player_id": "LV",
       "name": "Las Vegas Raiders",
       "position": "DEF",
@@ -500,32 +526,6 @@
         "DEF"
       ],
       "team": "NO",
-      "age": null,
-      "years_exp": null,
-      "status": null,
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": null,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "eligible_positions": [
-        "DEF"
-      ],
-      "team": "NYG",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -22826,32 +22826,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1795482320193,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "4147",
-      "name": "Samaje Perine",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "eligible_positions": [
-        "RB"
-      ],
-      "team": "CIN",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 2,
-      "depth_chart_position": "RB",
-      "news_updated": 1795565704042,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -67977,6 +67951,32 @@
       "depth_chart_order": 4,
       "depth_chart_position": "LWR",
       "news_updated": 1795377008338,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": null
+    },
+    {
+      "player_id": "1479",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "age": 34,
+      "years_exp": 13,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 3,
+      "depth_chart_position": "RWR",
+      "news_updated": 1795448117584,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",

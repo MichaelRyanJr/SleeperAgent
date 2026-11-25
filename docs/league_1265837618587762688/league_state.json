@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:07:40.229207Z",
+  "generated_at": "2026-11-25T19:13:14.503087Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -385,7 +385,7 @@
       },
       "starters_current": [
         "3163",
-        "5892",
+        "8150",
         "7594",
         "8137",
         "5872",
@@ -424,13 +424,13 @@
           "draft_round": 12
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "HOU",
-          "injury_status": null,
+          "team": "LAR",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 4
+          "draft_round": 3
         },
         {
           "player_id": "7594",
@@ -523,6 +523,15 @@
           "keeper": false
         },
         {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 4
+        },
+        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -548,15 +557,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 10
-        },
-        {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 3
         },
         {
           "player_id": "9493",
@@ -3594,7 +3594,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-25T09:07:40.229207Z",
-    "stale_after": "2026-11-25T10:07:40.229207Z"
+    "generated_at": "2026-11-25T19:13:14.503087Z",
+    "stale_after": "2026-11-25T20:13:14.503087Z"
   }
 }
