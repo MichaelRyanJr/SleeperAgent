@@ -226,6 +226,15 @@
     },
     "keepers": [
       {
+        "player_id": "12533",
+        "name": "Jacory Croskey-Merritt",
+        "position": "RB",
+        "team": "WAS",
+        "injury_status": null,
+        "keeper": true,
+        "draft_round": 9
+      },
+      {
         "player_id": "12517",
         "name": "Colston Loveland",
         "position": "TE",
@@ -251,15 +260,6 @@
         "injury_status": "IR",
         "keeper": true,
         "draft_round": 14
-      },
-      {
-        "player_id": "12533",
-        "name": "Jacory Croskey-Merritt",
-        "position": "RB",
-        "team": "WAS",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 9
       },
       {
         "player_id": "9226",
@@ -755,7 +755,7 @@
         "name": "J.K. Dobbins",
         "position": "RB",
         "team": "DEN",
-        "injury_status": null,
+        "injury_status": "Out",
         "keeper": true,
         "draft_round": 9
       }
@@ -830,7 +830,7 @@
         "name": "Rachaad White",
         "position": "RB",
         "team": "WAS",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 12
       }

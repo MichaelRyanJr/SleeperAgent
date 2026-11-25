@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:04:13.857701Z",
+  "generated_at": "2026-11-25T00:35:40.263781Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -189,7 +189,7 @@
         "12526",
         "8130",
         "12507",
-        "1945",
+        "6650",
         "DEN"
       ],
       "players_current": [
@@ -274,12 +274,13 @@
           "draft_round": 2
         },
         {
-          "player_id": "1945",
-          "name": "Chris Boswell",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "PIT",
+          "team": "TB",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "DEN",
@@ -310,6 +311,14 @@
           "draft_round": 6
         },
         {
+          "player_id": "1945",
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "4881",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -317,15 +326,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 4
-        },
-        {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
         },
         {
           "player_id": "6804",
@@ -528,7 +528,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 8
         },
@@ -671,7 +671,7 @@
           "name": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 5
         },
@@ -1154,7 +1154,7 @@
           "name": "Tanner McKee",
           "position": "QB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1737,7 +1737,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 12
         },
@@ -2323,7 +2323,7 @@
           "name": "Denzel Boston",
           "position": "WR",
           "team": "CLE",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2551,7 +2551,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 10
         },
@@ -3595,7 +3595,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-24T16:04:13.857701Z",
-    "stale_after": "2026-11-24T17:04:13.857701Z"
+    "generated_at": "2026-11-25T00:35:40.263781Z",
+    "stale_after": "2026-11-25T01:35:40.263781Z"
   }
 }
