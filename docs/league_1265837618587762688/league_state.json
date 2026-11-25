@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:35:40.263781Z",
+  "generated_at": "2026-11-25T09:07:40.229207Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -209,7 +209,7 @@
         "8132",
         "9758",
         "DEN",
-        "LAR"
+        "NYG"
       ],
       "starters": [
         {
@@ -354,13 +354,12 @@
           "draft_round": 12
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles",
+          "player_id": "NYG",
+          "name": "New York",
           "position": "DEF",
-          "team": "LAR",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1591,8 +1590,8 @@
         "13337",
         "4034",
         "9997",
-        "4983",
-        "12518",
+        "8167",
+        "5022",
         "9224",
         "11533",
         "KC"
@@ -1604,7 +1603,6 @@
         "13296",
         "13298",
         "13337",
-        "13424",
         "4034",
         "4983",
         "5022",
@@ -1614,6 +1612,7 @@
         "9224",
         "9753",
         "9997",
+        "CLE",
         "KC"
       ],
       "starters": [
@@ -1653,22 +1652,22 @@
           "draft_round": 4
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "BUF",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 6
-        },
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
+          "team": "GB",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 5
+          "draft_round": 7
+        },
+        {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 12
         },
         {
           "player_id": "9224",
@@ -1699,6 +1698,15 @@
       ],
       "bench": [
         {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 5
+        },
+        {
           "player_id": "13287",
           "name": "Jeremiyah Love",
           "position": "RB",
@@ -1725,21 +1733,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "13424",
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
-          "injury_status": "Out",
-          "keeper": false
-        },
-        {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
           "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 12
+          "draft_round": 6
         },
         {
           "player_id": "5850",
@@ -1751,15 +1751,6 @@
           "draft_round": 3
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "9753",
           "name": "Zach Charbonnet",
           "position": "RB",
@@ -1767,6 +1758,14 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 15
+        },
+        {
+          "player_id": "CLE",
+          "name": "Cleveland",
+          "position": "DEF",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         }
       ],
       "keepers": []
@@ -1990,13 +1989,14 @@
         "8138",
         "5967",
         "9487",
-        "13281",
+        "13301",
         "12517",
-        "9482",
+        "11635",
         "6528",
         "JAX"
       ],
       "players_current": [
+        "11565",
         "11635",
         "12492",
         "12512",
@@ -2012,7 +2012,6 @@
         "8151",
         "9482",
         "9487",
-        "96",
         "JAX"
       ],
       "starters": [
@@ -2052,13 +2051,12 @@
           "draft_round": 6
         },
         {
-          "player_id": "13281",
-          "name": "Jordyn Tyson",
+          "player_id": "13301",
+          "name": "Antonio Williams",
           "position": "WR",
-          "team": "NO",
+          "team": "WAS",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 9
+          "keeper": false
         },
         {
           "player_id": "12517",
@@ -2070,12 +2068,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 3
         },
         {
           "player_id": "6528",
@@ -2097,13 +2096,12 @@
       ],
       "bench": [
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 3
+          "keeper": false
         },
         {
           "player_id": "12492",
@@ -2124,6 +2122,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 9
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -2142,14 +2149,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "13301",
-          "name": "Antonio Williams",
-          "position": "WR",
-          "team": "WAS",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker III",
           "position": "RB",
@@ -2159,10 +2158,10 @@
           "draft_round": 2
         },
         {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
           "injury_status": null,
           "keeper": false
         }
@@ -3595,7 +3594,7 @@
     "player_count": 2834,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-25T00:35:40.263781Z",
-    "stale_after": "2026-11-25T01:35:40.263781Z"
+    "generated_at": "2026-11-25T09:07:40.229207Z",
+    "stale_after": "2026-11-25T10:07:40.229207Z"
   }
 }

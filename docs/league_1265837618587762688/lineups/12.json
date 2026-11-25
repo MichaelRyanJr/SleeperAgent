@@ -119,10 +119,10 @@
         "injury_status": null
       },
       {
-        "player_id": "LAR",
-        "name": "Los Angeles",
+        "player_id": "NYG",
+        "name": "New York",
         "position": "DEF",
-        "team": "LAR",
+        "team": "NYG",
         "injury_status": null
       }
     ]
@@ -922,10 +922,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13281",
-        "name": "Jordyn Tyson",
+        "player_id": "13301",
+        "name": "Antonio Williams",
         "position": "WR",
-        "team": "NO",
+        "team": "WAS",
         "injury_status": null
       },
       {
@@ -936,10 +936,10 @@
         "injury_status": null
       },
       {
-        "player_id": "9482",
-        "name": "Michael Mayer",
-        "position": "TE",
-        "team": "LV",
+        "player_id": "11635",
+        "name": "Ladd McConkey",
+        "position": "WR",
+        "team": "LAC",
         "injury_status": null
       },
       {
@@ -959,10 +959,10 @@
     ],
     "bench": [
       {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "position": "WR",
-        "team": "LAC",
+        "player_id": "11565",
+        "name": "J.J. McCarthy",
+        "position": "QB",
+        "team": "NYG",
         "injury_status": null
       },
       {
@@ -980,6 +980,13 @@
         "injury_status": null
       },
       {
+        "player_id": "13281",
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "team": "NO",
+        "injury_status": null
+      },
+      {
         "player_id": "13286",
         "name": "Jadarian Price",
         "position": "RB",
@@ -994,13 +1001,6 @@
         "injury_status": null
       },
       {
-        "player_id": "13301",
-        "name": "Antonio Williams",
-        "position": "WR",
-        "team": "WAS",
-        "injury_status": null
-      },
-      {
         "player_id": "8151",
         "name": "Kenneth Walker III",
         "position": "RB",
@@ -1008,10 +1008,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
-        "position": "QB",
-        "team": "PIT",
+        "player_id": "9482",
+        "name": "Michael Mayer",
+        "position": "TE",
+        "team": "LV",
         "injury_status": null
       }
     ]
@@ -1299,18 +1299,18 @@
         "injury_status": null
       },
       {
-        "player_id": "4983",
-        "name": "DJ Moore",
+        "player_id": "8167",
+        "name": "Christian Watson",
         "position": "WR",
-        "team": "BUF",
-        "injury_status": "Questionable"
+        "team": "GB",
+        "injury_status": null
       },
       {
-        "player_id": "12518",
-        "name": "Tyler Warren",
+        "player_id": "5022",
+        "name": "Dallas Goedert",
         "position": "TE",
-        "team": "IND",
-        "injury_status": null
+        "team": "PHI",
+        "injury_status": "Questionable"
       },
       {
         "player_id": "9224",
@@ -1336,6 +1336,13 @@
     ],
     "bench": [
       {
+        "player_id": "12518",
+        "name": "Tyler Warren",
+        "position": "TE",
+        "team": "IND",
+        "injury_status": null
+      },
+      {
         "player_id": "13287",
         "name": "Jeremiyah Love",
         "position": "RB",
@@ -1357,17 +1364,10 @@
         "injury_status": null
       },
       {
-        "player_id": "13424",
-        "name": "Seth McGowan",
-        "position": "RB",
-        "team": "IND",
-        "injury_status": "Out"
-      },
-      {
-        "player_id": "5022",
-        "name": "Dallas Goedert",
-        "position": "TE",
-        "team": "PHI",
+        "player_id": "4983",
+        "name": "DJ Moore",
+        "position": "WR",
+        "team": "BUF",
         "injury_status": "Questionable"
       },
       {
@@ -1378,17 +1378,17 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "8167",
-        "name": "Christian Watson",
-        "position": "WR",
-        "team": "GB",
-        "injury_status": null
-      },
-      {
         "player_id": "9753",
         "name": "Zach Charbonnet",
         "position": "RB",
         "team": "SEA",
+        "injury_status": null
+      },
+      {
+        "player_id": "CLE",
+        "name": "Cleveland",
+        "position": "DEF",
+        "team": "CLE",
         "injury_status": null
       }
     ]
