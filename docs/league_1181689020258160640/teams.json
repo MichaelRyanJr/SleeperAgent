@@ -37,6 +37,15 @@
         "draft_round": 13
       },
       {
+        "player_id": "9488",
+        "name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "team": "SEA",
+        "injury_status": "Questionable",
+        "keeper": true,
+        "draft_round": 8
+      },
+      {
         "player_id": "12514",
         "name": "Emeka Egbuka",
         "position": "WR",
@@ -46,6 +55,15 @@
         "draft_round": 5
       },
       {
+        "player_id": "12506",
+        "name": "Harold Fannin Jr.",
+        "position": "TE",
+        "team": "CLE",
+        "injury_status": "Questionable",
+        "keeper": true,
+        "draft_round": 14
+      },
+      {
         "player_id": "5892",
         "name": "David Montgomery",
         "position": "RB",
@@ -53,24 +71,6 @@
         "injury_status": null,
         "keeper": true,
         "draft_round": 7
-      },
-      {
-        "player_id": "12506",
-        "name": "Harold Fannin Jr.",
-        "position": "TE",
-        "team": "CLE",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 14
-      },
-      {
-        "player_id": "9488",
-        "name": "Jaxon Smith-Njigba",
-        "position": "WR",
-        "team": "SEA",
-        "injury_status": null,
-        "keeper": true,
-        "draft_round": 8
       }
     ]
   },
@@ -125,7 +125,7 @@
         "name": "Brock Bowers",
         "position": "TE",
         "team": "LV",
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 5
       },
@@ -200,7 +200,7 @@
         "name": "Tetairoa McMillan",
         "position": "WR",
         "team": "CAR",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 3
       }
@@ -296,7 +296,7 @@
         "name": "Kyren Williams",
         "position": "RB",
         "team": "LAR",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 13
       },
@@ -394,13 +394,13 @@
         "draft_round": 13
       },
       {
-        "player_id": "11646",
-        "name": "Jalen Coker",
-        "position": "WR",
-        "team": "CAR",
-        "injury_status": "Questionable",
+        "player_id": "12512",
+        "name": "Quinshon Judkins",
+        "position": "RB",
+        "team": "CLE",
+        "injury_status": null,
         "keeper": true,
-        "draft_round": 14
+        "draft_round": 3
       },
       {
         "player_id": "11635",
@@ -412,13 +412,13 @@
         "draft_round": 6
       },
       {
-        "player_id": "12512",
-        "name": "Quinshon Judkins",
-        "position": "RB",
-        "team": "CLE",
+        "player_id": "11646",
+        "name": "Jalen Coker",
+        "position": "WR",
+        "team": "CAR",
         "injury_status": null,
         "keeper": true,
-        "draft_round": 3
+        "draft_round": 14
       }
     ]
   },
@@ -575,7 +575,7 @@
         "name": "Zay Flowers",
         "position": "WR",
         "team": "BAL",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 4
       }
@@ -632,7 +632,7 @@
         "name": "Drake London",
         "position": "WR",
         "team": "ATL",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "keeper": true,
         "draft_round": 6
       },
@@ -755,7 +755,7 @@
         "name": "J.K. Dobbins",
         "position": "RB",
         "team": "DEN",
-        "injury_status": "Out",
+        "injury_status": "Sus",
         "keeper": true,
         "draft_round": 9
       }
@@ -794,7 +794,7 @@
         "name": "Mike Evans",
         "position": "WR",
         "team": "SF",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "keeper": true,
         "draft_round": 6
       },

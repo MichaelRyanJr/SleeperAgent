@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:13:17.977063Z",
+  "generated_at": "2026-11-26T02:15:37.537468Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -102,9 +102,9 @@
         "4984",
         "4034",
         "8228",
-        "12499",
+        "9488",
         "12514",
-        "9482",
+        "12506",
         "5892",
         "11786",
         "MIN"
@@ -158,12 +158,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
           "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "12514",
@@ -175,12 +176,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
+          "player_id": "12506",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
-          "team": "LV",
-          "injury_status": null,
-          "keeper": false
+          "team": "CLE",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
         },
         {
           "player_id": "5892",
@@ -196,7 +198,7 @@
           "name": "Cam Little",
           "position": "K",
           "team": "JAX",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 9
         },
@@ -220,13 +222,12 @@
           "keeper": false
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "team": "CLE",
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
+          "keeper": false
         },
         {
           "player_id": "12529",
@@ -276,18 +277,17 @@
           "name": "Christian Watson",
           "position": "WR",
           "team": "GB",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 3
         },
         {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "team": "SEA",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
+          "keeper": false
         }
       ],
       "keepers": [
@@ -310,6 +310,15 @@
           "draft_round": 13
         },
         {
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 8
+        },
+        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -319,6 +328,15 @@
           "draft_round": 5
         },
         {
+          "player_id": "12506",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "team": "CLE",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 14
+        },
+        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -326,24 +344,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
-        },
-        {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "team": "CLE",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "team": "SEA",
-          "injury_status": null,
-          "keeper": true,
-          "draft_round": 8
         }
       ]
     },
@@ -437,7 +437,7 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 7
         },
@@ -493,7 +493,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -576,7 +576,7 @@
           "name": "Brock Bowers",
           "position": "TE",
           "team": "LV",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 5
         },
@@ -647,7 +647,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 14
         },
@@ -746,7 +746,7 @@
           "name": "Tetairoa McMillan",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         },
@@ -846,7 +846,7 @@
           "name": "Tetairoa McMillan",
           "position": "WR",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 3
         }
@@ -886,7 +886,6 @@
         "11620",
         "11632",
         "11643",
-        "12491",
         "12508",
         "12517",
         "12533",
@@ -898,6 +897,7 @@
         "9228",
         "9493",
         "9502",
+        "96",
         "9756",
         "HOU",
         "SEA"
@@ -984,14 +984,6 @@
       ],
       "bench": [
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "position": "RB",
-          "team": "NE",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1044,11 +1036,19 @@
           "draft_round": 14
         },
         {
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "9756",
           "name": "Jordan Addison",
           "position": "WR",
           "team": "MIN",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 6
         },
@@ -1183,7 +1183,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -1298,7 +1298,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "keeper": false,
           "draft_round": 1
         },
@@ -1327,7 +1327,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "team": "LAR",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 13
         },
@@ -1411,9 +1411,9 @@
         "13345",
         "9224",
         "12519",
-        "11646",
-        "10859",
         "7525",
+        "10859",
+        "12512",
         "1945",
         "SF"
       ],
@@ -1474,24 +1474,6 @@
           "draft_round": 13
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 14
-        },
-        {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -1499,6 +1481,24 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 12
+        },
+        {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "1945",
@@ -1546,13 +1546,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 14
         },
         {
           "player_id": "5001",
@@ -1610,13 +1610,13 @@
           "draft_round": 13
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": "Questionable",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "injury_status": null,
           "keeper": true,
-          "draft_round": 14
+          "draft_round": 3
         },
         {
           "player_id": "11635",
@@ -1628,13 +1628,13 @@
           "draft_round": 6
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
           "injury_status": null,
           "keeper": true,
-          "draft_round": 3
+          "draft_round": 14
         }
       ]
     },
@@ -1772,7 +1772,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 6
         },
@@ -1986,7 +1986,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 6
         },
@@ -2076,7 +2076,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         }
@@ -2141,7 +2141,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 4
         }
@@ -2239,7 +2239,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -2301,7 +2301,7 @@
           "name": "Marvin Harrison Jr.",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 4
         },
@@ -2327,7 +2327,7 @@
           "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 15
         },
@@ -2390,7 +2390,7 @@
           "name": "Drake London",
           "position": "WR",
           "team": "ATL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 6
         },
@@ -2521,7 +2521,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 8
         },
@@ -2586,7 +2586,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 1
         },
@@ -2658,7 +2658,7 @@
         "8131",
         "9500",
         "12185",
-        "LAC"
+        "CLE"
       ],
       "players_current": [
         "11199",
@@ -2677,7 +2677,7 @@
         "9484",
         "9500",
         "9758",
-        "LAC"
+        "CLE"
       ],
       "starters": [
         {
@@ -2702,7 +2702,7 @@
           "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 10
         },
@@ -2729,7 +2729,7 @@
           "name": "Isaiah Likely",
           "position": "TE",
           "team": "NYG",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 11
         },
@@ -2751,13 +2751,13 @@
           "keeper": false
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles",
+          "player_id": "CLE",
+          "name": "Cleveland",
           "position": "DEF",
-          "team": "LAC",
+          "team": "CLE",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 15
+          "draft_round": 16
         }
       ],
       "bench": [
@@ -2817,7 +2817,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "Out",
+          "injury_status": "Sus",
           "keeper": true,
           "draft_round": 9
         },
@@ -2873,7 +2873,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "injury_status": "Out",
+          "injury_status": "Sus",
           "keeper": true,
           "draft_round": 9
         }
@@ -2961,7 +2961,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 2
         },
@@ -2970,7 +2970,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -3096,7 +3096,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 6
         },
@@ -4082,15 +4082,15 @@
       "week": 12,
       "roster_id": 2,
       "opponent_roster_id": 10,
-      "points": 0.0,
-      "result": null
+      "points": 7.0,
+      "result": "W"
     },
     {
       "week": 12,
       "roster_id": 10,
       "opponent_roster_id": 2,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 12,
@@ -4110,29 +4110,29 @@
       "week": 12,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 0.0,
-      "result": null
+      "points": 13.1,
+      "result": "W"
     },
     {
       "week": 12,
       "roster_id": 12,
       "opponent_roster_id": 5,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 12,
       "roster_id": 7,
       "opponent_roster_id": 11,
-      "points": 0.0,
-      "result": null
+      "points": 4.9,
+      "result": "W"
     },
     {
       "week": 12,
       "roster_id": 11,
       "opponent_roster_id": 7,
       "points": 0.0,
-      "result": null
+      "result": "L"
     },
     {
       "week": 12,
@@ -4154,10 +4154,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2832,
+    "player_count": 2831,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-25T19:13:17.977063Z",
-    "stale_after": "2026-11-25T20:13:17.977063Z"
+    "generated_at": "2026-11-26T02:15:37.537468Z",
+    "stale_after": "2026-11-26T03:15:37.537468Z"
   }
 }
