@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T02:15:37.537468Z",
+  "generated_at": "2026-11-26T11:03:53.760419Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -897,7 +897,6 @@
         "9228",
         "9493",
         "9502",
-        "96",
         "9756",
         "HOU",
         "SEA"
@@ -1034,14 +1033,6 @@
           "injury_status": "IR",
           "keeper": false,
           "draft_round": 14
-        },
-        {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
-          "injury_status": null,
-          "keeper": false
         },
         {
           "player_id": "9756",
@@ -2435,7 +2426,7 @@
       },
       "starters_current": [
         "6770",
-        "8122",
+        "4866",
         "4199",
         "6801",
         "8148",
@@ -2473,12 +2464,13 @@
           "draft_round": 3
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "ARI",
+          "team": "PHI",
           "injury_status": null,
-          "keeper": false
+          "keeper": false,
+          "draft_round": 1
         },
         {
           "player_id": "4199",
@@ -2582,15 +2574,6 @@
           "draft_round": 10
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 1
-        },
-        {
           "player_id": "7553",
           "name": "Kyle Pitts Sr.",
           "position": "TE",
@@ -2598,6 +2581,14 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "8126",
@@ -4082,7 +4073,7 @@
       "week": 12,
       "roster_id": 2,
       "opponent_roster_id": 10,
-      "points": 7.0,
+      "points": 12.0,
       "result": "W"
     },
     {
@@ -4110,7 +4101,7 @@
       "week": 12,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 13.1,
+      "points": 16.5,
       "result": "W"
     },
     {
@@ -4154,10 +4145,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2831,
+    "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-26T02:15:37.537468Z",
-    "stale_after": "2026-11-26T03:15:37.537468Z"
+    "generated_at": "2026-11-26T11:03:53.760419Z",
+    "stale_after": "2026-11-26T12:03:53.760419Z"
   }
 }
