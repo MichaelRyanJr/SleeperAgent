@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T20:06:51.462280Z",
+  "generated_at": "2026-11-27T02:49:49.041411Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -112,11 +112,11 @@
       "players_current": [
         "10218",
         "11786",
-        "12499",
         "12506",
         "12514",
         "12529",
         "12718",
+        "13305",
         "4034",
         "4035",
         "4984",
@@ -180,7 +180,7 @@
           "name": "Harold Fannin Jr.",
           "position": "TE",
           "team": "CLE",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 14
         },
@@ -222,14 +222,6 @@
           "keeper": false
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
-          "position": "WR",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false
-        },
-        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -245,6 +237,15 @@
           "team": "LAR",
           "injury_status": null,
           "keeper": false
+        },
+        {
+          "player_id": "13305",
+          "name": "Mike Washington Jr.",
+          "position": "RB",
+          "team": "LV",
+          "injury_status": null,
+          "keeper": false,
+          "draft_round": 6
         },
         {
           "player_id": "4035",
@@ -277,7 +278,7 @@
           "name": "Christian Watson",
           "position": "WR",
           "team": "GB",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 3
         },
@@ -332,7 +333,7 @@
           "name": "Harold Fannin Jr.",
           "position": "TE",
           "team": "CLE",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 14
         },
@@ -674,7 +675,7 @@
           "name": "Parker Washington",
           "position": "WR",
           "team": "JAX",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -950,7 +951,7 @@
           "name": "Colston Loveland",
           "position": "TE",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -1068,7 +1069,7 @@
           "name": "Colston Loveland",
           "position": "TE",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": true,
           "draft_round": 7
         },
@@ -1469,7 +1470,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 2
         },
@@ -1550,7 +1551,7 @@
           "name": "Dalton Schultz",
           "position": "TE",
           "team": "HOU",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -1763,7 +1764,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "team": "BUF",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 6
         },
@@ -1977,7 +1978,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Out",
           "keeper": false,
           "draft_round": 6
         },
@@ -2067,7 +2068,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 4
         }
@@ -2132,7 +2133,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "team": "BAL",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": true,
           "draft_round": 4
         }
@@ -2194,7 +2195,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2239,7 +2240,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false
         },
         {
@@ -2292,7 +2293,7 @@
           "name": "Marvin Harrison Jr.",
           "position": "WR",
           "team": "HOU",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 4
         },
@@ -2354,7 +2355,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "team": "CHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": true,
           "draft_round": 7
         },
@@ -2468,7 +2469,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "keeper": false,
           "draft_round": 1
         },
@@ -2513,7 +2514,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "keeper": false,
           "draft_round": 8
         },
@@ -2627,7 +2628,7 @@
       "owner": {
         "display_name": "Doctahfootball",
         "username": null,
-        "team_name": "Woody Box Ticklers "
+        "team_name": "I Have Downs "
       },
       "record": {
         "wins": 4,
@@ -4059,63 +4060,63 @@
       "week": 12,
       "roster_id": 1,
       "opponent_roster_id": 4,
-      "points": 0.0,
+      "points": 1.64,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 4,
       "opponent_roster_id": 1,
-      "points": 1.4,
+      "points": 27.2,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 2,
       "opponent_roster_id": 10,
-      "points": 12.0,
+      "points": 35.4,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 10,
       "opponent_roster_id": 2,
-      "points": 6.1,
+      "points": 14.7,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 3,
       "opponent_roster_id": 6,
-      "points": 0.0,
+      "points": 40.2,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 25.42,
+      "points": 90.72,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 5,
       "opponent_roster_id": 12,
-      "points": 16.5,
+      "points": 21.3,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 0.0,
+      "points": 16.42,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 7,
       "opponent_roster_id": 11,
-      "points": 38.4,
+      "points": 121.24,
       "result": "W"
     },
     {
@@ -4129,14 +4130,14 @@
       "week": 12,
       "roster_id": 8,
       "opponent_roster_id": 9,
-      "points": 5.0,
+      "points": 37.5,
       "result": "L"
     },
     {
       "week": 12,
       "roster_id": 9,
       "opponent_roster_id": 8,
-      "points": 22.54,
+      "points": 66.5,
       "result": "W"
     }
   ],
@@ -4145,10 +4146,10 @@
     "html": "available_players.html",
     "csv": "available_players.csv",
     "all_json": "available_players_all.json",
-    "player_count": 2832,
+    "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-26T20:06:51.462280Z",
-    "stale_after": "2026-11-26T21:06:51.462280Z"
+    "generated_at": "2026-11-27T02:49:49.041411Z",
+    "stale_after": "2026-11-27T03:49:49.041411Z"
   }
 }

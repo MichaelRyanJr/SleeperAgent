@@ -130,7 +130,7 @@
   {
     "roster_id": 12,
     "opponent_roster_id": 1,
-    "points": 5.6,
+    "points": 48.5,
     "starters": [
       {
         "player_id": "1166",
@@ -158,7 +158,7 @@
         "name": "Stefon Diggs",
         "position": "WR",
         "team": "WAS",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8148",
@@ -172,14 +172,14 @@
         "name": "Dalton Kincaid",
         "position": "TE",
         "team": "BUF",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "7525",
         "name": "DeVonta Smith",
         "position": "WR",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "5119",
@@ -258,7 +258,7 @@
   {
     "roster_id": 2,
     "opponent_roster_id": 6,
-    "points": 31.32,
+    "points": 47.92,
     "starters": [
       {
         "player_id": "3163",
@@ -386,7 +386,7 @@
   {
     "roster_id": 6,
     "opponent_roster_id": 2,
-    "points": 17.8,
+    "points": 46.34,
     "starters": [
       {
         "player_id": "4984",
@@ -472,7 +472,7 @@
         "name": "Harold Fannin Jr.",
         "position": "TE",
         "team": "CLE",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "4035",
@@ -507,7 +507,7 @@
   {
     "roster_id": 3,
     "opponent_roster_id": 11,
-    "points": 11.6,
+    "points": 82.64,
     "starters": [
       {
         "player_id": "3294",
@@ -614,7 +614,7 @@
         "name": "Tyler Higbee",
         "position": "TE",
         "team": "LAR",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "5859",
@@ -756,7 +756,7 @@
   {
     "roster_id": 4,
     "opponent_roster_id": 10,
-    "points": 1.9,
+    "points": 2.9,
     "starters": [
       {
         "player_id": "11566",
@@ -884,7 +884,7 @@
   {
     "roster_id": 10,
     "opponent_roster_id": 4,
-    "points": -1.0,
+    "points": 13.4,
     "starters": [
       {
         "player_id": "11565",
@@ -912,7 +912,7 @@
         "name": "Parker Washington",
         "position": "WR",
         "team": "JAX",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "13301",
@@ -926,7 +926,7 @@
         "name": "Colston Loveland",
         "position": "TE",
         "team": "CHI",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "11635",
@@ -936,10 +936,10 @@
         "injury_status": null
       },
       {
-        "player_id": "6528",
-        "name": "Joey Slye",
+        "player_id": "3678",
+        "name": "Wil Lutz",
         "position": "K",
-        "team": "TEN",
+        "team": "DEN",
         "injury_status": null
       },
       {
@@ -1050,10 +1050,10 @@
         "injury_status": null
       },
       {
-        "player_id": "1466",
-        "name": "Travis Kelce",
+        "player_id": "9480",
+        "name": "Brenton Strange",
         "position": "TE",
-        "team": "KC",
+        "team": "JAX",
         "injury_status": null
       },
       {
@@ -1071,10 +1071,10 @@
         "injury_status": null
       },
       {
-        "player_id": "BUF",
-        "name": "Buffalo",
+        "player_id": "WAS",
+        "name": "Washington",
         "position": "DEF",
-        "team": "BUF",
+        "team": "WAS",
         "injury_status": null
       }
     ],
@@ -1091,6 +1091,13 @@
         "name": "Matthew Golden",
         "position": "WR",
         "team": "GB",
+        "injury_status": null
+      },
+      {
+        "player_id": "1466",
+        "name": "Travis Kelce",
+        "position": "TE",
+        "team": "KC",
         "injury_status": null
       },
       {
@@ -1112,7 +1119,7 @@
         "name": "Rashod Bateman",
         "position": "WR",
         "team": "BAL",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "9230",
@@ -1120,20 +1127,13 @@
         "position": "QB",
         "team": "PHI",
         "injury_status": null
-      },
-      {
-        "player_id": "9480",
-        "name": "Brenton Strange",
-        "position": "TE",
-        "team": "JAX",
-        "injury_status": null
       }
     ]
   },
   {
     "roster_id": 7,
     "opponent_roster_id": 5,
-    "points": 22.0,
+    "points": 67.5,
     "starters": [
       {
         "player_id": "9228",
@@ -1233,7 +1233,7 @@
         "name": "Darren Waller",
         "position": "TE",
         "team": "CAR",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "4199",
@@ -1261,7 +1261,7 @@
   {
     "roster_id": 8,
     "opponent_roster_id": 9,
-    "points": 14.5,
+    "points": 29.6,
     "starters": [
       {
         "player_id": "7523",
@@ -1289,21 +1289,21 @@
         "name": "Zay Flowers",
         "position": "WR",
         "team": "BAL",
-        "injury_status": "Questionable"
+        "injury_status": null
       },
       {
         "player_id": "8167",
         "name": "Christian Watson",
         "position": "WR",
         "team": "GB",
-        "injury_status": "Questionable"
+        "injury_status": "Out"
       },
       {
         "player_id": "5022",
         "name": "Dallas Goedert",
         "position": "TE",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Out"
       },
       {
         "player_id": "9224",
@@ -1389,7 +1389,7 @@
   {
     "roster_id": 9,
     "opponent_roster_id": 8,
-    "points": 15.9,
+    "points": 9.62,
     "starters": [
       {
         "player_id": "4046",
@@ -1403,7 +1403,7 @@
         "name": "Saquon Barkley",
         "position": "RB",
         "team": "PHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12469",
@@ -1461,7 +1461,7 @@
         "name": "Caleb Williams",
         "position": "QB",
         "team": "CHI",
-        "injury_status": null
+        "injury_status": "Questionable"
       },
       {
         "player_id": "12491",
