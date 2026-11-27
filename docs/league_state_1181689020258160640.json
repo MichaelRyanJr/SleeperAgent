@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:28:57.913771Z",
+  "generated_at": "2026-11-27T20:14:34.036916Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -374,7 +374,7 @@
         "6786",
         "5947",
         "11604",
-        "11576",
+        "11631",
         "11792",
         "LAR"
       ],
@@ -452,13 +452,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "11631",
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX",
           "injury_status": null,
-          "keeper": false,
-          "draft_round": 15
+          "keeper": true,
+          "draft_round": 7
         },
         {
           "player_id": "11792",
@@ -499,13 +499,13 @@
           "draft_round": 8
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
           "injury_status": null,
-          "keeper": true,
-          "draft_round": 7
+          "keeper": false,
+          "draft_round": 15
         },
         {
           "player_id": "12534",
@@ -564,15 +564,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "injury_status": "Out",
-          "keeper": true,
-          "draft_round": 8
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
           "position": "WR",
@@ -580,6 +571,15 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 7
+        },
+        {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "injury_status": "Out",
+          "keeper": true,
+          "draft_round": 8
         },
         {
           "player_id": "12534",
@@ -615,7 +615,7 @@
         "8183",
         "11584",
         "7588",
-        "9487",
+        "12526",
         "10229",
         "8130",
         "12527",
@@ -632,6 +632,7 @@
         "13274",
         "13281",
         "13285",
+        "13394",
         "13417",
         "6650",
         "7567",
@@ -639,7 +640,6 @@
         "8130",
         "8183",
         "9487",
-        "PIT",
         "TB"
       ],
       "starters": [
@@ -671,13 +671,13 @@
           "draft_round": 7
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "JAX",
+          "team": "CAR",
           "injury_status": "Questionable",
-          "keeper": false,
-          "draft_round": 2
+          "keeper": true,
+          "draft_round": 3
         },
         {
           "player_id": "10229",
@@ -743,15 +743,6 @@
           "draft_round": 16
         },
         {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
-        },
-        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -778,6 +769,14 @@
           "draft_round": 12
         },
         {
+          "player_id": "13394",
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": null,
+          "keeper": false
+        },
+        {
           "player_id": "13417",
           "name": "De'Zhaun Stribling",
           "position": "WR",
@@ -796,13 +795,13 @@
           "draft_round": 11
         },
         {
-          "player_id": "PIT",
-          "name": "Pittsburgh",
-          "position": "DEF",
-          "team": "PIT",
-          "injury_status": null,
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
           "keeper": false,
-          "draft_round": 11
+          "draft_round": 2
         }
       ],
       "keepers": [
@@ -825,6 +824,15 @@
           "draft_round": 7
         },
         {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "injury_status": "Questionable",
+          "keeper": true,
+          "draft_round": 3
+        },
+        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
@@ -841,15 +849,6 @@
           "injury_status": null,
           "keeper": true,
           "draft_round": 12
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
-          "injury_status": "Questionable",
-          "keeper": true,
-          "draft_round": 3
         }
       ]
     },
@@ -4060,7 +4059,7 @@
       "week": 12,
       "roster_id": 1,
       "opponent_roster_id": 4,
-      "points": 5.54,
+      "points": 8.04,
       "result": "L"
     },
     {
@@ -4095,7 +4094,7 @@
       "week": 12,
       "roster_id": 6,
       "opponent_roster_id": 3,
-      "points": 90.72,
+      "points": 90.82,
       "result": "W"
     },
     {
@@ -4109,7 +4108,7 @@
       "week": 12,
       "roster_id": 12,
       "opponent_roster_id": 5,
-      "points": 21.76,
+      "points": 31.76,
       "result": "L"
     },
     {
@@ -4149,7 +4148,7 @@
     "player_count": 2833,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-27T11:28:57.913771Z",
-    "stale_after": "2026-11-27T12:28:57.913771Z"
+    "generated_at": "2026-11-27T20:14:34.036916Z",
+    "stale_after": "2026-11-27T21:14:34.036916Z"
   }
 }

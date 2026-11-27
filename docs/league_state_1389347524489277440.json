@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:28:54.264294Z",
+  "generated_at": "2026-11-27T20:14:30.305898Z",
   "season": 2026,
   "league": {
     "league_id": "1389347524489277440",
@@ -1988,10 +1988,10 @@
         "11565",
         "8138",
         "12512",
-        "9487",
+        "11635",
         "13301",
         "12517",
-        "11635",
+        "5967",
         "3678",
         "JAX"
       ],
@@ -2042,13 +2042,13 @@
           "draft_round": 5
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "JAX",
-          "injury_status": "Questionable",
+          "team": "LAC",
+          "injury_status": null,
           "keeper": false,
-          "draft_round": 6
+          "draft_round": 3
         },
         {
           "player_id": "13301",
@@ -2068,13 +2068,13 @@
           "draft_round": 4
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "injury_status": null,
           "keeper": false,
-          "draft_round": 3
+          "draft_round": 7
         },
         {
           "player_id": "3678",
@@ -2140,15 +2140,6 @@
           "draft_round": 12
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 7
-        },
-        {
           "player_id": "5995",
           "name": "Justice Hill",
           "position": "RB",
@@ -2164,6 +2155,15 @@
           "injury_status": "Out",
           "keeper": false,
           "draft_round": 2
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "injury_status": "Questionable",
+          "keeper": false,
+          "draft_round": 6
         }
       ],
       "keepers": []
@@ -3496,7 +3496,7 @@
       "week": 12,
       "roster_id": 1,
       "opponent_roster_id": 12,
-      "points": 0.0,
+      "points": 10.0,
       "result": "L"
     },
     {
@@ -3524,14 +3524,14 @@
       "week": 12,
       "roster_id": 3,
       "opponent_roster_id": 11,
-      "points": 82.64,
+      "points": 83.64,
       "result": "W"
     },
     {
       "week": 12,
       "roster_id": 11,
       "opponent_roster_id": 3,
-      "points": 0.0,
+      "points": 2.1,
       "result": "L"
     },
     {
@@ -3585,7 +3585,7 @@
     "player_count": 2835,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-27T11:28:54.264294Z",
-    "stale_after": "2026-11-27T12:28:54.264294Z"
+    "generated_at": "2026-11-27T20:14:30.305898Z",
+    "stale_after": "2026-11-27T21:14:30.305898Z"
   }
 }

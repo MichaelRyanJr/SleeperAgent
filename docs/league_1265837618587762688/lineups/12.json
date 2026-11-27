@@ -2,7 +2,7 @@
   {
     "roster_id": 1,
     "opponent_roster_id": 12,
-    "points": 0.0,
+    "points": 10.0,
     "starters": [
       {
         "player_id": "9758",
@@ -507,7 +507,7 @@
   {
     "roster_id": 3,
     "opponent_roster_id": 11,
-    "points": 82.64,
+    "points": 83.64,
     "starters": [
       {
         "player_id": "3294",
@@ -635,7 +635,7 @@
   {
     "roster_id": 11,
     "opponent_roster_id": 3,
-    "points": 0.0,
+    "points": 2.1,
     "starters": [
       {
         "player_id": "13269",
@@ -908,11 +908,11 @@
         "injury_status": null
       },
       {
-        "player_id": "9487",
-        "name": "Parker Washington",
+        "player_id": "11635",
+        "name": "Ladd McConkey",
         "position": "WR",
-        "team": "JAX",
-        "injury_status": "Questionable"
+        "team": "LAC",
+        "injury_status": null
       },
       {
         "player_id": "13301",
@@ -929,10 +929,10 @@
         "injury_status": "Out"
       },
       {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "position": "WR",
-        "team": "LAC",
+        "player_id": "5967",
+        "name": "Tony Pollard",
+        "position": "RB",
+        "team": "TEN",
         "injury_status": null
       },
       {
@@ -987,13 +987,6 @@
         "injury_status": null
       },
       {
-        "player_id": "5967",
-        "name": "Tony Pollard",
-        "position": "RB",
-        "team": "TEN",
-        "injury_status": null
-      },
-      {
         "player_id": "5995",
         "name": "Justice Hill",
         "position": "RB",
@@ -1006,6 +999,13 @@
         "position": "RB",
         "team": "KC",
         "injury_status": "Out"
+      },
+      {
+        "player_id": "9487",
+        "name": "Parker Washington",
+        "position": "WR",
+        "team": "JAX",
+        "injury_status": "Questionable"
       }
     ]
   },

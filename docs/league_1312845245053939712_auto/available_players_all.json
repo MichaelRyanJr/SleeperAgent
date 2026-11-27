@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T11:28:57.913771Z",
-  "stale_after": "2026-11-27T12:28:57.913771Z",
+  "generated_at": "2026-11-27T20:14:34.036916Z",
+  "stale_after": "2026-11-27T21:14:34.036916Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-27T11:28:54.802738Z",
+    "snapshot_started_at": "2026-11-27T20:14:30.757498Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-27T11:28:54.876629Z"
+      "fetched_at": "2026-11-27T20:14:30.830197Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-27T11:28:55.030817Z"
+      "fetched_at": "2026-11-27T20:14:31.020205Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-27T11:28:55.154971Z"
+        "fetched_at": "2026-11-27T20:14:31.086319Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-27T11:28:55.243527Z"
+      "fetched_at": "2026-11-27T20:14:31.182543Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -58,7 +58,7 @@
     "ATH": 1,
     "CB": 2,
     "DB": 1,
-    "DEF": 17,
+    "DEF": 18,
     "FB": 112,
     "K": 179,
     "P": 5,
@@ -67,7 +67,7 @@
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1724
+    "WR": 1723
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -578,6 +578,32 @@
         "DEF"
       ],
       "team": "PHI",
+      "age": null,
+      "years_exp": null,
+      "status": null,
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": null,
+      "depth_chart_position": null,
+      "news_updated": null,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 11
+    },
+    {
+      "player_id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "eligible_positions": [
+        "DEF"
+      ],
+      "team": "PIT",
       "age": null,
       "years_exp": null,
       "status": null,
@@ -67717,32 +67743,6 @@
       "depth_chart_order": null,
       "depth_chart_position": null,
       "news_updated": 1793855442001,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "13394",
-      "name": "Josh Cameron",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "eligible_positions": [
-        "WR"
-      ],
-      "team": "JAX",
-      "age": 23,
-      "years_exp": 0,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 4,
-      "depth_chart_position": "SWR",
-      "news_updated": 1795487121246,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
