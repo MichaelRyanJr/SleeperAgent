@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T10:56:49.868564Z",
-  "stale_after": "2026-11-28T11:56:49.868564Z",
+  "generated_at": "2026-11-28T18:44:22.482120Z",
+  "stale_after": "2026-11-28T19:44:22.482120Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-28T10:56:45.689639Z",
+    "snapshot_started_at": "2026-11-28T18:44:19.380640Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-28T10:56:45.804589Z"
+      "fetched_at": "2026-11-28T18:44:19.453010Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-28T10:56:46.046902Z"
+      "fetched_at": "2026-11-28T18:44:19.609567Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-28T10:56:46.129423Z"
+        "fetched_at": "2026-11-28T18:44:19.729712Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-28T10:56:46.261432Z"
+      "fetched_at": "2026-11-28T18:44:19.819476Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -62,12 +62,12 @@
     "FB": 112,
     "K": 179,
     "P": 5,
-    "QB": 449,
+    "QB": 448,
     "RB": 873,
     "SS": 1,
     "T": 2,
     "TE": 817,
-    "WR": 1723
+    "WR": 1724
   },
   "view": "all_eligible_unrostered_including_inactive",
   "players": [
@@ -8890,32 +8890,6 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1794412525742,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "4017",
-      "name": "Deshaun Watson",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": "CLE",
-      "age": 31,
-      "years_exp": 9,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": 1,
-      "depth_chart_position": "QB",
-      "news_updated": 1795579204241,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
@@ -68555,6 +68529,32 @@
       "claim_deadline": null,
       "can_add_now": null,
       "current_season_draft_round": null
+    },
+    {
+      "player_id": "13285",
+      "name": "Malachi Fields",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "eligible_positions": [
+        "WR"
+      ],
+      "team": "NYG",
+      "age": 23,
+      "years_exp": 0,
+      "status": "Active",
+      "injury_status": null,
+      "active": true,
+      "depth_chart_order": 2,
+      "depth_chart_position": "RWR",
+      "news_updated": 1795488322192,
+      "in_default_view": true,
+      "availability": "unrostered_at_snapshot",
+      "waiver_status": "unknown",
+      "claim_deadline": null,
+      "can_add_now": null,
+      "current_season_draft_round": 12
     },
     {
       "player_id": "13329",

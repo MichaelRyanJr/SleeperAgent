@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:56:49.868564Z",
+  "generated_at": "2026-11-28T18:44:22.482120Z",
   "season": 2026,
   "league": {
     "league_id": "1312845245053939712",
@@ -612,7 +612,7 @@
         "budget_used": 0
       },
       "starters_current": [
-        "8183",
+        "4017",
         "11584",
         "7588",
         "12526",
@@ -631,9 +631,9 @@
         "12527",
         "13274",
         "13281",
-        "13285",
         "13394",
         "13417",
+        "4017",
         "6650",
         "7567",
         "7588",
@@ -644,13 +644,12 @@
       ],
       "starters": [
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
+          "player_id": "4017",
+          "name": "Deshaun Watson",
           "position": "QB",
-          "team": "SF",
-          "injury_status": "Out",
-          "keeper": false,
-          "draft_round": 14
+          "team": "CLE",
+          "injury_status": null,
+          "keeper": false
         },
         {
           "player_id": "11584",
@@ -760,15 +759,6 @@
           "draft_round": 5
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "injury_status": null,
-          "keeper": false,
-          "draft_round": 12
-        },
-        {
           "player_id": "13394",
           "name": "Josh Cameron",
           "position": "WR",
@@ -793,6 +783,15 @@
           "injury_status": null,
           "keeper": false,
           "draft_round": 11
+        },
+        {
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "injury_status": "Out",
+          "keeper": false,
+          "draft_round": 14
         },
         {
           "player_id": "9487",
@@ -4157,7 +4156,7 @@
     "player_count": 2832,
     "valid": true,
     "is_provisional": false,
-    "generated_at": "2026-11-28T10:56:49.868564Z",
-    "stale_after": "2026-11-28T11:56:49.868564Z"
+    "generated_at": "2026-11-28T18:44:22.482120Z",
+    "stale_after": "2026-11-28T19:44:22.482120Z"
   }
 }
