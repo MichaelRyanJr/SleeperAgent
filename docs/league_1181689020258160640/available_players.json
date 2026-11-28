@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T20:14:34.036916Z",
-  "stale_after": "2026-11-27T21:14:34.036916Z",
+  "generated_at": "2026-11-28T02:46:52.599169Z",
+  "stale_after": "2026-11-28T03:46:52.599169Z",
   "league_id": "1312845245053939712",
   "league_name": "Grub from the Fantasy",
   "season": "2026",
@@ -10,24 +10,24 @@
   "is_provisional": false,
   "availability_basis": "current_rosters",
   "sources": {
-    "snapshot_started_at": "2026-11-27T20:14:30.757498Z",
+    "snapshot_started_at": "2026-11-28T02:46:49.532542Z",
     "league": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712",
-      "fetched_at": "2026-11-27T20:14:30.830197Z"
+      "fetched_at": "2026-11-28T02:46:49.611059Z"
     },
     "drafts": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/drafts",
-      "fetched_at": "2026-11-27T20:14:31.020205Z"
+      "fetched_at": "2026-11-28T02:46:49.805770Z"
     },
     "draft_picks": [
       {
         "url": "https://api.sleeper.app/v1/draft/1312845245062348800/picks",
-        "fetched_at": "2026-11-27T20:14:31.086319Z"
+        "fetched_at": "2026-11-28T02:46:49.852025Z"
       }
     ],
     "rosters": {
       "url": "https://api.sleeper.app/v1/league/1312845245053939712/rosters",
-      "fetched_at": "2026-11-27T20:14:31.182543Z"
+      "fetched_at": "2026-11-28T02:46:49.939593Z"
     },
     "players": {
       "url": "https://api.sleeper.app/v1/players/nfl",
@@ -47,13 +47,13 @@
     "TE",
     "WR"
   ],
-  "excluded_rostered_count": 204,
+  "excluded_rostered_count": 205,
   "excluded_draft_only_count": 0,
   "excluded_owned_ids_missing_from_catalog": [],
   "catalog_player_count": 12229,
-  "default_player_count": 2833,
-  "all_player_count": 4184,
-  "player_count": 2833,
+  "default_player_count": 2832,
+  "all_player_count": 4183,
+  "player_count": 2832,
   "position_counts": {
     "CB": 1,
     "DB": 1,
@@ -61,7 +61,7 @@
     "FB": 63,
     "K": 138,
     "P": 4,
-    "QB": 321,
+    "QB": 320,
     "RB": 556,
     "SS": 1,
     "TE": 550,
@@ -8182,32 +8182,6 @@
       "depth_chart_order": 2,
       "depth_chart_position": "QB",
       "news_updated": 1795366206778,
-      "in_default_view": true,
-      "availability": "unrostered_at_snapshot",
-      "waiver_status": "unknown",
-      "claim_deadline": null,
-      "can_add_now": null,
-      "current_season_draft_round": null
-    },
-    {
-      "player_id": "96",
-      "name": "Aaron Rodgers",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "eligible_positions": [
-        "QB"
-      ],
-      "team": null,
-      "age": 42,
-      "years_exp": 21,
-      "status": "Active",
-      "injury_status": null,
-      "active": true,
-      "depth_chart_order": null,
-      "depth_chart_position": null,
-      "news_updated": 1795735820851,
       "in_default_view": true,
       "availability": "unrostered_at_snapshot",
       "waiver_status": "unknown",
